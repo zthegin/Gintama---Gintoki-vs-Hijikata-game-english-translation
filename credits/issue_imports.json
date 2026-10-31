@@ -1,4 +1,21 @@
 {
   "format": "gintama-issue-imports-v1",
-  "entries": []
+  "entries": [
+    {
+      "number": 1,
+      "login": "zthegin",
+      "user_id": 344322420,
+      "updated_at": "2026-10-31T09:38:08Z",
+      "body_sha256": "9db8d157fa704049e01183abc0faa1bb6cf84f90bf8f83c0c5194d016b1d9248",
+      "record": {
+        "path": "translations/ready/batch_0037.json",
+        "id": "msb_00084D68",
+        "kind": "new",
+        "words": 2,
+        "characters": 7,
+        "source_words_sha256": "e62496e6493be08d3cd902765df8837be9f529399bfdd384c93a3ae8d6fb3894",
+        "english_sha256": "7d785d8d07d92b4e4add43e739c78e02d8712d8bcedb3d6ae9fee002b6ba2d36"
+      }
+    }
+  ]
 }

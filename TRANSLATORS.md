@@ -3,11 +3,11 @@
 Thanks to everyone helping translate *Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!* for Nintendo DS. This page records translation PRs merged into `staging` and accepted website suggestions imported from GitHub issues.
 The initial bundled translation is not attributed by these ledgers.
 
-**Contributors: 0 · Merged translation PRs: 0 · Accepted issues: 0**
+**Contributors: 1 · Merged translation PRs: 0 · Accepted issues: 1**
 
 | GitHub contributor | Merged PRs | Accepted issues | New entries | Revised entries | Words, new / revised | Characters, new / revised |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| *No credited contributions yet* | 0 | 0 | 0 | 0 | 0 / 0 | 0 / 0 |
+| @zthegin (ID 344322420) | 0 | 1 | 1 | 0 | 2 / 0 | 7 / 0 |
 
 New entries were empty before the contribution. Revised entries already had English; their word counts describe the revised passage, not newly translated words. Entry counts use unique IDs per contributor within each column. Words and characters describe each accepted contribution, so repeated revisions can overlap. Characters exclude whitespace; apostrophes within a word stay in that word.
 
@@ -19,7 +19,7 @@ PR counts come from verified base and head revisions. Accepted issue counts come
 
 | Contribution | GitHub contributor | File | Record | Change | Words | Characters |
 | --- | --- | --- | --- | --- | ---: | ---: |
-| *No credited contributions yet* | - | - | - | - | 0 | 0 |
+| [Issue #1](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/issues/1) | @zthegin (ID 344322420) | [translations/ready/batch_0037.json](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/translations/ready/batch_0037.json) | `msb_00084D68` | new | 2 | 7 |
 
 Updated from `credits/merged_prs.json` and `credits/issue_imports.json`. Please send corrections to the maintainer instead of editing this page.
 
