@@ -1,4 +1,21 @@
 {
   "format": "gintama-translation-credits-v2",
-  "entries": []
+  "entries": [
+    {
+      "number": 4,
+      "login": "zthegin",
+      "merged_at": "2026-10-31T09:59:00Z",
+      "base_sha": "4c3ebd28ca76033e901c0fd615795f562ba3f563",
+      "head_sha": "c088d1c6bad0058586a2335111b3dfb64d645d30",
+      "records": [
+        {
+          "id": "msb_00085454",
+          "kind": "new",
+          "words": 1,
+          "characters": 9
+        }
+      ],
+      "user_id": 344322420
+    }
+  ]
 }
