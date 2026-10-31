@@ -1,0 +1,330 @@
+{
+  "format": "gintama-community-translation-v1",
+  "batch_id": "batch_0071",
+  "records": [
+    {
+      "id": "msb_000FD000",
+      "source_words_sha256": "07da2e708ef4d4f00c7b55dc39760f8305b88608c81ced7e9d4c67a96e5a2ba0",
+      "english": "Check the Adult Mochi Shop entrance.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FD024",
+      "source_words_sha256": "37d1499887c61f5c121502e7f116672489c40e88c8f647a239e0cb7f1624e4af",
+      "english": "Check behind the Oedo Police sign.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FD098",
+      "source_words_sha256": "4929b4a4c8b3cc2dd05102b9cb793aa07892a04e40c695b33ac810adda4fa702",
+      "english": "Huh? What am I doing...?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FD0B8",
+      "source_words_sha256": "baff773c350760a3659fc9668d5e10f085010b44e3802a04c5589a130fab7f89",
+      "english": "Hey. Not something to use here.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FD110",
+      "source_words_sha256": "84137037358c389ac696c72fc11d5f24a730673471841810d929e4d0163d8bd3",
+      "english": "Gin Tama battle! READY, GO!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FDC8C",
+      "source_words_sha256": "d34710849dcf35febeef1e0549935d070f2edd543f2fdc47aeaa91604777e890",
+      "english": "Dead end.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE2B8",
+      "source_words_sha256": "de5c1a373eabef77bc326d132b4fceb062fcb7fbeff460305a166a08a7c9c91b",
+      "english": "Give it a good kick?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE394",
+      "source_words_sha256": "1ce19625e3738536fff4185a4359bb0735a8fa84992167ab3f3db369cd52b32b",
+      "english": "Got away.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE3A4",
+      "source_words_sha256": "665168a328f738da861d8ab4a07904434b7c590b97c8ed2b9afa97411ca0ffe9",
+      "english": "Fled.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE5B8",
+      "source_words_sha256": "48fd6df2f7a7892072b75db8a4ec5c511a83d41465897cf9b8f545da056178b4",
+      "english": "Too slow! Cut that take. Tune in next week, okay?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE61C",
+      "source_words_sha256": "03b626917c91b2e8a4bd4c9b5cbc26c19be96bac47caecc4ac91b51042eb4d15",
+      "english": "Done! Again?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE6B4",
+      "source_words_sha256": "b7f8bbd49641e5a4cdd67f8bea6fba41d43a6958a5f48145060caf5277ce08c6",
+      "english": "Huh? Quitting?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FE7B8",
+      "source_words_sha256": "cfd57a960815bbb353cd1fde378f1b5df782113a9fe5be8dc4d7cf5c6ac7e34c",
+      "english": "Which class?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FEB58",
+      "source_words_sha256": "fb0ebcc525cc8a7bbb87d52197402cad82e4657a659a9eb7846161b28af3e42d",
+      "english": "Running away?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FEED4",
+      "source_words_sha256": "eab772487befab8f2746564ac8d3f963715ab55b6146ef658b9e8d523eadce61",
+      "english": "Be ON TIME, okay!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF014",
+      "source_words_sha256": "5ac78245bc9743a6cfe60223c88e7b6eb0fd86f6ba9d75d7f0d078017c102fb1",
+      "english": "Hey! Don't run!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF21C",
+      "source_words_sha256": "0aa8c275b19f2f29e6b071bd6a7935a7f16e005fe2a6b9ab6b06010411d855b3",
+      "english": "This... No. Doesn't look lived in.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF3D8",
+      "source_words_sha256": "0770c48ac68f0e13c55bcfa81f707b4b6039272046486fae4c4acb443aef9b87",
+      "english": "Gotta give Oryo the letter...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF3FC",
+      "source_words_sha256": "db431852bbadab714fc47da220f4846f991208b4100d656601d0fd7b31d2da67",
+      "english": "What's wrong, Gin? Need something?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF42C",
+      "source_words_sha256": "a7584080de0e7440d6e70aee3d766643beb0d93cb559db4ac5125e49466f2dca",
+      "english": "Gin. Make sure you deliver it.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF590",
+      "source_words_sha256": "206e88f858bdac4b864a77bfb6377fe8d8f003632af14dba4fc7763252e10aa5",
+      "english": "Gin... Get that dozen Haagen-Dazs and bring it. Hurry.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FF7FC",
+      "source_words_sha256": "ba4ece1af11862da3fc23818562b932042f31a9efc60b8724294b87119233087",
+      "english": "Gin, let's go. Hurry.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FFA00",
+      "source_words_sha256": "8d54138fc28884644c6b5f66fec30ef5d351902aa22604d966d5e430841554b2",
+      "english": "Counting on you, Sakata.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FFB1C",
+      "source_words_sha256": "03052648816067a0f1ff6cf83a4527249f26372312c900f998f0278c12627a99",
+      "english": "Woof.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000FFB84",
+      "source_words_sha256": "63dc6c14ce0b15fc70a709cf7a81016fdc520cf2ff243def2caf9ef5085869c5",
+      "english": "A situation to use THAT...? Starting a war with robots?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100230",
+      "source_words_sha256": "8c7d1b574b74eca787354597e2e0e6b796f8d4d59776cd9f7b3196929dd74e21",
+      "english": "Gin. Where are you going?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100254",
+      "source_words_sha256": "427c53452782a1f79f3f50c50e21d95aaef0143c79526bf754ac2b553e5d0c62",
+      "english": "Huh? Wrong way?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100270",
+      "source_words_sha256": "bab9fe7b6a3c974b38308ea9b82ef916901e2b32ddf643f827768a9613c787f4",
+      "english": "Hehe. Otsu's voice soothed me, so I came back.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001002B4",
+      "source_words_sha256": "ae144ae7839650962beb8ad95b4da2d4217298b94b2a8c256f740f89ddedf5e9",
+      "english": "Don't leave the party and rejoin whenever you feel like it!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001002EC",
+      "source_words_sha256": "407089557852178f1ea943ad9a59ee8b27142bd63f08e114f990066ad0edf1af",
+      "english": "We're friends. What's the problem? Ahh, Otsu's the best.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0010032C",
+      "source_words_sha256": "84ec9405f61337db1963bdce0211642347ac6dc30cb63e628eba9bced7767bf8",
+      "english": "Quit grinning to yourself!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100490",
+      "source_words_sha256": "a405cd7af33c9eabd52c54bf9cde55c05e46d12a2a89bee7880152870dfab8fe",
+      "english": "Gin! Running away?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001004E4",
+      "source_words_sha256": "6cb27bdf13100112e0d6e051506271eabbab0d894f5bbaa401af13db273da662",
+      "english": "Running away, Gintoki?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100530",
+      "source_words_sha256": "440734c51aea0f3e9423c9ce999e825c1874f9a5113e07d82adeb778c71b5859",
+      "english": "Don't run away.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100548",
+      "source_words_sha256": "463182f8d56b03fadce69ec389dfe0f64b97be6d5ebfa335095a79c82e510e50",
+      "english": "...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001005DC",
+      "source_words_sha256": "eb7cc76c3d0794fa7cf5f0ceea7440ceb1b349aa6844177165bfe3f0721eb951",
+      "english": "Oh... Found this. You can have it. Bye!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0010060C",
+      "source_words_sha256": "f8ddbc8620f3c4f38484d3018b0f1f64db753d2f11936bd27aa2fe435ae5bf03",
+      "english": "Oh... Right. See ya...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100628",
+      "source_words_sha256": "0acf0cec0037190155987eb95175e8faa54fb20f3fa80748ca7d3afe904d2990",
+      "english": "Gin! Isn't this a Dragon Tama?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100678",
+      "source_words_sha256": "14bc710d0c8e896350b5f8e6661d2576baf494aa4dad8fb8d60b385641a6141a",
+      "english": "Huh...? Really?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100690",
+      "source_words_sha256": "e8264618a192b4185548fba6331fe8a2ba7ebc9721ee448e9a7afc31491cfc07",
+      "english": "DRAGON TAMA GET!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00100F8C",
+      "source_words_sha256": "cbe0e6b13adbb99770102087f754637464f3ce576f2d3a3e8a6d1fa999de3b6c",
+      "english": "My underwear? Found the Loincloth Mask?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00101028",
+      "source_words_sha256": "8f53e719bd762e53fa679623013f46fd711ebd818b046f58c904ec721afc15ff",
+      "english": "Well? Found that loincloth guy?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103078",
+      "source_words_sha256": "881e99c14b3ee2d69edb175365abb3ef6b5b827dd1d506381ededd4b72393a6a",
+      "english": "Jizo's thanks... Rumors can be true.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103904",
+      "source_words_sha256": "9585691a9ee4297561cb8d1cf96ae36765fd15d3344327015bce4c603e5467c6",
+      "english": "Empty Can event ended.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0010391C",
+      "source_words_sha256": "21d6c6274ad3b88a012e6013e0dd13a272232d0e119c94b0a7a5caa801706eed",
+      "english": "Start Sealed Empty Can event?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0010393C",
+      "source_words_sha256": "cbd7c3fbdb174c8e5ad169301a5d357702319d0983aa583261a14b96d8d609be",
+      "english": "Replay Sealed Empty Can event?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103990",
+      "source_words_sha256": "c041be16876de52bcd127beb8938ea4585e6d2182a487368f127050c293bee51",
+      "english": "Sealed Can active.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001039AC",
+      "source_words_sha256": "a5d18e5f2b47979a9f2363c4effea40cf13aac90a28e2f3bba357004a52422b3",
+      "english": "Search for Mokichi. Start?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_001039F8",
+      "source_words_sha256": "33b93c6953ac857599913df8efdcd3c1e4f3ec4221a4327302d0a2a85dec4084",
+      "english": "Search for Mokichi. Event active.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103AA4",
+      "source_words_sha256": "370d45e15ba96bd9cc6706c23dda0d70b4c6a903f27486e4389de0e0a3085034",
+      "english": "Start Find Ellie?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103ABC",
+      "source_words_sha256": "7a1e5fee6461ecf92d0fb1748a7e7508a5e1e9bbcdbe652af10b9eebdf336fb3",
+      "english": "Replay Find Ellie?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103B08",
+      "source_words_sha256": "0e9828a8e02f8f9e0852b015a248430d562706434f16effc9f3efc61113bd73c",
+      "english": "Start Super Shinobi Wars?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103B60",
+      "source_words_sha256": "ebaa68cccd10ace9e12147821f5dbd7222a56d708338a8ba030677c3c475be56",
+      "english": "Gave it.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00103C44",
+      "source_words_sha256": "47fc9d067db5308af99ad0f02b87cb085ef23033da8429770472ae3a7c743d0c",
+      "english": "Start Find Jimmy?",
+      "translator_note": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: Propose translator credits
+on:
+  push:
+    branches: [staging]
+permissions:
+  contents: read
+jobs:
+  credits:
+    if: vars.CREDITS_AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # A dedicated GitHub App token lets its new PR trigger ordinary validation CI.
+      # Create a repository-scoped app with Contents and Pull requests write permissions.
+      - name: Create credits bot token
+        id: app
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.CREDITS_APP_ID }}
+          private-key: ${{ secrets.CREDITS_APP_PRIVATE_KEY }}
+      - name: Checkout staging after push
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: staging
+          token: ${{ steps.app.outputs.token }}
+          persist-credentials: false
+      - name: Generate credits from GitHub metadata
+        env:
+          GITHUB_TOKEN: ${{ steps.app.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 tools/credits.py --push-event "$GITHUB_EVENT_PATH"
+      - name: Open an ordinary reviewable credits PR
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
+        with:
+          token: ${{ steps.app.outputs.token }}
+          base: staging
+          branch: automation/credits-pr-${{ github.sha }}
+          delete-branch: true
+          add-paths: |
+            credits/merged_prs.json
+            TRANSLATORS.md
+          commit-message: "Update translator credits after staging push"
+          title: "Update translator credits after staging merge"
+          body: "Generated from GitHub merge metadata. Review the credit and merge after CI passes."

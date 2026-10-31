@@ -1,0 +1,1206 @@
+{
+  "format": "gintama-community-translation-v1",
+  "batch_id": "batch_0007",
+  "records": [
+    {
+      "id": "msb_0001C820",
+      "source_words_sha256": "a091eca0a0dc52e23c55d535f2e0504e8114b810ca2f6ec4384f18b65b298733",
+      "english": "How long as commander?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001C848",
+      "source_words_sha256": "f43f11306c5967239f4d95a2e50aeedbee86201c8cd478adbea81be1d459d235",
+      "english": "Don't count them!\nAre you an idiot?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001C874",
+      "source_words_sha256": "86921e409e171cd3f606279d6fd95ce5679149697440ff577889926c4be1bee3",
+      "english": "Listen closely.\nA special unit\nisn't something you...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CA38",
+      "source_words_sha256": "088d7295212a1198c19d3ad77082cba79e3eb38941e757d5fafae4d472e7ff6d",
+      "english": "Want to cut your belly\nfor real...?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CAD4",
+      "source_words_sha256": "1c5310aabd0702ffeff97fc94629b9dc1646c3f838a501d6046134e6844493d5",
+      "english": "Ten years won't cover it!\nJust commit seppuku, idiot!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CB08",
+      "source_words_sha256": "ffa9493ec55a2dcd146853c73ff55eb6a7efbf479a55a6de18c9427f64f1e6bf",
+      "english": "One thing I forgot.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CB24",
+      "source_words_sha256": "ce4f5fbc574847c9a7facbc5c9682306f57e2e09116f639728eccce5f59a1c27",
+      "english": "Kondo...?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CB3C",
+      "source_words_sha256": "9d7343122de39eed2e683994c8dfaeab9858bf400564e2339ed53b51b0907c29",
+      "english": "Hijikata, then.\nAbout that Gin Tama business...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CC10",
+      "source_words_sha256": "8c081d7a8d78cc52336cc896ad4e7ca0a7c96cff60b2b6c1c6bea6a822cbe272",
+      "english": "I'm back.",
+      "translator_note": "Hijikata route introduction."
+    },
+    {
+      "id": "msb_0001CDB0",
+      "source_words_sha256": "90d4eccd3fa3f479ffebe8d645f4107a0cab7d856d81ff3375e1c883523d129f",
+      "english": "Fifty reports.\nTwenty-seven callouts.\nSixteen actual incidents.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CDFC",
+      "source_words_sha256": "a4bbc026e15b58d06b7c1ed06afb48e521f45dd6677dfdd3eed8d263d64eaf30",
+      "english": "And depending on how\nyou use them, those orbs\ncan double as weapons.\fIf Joui rebels\nget hold of them...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CE84",
+      "source_words_sha256": "90e6e04664a77147dc3b82444aceaea8704d9489a62fb8d4515e1da87d5bd330",
+      "english": "?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CE8C",
+      "source_words_sha256": "a04eda39a115340b764672be701864880eca476bf46a71b20041a9b620acb827",
+      "english": "Well, in a manner\nof speaking.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CEAC",
+      "source_words_sha256": "c6abbfeace993cf4dfd6a3e12f5d6fce28d39a7a5df598a0b07a450803b3da3e",
+      "english": "Simple enough\nfor Kondo, right?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CED4",
+      "source_words_sha256": "e79f30ebcf3062849f0b81f901674ccfd23028d20b26af0122eef066c3548988",
+      "english": "Ready, Kondo?\fHere's a quick\nexplanation of Gin Tama.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CF28",
+      "source_words_sha256": "f28bbe82b2d9f7b4dc8c3b4ff653d8c7b0b016cd0bb830641c774acb936b628f",
+      "english": "Take notes. Ask questions\nif there's anything\nyou don't get.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001CFB8",
+      "source_words_sha256": "fd994dc6d2d59e91d38f011f375d86e14c66b92148f8e855c21b9eecbde3e2e5",
+      "english": "That's what I was\njust explaining.\fListen. Gin Tama are...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D01C",
+      "source_words_sha256": "183dfcd3ece78a9dc4e4eeb7d314f43f8bb14df53c40ce0fc55c3998590cd0dc",
+      "english": "A bit too advanced\nfor you, Kondo?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D048",
+      "source_words_sha256": "c7ba734242fd08ac1fbb68a338289429d8a762efc864f976405d4e850830779b",
+      "english": "Why not just kill them?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D068",
+      "source_words_sha256": "7c1e2dd1df716574a4f83e9db3362e6371c5de5ac913efa5097e07623ed5bede",
+      "english": "All three.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D07C",
+      "source_words_sha256": "e59cec06a26eb88016910d5563ade40e1683af6bc1b3ba9d798724808ffda2a9",
+      "english": "Then at least this one...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D0A8",
+      "source_words_sha256": "13a31853c6ac78cb44fbf129b36b32a6992de5e4d9bdb71b2e1dd0b4d60b1c8a",
+      "english": "Can't right now, Kondo.\nIt's broken.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D0D8",
+      "source_words_sha256": "5a565341514654ae4e0f651932afa2b2ff0a4e60a1c5675d168b397ce59c0443",
+      "english": "Should I kill them after all?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D0F8",
+      "source_words_sha256": "805c7d068fc4e4e1fb10e5a8bdcf03dcd04447e6a9e71cdef1e31c51016df9a0",
+      "english": "Thing? What thing, Sougo?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D118",
+      "source_words_sha256": "2b78bb1cadf53b4105c0a53e45085ace823e25004636173c40daf7b8e7699dc0",
+      "english": "After rare gold orbs?\nA serial castrator, maybe?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D148",
+      "source_words_sha256": "6e68e3aeae5c052d4bbf4f084fb08ac753d061226182423baf5cb11f5d795f7a",
+      "english": "Dragon Tama? News to me.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D1C4",
+      "source_words_sha256": "89098f7dff6590f5c4f5f775130dc48c19f9bf07e6a3dd6bb06b1ace6a2f92bc",
+      "english": "Then what?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D1D8",
+      "source_words_sha256": "2212510892ccf134d28f8cf624b2abb7855fd35c898154743cc5a76485ec8283",
+      "english": "Nonsense. This isn't a manga.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D1F8",
+      "source_words_sha256": "7babb5442582c875a1d966839af0bf09094dd971d20d3cfbb78ad525d0c88234",
+      "english": "...Even nonsense is real\nto someone who believes it.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D290",
+      "source_words_sha256": "30d11ab72670284a6e2c0c1e2c51aa8531ff5b951e40bcbdd1525090d11ce899",
+      "english": "By the way, Sougo.\fI know about Gin Tama,\nbut... You know...\nBattles?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D2EC",
+      "source_words_sha256": "93fd232f61472b38f62ac138225e88012b805ef4ada307c1e177b0551b58c2ef",
+      "english": "How did you get that?!\nFollow the conversation!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D324",
+      "source_words_sha256": "7013d961ca5107f1b2583aae754122d22b5032e74bde669c36c4bd76baeda658",
+      "english": "Guh...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D3F0",
+      "source_words_sha256": "03f06807adcf11a279c6a6f754f837cc8b8ae095ba8bdbb7362eb20bc3fb9545",
+      "english": "...Maybe they're after\nthat thing.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D420",
+      "source_words_sha256": "98b2a6852640dc1e5f1260e6f31ce1863b8dfa84abaf7987de1dc4542612c10b",
+      "english": "I wondered if they were\nafter rare gold orbs.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D44C",
+      "source_words_sha256": "421d2bb1fd4e96b9e83e5f37dcaec72c363cbdf1ca875dc9d620b658156a938a",
+      "english": "No, not that.\fApart from ordinary orbs,\nthere are rare ones\ncalled Dragon Tama.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D500",
+      "source_words_sha256": "6bcf96d2bc1941383e1112e07125de7f8e7792db727b5ac93c1df726580302ac",
+      "english": "Sounds like nonsense to me.\fSeven Dragon Tama, I think.\nCollect that many...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D558",
+      "source_words_sha256": "f0faff66da4223a0a6838916a65fa39e7d0bd33794fe25b0a2708d5475f5c35c",
+      "english": "They say they'll\ngrant any wish.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D584",
+      "source_words_sha256": "1d251f5d7df9ea9d6d24abc701cdeeb16277505d6d01df36f3a2c150b955b001",
+      "english": "I agree. But if people\nspread it as the truth...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D5CC",
+      "source_words_sha256": "845fb65fe65b93f653a0888cb4809bfbff16c41fac141f5cb1563e651b74268a",
+      "english": "And Gin Tama battles\nare only getting\nmore heated...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D63C",
+      "source_words_sha256": "5508dd9316fb0c9c8c6f928c28851dfc2a6fea5ded83344a005039fd2045ea79",
+      "english": "I'm following perfectly.\fYou've never played\na Gin Tama battle,\nso you don't know them.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D6AC",
+      "source_words_sha256": "18e575ec0f03b7638b1c2479dd247bae674a1a5fb41a1e49439eef35ba00cb32",
+      "english": "He does have a point.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D6F8",
+      "source_words_sha256": "4669c15d65ef5dd29572d1c2d48832a51b6fca6fd5595a5b926fa6ac51f9fd6c",
+      "english": "Then allow me to explain!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D724",
+      "source_words_sha256": "b84ec5d7716b01fecdc16d43396fbf1017b8b2cd123f4657b6e00c5fe118077b",
+      "english": "Vice-Chief, I am\nan undercover officer.\fI know more about Gin Tama\nand Gin Tama battles\nthan anyone in our ranks.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D88C",
+      "source_words_sha256": "85b71122ae3fe7a9829807e04c019628022e908034e3a5dd1b60e6272c75b756",
+      "english": "Sorry.\nI shouldn't have interfered...\fBut please be careful.\nYou're our vice-chief.\nThe Shinsengumi needs you.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D954",
+      "source_words_sha256": "328502854c82d350d1a1cd9df6cb842080124b092c273a2894157682c9335446",
+      "english": "Oh... So is there\na Yamazaki character orb?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D99C",
+      "source_words_sha256": "df931ee341c0f45cb942599f4f40f9d6fe9417f55a180b9b76b25d915774c6b8",
+      "english": "Then give me that first.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001D9BC",
+      "source_words_sha256": "0d8dbb7ae335532b7dcc141160c76e73990da28261a7f5c5a7e0973e5cb31627",
+      "english": "Tch. What a pain...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DBB0",
+      "source_words_sha256": "5e7942a6f35e95c6f5b1b00586a8abc877117ad51ab8378bff028ba98d5138ec",
+      "english": "Of course there is!\n...\fProbably...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DBF4",
+      "source_words_sha256": "ade2427cf1e3d53e02dab61e476156683de8a72c95491c0344d185de5f432605",
+      "english": "No!\nYou still don't get it...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DC84",
+      "source_words_sha256": "affdeb3c11f8feb106891bc0ba8a18d2c277fd82d1c6bc2af9252d5d5638af4a",
+      "english": "...That's irritating.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DD40",
+      "source_words_sha256": "dfe3b8abb6f910bdb43e7790d0f60a67fd4eb11d479d3f1fd3e50da1939ca683",
+      "english": "Oh dear. Even you\nstruggle at first,\nVice-Chief.\fThe orbs I lent you\nweren't great, either.\nThat's how it starts.\fCollect more orbs\nand get some practice.\nYou'll be fine.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DFDC",
+      "source_words_sha256": "e9288ddbe99c4d4766ae3d6fc3e476badbab0e3cd552c7efd56aad10908b2d0d",
+      "english": "So your Gin Tama\nwere stolen?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001DFFC",
+      "source_words_sha256": "473baceffbdfcc46619f85df9d6b6686a5a42868a8d8c24a16d7bc95bf668f3f",
+      "english": "Don't derail this, Sougo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E014",
+      "source_words_sha256": "65053fdb4aa214b9befdeb1b4675657c03a1e66a68afcf8dafe29a1f5551cef7",
+      "english": "Still going on about that?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E030",
+      "source_words_sha256": "233ce8d515c1c9dfa754f98c41d1645112113d6918e94dfd549889e2a999ab98",
+      "english": "Ignore these two.\nPlease go on.\fDid you see\nanyone suspicious?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E0C8",
+      "source_words_sha256": "e70f6b56feefa42a2226b6997298690a64772db7f3995ae6c19bd31bebfbfa32",
+      "english": "...Sougo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E0E0",
+      "source_words_sha256": "fb8f2dda84ca885df48828525c447e5ec742663cdd048e2af6e63c4ff483b6cd",
+      "english": "Looks certain now.\nThe thief's after\nDragon Tama.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E1C8",
+      "source_words_sha256": "e1296c2ff52ba232ecfe2b709117178216eeb8fb381b1fbade7d9010b1f97ae4",
+      "english": "H-huh?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E1D8",
+      "source_words_sha256": "e9178fdf0f06d1828ae5416022bff6877452cd2c3cac08d5310e22f452acb780",
+      "english": "...Wait, Sougo.\nYou HAVE a Dragon Tama?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E210",
+      "source_words_sha256": "acbc4dc026b94cfe1103e07029409b27a29f443a0b85dcaa3ce342c7249d0a51",
+      "english": "Then say so\nin the first place, idiot!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E23C",
+      "source_words_sha256": "9bb3c870371c2ae195628ea38e41ab23d45631013d569c06721b65d837d81a99",
+      "english": "You really are...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E2A0",
+      "source_words_sha256": "f06ba0b2daf9a87923dddd381a8154a9093cca8cd0e5fc629f9b71250ff6e445",
+      "english": "There you are!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E2B8",
+      "source_words_sha256": "7f6a5a8524f0423bd3e35483cdd41bb3b880f5f46026e46ccdba4095a8a04248",
+      "english": "Stop, Kondo.\nYou're embarrassing us!\fWhy do you even\nwant that thing?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E30C",
+      "source_words_sha256": "99732bb770710bf602f9ab2f39b5bb8bf70dff00b83937dc1c49b38f8a4c74ea",
+      "english": "Why are you so desperate?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E330",
+      "source_words_sha256": "9c16c24870f95287475c4958818a354d7d5eda01804a668765ef5b40390d30d9",
+      "english": "Still worried about that?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E34C",
+      "source_words_sha256": "f0dbc510bc825eab7b5f5192da723e4ee4795d80b781e5b87b80f9a466a6411b",
+      "english": "Why did that convince you?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E368",
+      "source_words_sha256": "b2d86ac83a550f1e35a6f2a5a1a54736fcc3b4316351e9af5f2308c8be94e2fa",
+      "english": "You're the commander!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E3B4",
+      "source_words_sha256": "161fb772e48ae0dbff81898398a8c0c820fc3884839bb7d0638554a30b345035",
+      "english": "Do what you like.\n...But, Sougo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E420",
+      "source_words_sha256": "bc08611b82d3e66a4fb7404e39926e0a44a181b09e1483b6e9f702e74ea21da5",
+      "english": "W-why now?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E434",
+      "source_words_sha256": "9e665b9e20819cc59474b7db97c9a66f8c474388b7bf75f92eccae09e9c3e9ef",
+      "english": "...I don't want to hear it.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E454",
+      "source_words_sha256": "b646d1079ddddb485f74e7d70e2503c86a1e5a7994d7438e5576b0657df3a789",
+      "english": "Why ME?! Isn't this\nbetween you and Kondo?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E48C",
+      "source_words_sha256": "224dabfaa5b35815c5ec1365769409c1b642e08cbe3cedf5f148270bcdd906d7",
+      "english": "You bastard...!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E4AC",
+      "source_words_sha256": "6c68a651ae2b9f4aa92ea62a2ea9f51269b592383b4ac7dc9d1a1cfe56401419",
+      "english": "Fine, I get it!\nBattle, whatever!\nI'll take you on!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E4E8",
+      "source_words_sha256": "fbab96615dda6ccb3a6b0d017a12a19827250f2738b4cff21d40789c44a8474f",
+      "english": "...Unpaid work.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E500",
+      "source_words_sha256": "f84a73f482c7b003657281636c4e6c2206d7b1d2684febb4201e973c8b4cc4de",
+      "english": "Sougo! Give me\nthat orb! Please!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E53C",
+      "source_words_sha256": "5a2c487f0b93dba7f38451e9f1643400a1f7620f16f1d8ee5413380c65e29090",
+      "english": "Seven of those\ngrant a wish, right?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E5B4",
+      "source_words_sha256": "701e9d53af2dc55f8e25e499048ad64af5267b0d64393c043f503a1c5abc46ea",
+      "english": "I need a fortune! Enough\nto make forty years\nwithout pay worth it!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E638",
+      "source_words_sha256": "c2ebc4a9efcb0eb7eb6f5bd9c547df1da45459b8c0e6d080472cb9b2ad84bbe6",
+      "english": "Hurry, Sougo!\nGive me the orb!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E658",
+      "source_words_sha256": "c9e3e009f71478e62653223906194bbe6851fe5149a2a95bd507e792125c2d22",
+      "english": "What?! You'd charge\nME money for it?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E684",
+      "source_words_sha256": "3fc56fca14c527503a8dfddf9df9788a9d0ea5de7eb430d98551e410d02fd6ca",
+      "english": "That's why I need\nto get a Dragon Tama...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E6B8",
+      "source_words_sha256": "29976f2be24229350bc62ad34d9fe337cf5108b78e2fc038fd368ad9277cf9a7",
+      "english": "Either way!\nHurry up! Move it!\fOr I'll make you\ncommit seppuku!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E708",
+      "source_words_sha256": "5face28180a89f7d05e069efec3ff2d8089cf69c4b4e1359197488097f274676",
+      "english": "Got the Dragon Tama!\nLet's go, Toshi!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E734",
+      "source_words_sha256": "8cc3aec6ba983d6dcc875727c58987c75cdb4d2fb96965ae203c979c212c95fc",
+      "english": "Yes. The whole bag\nI'd left at my feet...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E768",
+      "source_words_sha256": "042fa8480b0d879dbc2b44eda2e55a76ed9128a2b600b73a46864125e437dac2",
+      "english": "Not Gin Tama! Gold!\nRare gold orbs!\fI worked so hard\nto get those precious\nrare gold orbs!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E7D0",
+      "source_words_sha256": "d584e8cc45eb4befa2008ddf76ee1175c385c4f2625013de8ac9a56c0d3cde6d",
+      "english": "Um... Are you listening?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E7E8",
+      "source_words_sha256": "c6718d25bd942c709f3dd64c174aa6214d7b7724158e6630fdefc6f2a8757c28",
+      "english": "Sorry. I didn't\nnotice a thing\nwhen it happened...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E830",
+      "source_words_sha256": "8fe09853ad49bef56036aab7e75718e7e86d5ceca5730cc8671d17fb6f98e0e6",
+      "english": "Yes, understood.\nPlease help.\fPlease get\nmy Dragon Tama back!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E884",
+      "source_words_sha256": "0d3a3f00e30b4c3f065c2e0c36d88a4c4da110cb0ab5dffce6cf9b013232b97f",
+      "english": "Heh. A dirty joke.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E8A0",
+      "source_words_sha256": "feef1c264a15efeb3e8990b0e9824bce75ea9dcef0fa88f7d854698b20b1ba60",
+      "english": "...This is a dead end,\nHijikata.\fHe saw nothing.\nWe've got no leads\nto go on.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E924",
+      "source_words_sha256": "4f34e434d849cd677bd3491621daf568067961d673418c4f8fb27ac77be7f817",
+      "english": "Yes?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E930",
+      "source_words_sha256": "fcc4bdbbbd03fa9c84d7e30dc7a97eeda4a3c05e8ce5bb8d84c397e428f98d34",
+      "english": "Exactly.\fApparently they sell\nfor ridiculous prices.\fOne Dragon Tama\ncould feed you\nfor six months.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E9A0",
+      "source_words_sha256": "c4dd83a8c78ed0820231b69ce5728e0fca5a5f73f62cca059d00b942006a3d29",
+      "english": "Is that how it works?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001E9BC",
+      "source_words_sha256": "a75b31b79b123e7c270114af3edc4d46df71fdd6d2bed8eac94aa1858dcb6be3",
+      "english": "...Can't be helped.\nMy prized possession...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EA38",
+      "source_words_sha256": "5f258503b862cb42f84174949b5d76e7c903c21fdba373a854b431d1a9324cf4",
+      "english": "I have one, yes.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EA98",
+      "source_words_sha256": "9553dbab80a25d4ff57eecbc349e2bc11106c6b60a7d55c859bd57ce3e5d8d5c",
+      "english": "No, Kondo.\nI can't give you this.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EAC8",
+      "source_words_sha256": "1a0a2a5fecd262ceafbb97831e1c93cf8566f0da1fed11ed7601d561e0be6b2e",
+      "english": "Don't be unreasonable.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EAE8",
+      "source_words_sha256": "56b53eaa2fb0e29b19968ee7e0be40a63586f211873f1385a55a5ffd6f4af35f",
+      "english": "That's just a rumor...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EB08",
+      "source_words_sha256": "c20b076ffcf68a92f45f9e053fa0dfc1d886ce4c952aa97b858d95d1408972fb",
+      "english": "All right.\nIf you insist...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EBB4",
+      "source_words_sha256": "1d0f1b5841ed5b7d75915186a81085ca23ccf0c16a580bfbdacee29489ac7846",
+      "english": "Hold on. I'm willing\nto part with it,\nbut not for free...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EC10",
+      "source_words_sha256": "dad2002b62a82a03d0ec5976e1c223333b3a34b5b41e5e5e74c031d4169357aa",
+      "english": "No, I mean,\nhow about a Gin Tama battle?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001ECA8",
+      "source_words_sha256": "b0ec0ff145d81f69e55b7af7ae86d1349da090838311de89d0e47d5c5f6b795f",
+      "english": "What?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001ECB4",
+      "source_words_sha256": "c7d548109ec290e198db00e09f3b3760fff732bed10342f49a824e348d222870",
+      "english": "It's fine. Kondo's been\ncollecting Gin Tama too.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001ECF0",
+      "source_words_sha256": "134a94d4df19f8a99f97734b311f3fe139487159d1c1802640e2f40f5fe4ee11",
+      "english": "Right, then.\nLet's have a battle.\fGood luck, Hijikata.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001ED40",
+      "source_words_sha256": "bd3a0e5a4a454a70d81ba420ddb58f4091025606bda36b73e86c2378dd94a15b",
+      "english": "I'd rather watch\nthis sort of contest.\fI can point\nand laugh at you.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001ED9C",
+      "source_words_sha256": "24a67657ec0f1b67e41ed40c74147dcf9c42b1441bb696ea3c8554f44fa31eb1",
+      "english": "Seppuku, he says.\nHear that, Hijikata?\n...Win, and the orb's yours.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EDE4",
+      "source_words_sha256": "9d8108244cc98e0ab8433bbfb51c1c5d13204b6fe4f1819c5afdcb863f8d3e06",
+      "english": "Don't talk like\nYOU did the fighting!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EE0C",
+      "source_words_sha256": "6f2dd8534ab741c7bd3d54f8c61657fa4166fbad4dce59f3d3ddbe531bc9383c",
+      "english": "Yes! I won!\nThe Dragon Tama's mine!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EE84",
+      "source_words_sha256": "584ddea413715444bf88a5ec2e513fe29330de121b389ad52046bf5f56f973a3",
+      "english": "Six more to go!\nI'm doing this!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EEE0",
+      "source_words_sha256": "ea50b8cf373f1289d0fc2579d548bd56cd943a85246f13c6fb4a5c8834f08fc5",
+      "english": "A promise is a promise.\nCan't be helped.\fHere, Kondo.\nThis orb's yours.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EF3C",
+      "source_words_sha256": "ce8a8d8307ee050ed537a5f99cb0477681a04501befbedf7df874daed3e7b177",
+      "english": "It was a fair fight.\nDon't worry about it.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001EF6C",
+      "source_words_sha256": "1bc228f11b0d9d1e251aac6e905d395928ba446aaa5df5ec488c66a745e4edf1",
+      "english": "Talking like\nyou fought that battle...!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F000",
+      "source_words_sha256": "b636cfb3688e412255c45498754d03c26a61d4504720c63bb529a9f643c03b66",
+      "english": "Damn it, Sougo!\nOne more round! Please!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F0B4",
+      "source_words_sha256": "d9044639023b28b38a5fff7ba25ec252665685f08861335fa8e5628e3d620df9",
+      "english": "Kept my word.\fIt's yours, Hijikata.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F0E8",
+      "source_words_sha256": "5890649e4df418812c9b1b6fcbf91d8ef00d3041e090ffff75825f7902331908",
+      "english": "No. A serious match\nis a one-time deal.\nThat's the rule.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F1B8",
+      "source_words_sha256": "824994c872d9dbb57a78ab4bd108bee723d27b154067ad05f61a831e95d3b99b",
+      "english": "You should consider\nwhat your opponent wants...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F1F0",
+      "source_words_sha256": "14ea2b59c07e6fe09bf67641885dbb71b7a09322f4be6cd4461a724eac5f83a4",
+      "english": "Kondo, you've lost sight\nof the point already...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F22C",
+      "source_words_sha256": "77b9e2bb854fd97c8ae49bb27db599f7637b28d1da6fb9bbec0523a403f9c254",
+      "english": "If only his motives\nwere right too...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F260",
+      "source_words_sha256": "1e0568353da3494a6d8ef4ea831bb9980907ab5c3c9f69c27e2d173835f3a8d7",
+      "english": "Shh! Quiet a second.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F278",
+      "source_words_sha256": "7bfe17ee925ff24fc3b40ce526d70b675c89e8c6c0fa4fcb7a7b6d627eddb833",
+      "english": "Look over there, Kondo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F290",
+      "source_words_sha256": "146d583c8a318e616f1401ec2fe3f76e4d84d9d6bb64c09e8712b29988650eaa",
+      "english": "Of course.\nI'd know that face anywhere...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F314",
+      "source_words_sha256": "5fc24004f8e944a11a2c1142350a7d40efddbb1f8077e220d4cdba1a3fd220a4",
+      "english": "...Too far away\nto hear him, huh.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F33C",
+      "source_words_sha256": "8ee1e84b0d79090d38fef2d31fac2a39097b0d825b3be0bda94672bbf15b742b",
+      "english": "Huh? Isn't that a Gin Tama?\nNo, a Dragon Tama!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F37C",
+      "source_words_sha256": "7541104ad83921218eb18bbda0b018bd7f1f81431d1e27960374ce6b8c54e755",
+      "english": "Why does Katsura\nhave a Dragon Tama?\nIs he involved in this...?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F3CC",
+      "source_words_sha256": "e5a5359bf882919c0636db269f3aa0057cbec783872f81d63eab5af7be01e58d",
+      "english": "Once he's alone...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F3F4",
+      "source_words_sha256": "af9f63c8d3e8ac2b4f92fad9321bd8091d8f82beb3ef9707a975f86a21495d4f",
+      "english": "Got it?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F468",
+      "source_words_sha256": "021a46d771309f9db7a1da973f9aae65d4ba644af2fd06933835d5a5da082b08",
+      "english": "Results count. Forget\nmotives and methods.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F4A4",
+      "source_words_sha256": "da08773bb5221ffd68f7f43dcbc4f74d7bbccc4ae23d4b1150a67efc0bf07096",
+      "english": "What, Toshi?\nOut of nowhere...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F4DC",
+      "source_words_sha256": "7644f110b35c295f0618998275e50f262bf97acb1584a5a459f6ecff24282426",
+      "english": "What? Who?\nIs someone there?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F500",
+      "source_words_sha256": "ecf9ab3faf93746f7b6f2be5a3646360578a125d02d18477cacfaa2f8c4dc3d9",
+      "english": "Over there? Let's see...\nOh! That's...!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F61C",
+      "source_words_sha256": "bdbe412afb21a3e14d89b4d16ba0296f8507c5348368cd798cc24f71a3028c52",
+      "english": "You noticed too, Hijikata?\f...Looks like\nit really is him.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F680",
+      "source_words_sha256": "423908be0969e49af426a8d6582afac59fe25f8ac2fea32b09edf4268f261476",
+      "english": "Ah, Hijikata!\nLook at that...!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F6D4",
+      "source_words_sha256": "b8c8110a10c7cf43f16f560b42accb1b8d64954f2f5056ccceb3a6a3e4dc174e",
+      "english": "What now, Hijikata?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F6F0",
+      "source_words_sha256": "d25fc79f285cee071d4546642e7a80bbfaf715c47c7b8a3767f8d704a185ac4b",
+      "english": "Long time no see, Katsura...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F714",
+      "source_words_sha256": "d309d2bebee709fc9217f9dd6dfab21d2be492f68f1a87d994fe12cb8e485b18",
+      "english": "...Keep quiet, Kondo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F73C",
+      "source_words_sha256": "a5c6507a19f9c0fecf3eb7671c8136e4e8e7ed522a63029580501985d005a1f7",
+      "english": "Fool.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F748",
+      "source_words_sha256": "bbe0cedd958b7673bf395ff05e2666f01802d3529b749b298e7e3e375dc98c14",
+      "english": "...Katsura. You just\ngot a Dragon Tama\nfrom someone, didn't you?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F78C",
+      "source_words_sha256": "8f0d1e5f3f4352452cae305333717fd7441b5525dd6fdb05b764b48a6aa8464c",
+      "english": "We have a little\nbusiness with you.\nHand over that orb.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F7C8",
+      "source_words_sha256": "0d7338fa277e86b3772efc386f163c3b91596caa328999e10d4c34e5ebcef97f",
+      "english": "You won't?\nThen there's only\none thing for it...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F80C",
+      "source_words_sha256": "08818b19b49104e57dfe235a5931f2094bd468225dbe6b3c8d6a4283dde786c2",
+      "english": "Idiot...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F820",
+      "source_words_sha256": "4fc8b1f5d1c371288518fae80340987031c554eed9b2594909292608a8968edc",
+      "english": "Why me AGAIN?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F838",
+      "source_words_sha256": "20ff32c633752aee04846c40aae5fd302057e82976e7a0e6a12e61541efbc72d",
+      "english": "Hey, Kondo!\nYou can't just...!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F868",
+      "source_words_sha256": "f4588eba930a02d26eafd0aca5e31cacc54a8b059ad45ae2e2c1fd02485c083a",
+      "english": "...You really are...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F888",
+      "source_words_sha256": "ff952d339950baaeb8650fd54fa7f07f3e0bdd7e2595eb539085429f1a209e02",
+      "english": "You lot?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F89C",
+      "source_words_sha256": "c4f10fc2fa5c523b546c2e42abee394fadb468578df331d5336110e7159f10d4",
+      "english": "What do you want?\nI'm not Katsura...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F8D4",
+      "source_words_sha256": "7b93313ccdcd37c2056a034b7d4875451d5053b7288540936a950b53b566524a",
+      "english": "Not Zura. Katsura.\n...Ah.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F8FC",
+      "source_words_sha256": "f28c3e9661c1e906928995632dcae675adb709ab416c97f12072c3bcf37c0d06",
+      "english": "Not Fool. Katsura.\n...Ah.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F924",
+      "source_words_sha256": "a0c3124b5961c56f2fc680c6d738380c2780dedfaa78313df55c16c2d980351c",
+      "english": "What's this?\nWhat about Dragon Tama?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F950",
+      "source_words_sha256": "6e447ddeb24cfc0bc3e6722aa7e7bac453272df566fe1b0481f02de003a7551d",
+      "english": "You saw?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F964",
+      "source_words_sha256": "8b28797a9b89eafd2ebc4da3cacd6d9bdb78be86b7af893360c3ceeabc06a549",
+      "english": "And what of it?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F984",
+      "source_words_sha256": "91cf9a483890c0a4d1ef3311ec65b4f0917a7d85f9039d000a53fa73e2989ad0",
+      "english": "Gin Tama aren't\ncontraband, are they?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F9CC",
+      "source_words_sha256": "37301191690539571607bcc80e44a58a0949b285108b30a171930a54d9a5ea2a",
+      "english": "...Hm.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F9E0",
+      "source_words_sha256": "694ace4865afe44f160460ffa063888e48a213e2328ae62ccf6635ce58304f3b",
+      "english": "What?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001F9F0",
+      "source_words_sha256": "ae9f23bc51a3c28bc80ddec5e864ad93d13da37517fed7cab632b5af9baa8fe0",
+      "english": "No point running, is there?\nI'll take you on.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FA20",
+      "source_words_sha256": "4eeedc642adfc0d9c1b14705a3866f88fc52044d304fe8f2503b48f622d3ec39",
+      "english": "Oh, no escaping!\nStay put!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FA4C",
+      "source_words_sha256": "fcde15f72af5ca40f9626357fa6c00c381805446d8af5840b0ecd89e785305fc",
+      "english": "Hand over the orb, quietly!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FA6C",
+      "source_words_sha256": "c29ed56cbe71347ab494fdf4ce99277e8673da6b9f63c760ee7a57c10975920e",
+      "english": "Katsura! Where's\nthe Dragon Tama?!\nOut with it! Now!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FAC8",
+      "source_words_sha256": "be4c9004e8b2817b8df96fdfc4e0f8ee69a0869827d69d45f876fcdd035db77f",
+      "english": "Beat Toshi, and\nwe'll let you go quietly.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FB00",
+      "source_words_sha256": "5948d4cf3d8e2cf5e418965a9a9f79a6dc4e6dff4d60a44fcfe68b9e635b4ec0",
+      "english": "But, Katsura!\fLose to Toshi,\nand the Dragon Tama's mine!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FC1C",
+      "source_words_sha256": "3e4b6be3ece1e8339181a6889e351b7ab22529a9fd0e87734df4f26cc171960b",
+      "english": "Why?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FC34",
+      "source_words_sha256": "96ba080795c8dee428ffdd49b57538e1d8519bf1ebebd4d14484c468549c68e1",
+      "english": "Give up, Kondo.\nHe's not listening.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FC64",
+      "source_words_sha256": "194a508e8fc9e62509465b431e855be2fd804e3fa337d40b65590cc9fc4c98a0",
+      "english": "Looks like it's over.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FC7C",
+      "source_words_sha256": "34825a6b870530255a2c123683813e56415eda3f9aa4e7e62bf21c01994ab0e3",
+      "english": "Katsura. Hand over\nthe Dragon Tama.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FCA4",
+      "source_words_sha256": "d822194c86a5355311b704288b407525237ffae56d4b051821fd0cda47b9c633",
+      "english": "What?!\nWhat's that supposed to mean?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FCCC",
+      "source_words_sha256": "417e437c9bcd53dcd353b9e20d1e86b9c2a74c03023dd41f6f7defffc005d6fc",
+      "english": "...Something doesn't\nadd up. Sougo.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FCF8",
+      "source_words_sha256": "1c8a2dba843e6d3f6ee86dbc21a5e1de13bea77f40516ef07118a098a91002a8",
+      "english": "...And those last words.\nDon't underestimate\nGin Tama...?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FD4C",
+      "source_words_sha256": "dc6c6db19b6555cba4718cddbbae140b4ed805071482c4a2343b017344120a6d",
+      "english": "...What's going on?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FDAC",
+      "source_words_sha256": "60486697f24ee787679884005f2915cb691c59022b735b1c1b4e53d64c3af189",
+      "english": "...No. Not this orb.\nI can't hand it over.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FDE4",
+      "source_words_sha256": "a2a615a5d426554b52124bf62f05020843e6c25be885722d32c47277b0772a36",
+      "english": "Say what you like.\nBut this orb...\n...Forgive me!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FE6C",
+      "source_words_sha256": "478606d437da41927b5f468583301485d0f411b337917631d11f08f546c838ad",
+      "english": "Don't dismiss Gin Tama\nas just another fad.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FE9C",
+      "source_words_sha256": "0009859f35d1fe3a2941d76048d09eb6b3487526054ad4b2ec12a9a5b77c93a1",
+      "english": "Yes!\nWell done, Toshi!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FEC4",
+      "source_words_sha256": "65cd5330cafd5fae45d9c2607b62274179d857829b96da96e39b728bb3541740",
+      "english": "What?!\nForgotten your promise?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FF14",
+      "source_words_sha256": "366575ee943ea1ae04d854b2e4327558b1fcab86a7744c143e539ded18fe03ae",
+      "english": "Cough! Cough!\nW-wait, Katsura!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FF38",
+      "source_words_sha256": "3580a2ceff8bb7d2e58a27448ecd840a3ef5fa6a6472d9dd660ff265840f8922",
+      "english": "Damn... Dirty trick...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0001FFB8",
+      "source_words_sha256": "ec252dfbb895d44bb6ee18bcc9d4c7608d6c328bddf8f70bdaaa1f1048196342",
+      "english": "...No good.\nWe've lost him completely.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000200A4",
+      "source_words_sha256": "767839c65baec5c9ecdfe62501bef74b262c7c75cfbc826d24a17f513a931a56",
+      "english": "Damn! You two\ndo as you please!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000200CC",
+      "source_words_sha256": "92990f8647c53cc088748ec2f75d472a6017c7f9fb613cd34025003d74a60f16",
+      "english": "What are you, a kid?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000200E4",
+      "source_words_sha256": "4aa41088d12938dcb3bd8348dcaf1bf789566a928833990031d8a971e4601bb3",
+      "english": "...Please stop.\nActually, quit.\nAs commander...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020130",
+      "source_words_sha256": "72fe1ff8977c93df0b291273ba947f3999f87a3c6a8654d0a98514690d7d8241",
+      "english": "Cough! Cough!\nKatsura, you bastard!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000201C4",
+      "source_words_sha256": "f40f60ea88a6c1acef79d3196176de9cdf23bd03e1c32ddd62c8dfe310bf4c83",
+      "english": "If I won, you'd\nlet me leave quietly.\nThat was the deal.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020254",
+      "source_words_sha256": "8ca00dd0203e46c563924ab201dba57c772db1de8d1976d2063bc0a8ee9d9936",
+      "english": "Farewell.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000202F0",
+      "source_words_sha256": "2c1492e32223ff7a68ba8f4690d8f047b6993a032ea066e48aeceb8f15e30353",
+      "english": "Cough! Get him!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020310",
+      "source_words_sha256": "05108295615e027408b30fc329f3276b60de5e3ce78a98923ff3cb3b05928d69",
+      "english": "Why, Sougo?! Cough!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0002036C",
+      "source_words_sha256": "46ce7cdb56a2056bffb1f48c629b9d8c972f53857ba08d5c1be883c768086002",
+      "english": "Tch! Hijikata's\nno match at all!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0002039C",
+      "source_words_sha256": "9d4cebd85f51646957181bd880f52b3249e6006824427e5404a09ffd75e6682a",
+      "english": "Afraid not. Cough.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020410",
+      "source_words_sha256": "37ce48129344b8c28dbbc8502f079354b3e62d99715f63e871d6cac0201a13c0",
+      "english": "Sougo, this person...\nYou don't mean...?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020460",
+      "source_words_sha256": "f525db6af225c62e8052acdecc723580c2f3fed30b616181a2a6e501ce1fa387",
+      "english": "That's it, Hijikata!\nAt times like this...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020484",
+      "source_words_sha256": "74ca1a943615610388395b3f4d0c65510e6ff7f7fb56cc05189fa79eb7534ba1",
+      "english": "I know someone who\nloves this sort of thing.\fWhy not go\nand ask them about it?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000204E8",
+      "source_words_sha256": "f82692f9849574389798abbb2d63ee64a229ad327bfba0b482df4b430d4f5bcc",
+      "english": "Yes, that very person.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020570",
+      "source_words_sha256": "441a26f0bd3aa70cad86e15ffbb7debc38d6b30286fea714c5450a9ac2cdce38",
+      "english": "Rich? What's that about?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020594",
+      "source_words_sha256": "5affcb3dfbfe7c9150a015ab3f5e88045ddb92c76d7b90ffde3d95765a5fce5c",
+      "english": "...Gin Tama? No...\nThis is about Dragon Tama?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000205C0",
+      "source_words_sha256": "0fbded67e17eb5e180c41a91131690f423e9911ac4ab597bab30ca004f433601",
+      "english": "Let's find the other idiot.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020660",
+      "source_words_sha256": "c478e699aebabf9d6221a05fbdbf0073f1b77571c4ce79bf6dd8aa176cb5d9b7",
+      "english": "What?! Gin Tama?!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020680",
+      "source_words_sha256": "096727c55cd44587435fd44de5e7d8f072adbc17144859432905b9fdf6ce673b",
+      "english": "What? What's going on?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000206A0",
+      "source_words_sha256": "7f04b6f34ee2c078d29fa0cb6281035ec079024aee09a08eb95566acf3dd90b5",
+      "english": "Who's an idiot...?\nHey, Toshi! Sougo!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0002073C",
+      "source_words_sha256": "f557c7fe86706c4a7d689084c433282ef40fabeabee61f6169622df972be7d80",
+      "english": "Someone here's saying\nmuch the same thing...",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020788",
+      "source_words_sha256": "af9204020db16d0238b35285bd8b0a86d292463e5fff85a39c49bf6fcf78fbbf",
+      "english": "Another idiot\nright here, it seems.",
+      "translator_note": null
+    },
+    {
+      "id": "msb_0002080C",
+      "source_words_sha256": "0bddbe44c4bb58074a21a6a75a60716086e3f43f156c2ec07051a09988cf8a60",
+      "english": "What about THIS idiot?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020890",
+      "source_words_sha256": "824c912a6034116f6a6ca77b256c1617ed48ddd73d76e0834eae6b196a2ef1b1",
+      "english": "I'm his landlady,\nnot his babysitter!",
+      "translator_note": null
+    },
+    {
+      "id": "msb_000208C4",
+      "source_words_sha256": "3decc6b0ba817340aef5b4e643362bccc08c3b51b63a2a77fe02087e0d9888bc",
+      "english": "...So, what do you want\nwith that freeloader?",
+      "translator_note": null
+    },
+    {
+      "id": "msb_00020900",
+      "source_words_sha256": "d71830d00cc6e13907ec609ba9f8f7ab2deabddba97ea9028afb4a6f5bab08ef",
+      "english": "Huh. That's mighty\nthoughtful of you.",
+      "translator_note": null
+    }
+  ]
+}

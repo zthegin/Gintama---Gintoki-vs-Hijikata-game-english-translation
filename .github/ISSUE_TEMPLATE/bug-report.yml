@@ -1,0 +1,38 @@
+name: Report a tool problem
+description: Report an editor, export or local-build problem without uploading game content
+body:
+  - type: markdown
+    attributes:
+      value: "Use only your own legally obtained ROM. Do not attach ROMs, extracted assets, saves, game screenshots, source dialogue, download links or private logs. Describe the error and use record IDs. Remove user names and local paths from any quoted message."
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Dialogue editor
+        - Image editor
+        - Local build or patch application
+        - Verification or documentation
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected result
+      description: Include tool version and record ID if relevant. No game content is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: A short error message is enough. Remove personal information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: contents
+    attributes:
+      label: Submission check
+      options:
+        - label: I have not attached game files, original game content, unauthorized download links or private information.
+          required: true

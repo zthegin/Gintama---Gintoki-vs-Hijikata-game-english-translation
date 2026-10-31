@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="description" content="Unofficial English fan translation local build guide for Gintama: Gintoki vs. Hijikata!? Not affiliated with the rights holders. Supply your own legally obtained ROM." />
+    <title>Unofficial Installation · Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! · Nintendo DS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="theme.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <div class="project-heading">
+          <h1>Gintama: Gintoki vs. Hijikata!?</h1>
+          <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
+        </div>
+        <nav aria-label="Main">
+          <a href="index.html">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
+          ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
+      </div>
+    </header>
+    <main id="main" class="shell prose">
+      <p class="game-title">
+        English translation of <strong>Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!</strong> for Nintendo DS.
+      </p>
+      <h2>Install the translation</h2>
+      <p>
+        You do not need to write or edit code. Copy the commands below and use
+        your own ROM path.
+      </p>
+      <p>
+        Use Python 3.13 (recommended; Python 3.11 is also tested) and your own legally
+        obtained, matching, unmodified ROM.
+        This project provides no ROMs, unauthorized download links or help finding
+        unauthorized copies. If you are unsure whether you may use a ROM, stop and check first.
+        A matching checksum confirms compatibility, not ownership or permission.
+      </p>
+      <p>
+        On Windows, start with the
+        <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/APPLY_PATCH.md#install-python-on-windows">short Python setup</a>
+        or the <a href="https://docs.python.org/3/using/windows.html">official installation guide</a>.
+        Python 3.10 is too old for the dependencies.
+      </p>
+      <h2>1. Open the project folder</h2>
+      <p>
+        Download and extract the
+        <a
+          href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+          >project source</a
+        >. Rename the extracted folder to <code>gintama</code> and keep it in a short
+        path, such as <code>C:/Games/gintama</code>, before creating <code>.venv</code>.
+        Long paths can stop Python dependencies from installing on Windows.
+        Open the folder containing <code>README.md</code>,
+        <code>requirements.txt</code> and <code>tools</code>. On Windows, type
+        <code>powershell</code> in File Explorer’s address bar and press Enter.
+      </p>
+      <h2>2. Run these commands on Windows</h2>
+      <p>
+        Replace the ROM path with yours. Keep the quotes around it. The commands use a
+        project-local environment; you do not need to activate scripts or change PowerShell settings.
+      </p>
+      <pre class="command">
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --out local/english.nds</pre
+      >
+      <details>
+        <summary>Let a local coding assistant set it up</summary>
+        <p>Claude Code, Codex or another assistant with local file access can follow the
+          <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation#i-just-want-to-play">copyable setup request in the README</a>.
+          It must ask you for your own legally obtained ROM path. It must not find, download or upload game files.</p>
+        <p>For macOS/Linux, follow the <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/APPLY_PATCH.md">installation guide</a>.</p>
+      </details>
+      <h2>3. Play the translated copy</h2>
+      <p>
+        The game is built on your device. GitHub checks the tools and builds
+        this website; it does not receive your ROM or build a playable game.
+        No ROM or resource pack is bundled.
+      </p>
+      <p>
+        Open <code>local/english.nds</code> in your emulator. Start it normally
+        rather than loading an old save state. Your original ROM stays
+        unchanged. Keep the rebuilt ROM and extracted game assets on your computer.
+        Do not upload them to issues or pull requests, and remove personal file paths from public reports.
+      </p>
+      <p>
+        The build applies bundled English dialogue, graphics and UI labels.
+        See the <a href="guide.html">guide</a> for current counts.
+        Much of the game is still Japanese.
+      </p>
+      <details id="apply-your-own-dialogue-edits">
+        <summary>Test a dialogue edit from the website</summary>
+        <p>
+          Download the JSON from the dialogue editor after making your changes.
+          Use the same setup as above, then replace both paths in this command:
+        </p>
+        <pre class="command">
+.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --dialogue "C:/Users/you/Downloads/my-batch.json" --out local/my-dialogue.nds</pre
+        >
+        <p>
+          This uses your downloaded batch in place of the bundled field dialogue.
+          Graphics, UI and the opening cutscene are still included. Keep the CSV
+          too if you plan to submit a pull request; the local build only needs JSON.
+          A successful build checks the fixed-size slots, but you still need to
+          check how the wording looks in its game context.
+        </p>
+      </details>
+      <details id="apply-your-own-opening-edits">
+        <summary>Test an opening edit from the website</summary>
+        <p>Use <a href="cutscenes.html">Opening</a>, then download its JSON or copy it
+          and save it as <code>opening_scene.json</code>. Keep every entry and English part in order.</p>
+        <pre class="command">
+.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Users/you/Downloads/opening_scene.json" --out local/my-opening.nds</pre>
+        <p>Replace both paths with yours. You can add <code>--dialogue</code> with a field-dialogue
+          export to test both together. The builder checks source hashes, formatting controls,
+          text width and fixed slots. Only the opening <code>s01</code> cutscene is supported here.</p>
+      </details>
+      <details>
+        <summary>Make a local BPS patch</summary>
+        <pre class="command">
+.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --patch local/english.bps</pre
+        >
+        <p>
+          Keep <code>local/english.bps</code> and
+          <code>local/english.json</code> together. Check the
+          <a href="rights.html">rights policy</a> before sharing a patch.
+        </p>
+      </details>
+      <details>
+        <summary>Apply an existing patch kit</summary>
+        <p>
+          Extract the kit and open a terminal in its folder. Replace the example
+          patch and manifest names with the ones supplied. On Windows, use Python 3.13:
+        </p>
+        <pre class="command">
+py -3.13 rom_patch.py apply --source "C:/Games/Gintama/original.nds" --patch translation.bps --manifest translation.json --output english.nds</pre
+        >
+        <p>
+          If you are using the source project instead of a patch kit, use
+          <code>tools/rom_patch.py</code>. On macOS/Linux, use <code>python3</code>
+          instead of <code>py -3.13</code>. This patch tool uses only the Python standard library.
+          A patch changes only what its release notes list.
+        </p>
+      </details>
+      <h2>If something fails</h2>
+      <ul>
+        <li>
+          <strong>Python not found:</strong> follow the Python setup linked above.
+          Check <code>py -3.13 --version</code> on Windows or <code>python3.13 --version</code>
+          on macOS/Linux.
+        </li>
+        <li>
+          <strong>Filename too long / WinError 206:</strong> extract a fresh copy
+          to a shorter folder, then run the setup commands there. Create a new
+          <code>.venv</code> rather than moving an existing one.
+        </li>
+        <li>
+          <strong>Wrong ROM:</strong> use the supported unmodified original.
+          Renaming another file will not help.
+        </li>
+        <li>
+          <strong>Output exists:</strong> choose a new name, such as
+          <code>local/english-2.nds</code>.
+        </li>
+      </ul>
+      <p>
+        For custom labels, the supported checksum and more options, see
+        <code>docs/APPLY_PATCH.md</code> in the source download.
+      </p>
+      <section><h2>Try a battle edit</h2><p>Use <a href="battle.html">Battle</a>, load your own legally obtained original ROM, edit a record and download <code>battle_translations.json</code>.</p><pre>.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --battle "C:/Users/you/Downloads/battle_translations.json" --out local/my-battle.nds</pre><p>Your edit overlays the bundled translations. The original ROM is preserved; choose a new output filename each time.</p></section>
+      <footer>
+        <p class="project-links">
+          <a
+            href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+            >Project repository</a
+          >
+          ·
+          <a href="https://github.com/zthegin/zthegin.github.io"
+            >Website repository</a
+          >
+          ·
+          <a href="https://zthegin.github.io/">Website</a>
+        </p>
+        <p>
+          Unofficial fan and educational project for this Nintendo DS game. I do not own
+          Gintama or any original game content. All game rights remain with their respective
+          holders. <a href="LICENSE">License</a> · <a href="rights.html">Rights</a>
+        </p>
+        <p>
+          I do not support piracy. Use only your own legally obtained ROM; do not share
+          game files or unauthorized download links.
+        </p>
+        <p>
+          For a rights concern, please identify the affected material and your authority to act. I will promptly review the request. For a verified request, I will remove or disable the affected material I control and stop the related work.
+          <a href="rights.html">Rights and removal requests</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

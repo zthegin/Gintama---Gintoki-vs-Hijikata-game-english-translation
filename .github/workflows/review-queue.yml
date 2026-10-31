@@ -1,0 +1,34 @@
+name: Update reviewed translations queue
+on:
+  workflow_run:
+    workflows: [Translation validation, Staging peer-review gate]
+    types: [completed]
+  workflow_dispatch:
+  schedule:
+    - cron: "41 5 * * *"
+permissions:
+  contents: read
+concurrency:
+  group: reviewed-translations-queue
+  cancel-in-progress: false
+  queue: max
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+    steps:
+      - name: Checkout trusted tools
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Install trusted validation dependencies
+        run: python3 -m pip install -r requirements.txt
+      - name: Label reviewed translation data for the owner
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 -B tools/review_queue.py

@@ -1,0 +1,65 @@
+name: Translation validation
+on:
+  pull_request:
+    branches: [staging, main]
+    types: [opened, reopened, synchronize, ready_for_review, edited]
+permissions:
+  contents: read
+  pull-requests: read
+  issues: read
+jobs:
+  validate:
+    name: Translation validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      # Run only trusted base code. The proposed checkout is data, never executable code.
+      - name: Checkout trusted base
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Checkout untrusted proposal as data
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: candidate
+          persist-credentials: false
+      - name: Check PR title and description
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: python3 trusted/tools/check_pr_metadata.py
+      - name: Install trusted rendering dependencies
+        run: python3 -m pip install -r trusted/requirements.txt
+      - name: Run trusted tests
+        working-directory: trusted
+        run: python3 -B -m unittest discover -s tests -v
+      - name: Check trusted browser code
+        working-directory: trusted
+        run: node --test tests/browser/*.test.mjs
+      - name: Validate contribution type
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.event.repository.full_name }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          if [[ "$BASE_REF" == "main" ]]; then
+            if [[ "$HEAD_REF" != "staging" || "$HEAD_REPO" != "$BASE_REPO" ]]; then
+              echo 'Only the same-repository staging branch may promote to main.' >&2
+              exit 1
+            fi
+            python3 trusted/tools/validate_promotion.py --base trusted --candidate candidate
+          elif [[ "$HEAD_REF" =~ ^codex/issue-([1-9][0-9]*)$ && "$HEAD_REPO" == "$BASE_REPO" ]]; then
+            python3 trusted/tools/check_issue_import.py --base trusted --candidate candidate --issue "${BASH_REMATCH[1]}"
+          elif [[ "$HEAD_REF" == automation/credits-pr-* && "$HEAD_REPO" == "$BASE_REPO" ]]; then
+            python3 trusted/tools/check_credits.py --base trusted --candidate candidate --verify-github
+          else
+            python3 trusted/tools/validate_pr.py --base trusted --candidate candidate
+          fi

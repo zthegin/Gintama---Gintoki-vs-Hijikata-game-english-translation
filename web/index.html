@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="description" content="Unofficial English fan translation dialogue editor for Gintama: Gintoki vs. Hijikata!? Not affiliated with the rights holders. Supply your own legally obtained ROM." />
+    <title>Unofficial Dialogue editor · Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! · Nintendo DS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="theme.mjs"></script>
+    <script type="module" src="app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <div class="project-heading">
+          <h1>Gintama: Gintoki vs. Hijikata!?</h1>
+          <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
+        </div>
+        <nav aria-label="Main">
+          <a href="index.html" aria-current="page">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
+          ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <p class="game-title">
+        English translation of <strong>Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!</strong> for Nintendo DS.
+      </p>
+      <p class="project-note">
+        Unofficial fan and educational project. The maintainer does not own Gintama or the original
+        game content. Use only your own legally obtained ROM. No game downloads or uploads are
+        provided. <a href="rights.html">Project policy</a>.
+      </p>
+      <p class="hint">
+        No coding needed. Edit one record, click <strong>Suggest on GitHub</strong>,
+        sign in and submit the prepared issue. A maintainer reviews it before it
+        can be published. <a href="guide.html">See the steps</a> ·
+        <a href="install.html">Build the translated game</a>
+      </p>
+      <section class="welcome">
+        <div>
+          <h2>Dialogue editor</h2>
+          <p>
+            The game file stays on your computer. Only English edits are saved as drafts or
+            exported.
+          </p>
+        </div>
+        <label class="filebutton"
+          >Choose your legally obtained game file
+          <input
+            type="file"
+            id="rom"
+            accept=".nds,.srl,.msb"
+            aria-label="Choose your legally obtained NDS ROM or extracted MSB"
+        /></label>
+      </section>
+      <p role="status" id="status" class="status">Loading translation index…</p>
+      <section class="toolbar" aria-label="Translation navigation">
+        <label
+          >Batch
+          <select id="batch" aria-label="Choose translation batch"></select
+        ></label>
+        <label
+          >Show
+          <select id="filter">
+            <option value="all">All</option>
+            <option value="open">Untranslated</option>
+            <option value="draft">My drafts</option>
+            <option value="existing">Existing English</option>
+          </select></label
+        >
+        <label class="search"
+          >Search <input id="search" placeholder="ID or English" aria-label="Search batch"
+        /></label>
+        <span id="progress"></span>
+      </section>
+      <section class="workspace" aria-label="Dialogue editor">
+        <nav class="entries" aria-label="Entries in selected batch"><ol id="entries"></ol></nav>
+        <article class="editor">
+          <div class="entry-heading">
+            <div>
+              <span class="eyebrow" id="entry-count">SELECT AN ENTRY</span>
+              <h2 id="entry-id">Choose a line</h2>
+            </div>
+            <span id="decode" class="pill">No game loaded</span>
+          </div>
+          <div class="source">
+            <div class="field-heading">
+              <strong>Japanese</strong
+              ><small id="source-note"
+                >Select your legally obtained game file to show the original text.</small
+              >
+            </div>
+            <pre lang="ja" id="japanese">
+Your game file is read locally; the website does not include the original script.</pre
+            >
+          </div>
+          <div class="field-heading">
+            <label for="english"><strong>English</strong></label
+            ><small id="pages">Keep the original number of page breaks.</small>
+          </div>
+          <textarea
+            id="english"
+            rows="6"
+            spellcheck="true"
+            placeholder="Write the English translation here…"
+          ></textarea>
+          <p class="hint">
+            Use a new line for a line break. Type <code>\f</code> for a new dialogue page. Existing
+            text is a draft and may be improved. Each page needs some text; the Python build checks
+            whether it fits the game’s text box. Keep source highlights with
+            <code>[blue]text[/color]</code> or <code>[red]text[/color]</code> in the same order.
+          </p>
+          <p class="hint">Text preview</p>
+          <pre id="english-preview" aria-label="English text preview"></pre>
+          <label for="note" class="field-heading"
+            ><strong>Translator note (optional)</strong></label
+          >
+          <textarea id="note" rows="2" placeholder="Reference, tone, uncertain reading…"></textarea>
+          <p id="record-status" class="record-status" role="status"></p>
+          <div class="actions">
+            <button id="previous" type="button">← Previous</button
+            ><button id="next" type="button">Next →</button
+            ><button id="issue" type="button">Suggest on GitHub</button>
+          </div>
+          <details class="glossary">
+            <summary>Terminology</summary>
+            <input
+              id="term-search"
+              placeholder="Find a name or term"
+              aria-label="Search glossary"
+            />
+            <div id="term-results"></div>
+          </details>
+        </article>
+      </section>
+      <section class="export">
+        <div>
+          <h2>Export this batch</h2>
+          <p>
+            Drafts stay in this browser unless you export them. For one
+            contribution, use <strong>Suggest on GitHub</strong> above. To send
+            several field lines together, download both files and submit them in
+            a pull request to staging. To test locally, use the JSON file with the
+            <a href="install.html#apply-your-own-dialogue-edits">dialogue build command</a>.
+            Neither download contains Japanese source text.
+          </p>
+        </div>
+        <div class="export-actions">
+          <button id="download-json" type="button">Download JSON</button
+          ><button id="download-csv" type="button">Download CSV</button>
+        </div>
+        <p id="export-status" role="status"></p>
+      </section>
+      <footer>
+        <p class="project-links">
+          <a
+            href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+            >Project repository</a
+          >
+          · <a href="https://github.com/zthegin/zthegin.github.io">Website repository</a> ·
+          <a href="https://zthegin.github.io/">Website</a>
+        </p>
+        <p>
+          Unofficial fan and educational project for this Nintendo DS game. I do not own
+          Gintama or any original game content. All game rights remain with their respective
+          holders. <a href="LICENSE">License</a> · <a href="rights.html">Rights</a>
+        </p>
+        <p>
+          I do not support piracy. Use only your own legally obtained ROM; do not share
+          game files or unauthorized download links.
+        </p>
+        <p>
+          For a rights concern, please identify the affected material and your authority to act. I will promptly review the request. For a verified request, I will remove or disable the affected material I control and stop the related work.
+          <a href="rights.html">Rights and removal requests</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

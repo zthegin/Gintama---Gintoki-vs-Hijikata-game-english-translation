@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="description" content="Unofficial English fan translation contributor guide for Gintama: Gintoki vs. Hijikata!? Not affiliated with the rights holders. Supply your own legally obtained ROM." />
+    <title>Unofficial Contributor guide · Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! · Nintendo DS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="theme.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <div class="project-heading">
+          <h1>Gintama: Gintoki vs. Hijikata!?</h1>
+          <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
+        </div>
+        <nav aria-label="Main">
+          <a href="index.html">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
+          ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
+      </div>
+    </header>
+    <main id="main" class="shell prose">
+      <p class="game-title">
+        English translation of <strong>Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!</strong> for Nintendo DS.
+      </p>
+      <h2>Your first translation</h2>
+      <p>
+        You do not need to code to help translate. Start with one record and
+        <strong>Suggest on GitHub</strong>. You need a GitHub account and your
+        own legally obtained, matching ROM to check the Japanese. No Python,
+        Git, fork or file upload is needed.
+      </p>
+      <ol>
+        <li>
+          Open <a href="index.html">Dialogue</a> and choose your game file. It
+          is read locally and stays on your computer.
+        </li>
+        <li>
+          Choose a <strong>Batch</strong>, then select a line from the list.
+        </li>
+        <li>
+          Write the English. Keep the page count shown above the text box; type
+          <code>\f</code>
+          for a page break. Give every page some text. Add a note if anything is uncertain.
+        </li>
+        <li>
+          Click <strong>Suggest on GitHub</strong>, sign in if needed, check
+          the prepared suggestion and submit the issue.
+        </li>
+      </ol>
+      <p>
+        That submits one record for review. A maintainer checks the wording and
+        local build before accepting it; the issue does not publish the edit.
+        Accepted suggestions are credited to the account that opened the issue,
+        with a link on the translators page. Keep Yorozuya, Gin Tama and character
+        names consistent. If you only proofread the English, say so in your note.
+      </p>
+      <p>
+        Use <a href="cutscenes.html">Opening</a> for the indexed first-cutscene
+        entries, <a href="battle.html">Battle</a> for battle text, or
+        <a href="graphics.html">Images</a> for name labels. These also use
+        <strong>Suggest on GitHub</strong>. Keep opening parts in their existing
+        count and order; for image labels, check native size and wait for
+        <strong>Fits</strong>. Other adventure cutscenes are not indexed yet.
+      </p>
+      <p>
+        Issues are public under your GitHub account. Submit English and notes
+        only; keep game files, source dumps, captures, private paths and contact
+        details out of the issue. Read the <a href="rights.html">contribution terms</a>.
+      </p>
+      <details id="batch-contributions">
+        <summary>Submit several field lines or image labels</summary>
+        <ol>
+          <li>
+            This optional route is for several records together. Make your edits
+            in <a href="index.html">Dialogue</a> or
+            <a href="graphics.html">Images</a>. For image labels, check native
+            size and wait for <strong>Fits</strong>.
+          </li>
+          <li>
+            Download <strong>both JSON and CSV</strong> for the same batch.
+            Drafts otherwise stay only in this browser.
+          </li>
+          <li>
+            Fork the
+            <a
+              href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+              >project repository</a
+            >. Uncheck <strong>Copy the main branch only</strong> so your fork
+            includes <strong>staging</strong>. In your fork, select that branch,
+            use <strong>Sync fork → Update branch</strong> if offered, then
+            create your contribution branch from it. Upload both files to the
+            matching folders below.
+          </li>
+          <li>
+            Open a pull request to <strong>staging</strong>, check the changed
+            files and describe your edits. Carry over only your own edits if the
+            batch has changed since the website was built. Update the same
+            branch if reviewers request changes.
+          </li>
+        </ol>
+        <p>
+          Dialogue example: <code>translations/ready/batch_0001.json</code> and
+          <code>csv/ready/batch_0001.csv</code>. Use your actual batch’s
+          existing names and folders.
+        </p>
+        <p>
+          Image labels:
+          <code>translations/graphics/gin_tama_names.json</code> and
+          <code>csv/graphics/gin_tama_names.csv</code>.
+        </p>
+        <p>
+          Opening exports replace <code>reference/opening_scene.json</code>.
+          Battle exports contain the selected script; merge its messages into
+          <code>reference/battle.json</code>, keeping every other script and existing entry.
+          These packs do not need CSV files. Test locally first; CI checks source identities,
+          but cannot check your ROM's message fit. The
+          <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/BROWSER_EDITOR.md">editor guide</a>
+          explains both routes.
+        </p>
+        <p>
+          Remove any <code>(1)</code> suffix added by your browser. Keep IDs,
+          hashes and record order unchanged. Anyone with a GitHub account can
+          review. Two current account approvals mark valid translation edits for
+          the owner's attention. Only the owner merges into
+          <strong>staging</strong> or <strong>main</strong>; nothing merges
+          automatically. New commits need fresh approvals. Download releases
+          from main and submit translations to staging.
+        </p>
+        <p>
+          See the
+          <a
+            href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/START_HERE.md#submit-a-batch-or-image-label"
+            >upload walkthrough</a
+          >
+          for each GitHub step. Submit English and notes only; keep game files
+          and captures private. Suggestions and PRs are public under your GitHub
+          account, so remove private paths and contact details. Before using Git,
+          check the <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/CONTRIBUTING.md#before-your-first-git-commit">commit email advice</a>. Read the
+          <a href="rights.html">contribution terms</a>.
+        </p>
+      </details>
+      <details>
+        <summary>See image-label examples</summary>
+        <figure class="tutorial-shot">
+          <img
+            src="screenshots/image-label.png"
+            alt="A fitted English label in the editor, with no game file loaded"
+            width="1000"
+            height="1435"
+            loading="lazy"
+          />
+          <figcaption>A short label that fits.</figcaption>
+        </figure>
+        <figure class="tutorial-shot">
+          <img
+            src="screenshots/two-line-label.png"
+            alt="A two-line English label in the editor"
+            width="1000"
+            height="1435"
+            loading="lazy"
+          />
+          <figcaption>
+            A two-line label. These are editor previews without game files
+            loaded.
+          </figcaption>
+        </figure>
+      </details>
+      <details>
+        <summary>Run the editor locally</summary>
+        <p>
+          Install Python 3.13 (Python 3.11 is also tested), extract the project source and open a terminal
+          in its folder. On Windows, use the commands below. On macOS/Linux, use
+          <code>python3.13</code> instead of <code>py -3.13</code>.
+        </p>
+        <pre class="command">
+py -3.13 tools/build_web.py --out ../editor-site
+py -3.13 -m http.server 8000 --bind 127.0.0.1 --directory ../editor-site</pre
+        >
+        <p>
+          Open <code>http://127.0.0.1:8000/</code>. Keep the terminal running;
+          Ctrl+C stops it.
+        </p>
+      </details>
+      <p>
+        If a label does not fit, shorten it or use two lines. If JSON/CSV checks
+        fail, download both again from the same editor state. The dialogue editor checks
+        page breaks; the Python build checks the font and final fit. If a build
+        says the dialogue is too long, shorten it and download both files again. To test image
+        changes in-game, follow
+        <a href="install.html">installation</a>. Dialogue exports are drafts;
+        the current build applies the bundled field dialogue, opening scene and battle text.
+        There are 8424 field messages (37.47% of 22480 indexed records), 42 of 71 field batches complete, 520 opening cutscene entries and 406 battle messages (0.29% of 142242 indexed battle records). Indexed totals include records the writers cannot edit. Most dialogue remains untranslated.
+      </p>
+      <p>
+        To test opening or battle edits locally, download their JSON and use
+        <code>--cutscene</code> or <code>--battle</code> with the
+        <a href="install.html">local builder</a>. A browser export is a draft;
+        the build checks whether it fits. You can submit one suggestion without
+        installing Python or building a ROM yourself.
+      </p>
+      <p>
+        Maintainers can follow the
+        <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/REVIEW_SUGGESTIONS.md">review and acceptance steps</a>
+        to take an issue through a checked staging PR, publish it on main and close the issue.
+      </p>
+      <footer>
+        <p class="project-links">
+          <a
+            href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+            >Project repository</a
+          >
+          ·
+          <a href="https://github.com/zthegin/zthegin.github.io"
+            >Website repository</a
+          >
+          ·
+          <a href="https://zthegin.github.io/">Website</a>
+        </p>
+        <p>
+          Unofficial fan and educational project for this Nintendo DS game. I do not own
+          Gintama or any original game content. All game rights remain with their respective
+          holders. <a href="LICENSE">License</a> · <a href="rights.html">Rights</a>
+        </p>
+        <p>
+          I do not support piracy. Use only your own legally obtained ROM; do not share
+          game files or unauthorized download links.
+        </p>
+        <p>
+          For a rights concern, please identify the affected material and your authority to act. I will promptly review the request. For a verified request, I will remove or disable the affected material I control and stop the related work.
+          <a href="rights.html">Rights and removal requests</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

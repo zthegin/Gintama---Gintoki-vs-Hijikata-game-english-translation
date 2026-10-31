@@ -1,0 +1,3517 @@
+{
+  "format": "gintama-battle-v1",
+  "notes": [
+    "Unofficial fan translation. I do not own Gintama or the original game. Use only your own legally obtained ROM; piracy is discouraged. See RIGHTS.md.",
+    "English adaptations and source identifiers only. Original Japanese and game bytes are read locally.",
+    "Only supported END-terminated records are editable. Embedded tables, page controls and trailing null-terminated strings are left unchanged."
+  ],
+  "scripts": [
+    {
+      "script": "battle/script/character/ayame.msb",
+      "source_msb_sha256": "af3091ba218e58391a05bfdd26fa5f629cca902cd65ff4df7088723c414209a8",
+      "source_cdb_sha256": "65a64509566bd86a06f657296516e775b38f435e4015664838daac9754af16c2",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "c89b63b868caff4c797fdaebfbe5090fa6cff18ff526337033bcb921727b5e63",
+          "parts": [
+            "Good evening.\nAssassin Sacchan here."
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "16cdc8268b82bf811361dacff07e9bd4bdb0eb1bde56fb1faae3f5550d9de613",
+          "parts": [
+            "Hehe... I'm a masochist...\nAn utter masochist..."
+          ]
+        },
+        {
+          "offset": 140,
+          "source_words_sha256": "9aebdc4614d469a554f1ee67e18bd3925f9499cc204d933b3d723c451ec02043",
+          "parts": [
+            "You... missed?\nAre you teasing me?"
+          ]
+        },
+        {
+          "offset": 192,
+          "source_words_sha256": "2244d91079b50a048b25a4dcf916e0f7c0a92d7adc784d8a89492e68ec77650a",
+          "parts": [
+            "Ohohohoho..."
+          ]
+        },
+        {
+          "offset": 220,
+          "source_words_sha256": "64cfaaf9b107bd62d1c9ac50957d895ff46cfc530d075d660f7e90e43cf391cf",
+          "parts": [
+            "Didn't hurt.\nThat's why I defended."
+          ]
+        },
+        {
+          "offset": 264,
+          "source_words_sha256": "4d3d059c1827f4fbcf94c6b6ac629b4c8b4d76013dae37dd15d918d2190152cf",
+          "parts": [
+            "How do you like my trap?"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/bad_leader.msb",
+      "source_msb_sha256": "611594089efe5ce458169b680e281a9a79151bdbca6b9439d883100276428254",
+      "source_cdb_sha256": "a47616666b54667f69ce4613e6f46aba9e284b4264e8127c1cfd0d1202d8cbfb",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 48,
+          "source_words_sha256": "68e86dd947c46daa780e5197c4d1fe85f4755a3fe190f5a131854e4c067ebf7e",
+          "parts": [
+            "L-long live our evil organization!"
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "4b9b141c2e47e58ffce2a1c1fac397a0c5bf2660593e196915f49c35acc01582",
+          "parts": [
+            "Where am I? Who am I?\n...Oh, right. I don't have a name..."
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "57ab0bd7999e5d9a04c963327c07accd8e82bb6fdb948262167010fd5b819d78",
+          "parts": [
+            "What?! It means nothing if you miss!"
+          ]
+        },
+        {
+          "offset": 228,
+          "source_words_sha256": "9d95c91ecc3e6332fd0cefe30729593b19f91e8f851ec7a930acb410abd26f60",
+          "parts": [
+            "My enemy... Oh, these guys..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/bad_subordinate00.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "75f415951c7ada3f1ea1bd73b601f8dad1275447b87bfc05266b4003206fa439",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/bad_subordinate01.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "b6fa0c4ed333ba79a642f42f0ce266ec22849463e212606e721c2ff71129eefa",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/c_gintoki.msb",
+      "source_msb_sha256": "164a8484663b78e475d478345e588a95e74b5b5af21c71190595cbe1c4776e9b",
+      "source_cdb_sha256": "6f78466ddee0118d6871de18bbd8a255a114ec554e404f300e722aae6d02d25b",
+      "record_count": 16,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "63c378e6f46c709dedb6849df187644c23ba28c53b2d0a47d14bad46fa98498d",
+          "parts": [
+            "All right... let's get started!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "9cd115ef645f394596adb04163d3364cd810b24f32489cf5f236266d23b4e151",
+          "parts": [
+            "I'll make this quick!"
+          ]
+        },
+        {
+          "offset": 68,
+          "source_words_sha256": "ff82e2ab5987c7c3be04e54db6e2f6e30a0962bfeea854e87a10ef546b2af82b",
+          "parts": [
+            "Watch me look cool!"
+          ]
+        },
+        {
+          "offset": 100,
+          "source_words_sha256": "eb95d06975f60c1ec88e1d51ac320298f2ace6205707a0e47ce1e25addac5b1e",
+          "parts": [
+            "D-dammit...!!"
+          ]
+        },
+        {
+          "offset": 140,
+          "source_words_sha256": "b7fc9d2d75d77fb93659f6fcba4f4ad86e894cd0c1ac572ae429f255a28e3e42",
+          "parts": [
+            "To this guy...?!"
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "4d1ad8b224c40d16a78238e7017327b94b488eded17546765c311b733eb5daec",
+          "parts": [
+            "Well... you got me. Heh..."
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "c42e939306ca97d8225c95159b290ec3bbb1b98b1b6f186ae6c8adb17758eab7",
+          "parts": [
+            "Some lousy hero I am..."
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "69fd9b81d8562a2d60283d3ded006e8e79c942d3535e7233cc4c0459f6c907ce",
+          "parts": [
+            "P-pathetic..."
+          ]
+        },
+        {
+          "offset": 272,
+          "source_words_sha256": "8f78654a8546b9eb0282d118622b0475ae1cb163bdb48b9e425b947d1ead1bba",
+          "parts": [
+            "My life's not worth a thing..."
+          ]
+        },
+        {
+          "offset": 308,
+          "source_words_sha256": "0bb26a873651f553cf135223a1b1f25e20f6b9087d6f31edf4a7c83fc92a0357",
+          "parts": [
+            "Huh, I missed?\nMan, that's embarrassing."
+          ]
+        },
+        {
+          "offset": 352,
+          "source_words_sha256": "9e70e8f143896bdd315bad76b621be4baabdd22493308d2b62fdf9e28834aa53",
+          "parts": [
+            "Whoa, whoa, whoa!"
+          ]
+        },
+        {
+          "offset": 372,
+          "source_words_sha256": "8307ec1c044c155f51d13f508f921b7e8893a5a200b83dcf31a5abff59806b20",
+          "parts": [
+            "Sorry. My defense is perfect!"
+          ]
+        },
+        {
+          "offset": 408,
+          "source_words_sha256": "24b549ba5cd2acc7996955643c224ffa203478a6ec92dcdefc4893e1a05a7547",
+          "parts": [
+            "Behold! Overwhelming power!"
+          ]
+        },
+        {
+          "offset": 440,
+          "source_words_sha256": "0af61cf1d99c9d99b3890c9b743b303947fbb03ae117b2674eeebd733d99da04",
+          "parts": [
+            "Beat me? Try again in a century!"
+          ]
+        },
+        {
+          "offset": 476,
+          "source_words_sha256": "becba75a21d893311a125063b773acebd9c77270c3bb4e627119bcd76bd6e42e",
+          "parts": [
+            "Close... but that's a gap\nyou'll never bridge."
+          ]
+        },
+        {
+          "offset": 544,
+          "source_words_sha256": "792792ced134152e7f9c63d4568c735fd78581cfc9f60085d2c283fd76ea7876",
+          "parts": [
+            "Huh? Wanted me to go easy?\nShould've said so from the start."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/c_hijikata.msb",
+      "source_msb_sha256": "3514c43666d76fa9239a2491ef3553006be521df11a742c4c128c95e74d13e66",
+      "source_cdb_sha256": "1e373bdfb5e776eec22780ce0e10189c6c6b3b141f82cef173ffd3505323562d",
+      "record_count": 16,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "69a7b1c8c048be9bfe0580a50c16922c8fe9339d468eb84a7c607c76fc281790",
+          "parts": [
+            "Tch... What a mess this is."
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "0d845cd3f4b30e172581856f2115385a8ed59e416a4355ba2436f401e1f24b3f",
+          "parts": [
+            "...Defying the authorities, huh?"
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "2f5eed1da10c2a8a97c728f880cd39a39a2ff4db69ed66190610dd4b9130d198",
+          "parts": [
+            "Heh... This should be a fun fight."
+          ]
+        },
+        {
+          "offset": 120,
+          "source_words_sha256": "954c13f737586c4491626557544f55d18a32919a21cbe0d651908bc344c0db92",
+          "parts": [
+            "I-impossible... Me...?!"
+          ]
+        },
+        {
+          "offset": 160,
+          "source_words_sha256": "26e0e0314f93ce6cefcf91673e10637379d166ecae733da99a5ae700e87a2be8",
+          "parts": [
+            "T-to the likes of you...!!"
+          ]
+        },
+        {
+          "offset": 224,
+          "source_words_sha256": "73d5a78b715ea0c6b35b93227bc59c0c99c9ec9323cc49956fd50c8a91f94411",
+          "parts": [
+            "...It was all an illusion... Heh heh..."
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "4136b6884c9bcb0b41afbec78391385ba21504eb312b6dd3a2decc5a94449b57",
+          "parts": [
+            "Laugh... Go on, laugh... Heh... Heh heh..."
+          ]
+        },
+        {
+          "offset": 316,
+          "source_words_sha256": "185f3595ec1689078ccd50c6eb520002cec65bf1396373420dcd13678ac7a274",
+          "parts": [
+            "I don't give a damn anymore..."
+          ]
+        },
+        {
+          "offset": 356,
+          "source_words_sha256": "821495f163f11ec7daa4d9d1e0f244ea370ab782fb7792968ac9374114cf0b6d",
+          "parts": [
+            "Aim properly..."
+          ]
+        },
+        {
+          "offset": 380,
+          "source_words_sha256": "9e28ac4d7b670849355c6e98017a239c0d2aa4befbc91b73b91f51ab3ad01a6a",
+          "parts": [
+            "W-w-whoa..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/catharine.msb",
+      "source_msb_sha256": "b8ee272f086d2e0d990a534289cd883a8c427ba7101136cbcad7f3ae6bf3a5ae",
+      "source_cdb_sha256": "0a163aede111ab49bf60dc862306333b4809e7089942a40ac7ecec9e38b7c021",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "d4e84ed7ad1e5e28061023a6ce5bb62f371153a38bb065276f96cea7d7c5da6c",
+          "parts": [
+            "Some nerve you've got..."
+          ]
+        },
+        {
+          "offset": 32,
+          "source_words_sha256": "d4f207f7bdc71d3e55bc5b5e9ea291c111f22c21a8022049f59def1a8bd447ff",
+          "parts": [
+            "Aaaagh!"
+          ]
+        },
+        {
+          "offset": 60,
+          "source_words_sha256": "18dd8bb46453bb69da296bd09c90b7b1b9f4caccbb4c5308cf983e2fece9209f",
+          "parts": [
+            "People don't change\nthat easily..."
+          ]
+        },
+        {
+          "offset": 120,
+          "source_words_sha256": "ae15f9d15e8846ffb5c0471168dfe82d7592e769baccb9f05d4e2d64007dc0e3",
+          "parts": [
+            "Aim properly, blockhead!"
+          ]
+        },
+        {
+          "offset": 156,
+          "source_words_sha256": "3567206bfc2675f259cb4fcfe9aa58c2ab6a716891c45445d8125ba74bd694d1",
+          "parts": [
+            "Uhyahyahyahya!"
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "dcf034f3937f9566aaabde903b3c8561f912dfeb5bea877ead19e35583eed716",
+          "parts": [
+            "Don't underestimate my defense!"
+          ]
+        },
+        {
+          "offset": 220,
+          "source_words_sha256": "d277c8804114a254ff1f1d115d8eb939e502bc12855522a80bb61c5f3ee89693",
+          "parts": [
+            "How's THIS machine?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/chatran_amand00.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "65749771388707de9f6ea30b32330aeda53e1ca444454dce5020b1bc1030b8a7",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/chatran_amand01.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "65749771388707de9f6ea30b32330aeda53e1ca444454dce5020b1bc1030b8a7",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/daraku.msb",
+      "source_msb_sha256": "5f6606e5101fbaad08d0fdf8e9e010f65610df26c8a784e1b744e96c1742fd70",
+      "source_cdb_sha256": "e286b2fa1353c3a7d0c216b0eda6052d2e4b632b28c8196241a9ad38391f115d",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 72,
+          "source_words_sha256": "137aa642685ed09784fdc03d8a6e6f2f3a5a6d2068c986c43261999284d918d1",
+          "parts": [
+            "Pretty clean for a guy who doesn't wash his hands after a piss..."
+          ]
+        },
+        {
+          "offset": 148,
+          "source_words_sha256": "3b6b0957ce798566644c52dbfe0ab61b3ea853929603e009fb9e5be955bb3b2c",
+          "parts": [
+            "No... Some things won't come clean, no matter how much you wash... No..."
+          ]
+        },
+        {
+          "offset": 236,
+          "source_words_sha256": "b26c045480a6ccb91f0bb8ff112bbbb2be75f99b3766626a1efaaebcae096e3f",
+          "parts": [
+            "Not pretty... If you're going to attack, at least hit me."
+          ]
+        },
+        {
+          "offset": 300,
+          "source_words_sha256": "ea3484fc9cbcd2e7c8e4fa2856c231d9cff128030a8e630b08acd29a3597addb",
+          "parts": [
+            "My enemy... Where...?"
+          ]
+        },
+        {
+          "offset": 336,
+          "source_words_sha256": "88df5e9902f83e0a03fbce3bc73dba0eefd28fe45fb6ae8cac4ee2bff790a7ef",
+          "parts": [
+            "Whoa?! Right... I was guarding. You startled me..."
+          ]
+        },
+        {
+          "offset": 408,
+          "source_words_sha256": "5bd157628731b932817d083e3970c07e74c0d9c9796a59aaf0496a526edf2280",
+          "parts": [
+            "Get a taste of the space pirates' mechanical weapons!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/e_gintoki.msb",
+      "source_msb_sha256": "164a8484663b78e475d478345e588a95e74b5b5af21c71190595cbe1c4776e9b",
+      "source_cdb_sha256": "3f65ed05643a1cd90d4feffec4d00d678ac218326402349275232fe2469bac14",
+      "record_count": 16,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "63c378e6f46c709dedb6849df187644c23ba28c53b2d0a47d14bad46fa98498d",
+          "parts": [
+            "All right... let's get started!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "9cd115ef645f394596adb04163d3364cd810b24f32489cf5f236266d23b4e151",
+          "parts": [
+            "I'll make this quick!"
+          ]
+        },
+        {
+          "offset": 68,
+          "source_words_sha256": "ff82e2ab5987c7c3be04e54db6e2f6e30a0962bfeea854e87a10ef546b2af82b",
+          "parts": [
+            "Watch me look cool!"
+          ]
+        },
+        {
+          "offset": 100,
+          "source_words_sha256": "eb95d06975f60c1ec88e1d51ac320298f2ace6205707a0e47ce1e25addac5b1e",
+          "parts": [
+            "D-dammit...!!"
+          ]
+        },
+        {
+          "offset": 140,
+          "source_words_sha256": "b7fc9d2d75d77fb93659f6fcba4f4ad86e894cd0c1ac572ae429f255a28e3e42",
+          "parts": [
+            "To this guy...?!"
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "4d1ad8b224c40d16a78238e7017327b94b488eded17546765c311b733eb5daec",
+          "parts": [
+            "Well... you got me. Heh..."
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "c42e939306ca97d8225c95159b290ec3bbb1b98b1b6f186ae6c8adb17758eab7",
+          "parts": [
+            "Some lousy hero I am..."
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "69fd9b81d8562a2d60283d3ded006e8e79c942d3535e7233cc4c0459f6c907ce",
+          "parts": [
+            "P-pathetic..."
+          ]
+        },
+        {
+          "offset": 272,
+          "source_words_sha256": "8f78654a8546b9eb0282d118622b0475ae1cb163bdb48b9e425b947d1ead1bba",
+          "parts": [
+            "My life's not worth a thing..."
+          ]
+        },
+        {
+          "offset": 308,
+          "source_words_sha256": "0bb26a873651f553cf135223a1b1f25e20f6b9087d6f31edf4a7c83fc92a0357",
+          "parts": [
+            "Huh, I missed?\nMan, that's embarrassing."
+          ]
+        },
+        {
+          "offset": 352,
+          "source_words_sha256": "9e70e8f143896bdd315bad76b621be4baabdd22493308d2b62fdf9e28834aa53",
+          "parts": [
+            "Whoa, whoa, whoa!"
+          ]
+        },
+        {
+          "offset": 372,
+          "source_words_sha256": "8307ec1c044c155f51d13f508f921b7e8893a5a200b83dcf31a5abff59806b20",
+          "parts": [
+            "Sorry. My defense is perfect!"
+          ]
+        },
+        {
+          "offset": 408,
+          "source_words_sha256": "24b549ba5cd2acc7996955643c224ffa203478a6ec92dcdefc4893e1a05a7547",
+          "parts": [
+            "Behold! Overwhelming power!"
+          ]
+        },
+        {
+          "offset": 440,
+          "source_words_sha256": "0af61cf1d99c9d99b3890c9b743b303947fbb03ae117b2674eeebd733d99da04",
+          "parts": [
+            "Beat me? Try again in a century!"
+          ]
+        },
+        {
+          "offset": 476,
+          "source_words_sha256": "becba75a21d893311a125063b773acebd9c77270c3bb4e627119bcd76bd6e42e",
+          "parts": [
+            "Close... but that's a gap\nyou'll never bridge."
+          ]
+        },
+        {
+          "offset": 544,
+          "source_words_sha256": "792792ced134152e7f9c63d4568c735fd78581cfc9f60085d2c283fd76ea7876",
+          "parts": [
+            "Huh? Wanted me to go easy?\nShould've said so from the start."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/e_hijikata.msb",
+      "source_msb_sha256": "6c426ff2079a7755263bb1d90cc8898f5ef8c774401e76123f032e75e35f8183",
+      "source_cdb_sha256": "a7ca9aedb38abce311c01efe99b207ad7038677b2896980ff814fb55dddfb79f",
+      "record_count": 16,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/elizabeth.msb",
+      "source_msb_sha256": "d08f748b86c9f5627a32d5aee8c9602e56fd149fc60cddb92a5954ccf0b2c854",
+      "source_cdb_sha256": "59fd324677b00d9d721991b3663c831e87c7b984e1690dbe3bf7c727d28c5897",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+          "parts": [
+            "..."
+          ]
+        },
+        {
+          "offset": 20,
+          "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+          "parts": [
+            "..."
+          ]
+        },
+        {
+          "offset": 36,
+          "source_words_sha256": "754e441a41f410aa3ae4525e5e917149629943adf25e5e697951d3ddaba1720f",
+          "parts": [
+            "...Ugh, what a pain."
+          ]
+        },
+        {
+          "offset": 64,
+          "source_words_sha256": "b631c9d5cda51d00a93e238403bf349d1c533b3a9d69903f38ac81bdcd237228",
+          "parts": [
+            "Miss..."
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+          "parts": [
+            "..."
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+          "parts": [
+            "..."
+          ]
+        },
+        {
+          "offset": 112,
+          "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+          "parts": [
+            "..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/enemy00.msb",
+      "source_msb_sha256": "587a5c27f44f78eec31b7b884d56946c78ee76d7968f529874c684f924c9b05c",
+      "source_cdb_sha256": "b6567fac2fb87633b26ad8fff74f5f05f3654edb4b7ae20126f7f8f996cd2471",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/enemy01.msb",
+      "source_msb_sha256": "587a5c27f44f78eec31b7b884d56946c78ee76d7968f529874c684f924c9b05c",
+      "source_cdb_sha256": "73a096f6113423f4c3085221dc8c593b983dd0af31504e79d6d2a7b7b8763252",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/get_away.msb",
+      "source_msb_sha256": "4926b5ef8171aeb0895e3d94f0cbacb93ee0147370abc28287eeddc82ee3f12d",
+      "source_cdb_sha256": "bc46879ad3ddcc03406a4df71b717943a20b37d033d104e66ab7fa4fc53e54b0",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/gintoki.msb",
+      "source_msb_sha256": "fa82ff7dc738d787b36bcce140aacf8b3ac8ca87379e0654a4b7b53f0189e9c6",
+      "source_cdb_sha256": "9f43025d59f6a33a9640363e300d68f8bad68bcd6396b4c327ba262246f6457e",
+      "record_count": 16,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "63c378e6f46c709dedb6849df187644c23ba28c53b2d0a47d14bad46fa98498d",
+          "parts": [
+            "All right... let's get started!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "9cd115ef645f394596adb04163d3364cd810b24f32489cf5f236266d23b4e151",
+          "parts": [
+            "I'll make this quick!"
+          ]
+        },
+        {
+          "offset": 68,
+          "source_words_sha256": "ff82e2ab5987c7c3be04e54db6e2f6e30a0962bfeea854e87a10ef546b2af82b",
+          "parts": [
+            "Watch me look cool!"
+          ]
+        },
+        {
+          "offset": 100,
+          "source_words_sha256": "eb95d06975f60c1ec88e1d51ac320298f2ace6205707a0e47ce1e25addac5b1e",
+          "parts": [
+            "D-dammit...!!"
+          ]
+        },
+        {
+          "offset": 140,
+          "source_words_sha256": "b7fc9d2d75d77fb93659f6fcba4f4ad86e894cd0c1ac572ae429f255a28e3e42",
+          "parts": [
+            "To this guy...?!"
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "4d1ad8b224c40d16a78238e7017327b94b488eded17546765c311b733eb5daec",
+          "parts": [
+            "Well... you got me. Heh..."
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "c42e939306ca97d8225c95159b290ec3bbb1b98b1b6f186ae6c8adb17758eab7",
+          "parts": [
+            "Some lousy hero I am..."
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "69fd9b81d8562a2d60283d3ded006e8e79c942d3535e7233cc4c0459f6c907ce",
+          "parts": [
+            "P-pathetic..."
+          ]
+        },
+        {
+          "offset": 272,
+          "source_words_sha256": "8f78654a8546b9eb0282d118622b0475ae1cb163bdb48b9e425b947d1ead1bba",
+          "parts": [
+            "My life's not worth a thing..."
+          ]
+        },
+        {
+          "offset": 308,
+          "source_words_sha256": "0bb26a873651f553cf135223a1b1f25e20f6b9087d6f31edf4a7c83fc92a0357",
+          "parts": [
+            "Huh, I missed?\nMan, that's embarrassing."
+          ]
+        },
+        {
+          "offset": 352,
+          "source_words_sha256": "9e70e8f143896bdd315bad76b621be4baabdd22493308d2b62fdf9e28834aa53",
+          "parts": [
+            "Whoa, whoa, whoa!"
+          ]
+        },
+        {
+          "offset": 372,
+          "source_words_sha256": "8307ec1c044c155f51d13f508f921b7e8893a5a200b83dcf31a5abff59806b20",
+          "parts": [
+            "Sorry. My defense is perfect!"
+          ]
+        },
+        {
+          "offset": 408,
+          "source_words_sha256": "24b549ba5cd2acc7996955643c224ffa203478a6ec92dcdefc4893e1a05a7547",
+          "parts": [
+            "Behold! Overwhelming power!"
+          ]
+        },
+        {
+          "offset": 440,
+          "source_words_sha256": "4852597a706b60dc14bb38e0feb6695a415524340fa9c19e675dc1581483a869",
+          "parts": [
+            "Beat me? Try again in a century!"
+          ]
+        },
+        {
+          "offset": 480,
+          "source_words_sha256": "becba75a21d893311a125063b773acebd9c77270c3bb4e627119bcd76bd6e42e",
+          "parts": [
+            "Close... but that's a gap\nyou'll never bridge."
+          ]
+        },
+        {
+          "offset": 548,
+          "source_words_sha256": "5c02210e334f2510b1a28951b83a9bfc25343d8770e71417307efaa33776c748",
+          "parts": [
+            "Till this body gives out,\nI'll keep living with my head high!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/hasegawa.msb",
+      "source_msb_sha256": "7ac8ddce8d63def03f83af26beabafd4d2392ad489e0dc5f0e89150793c212a0",
+      "source_cdb_sha256": "03e8520e661a0d5cb0cc0335fabb3799a9ae980e56e71b57f4e3ade8c1ee1bf1",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "377f15afb1afe75375fa9118412e037a12ca87df78486c8cb542611614be557c",
+          "parts": [
+            "Don't underestimate an old guy!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "b445c75f66e30918d602dd36607f0a2094d33931c3bb2d9612491f4344dec713",
+          "parts": [
+            "Gwaaagh!\nK-knew I couldn't do it..."
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "39e81ed7b0c6e12dc5cba5fb849d947f905e2a4ea8b06670f9ca14966a0de5c8",
+          "parts": [
+            "Yeah. I'm Madao...\nA totally useless old guy..."
+          ]
+        },
+        {
+          "offset": 152,
+          "source_words_sha256": "4cd43bce8152ec6408956d8e618bf7dc32951e28ac7d2b6091af9f62afd6bb0c",
+          "parts": [
+            "Nice! Good miss!\nThis old guy approves!"
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "02409bf8600ace9fda00b0814468ae01a3e59ad09588090ed9f60eda45ed000a",
+          "parts": [
+            "H-hehehehe..."
+          ]
+        },
+        {
+          "offset": 236,
+          "source_words_sha256": "82aee6a3b6b81be30ff89e7998f0005a896c5167e5f007c014599e5cb9adb1f1",
+          "parts": [
+            "Even an old guy\ncan defend himself."
+          ]
+        },
+        {
+          "offset": 284,
+          "source_words_sha256": "f9c56a8e366a7b9a1d20940608d5eeaf25471f352c544d07f8de2bacb219448c",
+          "parts": [
+            "Civilization's might!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/hata.msb",
+      "source_msb_sha256": "7dfa859923c1536e41374f4c6ae902d774493c89cfd7a1169241ef4e9b16de2b",
+      "source_cdb_sha256": "f4f1b4e37429fd236bf8439bca7f112b1174e3a495b161796111538127fc97c0",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "318b9ee3912dd92b881ea73aae3bc6e9c96765a9cd62f69015a32285ad3373e7",
+          "parts": [
+            "Very well...\nWe shall indulge you a little."
+          ]
+        },
+        {
+          "offset": 52,
+          "source_words_sha256": "a6b5853a1bf1898d428089e7c0d2ae9b6cdb3185f9ac9713d0b90111d1334279",
+          "parts": [
+            "Gwaaagh!\nI-I'm telling Father!"
+          ]
+        },
+        {
+          "offset": 116,
+          "source_words_sha256": "1462bbb804751268b454a57466b014ff8bb5173f9be0272684e5f5f50582ffec",
+          "parts": [
+            "I-I'm a prince...\nA prince, I say... A prince..."
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "32d9cfec0cdc34c2a4ea0cf982b7af58d3359e839018caeb577885d19c69723e",
+          "parts": [
+            "You missed!\nYou can't hit me!"
+          ]
+        },
+        {
+          "offset": 220,
+          "source_words_sha256": "dcb780f7dd7911633777466df0d38c7e51657c254ffb666dca5ad28b118e2998",
+          "parts": [
+            "Hmmmm...?"
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "10e2925ee59c9ae021a1bc353e8501adb847cd5ca16e2afe38b0329e07190bcd",
+          "parts": [
+            "Our defense is perfect!"
+          ]
+        },
+        {
+          "offset": 280,
+          "source_words_sha256": "1d9d0b90ce95ca915066198991824b5aa4dedd1087e3a07cfbd8cb84c9049a0d",
+          "parts": [
+            "Such science! Can you match it?"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/hijikata.msb",
+      "source_msb_sha256": "6c426ff2079a7755263bb1d90cc8898f5ef8c774401e76123f032e75e35f8183",
+      "source_cdb_sha256": "7df9abf4f066d5ad9e92b48c460b34553737a395d78662add735b0ee4a24a27b",
+      "record_count": 16,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "69a7b1c8c048be9bfe0580a50c16922c8fe9339d468eb84a7c607c76fc281790",
+          "parts": [
+            "Tch... What a mess."
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "0d845cd3f4b30e172581856f2115385a8ed59e416a4355ba2436f401e1f24b3f",
+          "parts": [
+            "You defying the law?"
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "2f5eed1da10c2a8a97c728f880cd39a39a2ff4db69ed66190610dd4b9130d198",
+          "parts": [
+            "Heh... This'll be fun."
+          ]
+        },
+        {
+          "offset": 120,
+          "source_words_sha256": "954c13f737586c4491626557544f55d18a32919a21cbe0d651908bc344c0db92",
+          "parts": [
+            "No... Not me...!"
+          ]
+        },
+        {
+          "offset": 160,
+          "source_words_sha256": "26e0e0314f93ce6cefcf91673e10637379d166ecae733da99a5ae700e87a2be8",
+          "parts": [
+            "Not to you...!"
+          ]
+        },
+        {
+          "offset": 224,
+          "source_words_sha256": "73d5a78b715ea0c6b35b93227bc59c0c99c9ec9323cc49956fd50c8a91f94411",
+          "parts": [
+            "...All an illusion... Heh."
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "4136b6884c9bcb0b41afbec78391385ba21504eb312b6dd3a2decc5a94449b57",
+          "parts": [
+            "Laugh... Go on... Heh..."
+          ]
+        },
+        {
+          "offset": 316,
+          "source_words_sha256": "185f3595ec1689078ccd50c6eb520002cec65bf1396373420dcd13678ac7a274",
+          "parts": [
+            "I don't care anymore..."
+          ]
+        },
+        {
+          "offset": 356,
+          "source_words_sha256": "821495f163f11ec7daa4d9d1e0f244ea370ab782fb7792968ac9374114cf0b6d",
+          "parts": [
+            "Aim properly..."
+          ]
+        },
+        {
+          "offset": 380,
+          "source_words_sha256": "9e28ac4d7b670849355c6e98017a239c0d2aa4befbc91b73b91f51ab3ad01a6a",
+          "parts": [
+            "W-w-wha...!"
+          ]
+        },
+        {
+          "offset": 400,
+          "source_words_sha256": "d4a3f7077e6f650ed7684c82d0cc9347ecf1b563c773ccc8efb2f47fc1fa3c44",
+          "parts": [
+            "Did you do something?\nDidn't notice."
+          ]
+        },
+        {
+          "offset": 440,
+          "source_words_sha256": "113589b5f7cdd7387f47c92fc80d422e554c37c78e1e3c4c665617838c4705c4",
+          "parts": [
+            "How's that for a trap?!"
+          ]
+        },
+        {
+          "offset": 560,
+          "source_words_sha256": "ef9e027fa1556ddb76410920f04ee0acf2de66ee9cca3113937250e438c448ed",
+          "parts": [
+            "Sorry. The Shinsengumi\ncan't waste all day\non you."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/hiraga.msb",
+      "source_msb_sha256": "b0ff8a36c01ec825e2ec4df484f7c89606fc2170259ea8f59abdc9ca4ad604d3",
+      "source_cdb_sha256": "5bcbd82cf9a7b7caa86dd8803df791ada8823a400ed95d5bf1a9969902e27dcf",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "965caa9cbc53cddb6f7585fd38a134234b500c3d358932f2bacb652681760b15",
+          "parts": [
+            "Hmph... I'll teach you a lesson!"
+          ]
+        },
+        {
+          "offset": 44,
+          "source_words_sha256": "6f7f14b4b7a6b6260aecbe7a147d170cf25cf60b768d7f9ad99be8fddc8f3654",
+          "parts": [
+            "D-Damn you!"
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "09d30bb015e5793f5c0092126dc9a4b44a933725611e997c33169ef24aa1e4f6",
+          "parts": [
+            "The world never changes...\nIt's all pointless...\nUtterly pointless..."
+          ]
+        },
+        {
+          "offset": 144,
+          "source_words_sha256": "36d3ac1e97e7eed71f4de3dfdd62f4ddbc3c0696ea81558ae58c93658ec72cfa",
+          "parts": [
+            "Whoa! You idiot!\nWhat if that had hit me?!"
+          ]
+        },
+        {
+          "offset": 192,
+          "source_words_sha256": "bc33d3d5a1b2d4bf83127da194de6785cd8fa53aab1e825b7fb9ff0a785afd52",
+          "parts": [
+            "Nwahahahaha!"
+          ]
+        },
+        {
+          "offset": 216,
+          "source_words_sha256": "094b275c9d13689477d88d4c05960dbe18f997795c4f932be431c95b928039c0",
+          "parts": [
+            "Well? An ironclad defense, eh?"
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "68667033d0b9c7f63edd20774ecd57b3a4d4a9a4fbc4351dd78d1909f26cbaa5",
+          "parts": [
+            "One of my own inventions...\nEnjoying yourself?"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/inui_amand00.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "140a98ff9f5b8eb2fa67b30e1e38449b2ee7777dcf36a5b9661542291872528c",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/inui_amand01.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "26c253bcfcc107bf2ac7408a0820de2d32a4363c534725883dcf81ac062a3294",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/jii.msb",
+      "source_msb_sha256": "87f58dd988ac5695e8814563078d56c14802a323c968f62d0d545975629dd9c2",
+      "source_cdb_sha256": "5e6e733165760b599b9868621b88cf1859647097e11f407542c38fe13e39d7bb",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "f84808fcc1f3159e6b89f65b54ae5a25f722e1325105f75aa55a70b6ee633a86",
+          "parts": [
+            "Sheesh... What a waste of time."
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "3058cbc17410f6d9305bbee0e44ae9092bdeb52eacdd5549abab3502021d52a6",
+          "parts": [
+            "Y-You... You'll pay for this!"
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "4b9c3850c8cde0683161a509b8bca2545a2e0d0ba5b093a2172bce461645dfdb",
+          "parts": [
+            "Ugh, I can't deal with this.\nWhy do I have to put up\nwith all this crap?"
+          ]
+        },
+        {
+          "offset": 160,
+          "source_words_sha256": "d7d12203d4a082b1ce1d2ed81a95bd2d3d8c70e492a1f251afb342bfc50a0321",
+          "parts": [
+            "What? You missed."
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "e9d89bdcd60f34c409279c691c1c35f63a376a9563a1709a186047433b3f25ad",
+          "parts": [
+            "Nuhahahahaha!"
+          ]
+        },
+        {
+          "offset": 208,
+          "source_words_sha256": "05d36a9f7f68d4aff305e39d44aca1aac81e397b24872470b224ce40fb80522a",
+          "parts": [
+            "What, didn't you see\nI was blocking?"
+          ]
+        },
+        {
+          "offset": 252,
+          "source_words_sha256": "690f7c78d1ffea218faa51a3acfa5cff3ebeb4380d87437d4fe2d4f59bc667b0",
+          "parts": [
+            "Behold Amanto science!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/joui_roushi00.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "c3486257d5d4dfa43e3402e3f9d35b3f53ea2ead2320143e63ec09072970a5c2",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/joui_roushi01.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "8fdefa29b75034544748263ffb57867dff2a412cf9dacdaca81767db5537a2f7",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/joui_roushi02.msb",
+      "source_msb_sha256": "c5d1081ee77746d10499d05f9250b7359a8a7a588079d603f1ac90d917b13d07",
+      "source_cdb_sha256": "d3c1ed026a07fc04aa077e38f0ab974b6b40a4d135433727718ec739e75e1a3a",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/k_ayame.msb",
+      "source_msb_sha256": "af3091ba218e58391a05bfdd26fa5f629cca902cd65ff4df7088723c414209a8",
+      "source_cdb_sha256": "7c5246ac9a5ba044c6a78a2b64efd0686a28a86ebb3f374fc0837cebbee7c408",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/k_matsudaira.msb",
+      "source_msb_sha256": "5d95ed1790c253769c1b72e7413ed17638572e38d756b539750cee5158ce748a",
+      "source_cdb_sha256": "e50d5c929bcc243b503574b6d399563fd66eebd4b5c4059cd2e130d45db436eb",
+      "record_count": 6,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/k_otae.msb",
+      "source_msb_sha256": "b3977b08645de9554fee0eaba7cacaa34f8b760b439afadf813d735ce526fecf",
+      "source_cdb_sha256": "2a7ea2f656925a2011a42cc865dc19ba6887bbdc0da68aa1d13d36fa501baabb",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/k_otose.msb",
+      "source_msb_sha256": "19bcf9a9b645538b9c80a9d742af4c41a13cfba0a1af7752f923b2e0c63639e9",
+      "source_cdb_sha256": "ea2820552dfda2c2b875631099c4c35f79449cd50846b063d385f47998250565",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/ka_amand.msb",
+      "source_msb_sha256": "4a0b474e06397af40a4a3ca9acb0bfbdeb0f3cfad194e0bfab8572d1c3e03b85",
+      "source_cdb_sha256": "d2c587ce98e16afbd453f7e384d7f845b151e33b8ef719eec264491254f429b1",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/kagura.msb",
+      "source_msb_sha256": "95bfca35e48dc580dc46440a3ad3abd21409f9fe8329bcfd03cc46c1581deeb9",
+      "source_cdb_sha256": "55c578a596c97c9e9956e17438712447e760f83b5c866f0cd29004c400742498",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "e7e1d4eb1a33140ba82bcdce26a5689118af321fd04e0ac3813787224d02f764",
+          "parts": [
+            "Come at me!"
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "5d6c4d174b25426fb59803ff2bc6a6c3cbc3f2e096d4582d248aedd4697b09ea",
+          "parts": [
+            "S-so hungry..."
+          ]
+        },
+        {
+          "offset": 56,
+          "source_words_sha256": "49eeda8ea738cba8ed470eab8379ec80a43189e8fe6a83bee9474818d0545db7",
+          "parts": [
+            "Papi... Mommy...\nI am so tired..."
+          ]
+        },
+        {
+          "offset": 108,
+          "source_words_sha256": "7624cdb714e45be57e0fdd5dbef717e1d9ec55dbc6f2cd3dd600ef7102a86cba",
+          "parts": [
+            "Misses get you nowhere.\nNot that a hit would hurt."
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "cea04f38aa9947a6ab64d91b84de859a84ef138392906d38d99b15c437f3a629",
+          "parts": [
+            "Fwooooo..."
+          ]
+        },
+        {
+          "offset": 196,
+          "source_words_sha256": "a173fd9d2ab07f394f1b9ad6173589a620524f901b973976e2790d3354ba66c5",
+          "parts": [
+            "Yato defense is perfect!"
+          ]
+        },
+        {
+          "offset": 220,
+          "source_words_sha256": "625217bae2a6792431ccee30d8d4f9336ef9e26991d8985f6ed90fa83cf3fa71",
+          "parts": [
+            "How do you like this gadget?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/katsura.msb",
+      "source_msb_sha256": "ef75b061569c7156349154ec17d2482d7554973c41dc3c65720375b72c2c5f20",
+      "source_cdb_sha256": "200f8c23dc27771012241126c11b3b18536f262710593fb91597acd927d2a32a",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "59312932dee909364e4268091f4c7bcf0bb7c30310bc854f1b4966afc0c04795",
+          "parts": [
+            "We have to settle this..."
+          ]
+        },
+        {
+          "offset": 44,
+          "source_words_sha256": "12b855908ecb916f298a1c352fc5621817248a72b8d4082160088c6b28e28cce",
+          "parts": [
+            "I can't fall here...!"
+          ]
+        },
+        {
+          "offset": 84,
+          "source_words_sha256": "b34e57ec2ecf27cc70a873bbb705ca9dc10e6be1bc72e5005412b810942f3c6d",
+          "parts": [
+            "The nation... Heh...\nWho cares anymore..."
+          ]
+        },
+        {
+          "offset": 132,
+          "source_words_sha256": "c5b06f81adc8343a701626e4be9e7ab2f9b9cde0fe03fb9ef4fafd44540cdb7f",
+          "parts": [
+            "Wild swings won't hit me."
+          ]
+        },
+        {
+          "offset": 164,
+          "source_words_sha256": "bf272174a32f4889410df3cfc4033437af853ff60e9411e455dbe893ce391241",
+          "parts": [
+            "W-w-whoa...!"
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "ea7527a00331dd32c86857b4136a93802ac041afb2aeb4dc90b4d575899fffb3",
+          "parts": [
+            "Behold my iron defense!"
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "8b245ac39df0b5fefece561ee24dea10ebad6c165d8c943cf534a869cdf1651e",
+          "parts": [
+            "How's that for a gadget!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/kondo.msb",
+      "source_msb_sha256": "416c71452857a6a2a5a97527d001f407271a1fbafd546c540d2e071173a8ff65",
+      "source_cdb_sha256": "b3604eaf7048475847fa5ae3b249500153c1ad77132c5383e94008fa43788765",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "8e040cd4683d1d16cd022f3efde3fb6efb6fe3a3d387691f65843a9cf074c88d",
+          "parts": [
+            "A perfect chance...\nTime to get serious!"
+          ]
+        },
+        {
+          "offset": 52,
+          "source_words_sha256": "237df1e853ceb36f10836f37f419e739c5f10f777f74cad6292c31574470e50b",
+          "parts": [
+            "O-Otaeeee...!!"
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "1651078f2998b63c2173862f1427e892a43d8d379a8f054bb30c768d91798e0d",
+          "parts": [
+            "I'm just a gorilla...\nThat's all anyone sees...\nSob..."
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "3c4e77df4623137dffd9e173e799965a3b5c49a4d9bf4282b65aecbbf19e0a84",
+          "parts": [
+            "Whoa!? It missed?\nThank goodness..."
+          ]
+        },
+        {
+          "offset": 232,
+          "source_words_sha256": "ed85ea62644b5299c007fd7abf7c1fc5589fef109c9bc9f114afd96f1a1f2c7d",
+          "parts": [
+            "Bwahahahahaha!!"
+          ]
+        },
+        {
+          "offset": 256,
+          "source_words_sha256": "3c7bc4358c372317937107290ed496bcb6f097fdd2b94aee7fab570555d13ff7",
+          "parts": [
+            "Close one...\nGood thing I guarded..."
+          ]
+        },
+        {
+          "offset": 304,
+          "source_words_sha256": "af165747f44cfbabd7910fe735e65c5f7562e47e3eacc3bc6506d51f29859c43",
+          "parts": [
+            "That's Gengai's gadget\nfor you... Close call!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/matsudaira.msb",
+      "source_msb_sha256": "5d95ed1790c253769c1b72e7413ed17638572e38d756b539750cee5158ce748a",
+      "source_cdb_sha256": "5c4737093370ce89ecd3411522536bde59c14d428a42e2495b988d9ec66a3bb8",
+      "record_count": 6,
+      "messages": [
+        {
+          "offset": 104,
+          "source_words_sha256": "badad2e460d72ff87d99d0e189e1f5414a3024109b446f759324bcfc748ee493",
+          "parts": [
+            "Kuriko... Dad's done for...\nI just don't care anymore."
+          ]
+        },
+        {
+          "offset": 180,
+          "source_words_sha256": "5f71bcd2e825fbbc287ce9efa4ac0d24535b08afe20b11247c6621b586534e74",
+          "parts": [
+            "Hey, I'm over here.\nTry aiming properly."
+          ]
+        },
+        {
+          "offset": 232,
+          "source_words_sha256": "ed462bf2f3a79d0e9bcd3af21bb31b1a8ebec8bdeef0fabdec7d0f8667db7286",
+          "parts": [
+            "Nn... ooh..."
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "2026494519cf12f065ba2d121918729705dfe85031751bf8a8e5e4c653d95e16",
+          "parts": [
+            "Ha! Doubted my defense, eh?"
+          ]
+        },
+        {
+          "offset": 312,
+          "source_words_sha256": "b09d054b96690d8c2fb93a0e0d3affde969ea6cf9abf8f36c6690877bf92d649",
+          "parts": [
+            "Police Department contraptions!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/mecha_daraku.msb",
+      "source_msb_sha256": "6842a1684b875127c68817cb22cd043a39b7107eb581d87a148c62817ffe836d",
+      "source_cdb_sha256": "556eb47ba4980cfe00515b1317a0196094e38e778272d5c154a11e79fe001ef1",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "b148a77e1bc72dd11918becf397f9bc1772bb0121b2e410fe7be540d88f18dd6",
+          "parts": [
+            "Reborn through superscience!\nI can't lose to the likes of you!"
+          ]
+        },
+        {
+          "offset": 76,
+          "source_words_sha256": "88d13881bc9cc9760342c8908e9d8d3d4de614beb42f495ab0edccc4634ff584",
+          "parts": [
+            "Gwaaah!"
+          ]
+        },
+        {
+          "offset": 104,
+          "source_words_sha256": "436330f851860ea9ff4f681ebcb0d9c372ba9280a73e32bb999aa2ab9015bef8",
+          "parts": [
+            "W-Why...?"
+          ]
+        },
+        {
+          "offset": 128,
+          "source_words_sha256": "b26c045480a6ccb91f0bb8ff112bbbb2be75f99b3766626a1efaaebcae096e3f",
+          "parts": [
+            "How ugly... If you're\ngoing to attack,\nat least hit me."
+          ]
+        },
+        {
+          "offset": 192,
+          "source_words_sha256": "ea3484fc9cbcd2e7c8e4fa2856c231d9cff128030a8e630b08acd29a3597addb",
+          "parts": [
+            "Where... is my enemy...?"
+          ]
+        },
+        {
+          "offset": 228,
+          "source_words_sha256": "88df5e9902f83e0a03fbce3bc73dba0eefd28fe45fb6ae8cac4ee2bff790a7ef",
+          "parts": [
+            "Whoa?! Oh, right...\nI was blocking...\nStartled myself there..."
+          ]
+        },
+        {
+          "offset": 300,
+          "source_words_sha256": "aa74e7a3eb12f5e83f81eee26d03270e09a1d3fd2ad68b0ed3959427d7a30de0",
+          "parts": [
+            "A contraption is\nmore than enough for you..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/mecha_daraku_mask.msb",
+      "source_msb_sha256": "12688f4cbafabeea6238570f1ecee0e08c798cf839291cdd6eed103d7cf4e188",
+      "source_cdb_sha256": "8d3984d887ca3d98c8741fc715dceacf461676e674822f80887ed3cf8376cafc",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "6621ec174b6b44ce0bf5aa8f6c14de9512c2bca6cafdba816eca8210dbbab7fa",
+          "parts": [
+            "Whatever you do is pointless..."
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "88d13881bc9cc9760342c8908e9d8d3d4de614beb42f495ab0edccc4634ff584",
+          "parts": [
+            "Gwaaah!"
+          ]
+        },
+        {
+          "offset": 68,
+          "source_words_sha256": "436330f851860ea9ff4f681ebcb0d9c372ba9280a73e32bb999aa2ab9015bef8",
+          "parts": [
+            "W-Why...?"
+          ]
+        },
+        {
+          "offset": 92,
+          "source_words_sha256": "b26c045480a6ccb91f0bb8ff112bbbb2be75f99b3766626a1efaaebcae096e3f",
+          "parts": [
+            "How ugly... If you're\ngoing to attack,\nat least hit me."
+          ]
+        },
+        {
+          "offset": 156,
+          "source_words_sha256": "54627c84ea7e173258e5de92296708c46e6c410c58badfb854d21ca6b6be91ed",
+          "parts": [
+            "Just more suffering..."
+          ]
+        },
+        {
+          "offset": 188,
+          "source_words_sha256": "88df5e9902f83e0a03fbce3bc73dba0eefd28fe45fb6ae8cac4ee2bff790a7ef",
+          "parts": [
+            "Whoa?! Oh, right...\nI was blocking...\nStartled myself there..."
+          ]
+        },
+        {
+          "offset": 260,
+          "source_words_sha256": "aa74e7a3eb12f5e83f81eee26d03270e09a1d3fd2ad68b0ed3959427d7a30de0",
+          "parts": [
+            "A contraption is\nmore than enough for you..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/nas_cannon.msb",
+      "source_msb_sha256": "4926b5ef8171aeb0895e3d94f0cbacb93ee0147370abc28287eeddc82ee3f12d",
+      "source_cdb_sha256": "629f11fec6b39ea095a3ebe8d41f98f5d75242a441d3fede40f55d3c6a6e1580",
+      "record_count": 7,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/okita.msb",
+      "source_msb_sha256": "638ef98014dbe86137fb7bcb59da092bf1497210a6913cb67ef936611b849b14",
+      "source_cdb_sha256": "fbbc4599249afda9377f9c28d8c20b732eb6106028a55a29d8f67874a93a42a9",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "1f9fb2f455dfca424870f40867aba3edc1353bf0287b8ff12fab2581a1788e6e",
+          "parts": [
+            "Not really in the mood..."
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "eca0c0fee3a84188da658596008b24c6e26f328908bf281416f25893770124bb",
+          "parts": [
+            "W-what?! Seriously?!"
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "a41f4b2480179b787d61a40bd22463119cfb496e5bcff7b36a9a0a72169e6256",
+          "parts": [
+            "Ahh... Lost all motivation.\nDon't care anymore.\nDo whatever you like."
+          ]
+        },
+        {
+          "offset": 160,
+          "source_words_sha256": "932dfdaf9a2505103d48f9d58f36c17ebac87b0c6843d55858ca8937ad8adabe",
+          "parts": [
+            "A miss... Too bad."
+          ]
+        },
+        {
+          "offset": 200,
+          "source_words_sha256": "c6a6214aa500438a10de5be3fb8b0f8cc44e63ee4cc4370d3928bfbccda894e2",
+          "parts": [
+            "Wahahahaha!"
+          ]
+        },
+        {
+          "offset": 220,
+          "source_words_sha256": "e7832f12c9c710b594000e9e5e035c8f085eaae58f688d3a3bdda8a90b5fe00f",
+          "parts": [
+            "This defense is perfect."
+          ]
+        },
+        {
+          "offset": 248,
+          "source_words_sha256": "8b245ac39df0b5fefece561ee24dea10ebad6c165d8c943cf534a869cdf1651e",
+          "parts": [
+            "How is that for a gadget?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/otae.msb",
+      "source_msb_sha256": "b3977b08645de9554fee0eaba7cacaa34f8b760b439afadf813d735ce526fecf",
+      "source_cdb_sha256": "6bfc1e7fe8a703b674bf568301f0e72fa519bc72f83b54091bfb84b77232af89",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "023061e857c2f50e9435c73d729f3d1451c445a33ba5b596b9f706775beb0380",
+          "parts": [
+            "...What? You want to fight me?"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "1b4ffea55fe4e9b57fae4db501d569123d1860729720b9db3f1f1cfab4e22a3f",
+          "parts": [
+            "I'll never forgive you!"
+          ]
+        },
+        {
+          "offset": 76,
+          "source_words_sha256": "2776838169dfa84e5fd4dcaa19acc2e1d2752df627d027a6d2c4a21b746f0029",
+          "parts": [
+            "Hopeless! A sword dojo,\nin this day and age...\nSob... sob..."
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "9b4658b5f5685ebd48635c5b4d84ef01580c11d5bccfb9ac06adaa325ad93131",
+          "parts": [
+            "Huh? You can't see?\nPoor thing... Now's my chance."
+          ]
+        },
+        {
+          "offset": 232,
+          "source_words_sha256": "52b6251294cc8e4fc778a665b5fde0131373d6c267f77f76ace6dcfcead574e0",
+          "parts": [
+            "Ah... ahahahaha!"
+          ]
+        },
+        {
+          "offset": 256,
+          "source_words_sha256": "25efebb80b16e7cc4058760050fdda52289e770624cfd44f7f11fb389e575537",
+          "parts": [
+            "Testing my defense?\nSee how pointless that was?"
+          ]
+        },
+        {
+          "offset": 308,
+          "source_words_sha256": "05c63783f6506db8b1ec00f8c8f694b54b696bcc84055c68cd9ca9b9f5afc96b",
+          "parts": [
+            "Like my contraption?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/otose.msb",
+      "source_msb_sha256": "19bcf9a9b645538b9c80a9d742af4c41a13cfba0a1af7752f923b2e0c63639e9",
+      "source_cdb_sha256": "0274bef11fa5e57980c1a537d311721c0b589ad1aaf2fc21fa0883bdafcb2a45",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 40,
+          "source_words_sha256": "ccffeb51ccd4f5937d3064f8e9e6e8da134c1b82971569f63f3e763662c559e6",
+          "parts": [
+            "Y-you filthy bastard!!"
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "7cadd14a06129666871dabd532d0a612653f6516476d689cd8a72a25f6468a23",
+          "parts": [
+            "Ahh... This is starting to feel stupid..."
+          ]
+        },
+        {
+          "offset": 132,
+          "source_words_sha256": "6390f703b336b454db2e3d05aa617693efc9ed04230ffe36bf441493107c0d88",
+          "parts": [
+            "Where are you aiming? Get serious!"
+          ]
+        },
+        {
+          "offset": 180,
+          "source_words_sha256": "59f2fb330fd1217d3de619367768908e49206306ff2b9003d10f10b5e40cca3c",
+          "parts": [
+            "Nwahahahaha!"
+          ]
+        },
+        {
+          "offset": 204,
+          "source_words_sha256": "d1e6554cec8b62aa704a8b5ce787f561e5dc8284501181263042b4ffa4da2f80",
+          "parts": [
+            "My defense is airtight!"
+          ]
+        },
+        {
+          "offset": 236,
+          "source_words_sha256": "6fe1c84a69ef626c5dc5ffc7ccb3f2bbbf9befd79780c55bc92c0a2fe4dabdde",
+          "parts": [
+            "How's this gadget?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/otsu.msb",
+      "source_msb_sha256": "78a27e69defe79174acb553a519659084a299629dda0fe99c7167c1e2da2fa8e",
+      "source_cdb_sha256": "a15fc14d3922ffa1170db287e177f152cd166a01593e600cf90094088ad39052",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "b89e7c05259779669569f51eaba22bb35783456d4fe739a02a9253ced18c2dc3",
+          "parts": [
+            "If we're doing this, let's have fun!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "0234306beb31946cd60f9c677dcd66b8754b66b559c86c1854e88d926d1c4eea",
+          "parts": [
+            "No more... cod roe..."
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "87a2f069ade082c4afa99fce8d7c1b09511f247d05f158c7421fc5b47b0a616c",
+          "parts": [
+            "Ahaha... Just a one-hit wonder..."
+          ]
+        },
+        {
+          "offset": 112,
+          "source_words_sha256": "c7cf0799309da5c6b24eaaeb82747aaffd90a12471c74eb3c9fa69c7fb49386e",
+          "parts": [
+            "Ouch... Wait, no?\nHuh? Missed? Lucky!"
+          ]
+        },
+        {
+          "offset": 168,
+          "source_words_sha256": "28182a8ffb5ce7c6437c07eab1506f6429d37d58eb2c8a8d6a196a708b01b77d",
+          "parts": [
+            "Hmm... Hmm..."
+          ]
+        },
+        {
+          "offset": 192,
+          "source_words_sha256": "7f6150fba5a7e28d9862679401235fa4644f1163215375ddff251dfd170158cc",
+          "parts": [
+            "Hey, I'm defending!\nForgot?"
+          ]
+        },
+        {
+          "offset": 228,
+          "source_words_sha256": "54d9a83f24794ed8fb0b7566900617f9e082de5f321cbf9c5b70299c7a94f4f8",
+          "parts": [
+            "How's this contraption?"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/saburou.msb",
+      "source_msb_sha256": "3c6ef077704c2e5b565438ecd7789d88888fc7d6391a760512d539dc3ebc1dfb",
+      "source_cdb_sha256": "b70751371d1f060bb45be82362831e9a5082e528482062544303728db642c061",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "0dddb57b39e4c9ae2a98d666c8e6d5a75389a2652fed0be7d00b116cbbbe6718",
+          "parts": [
+            "Yes, sir!"
+          ]
+        },
+        {
+          "offset": 20,
+          "source_words_sha256": "5f939dd0a2b097a6b87ee54c91581eb67a5a727f570356a7687cf519b90e7ffd",
+          "parts": [
+            "Dad... Covered in oil...\nHappily tinkering... Machines...\nI liked... you... that way..."
+          ]
+        },
+        {
+          "offset": 132,
+          "source_words_sha256": "97f2033e3f9b579a43e3d3640919a2c79657f731bf3a0155710b606533271a03",
+          "parts": [
+            "Y-Yes... sir..."
+          ]
+        },
+        {
+          "offset": 152,
+          "source_words_sha256": "2f319d448214a5a6272624bae2351cfe3a2d48a58f8222d58aef3f2324a7362c",
+          "parts": [
+            "Yes, sir?!"
+          ]
+        },
+        {
+          "offset": 164,
+          "source_words_sha256": "2f319d448214a5a6272624bae2351cfe3a2d48a58f8222d58aef3f2324a7362c",
+          "parts": [
+            "Yes, sir?!"
+          ]
+        },
+        {
+          "offset": 176,
+          "source_words_sha256": "289aa71f941c23b5c56b9e5ee193c5e842e13bce3c78c299b2d150c2b2ece7b4",
+          "parts": [
+            "Yes, sir!"
+          ]
+        },
+        {
+          "offset": 188,
+          "source_words_sha256": "289aa71f941c23b5c56b9e5ee193c5e842e13bce3c78c299b2d150c2b2ece7b4",
+          "parts": [
+            "Yes, sir!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/saigo.msb",
+      "source_msb_sha256": "901d592d597dd4504f65825c020c425de70a1eff903e9a118773d39388ec0ede",
+      "source_cdb_sha256": "39389bc2c1c67121186c047227a4d7837c9aefd6e1ee4edddbc23f781035ad34",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "45bfb325da05ebf58e13839d9a5c54484dc7bc85e68e3e3ce724e1b3f2f64abe",
+          "parts": [
+            "Don't underestimate\na drag queen!"
+          ]
+        },
+        {
+          "offset": 44,
+          "source_words_sha256": "ba7f19052cdddff716f89dfe5f2b726f90864c04df0ec59545da715c9447dcae",
+          "parts": [
+            "Gwaaah!\nT-Teruhiko..."
+          ]
+        },
+        {
+          "offset": 100,
+          "source_words_sha256": "ef57d4a22e6ae05a115e4bb8e296b0d6b316fb31fca6e531a56a05165a625bac",
+          "parts": [
+            "A drag queen must be\nstronger than anyone...\nIs that asking too much...?"
+          ]
+        },
+        {
+          "offset": 192,
+          "source_words_sha256": "c49e3a38d22b3171d9264f8504f878766fb4f1462faba8558d31c0b245063f33",
+          "parts": [
+            "Too bad!\nAim better next time..."
+          ]
+        },
+        {
+          "offset": 232,
+          "source_words_sha256": "719b74855ab3ccbb3f98cd8517cad025f1f080a02c630b33e09cc866bf722c3a",
+          "parts": [
+            "Gahahahaha!"
+          ]
+        },
+        {
+          "offset": 256,
+          "source_words_sha256": "e5a7a4f59c7689a6d017182848269ba7f93681007723eba049d848547d15e797",
+          "parts": [
+            "How's that defense?\nA drag queen's guard is ironclad!"
+          ]
+        },
+        {
+          "offset": 304,
+          "source_words_sha256": "f8ebbe7d473d0b106567bd8bab351b1b3b8f477b1ed12703f0b174dabc37423d",
+          "parts": [
+            "A drag queen can handle\na contraption too!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/shinpachi.msb",
+      "source_msb_sha256": "58583c34ca29b0a331bc0c9a59b117fe763e3bdb0537640a56cddba6bff13eb3",
+      "source_cdb_sha256": "879bf536ca4174de550e96a750584aa7808c29d183ceaee36f8f55c7681c23f5",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "75fb19e99d84f62d794c3ac3b21046d622c9413f75aaf6d58c7fed3134ef78d9",
+          "parts": [
+            "I'm not holding back!"
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "4225b2b689d9e93923e0b84cf4d92b4534b45dd0902fc7f4168896c3a8bb122a",
+          "parts": [
+            "I-I'm just not cut out for this...?!"
+          ]
+        },
+        {
+          "offset": 68,
+          "source_words_sha256": "1e255132da557f1b93ff0f6ca21ed9c32f79e4e31be942061770ab946f8fd7bf",
+          "parts": [
+            "Heh... in the end,\nI'm just a boring pair of glasses..."
+          ]
+        },
+        {
+          "offset": 124,
+          "source_words_sha256": "af4cc2a59919de68c8665f27ff2ce1a3c8b5363aaba0d1d7e7098903c5dbcd9a",
+          "parts": [
+            "What a spectacular miss...\nWant to borrow my glasses?"
+          ]
+        },
+        {
+          "offset": 180,
+          "source_words_sha256": "30a8dae813db8b8fd689d9f4501664c5b6c1b0ab2e633a593d0b210db81560a1",
+          "parts": [
+            "Ahahahaha!!"
+          ]
+        },
+        {
+          "offset": 200,
+          "source_words_sha256": "7a913e87f14dfe20b0af75620a6d3c2a847afafbda3b828faf6c0ce0f3d2d110",
+          "parts": [
+            "Behold! Glasses defense!\n...Not that glasses help."
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "7d7f848bbff657d5eb419c70dab907fb8dbf11628dbc547df343711fe1e51942",
+          "parts": [
+            "A-amazing... what a contraption!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/subroutine.msb",
+      "source_msb_sha256": "fd3f51c182198ca7f76ad4dccbdd48db2e9494ac9468320f79963b83c070d265",
+      "source_cdb_sha256": "43f80114971a17812c9c3f384dcbabe0750fa85c1658adbd704eb13ced422829",
+      "record_count": 0,
+      "messages": []
+    },
+    {
+      "script": "battle/script/character/takasugi.msb",
+      "source_msb_sha256": "b9468c3d9b193c9f863ef83615c889d21473bc0e5946a76f782b02af6c29b0c6",
+      "source_cdb_sha256": "3333c99057b57986f6457c5178303d1cad8b2166eb29951fd2047967baac02e9",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "a3ffd236bd134e02aa3808d11885a3a7b213d0ee6e521a05b550110300563adb",
+          "parts": [
+            "I'll destroy all till\nthe beast falls silent."
+          ]
+        },
+        {
+          "offset": 48,
+          "source_words_sha256": "0d4ee5a73e73ba5563aaadf7100c01f5e0bc66ff6e47b929f204b5cfafdc20d9",
+          "parts": [
+            "Thought I'd forgotten\nhow to sweat.\nGuess I was wrong."
+          ]
+        },
+        {
+          "offset": 112,
+          "source_words_sha256": "84b4a16fd30a1f97e423db8d612d6284517ebdde23b516c9ae8db5d83d921e23",
+          "parts": [
+            "Heh... I'll just destroy it.\nThis rotten world..."
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "b766b2496493f75a07bfed93a521d8a01cd1814de0790f50c025b395cbf25eb2",
+          "parts": [
+            "Missed... Are you even trying?"
+          ]
+        },
+        {
+          "offset": 208,
+          "source_words_sha256": "c8e4ae35d0b618800c9d202a2da0d7723900d655443ac05c4ea667f132cd0c53",
+          "parts": [
+            "Heh heh heh..."
+          ]
+        },
+        {
+          "offset": 232,
+          "source_words_sha256": "653db6fe903c23571caa93b6f057a0b11410951d8b76c2e27a0530b2a7f6b006",
+          "parts": [
+            "Underestimating my defense?"
+          ]
+        },
+        {
+          "offset": 260,
+          "source_words_sha256": "e83c92cb7b27a469560cccfaee918ef390765d06b64e816f1c79bffffe90d612",
+          "parts": [
+            "These contraptions\njust keep evolving..."
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/character/yamazaki.msb",
+      "source_msb_sha256": "102e55685938a0c320203d51e0b07175e6a4b33720b95810f48ecfc2e043a453",
+      "source_cdb_sha256": "bc51f1826cf1e9d8b1d716189020fd43864419e1b0e72fe95ea731e2c18ba13f",
+      "record_count": 7,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "6afa0f9118462cc252d81ec3d7906c6b376d2a76de65a051b9e63e91306e8fe4",
+          "parts": [
+            "...Seriously, what am I supposed to do...?"
+          ]
+        },
+        {
+          "offset": 48,
+          "source_words_sha256": "eeb228463856722c0fb4367eda5c7d34a466c539ad5231cdc1a52a7260b3c21a",
+          "parts": [
+            "Sorry... Worst blunder\nof my life."
+          ]
+        },
+        {
+          "offset": 84,
+          "source_words_sha256": "97c138df437e01a003a902f97cb60477259ed929858adc7d863d21c84961f92a",
+          "parts": [
+            "Hehe... I'm a nobody\nwhose only trait\nis minton..."
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "bf53258f9aafec5bfd97c6ef46b53fc1fcdc9df25c3be386c9b6aa86e9824d2a",
+          "parts": [
+            "Um... Can you see me?\nNo?! Too plain to notice?!"
+          ]
+        },
+        {
+          "offset": 244,
+          "source_words_sha256": "30a8dae813db8b8fd689d9f4501664c5b6c1b0ab2e633a593d0b210db81560a1",
+          "parts": [
+            "Ahahahaha!!"
+          ]
+        },
+        {
+          "offset": 264,
+          "source_words_sha256": "e2a34371ab7a355a2fff7c420102d4b574c189732215068aace401fcaa73a553",
+          "parts": [
+            "Come on. I'm defending.\nForgot?"
+          ]
+        },
+        {
+          "offset": 308,
+          "source_words_sha256": "0c25b6b27ce4a0522809c520e31ee9ef359b8d1cb0d1e7546e1fe5f8176c2034",
+          "parts": [
+            "How's THIS contraption?!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/interrupt/interrupt_scr.msb",
+      "source_msb_sha256": "517c29db5b96905b86479d3b55e0a9bd98b4fdd4c18638b67cab92586d4fa96d",
+      "source_cdb_sha256": "69f3b964bbc9cfeebd10eab51c57e972d4d596fcd5b7af8f2e39691a7e6846aa",
+      "record_count": 188,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "2bc0de1f6447e5f950cc216afe98fd13e7778c4144e93096fa49f3a736b69d76",
+          "parts": [
+            "No, explain it."
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "08cf85f58ed37870ed47c0a01ca609399b7f46f1a85a6cdd527bf43f686ea7a7",
+          "parts": [
+            "Yeah. Butt out."
+          ]
+        },
+        {
+          "offset": 48,
+          "source_words_sha256": "93c95543dff2ba151b0a2051b391d7fe9e8cff41770a5f609a4d148dbdbe74cf",
+          "parts": [
+            "Explain it again?"
+          ]
+        },
+        {
+          "offset": 80,
+          "source_words_sha256": "ac827a53267d6f222a91c7dc8a99bb5498396f69cf32451cb46032e10958ad4d",
+          "parts": [
+            "Yeah, got it."
+          ]
+        },
+        {
+          "offset": 100,
+          "source_words_sha256": "443f17622189f14c6bf9ad163ca06d17105dd834e8df80d222d0d412f6230a93",
+          "parts": [
+            "Uh... I wasn't listening."
+          ]
+        },
+        {
+          "offset": 124,
+          "source_words_sha256": "ac827a53267d6f222a91c7dc8a99bb5498396f69cf32451cb46032e10958ad4d",
+          "parts": [
+            "Yeah, got it."
+          ]
+        },
+        {
+          "offset": 144,
+          "source_words_sha256": "77811870594d30d1b1d8fe6e23ec32c2c4e4cad4cc7a0e99fd19a35f9c3ecbd9",
+          "parts": [
+            "Explain set Gin Tama again."
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "9fdda0ce42778e0c8feb9614d4c7d608a8c99fe2604227d971137e57b48ab679",
+          "parts": [
+            "Let's try a Gin Tama battle."
+          ]
+        },
+        {
+          "offset": 200,
+          "source_words_sha256": "9220f09e08bf96051a66aaf500d19f96464347b869a7641be2ed1a479639717a",
+          "parts": [
+            "Is my explanation\njust meddling to you?"
+          ]
+        },
+        {
+          "offset": 244,
+          "source_words_sha256": "c106989f9d59eb25a255d42845b8009790406d048bfa4f5a253ed0fe4d47a901",
+          "parts": [
+            "Oh, is that so? My mistake."
+          ]
+        },
+        {
+          "offset": 280,
+          "source_words_sha256": "cc416a307b2cac65fe6e638e89d68e1ef13d225ee6cb8c149712defbc38c8455",
+          "parts": [
+            "Just don't get too full of yourself."
+          ]
+        },
+        {
+          "offset": 324,
+          "source_words_sha256": "4d943227e6b7724bafcb1ed7436085166823c247fb7a05234cac7978928b5334",
+          "parts": [
+            "Yeah, I know.\nQuit worrying."
+          ]
+        },
+        {
+          "offset": 364,
+          "source_words_sha256": "66ea0b433cd762b365557ed531a9a44fe170a61946adaffbb8535926efcefd69",
+          "parts": [
+            "Listen up.\nLet's start with the battle screen."
+          ]
+        },
+        {
+          "offset": 412,
+          "source_words_sha256": "8d9362137aea04b900df64ba9ab2d5781ed510031a5cb485fa15fea5f3598180",
+          "parts": [
+            "Look at the top of the screen.\nSee the gauges beside\nthe face icons?"
+          ]
+        },
+        {
+          "offset": 492,
+          "source_words_sha256": "38357de4331e9d26faa7f0e37e61e63ec756e527fe4b7778a05038149baaad4a",
+          "parts": [
+            "Yours are on the left.\nYour opponent's are on the right.\nMine, for now."
+          ]
+        },
+        {
+          "offset": 564,
+          "source_words_sha256": "d6b8a27489dfb3d2f7ac6655c6c43c939e055b278376a8bfe36048faee4b066d",
+          "parts": [
+            "See those two gauges?"
+          ]
+        },
+        {
+          "offset": 600,
+          "source_words_sha256": "fd7848489408128f0820c65a7388a6c64a8bc684c19b3f97b172ffcb509389e4",
+          "parts": [
+            "The top one is Health.\nThe bottom one is Spirit."
+          ]
+        },
+        {
+          "offset": 664,
+          "source_words_sha256": "14c62d7e01285c81ca4172c9edd3404abab9937b7c6bd29e4285585c7f9e7db9",
+          "parts": [
+            "Physical attacks\nreduce your Health..."
+          ]
+        },
+        {
+          "offset": 720,
+          "source_words_sha256": "48d5c1ef973477289afe673f2d4fb91558b6121dde70e1bf04ba52c5ec45bc08",
+          "parts": [
+            "And mental attacks\nreduce your Spirit."
+          ]
+        },
+        {
+          "offset": 776,
+          "source_words_sha256": "af69534b117a5ec30d1039ab5f65cbb3d2dfe86283a9b96ee3d362f237a1b723",
+          "parts": [
+            "Here's the important part.\nIf either gauge runs out,\nyou lose."
+          ]
+        },
+        {
+          "offset": 864,
+          "source_words_sha256": "484daa9dadbf554548eb6b72307798cbbbedc4e07eb8aaa357417017fb7ea5f0",
+          "parts": [
+            "Which gives out first,\nyour body or your nerve?\nThat's about the size of it."
+          ]
+        },
+        {
+          "offset": 932,
+          "source_words_sha256": "00a46fb229895906e2fbca93e7d088cb73a8de9ed37faa67257af5c109293d87",
+          "parts": [
+            "Well? Got all that so far?"
+          ]
+        },
+        {
+          "offset": 976,
+          "source_words_sha256": "b610c03b7b0127c680f2dfe74ca12f462bc67a58c71c650cca4e9203ae735576",
+          "parts": [
+            "Now, Gin Tama."
+          ]
+        },
+        {
+          "offset": 1000,
+          "source_words_sha256": "10b420308c78ac260223613acd695db848e491a75fb56e19a9852f56389be53d",
+          "parts": [
+            "Look at the bottom screen."
+          ]
+        },
+        {
+          "offset": 1024,
+          "source_words_sha256": "22149e87153495bc1f566b28053f3217fa3756b45933a88c22c5db97c4b02dd2",
+          "parts": [
+            "Brawl, Kotodama, Effect.\nThree Gin Tama kinds,\nwith attack and defense types."
+          ]
+        },
+        {
+          "offset": 1112,
+          "source_words_sha256": "f75753484d6f83f08b46fdbd751e7992cc32a915e2f5762339a85bf5db187d4e",
+          "parts": [
+            "These are Brawl Gin Tama\nfor attacking."
+          ]
+        },
+        {
+          "offset": 1160,
+          "source_words_sha256": "8413e510d44abece4314c83ba68dc7b19172c5c1cb819779310b43b8754511e8",
+          "parts": [
+            "Touch one of the three icons\non the left of the bottom screen\nto switch Gin Tama types."
+          ]
+        },
+        {
+          "offset": 1256,
+          "source_words_sha256": "0610eca154ce4d1112a4e37a2c21d0148122584438b4f570ac4fcebb0d547e37",
+          "parts": [
+            "These are on loan for now.\nTry the icons and check\nall three Gin Tama types."
+          ]
+        },
+        {
+          "offset": 1356,
+          "source_words_sha256": "dfc730842e19e11159b52d0d37c4ac2fbe86f8ab1fd9f588bc2851ca61c9e4ae",
+          "parts": [
+            "Hey, slow down!\nOne thing at a time!"
+          ]
+        },
+        {
+          "offset": 1416,
+          "source_words_sha256": "72b9dbb552be9f2d6270db5a2fc0788d755aaf4d1b44057ff9bb7d472465eafb",
+          "parts": [
+            "First, check all\nthe Gin Tama types."
+          ]
+        },
+        {
+          "offset": 1452,
+          "source_words_sha256": "46b8da4f8737bd81e6f70ca68e5dd7caee20fc27075ceebbb29da326617c02e8",
+          "parts": [
+            "Attack-type Brawl Gin Tama\ndeal physical damage."
+          ]
+        },
+        {
+          "offset": 1508,
+          "source_words_sha256": "45d5411394ccd071ca27394450321a35673f97b508b389c977bab3c4db7139f2",
+          "parts": [
+            "Throw them or strike with them\nto take away your foe's Health."
+          ]
+        },
+        {
+          "offset": 1572,
+          "source_words_sha256": "523d79950f5c29b9d1b3a0ab2781727fa93ba16bf26392a2b0e5e284638c5e45",
+          "parts": [
+            "Brawl defense blocks physical hits."
+          ]
+        },
+        {
+          "offset": 1620,
+          "source_words_sha256": "3801a4b856b8659d9f2d186130f8da20843cef3686ae59146de256356621034d",
+          "parts": [
+            "They can reduce damage\nor restore your Health."
+          ]
+        },
+        {
+          "offset": 1680,
+          "source_words_sha256": "744d92a28df50629af9aac2526bb8d761029fb02fc249bef7363175106009810",
+          "parts": [
+            "Attack-type Kotodama Gin Tama\ndeal mental damage."
+          ]
+        },
+        {
+          "offset": 1736,
+          "source_words_sha256": "5d9fcd5d32405ab2892fdcb4e718646fa12019c78d86868bb9877a77c544976d",
+          "parts": [
+            "Hit a sore spot with words,\nand even a tough opponent\ncan go down easily."
+          ]
+        },
+        {
+          "offset": 1820,
+          "source_words_sha256": "2ddb432bf43d39a41f9941d33eedd6a59017ca4b20c3e0f2244d908068db6470",
+          "parts": [
+            "Finding someone's weak spot\nis the tricky part."
+          ]
+        },
+        {
+          "offset": 1884,
+          "source_words_sha256": "74e961b64cd7243d257f95590a4ef71ef75750068464459e7efcb0ffefee47b9",
+          "parts": [
+            "Watch people. Talk to them.\nInformation is vital."
+          ]
+        },
+        {
+          "offset": 1944,
+          "source_words_sha256": "85dc5838059dd76433b936877ac38eaeab9133cd313ead07005ff4a03465dc54",
+          "parts": [
+            "Kotodama defense guards the mind."
+          ]
+        },
+        {
+          "offset": 1992,
+          "source_words_sha256": "e197e2d94eac6607c5d683941274ea47cb173fa6700301e1bbaf1fcf119c4f15",
+          "parts": [
+            "They reduce mental damage\nor restore your Spirit."
+          ]
+        },
+        {
+          "offset": 2044,
+          "source_words_sha256": "756e984900836f7be316f400f43bde57968c73c83493e76bb0d35befcdf1abff",
+          "parts": [
+            "That leaves Effect Gin Tama."
+          ]
+        },
+        {
+          "offset": 2072,
+          "source_words_sha256": "875def1fa483b113980a5a8fd15301d03de77c50313f4298051b9d00ddda0581",
+          "parts": [
+            "Effect Gin Tama are for strategy."
+          ]
+        },
+        {
+          "offset": 2124,
+          "source_words_sha256": "14182aadb2f3a851f980a9787a4fd5bc4065d33c98d24cecec8c185d82c1f789",
+          "parts": [
+            "They boost attack or defense,\nadd extra hits...\nSome work as traps."
+          ]
+        },
+        {
+          "offset": 2192,
+          "source_words_sha256": "2f1b20c578ba8b473bad5411540214303a4a1425cbdeb09ab5c3e77870d5b757",
+          "parts": [
+            "Used well, they're powerful."
+          ]
+        },
+        {
+          "offset": 2228,
+          "source_words_sha256": "00a46fb229895906e2fbca93e7d088cb73a8de9ed37faa67257af5c109293d87",
+          "parts": [
+            "Well? Got all that so far?"
+          ]
+        },
+        {
+          "offset": 2272,
+          "source_words_sha256": "b72aafb175b0c290b0592c313e7c2527bd0702a2cb2c1a2d95a850b32fb8ac64",
+          "parts": [
+            "Now, last of all,\nlet's cover set Gin Tama."
+          ]
+        },
+        {
+          "offset": 2312,
+          "source_words_sha256": "685731a13489969ec6864637bbe31a40eb97d743a2f094d6b0190ea1a3017ca3",
+          "parts": [
+            "Some Gin Tama take effect\nas soon as you use them..."
+          ]
+        },
+        {
+          "offset": 2376,
+          "source_words_sha256": "323767c6ac413400176397abe21096bf756a89f7bf16a2d4335b581f74b5ad02",
+          "parts": [
+            "Others stay set on the field\nuntil their conditions are met."
+          ]
+        },
+        {
+          "offset": 2440,
+          "source_words_sha256": "55f3b80e3c3a839da152e4da42f0594a77e29348388fb63e3f237cbf5f2cd75b",
+          "parts": [
+            "Watch this..."
+          ]
+        },
+        {
+          "offset": 2468,
+          "source_words_sha256": "be451450bf680f5c3359676908625e9d6d1bbd7353255c3b979fd226de82fda5",
+          "parts": [
+            "See? Gin, you can't tell\nwhich Gin Tama I've set, can you?"
+          ]
+        },
+        {
+          "offset": 2532,
+          "source_words_sha256": "2fc3f1bc4a115ad10d6fce05aaf250acbfab1bff48d83b1d1f3cf38a1f86cf62",
+          "parts": [
+            "That's the fun of setting them."
+          ]
+        },
+        {
+          "offset": 2568,
+          "source_words_sha256": "69c0c412a7db77ff998a6304d98c1b1cb17f5856a78f7ce90e8b8263e9a1eb64",
+          "parts": [
+            "Now try attacking me\nwith a Brawl Gin Tama."
+          ]
+        },
+        {
+          "offset": 2624,
+          "source_words_sha256": "f4d7e62f0673c50ed210d8e276ee980e6dcc0169861395df6ab05915273ea012",
+          "parts": [
+            "I said a Brawl Gin Tama!\nKeep being contrary\nand we'll be here all day."
+          ]
+        },
+        {
+          "offset": 2708,
+          "source_words_sha256": "ac2b5843304e5a7df7995c32041a5cd0a0972f082cd681ee5a2b6b1b11376254",
+          "parts": [
+            "That was a Counter Gin Tama.\nIt activates in response\nto a physical attack."
+          ]
+        },
+        {
+          "offset": 2776,
+          "source_words_sha256": "ba7ab88ab42891acf67ef51accffcc37929ff3c49307dc8d8b5aa3cd8cb0223d",
+          "parts": [
+            "In a real fight, keep an eye\non the Gin Tama your foe has set."
+          ]
+        },
+        {
+          "offset": 2840,
+          "source_words_sha256": "2ff417ca8e787927fe2f680ecd4650bcb258c14cb1f1e7e914d0df549037c266",
+          "parts": [
+            "Some Gin Tama remove set ones\nor avoid their effects altogether.\nMake good use of them."
+          ]
+        },
+        {
+          "offset": 2940,
+          "source_words_sha256": "c5c77f15835a4ca22dbd16ae829ae10a01df5d61b7622e786dd95cc252913b3d",
+          "parts": [
+            "Right..."
+          ]
+        },
+        {
+          "offset": 2952,
+          "source_words_sha256": "651e491ddc4df2c07ba4f23129f809bf82b176055f7a6c1b0fbdd6f5ec5e2fd3",
+          "parts": [
+            "Ready for a real battle?\nThey say you learn by doing."
+          ]
+        },
+        {
+          "offset": 3028,
+          "source_words_sha256": "7736e16a38c8b77364eeead77c4de1ced4d7729aed457d9064c45582339d5f73",
+          "parts": [
+            "Oh, I forgot something important."
+          ]
+        },
+        {
+          "offset": 3064,
+          "source_words_sha256": "596c550242cdadbc901942192330e348a9364c4d5d778ee506f085d20b342b4e",
+          "parts": [
+            "Brawl Gin Tama and some Effect\nGin Tama are consumed when used."
+          ]
+        },
+        {
+          "offset": 3132,
+          "source_words_sha256": "d621738d274c14be1f98ebb03c6957af90ef576d3095cb471481c3d8e0f64bde",
+          "parts": [
+            "Don't waste them, or you'll\nrun out before you know it.\nNot a good look."
+          ]
+        },
+        {
+          "offset": 3224,
+          "source_words_sha256": "c78b71c11baefacf35f0a7904477849905c8ba6305036c9d451785a4d63e3826",
+          "parts": [
+            "Still, if you run out\nof Brawl Gin Tama during battle..."
+          ]
+        },
+        {
+          "offset": 3280,
+          "source_words_sha256": "b45e1c00da36388735f22e4864a5fe4daa133cf1696bf3b1b63c5ed62661d7a6",
+          "parts": [
+            "Bonus Gin Tama will appear.\nYou won't be left empty-handed."
+          ]
+        },
+        {
+          "offset": 3340,
+          "source_words_sha256": "3a76865df81fa005c3ebd79168e406d427d35372105b0db61791036da2180904",
+          "parts": [
+            "Bonus Gin Tama appear\nnear the middle of your list.\nThey're just that: a bonus."
+          ]
+        },
+        {
+          "offset": 3432,
+          "source_words_sha256": "ccebf883e3ed13b196ee70486fb6cfe2a1e42a97b020c8df258966db0758e0e9",
+          "parts": [
+            "They vanish after the battle.\nUse them while you can.\nGet your money's worth."
+          ]
+        },
+        {
+          "offset": 3524,
+          "source_words_sha256": "19ae1a86b0f41d2cbc99cb899e06c7fc3e600c37bc3c2faf3a99c36908778356",
+          "parts": [
+            "...Right, kept you waiting."
+          ]
+        },
+        {
+          "offset": 3552,
+          "source_words_sha256": "740928a3b0945cb6f9ccd36fe9700eb0d276d799fbd3faa1bf00d534199d24a1",
+          "parts": [
+            "Let's have ourselves\na Gin Tama battle!"
+          ]
+        },
+        {
+          "offset": 3592,
+          "source_words_sha256": "e571131448ffb973529c04ec01b99d36d94430969a2da93e1597755edd45eb72",
+          "parts": [
+            "Well...\nyou're not half bad."
+          ]
+        },
+        {
+          "offset": 3628,
+          "source_words_sha256": "d429dd213fc9238cc01dfd11b14690119eeeca0d8a0f8376d420344192962b14",
+          "parts": [
+            "You should be able to handle\nthe crowd around here."
+          ]
+        },
+        {
+          "offset": 3688,
+          "source_words_sha256": "ad14f7033bcbbab427caca4146fd0bce82b31140007ce0c8d20a4c15ce5441de",
+          "parts": [
+            "Not that I can picture you\nlosing an argument, Gin..."
+          ]
+        },
+        {
+          "offset": 3740,
+          "source_words_sha256": "16b0253c22b8a32df1fffc018bed0b4c55141cc4398fc9b274357b216cc59ced",
+          "parts": [
+            "You won't get far with a tiny\ncollection. Don't slack off\non hunting Gin Tama."
+          ]
+        },
+        {
+          "offset": 3816,
+          "source_words_sha256": "39d2f449c6944ec03fb0402071cbdf65734422e8c5eb4747c2532383d486c118",
+          "parts": [
+            "They say there are rare ones\neven I've never heard of..."
+          ]
+        },
+        {
+          "offset": 3872,
+          "source_words_sha256": "1a521db9200aeffa4e007f0d9c47d9310fd75715f66eebfb20a251a1f99082c3",
+          "parts": [
+            "From what I hear..."
+          ]
+        },
+        {
+          "offset": 3896,
+          "source_words_sha256": "b393cf765772bf6ad4821d1e3e26c018c98bf439c9e0501a7a3d738da184daef",
+          "parts": [
+            "Kotodama Boost makes\nKotodama hits stronger..."
+          ]
+        },
+        {
+          "offset": 3956,
+          "source_words_sha256": "4166c48f9c986f8c4645eb4e15b971d9df139228c1cc4b6fe3be93549146a530",
+          "parts": [
+            "And Character Gin Tama\nthat can summon your allies."
+          ]
+        },
+        {
+          "offset": 4012,
+          "source_words_sha256": "a65572b05aec67c30ce98a9e72fbd1942a38c52b0537982a1aa52d9878de8096",
+          "parts": [
+            "I'd like to give them a try\nmyself, if I get the chance..."
+          ]
+        },
+        {
+          "offset": 4064,
+          "source_words_sha256": "d9936d4c2518d8b71c2a248b9cfb85c414c0d32a4fc1e4b9e09d034a678e73f9",
+          "parts": [
+            "But whatever you do,\nrelax and enjoy yourself.\nThat's the best way to play."
+          ]
+        },
+        {
+          "offset": 4140,
+          "source_words_sha256": "da8fcebadf0816e18a5d85ddea847e85aa027e059bcec2a0ab2d7254ccda5836",
+          "parts": [
+            "Work hard. Pay your rent!"
+          ]
+        },
+        {
+          "offset": 4176,
+          "source_words_sha256": "7145134373f351695c65751c060e8895361bdcb7227a2a175413cabf53cf7d71",
+          "parts": [
+            "Well, that's a sorry showing."
+          ]
+        },
+        {
+          "offset": 4204,
+          "source_words_sha256": "3d43aa250fe68d2653e7d9a09c62fd27aaac618a404a0a3801d96541c8f2cb02",
+          "parts": [
+            "I didn't lend you much,\nso I suppose that's about\nright for a beginner..."
+          ]
+        },
+        {
+          "offset": 4284,
+          "source_words_sha256": "42e0f37b566748ddd5091db9bd7b00ec21e04ff1d7f72df2fdc42f9e567937ea",
+          "parts": [
+            "Collect Gin Tama. Get experience."
+          ]
+        },
+        {
+          "offset": 4328,
+          "source_words_sha256": "449be2bfcc18be977053cceb7bb259ce97b8872c67c5f1b36c904666630d5d81",
+          "parts": [
+            "You might just stumble\non a rare Gin Tama that way."
+          ]
+        },
+        {
+          "offset": 4384,
+          "source_words_sha256": "1a521db9200aeffa4e007f0d9c47d9310fd75715f66eebfb20a251a1f99082c3",
+          "parts": [
+            "From what I hear..."
+          ]
+        },
+        {
+          "offset": 4408,
+          "source_words_sha256": "b393cf765772bf6ad4821d1e3e26c018c98bf439c9e0501a7a3d738da184daef",
+          "parts": [
+            "Kotodama Boost makes\nKotodama hits stronger..."
+          ]
+        },
+        {
+          "offset": 4468,
+          "source_words_sha256": "4166c48f9c986f8c4645eb4e15b971d9df139228c1cc4b6fe3be93549146a530",
+          "parts": [
+            "And Character Gin Tama\nthat can summon your allies."
+          ]
+        },
+        {
+          "offset": 4524,
+          "source_words_sha256": "a65572b05aec67c30ce98a9e72fbd1942a38c52b0537982a1aa52d9878de8096",
+          "parts": [
+            "I'd like to give them a try\nmyself, if I get the chance..."
+          ]
+        },
+        {
+          "offset": 4576,
+          "source_words_sha256": "d9936d4c2518d8b71c2a248b9cfb85c414c0d32a4fc1e4b9e09d034a678e73f9",
+          "parts": [
+            "But whatever you do,\nrelax and enjoy yourself.\nThat's the best way to play."
+          ]
+        },
+        {
+          "offset": 4652,
+          "source_words_sha256": "da8fcebadf0816e18a5d85ddea847e85aa027e059bcec2a0ab2d7254ccda5836",
+          "parts": [
+            "Work hard. Pay your rent!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/item/item_scr.msb",
+      "source_msb_sha256": "254074f1170a8dc29be2c50b46c87c269941ef624569c29be50a7b378574aa9d",
+      "source_cdb_sha256": "8843a915aae6b18d9499193d9a687d4438f234dcb9dbfa99b791329a2290058f",
+      "record_count": 15,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/ayame.msb",
+      "source_msb_sha256": "014fdb7163667213e0cd39229a0d81950592b07b2534d6e9ad4f7b43e6c07ad4",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/bad_leader.msb",
+      "source_msb_sha256": "c3d73061053c9e27660fc2cf055754a04352f93395c5a59d82c4937d4dbff936",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/catharine.msb",
+      "source_msb_sha256": "8b1a9045898244050853ebe8211ec58002fbcd8d3d935ffa871690c364cc5667",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/daraku.msb",
+      "source_msb_sha256": "661222b79d0cc50cb85196ac27d1710be2103e12e1474ddea4d85e9ed07cfce0",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/elizabeth.msb",
+      "source_msb_sha256": "e013e2742f4bd71a53aba3fb4895139771cccdfb09de2c481a2c9322ce158122",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy00.msb",
+      "source_msb_sha256": "f178c27c9fd727c9d5d0a16621974a786387e10b310e066179c22b69452430ca",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy01.msb",
+      "source_msb_sha256": "bd5af6ef4d402fc34c479e519e95fa50c686ae76ae14d14afb91ff0038bacf69",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy02.msb",
+      "source_msb_sha256": "d7ff9de440da92becbce3806d6c274a9b08739aece14452cc1ac832884d0403b",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy03.msb",
+      "source_msb_sha256": "3dee323b5dda1785c14a10d22950b36b61b832dcbf202e8fde2585e1e0a722fa",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3611,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy04.msb",
+      "source_msb_sha256": "4af67bbc484a74168a80955ae914e025c3f1e3f2fa15314be143e4f968889902",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy05.msb",
+      "source_msb_sha256": "1538fa282bc9224b84ff5abdf8a50cea0ad4c05ae2ab211e6c25f6ce7439344a",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy06.msb",
+      "source_msb_sha256": "e71fb133e0cedd95306f08e158285ccd0d9d43dd9836daa0bad4ff6978857d9d",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy07.msb",
+      "source_msb_sha256": "67609b47b8b6cef7dce450c0a050bd33773049ea3d697e85fcf96f2d8fb647e9",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy08.msb",
+      "source_msb_sha256": "1a4114f33228d79e18ed901e214657406c8eee9b47f7308923a9608b2269fbce",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy09.msb",
+      "source_msb_sha256": "3fa7fa2c7aaae72ac6809eede93b502e26a183ceeb62db72f514bb55b13f85db",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/enemy10.msb",
+      "source_msb_sha256": "1a3b9170e7ccf904c9d740cabba52efbe0b7998e220a52ab2c8c016db8dcf84b",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/gintoki.msb",
+      "source_msb_sha256": "897f56ea6359a04a521b50e06b9fd6fa22cea1305f8d68678e7eba1fd406c472",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3808,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "ebc5cdddcb07178bc03fe0636170110f4d2fe689ac8dc037b755e1a4de45af6d",
+          "parts": [
+            "Hah!"
+          ]
+        },
+        {
+          "offset": 16,
+          "source_words_sha256": "030b166027ae185a0259ce761a730451320c3b8e9791bc25a24d02510e2d2ebf",
+          "parts": [
+            "Yah!"
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "ec5ad76614ca399dce58e88a671a13bbce6f7c66055e1abf60242b32e08aaa74",
+          "parts": [
+            "Take that!"
+          ]
+        },
+        {
+          "offset": 44,
+          "source_words_sha256": "2040358a2facada5f7327b128179a00f9c88b2bf669113186a90f5bb6f930327",
+          "parts": [
+            "Ow!"
+          ]
+        },
+        {
+          "offset": 56,
+          "source_words_sha256": "553d2b5b37ef75c5bb56890cb9d999a0dec3c2be5d0b4b55230fcf9476df7220",
+          "parts": [
+            "Ugh..."
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "246b142dedee8bf257101f11428449d3e30bcaf984fd6a8eb434ba51e1506184",
+          "parts": [
+            "Damn!"
+          ]
+        },
+        {
+          "offset": 116,
+          "source_words_sha256": "ee131ea26318b1ddb55b39d7c7a97ffc8eeea1e0422fba1de2c1d2619c656fce",
+          "parts": [
+            "Hyaaah!"
+          ]
+        },
+        {
+          "offset": 132,
+          "source_words_sha256": "48036e36a2475ad078dcbeb2271784258e4f995ceb708b98e96b7eccb9ba49a3",
+          "parts": [
+            "Bastard!"
+          ]
+        },
+        {
+          "offset": 148,
+          "source_words_sha256": "1a6c16022499ef728e88585e37fe3e073b0376b250ba7460b770ba2d51f97e16",
+          "parts": [
+            "Hiyah!"
+          ]
+        },
+        {
+          "offset": 164,
+          "source_words_sha256": "daf0cddda9695ec77c8b851dfb1954e22dc9852ca1ad8b1512795856f176c149",
+          "parts": [
+            "You...!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/message/hasegawa.msb",
+      "source_msb_sha256": "bd31370fa139f71cefbb65cb8e0bce1bae752fcc10ccdacebbd7858596b882c2",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/hata.msb",
+      "source_msb_sha256": "29f77b3d1dd07bfc9d3d528567ff19dfaf1cc3fbc6f41aac5f540a16e2a5e082",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/hijikata.msb",
+      "source_msb_sha256": "f28c032026609227b2d6510870f06e872d51ad45528eb7b982ba7c7aca72f086",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3808,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "8334165a1da0d890638305e17b8a6fd088bbc11a10b569a940286584c1645e97",
+          "parts": [
+            "Hah!"
+          ]
+        },
+        {
+          "offset": 16,
+          "source_words_sha256": "c764c605f888353d89facdc761c2846c08a237b6ecfb7473ef3ea503b7c18b12",
+          "parts": [
+            "Tch!"
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "df1d26e3dbb9382492f2e57c1a328366217a7bb19538c1191b8fffdb23765f46",
+          "parts": [
+            "There!"
+          ]
+        },
+        {
+          "offset": 44,
+          "source_words_sha256": "2e15879260183cbb8fc43e3bfd60810a8ca19095074c184b73afa88262105183",
+          "parts": [
+            "Bastard!"
+          ]
+        },
+        {
+          "offset": 56,
+          "source_words_sha256": "553d2b5b37ef75c5bb56890cb9d999a0dec3c2be5d0b4b55230fcf9476df7220",
+          "parts": [
+            "Ugh..."
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "68650cfb7c9086a15ea41290845d9b53873f76801386d8ddbacc9ae6ef79c676",
+          "parts": [
+            "Bring it!"
+          ]
+        },
+        {
+          "offset": 120,
+          "source_words_sha256": "4e4747e7b1e7e4f71cda7f6fdd36cf28f24d300d003f739b0a165f3d8bfd3c15",
+          "parts": [
+            "Take that!"
+          ]
+        },
+        {
+          "offset": 136,
+          "source_words_sha256": "e79f57e18297b412e393a206d07e3656a9f207437eb70083aef6044269ac33ba",
+          "parts": [
+            "Give it up!"
+          ]
+        },
+        {
+          "offset": 156,
+          "source_words_sha256": "dbee22cd0e61445d49a1210511678b3aeedb3f8d6e36e7f11208903e2984016e",
+          "parts": [
+            "Too naive!"
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "aac44b008b1bc5883f3519ecab69e4daa9351d16234def8afbcf8bfcf7fc4122",
+          "parts": [
+            "Try me!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/message/hiraga.msb",
+      "source_msb_sha256": "b6479f61ffec4cd003bd0d7a8cd0521ca7e44afc8f1360a8716734f331b1b699",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/jii.msb",
+      "source_msb_sha256": "904aac3f2ce0497c0612557351b99e332649327bf984ac62a8cdda43fafb4b85",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/ka_amand.msb",
+      "source_msb_sha256": "84871314f4b919310b56183fb2a58b1626f727b9543c55c73a524e2d5cb85daf",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/kagura.msb",
+      "source_msb_sha256": "7fe1eb3f92109e7b76c22afd63d0430d3746e70e154b88c3365ee50155d99fe1",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "aaa7e1fedf54e91c845f345879dbfd58add86fe08774ad4478a85ab0c56e8495",
+          "parts": [
+            "Hah!"
+          ]
+        },
+        {
+          "offset": 20,
+          "source_words_sha256": "a90a16869d83280c6367878cd5600decb65f28dd625bf8139315ad503dae4210",
+          "parts": [
+            "Here I go!"
+          ]
+        },
+        {
+          "offset": 36,
+          "source_words_sha256": "1a6c16022499ef728e88585e37fe3e073b0376b250ba7460b770ba2d51f97e16",
+          "parts": [
+            "Hiyah!"
+          ]
+        },
+        {
+          "offset": 52,
+          "source_words_sha256": "07830da1f3f622a53a989e1408889fa6f9609deccac2989264d5c24169c8ecc2",
+          "parts": [
+            "Ow, ow, ow..."
+          ]
+        },
+        {
+          "offset": 72,
+          "source_words_sha256": "6a6f8539a7f99f8ce295b189627874a75108a30823967653ce11b7aa54c435cc",
+          "parts": [
+            "Health! Health me!"
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "4f42e2e90355bcfd8e1915d85caec6d87e288b7a4fd3f2496ba39a3006f82534",
+          "parts": [
+            "...Damn it!"
+          ]
+        },
+        {
+          "offset": 156,
+          "source_words_sha256": "2d189d91fcf0d0e3a0775a60d63918196f4a611b2a1f72e7c2a8314d278a51c4",
+          "parts": [
+            "Hyaaaah!"
+          ]
+        },
+        {
+          "offset": 180,
+          "source_words_sha256": "7d6aeacb3b2a773361c88d63d1f5b6aed7727c5cc34b0a996296291c24e1d90a",
+          "parts": [
+            "How's that?!"
+          ]
+        },
+        {
+          "offset": 204,
+          "source_words_sha256": "e61c6a4c291b5b455fe21d972fb3619fe8cb105e856f16a94bc4902851baef38",
+          "parts": [
+            "Give up!"
+          ]
+        },
+        {
+          "offset": 224,
+          "source_words_sha256": "9886b9a4943ee3f318cb61d7f46efa3962f3ee15f5e8a4356bd67a1cdff1a662",
+          "parts": [
+            "I-I'll knock you flat later!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/message/karakuri.msb",
+      "source_msb_sha256": "1a95eac01af2ed924c49e3daf939a3fed6bb9e6c208aaea0d94f13e9ace8f354",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/katsura.msb",
+      "source_msb_sha256": "6c593efff9b618ec4677addbe8e6592b4400e700d322f6ff37019dbf8cd082ab",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/kondo.msb",
+      "source_msb_sha256": "61c479698ad36178acae3b12ff58a2c8b40d95138fe33991145614d74e21fad4",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/matsudaira.msb",
+      "source_msb_sha256": "d93d19b2e2d3723c4200771ad4f0c7c1e9dc8f6f7911c110902b5d9d4b91661a",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/mecha_daraku.msb",
+      "source_msb_sha256": "73680787c51524b40833498568459ae0a6aefa56a61d1e374a5155c7d0376d63",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3808,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/mecha_daraku_mask.msb",
+      "source_msb_sha256": "94cbf0f1400115dfebbab8197b3b179b985a7004959c0efe500109f7d624015f",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3808,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/okita.msb",
+      "source_msb_sha256": "e2c5049d7ec9f5f20d61173e88c1ee37597e8e10edd221cf8dccb762121ccf55",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/otae.msb",
+      "source_msb_sha256": "72e9d34edcf4bc4ee6f63ffbbac80287e2d1589d80ea09855a055ce83b850710",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/otose.msb",
+      "source_msb_sha256": "b6d5d977408db488e241a016e15aa326badb2579d3c51dbb51b2f838ba7f9cdb",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "4d1f85c2c8c028f41ad8eca9f4a5211df3a9998ca6f86ab8617a4d08b17248b3",
+          "parts": [
+            "Hyaaah!"
+          ]
+        },
+        {
+          "offset": 20,
+          "source_words_sha256": "bfaccf6767682a3a4fedc1ec127d44bef840b15e11d7cc5ba79271a759bce8c7",
+          "parts": [
+            "What, bastard?!"
+          ]
+        },
+        {
+          "offset": 48,
+          "source_words_sha256": "dd2882b3b34d9cde09f5f9b3a3ff936a51a7d0a7b442c498f75636bac765e3ec",
+          "parts": [
+            "Hiyah!"
+          ]
+        },
+        {
+          "offset": 64,
+          "source_words_sha256": "fc29b2fd51b9589c1b14089206188af5c248bd953c6210808a6135bf27824423",
+          "parts": [
+            "Ow, ow, ow..."
+          ]
+        },
+        {
+          "offset": 84,
+          "source_words_sha256": "a0687181cf05e7d6a396437b3c2e9d4fd6da79d8d74067b96858cd6008e43047",
+          "parts": [
+            "This is why I hate it..."
+          ]
+        },
+        {
+          "offset": 116,
+          "source_words_sha256": "dbd214b072c6e602ca1f80a58d99ce9852292dfe32d29d5064d1886661ddcba9",
+          "parts": [
+            "...What are you playing at?"
+          ]
+        },
+        {
+          "offset": 172,
+          "source_words_sha256": "ff8f404f478cd902dfafed691dfda1941a96d188181fe947e85a1310c4d8512d",
+          "parts": [
+            "You IDIOT!"
+          ]
+        },
+        {
+          "offset": 200,
+          "source_words_sha256": "bb3e7a7e2dcbfab50427df667988788c3d4fd160d113f216152f705d0a30b5e1",
+          "parts": [
+            "You BASTARD!"
+          ]
+        },
+        {
+          "offset": 228,
+          "source_words_sha256": "79f3c9b77582f54b1a901386f835c4ad869dc98ff24b454cca1d689a21074ded",
+          "parts": [
+            "Daaammit!"
+          ]
+        },
+        {
+          "offset": 260,
+          "source_words_sha256": "45e393f14bb317bb7734f2134658923b19b9287fd655fb719d894a8c92cb7e9d",
+          "parts": [
+            "Don't get cocky!"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/message/otsu.msb",
+      "source_msb_sha256": "a923d0bc4555f4895a61a37e6b06ab70e782fcde30981b9aca76ccaeff8fff55",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/saburou.msb",
+      "source_msb_sha256": "f179eeed3178fb512cf28168ab00b2557ff085315074694e10d177dc6fa461d2",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/saigo.msb",
+      "source_msb_sha256": "b9eb7122c699e6a1cd7cf4062eee45c00a7524ff4440c7d7061198567474d342",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/shinpachi.msb",
+      "source_msb_sha256": "e61ea6cd333f728b65e12db4035deefb2a8e9c9ce650f9b644a6ac816dfcfda1",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "4b505994efddae38cabcd464b2748c7de79c6c41ec0b45871522588d689b4ffb",
+          "parts": [
+            "Hah!"
+          ]
+        },
+        {
+          "offset": 16,
+          "source_words_sha256": "ad73ffa27127a7a645dd697eeacafe3db7e0a8913c95a0c473aadfafd1c38584",
+          "parts": [
+            "Hyah!"
+          ]
+        },
+        {
+          "offset": 28,
+          "source_words_sha256": "92b40d7a5d60c7b64133144ae8c8bbc6d40294aef6f48f5f27ca10bf43141de1",
+          "parts": [
+            "Yah!"
+          ]
+        },
+        {
+          "offset": 40,
+          "source_words_sha256": "07830da1f3f622a53a989e1408889fa6f9609deccac2989264d5c24169c8ecc2",
+          "parts": [
+            "Ow, ow, ow..."
+          ]
+        },
+        {
+          "offset": 60,
+          "source_words_sha256": "7b7ab650caf3e8365c1df015cdc22594094c8aa4c59544de15c8527bd864a5fa",
+          "parts": [
+            "Hey! What are you doing!?"
+          ]
+        },
+        {
+          "offset": 96,
+          "source_words_sha256": "f7a38990268b0a5ec9652e09f4e604b646de3f84e0c9f4c6459730b1001b8657",
+          "parts": [
+            "Guh!"
+          ]
+        },
+        {
+          "offset": 140,
+          "source_words_sha256": "7f62d20e4a0ee8e35023ea644d8052e12fcc8ce1433e566cef8968c4e31ce177",
+          "parts": [
+            "Hyaaah!"
+          ]
+        },
+        {
+          "offset": 160,
+          "source_words_sha256": "166623b55dc525a371e3baf3011253a63b969c7ff569135873d79c567ca4be8e",
+          "parts": [
+            "Here I come!"
+          ]
+        },
+        {
+          "offset": 184,
+          "source_words_sha256": "d02e2252f9ee5e2dd337759c2bc4fe9085d31724da286e6419fa2482a54aee51",
+          "parts": [
+            "Don't underestimate me!"
+          ]
+        },
+        {
+          "offset": 212,
+          "source_words_sha256": "927d162ad36b30e7f0b41b759a64cdd90aa0ffb9402f61bf441f05f3b8ac4816",
+          "parts": [
+            "Gah!? U-ugh..."
+          ]
+        },
+        {
+          "offset": 244,
+          "source_words_sha256": "d64b8f57642af199febb8489c1be7887117eda74848006cdbda5da4d41c8b458",
+          "parts": [
+            "Guaaah!!"
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "819bb33a36cac80fa047cd6186a2b8aacac56772c93a59ebe0592ee1417ff199",
+          "parts": [
+            "D-daaaamn it!"
+          ]
+        },
+        {
+          "offset": 332,
+          "source_words_sha256": "b4b6ef223438e3d4e0df59c34488c72a6c5937941bbac42e1771022269fd698a",
+          "parts": [
+            "What the heck!?"
+          ]
+        },
+        {
+          "offset": 352,
+          "source_words_sha256": "9331a438ca1ff9bac178792ccbd21bfae7f62f5fafb330436818e0ed3f316f3e",
+          "parts": [
+            "What!?"
+          ]
+        },
+        {
+          "offset": 372,
+          "source_words_sha256": "c5132ecd2f642f47c370441ffb886df1be44dfe4cc4bde7f61ed913af0fbfff5",
+          "parts": [
+            "You idiot!"
+          ]
+        },
+        {
+          "offset": 384,
+          "source_words_sha256": "07830da1f3f622a53a989e1408889fa6f9609deccac2989264d5c24169c8ecc2",
+          "parts": [
+            "Ow, ow, ow..."
+          ]
+        },
+        {
+          "offset": 404,
+          "source_words_sha256": "7b7ab650caf3e8365c1df015cdc22594094c8aa4c59544de15c8527bd864a5fa",
+          "parts": [
+            "H-hey! What are you doing?!"
+          ]
+        },
+        {
+          "offset": 440,
+          "source_words_sha256": "f7a38990268b0a5ec9652e09f4e604b646de3f84e0c9f4c6459730b1001b8657",
+          "parts": [
+            "Guh!"
+          ]
+        },
+        {
+          "offset": 484,
+          "source_words_sha256": "2f0edc7e57c005a0af1284aeeb2347580b26e160b0bdd6916076bfdd6e3d5c7a",
+          "parts": [
+            "There we go."
+          ]
+        },
+        {
+          "offset": 508,
+          "source_words_sha256": "dbfbe4896556284b47976a9b60cc8e957e1d95f385da7fbce070db3561399e46",
+          "parts": [
+            "Enough already!"
+          ]
+        },
+        {
+          "offset": 540,
+          "source_words_sha256": "cf9fc5067b2f8ca51590164867bb3b51ec551b177dbac3825639f0cdb95cea46",
+          "parts": [
+            "Yeah."
+          ]
+        },
+        {
+          "offset": 552,
+          "source_words_sha256": "bde465345044f934e477cdcb1da68fef1674a47c0d9aedcd4891e524eaddef5a",
+          "parts": [
+            "Ow! A squeaky hammer\nis good enough for me!?"
+          ]
+        },
+        {
+          "offset": 656,
+          "source_words_sha256": "2f0edc7e57c005a0af1284aeeb2347580b26e160b0bdd6916076bfdd6e3d5c7a",
+          "parts": [
+            "Up we go..."
+          ]
+        },
+        {
+          "offset": 680,
+          "source_words_sha256": "dbfbe4896556284b47976a9b60cc8e957e1d95f385da7fbce070db3561399e46",
+          "parts": [
+            "That's enough, already!"
+          ]
+        },
+        {
+          "offset": 712,
+          "source_words_sha256": "cf9fc5067b2f8ca51590164867bb3b51ec551b177dbac3825639f0cdb95cea46",
+          "parts": [
+            "Yeah."
+          ]
+        },
+        {
+          "offset": 724,
+          "source_words_sha256": "720915c0c1cb47885f56ac16c6bffd7d46192e01706a52ce436e2fcf6accbf01",
+          "parts": [
+            "Waaaah!?\nWhy a TUNA!?"
+          ]
+        },
+        {
+          "offset": 808,
+          "source_words_sha256": "42616bc81674a88457725de93c635f0d1a92ed36f6cb16d09ebae7764fe91806",
+          "parts": [
+            "Here's your bad luck!"
+          ]
+        },
+        {
+          "offset": 852,
+          "source_words_sha256": "d170b43edc906e236138cbd60d7925cfb273caeb8f5bc0c62283382b1104b568",
+          "parts": [
+            "Gah!? That gun...\nThe legendary Sweeper\nused it...!?"
+          ]
+        },
+        {
+          "offset": 976,
+          "source_words_sha256": "2a91dae96e4ef23add3bc4d14591e5a63e6c63c281c4da4745375204f0d8c467",
+          "parts": [
+            "I'll show you a real\nSoul Reaper!"
+          ]
+        },
+        {
+          "offset": 1020,
+          "source_words_sha256": "90e9d31d33939bd1243ba9128a78f85cc1b64dc1ad4909154be50154435ef4bd",
+          "parts": [
+            "Guh...! That sword...\nOnly a Soul Reaper\ncan wield that...!?"
+          ]
+        },
+        {
+          "offset": 1152,
+          "source_words_sha256": "4b505994efddae38cabcd464b2748c7de79c6c41ec0b45871522588d689b4ffb",
+          "parts": [
+            "Yah!"
+          ]
+        },
+        {
+          "offset": 1164,
+          "source_words_sha256": "ad73ffa27127a7a645dd697eeacafe3db7e0a8913c95a0c473aadfafd1c38584",
+          "parts": [
+            "Hah!"
+          ]
+        },
+        {
+          "offset": 1176,
+          "source_words_sha256": "92b40d7a5d60c7b64133144ae8c8bbc6d40294aef6f48f5f27ca10bf43141de1",
+          "parts": [
+            "Hiyah!"
+          ]
+        },
+        {
+          "offset": 1188,
+          "source_words_sha256": "07830da1f3f622a53a989e1408889fa6f9609deccac2989264d5c24169c8ecc2",
+          "parts": [
+            "Ow, ow, ow..."
+          ]
+        },
+        {
+          "offset": 1424,
+          "source_words_sha256": "34519e9b599de7ca4e7b1d84e7611d2a488c21924426a303a962e1f03000c2db",
+          "parts": [
+            "Watch out there."
+          ]
+        },
+        {
+          "offset": 1456,
+          "source_words_sha256": "81feb166d7712743ae336247c632f8983c619ec2216302cf5f380b5a629bfd54",
+          "parts": [
+            "This is hopeless..."
+          ]
+        },
+        {
+          "offset": 1588,
+          "source_words_sha256": "21a48449b0866b811bf0be9d4f2f4289e3b2457a44c49837477d49e885732dda",
+          "parts": [
+            "Ow!\nTAKE THIS SERIOUSLY!!"
+          ]
+        },
+        {
+          "offset": 1744,
+          "source_words_sha256": "2fbf5044786bd8ffffa82423dec9ff47c3002218cb379085d2e83ea491de45f9",
+          "parts": [
+            "Ow...!\nIs that a dango skewer...?"
+          ]
+        },
+        {
+          "offset": 1900,
+          "source_words_sha256": "b47fce09b160a8273dadd7bc5972e12e2bc30428332e535c2a6e03ab8e0ec4b4",
+          "parts": [
+            "Ugh! That stinks!\nLike a rag used to\nwipe up milk!"
+          ]
+        },
+        {
+          "offset": 2076,
+          "source_words_sha256": "5b1b62d311894d44a216a2a47a4996dc9bd819d5054e4be154114811bebf59be",
+          "parts": [
+            "Hyaaah!"
+          ]
+        },
+        {
+          "offset": 2200,
+          "source_words_sha256": "a04bfe9aa3a457f771b6267100d205a3bf2ada3c8f3ee214484a4a3d09b868be",
+          "parts": [
+            "Ugh!\nI-it was rotten!?"
+          ]
+        },
+        {
+          "offset": 2244,
+          "source_words_sha256": "8eb39f1bd6bb2dc28582e821bd7b74876ffe9243c716fd074fbe1f186a34a708",
+          "parts": [
+            "Hyaaaah!"
+          ]
+        },
+        {
+          "offset": 2364,
+          "source_words_sha256": "6498ade654fcca34af826988e096e6e598357fcb0784c02b9bbbce25272de3c8",
+          "parts": [
+            "Ugh! Wait a second!\nWas that egg rotten...!?"
+          ]
+        },
+        {
+          "offset": 2828,
+          "source_words_sha256": "f236e924330ed340e04b66990846cfdb7bcbf7c6a341fb30ef1f3622b7d4e820",
+          "parts": [
+            "Waaaah!? My eyesight\nis getting worse AGAIN!?"
+          ]
+        },
+        {
+          "offset": 3024,
+          "source_words_sha256": "2a444903bb6fddbb67a72be6cade20c40b17e447074453d520f943605b046c73",
+          "parts": [
+            "Owwww!?"
+          ]
+        },
+        {
+          "offset": 3280,
+          "source_words_sha256": "b1fe31331af22fe42baf1e39ec26da92972e667d816ad0f8adb53a94844c841c",
+          "parts": [
+            "I'll take a little\nof your blood."
+          ]
+        },
+        {
+          "offset": 3328,
+          "source_words_sha256": "eed12b4461b8ac8f299f050c5a062cb8515036a2bf5d7bb93c72ec34af691e05",
+          "parts": [
+            "M-my blooood!?"
+          ]
+        }
+      ]
+    },
+    {
+      "script": "battle/script/message/takasugi.msb",
+      "source_msb_sha256": "14477c24ef830ae92d160986b5b8594507fc49d380665b27e4c99e27da99a147",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    },
+    {
+      "script": "battle/script/message/yamazaki.msb",
+      "source_msb_sha256": "9e20d0958f1b393e4efa3c9d25e92b5ae6089d7e526763d43abc80798faac157",
+      "source_cdb_sha256": "cf32ea15850188297d5b42cea66acfa52f0ed73e685ad1be8e2e99bcde43b62f",
+      "record_count": 3612,
+      "messages": []
+    }
+  ]
+}

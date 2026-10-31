@@ -1,0 +1,31 @@
+name: Export approved translations
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    if: github.ref == 'refs/heads/main' && vars.TRANSLATION_EXPORTS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Ensure no game binaries are tracked
+        run: python3 tools/check_public_tree.py --repo .
+      - run: python3 tools/export_approved.py --repo . --out "$RUNNER_TEMP/gintama-export"
+      - name: Add local patch tools and player instructions
+        run: |
+          cp tools/rom_patch.py "$RUNNER_TEMP/gintama-export/rom_patch.py"
+          cp docs/APPLY_PATCH.md "$RUNNER_TEMP/gintama-export/HOW_TO_APPLY.md"
+          cp docs/PATCH_BUILDING.md "$RUNNER_TEMP/gintama-export/PATCH_BUILDING.md"
+      - name: Audit final exported files
+        run: python3 tools/check_public_tree.py --repo "$RUNNER_TEMP/gintama-export" --profile export
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: gintama-approved-text-and-patch-tools
+          path: ${{ runner.temp }}/gintama-export/
+          retention-days: 30

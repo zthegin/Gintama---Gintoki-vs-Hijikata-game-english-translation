@@ -1,0 +1,1979 @@
+{
+  "version": 108,
+  "policy": "English terminology only. Original game descriptions, quote prefixes and Japanese text are not distributed. Read source context locally. No official affiliation or permission is implied.",
+  "core_terms": [
+    {
+      "stable_id": "term_000",
+      "English": "Yorozuya",
+      "aliases": [
+        "Odd Jobs",
+        "Yorozuya Gin-chan"
+      ],
+      "notes": "Retain Yorozuya as the name. Explain the odd-jobs business naturally when context needs it."
+    },
+    {
+      "stable_id": "term_001",
+      "English": "Gin Tama",
+      "aliases": [
+        "silver orb",
+        "orbs"
+      ],
+      "notes": "Game collectibles/battle objects. Use Gin Tama as both singular and plural. Gintama is the series title; keep that spelling separate."
+    },
+    {
+      "stable_id": "term_002",
+      "English": "Shinsengumi",
+      "aliases": [],
+      "notes": "Retain the organization name; distinguish it from its historical namesake when source context requires."
+    },
+    {
+      "stable_id": "term_003",
+      "English": "Kabukicho",
+      "aliases": [
+        "Kabuki District"
+      ],
+      "notes": "Retain Kabukicho. Check source spellings locally."
+    },
+    {
+      "stable_id": "term_004",
+      "English": "Amanto",
+      "aliases": [
+        "aliens"
+      ],
+      "notes": "Retain the in-universe term; alien is a contextual explanation."
+    },
+    {
+      "stable_id": "term_005",
+      "English": "Yato",
+      "aliases": [],
+      "notes": "Kagura and Umibozu belong to the Yato."
+    },
+    {
+      "stable_id": "term_006",
+      "English": "Joi rebels",
+      "aliases": [
+        "Joi patriots"
+      ],
+      "notes": "Use Joi rebels in neutral UI; character dialogue may describe them politically in its own voice."
+    },
+    {
+      "stable_id": "term_007",
+      "English": "Kotodama",
+      "aliases": [
+        "verbal attack",
+        "word attack"
+      ],
+      "notes": "Battle system term; short English UI alias needs a separate fit note."
+    },
+    {
+      "stable_id": "term_008",
+      "English": "Rengokukan",
+      "aliases": [],
+      "notes": "Retain the venue name; distinguish the old Rengokukan."
+    },
+    {
+      "stable_id": "term_009",
+      "English": "Oedo Mart",
+      "aliases": [],
+      "notes": "Voucher redemption location, as named in the source description."
+    },
+    {
+      "stable_id": "term_010",
+      "English": "Hokuto Shinken",
+      "aliases": [],
+      "notes": "Ikumatsu's ramen shop; retain its punning name."
+    },
+    {
+      "stable_id": "term_011",
+      "English": "Sukonbu",
+      "aliases": [
+        "vinegared kelp"
+      ],
+      "notes": "Retain the food name, explanatory alias available."
+    },
+    {
+      "stable_id": "term_012",
+      "English": "Justaway",
+      "aliases": [],
+      "notes": "Single spelling across graphics, item references and dialogue."
+    },
+    {
+      "stable_id": "term_013",
+      "English": "Shiroyasha",
+      "aliases": [
+        "White Demon"
+      ],
+      "notes": "Gintoki's epithet. Keep the franchise term."
+    },
+    {
+      "stable_id": "term_014",
+      "English": "Otae",
+      "aliases": [
+        "Tae",
+        "Tae Shimura"
+      ],
+      "notes": "Use Otae in familiar dialogue; Tae Shimura in formal character entries."
+    },
+    {
+      "stable_id": "term_015",
+      "English": "Otsu",
+      "aliases": [
+        "Tsu Terakado",
+        "Otsu-chan"
+      ],
+      "notes": "Otsu is the familiar stage-name form; Tsu Terakado is the full name."
+    },
+    {
+      "stable_id": "term_016",
+      "English": "Sacchan",
+      "aliases": [
+        "Ayame Sarutobi"
+      ],
+      "notes": "Keep nickname distinct from the formal full name."
+    },
+    {
+      "stable_id": "term_017",
+      "English": "Zura",
+      "aliases": [
+        "wig"
+      ],
+      "notes": "Keep the nickname and the running name-correction gag; literal wig only where context requires it."
+    },
+    {
+      "stable_id": "term_018",
+      "English": "Madao",
+      "aliases": [
+        "Taizo Hasegawa"
+      ],
+      "notes": "Retain nickname; translate the expanded acronym only when the scene supplies it."
+    },
+    {
+      "stable_id": "term_019",
+      "English": "Neo Armstrong Cannon",
+      "aliases": [
+        "Neo Armstrong Cyclone Jet Armstrong Cannon"
+      ],
+      "notes": "Short source form and full gag name are distinct aliases. Preserve the incomplete version's question mark."
+    }
+  ],
+  "entries": [
+    {
+      "stable_id": "item_000",
+      "category": "items",
+      "English": "Sakamoto's Letter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_001",
+      "category": "items",
+      "English": "Rengokukan Pass",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_002",
+      "category": "items",
+      "English": "Mokichi's Bento",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_003",
+      "category": "items",
+      "English": "Delivery Ramen",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_004",
+      "category": "items",
+      "English": "Delivery Gyoza",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_005",
+      "category": "items",
+      "English": "Delivery Fried Rice",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_006",
+      "category": "items",
+      "English": "Delivery Mapo Tofu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_007",
+      "category": "items",
+      "English": "Delivery Soba",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_008",
+      "category": "items",
+      "English": "Wild Space Lily",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_009",
+      "category": "items",
+      "English": "Last Week's Jump",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_010",
+      "category": "items",
+      "English": "Right Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_011",
+      "category": "items",
+      "English": "Left Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_012",
+      "category": "items",
+      "English": "Center Pole",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_013",
+      "category": "items",
+      "English": "Oryo's Letter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_014",
+      "category": "items",
+      "English": "Sakamoto's Letter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_015",
+      "category": "items",
+      "English": "Otsu's Photo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_016",
+      "category": "items",
+      "English": "Otsu's Autograph",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_017",
+      "category": "items",
+      "English": "What the Woof?!",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_018",
+      "category": "items",
+      "English": "Kagura's Replica Umbrella",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_019",
+      "category": "items",
+      "English": "Free Dango Voucher",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_020",
+      "category": "items",
+      "English": "Voucher Stub",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_021",
+      "category": "items",
+      "English": "Scooter Key",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_022",
+      "category": "items",
+      "English": "Ikumatsu's Underwear",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_023",
+      "category": "items",
+      "English": "Otae's Underwear",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_024",
+      "category": "items",
+      "English": "Ayame's Underwear",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_025",
+      "category": "items",
+      "English": "Otose's Underwear",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_026",
+      "category": "items",
+      "English": "Otsu's Underwear",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_027",
+      "category": "items",
+      "English": "Manju",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "item_028",
+      "category": "items",
+      "English": "Mobile Phone",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_000",
+      "category": "characters",
+      "English": "Gintoki Sakata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_001",
+      "category": "characters",
+      "English": "Kotaro Katsura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_002",
+      "category": "characters",
+      "English": "Toshiro Hijikata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_003",
+      "category": "characters",
+      "English": "Sogo Okita",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_004",
+      "category": "characters",
+      "English": "Shinpachi Shimura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_005",
+      "category": "characters",
+      "English": "Kagura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_006",
+      "category": "characters",
+      "English": "Tae Shimura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_007",
+      "category": "characters",
+      "English": "Otose",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_008",
+      "category": "characters",
+      "English": "Catherine",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_009",
+      "category": "characters",
+      "English": "Sadaharu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_010",
+      "category": "characters",
+      "English": "Elizabeth",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_011",
+      "category": "characters",
+      "English": "Isao Kondo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_012",
+      "category": "characters",
+      "English": "Sagaru Yamazaki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_013",
+      "category": "characters",
+      "English": "Taizo Hasegawa",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_014",
+      "category": "characters",
+      "English": "Ayame Sarutobi",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_015",
+      "category": "characters",
+      "English": "Tatsuma Sakamoto",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_017",
+      "category": "characters",
+      "English": "Zenzo Hattori",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_018",
+      "category": "characters",
+      "English": "Gengai Hiraga",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_019",
+      "category": "characters",
+      "English": "Prince Hata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_020",
+      "category": "characters",
+      "English": "Jii",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_021",
+      "category": "characters",
+      "English": "Tsu Terakado",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_024",
+      "category": "characters",
+      "English": "Loan Shark Boss",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_026",
+      "category": "characters",
+      "English": "Mr. Ebina",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_028",
+      "category": "characters",
+      "English": "Tatsumi",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_029",
+      "category": "characters",
+      "English": "Mutsu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_030",
+      "category": "characters",
+      "English": "Hedoro",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_031",
+      "category": "characters",
+      "English": "Phantom Thief Fundoshi Mask",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_032",
+      "category": "characters",
+      "English": "Daraku",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_034",
+      "category": "characters",
+      "English": "Sorachi-sensei",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_035",
+      "category": "characters",
+      "English": "Umibozu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_036",
+      "category": "characters",
+      "English": "Member No. 49",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_037",
+      "category": "characters",
+      "English": "Megumi Fire Chief",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_038",
+      "category": "characters",
+      "English": "Saburo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_039",
+      "category": "characters",
+      "English": "Tasuke",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_043",
+      "category": "characters",
+      "English": "Princess Soyo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_044",
+      "category": "characters",
+      "English": "Otsu's Mother",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_045",
+      "category": "characters",
+      "English": "Otsu's Father",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_046",
+      "category": "characters",
+      "English": "GOEMON",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_047",
+      "category": "characters",
+      "English": "Inoue",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_048",
+      "category": "characters",
+      "English": "Katoken",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_049",
+      "category": "characters",
+      "English": "Mosquito Amanto",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_050",
+      "category": "characters",
+      "English": "Tamo-san",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_051",
+      "category": "characters",
+      "English": "Katakuriko Matsudaira",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_052",
+      "category": "characters",
+      "English": "Tokumori Saigo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_053",
+      "category": "characters",
+      "English": "Ketsuno, the Weather Announcer",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_054",
+      "category": "characters",
+      "English": "Yocchan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_055",
+      "category": "characters",
+      "English": "Teruhiko Saigo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_056",
+      "category": "characters",
+      "English": "Land Shark",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_059",
+      "category": "characters",
+      "English": "Beach House Owner",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_060",
+      "category": "characters",
+      "English": "Fat Yakuza",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_061",
+      "category": "characters",
+      "English": "Short Yakuza",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_062",
+      "category": "characters",
+      "English": "Oryo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_063",
+      "category": "characters",
+      "English": "Musashi Lookalike",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_064",
+      "category": "characters",
+      "English": "Mr. Uchino",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_065",
+      "category": "characters",
+      "English": "Head Nurse",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_068",
+      "category": "characters",
+      "English": "Jutoku's Daughter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_069",
+      "category": "characters",
+      "English": "Evil Organization Leader",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_070",
+      "category": "characters",
+      "English": "Short Henchman",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_071",
+      "category": "characters",
+      "English": "Fat Henchman",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_072",
+      "category": "characters",
+      "English": "Hanako",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_074",
+      "category": "characters",
+      "English": "Ikumatsu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_075",
+      "category": "characters",
+      "English": "Ikumatsu's Brother-in-Law",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_076",
+      "category": "characters",
+      "English": "Unkei",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_077",
+      "category": "characters",
+      "English": "Kaikei",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_078",
+      "category": "characters",
+      "English": "Kuriko Matsudaira",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_082",
+      "category": "characters",
+      "English": "Ofusa",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_083",
+      "category": "characters",
+      "English": "Nizo Okada",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_085",
+      "category": "characters",
+      "English": "Large Inui",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_086",
+      "category": "characters",
+      "English": "Inui",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_087",
+      "category": "characters",
+      "English": "Bald Joi Rebel",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_088",
+      "category": "characters",
+      "English": "Short Joi Rebel",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_089",
+      "category": "characters",
+      "English": "Large Joi Rebel",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_096",
+      "category": "characters",
+      "English": "Zenzo Hattori's Father",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_098",
+      "category": "characters",
+      "English": "Cockroach Soldier",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_104",
+      "category": "characters",
+      "English": "Sadomaru No. 25",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_105",
+      "category": "characters",
+      "English": "Spirit Amanto",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_106",
+      "category": "characters",
+      "English": "Shinsuke Takasugi",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_109",
+      "category": "characters",
+      "English": "Mosquito Amanto's Children",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_110",
+      "category": "characters",
+      "English": "Copy Gintoki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_111",
+      "category": "characters",
+      "English": "Copy Hijikata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "character_112",
+      "category": "characters",
+      "English": "Mecha Daraku",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_000",
+      "category": "gin_tama",
+      "English": "Coin",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_001",
+      "category": "gin_tama",
+      "English": "Golf Club",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_002",
+      "category": "gin_tama",
+      "English": "Harisen",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_003",
+      "category": "gin_tama",
+      "English": "Squeaky Hammer",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_004",
+      "category": "gin_tama",
+      "English": "Frozen Tuna",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_005",
+      "category": "gin_tama",
+      "English": "Black Gun",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_006",
+      "category": "gin_tama",
+      "English": "Unsheathed Sword",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_007",
+      "category": "gin_tama",
+      "English": "Wooden Sword",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_008",
+      "category": "gin_tama",
+      "English": "Beer Bottle",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_009",
+      "category": "gin_tama",
+      "English": "Washbasin",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_010",
+      "category": "gin_tama",
+      "English": "Pebble",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_011",
+      "category": "gin_tama",
+      "English": "Dango Skewer",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_012",
+      "category": "gin_tama",
+      "English": "Rag",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_013",
+      "category": "gin_tama",
+      "English": "Crab",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_014",
+      "category": "gin_tama",
+      "English": "Raw Egg",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_015",
+      "category": "gin_tama",
+      "English": "Kagura's Umbrella",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_016",
+      "category": "gin_tama",
+      "English": "Ashtray",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_017",
+      "category": "gin_tama",
+      "English": "Tamagoyaki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_018",
+      "category": "gin_tama",
+      "English": "Palm Strikes",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_019",
+      "category": "gin_tama",
+      "English": "Naginata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_020",
+      "category": "gin_tama",
+      "English": "Blood-Draw Needle",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_021",
+      "category": "gin_tama",
+      "English": "Old Katana",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_022",
+      "category": "gin_tama",
+      "English": "Katana",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_023",
+      "category": "gin_tama",
+      "English": "Squid Ink",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_024",
+      "category": "gin_tama",
+      "English": "Kunai",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_025",
+      "category": "gin_tama",
+      "English": "Glass Pane",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_026",
+      "category": "gin_tama",
+      "English": "Fireworks",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_027",
+      "category": "gin_tama",
+      "English": "Justaway",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_028",
+      "category": "gin_tama",
+      "English": "Neo Armstrong Cannon?",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_029",
+      "category": "gin_tama",
+      "English": "Neo Armstrong Cannon",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_030",
+      "category": "gin_tama",
+      "English": "Insecticide",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_031",
+      "category": "gin_tama",
+      "English": "Recycled Bomb",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_032",
+      "category": "gin_tama",
+      "English": "Seven Ronin",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_033",
+      "category": "gin_tama",
+      "English": "Hoshikudaki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_034",
+      "category": "gin_tama",
+      "English": "Shiroyasha",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_035",
+      "category": "gin_tama",
+      "English": "Bazooka",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_036",
+      "category": "gin_tama",
+      "English": "Long Dagger",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_037",
+      "category": "gin_tama",
+      "English": "Kotetsu-chan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_038",
+      "category": "gin_tama",
+      "English": "Stefan Doll",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_039",
+      "category": "gin_tama",
+      "English": "Natto",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_040",
+      "category": "gin_tama",
+      "English": "Curry",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_041",
+      "category": "gin_tama",
+      "English": "Chalkboard Eraser",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_042",
+      "category": "gin_tama",
+      "English": "Scooter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_043",
+      "category": "gin_tama",
+      "English": "Live Octopus",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_044",
+      "category": "gin_tama",
+      "English": "Kaito Ranma",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_045",
+      "category": "gin_tama",
+      "English": "Ikkitousen",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_046",
+      "category": "gin_tama",
+      "English": "Kotaro Katsura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_047",
+      "category": "gin_tama",
+      "English": "Kagura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_048",
+      "category": "gin_tama",
+      "English": "Shinpachi",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_049",
+      "category": "gin_tama",
+      "English": "Fan Club Captain",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_050",
+      "category": "gin_tama",
+      "English": "Yorozuya, Assemble!",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_051",
+      "category": "gin_tama",
+      "English": "Otae",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_052",
+      "category": "gin_tama",
+      "English": "Yamazaki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_053",
+      "category": "gin_tama",
+      "English": "Sogo Okita",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_054",
+      "category": "gin_tama",
+      "English": "Isao Kondo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_055",
+      "category": "gin_tama",
+      "English": "Katakuriko Matsudaira",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_056",
+      "category": "gin_tama",
+      "English": "Shinsengumi's Big Three",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_057",
+      "category": "gin_tama",
+      "English": "Six-Foot Staff",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_058",
+      "category": "gin_tama",
+      "English": "Bite",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_059",
+      "category": "gin_tama",
+      "English": "Hyakka Ryoran",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_060",
+      "category": "gin_tama",
+      "English": "Badminton Racket",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_061",
+      "category": "gin_tama",
+      "English": "Maru Pen",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_062",
+      "category": "gin_tama",
+      "English": "Sadomaru No. 22",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_063",
+      "category": "gin_tama",
+      "English": "Mamushi Z",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_064",
+      "category": "gin_tama",
+      "English": "Benizakura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_065",
+      "category": "gin_tama",
+      "English": "Coin Fan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_066",
+      "category": "gin_tama",
+      "English": "Team Attack: Gintoki",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_067",
+      "category": "gin_tama",
+      "English": "Team Attack: Hijikata",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_068",
+      "category": "gin_tama",
+      "English": "Strawberry Milk",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_069",
+      "category": "gin_tama",
+      "English": "Sukonbu",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_070",
+      "category": "gin_tama",
+      "English": "Dango",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_071",
+      "category": "gin_tama",
+      "English": "Haagen-Dazs",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_072",
+      "category": "gin_tama",
+      "English": "Dom Perignon",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_073",
+      "category": "gin_tama",
+      "English": "Chocolate Parfait",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_074",
+      "category": "gin_tama",
+      "English": "Uji Gintoki Bowl",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_075",
+      "category": "gin_tama",
+      "English": "A Masochist's Heart",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_076",
+      "category": "gin_tama",
+      "English": "Sheer Guts Guard",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_077",
+      "category": "gin_tama",
+      "English": "Counter",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_078",
+      "category": "gin_tama",
+      "English": "Weekly Jump",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_079",
+      "category": "gin_tama",
+      "English": "Pot Lid",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_080",
+      "category": "gin_tama",
+      "English": "Hijikata Special",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_081",
+      "category": "gin_tama",
+      "English": "Mayonnaise",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_082",
+      "category": "gin_tama",
+      "English": "GT Field",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_083",
+      "category": "gin_tama",
+      "English": "Substitute Doll",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_084",
+      "category": "gin_tama",
+      "English": "Blastproof Vest",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_085",
+      "category": "gin_tama",
+      "English": "Slashproof Vest",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_086",
+      "category": "gin_tama",
+      "English": "Projectileproof Vest",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_087",
+      "category": "gin_tama",
+      "English": "Strikeproof Vest",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_088",
+      "category": "gin_tama",
+      "English": "Hornet's Nest",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_089",
+      "category": "gin_tama",
+      "English": "Thumbtack",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_090",
+      "category": "gin_tama",
+      "English": "Time Bomb",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_091",
+      "category": "gin_tama",
+      "English": "Land Mine",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_092",
+      "category": "gin_tama",
+      "English": "Natto Guard",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_093",
+      "category": "gin_tama",
+      "English": "Gohan Desuyon",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_094",
+      "category": "gin_tama",
+      "English": "Fan Club Happi",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_095",
+      "category": "gin_tama",
+      "English": "Shinsengumi Summer Uniform",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_200",
+      "category": "gin_tama",
+      "English": "Strength Pill",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_201",
+      "category": "gin_tama",
+      "English": "Spirit Pill",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_202",
+      "category": "gin_tama",
+      "English": "Power Pill: Combo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_203",
+      "category": "gin_tama",
+      "English": "Power Pill: Vitality",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_204",
+      "category": "gin_tama",
+      "English": "Power Pill: Surge",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_205",
+      "category": "gin_tama",
+      "English": "Projectile Boost Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_206",
+      "category": "gin_tama",
+      "English": "Blast Boost Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_207",
+      "category": "gin_tama",
+      "English": "Slash Boost Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_208",
+      "category": "gin_tama",
+      "English": "Strike Boost Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_209",
+      "category": "gin_tama",
+      "English": "Echo",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_210",
+      "category": "gin_tama",
+      "English": "Poison Flower",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_211",
+      "category": "gin_tama",
+      "English": "Eye Mask",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_212",
+      "category": "gin_tama",
+      "English": "Enfeebling Flower",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_213",
+      "category": "gin_tama",
+      "English": "Frailty Flower",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_214",
+      "category": "gin_tama",
+      "English": "Projectile Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_215",
+      "category": "gin_tama",
+      "English": "Slash Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_216",
+      "category": "gin_tama",
+      "English": "Strike Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_217",
+      "category": "gin_tama",
+      "English": "Blast Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_218",
+      "category": "gin_tama",
+      "English": "Area Charm",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_219",
+      "category": "gin_tama",
+      "English": "Hand Fan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_220",
+      "category": "gin_tama",
+      "English": "Electric Fan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_221",
+      "category": "gin_tama",
+      "English": "Industrial Fan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_222",
+      "category": "gin_tama",
+      "English": "Odds-or-Evens Fan",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_223",
+      "category": "gin_tama",
+      "English": "Double-Action Incense",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_224",
+      "category": "gin_tama",
+      "English": "Triple-Action Incense",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_225",
+      "category": "gin_tama",
+      "English": "Dud Incense",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_226",
+      "category": "gin_tama",
+      "English": "Mind-Reading Incense",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_227",
+      "category": "gin_tama",
+      "English": "Dispel Incense",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_228",
+      "category": "gin_tama",
+      "English": "Mystic Ball: Guard Seal",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_229",
+      "category": "gin_tama",
+      "English": "Recycling Box",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_230",
+      "category": "gin_tama",
+      "English": "Awl",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_231",
+      "category": "gin_tama",
+      "English": "Rampage Flower",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_232",
+      "category": "gin_tama",
+      "English": "Verbal Abuse Flower",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_233",
+      "category": "gin_tama",
+      "English": "Gin Tama Ban: Bronze",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_234",
+      "category": "gin_tama",
+      "English": "Gin Tama Ban: Silver",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_235",
+      "category": "gin_tama",
+      "English": "Gin Tama Ban: Gold",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_236",
+      "category": "gin_tama",
+      "English": "Sogo Okita",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_237",
+      "category": "gin_tama",
+      "English": "Kagura",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_238",
+      "category": "gin_tama",
+      "English": "Catherine",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_239",
+      "category": "gin_tama",
+      "English": "Defense Pill",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_240",
+      "category": "gin_tama",
+      "English": "Antidote Dango",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_241",
+      "category": "gin_tama",
+      "English": "Eye Drops",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_242",
+      "category": "gin_tama",
+      "English": "Purifying Dango",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_243",
+      "category": "gin_tama",
+      "English": "Preservative",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_244",
+      "category": "gin_tama",
+      "English": "Catcher's Mitt",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_245",
+      "category": "gin_tama",
+      "English": "Ceasefire",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_246",
+      "category": "gin_tama",
+      "English": "Brainwashing",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_247",
+      "category": "gin_tama",
+      "English": "Taunt",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_248",
+      "category": "gin_tama",
+      "English": "Make a Run for It",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_249",
+      "category": "gin_tama",
+      "English": "Body-Spirit Swap",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_250",
+      "category": "gin_tama",
+      "English": "Rearrange",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_251",
+      "category": "gin_tama",
+      "English": "Grabber: Small",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_252",
+      "category": "gin_tama",
+      "English": "Grabber: Medium",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_253",
+      "category": "gin_tama",
+      "English": "Grabber: Large",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_254",
+      "category": "gin_tama",
+      "English": "Auto Machine B",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_255",
+      "category": "gin_tama",
+      "English": "Auto Machine F",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_256",
+      "category": "gin_tama",
+      "English": "Auto Machine K",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_257",
+      "category": "gin_tama",
+      "English": "Sealing Stone: Attack",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_272",
+      "category": "gin_tama",
+      "English": "One-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_273",
+      "category": "gin_tama",
+      "English": "Two-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_274",
+      "category": "gin_tama",
+      "English": "Three-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_275",
+      "category": "gin_tama",
+      "English": "Four-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_276",
+      "category": "gin_tama",
+      "English": "Five-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_277",
+      "category": "gin_tama",
+      "English": "Six-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_278",
+      "category": "gin_tama",
+      "English": "Seven-Heart Ball",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_279",
+      "category": "gin_tama",
+      "English": "Gintoki 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_280",
+      "category": "gin_tama",
+      "English": "Gintoki 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_281",
+      "category": "gin_tama",
+      "English": "Hijikata 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_282",
+      "category": "gin_tama",
+      "English": "Hijikata 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_283",
+      "category": "gin_tama",
+      "English": "Shinpachi 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_284",
+      "category": "gin_tama",
+      "English": "Shinpachi 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_285",
+      "category": "gin_tama",
+      "English": "Kagura 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_286",
+      "category": "gin_tama",
+      "English": "Kagura 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_287",
+      "category": "gin_tama",
+      "English": "Okita 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_288",
+      "category": "gin_tama",
+      "English": "Okita 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_289",
+      "category": "gin_tama",
+      "English": "Kondo 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_290",
+      "category": "gin_tama",
+      "English": "Kondo 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_291",
+      "category": "gin_tama",
+      "English": "Outtake 1",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_292",
+      "category": "gin_tama",
+      "English": "Outtake 2",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_293",
+      "category": "gin_tama",
+      "English": "Outtake 3",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_294",
+      "category": "gin_tama",
+      "English": "Outtake 4",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_295",
+      "category": "gin_tama",
+      "English": "Outtake 5",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_296",
+      "category": "gin_tama",
+      "English": "Outtake 6",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_297",
+      "category": "gin_tama",
+      "English": "Outtake 7",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_298",
+      "category": "gin_tama",
+      "English": "Outtake 8",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_299",
+      "category": "gin_tama",
+      "English": "Outtake 9",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_300",
+      "category": "gin_tama",
+      "English": "Outtake 10",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_301",
+      "category": "gin_tama",
+      "English": "Outtake 11",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_302",
+      "category": "gin_tama",
+      "English": "Outtake 12",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_303",
+      "category": "gin_tama",
+      "English": "Outtake 13",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_304",
+      "category": "gin_tama",
+      "English": "Outtake 14",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_305",
+      "category": "gin_tama",
+      "English": "Outtake 15",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_306",
+      "category": "gin_tama",
+      "English": "Outtake 16",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_307",
+      "category": "gin_tama",
+      "English": "Outtake 17",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_308",
+      "category": "gin_tama",
+      "English": "Outtake 18",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_309",
+      "category": "gin_tama",
+      "English": "Outtake 19",
+      "status": "translated_from_source_context"
+    },
+    {
+      "stable_id": "gintama_310",
+      "category": "gin_tama",
+      "English": "Outtake 20",
+      "status": "translated_from_source_context"
+    }
+  ]
+}

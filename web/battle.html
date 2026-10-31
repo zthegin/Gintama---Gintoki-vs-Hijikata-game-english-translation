@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="description" content="Unofficial English fan translation battle dialogue editor for Gintama: Gintoki vs. Hijikata!? Not affiliated with the rights holders. Supply your own legally obtained ROM." />
+    <title>Unofficial Battle dialogue · Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! · Nintendo DS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="theme.mjs"></script>
+    <script type="module" src="battle.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <div class="project-heading">
+          <h1>Gintama: Gintoki vs. Hijikata!?</h1>
+          <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
+        </div>
+        <nav aria-label="Main">
+          <a href="index.html">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html" aria-current="page">Battle</a><a href="graphics.html">Images</a><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <p class="game-title">English translation of <strong>Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!</strong> for Nintendo DS.</p>
+      <p class="project-note">Unofficial fan and educational project. The maintainer does not own Gintama or the original game content. Use only your own legally obtained ROM. No game downloads or uploads are provided. <a href="rights.html">Project policy</a>.</p>
+      <section class="welcome">
+        <div>
+          <h2>Battle dialogue</h2>
+          <p>Edit battle introductions, reactions, tutorial dialogue and attack messages without coding. Choose a script and load your own original ROM to see its untranslated records. Japanese text is read locally.</p>
+        </div>
+        <label class="filebutton">Legally obtained game file<input id="battle-rom" type="file" accept=".nds,.srl,.msb" /></label>
+      </section>
+      <p id="battle-status" class="status" role="status">Loading battle entries…</p>
+      <div class="toolbar">
+        <label>Battle script<select id="battle-script"></select></label>
+        <label class="search">Find a battle record<input id="battle-search" type="search" placeholder="English or ID" /></label>
+        <span id="battle-count"></span>
+      </div>
+      <section class="workspace" aria-label="Battle dialogue editor">
+        <nav class="entries" aria-label="Battle entries"><ol id="battle-entries"></ol></nav>
+        <article class="editor">
+          <h2>Choose a battle record</h2>
+          <p id="battle-id"></p>
+          <div class="source"><h3>Original, from your legally obtained game file</h3><pre id="battle-original" class="japanese"></pre></div>
+          <p class="hint">A message may have several text parts around formatting commands. Keep the parts in order. Move no text across a part boundary unless you have checked its effect in the game. Commands stay untouched.</p>
+          <div id="battle-parts"></div>
+          <p class="hint">Use ordinary English punctuation and Enter for a line break. The local Python build checks the three-line bubble and its fixed message slot.</p>
+          <p id="battle-record-status" class="record-status" role="status"></p>
+          <div class="actions"><button id="battle-previous" type="button">Previous</button><button id="battle-next" type="button">Next</button><button id="battle-suggest" type="button">Suggest on GitHub</button></div>
+        </article>
+      </section>
+      <section class="export">
+        <h2>Try your battle edit</h2>
+        <p>Download the battle JSON. Put it beside the project files, then build a new local ROM from your original legally obtained ROM:</p>
+        <pre><code>python tools/build_ui.py --rom "original.nds" --battle "battle_translations.json" --out "local/battle-test.nds"</code></pre>
+        <p>This overlays your battle edits on the bundled battle, opening, field and graphics translations. Your original ROM is left unchanged. Add <code>--dialogue "your-batch.json"</code> if you also want to test a downloaded field batch. Shorten any message the builder rejects, then download it again. <a href="install.html">Setup instructions</a>.</p>
+        <div class="export-actions"><button id="battle-json" type="button">Download battle JSON</button></div>
+        <p id="battle-export-status" role="status"></p>
+        <p>For one no-code suggestion, use <strong>Suggest on GitHub</strong>. For several edits, test the download and follow the <a href="guide.html">batch contribution instructions</a> to update <code>reference/battle.json</code> in a PR to <code>staging</code>. Keep other scripts and existing entries. Only the owner merges. Unsupported records with embedded tables or page controls and trailing labels stay unchanged.</p>
+      </section>
+      <footer>
+        <p class="project-links"><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation">Project repository</a> · <a href="https://github.com/zthegin/zthegin.github.io">Website repository</a> · <a href="https://zthegin.github.io/">Website</a></p>
+        <p>Unofficial fan and educational project for this Nintendo DS game. I do not own Gintama or any original game content. All game rights remain with their respective holders. <a href="LICENSE">License</a> · <a href="rights.html">Rights</a></p>
+        <p>I do not support piracy. Use only your own legally obtained ROM; do not share game files or unauthorized download links.</p>
+        <p>For a rights concern, please identify the affected material and your authority to act. I will promptly review the request. For a verified request, I will remove or disable the affected material I control and stop the related work. <a href="rights.html">Rights and removal requests</a>.</p>
+      </footer>
+    </main>
+  </body>
+</html>

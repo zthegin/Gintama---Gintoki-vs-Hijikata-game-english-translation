@@ -1,0 +1,1164 @@
+{
+  "format": "gintama-community-translation-v1",
+  "batch_id": "gin_tama_names",
+  "records": [
+    {
+      "id": "gfx_gintama_000",
+      "source_words_sha256": "b4526936cdc6f1931c5aefec7f1e601a9ef72fcc8450c2d9f80933e0fcf86b66",
+      "english": "COIN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_001",
+      "source_words_sha256": "c403b3c1e5246b80e78c0cc454cdc6e8ba52b9fdd4ef5543a0a959f5c149d2bb",
+      "english": "GOLF CLUB",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_002",
+      "source_words_sha256": "f795fc04ad5bf9a5bd5d62a7e4f12fc7bf382f03aeb78943b28fe946e3175ea9",
+      "english": "HARISEN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_003",
+      "source_words_sha256": "d8aadd57a6ffd405e1e4bb00d681b38d2cbc6dab494d93bd21c83f6f52a2696a",
+      "english": "SQUEAKY\nHAMMER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_004",
+      "source_words_sha256": "cbb80e09695564931bca65768f141130733f4f74acab4fb082a5e7cf713f97f7",
+      "english": "FROZEN TUNA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_005",
+      "source_words_sha256": "8c902420e4370a12a0328f3548e2499fe23f8080ed149646b7786aaf6245cad9",
+      "english": "BLACK GUN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_006",
+      "source_words_sha256": "5088f19de806011aadddd6bd7315e437fa0cac0b13d6442e46496c4e12b22b35",
+      "english": "UNSHEATHED\nSWORD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_007",
+      "source_words_sha256": "32f4e3ba56029d553d75b64667b13e5a56b34cdc56dd6bc05c93198bc64a2d48",
+      "english": "WOOD SWORD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_008",
+      "source_words_sha256": "902d56c61a194d21d0139d3dc4f12d365d958fd48a1f3cf217e996af9d9e7804",
+      "english": "BEER BOTTLE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_009",
+      "source_words_sha256": "b9bcebb708be1fd6f010e53c90bdef4ab2c1816f072281f50238127cd3fd47e8",
+      "english": "WASHBASIN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_010",
+      "source_words_sha256": "2acc873adbf429a4a2cf4772695e4756a8a21d41c9c9748874fd4930a8efb2f7",
+      "english": "PEBBLE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_011",
+      "source_words_sha256": "0b635111dd581c573002b329ecbac602fdf96725111aade3f668738cdeef8ea3",
+      "english": "SKEWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_012",
+      "source_words_sha256": "3499f6b9120ee1c157bd2b5250247e15264e3db90ef5ddb40679523da0bfd93b",
+      "english": "RAG",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_013",
+      "source_words_sha256": "629cde6c6e780f42509d39c800ecd4905ff6742293f29551d5cb81af46b51515",
+      "english": "CRAB",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_014",
+      "source_words_sha256": "d3888c042c7fcd5b0fd86f10db56db32560d22636021bb995732ec76eed32a42",
+      "english": "RAW EGG",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_015",
+      "source_words_sha256": "850a449fb2a2b40e02106312671fc6ec6fe59eb8089b5ec4adb4dbbc21621c37",
+      "english": "KAGURA'S\nUMBRELLA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_016",
+      "source_words_sha256": "ff9032e8c1e8f259219ad7309aee6f8ae76fde3fc049eeaddb15a6784a21317c",
+      "english": "ASHTRAY",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_017",
+      "source_words_sha256": "df85a1c04976b0fd61b725f819cf569898e7e5dfc72745cd4702a25092fb0cde",
+      "english": "TAMAGOYAKI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_018",
+      "source_words_sha256": "748a5adaac9f13315414d33936d4b142d46dc80e359815c37c0eaefe9c2b60cd",
+      "english": "PALM SLAPS",
+      "translator_note": "Short display label for repeated sumo-style open-hand strikes; canonical name retained."
+    },
+    {
+      "id": "gfx_gintama_019",
+      "source_words_sha256": "79d360a59c8fc4940ba6b81a7a5d7fc063afb2d85eb7dadf10e109422544e83d",
+      "english": "NAGINATA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_020",
+      "source_words_sha256": "1f38843eca9d4d9eb46429edcd56c6b0659fb08f7ae70ef2aa424c795a843236",
+      "english": "BLOOD-DRAW\nNEEDLE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_021",
+      "source_words_sha256": "0247a148100a56ffd4c2c5cf7a4473bf47721c1e4a963864d0699a06db8417c1",
+      "english": "OLD KATANA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_022",
+      "source_words_sha256": "4b16c1772dd7a9d86fcdd0206b36e98b5b07b75e6c094de332c5a27990775c11",
+      "english": "KATANA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_023",
+      "source_words_sha256": "1ad5fc4ceb41dcecbf97cb2689975b438c2766952405cac23c03cac574d957b3",
+      "english": "SQUID INK",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_024",
+      "source_words_sha256": "270b23b074723956b35341c3211e285d5444f9b1b15bb85506e64d8303526074",
+      "english": "KUNAI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_025",
+      "source_words_sha256": "7f00f1a8c0a1d4bef6bfd4401fda29199e1bd23f3594b544e5a29e6146b03198",
+      "english": "GLASS PANE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_026",
+      "source_words_sha256": "9a2f4910cf6a0e2828f68420c15d8b2c43221a81e560003602ba05bcfe19dad3",
+      "english": "FIREWORKS",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_027",
+      "source_words_sha256": "250ab3e26e32f751ccddee7c76df4a75490eb717c804628c6931e86ccd3ddf5c",
+      "english": "JUSTAWAY",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_028",
+      "source_words_sha256": "4cb43af1d66022ff76fa5e4eabb3a587e6613650ae20c68fdd06bec7a9a3749a",
+      "english": "NAS CANNON?",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_029",
+      "source_words_sha256": "76fcd464643c20e274b10cc94f02e2828ca85a6e80158ea3796577c3002a047e",
+      "english": "NAS CANNON",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_030",
+      "source_words_sha256": "049217d6a7ec6ff4d0aeb3f8d459ae297cf3f826e9f7987d338616523b86f0a1",
+      "english": "INSECTICIDE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_031",
+      "source_words_sha256": "2423e53ce480983995be0124eddb9d8fabb1e4f4ea8672e8128e435fcd6c695b",
+      "english": "RECYCLED\nBOMB",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_032",
+      "source_words_sha256": "2a5f82c33792d3154f09bf588fab57f5fc419f230b7ea53968c700b166a0a6d5",
+      "english": "SEVEN RONIN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_033",
+      "source_words_sha256": "4a893036d481be900bdf16fbf4555311007498e34bf22acfd388f9dc6913cb20",
+      "english": "HOSHIKUDAKI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_034",
+      "source_words_sha256": "93767d75bb121ac453724f8593cb1744796690d14dab80fd4aca2d7a7b93f4f4",
+      "english": "SHIROYASHA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_035",
+      "source_words_sha256": "faff54b8b02603ae1993e65178d75a247eb74a673ea9530c94bfd05f7fb64b51",
+      "english": "BAZOOKA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_036",
+      "source_words_sha256": "6da022add02bcfc994e458726c6649c7d235e08bb86dbc049930aa3335d2b540",
+      "english": "LONG DAGGER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_037",
+      "source_words_sha256": "202cd381636bc414c0dead6b4038c6d9c2e47091728da7a2b027a63a2966948d",
+      "english": "KOTETSU-CHAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_038",
+      "source_words_sha256": "42a787e37fc53c4723f907f9dbf3ee878dbe73ddf97c0309b794e420efe3adc5",
+      "english": "STEFAN DOLL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_039",
+      "source_words_sha256": "21457d8193da48fb5506304d9176598f79a8ab7d44f3b496ab2c8580f36540bf",
+      "english": "NATTO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_040",
+      "source_words_sha256": "dba460f5a831ff0a43f3403d13e4e30487f8b6ea73b5cb11ae3b6a7ce40c1593",
+      "english": "CURRY",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_041",
+      "source_words_sha256": "e94534303b0ca2a7f569a20b0108cf636458ed4abc7db14c350a3c9248f23857",
+      "english": "CHALKBOARD\nERASER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_042",
+      "source_words_sha256": "c2a59c12c5b269b69bc3126ee688bc36716fcd23befe66722c88f75343f53a08",
+      "english": "SCOOTER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_043",
+      "source_words_sha256": "fdfcf0640d7fe472c15f80d53de10d80aa0f21f4555d18eee7c4f083b5176cda",
+      "english": "OCTOPUS",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_044",
+      "source_words_sha256": "363e9d992d6bda25f3a8cc107154006ebf1ed981f30dc69a5d703188c810f01c",
+      "english": "KAITO RANMA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_045",
+      "source_words_sha256": "b7cb2c6a34b3424f3e94f7fa3af97111e66956867a3477b15ea1166e758b084f",
+      "english": "IKKITOUSEN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_046",
+      "source_words_sha256": "82113ffda6867e98a1e5e9854746dfda51ca5c968f9132e5621f883095ae80a2",
+      "english": "KOTARO\nKATSURA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_047",
+      "source_words_sha256": "7496634d7e078a551ab63a44d5ee525e107c64ae6a678f087c085eabc25b38fc",
+      "english": "KAGURA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_048",
+      "source_words_sha256": "a45d1c8d7531bf12d4bee4cc67945e8c1eaeeaf0c05619b472037a2e7fb94e41",
+      "english": "SHINPACHI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_049",
+      "source_words_sha256": "972f98cfe2ef1b4f83336fdd174a549c81b5288117614f5bf483cd2d74992c9a",
+      "english": "FAN CLUB\nCAPTAIN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_050",
+      "source_words_sha256": "cb1ad9bcb50327260320dacd089d0c62065cd7f3b210c121b73f49d8d90e0daa",
+      "english": "YOROZUYA\nASSEMBLE!",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_051",
+      "source_words_sha256": "bcda73939d8397d1da710de0954615dd27e563a668bf4e5c645fb24a5b79160c",
+      "english": "OTAE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_052",
+      "source_words_sha256": "d668f9826be17262ad57ff2257e25f98747feb58d1db968254e8f29734b04edc",
+      "english": "YAMAZAKI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_053",
+      "source_words_sha256": "88726f649e2e2b4dbbc055127247b8111cbdd9d3e2ad566b984fd54b046707d5",
+      "english": "OKITA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_054",
+      "source_words_sha256": "b4df4c77bb22af459a0d807cc23c679fe07d7acd3b985f8f7d4c44d75c15d5b7",
+      "english": "ISAO KONDO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_055",
+      "source_words_sha256": "f06a110642aa03991fae352cd766be1be7ed2b05638e0c3e97dfd2c83e2c3363",
+      "english": "MATSUDAIRA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_056",
+      "source_words_sha256": "cef870637b526629212a503aca8b453244b5e4fb89793a806831b0dcf6df7fa4",
+      "english": "SHINSENGUMI\nBIG THREE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_057",
+      "source_words_sha256": "c7e9b12e3306991cbe4bc77ba28342f82da7ce3a100a0feb4e08340f3bbadb18",
+      "english": "SIX-FOOT\nSTAFF",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_058",
+      "source_words_sha256": "c4cafb9bdca23d11cd04779903d90367eac46ff7ad9d81115f45e58857034ecc",
+      "english": "BITE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_059",
+      "source_words_sha256": "ca212413f26fe5f1d1d34c9de5c0532443f2dbfa1b03867abb2be65de8bebd81",
+      "english": "HYAKKA\nRYORAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_060",
+      "source_words_sha256": "c10bf80d77893bc300762c6648da72e18e0dd0ade4ca81200822edcd59e692ce",
+      "english": "BADMINTON\nRACKET",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_061",
+      "source_words_sha256": "76e580cfb7d4ef59b59666c07f772caa43c15d398ec9d0bbb5afee132b3df1fb",
+      "english": "MARU PEN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_062",
+      "source_words_sha256": "e28ce02e8b8eeba30671b47a26a064b41fad6a19823128fd00385425e4a58e89",
+      "english": "SADOMARU 22",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_063",
+      "source_words_sha256": "aff2e1662f0e958305f7c1fc3bbc24c20266772a06607bfe9fa46caf8b80aa19",
+      "english": "MAMUSHI Z",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_064",
+      "source_words_sha256": "64fda3fc39fd8bb87d30dcd7b73b18ebfdb485e6ed7f81d2c03999a56a7af527",
+      "english": "BENIZAKURA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_065",
+      "source_words_sha256": "345c376a3b5ce318f51f1b354d3106fa725263bea2e66473ef9c75d7a16d5fb9",
+      "english": "COIN FAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_066",
+      "source_words_sha256": "e5be993c1c6fcc7d537701eea88d0d4fd71887eb4fb2fbdd00b120bd3a18ee33",
+      "english": "TEAM ATTACK\nGINTOKI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_067",
+      "source_words_sha256": "3b81b345bac36efe2eeb35f01e6f64f1227ed3f04e2c69480b192d6c9866493a",
+      "english": "TEAM ATTACK\nHIJIKATA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_068",
+      "source_words_sha256": "49b0f6eb639200745078a3e8eb78ea44897b017ca02ae4f45afef4736289d321",
+      "english": "STRAWBERRY\nMILK",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_069",
+      "source_words_sha256": "1e4cf49ce1dd5cfa2b5ab94e2bb00738252515f7f4cf54c6afb6514956ec461f",
+      "english": "SUKONBU",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_070",
+      "source_words_sha256": "d3e1388dceb05c987f38aaaafb995e1ae90b5df57132234bb2e212ee36563afa",
+      "english": "DANGO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_071",
+      "source_words_sha256": "6406c16a32fc8f825a025f4919d4524cf7da8da37b5ae518f59e620f7036829c",
+      "english": "HAAGEN-DAZS",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_072",
+      "source_words_sha256": "2ba14d49ecaa5222b34d926074c5dc4b4158e4de1ae060af00f3dc022c62e9b5",
+      "english": "DOM\nPERIGNON",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_073",
+      "source_words_sha256": "ec7b87a823e66c17c36fe7ac58272c6cde2537b31aea34a3ba60e47d76560a79",
+      "english": "CHOCOLATE\nPARFAIT",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_074",
+      "source_words_sha256": "35d23627eaebb5e99c5b98c7bffaa7af0c740da2ba0e08c5555ce0310291e1f4",
+      "english": "UJI GINTOKI\nBOWL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_075",
+      "source_words_sha256": "4d83122d9540a190cc98d528e072a79b654d3dd7e76261eb8f180577c4b1fa18",
+      "english": "M'S HEART",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_076",
+      "source_words_sha256": "f3bda38a8b8aa26f8cb22b19c2061c55ef0297adce2c3e0ec66d5ccd583318d6",
+      "english": "SHEER GUTS\nGUARD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_077",
+      "source_words_sha256": "eb6de5ea119db7dd7fc3efd8464a56997785d79f6ebde9d3bf718c3f9567a668",
+      "english": "COUNTER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_078",
+      "source_words_sha256": "2d0a4b1c27fceb55fd176846aa2c8c0b8970567754c03a387ed41b8d525a03a9",
+      "english": "WEEKLY JUMP",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_079",
+      "source_words_sha256": "48d47ed6996f1c917216f5e3aa6242aa99d6aa9efa14b661654ad9ddf23800d5",
+      "english": "POT LID",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_080",
+      "source_words_sha256": "65f506141bb54d40deb639447fb753bb4fc5895484e049b4f754d09a45a412f2",
+      "english": "HIJIKATA\nSPECIAL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_081",
+      "source_words_sha256": "dca6a8adb1a9de0e505f60d84df4e3067115f9f485a3d1e6acaeaa1a71bcfdad",
+      "english": "MAYONNAISE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_082",
+      "source_words_sha256": "de94b0b0dd995e8ba3031617598898f8493f2e8aaa2adad51f5d56674702bced",
+      "english": "GT FIELD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_083",
+      "source_words_sha256": "902492719cb3b9aeb397cd02c9c756b177a76b719aa69d574c3ff26e6b6d63b1",
+      "english": "SUBSTITUTE\nDOLL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_084",
+      "source_words_sha256": "ed39da996db2627b8cc0804a333dfadbc43c3c5ee994120a1d4cc982811a3e9d",
+      "english": "BLASTPROOF\nVEST",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_085",
+      "source_words_sha256": "7744b867568635ee06419ce4117e6ff53e9e26262d380724a67effebd4e1959f",
+      "english": "SLASHPROOF\nVEST",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_086",
+      "source_words_sha256": "73e38e7340ef07a834d4e558ef96eee0e53c4e0095840d0911de971d40f106ae",
+      "english": "PROJECTILE\nVEST",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_087",
+      "source_words_sha256": "57fd70d466ec11398b43ddde29fb6cd08492864c2f90c6be7472a4ff5bd478de",
+      "english": "STRIKEPROOF\nVEST",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_088",
+      "source_words_sha256": "47afbfd935907c4a1b5135d70f9a89e6f6c2824a52ac7a5a239211be774d86f1",
+      "english": "HORNET NEST",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_089",
+      "source_words_sha256": "f9a82b7ebff518e43d5f67fd83fcfb966396de6253aba978177ae866d703e029",
+      "english": "THUMBTACK",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_090",
+      "source_words_sha256": "2931531530ede54503120cec5dcf97c5c46a5d636a4c7b7bd41cbb2afdfe8a34",
+      "english": "TIME BOMB",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_091",
+      "source_words_sha256": "792514634a2d8e889a1776d053aaaabf384b04bf6205c53a75f0a16a85713a55",
+      "english": "LAND MINE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_092",
+      "source_words_sha256": "2482439b5b9ef462126a9121f26b1852309341ff31b3ed9de5b1426fee930c7d",
+      "english": "NATTO GUARD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_093",
+      "source_words_sha256": "97fca1305a20965791fdbdf0852415d65467373bbf4d6dd40f5e39bb62100b34",
+      "english": "GOHAN\nDESUYON",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_094",
+      "source_words_sha256": "a448220302551dcd0af94a52c88e0ebb6e47459fd88b00b6fce7dfcd857f6264",
+      "english": "FAN CLUB\nHAPPI",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_095",
+      "source_words_sha256": "36c91938e34b7988630fd738c282b0468733dfdeb97aa48d0a693edc8c4bca54",
+      "english": "SHINSENGUMI\nSUMMER GARB",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_200",
+      "source_words_sha256": "1bec7989a58856e36fb4f749cd8053a2a89ac77c74d28d9ccb95596407a75fa6",
+      "english": "STRENGTH\nPILL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_201",
+      "source_words_sha256": "1bd761d662442befaf43a05ad059a663a5757c4e80ad68cec9b8806c8fa54819",
+      "english": "SPIRIT PILL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_202",
+      "source_words_sha256": "0aaf4c04dc8e90eac4997b489b4bf9b37e876259e598ff3819ae6cd9f44b93ea",
+      "english": "POWER PILL\nCOMBO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_203",
+      "source_words_sha256": "76f832e692efd74c8c893119a9fd3a4b25e7e34a531d2c3155748a502638323e",
+      "english": "POWER PILL\nVITALITY",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_204",
+      "source_words_sha256": "c8de408942aa4a00558aa71736a716ca0255e0136ab3f1cddca702e06908fbf1",
+      "english": "POWER PILL\nSURGE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_205",
+      "source_words_sha256": "8977211fd8318dd0249e1738916db9f7498ab4a01afd473baaaa6ace02c2b0cc",
+      "english": "SHOT BOOST\nCHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_206",
+      "source_words_sha256": "baecc0db0d1fc40485f1512583fb5ce570d4187f5b8201e5217426012f586b17",
+      "english": "BLAST BOOST\nCHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_207",
+      "source_words_sha256": "ed77ad22f977957d82e2fc5283c95293997ac518be94f0638e30d0437736846b",
+      "english": "SLASH BOOST\nCHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_208",
+      "source_words_sha256": "23e23d96593539fd8ee47d3cbdd0c095da8ddd3f5d806018a18d7f1fd0bb9a12",
+      "english": "STRIKE BOOST\nCHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_209",
+      "source_words_sha256": "c7ef43d7afdd71f967757088f4208a12ddf9fc2c7116ef196a33512200a655c4",
+      "english": "ECHO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_210",
+      "source_words_sha256": "0be7d77e38593d408db6e73cf1ee9a22756ec8025bcd3d451d73af4be33792bb",
+      "english": "POISON\nFLOWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_211",
+      "source_words_sha256": "55844690313712c1d70e17ce656766c320e3f6838d5557f923f758f4f587ab9e",
+      "english": "EYE MASK",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_212",
+      "source_words_sha256": "9019c052a51e730a2c82b76c54847a78ff5e5c29581415036ff30792f8d94c0c",
+      "english": "ENFEEBLING\nFLOWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_213",
+      "source_words_sha256": "bd7bca5998675a832b30dfac7f733d0a1f6d116f67bd6f4eb1d9317e12814ad8",
+      "english": "FRAILTY\nFLOWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_214",
+      "source_words_sha256": "3850debecfce929ac419dbe7cbbbd6a2f62f86c652e488ced8bc0d1267695c39",
+      "english": "SHOT CHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_215",
+      "source_words_sha256": "35eca4d8d11d8f9193eab1c3396faf8eee12a045eb86722a3cbfc20baec33063",
+      "english": "SLASH CHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_216",
+      "source_words_sha256": "59f3dd49549d3b431d30f2f1e81aa7470d4b7d608ec7ca6a47d8ee82912c9739",
+      "english": "STRIKE CHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_217",
+      "source_words_sha256": "51fd2fe5958d35bc9eb0a2764a67dcaceb980aa8b44dc3743c10e58cbc310930",
+      "english": "BLAST CHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_218",
+      "source_words_sha256": "3c095ed465eeeffd04f72577234fe9fb735a932aa5945e70658f9e3d54b01c9c",
+      "english": "AREA CHARM",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_219",
+      "source_words_sha256": "d5f051daab6fa11a327e04595e58df7db27b242def0529595d08a6b78dfdb7d1",
+      "english": "HAND FAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_220",
+      "source_words_sha256": "d920a9112069dd0c87dc4020997083f845a46db77104ee34acbcf0dc25bdc6d7",
+      "english": "ELECTRIC FAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_221",
+      "source_words_sha256": "b2b7ee321caadb5aa5760638f8042dba606c2b45fa613dc18748051cded599f5",
+      "english": "INDUSTRIAL\nFAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_222",
+      "source_words_sha256": "438049abe65dd2bf861b3a94a8f92839ad7ca37068da2394bac11deabed91104",
+      "english": "ODDS-EVENS\nFAN",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_223",
+      "source_words_sha256": "b0c8d278cd2630c430106d496c05eaa8db1c2bd1bba140c72979e4af73ee002b",
+      "english": "DOUBLE-ACT\nINCENSE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_224",
+      "source_words_sha256": "3ebfac4bee6a5303dd53c7042562580f353d4616b77f9002e5973130f0d0d7db",
+      "english": "TRIPLE\nINCENSE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_225",
+      "source_words_sha256": "f33d6d69ceb1bddabb8d7d9d0beb789aaad2d58cec235002a8540a117cb084f6",
+      "english": "DUD INCENSE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_226",
+      "source_words_sha256": "1196f0054cb0c17c860ed35b4e1fd4c4b255b176e07ffe58a698879e673713cc",
+      "english": "MIND READ\nINCENSE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_227",
+      "source_words_sha256": "34bdca935e84ef24bc0d7119d71a79b9b750f0ee4bedd0b54cc9ad6b67f78789",
+      "english": "DISPEL\nINCENSE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_228",
+      "source_words_sha256": "a3e27ed3beecf1ac95dfdce344ccffe44d4af41564e95c9aa3b92035a1178673",
+      "english": "MYSTIC BALL\nGUARD SEAL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_229",
+      "source_words_sha256": "bc346131267ded9bc9c562eb7ec4a8dcb7cbcd3c7c101a9e013379898836ffe0",
+      "english": "RECYCLING\nBOX",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_230",
+      "source_words_sha256": "d254a36c2646965c5c4d32e1accb74e7e9305eb6810abfa6b58c4915403a123c",
+      "english": "AWL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_231",
+      "source_words_sha256": "7e50600db06cb0c633fc4f9a2cd33ea2b6d0ffa9fa8f40838d42cc4b0a55282b",
+      "english": "RAMPAGE\nFLOWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_232",
+      "source_words_sha256": "be234935b26f6bbd33a51ee70f7b8e3a74cb3d2b5b9d947f6e6cc80b25460ab8",
+      "english": "VERBAL ABUSE\nFLOWER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_233",
+      "source_words_sha256": "55d1f22d761b8719fa362941caa2f773e23180d6482c31cc65140f0d9871e30a",
+      "english": "GIN TAMA BAN\nBRONZE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_234",
+      "source_words_sha256": "90dac560fd253a713fb9dd665da10f6ea898b1f93145dfb8963f3a22b8320178",
+      "english": "GIN TAMA BAN\nSILVER",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_235",
+      "source_words_sha256": "8cea9fcea5b795afe4bfcf0a8bf7231ffe2e084e4085262871820d003de00d79",
+      "english": "GIN TAMA BAN\nGOLD",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_236",
+      "source_words_sha256": "88726f649e2e2b4dbbc055127247b8111cbdd9d3e2ad566b984fd54b046707d5",
+      "english": "OKITA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_237",
+      "source_words_sha256": "7496634d7e078a551ab63a44d5ee525e107c64ae6a678f087c085eabc25b38fc",
+      "english": "KAGURA",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_238",
+      "source_words_sha256": "f27912941ef78bdbc293d7e371301483bb5eee82ab1ad3fb8230d977e63cdee0",
+      "english": "CATHERINE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_239",
+      "source_words_sha256": "af0508922bf0a85b0a5f6af5548cc194de5dc839d056e4a72312f62ac9555c24",
+      "english": "DEFENSE PILL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_240",
+      "source_words_sha256": "fda788ae7294c49ae8e3955e6850b6543fd079430692bbb28de0501c43fb9411",
+      "english": "ANTIDOTE\nDANGO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_241",
+      "source_words_sha256": "04aa842ee9bdd4e946962fe3e511b8740db81735c75518449fc3a7959e23a6bd",
+      "english": "EYE DROPS",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_242",
+      "source_words_sha256": "36e48d792ff9c39942b15eff532374d7329dc8d57f9260719b913f7aa891f714",
+      "english": "PURIFYING\nDANGO",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_243",
+      "source_words_sha256": "5721abd247220922852c9e1ef76fa7f09ee50e46456d10dfa578055f0eff389f",
+      "english": "PRESERVATIVE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_244",
+      "source_words_sha256": "83ae9a55a1a3b21a54e8d7667147af7bde7c4774ccac3d340b26d985ee389f1d",
+      "english": "MITT",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_245",
+      "source_words_sha256": "7587b50fb5c096d66cfd49611b875bcbcf9ab28e2483d50c7972e6059b74afb6",
+      "english": "CEASEFIRE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_246",
+      "source_words_sha256": "14fa6b79875297552b2c58508b615017f532a685b43187186801b462cdcf9139",
+      "english": "BRAINWASHING",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_247",
+      "source_words_sha256": "9894215af1d4bd01aa6b95ccc6dd9ddf15c45f4fe46dba49ae11884a565742c2",
+      "english": "TAUNT",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_248",
+      "source_words_sha256": "4dc869c5d7268abc4b674e5e0361f348f693fdb3cc3766a649e3f735f6d541e1",
+      "english": "MAKE A RUN\nFOR IT",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_249",
+      "source_words_sha256": "f0505962ecd3d905e5e6f3ab00aad0cb3e5f110ed60be963cdb3b3697b40d3ac",
+      "english": "BODY-SPIRIT\nSWAP",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_250",
+      "source_words_sha256": "57c4e013b4b21726b414f72122d3cd6151e59b414a929ef60f2be7489ec754fd",
+      "english": "REARRANGE",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_251",
+      "source_words_sha256": "bb279cd62e7380113feebc5091928f752ef0bbc17fbaa8ea12090c82950cf28d",
+      "english": "GRABBER S",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_252",
+      "source_words_sha256": "ab7545eaac5c12534359d0ee775778daf2629c735b1aa3dda9c3d76f9a1f3bf1",
+      "english": "GRABBER M",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_253",
+      "source_words_sha256": "07017bfeead8b866abf8335a9059e4459c075ff555d8cc330443bfca147ced8c",
+      "english": "GRABBER L",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_254",
+      "source_words_sha256": "b8546289486ad422deaaeb301974cf9439b9d724b8f30cb2c3d31905a57ac49f",
+      "english": "AUTO\nMACHINE B",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_255",
+      "source_words_sha256": "7a84e9747abad573d8695816d9ad9c9390d8c5b2b4b3ce12e7639ab2080ba230",
+      "english": "AUTO\nMACHINE F",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_256",
+      "source_words_sha256": "68e4aaef35cf908cce6a914e32d92c1f4f20a88e9c3314f799e75f63bfc8ba9c",
+      "english": "AUTO\nMACHINE K",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_257",
+      "source_words_sha256": "1b187aa9f51ea947ea55e3236fdd6f07eb3662f951973ce4aa6fa6d745a3cd3b",
+      "english": "SEAL STONE\nATTACK",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_272",
+      "source_words_sha256": "7bba211438b35af48ea255a35e1ce8784c2e5ac9ad84e63da9008ec9553a1403",
+      "english": "1 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_273",
+      "source_words_sha256": "894ac9eb1630d492a0d1568af35ed896ed64ff5ef7b67629e6c617cea89ce91a",
+      "english": "2 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_274",
+      "source_words_sha256": "f14f041c2059d79dffe353a8db53917adbe3fa8092306ac59bae316fbe8bfcfd",
+      "english": "3 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_275",
+      "source_words_sha256": "913770e6273cd8257659292296ec36c4b82f69a58fb8ab8571a752e76830c97b",
+      "english": "4 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_276",
+      "source_words_sha256": "85703fe46e8cecefd38446f5810923285ae3fbfe6a164d0a2ce29c6bb8c4a604",
+      "english": "5 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_277",
+      "source_words_sha256": "c837f5563228616cf836d4eb36c29d08e35fc810e460a287a77702995006b2f1",
+      "english": "6 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_278",
+      "source_words_sha256": "94c99bf773a1b755d02d639b72b3d69a8a3d5941d3b05f006a5c427329073904",
+      "english": "7 HEART\nBALL",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_279",
+      "source_words_sha256": "af3c1ba0d2fa9e6a73641c98e669e2d79efcc988fe74279de45604a7ff7cfa17",
+      "english": "GINTOKI 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_280",
+      "source_words_sha256": "deb91dcc8a49115a99b00921a021d5b454fee131554d38887d702d70840f9ef5",
+      "english": "GINTOKI 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_281",
+      "source_words_sha256": "fd6048bbbea0ed37cfe35f81f498db1e23e5c2ac719fea0dffcf83485556325d",
+      "english": "HIJIKATA 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_282",
+      "source_words_sha256": "208006f27325f49b96fd7b2a5027fdfb21b81fd0fc3daeb7556076ce1b2ade53",
+      "english": "HIJIKATA 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_283",
+      "source_words_sha256": "f67f2fd57c9d51e8adf397192c65bcfcbfb26d9b576f4e1dc67bc8a99a5d20da",
+      "english": "SHINPACHI 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_284",
+      "source_words_sha256": "1aad19d64ec2720081eb1854a48e7f0dc2aad95b7511c217c12e9f6580eb5e33",
+      "english": "SHINPACHI 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_285",
+      "source_words_sha256": "f46b483686f78e4ac4ece4a0a3ce12335726b9ac02076fe35257dbc9fe96ff7b",
+      "english": "KAGURA 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_286",
+      "source_words_sha256": "de4d10853f6cee109ec2371c5466231678ba410e5295c0a96d4f412c4474a43f",
+      "english": "KAGURA 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_287",
+      "source_words_sha256": "8035bef4b2984f2a87c312234d881ec63adf32270f731e77f1b2138ec247fcc7",
+      "english": "OKITA 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_288",
+      "source_words_sha256": "25a87992022003a8054d45dd484add95bbd3f3c75ff5666005a4be6d84089f56",
+      "english": "OKITA 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_289",
+      "source_words_sha256": "b94fa56a16b83471f55379051926275321827bbe93723a518caa5550774cf653",
+      "english": "KONDO 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_290",
+      "source_words_sha256": "10c56e439918c6cb321d3d68c0c3f21133ae2765e53d78af38670653d262940d",
+      "english": "KONDO 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_291",
+      "source_words_sha256": "155f5c0d7f0a47110c23fb38826c5b2e5bb3acc3e0b533a0b27c417eea954200",
+      "english": "OUTTAKE 1",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_292",
+      "source_words_sha256": "326fb764e4bccbcf2625cb8270e5c3d4a4f1ee9ce978f35fb0de8a16dbc37a07",
+      "english": "OUTTAKE 2",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_293",
+      "source_words_sha256": "ee2b9e98baadea7960c3fa666f230197b1a57034a1c12d748b14da0dbafa4f2d",
+      "english": "OUTTAKE 3",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_294",
+      "source_words_sha256": "5da8a980cf5647329b7af0a15148844bd3c401192618d841b09dbf40674658b6",
+      "english": "OUTTAKE 4",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_295",
+      "source_words_sha256": "6b0748cb979b355eac79b723ec9dc52d51face557db2b52f5394c366342d338c",
+      "english": "OUTTAKE 5",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_296",
+      "source_words_sha256": "fb85bb00ea2fb8c00338869b9aee9aaef440c2c84355b6dade2c87d3aff79aab",
+      "english": "OUTTAKE 6",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_297",
+      "source_words_sha256": "0eda813404846d00a93f2f508f9ce26433b35b5d177768b532a6a5ba785f0ba8",
+      "english": "OUTTAKE 7",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_298",
+      "source_words_sha256": "dd9afa8361f2bf592a697daf520eb7c343677c153ba656542f5530fc115dbac4",
+      "english": "OUTTAKE 8",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_299",
+      "source_words_sha256": "83c7a1387ac31743bb31a141f970d216ab0ef57ffe15252bfda712ea1edd60ae",
+      "english": "OUTTAKE 9",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_300",
+      "source_words_sha256": "c12119e61e092f669c98143a0ff98e9413a26e101c679a3235487fef119c001e",
+      "english": "OUTTAKE 10",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_301",
+      "source_words_sha256": "32593c33b1ed9f72c27e568f701a0c62a12abc170c50e8bd071c2d30513e9861",
+      "english": "OUTTAKE 11",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_302",
+      "source_words_sha256": "b2fea8a26e415e251452a3135ab2ed0fdfab907f4614acc44c34b6889e17129f",
+      "english": "OUTTAKE 12",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_303",
+      "source_words_sha256": "a069423ad5b74e56bc619930a985a089e342264169164d46743ba9ee693107c4",
+      "english": "OUTTAKE 13",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_304",
+      "source_words_sha256": "258bae7b3f40250978de938b9848a280e1fb9b63565d94f730d116cf6b6470a9",
+      "english": "OUTTAKE 14",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_305",
+      "source_words_sha256": "57799c7a698fd5076ace3b82e387bee3791f8e59c4c1f027bfd3df654485964a",
+      "english": "OUTTAKE 15",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_306",
+      "source_words_sha256": "8654fd2edcb06634ee66b66aa3e5546ceb0bfe4dff99ed1b2eba5b792a0cb57f",
+      "english": "OUTTAKE 16",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_307",
+      "source_words_sha256": "5c1eb878e4e9ddcae723342246843e83c8902e42194ffed7acf82532df91cb71",
+      "english": "OUTTAKE 17",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_308",
+      "source_words_sha256": "24798a18057e8808c66804cf1669912184b00e4d9fc7622d1822f9bfdec51050",
+      "english": "OUTTAKE 18",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_309",
+      "source_words_sha256": "fdb86a06d8e2ddd560f2e551e238bdd9fb38de61c3370f73bd5c8b9b06ef92e4",
+      "english": "OUTTAKE 19",
+      "translator_note": null
+    },
+    {
+      "id": "gfx_gintama_310",
+      "source_words_sha256": "d1dd3a1fe213b38832fec21653c24ddb2be7718c04977f630863d5946c5ed67a",
+      "english": "OUTTAKE 20",
+      "translator_note": null
+    }
+  ]
+}

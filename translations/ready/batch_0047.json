@@ -1,0 +1,1206 @@
+{
+  "format": "gintama-community-translation-v1",
+  "batch_id": "batch_0047",
+  "records": [
+    {
+      "id": "msb_000A8488",
+      "source_words_sha256": "a16cf3aeec8fb5d359cf15795b0b4a316413736cfb0f19a6a86887163fa8cf85",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8518",
+      "source_words_sha256": "f5867bfcaedabd98c376f126cbc15537e99f50235c320dd779ed87a1540078f6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A854C",
+      "source_words_sha256": "6534d034b757d6620f270985e626cfb4caf4f591ed68fb95b151ba08ddddb97b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8578",
+      "source_words_sha256": "99f0d4adacaa5f42711f0d28c7b2ecd91d0adcc1f6e0039969dde5eb04fe6ac2",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A85AC",
+      "source_words_sha256": "906d95ae85e4c947d26ed1c6f6f432a8b1184c8a0b78ba5f3da261ccaefff8de",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8650",
+      "source_words_sha256": "cf364d15067b5f46006ea28131827167ee9ce507932eb0724af12b6bc3cdc32f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A87D4",
+      "source_words_sha256": "f6c2acca7972b0cd22a9d08624683962b69f62bd28c2eab282352625d6949f08",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A896C",
+      "source_words_sha256": "f0f49fdb121bb2ce7cd2ff734827f08ab9a80c0d522925496e9b8f4a21616e76",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A899C",
+      "source_words_sha256": "82c2db79a7bafc42250dec19681fa5bdd9802d5f46c1ca2f3470f37bd0dd205f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8B48",
+      "source_words_sha256": "4c0e377282754c850bb7528f40c272fd65e76e33e45a5660c2146a7178e8996e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8B68",
+      "source_words_sha256": "612a0e49fd215e203eda1631e745a60377b34cbc815caf43a3777358948d0f97",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8CB4",
+      "source_words_sha256": "aabb1ce6313f9f32e00d69673365bab5ce87b07fa46d3b0918f2260ce70d52c0",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8CF8",
+      "source_words_sha256": "a35600afd4dd36dfd06f791ccb240b47f993d8e7573617d461eed79bc32e9321",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8E8C",
+      "source_words_sha256": "28d20dd3e4e1c8ba8b07979cd1251689facc9ae5947ef035bde59b9ce67240ee",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8EF8",
+      "source_words_sha256": "0e4c2c327c7d69d2f980c3349cb753c114137ae6d12513ba82da030b6c45e5c3",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8F28",
+      "source_words_sha256": "993541761e6cfa6b7a17ad7f64674dcfe2c44a4d5f1fb3c5ad4fb89fca62be2f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A8FC0",
+      "source_words_sha256": "518ae8a0d3a78d95f30940f516dbaff2f96e5bc66869f76784ac0607a848a6f9",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9044",
+      "source_words_sha256": "d7c34f35b713208ff7100f9cb15d1986ed17dbd74888427bf61ce8cbc84f4e35",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A909C",
+      "source_words_sha256": "e2d200a0ed3d5a9d8c77bf1c92562683288b9221535095006813d0d681913780",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9104",
+      "source_words_sha256": "2f8de794b71ba3bf15ca045e4be53e95998771548c3396f732ba26d44c75a944",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9130",
+      "source_words_sha256": "976d4dea06382fb69faaf1fbf0b41b1ab85b025de45f560cde317a6d92508a28",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A916C",
+      "source_words_sha256": "aeca9d9eee17117c4c9a2c41918094eda6febd02db418ee0a0a117d979cfe6f5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A91A4",
+      "source_words_sha256": "c92baa0763c0a7cf52748ee77a70f346052026e34eb3e584af8daff821d41169",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9248",
+      "source_words_sha256": "598800f2dd63c8ea94241a942a23cb55d1a0cc4f3ef75e4957f2a2a2f4ccabe7",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A92B4",
+      "source_words_sha256": "ec7c414ade4e0b5c9a1b9fea8c699d04cb282fad9c9d9b9600a201e921c093ff",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9300",
+      "source_words_sha256": "5b432c058ae0cf1cb2fb56d690bdada69142954d2aca4d5ca86991604f362f13",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9310",
+      "source_words_sha256": "ed57240b32b4882aea123a563ca604ebe6700bae43467516e658371a6adff5c5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9390",
+      "source_words_sha256": "023178c69fe7cac8f968419fb87f20e8bf1afd5f91beb4c012eb91ac43bc4f09",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9404",
+      "source_words_sha256": "87883a8572c1361b61b98986f97af2ac8baee1edfb4158ce5d32931b4cff66de",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9420",
+      "source_words_sha256": "d770b1d3332035111d55fbb44a411b038b6b3406725c8ffcffc7bff8728e5c0e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9444",
+      "source_words_sha256": "76eeccb47a4bfb6be11af9c77a9cce31a193d462df91ac87c3846655aa70bee8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A945C",
+      "source_words_sha256": "ea10343cc3700b0137a541230fccf24666b2aea658e552a0ab727b758b50b2b4",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9484",
+      "source_words_sha256": "d2212f89af8a77b2bf8c52bc7e0974eb8c0d77d30c6f5b36d366ef146ff9a2f5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A94F0",
+      "source_words_sha256": "5823fb7e62ad17761b658e93307922b23e20c74dbbab89d435ab1ebcc04cb20a",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9548",
+      "source_words_sha256": "723caa42532ca8b6ffdd3f7b204942cd9cd394ba56eadc3e9c75cb1c8d4a4282",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A959C",
+      "source_words_sha256": "969819829717f16ea8ea3756ab87eda93353baa8bf691c57492ad9acfd1d2ac1",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A95F8",
+      "source_words_sha256": "a7d554135efbfd24340da3e703cd994fbe42d61ccb7d381cd864686f2525e0e6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A961C",
+      "source_words_sha256": "11466e14021e94a163bd0bef2ecef7e8091dd29bf2b2fd96984eac8061579d56",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9658",
+      "source_words_sha256": "aade21563857c5cf3ee2bb79e96e8152ccb24ae6ca5ee112ca9f5aeeea5ed057",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9678",
+      "source_words_sha256": "bcaab0e69baa6a7087a1982e74803a0a44ee2af468569a7e37ba8b08a872b734",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A96A8",
+      "source_words_sha256": "d19f5c8667f161bd49e29f6467488677bf9e37b91823d97e3def9b94ff044f54",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A96E8",
+      "source_words_sha256": "4c0e52ea4901b0061c6256145a4f31e3c099306dd07974b138c20a40104a185f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9720",
+      "source_words_sha256": "fcef7011796fb61d9bc5cd126be8647fc05f31f3934752ae05bb26f31a968822",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9750",
+      "source_words_sha256": "80f1d3d5a99712d5bb2057ac01274832c24fed8c3309f8d8a359241a5c88fccd",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A978C",
+      "source_words_sha256": "334935a419ff1a422e3c812c801488d7b1d5bc868fb23f6c577ffa978395c4b0",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A97A4",
+      "source_words_sha256": "c5010434bf3567cfc9bf25ab41ebbdb7a3fa5eaf414cc172ef8d01ec1b07d917",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A97D0",
+      "source_words_sha256": "2948f2b19082919999b5f318bf1a0ad5f7a784413e36e9bbcd1fe312e1c5291b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A97F8",
+      "source_words_sha256": "90b7eaebd9fa680cd2be01bc02e9b1347538ace0550c8b5145679554ec7cbcf9",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9864",
+      "source_words_sha256": "8a9d6e49f6f10d0101f682d4523b30abbae6f2f925004a5673b68bb29d5cb914",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9890",
+      "source_words_sha256": "8b07e9259a8b8829fe1578422667e898af5beff95820190a2431fe9c510b9f97",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A98B4",
+      "source_words_sha256": "1fbc25988a8e88e9b41435fa905a41b52d200dce0de4a365b9b368c6c7f6214a",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A98D8",
+      "source_words_sha256": "b8708e784c792eacb949f76617eccca54a48a7294caaa429fc69118fdfdd0b1d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9938",
+      "source_words_sha256": "53e715d37f80b3d4a66da50ae3a57bbc3aeadade0364767da11126c6f1a52959",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9980",
+      "source_words_sha256": "f03b314ffe6fe5e9cf7c5de5436a0cde4734656afd48df75bd70d91b2dda0202",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A99AC",
+      "source_words_sha256": "6729405f87443016772d526d5d2d7c3396b05f0d35f39c35141d58d77aea23fc",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A99E8",
+      "source_words_sha256": "a02e2b9b2c366dc1bbcabc2ab48b1ad8768d16df19ff0fba062f0cae8f0d05e7",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9A24",
+      "source_words_sha256": "fcef06e8b690d1be236147904fa4f2759ef9af56a859da2185004da0d6cd0c72",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9A50",
+      "source_words_sha256": "d10867c5daa4e5ab1e6222064d87a9957808fa294d21b009dbc8f186c010e42c",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9A74",
+      "source_words_sha256": "d8e0f05709494fe57ca71d6bb7ff0030e7b44f7f47d2a36312a8cc0d6412d820",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9A90",
+      "source_words_sha256": "afc6392561d39ddda1edf41d243ad8e320f50fe4c1ee48677d627448757440e1",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9AA4",
+      "source_words_sha256": "0e0654f152c60cacf299b7ee33d406ae60703100cbd2e470b887fcd57424cfe4",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9AB4",
+      "source_words_sha256": "a4533b2f81829f36e12a253d0fbe785c6ffc54c5c59774d3c022e3c9af4a8e31",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9AC4",
+      "source_words_sha256": "b592b25761a0cd46dd68d7d81e89954dd267426c0eef9dee4876e3daec140152",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9AE4",
+      "source_words_sha256": "fa4aa7057fd00e1e987a7383de99682d1472b07513bfff0dc17f408b65d9a733",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9B28",
+      "source_words_sha256": "3ecea925c90befdb2123d9f7531b84a7e31eb319a92cd876f74305862a5a5ab5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9B54",
+      "source_words_sha256": "f9bb6db4381f53303bc6e04d0c6005e5d623b2cdca3da08fe523948d4fd56187",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9B70",
+      "source_words_sha256": "ea271a456cab4677609fb67cf8af3afd2db792725ed2343cba80ffa57ec6bb10",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9BEC",
+      "source_words_sha256": "81681bb00db3987302ce876bb69468db18084136c67355a800a8b4bf987d4c03",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9C2C",
+      "source_words_sha256": "745c9dc1d02dabbd2441aa58d182ade4f0ec2eba305c6b26211f7506022a4b85",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9C50",
+      "source_words_sha256": "b38b2161af58f9dab7c08a5e39e84b8a105a64b99f16ee611bc52874e77bc4ee",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9C68",
+      "source_words_sha256": "bf7a7a790436f6640de8d44c89eb23635afdb5c5bd9866aca9cc106ab89e98cc",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9CC4",
+      "source_words_sha256": "52f5a8cb185bd49e61b365282fdb36c1baa4244ed19be1085d9a1d53f413caa8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9D18",
+      "source_words_sha256": "b9119d80de9230489250727dc8e1ab85d4b0c8cde83c71d896470acb691f8fb4",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9D5C",
+      "source_words_sha256": "f9e2a09527d5b8b020aab3e75a8675a1df240d5a2658fd47f402b37040bb02fc",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9D84",
+      "source_words_sha256": "b27caafe1f51e9ed1ad64bd2c3975f792e275a74ac6f0681642455ba52aa39fd",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9DE8",
+      "source_words_sha256": "abaf000827d615e876bb736749fbd32f594d0ce6ae85142a128ba28f55080b43",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9E3C",
+      "source_words_sha256": "eb58ddaba0d102d0464d67f83cc9675ad1fbb967e958a9064649665e9c684914",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9E78",
+      "source_words_sha256": "532ae3d773773f3084b9f788f77e6677eb30bf7da7de576cface04eeabb3d1bf",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9EA8",
+      "source_words_sha256": "2268d20f3343d225782ed9f9212164acf0cf67be21382b6c50dfd50d77c7048f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9EC4",
+      "source_words_sha256": "6c832ab5a2ffafcacb4e796aec45747d12574391896f33021596ebf415cd13a5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9EF8",
+      "source_words_sha256": "17fc7c3bb4989ef573664373445ebc2188a4b94cd6af7edfdb4d97a428144560",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9F4C",
+      "source_words_sha256": "38a9727e1aa746080f8bd189a22aea37341d4b69fa8642756c011dfbfc113770",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9F8C",
+      "source_words_sha256": "9a99b34e7cf6b7b2309ff4b4e2e8a40550d42a5f7392b7a4b4cf8096eebfb7ea",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000A9F9C",
+      "source_words_sha256": "4c6a8311950299ecdd16a22897d8d2753d483d934ea4e624eaf3a876d4c95dc7",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA018",
+      "source_words_sha256": "2b43435b5505bc5e2882aadd2a17c6dcd30ebefabebea5146a1991692b469adf",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA044",
+      "source_words_sha256": "361fbb78a50768d586e32c8e72f56ab2c2b3c661fbb71072895775a666bd4352",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA06C",
+      "source_words_sha256": "df09f29e90106ce6adf3c39775b84b3f5430498ccbeab8664ce1b7cef19c5e25",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA088",
+      "source_words_sha256": "8814713054f7f7b65369c244258d3baec749ae0bf8982c75098520e5de836b3b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA0E0",
+      "source_words_sha256": "bb347317acbfb43a6426630d997947be7850044b07e4019d37cecb97681837e9",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA0F4",
+      "source_words_sha256": "3f3854fa64216b0def8fc4ef3d272c13c6126ef44b411cb2dcf0b72bc78539de",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA148",
+      "source_words_sha256": "63b55d3acdee33ae510d2629a8a5e9bf36f8674abc5eaaef45fc23f01d930c2e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA158",
+      "source_words_sha256": "6d59584c2570bd88ef1a0091e29dd17f9235113a969dc29e5dd1fa1dd6b420f6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA190",
+      "source_words_sha256": "679b4c4bee6e50b1531dfb61a47679cf266feec9a02eed0461711782cbd80845",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA1DC",
+      "source_words_sha256": "4eff9a29f78ba6c858ba7715526ef7ac82abc788c6ddc4366bebf1d47872872d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA218",
+      "source_words_sha256": "a9c4a1d4cf9c341d445bfc3f21661fcf0131b62b54dc72817e7e8b6ce84f257e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA258",
+      "source_words_sha256": "e4994f3803d4bacd648848169873fbf887aa5bf396fe88356b5c7c6de9c5c1fa",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA294",
+      "source_words_sha256": "ceca4b8086f8d7b4f2312dec4bd613ea502abd7a57e19beeeccaf4a103c0d13d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA2DC",
+      "source_words_sha256": "fbee1c7a1afcdd92fef7d6139c9c0321d0cef15f9480e77f8bbe6863834928ea",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA348",
+      "source_words_sha256": "3ca5feb4c7d644eaa52dd4948a35081687e16ababe4b0c34bad27e9f5775ec30",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA3C0",
+      "source_words_sha256": "1fdc315e2192134564da466c4abffcf2e3bdd514314fff9100996f61a39868d8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA3D8",
+      "source_words_sha256": "ab41a6bf0eafb51a6672024e95dd47172bc25bcd24cf170d805e7b577186e93c",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA3F4",
+      "source_words_sha256": "f93b16e7e7f8f2000783722de6b5429469280bede9e58b95e933ea2305660f76",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA40C",
+      "source_words_sha256": "bea71f8709bd41e46abe47aba93ff2fb77ccf124f402f29d5293e8faf59ee605",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA434",
+      "source_words_sha256": "7034dd700117935e1b26fd1467213b4ddeb58aa3c1a926e455be86fb05e50828",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA480",
+      "source_words_sha256": "8391deffd1001aa02122f05015a1b23a44fc8f16d72d284bb878abdc5ae94416",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA4B8",
+      "source_words_sha256": "6409a0858b5748f0d5122b003d877eb9af39ea124076b52480578d0af409207b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA4FC",
+      "source_words_sha256": "cde28116c56ee6394caa0f6b6a4f65d91ff84c4469a312338efea0237aa9cf9f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA538",
+      "source_words_sha256": "b55ddb5159c4667691c6d921348d841cd09d40c551d058f7e03bf16f05c3d6df",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA604",
+      "source_words_sha256": "cc84e1bbb24a42b510893a16705688f1a4df14b1e4a8219f3a64856bde1dff43",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA65C",
+      "source_words_sha256": "40e805af17c319b556e8cbf777c938574397e18e2e236e8503a6d8f2aafecefb",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA6B0",
+      "source_words_sha256": "effb97ef4874e0894e43be287b36f75ed2502dc537fd18482832fd5da1d81d4f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA6D0",
+      "source_words_sha256": "b1113e282e491bc2a941fefbf8eec527ab23058731659fa00a9bfb749439634d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA6F4",
+      "source_words_sha256": "0a1084d49140ae78baa1b9751a5f609d8a6d6246bce05f52301d4134abbd9896",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA70C",
+      "source_words_sha256": "c2213925207078ce6bf938351816b6683ca4c04027646deb96e98df762d4fa14",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA724",
+      "source_words_sha256": "1e118bb72a66177ff9de1e4455969c7851fbb09ac26e260b4e42a9f793cfb62e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA740",
+      "source_words_sha256": "083f2ca592af2a51220bdcc12f293766ee67fbd63f2d267fda30f6834b17bbfb",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA76C",
+      "source_words_sha256": "43ba3c1274b22b38ddb72228cb6d39ede81a2a8dd753986b0612888c64bb3ff0",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA7A4",
+      "source_words_sha256": "c0bfc866a63e522d32358e34b19d434aa2361b90c4aada4813d1c61a4b99a413",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA7DC",
+      "source_words_sha256": "58d7f709b5d38db19048b0ce45bcf37942cb32670c92b2b58b72083dea71e391",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA808",
+      "source_words_sha256": "302d5f323c0404c629a85a39824deec975c18d0a758ef776af329762bba414fa",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA834",
+      "source_words_sha256": "e1f152271325e7bb46a657eab6647caf6f0a67127879302ff0774dc6d8f81077",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA84C",
+      "source_words_sha256": "2afa23b898d8e6e4cd5cffab6542f6080217358bb9226bc5691fc200b4085084",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA8A0",
+      "source_words_sha256": "6f1c75d0f8f39c8a327a0bcd48a3d2b4edccdbef7071ec3e6cbc47e3becb13ab",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA8C4",
+      "source_words_sha256": "77b31fcea54747c32d85f30b3c53554fe2bbaae9a4eefeb0506231a307e2e540",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA900",
+      "source_words_sha256": "6d0f74dd6cc78ed0305f78d1ce0b6e37446ba691ade4c84664c43be39864a311",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA934",
+      "source_words_sha256": "2a8b119a69b3ec8637c16cc99139c880613be8b75eb9739c748539a255a509de",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA998",
+      "source_words_sha256": "896a7f899f9a0e901da9b692e0625ef072d68946aa475781eeec2f0db0b185b6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA9D4",
+      "source_words_sha256": "eb05c91cb238867ffcbac95446b47d2239769bcc02002e661b0a8b4973de9860",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AA9F8",
+      "source_words_sha256": "dc66e49abd74872b4dbc8a4368072f998b343d17b8af6553845c230a3315067f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAA20",
+      "source_words_sha256": "97a074c32f437e30f48b4dff1713c6eddc238235e09494228206a17909b9d95e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAA44",
+      "source_words_sha256": "bccc3660ff910072863e947b3b1275338e9f33e23daec1d4152221abd195eb37",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAA80",
+      "source_words_sha256": "f558e26631fb4ffdaf1dcb38a61603fd1a67cbb99b0485840df5339bb2a4be82",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAA94",
+      "source_words_sha256": "70c8e5ca2c8785d44d3f61f40525dd6b6bc754fac08c7ac319a866a7fb31ccaf",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAAAC",
+      "source_words_sha256": "6748fac9e24ff331677f795855773afa5315adb3f4ddc1ce9142156720361fb3",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAAC4",
+      "source_words_sha256": "458a13817435fdcde53e4ed92bef8a2cb10892165934ccbdb2c03c8f825cf4dc",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAAF4",
+      "source_words_sha256": "860f94beeb427b80ca2cf9b93182540a76f2000cff08157991aef529c791f26a",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAB18",
+      "source_words_sha256": "a33a04601f78744c99b9d88765a4833e11dac1fbc1e30515c036dcf95832d161",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAB34",
+      "source_words_sha256": "ad410b03226da40ac62342e588700670a63ed4df70044408a4a9c3fea21a77bd",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAB4C",
+      "source_words_sha256": "590c8852820279adaee4ff66f3d689f8f1dcde1e48cd48dcc15d0a6a39dd9b8b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAB74",
+      "source_words_sha256": "04022f6994ee2ab45851e2eb2ee07be8240664358fd3c4a8fe4cd281c962e8ac",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAB90",
+      "source_words_sha256": "fade9579ece949e2d093817692378fa00f1c25cb658f1d228bc05bf3668286c5",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AABC0",
+      "source_words_sha256": "41cd1c749f41d842cbdc7d21f35bc2e1d057854c46a8d0d523b4ca2f672f2591",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAC44",
+      "source_words_sha256": "eacea3a7ef51131712f4a491eb88f6ebf5de8075b2da4b09246cd7003ec44232",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAC60",
+      "source_words_sha256": "6cbe574d229fa826188590e50da19983f2aefc69ca600581d606d3cf79c6a181",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AACAC",
+      "source_words_sha256": "f1c34899d86bed7c06f5813032b54b165331c8a22a6a5311f51e025af9c75dc8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAD1C",
+      "source_words_sha256": "762197afa783d0669d9a8e6297dd6871792126e093bb8bedc5a48d8d22a44bd8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAD54",
+      "source_words_sha256": "d141a9ff233a26d5f202c57842c53faa43a2dba8777b2eafaeaf981725d3f441",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAD6C",
+      "source_words_sha256": "bdf1f19a435b1585643f652957e0ccdf4f08695f06c84e94e8431fc02bcdc9ee",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAD8C",
+      "source_words_sha256": "26ee5b13dccdd43d43dbc11752cf4cc7527399099acf8f647e9ed31d241ba9d4",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AADBC",
+      "source_words_sha256": "f13cf726c55da59c3e2d30228e48ee32ed57d81f5e3aa68523a338c776e48d92",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAE10",
+      "source_words_sha256": "f8f300180ef1ea87246339184f7ddea0d3657d724b154c119e7df645730ee456",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAE98",
+      "source_words_sha256": "f69523b6057b3d6f58bc0e469464711f046524d35baa998192593903f41f5f44",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AAEF0",
+      "source_words_sha256": "099c2e8a9b7cb780fe193e74f6dc165c4e88bf918d75b1560c662a7e82ff0d34",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB014",
+      "source_words_sha256": "3765ac924f8869f913e21e014bf2bdba282ee858e1ee117600a39c5f1ef36236",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB02C",
+      "source_words_sha256": "0db3aa760232d2c104ec811f4f071ff8f2fe3d56e1921f4f53388cb904cd3d3e",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB088",
+      "source_words_sha256": "4bbd80de2889cf289ddf22528cd492c9497f08372e5baababb6d3dd1aceccfe6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB0B8",
+      "source_words_sha256": "ad89413e9a27c6c80962936a941dcb322a360d573f191f51e7b8a58a4f003683",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB0E4",
+      "source_words_sha256": "e9bc04168067cb9dcd546013f965b7c6e4287fcc1c7aa4b12377ccd4183092ef",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB0FC",
+      "source_words_sha256": "55954b4b278f214c1092eb804e9a62c6a09b6c6a82c2c738e4e18ac2239e323f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB178",
+      "source_words_sha256": "bf6b3bc783ef6bb976ad54a3565e17a6d89f55db92b419f52466ea087fe354f4",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB1AC",
+      "source_words_sha256": "613a9bb0fe7749c16083adb08e1222ede8158103c7499da13c2f9e6197fa19c2",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB1C0",
+      "source_words_sha256": "33406fcfc09a6e6a4d2b2a9bde2bb12c902990339d50729006ae53e309f85667",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB21C",
+      "source_words_sha256": "add5473bc2f93bf90676e18980a2a9922ee0708e1382f1b8ddc0bd6818923d15",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB254",
+      "source_words_sha256": "d88ff372d188246c549a6480c2eee8bdbab6b995f39bd0fedf06877578f8c73b",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB26C",
+      "source_words_sha256": "08392ff966bb1170634981655cc44f4e83cde190955b6ebeb9842f10430f67be",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB2A0",
+      "source_words_sha256": "1342776c119daffe394a1d111c6a9f210a442ce9cf1624636365b5b12a93fb4c",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB2E0",
+      "source_words_sha256": "eca9a9d131b1cc3a63f8fd07546715429a23e94b901689ca13d15e05d5a4900f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB334",
+      "source_words_sha256": "98ad3c7139b8cd0edf20b4b13c21ced4b038cb1758529fed7eade8e170e73950",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB348",
+      "source_words_sha256": "17c2545fc6c9b97401d68fd22d9c3c5b097b28ebee9776363bf3f3b8ff1e6548",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB360",
+      "source_words_sha256": "dec38a5892da11777c2d1d63666d96456e6e0d11f9eff2a464a16076455fb9b8",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB3AC",
+      "source_words_sha256": "54664d405147d9c99ed915164b538750bc01b5be509fc783ccaca48f938cf021",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB3CC",
+      "source_words_sha256": "dd42b31627d974cbb92404f6d776221f13cbb7583688e5895da39776f4df2b45",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB3F0",
+      "source_words_sha256": "99016043056d63feea803d95d48bb00318b784539e20bdc85b1a269fb0e2a0b0",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB454",
+      "source_words_sha256": "22a29bd0ca916678dcd0c3c2720055a8fd11f8c7be90547da13e487326560e64",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB4E0",
+      "source_words_sha256": "2183ed916f21bfe69f5fbecf26e2ca28c477c74cd4b96914ee2828a186881c22",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB5D0",
+      "source_words_sha256": "ced343180bf664359bb3d174de913e6a6bd8bd73e538a683828728a67cd85c15",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB61C",
+      "source_words_sha256": "cbf43b436d6b5d2bfc259f9f7de44809fd5a38b4e0fdf6240ea7166ff6caf1fc",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB640",
+      "source_words_sha256": "e990b9673ff5485543fc9e3b21211eb2de2ef0b74df914b6da1f5b2c7d2d27ad",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB65C",
+      "source_words_sha256": "cb4bee89c01d2c49097f7e914bf42cc24b529470887b2108d16a0940ef6c819d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB68C",
+      "source_words_sha256": "614a0141c7461781ee75a59b90dc2736732cfb125260b91771177470fabbe2df",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB6AC",
+      "source_words_sha256": "5bd10c6c769e7d76a8db1ab4f8f5066b948791be389ef031d187b991c25e215a",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AB6C8",
+      "source_words_sha256": "6556abefc9108b42322119042072d7f8cf9d0969e2da519708d4e03cd4a718bf",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABAEC",
+      "source_words_sha256": "3d74623426c7e82af257959a66a5ba6984a89e62a47b9ea27a3512a1e4ec6c97",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABBC0",
+      "source_words_sha256": "f4021d4fe94abcbb8df4ac4acb7f8e1f46e3b1d0ab977be3acea8e46f87e9158",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABC58",
+      "source_words_sha256": "7bb893959f0306c5769956ae1cd79c24c8f340335e396b3e84c745b80accd971",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABC8C",
+      "source_words_sha256": "8099062a8de5590beec9f04ff7f2d538f8d09b4235291fdc83703749dbaae92d",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABCB8",
+      "source_words_sha256": "4c7b30b466d9186333e216a24c84135444b289b34a1b1e281f053ab749774fc6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000ABCD4",
+      "source_words_sha256": "606d71143d0086f7085af75267f45e51ecd749e23425e5b03a7e7f2d7baa7641",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC114",
+      "source_words_sha256": "0b4278e3ebd58cdc18e5a01989f755f10748e3184ffb8980b763674dccf1a84a",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC1CC",
+      "source_words_sha256": "95573ba7ddcdd8f063efdf9ce4344a7887f5627abf17429ad872ac9a9b550de6",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC254",
+      "source_words_sha256": "59dc513b43b93d1664e989cd95dcb0ee733e5054a9034ff21957c8507705c66f",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC298",
+      "source_words_sha256": "6c900953286607d84115afd191221715fbda41b5541bdc877ad0e310b2d20a55",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC2BC",
+      "source_words_sha256": "bda990c39d19364aa3c76b95dd494208ae27671cb368edfc2217032e39ff1d35",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC310",
+      "source_words_sha256": "b9ce686949be667444f458194d6608b51d00870362f4c1587fe33753f76cfa0c",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC350",
+      "source_words_sha256": "30565cd3cebbbe53b64791fe3a9f6af68b006da70760a35b4bf5da9b332299dd",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC380",
+      "source_words_sha256": "7b1697a97f69f7057b2deb0db77317bc4173e10ae662adc41a552304ccdd7ce2",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC774",
+      "source_words_sha256": "58e26f8f0054e574f3a1bab8c00de0031afa6807b7b7c3e49a0431f758ea04a3",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC8D4",
+      "source_words_sha256": "15a389a656fcb69b811ae162beb9912e5f4bf38aed3ab2a5df1b2393e8ae79b9",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC920",
+      "source_words_sha256": "ae38683ff882247a156f3a4ac93dd0626b85f8b7338e75eb5e9776904b7dadff",
+      "english": null,
+      "translator_note": null
+    },
+    {
+      "id": "msb_000AC93C",
+      "source_words_sha256": "9587c74ced879455ca59b8c4f81d26a75274069a27b81ed19d075944a40896a7",
+      "english": null,
+      "translator_note": null
+    }
+  ]
+}

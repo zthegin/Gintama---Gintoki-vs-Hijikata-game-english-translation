@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="description" content="Unofficial English fan translation image-label editor for Gintama: Gintoki vs. Hijikata!? Not affiliated with the rights holders. Supply your own legally obtained ROM." />
+    <title>Unofficial Image labels · Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! · Nintendo DS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="theme.mjs"></script>
+    <script type="module" src="graphics.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <div class="project-heading">
+          <h1>Gintama: Gintoki vs. Hijikata!?</h1>
+          <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
+        </div>
+        <nav aria-label="Main">
+          <a href="index.html">Dialogue</a
+          ><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html" aria-current="page">Images</a
+          ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <p class="game-title">
+        English translation of <strong>Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!</strong> for Nintendo DS.
+      </p>
+      <p class="project-note">
+        Unofficial fan and educational project. The maintainer does not own
+        Gintama or the original game content. Use only your own legally obtained
+        ROM. No game downloads or uploads are provided.
+        <a href="rights.html">Project policy</a>.
+      </p>
+      <p class="hint">
+        <a href="guide.html#batch-contributions"
+          >How to submit an image label</a
+        >
+        ·
+        <a href="install.html">Build the translated UI</a>
+      </p>
+      <section class="welcome">
+        <div>
+          <h2>Image labels</h2>
+          <p>
+            Edit the 193 supported Gin Tama name images. Select your own legally
+            obtained original ROM to see the source art and its palette. No game
+            artwork is included in this site.
+          </p>
+        </div>
+        <label class="filebutton"
+          >Legally obtained game file<input
+            id="image-rom"
+            type="file"
+            accept=".nds,.srl"
+        /></label>
+      </section>
+      <p id="image-status" class="status" role="status">Loading image index…</p>
+      <div class="toolbar">
+        <label class="search"
+          >Find a label<input
+            id="image-search"
+            type="search"
+            placeholder="Name or ID" /></label
+        ><label
+          >Preview size<select id="image-zoom">
+            <option value="1">Native (1×)</option>
+            <option value="4" selected>4×</option>
+            <option value="6">6×</option>
+          </select></label
+        ><span id="image-progress"></span>
+      </div>
+      <section class="workspace" aria-label="Image label editor">
+        <nav class="entries" aria-label="Image labels">
+          <ol id="image-entries"></ol>
+        </nav>
+        <article class="editor">
+          <h2 id="image-title">Select a label</h2>
+          <p id="image-id"></p>
+          <div class="preview-pair">
+            <figure>
+              <figcaption>Original, from your legally obtained ROM</figcaption>
+              <canvas
+                id="image-source"
+                width="64"
+                height="16"
+                role="img"
+                aria-label="Original image label"
+              ></canvas>
+            </figure>
+            <figure>
+              <figcaption>English preview</figcaption>
+              <canvas
+                id="image-english"
+                width="64"
+                height="16"
+                role="img"
+                aria-label="English image label preview"
+              ></canvas>
+            </figure>
+          </div>
+          <p class="native-note">
+            Native size: 64 × 16 pixels. This is a decoded asset preview, not a
+            game screenshot.
+          </p>
+          <label class="field-heading" for="image-text"
+            ><strong>English display label</strong></label
+          ><textarea
+            id="image-text"
+            rows="2"
+            spellcheck="false"
+            maxlength="80"
+          ></textarea>
+          <p class="hint">
+            Use one or two lines. Labels use the project’s pixel alphabet. Full
+            terminology is shown above; a short label must keep its meaning.
+          </p>
+          <label class="field-heading" for="image-note"
+            ><strong>Translator note</strong></label
+          ><textarea id="image-note" rows="2" maxlength="500"></textarea>
+          <p id="image-record-status" class="record-status" role="status"></p>
+          <div class="actions">
+            <button id="image-previous" type="button">Previous</button
+            ><button id="image-next" type="button">Next</button>
+          </div>
+        </article>
+      </section>
+      <section class="export">
+        <h2>Export image translations</h2>
+        <p>
+          Download both files, then replace
+          <code>translations/graphics/gin_tama_names.json</code> and
+          <code>csv/graphics/gin_tama_names.csv</code> in your fork. Open a PR
+          to <code>staging</code>. Source art is never exported. The local
+          Python builder creates the ROM separately.
+        </p>
+        <div class="export-actions">
+          <button id="image-suggest" type="button">Suggest on GitHub</button>
+          <button id="image-json" type="button">Download JSON</button
+          ><button id="image-csv" type="button">Download CSV</button>
+        </div>
+        <p id="image-export-status" role="status"></p>
+      </section>
+      <footer>
+        <p class="project-links">
+          <a
+            href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
+            >Project repository</a
+          >
+          ·
+          <a href="https://github.com/zthegin/zthegin.github.io"
+            >Website repository</a
+          >
+          ·
+          <a href="https://zthegin.github.io/">Website</a>
+        </p>
+        <p>
+          Unofficial fan and educational project for this Nintendo DS game. I do not own
+          Gintama or any original game content. All game rights remain with their respective
+          holders. <a href="LICENSE">License</a> · <a href="rights.html">Rights</a>
+        </p>
+        <p>
+          I do not support piracy. Use only your own legally obtained ROM; do not share
+          game files or unauthorized download links.
+        </p>
+        <p>
+          For a rights concern, please identify the affected material and your authority to act. I will promptly review the request. For a verified request, I will remove or disable the affected material I control and stop the related work.
+          <a href="rights.html">Rights and removal requests</a>.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

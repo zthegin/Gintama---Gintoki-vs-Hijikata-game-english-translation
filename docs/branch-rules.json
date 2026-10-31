@@ -1,0 +1,147 @@
+{
+  "purpose": "Branch rules for manual owner updates; import each referenced ruleset separately in the matching repository. Saving this file does not install rules.",
+  "owner": {
+    "login": "zthegin",
+    "id": 344322420
+  },
+  "rulesets": [
+    {
+      "repository": "zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation",
+      "import_file": "rulesets/source-owner-updates.json",
+      "ruleset": {
+        "name": "Only zthegin updates main and staging",
+        "target": "branch",
+        "enforcement": "active",
+        "bypass_actors": [
+          {
+            "actor_id": 344322420,
+            "actor_type": "User",
+            "bypass_mode": "always"
+          }
+        ],
+        "conditions": {
+          "ref_name": {
+            "include": [
+              "refs/heads/main",
+              "refs/heads/staging"
+            ],
+            "exclude": []
+          }
+        },
+        "rules": [
+          {
+            "type": "creation"
+          },
+          {
+            "type": "update",
+            "parameters": {
+              "update_allows_fetch_and_merge": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "repository": "zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation",
+      "import_file": "rulesets/source-history.json",
+      "ruleset": {
+        "name": "Preserve source branch history",
+        "target": "branch",
+        "enforcement": "active",
+        "bypass_actors": [],
+        "conditions": {
+          "ref_name": {
+            "include": [
+              "refs/heads/main",
+              "refs/heads/staging"
+            ],
+            "exclude": []
+          }
+        },
+        "rules": [
+          {
+            "type": "deletion"
+          },
+          {
+            "type": "non_fast_forward"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "zthegin/zthegin.github.io",
+      "import_file": "rulesets/website-owner-updates.json",
+      "ruleset": {
+        "name": "Only zthegin updates website main",
+        "target": "branch",
+        "enforcement": "active",
+        "bypass_actors": [
+          {
+            "actor_id": 344322420,
+            "actor_type": "User",
+            "bypass_mode": "always"
+          }
+        ],
+        "conditions": {
+          "ref_name": {
+            "include": [
+              "refs/heads/main"
+            ],
+            "exclude": []
+          }
+        },
+        "rules": [
+          {
+            "type": "creation"
+          },
+          {
+            "type": "update",
+            "parameters": {
+              "update_allows_fetch_and_merge": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "repository": "zthegin/zthegin.github.io",
+      "import_file": "rulesets/website-history.json",
+      "ruleset": {
+        "name": "Preserve website branch history",
+        "target": "branch",
+        "enforcement": "active",
+        "bypass_actors": [],
+        "conditions": {
+          "ref_name": {
+            "include": [
+              "refs/heads/main"
+            ],
+            "exclude": []
+          }
+        },
+        "rules": [
+          {
+            "type": "deletion"
+          },
+          {
+            "type": "non_fast_forward"
+          }
+        ]
+      }
+    }
+  ],
+  "repository_settings": {
+    "allow_auto_merge": false,
+    "workflow_default_permissions": "read",
+    "actions_can_approve_pull_requests": false,
+    "fork_workflow_approval": "all_external_contributors"
+  },
+  "review_policy": "Public approvals are advisory. Two current-head approvals can add the reviewed-translation label on valid staging translation PRs. Only zthegin chooses and performs a merge.",
+  "direct_owner_pushes": true,
+  "notes": [
+    "History protection has no bypass, including for the owner. Administrator edits to the rules are still possible.",
+    "No native two-review requirement is added: public-account reviews remain advisory.",
+    "Required PR checks are optional while direct owner pushes remain allowed. Inspect all validation and CI results before publishing.",
+    "Use individual User bypass, not Repository admins, write roles or bot/App bypass."
+  ]
+}

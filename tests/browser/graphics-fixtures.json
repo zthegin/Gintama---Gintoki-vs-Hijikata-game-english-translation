@@ -1,0 +1,94 @@
+[
+  {
+    "entry": {
+      "id": "gfx_gintama_000",
+      "source_words_sha256": "b4526936cdc6f1931c5aefec7f1e601a9ef72fcc8450c2d9f80933e0fcf86b66",
+      "offset": 41528,
+      "compressed_capacity": 180,
+      "decoded_bytes": 512,
+      "width": 64,
+      "height": 16,
+      "cell_width": 32,
+      "cell_height": 16,
+      "background": "original_transparent",
+      "canonical_english": "Coin"
+    },
+    "english": "COIN",
+    "decoded_sha256": "0bae1cf3c512e23b32f395f0a1ae301fecc0d7842ceb97556d747f775be346ed",
+    "compressed_sha256": "72532ccd40ecbad0b74048b5d250aba7632e7d719d381d4c777302f26299ec76",
+    "compressed_bytes": 121,
+    "shift": [
+      0,
+      0
+    ]
+  },
+  {
+    "entry": {
+      "id": "gfx_gintama_003",
+      "source_words_sha256": "d8aadd57a6ffd405e1e4bb00d681b38d2cbc6dab494d93bd21c83f6f52a2696a",
+      "offset": 42976,
+      "compressed_capacity": 210,
+      "decoded_bytes": 512,
+      "width": 64,
+      "height": 16,
+      "cell_width": 32,
+      "cell_height": 16,
+      "background": "original_transparent",
+      "canonical_english": "Squeaky Hammer"
+    },
+    "english": "SQUEAKY\nHAMMER",
+    "decoded_sha256": "d24d6beade9c47ad0a1dbf24430b35ca0ae20f88275dc22b4f908fbbdcc8b502",
+    "compressed_sha256": "ecea89e7decfae5a98ba69d93fdddb30fc679c87a2f11a770cd221f8648b80f8",
+    "compressed_bytes": 192,
+    "shift": [
+      0,
+      0
+    ]
+  },
+  {
+    "entry": {
+      "id": "gfx_gintama_011",
+      "source_words_sha256": "0b635111dd581c573002b329ecbac602fdf96725111aade3f668738cdeef8ea3",
+      "offset": 46944,
+      "compressed_capacity": 130,
+      "decoded_bytes": 512,
+      "width": 64,
+      "height": 16,
+      "cell_width": 32,
+      "cell_height": 16,
+      "background": "native_dark_backplate",
+      "canonical_english": "Dango Skewer"
+    },
+    "english": "SKEWER",
+    "decoded_sha256": "ed870c191c5a62926ed54ea9eff5dbf5dc8e510e630bab96c6f06812f6298654",
+    "compressed_sha256": "25a872a0c56fa5cfaa84cf68e3094ebf32730d4dcaaa589bfd42a1ad223a39ce",
+    "compressed_bytes": 128,
+    "shift": [
+      0,
+      0
+    ]
+  },
+  {
+    "entry": {
+      "id": "gfx_gintama_052",
+      "source_words_sha256": "d668f9826be17262ad57ff2257e25f98747feb58d1db968254e8f29734b04edc",
+      "offset": 70512,
+      "compressed_capacity": 178,
+      "decoded_bytes": 512,
+      "width": 64,
+      "height": 16,
+      "cell_width": 32,
+      "cell_height": 16,
+      "background": "original_transparent",
+      "canonical_english": "Yamazaki"
+    },
+    "english": "YAMAZAKI",
+    "decoded_sha256": "2a4a9e557c47451fc561a53d4a7c6fb8f1e10f709476722425e60ffc762338b9",
+    "compressed_sha256": "eafbe54219ec58d9dd1a0b24f569edc2c743aa6449f5b7263afcc5ff213077db",
+    "compressed_bytes": 172,
+    "shift": [
+      -1,
+      0
+    ]
+  }
+]

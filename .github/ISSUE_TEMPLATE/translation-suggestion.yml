@@ -1,0 +1,38 @@
+name: Suggest a translation
+description: Suggest an English line if you cannot edit JSON or CSV locally
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not paste a game's extracted Japanese script, download links, ROMs or private data. Resolve required publication rights before posting adapted dialogue. Maintainers manually validate/import suggestions; an approval does not establish copyright permission."
+  - type: input
+    id: record
+    attributes:
+      label: Record ID
+      description: The editor shows this ID. Suggest on GitHub fills it in for you.
+      placeholder: msb_00000254
+    validations:
+      required: true
+  - type: textarea
+    id: english
+    attributes:
+      label: Suggested English
+      description: Describe line/page breaks as \n and \f.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Context and translation note
+      description: Briefly explain the scene and any terminology choices.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Contribution rights
+      options:
+        - label: I have the necessary rights to share this submission and have not included source assets or copied another translation.
+          required: true
+        - label: Any game file used was my own legally obtained ROM; I am not uploading it or linking to a download.
+          required: true

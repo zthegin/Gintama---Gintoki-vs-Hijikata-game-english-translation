@@ -1,0 +1,20 @@
+{
+  "format": "gintama-reviewed-screenshots-v2",
+  "reviewed_on": "2026-10-22",
+  "scope": "Three project-editor captures without loaded game artwork or dialogue.",
+  "generation": "Headless Chromium from the local static site; source canvases verified empty after reload. English image labels passed width and compressed-capacity checks.",
+  "screenshots": [
+    {
+      "path": "docs/screenshots/image-label.png",
+      "sha256": "aa22d72a231ff6ceae90fa315273c3fb05216d02da41a028989aecc356354f95"
+    },
+    {
+      "path": "docs/screenshots/two-line-label.png",
+      "sha256": "a4a99557ccc11d86fa18c914e9ffa3c2f2af3648a848b2555f4fdbce10f2df6a"
+    },
+    {
+      "path": "docs/screenshots/dialogue-editor.png",
+      "sha256": "4e01304db8f51762ad20a564b559f0e52d47534115684ad4c42ffceb85137586"
+    }
+  ]
+}

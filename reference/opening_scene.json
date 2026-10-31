@@ -1,0 +1,3889 @@
+{
+  "format": "gintama-cutscene-v1",
+  "script": "adventure/script/s01.msb",
+  "scope": "Selected opening-script (s01) passages, including the Yorozuya opening, Otose and Catherine, the Shinsengumi encounter, Hijikata introduction and the start of the Ayame encounter. Other cutscene scripts remain unsupported.",
+  "source_msb_sha256": "4b3a4b838385ef4336c44de29cfc9911e0e264f56238d6555095b5a7db21cfd0",
+  "source_cdb_sha256": "26e7c13b77e9380e5cba3f6bfbd75843139357b90942e0aefcead7ee955f67e7",
+  "notes": [
+    "Unofficial fan translation of Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! (Nintendo DS). I do not own Gintama or the original game. No affiliation, endorsement or permission from the rights holders is implied. Use only legally obtained ROMs; piracy is discouraged. See RIGHTS.md for rights and licensing limits.",
+    "Otsu’s abrupt word endings are deliberate jokes. Gin Tama terminology and the deliberate Shinichi misnaming are retained.",
+    "The Gin/kin exchange is a silver/gold pun that turns into a testicle joke. Gin is retained where the original repeats the first half of Gin Tama."
+  ],
+  "messages": [
+    {
+      "offset": 60,
+      "source_words_sha256": "7681a62e7d8c21471d640a820f3ef738cdd5f1ed4592d57c668f2c939b2de91a",
+      "parts": [
+        "Hey, Gin."
+      ]
+    },
+    {
+      "offset": 168,
+      "source_words_sha256": "b24ea70657bc242e85388b819543831dd6ce4f219c0e7e0721e25b83d49904dd",
+      "parts": [
+        "Gin!!"
+      ]
+    },
+    {
+      "offset": 188,
+      "source_words_sha256": "043baa62b53b92bcbf40ebd3b9920c5ca01e64e9cecee163f4827955876d075a",
+      "parts": [
+        "Quit yelling,\nGlasses!"
+      ]
+    },
+    {
+      "offset": 240,
+      "source_words_sha256": "53a32c7cc3e2a21988933a444b66a396019def801c0902e32c66952016994cdb",
+      "parts": [
+        "I can hear you!\nNo need to shout!"
+      ]
+    },
+    {
+      "offset": 336,
+      "source_words_sha256": "8e3f31e1971a893e6998e6d00198191cf0bc98bb811b2b4721c463eec8c6ca7c",
+      "parts": [
+        "Then answer me!"
+      ]
+    },
+    {
+      "offset": 380,
+      "source_words_sha256": "d47c00b25859a7b0674fd10cab8c1eca952dc4200aad7cc2b6889d1571a5cfe9",
+      "parts": [
+        "Sorry."
+      ]
+    },
+    {
+      "offset": 412,
+      "source_words_sha256": "d6229d77df2a237a1dbb0c30d0c8cb3c13f69cb8afff014c47f9976672df1674",
+      "parts": [
+        "I can hear you.\n",
+        "I just won't\n",
+        "listen to you."
+      ]
+    },
+    {
+      "offset": 476,
+      "source_words_sha256": "12afde7f74d15511ae96be3bc74c57a4533fbc0db3277cc1e87416df4537d540",
+      "parts": [
+        "Why?!"
+      ]
+    },
+    {
+      "offset": 496,
+      "source_words_sha256": "c5ce82dcec3bfc1d9e875479e62c1b658d4bc9caf25ce428f2c06a07d5104fef",
+      "parts": [
+        "I already know\nwhat you'll say.\n",
+        "No need to listen."
+      ]
+    },
+    {
+      "offset": 580,
+      "source_words_sha256": "c547a1589f97452aa288a5637fbc08e2ebc59507918bb41c4b3bed99204e48aa",
+      "parts": [
+        "Pay me. If you can't,\nat least feed me."
+      ]
+    },
+    {
+      "offset": 660,
+      "source_words_sha256": "6ea9425560c0ac548e5cc3633507ab400d63f66c47a11d19093f884d5ac50dc6",
+      "parts": [
+        "Such ",
+        "crass",
+        "...",
+        " demands."
+      ]
+    },
+    {
+      "offset": 696,
+      "source_words_sha256": "3fa74c9df13cbb533904fc47532c17916718c71cf8cd23dcaeb3907938a8223a",
+      "parts": [
+        "My demands aren't\n",
+        "crass",
+        "!"
+      ]
+    },
+    {
+      "offset": 740,
+      "source_words_sha256": "4baa609257aeb55e370fba56b873ce2134729446f230838ca54db2be6b9e6a69",
+      "parts": [
+        "Crass",
+        "?!"
+      ]
+    },
+    {
+      "offset": 780,
+      "source_words_sha256": "41fbf8c49ba91fd6364a3ad6c6189442132dca8e5a67b255dc88716b757f7be6",
+      "parts": [
+        "How long must\nI work for free?!"
+      ]
+    },
+    {
+      "offset": 832,
+      "source_words_sha256": "47862d9456574cbe4e09653167d7c15e6d7adcef84000939f53955fa7cbfb787",
+      "parts": [
+        "Hey! That sounds bad."
+      ]
+    },
+    {
+      "offset": 880,
+      "source_words_sha256": "b0ec2b47d0e6289931c0c33381127f541f236cc28d24fa96147c85b73549bff2",
+      "parts": [
+        "When did I ever\nmake you do that?"
+      ]
+    },
+    {
+      "offset": 936,
+      "source_words_sha256": "eec96ef04ec1e115bffe932f9977b964d4d7fd6a4fcc0fb81857480e2ffc6a15",
+      "parts": [
+        "There's no work."
+      ]
+    },
+    {
+      "offset": 956,
+      "source_words_sha256": "874619360d8dededcacde343d0a5af6e8943911f26d6922bd16085c1de94ac88",
+      "parts": [
+        "No work, no free labor!"
+      ]
+    },
+    {
+      "offset": 1048,
+      "source_words_sha256": "b4d03780ca45e4152b768808b651b736a3964a29c438db96b16de4a09dea238a",
+      "parts": [
+        "You call yourself\na ",
+        "boss",
+        "?!"
+      ]
+    },
+    {
+      "offset": 1088,
+      "source_words_sha256": "d8d66b66a22812e58af9e50834b7602a1b8cd1ed8d7662882c3911ac244fb703",
+      "parts": [
+        "Don't like it?\nYou're free to quit."
+      ]
+    },
+    {
+      "offset": 4512,
+      "source_words_sha256": "3a6cfbebbe274ee79047ba63c8c3a141f31bd11d1dad6270044d68f7f60e268e",
+      "parts": [
+        "Keep it down, you two!\nI can't hear the TV!"
+      ]
+    },
+    {
+      "offset": 4564,
+      "source_words_sha256": "382b7ee4b65d595293ec8f5a351efc8f8a7db4741d5cb97000d800da67884bcf",
+      "parts": [
+        "It's not time for\nWataru Seken reruns, is it?"
+      ]
+    },
+    {
+      "offset": 4612,
+      "source_words_sha256": "ce658e6e053bec53d84b722b2580190f14f5fe7b7c60f3f36421d0829e744a80",
+      "parts": [
+        "Heh heh... The hunt\nhas barely begun."
+      ]
+    },
+    {
+      "offset": 4664,
+      "source_words_sha256": "c9209a9e06e939c52fc8c4ba1cefec65dd5d30c2f4864c8b1b9a315b8d8c2c0b",
+      "parts": [
+        "Here. ",
+        "Look."
+      ]
+    },
+    {
+      "offset": 4688,
+      "source_words_sha256": "846d03c2917c139ca177c8fd179eb14bbe94c202c298ef45a5d8282e59bce8a4",
+      "parts": [
+        "At this rate, riches\naren't far off."
+      ]
+    },
+    {
+      "offset": 4740,
+      "source_words_sha256": "342d77b72866466e9732f033612e7247eddd9cb336cc6a702e7a995e7ba99eca",
+      "parts": [
+        "Cake, red-bean soup,\nparfaits, ",
+        "anmitsu..."
+      ]
+    },
+    {
+      "offset": 4792,
+      "source_words_sha256": "04118228a485c274712936e26058be19c715cefaf05280ced3d54fc041bc6877",
+      "parts": [
+        "A life of indulgence\nis almost ours!"
+      ]
+    },
+    {
+      "offset": 4828,
+      "source_words_sha256": "fe340462772571dfcfb75caec22f8f803af34d0e440f57ad7be71c3213c1c70d",
+      "parts": [
+        "A sugary army?"
+      ]
+    },
+    {
+      "offset": 4860,
+      "source_words_sha256": "554546e8b9578b2524acb694fee0b99f271be26166abc5e08a635dcdad0497cb",
+      "parts": [
+        "Shinpachi. Kagura.\n",
+        "You two do not get it."
+      ]
+    },
+    {
+      "offset": 4912,
+      "source_words_sha256": "32fca01feae82138b6d68ee539bf9d81e0a45f1876b3686a92cde4a69fdf9480",
+      "parts": [
+        "It's romance."
+      ]
+    },
+    {
+      "offset": 4928,
+      "source_words_sha256": "545ad5628cd4e442dd7c296eef7caa089ec7fd2f3482996cbfd4382159ab70d4",
+      "parts": [
+        "Go suck on your kelp."
+      ]
+    },
+    {
+      "offset": 4964,
+      "source_words_sha256": "75640a7edfef65c66d0c28ee1eb7057982bd28d6dd96ec150f9e0402ddfc1598",
+      "parts": [
+        "Listen, Shinpachi.\n",
+        "Sure, ",
+        "rare Dragon Tama",
+        "\nare worth finding."
+      ]
+    },
+    {
+      "offset": 5028,
+      "source_words_sha256": "7b860efe85ed0d88c07fc9b2f8291c1455dfb8fac2edd5197596b8f1f92635b1",
+      "parts": [
+        "But is that all\nthere is to it?"
+      ]
+    },
+    {
+      "offset": 5064,
+      "source_words_sha256": "05e52ad0ce00094952db85391520dae06369eabb474915348f2e7c3db9442fe6",
+      "parts": [
+        "That's why you're\nsmall fry. So forgettable."
+      ]
+    },
+    {
+      "offset": 5108,
+      "source_words_sha256": "3020c5fb3204e48722afa9b1bfe3507abbed445df2ae2ab3e7f423b8f46e58ba",
+      "parts": [
+        "Nerdy four-eyes!"
+      ]
+    },
+    {
+      "offset": 5136,
+      "source_words_sha256": "f0b5c8d9fae923b5a06cf988b599388496b6014590c289ff2e74a4401a042fb0",
+      "parts": [
+        "Just listen, Shinpachi."
+      ]
+    },
+    {
+      "offset": 5160,
+      "source_words_sha256": "bbf982a47e0251a54254626f4855800b14263cb2b532bd6aa2464510bdbcb4b8",
+      "parts": [
+        "See, ",
+        "collecting Gin Tama",
+        "\nsends us all over..."
+      ]
+    },
+    {
+      "offset": 5208,
+      "source_words_sha256": "bf411ac3a6975064b12d2187b824e5cfbea4a1de3b96d88e65f397cdc880aef9",
+      "parts": [
+        "Sometimes up against\na tough opponent..."
+      ]
+    },
+    {
+      "offset": 5256,
+      "source_words_sha256": "95764dc2dd586a3a13ba4fad4a37470a3ba597b73b6da1dad7c62270a30c0424",
+      "parts": [
+        "How was it?"
+      ]
+    },
+    {
+      "offset": 5276,
+      "source_words_sha256": "d0d21eefda3574e4383a40bfafedaf61c4a590e6871beddd50bc8cec4e661cc1",
+      "parts": [
+        "Feel anything?"
+      ]
+    },
+    {
+      "offset": 5308,
+      "source_words_sha256": "e07bc9678b2af5f9677e8aac9afe8c23c2c78803ed90462e4bbeabc6c0b246b1",
+      "parts": [
+        "You are so slow!"
+      ]
+    },
+    {
+      "offset": 5336,
+      "source_words_sha256": "20a2d01f59ca680648a166322e00ecd4aa20245d1998997040b3c0594f276a34",
+      "parts": [
+        "You dimwit!"
+      ]
+    },
+    {
+      "offset": 5356,
+      "source_words_sha256": "ef46c7f9bba1be76716001155574ee387827ca95cf597af76605d62adccd71a7",
+      "parts": [
+        "Point is,\nthis is FUN!"
+      ]
+    },
+    {
+      "offset": 5396,
+      "source_words_sha256": "ac876ae6d721c6b2d5608e7d46505b77410ff18534c3aed5dd0ee4390962836b",
+      "parts": [
+        "Gin Tama",
+        ", I mean!"
+      ]
+    },
+    {
+      "offset": 5424,
+      "source_words_sha256": "2d7c4af10368e8ee69d85ae47bc4dae95bdeefafb6e11499440d99110221b5bf",
+      "parts": [
+        "Right? Right? More fun\nthan Wataru Seken reruns!"
+      ]
+    },
+    {
+      "offset": 5484,
+      "source_words_sha256": "6e634d5f6e6de0e75ac1bb391c4b821b7d6898ad67dafc3c69751b0bc0bc0433",
+      "parts": [
+        "Then we are not just\nafter ",
+        "Dragon Tama",
+        " anymore!"
+      ]
+    },
+    {
+      "offset": 5540,
+      "source_words_sha256": "5db9cfd0b74123d860915c9f8487e82d24d091c68278918398d7612ce6ff785f",
+      "parts": [
+        "Let's collect loads\nof Gin Tama!"
+      ]
+    },
+    {
+      "offset": 5592,
+      "source_words_sha256": "0b1ddcf4404efbf275c5f3915f7ad7a4dabff1785ca4f54d9fbc49d7f78acb28",
+      "parts": [
+        "Every last one\nwe can find!"
+      ]
+    },
+    {
+      "offset": 5636,
+      "source_words_sha256": "5877622cb780429fd0657352e4c20f11990e208a3a82acbcfba9539d8ef48165",
+      "parts": [
+        "You've grown,\n",
+        "kid!"
+      ]
+    },
+    {
+      "offset": 5664,
+      "source_words_sha256": "a26b62b31eae6ef01784579f670d5a41b55197ca883395101bcfa0eed6275ddc",
+      "parts": [
+        "Now, back to\nthe hunt!"
+      ]
+    },
+    {
+      "offset": 6008,
+      "source_words_sha256": "30fbbc7ca876bccb8f6eed798e2b8341e480dc26c1500522fa5874c2bc66ddd9",
+      "parts": [
+        "I don't like\nthat attitude."
+      ]
+    },
+    {
+      "offset": 6044,
+      "source_words_sha256": "391e5d6f59b437bee546562f2c1b7f24725d32ddd1bbc67ca58acd33d89419b4",
+      "parts": [
+        "Didn't kindergarten teach you\nto ask people politely?"
+      ]
+    },
+    {
+      "offset": 6120,
+      "source_words_sha256": "1c5110d4023d1a0686da4466b67788bc588d0619144aea8a61f6cd4e98c3fdf2",
+      "parts": [
+        "All right, let's settle this\nwith a ",
+        "Gin Tama Battle",
+        "."
+      ]
+    },
+    {
+      "offset": 6184,
+      "source_words_sha256": "f63cce7d6ee8f4a4eca71ccdc02287aa1eb9213c29c3e510b2d8883e2759c575",
+      "parts": [
+        "Win, and I'll tell you all."
+      ]
+    },
+    {
+      "offset": 6220,
+      "source_words_sha256": "bb7735dc9c45e94648a437b1aa2aa9378d9038cf835b012d0507497d97191c60",
+      "parts": [
+        "But if I win..."
+      ]
+    },
+    {
+      "offset": 6252,
+      "source_words_sha256": "b1db56a103dfa97ff0d5ecb59af432d5be378876e346ee68cb73330ee87d8289",
+      "parts": [
+        "...you answer my questions."
+      ]
+    },
+    {
+      "offset": 6288,
+      "source_words_sha256": "d8f0c8ffccd39a12ca0375911ee86969ffbb9f6462b3c18e60dd55f88670ca83",
+      "parts": [
+        "All right. It's a deal."
+      ]
+    },
+    {
+      "offset": 6316,
+      "source_words_sha256": "c97c0833bc7c87d1e05e50f83dd0b86e901181396781635c33fa4eab46953e32",
+      "parts": [
+        "Come on, shogun's dog!"
+      ]
+    },
+    {
+      "offset": 6492,
+      "source_words_sha256": "36b3f10e6477fba4e071bb5807a3437818fff034095f6507f979b00cdc7c4a8d",
+      "parts": [
+        "Hey, you three.\nHold it."
+      ]
+    },
+    {
+      "offset": 6524,
+      "source_words_sha256": "866a2bd5bb3125e94ac52930dfa460d5c15b00180002688cd76b6490bc036a84",
+      "parts": [
+        "Kondo, we're getting nowhere."
+      ]
+    },
+    {
+      "offset": 6564,
+      "source_words_sha256": "8f49e2b1e6840684045632b1c906d4e4c6eeee043cf6187382adada616892dae",
+      "parts": [
+        "Quit making it worse,\n",
+        "Sogo! ",
+        "We're getting nowhere."
+      ]
+    },
+    {
+      "offset": 6624,
+      "source_words_sha256": "766565e88896c8f9483413548a62157a275f65ac52c1e6f3c9f9ec07cf2514fd",
+      "parts": [
+        "Keep it up ",
+        "and die!"
+      ]
+    },
+    {
+      "offset": 6652,
+      "source_words_sha256": "8e5fec527a38e3665b3203ae3219a22231ff617baa9e91f6f8f818f735242071",
+      "parts": [
+        "A gorilla's friend?! Me?!"
+      ]
+    },
+    {
+      "offset": 6688,
+      "source_words_sha256": "b4d54cd9cab2d7b1a80d48fae0e988050c4544dfc5bded84cce4692deb76eba6",
+      "parts": [
+        "I could haul you in\nright now!"
+      ]
+    },
+    {
+      "offset": 9032,
+      "source_words_sha256": "83541ea63737e25f7291e62b519d3073576431842fea8dd025254986a7b09dff",
+      "parts": [
+        "We've collected quite a few\n",
+        "Gin Tama",
+        "!"
+      ]
+    },
+    {
+      "offset": 9108,
+      "source_words_sha256": "7bd9216f64930c6b22b70b95bc54300d32229e2ff6b45f6062fc23a519213900",
+      "parts": [
+        "Even if we get rich,\nI won't let you waste\nall that money!"
+      ]
+    },
+    {
+      "offset": 9176,
+      "source_words_sha256": "14f86bb8388a80c6494b148bc2feee92f6b926625c1628bdcb3251842bdaf49c",
+      "parts": [
+        "Besides, too many sweets\nare bad for you."
+      ]
+    },
+    {
+      "offset": 9224,
+      "source_words_sha256": "437ab452af67e9cf543fb5129bad7f4dadb4df85f96a7b59503711c541f87103",
+      "parts": [
+        "Tama are for Otsu-chan!"
+      ]
+    },
+    {
+      "offset": 10572,
+      "source_words_sha256": "81261ce867b8163a66185dc8e87748c2ae3dc00a9bd367e87e7b99b64f79e0b9",
+      "parts": [
+        "I win."
+      ]
+    },
+    {
+      "offset": 10592,
+      "source_words_sha256": "770f9800b596a01a5b55c2c59c1f73589721da547c763b120a579a4d38566b54",
+      "parts": [
+        "Now answer me, as promised."
+      ]
+    },
+    {
+      "offset": 10636,
+      "source_words_sha256": "37d0f52b90efdf4d3f59afb1640171a29d6d9ddf4519c6cde9935ebb005558f5",
+      "parts": [
+        "...Uh, you know..."
+      ]
+    },
+    {
+      "offset": 10680,
+      "source_words_sha256": "7359648aca92de3c3117adf5965d1caa21ab5e0181595ad8ef0a1095fa50370b",
+      "parts": [
+        "...What was it, Shinpachi?"
+      ]
+    },
+    {
+      "offset": 10716,
+      "source_words_sha256": "72e9e1e8c764e33709d7bf422cfc2b7386e59cb482071808e8a8f99822f56240",
+      "parts": [
+        "Right, right.\nI wanted to ask that too."
+      ]
+    },
+    {
+      "offset": 13528,
+      "source_words_sha256": "77b69b52b2fa96927bf74e10c35f0593b52c670154a7dd00bf4c09c432d520d7",
+      "parts": [
+        "Hey, no! That's mine!"
+      ]
+    },
+    {
+      "offset": 13556,
+      "source_words_sha256": "bc72b0caf261196aa9838ccde6ba9db8969ef7d041b4368f8aedc1c2d0a3fd36",
+      "parts": [
+        "You're... G-G-Gin?!"
+      ]
+    },
+    {
+      "offset": 13604,
+      "source_words_sha256": "944b7863bf9a15b5cf78fcc0d67767579184a0c52ae273a57747cf82e3afb504",
+      "parts": [
+        "No, my darling Ginny!"
+      ]
+    },
+    {
+      "offset": 42168,
+      "source_words_sha256": "fb46db259c448d15c3c87eb709e1a1d640a835f1a1e5fcae4b81c795cf93ff07",
+      "parts": [
+        "Well? How did it go?"
+      ]
+    },
+    {
+      "offset": 42196,
+      "source_words_sha256": "426d5e80adb9bd80337f42cb55c77dfc3a0148b08c0652b6c0f994b741d25d81",
+      "parts": [
+        "Sougo, keep it ",
+        "simple",
+        " for Kondo."
+      ]
+    },
+    {
+      "offset": 42248,
+      "source_words_sha256": "60bf749161fa183545bfd8c92c2c0a66c23f67b1cb9c15fa9418022e759bb011",
+      "parts": [
+        "Go on, Sougo."
+      ]
+    },
+    {
+      "offset": 42280,
+      "source_words_sha256": "a3e04a6bb9445014c96d0702541dd3c1ca4a416aaadeefe991772cddfbd0e3c4",
+      "parts": [
+        "And the usual aftermath.\nAny injuries?"
+      ]
+    },
+    {
+      "offset": 42348,
+      "source_words_sha256": "3719d49c4de5820de5c986f147e5210b0063fa98ceb5476e1cff88f535c9cef6",
+      "parts": [
+        "Again? How many this month?"
+      ]
+    },
+    {
+      "offset": 42400,
+      "source_words_sha256": "127be6ea51a6e321426bc3415dbdd4273c42d1d0936d84a48a0ea278b37e447b",
+      "parts": [
+        "This is no joke.\nIt's a public safety problem."
+      ]
+    },
+    {
+      "offset": 42460,
+      "source_words_sha256": "317a7f2179e479f46c4f7b98b44cf7a147472c985d041ee954fb64640ec36cd2",
+      "parts": [
+        "Like handing bombs to terrorists."
+      ]
+    },
+    {
+      "offset": 42508,
+      "source_words_sha256": "b0dda55650e6e522653f79f23c33a03272383e644795bc96c2926469852c5073",
+      "parts": [
+        "What is it, Kondo?"
+      ]
+    },
+    {
+      "offset": 42532,
+      "source_words_sha256": "97f2f65d2f3174fe8f8014eb4df32fd08aeaa4442c37e2aa17d511ab9ac965f7",
+      "parts": [
+        "Then ask already.\nWhat are you waiting for?"
+      ]
+    },
+    {
+      "offset": 42588,
+      "source_words_sha256": "d8b60e42c1607922233b1a15639875511b990cc4904f32843ff1cba5ba5d3391",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 42612,
+      "source_words_sha256": "f32af655ba8ee22f7dc4fcfd6f7766414d82c659eef37658d2a81d9cb1d309bf",
+      "parts": [
+        "Gin Tama",
+        "?"
+      ]
+    },
+    {
+      "offset": 42636,
+      "source_words_sha256": "25f48c45cf606f7dcfacfee4859713895607a7c8db393c47b04f6f7d7c01527a",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 42668,
+      "source_words_sha256": "3e0065aae9fe2c81a266373b48958b91a57c27bfb99eac88791d4b3e0d3c34bb",
+      "parts": [
+        "Don't tell me, Kondo...\nYou don't know what ",
+        "Gin Tama",
+        " are?"
+      ]
+    },
+    {
+      "offset": 42732,
+      "source_words_sha256": "b9529a80d25c3035ba73c2a2983f594682e02d9a7e3e9333c9c28664acebd7db",
+      "parts": [
+        "That's not the point!"
+      ]
+    },
+    {
+      "offset": 42764,
+      "source_words_sha256": "409458a6f7d4155be125eebfcfff06b7f321da4b5a4246d21862433034a76050",
+      "parts": [
+        "Gin Tama",
+        " cases, and you don't even\nknow what ",
+        "Gin Tama",
+        " are?!"
+      ]
+    },
+    {
+      "offset": 42848,
+      "source_words_sha256": "132235d8ab983b5d66bc0a3df96978b5c7074ac300efc6f315a13d0f77cc5948",
+      "parts": [
+        "...Sougo. Explain it to him."
+      ]
+    },
+    {
+      "offset": 42884,
+      "source_words_sha256": "aab13daef444775d5fdd1578fa960f2808e4ddcc0e7ea3cb125e6103c0e113fa",
+      "parts": [
+        "But!"
+      ]
+    },
+    {
+      "offset": 42900,
+      "source_words_sha256": "5952b1c9d48d720ffc9db98cbb683d10cb6e7edeb6a1198c0106a49d480490d6",
+      "parts": [
+        "Right..."
+      ]
+    },
+    {
+      "offset": 42924,
+      "source_words_sha256": "e9305ed8b82f05a5004f075556099a759f027153cc1e4d129b0684090bcb45de",
+      "parts": [
+        "Enough!\n",
+        "Thank you, Sougo."
+      ]
+    },
+    {
+      "offset": 42972,
+      "source_words_sha256": "b6b11b458c98106fd62de904c3af4981ba0bac6d3abb6b1f40ed1ea8ed17e34f",
+      "parts": [
+        "No, that was clear.\nEven ",
+        "a gorilla",
+        " could follow it."
+      ]
+    },
+    {
+      "offset": 43036,
+      "source_words_sha256": "dbd8f9869aceb53776def11b8766effb61f7a6c2c0ef94deb3664860edb22940",
+      "parts": [
+        "I'm sure Kondo could too."
+      ]
+    },
+    {
+      "offset": 43064,
+      "source_words_sha256": "1789e352c05963e68740d636f4088d8e2c9d8b11258683802bac47794c31996b",
+      "parts": [
+        "Anyway, Kondo. Incidents involving\n",
+        "Gin Tama",
+        " are on the rise."
+      ]
+    },
+    {
+      "offset": 43144,
+      "source_words_sha256": "2415637331b12dcbd62daaf371bf9f5e15b25847d29d53c2f54525d69768afa6",
+      "parts": [
+        "And ",
+        "Joui rebels",
+        " could..."
+      ]
+    },
+    {
+      "offset": 43188,
+      "source_words_sha256": "5924e68d4fe8eaa354713c72ffaa9131bf12bb773642eaccc595f6a728bcfdd1",
+      "parts": [
+        "Old man Matsudaira",
+        ".\nCould you speak to him?"
+      ]
+    },
+    {
+      "offset": 43248,
+      "source_words_sha256": "ab4c970949b89cf120bb7c826bc2e722ffce413ebe8f42b5b5215ee208ff53da",
+      "parts": [
+        "A dedicated Gin Tama unit",
+        ".\nWe need one, or..."
+      ]
+    },
+    {
+      "offset": 43320,
+      "source_words_sha256": "77a4994b06e24c279cceca544cca89078b131ba8f0661958f5eadfe94343f915",
+      "parts": [
+        "No! ",
+        "You know about them too, right?"
+      ]
+    },
+    {
+      "offset": 43364,
+      "source_words_sha256": "afbdd4641d571b597496388718a78c1106b7f5db0bc47c44703ec468448ad608",
+      "parts": [
+        "Those ",
+        "Gin Tama",
+        "..."
+      ]
+    },
+    {
+      "offset": 43396,
+      "source_words_sha256": "12d0c951ad4f31bdd2febc3cba9c1658dad773e6dd60aff913f5d66274e641f9",
+      "parts": [
+        "Go on, Kondo!"
+      ]
+    },
+    {
+      "offset": 43420,
+      "source_words_sha256": "796a8c78d348f6183e415193a5b69f0f147e6742315d10b720eacf6ae256e47c",
+      "parts": [
+        "Tch. So we make do\nwith the staff we've got."
+      ]
+    },
+    {
+      "offset": 43476,
+      "source_words_sha256": "dd8c90ee95bf60501ab6fc0d0b3c011595df478fd18e06007ebdb38cb22df0df",
+      "parts": [
+        "Who?"
+      ]
+    },
+    {
+      "offset": 43492,
+      "source_words_sha256": "e69228c9b526563837af738d98f4998925fb7d1329d6702a040a9497666c7f42",
+      "parts": [
+        "You said three, didn't you?\nYou definitely said three!"
+      ]
+    },
+    {
+      "offset": 43540,
+      "source_words_sha256": "1ba8f0551a2fc7e18353b042d50a2d324b806d45a5fa2b8c96a23bb275d42f9b",
+      "parts": [
+        "Which three?!"
+      ]
+    },
+    {
+      "offset": 43568,
+      "source_words_sha256": "447f1b2259d69d2f662e7781e5779e015148955dff118c954e2f1a79cea4dc82",
+      "parts": [
+        "Hold it, Sougo."
+      ]
+    },
+    {
+      "offset": 43588,
+      "source_words_sha256": "14a69f7427f87ccb048a23f17018f59aa7fddb5d455ad157936a0544e6e04338",
+      "parts": [
+        "Ugh. He's back."
+      ]
+    },
+    {
+      "offset": 43608,
+      "source_words_sha256": "c9c7236c2c181c55aed2ed4b46130bf85f0e5e2c90049889508062eaffb13bcd",
+      "parts": [
+        "Gin Tama",
+        "?"
+      ]
+    },
+    {
+      "offset": 43632,
+      "source_words_sha256": "d62057480b882b35194133f776fa84a13cd4817c0a3928054de8740fe3034de7",
+      "parts": [
+        "What? ",
+        "Orb thieves",
+        "?"
+      ]
+    },
+    {
+      "offset": 43660,
+      "source_words_sha256": "1d8be373c61ca96d862e844999e5f0cf081bd0cc92e36d0d8a8ac97da821e057",
+      "parts": [
+        "No men, no time..."
+      ]
+    },
+    {
+      "offset": 43704,
+      "source_words_sha256": "391bf4412457c0eb16699cce842b8c99e410b27b2a9ae7a9e85dfd20ad67fbc7",
+      "parts": [
+        "Stop it, Sougo."
+      ]
+    },
+    {
+      "offset": 43724,
+      "source_words_sha256": "7a1f4cfd60da901ceb92cc4adf508d8aca978d6a76eaccacdb3cf30d55336a65",
+      "parts": [
+        "You sound serious."
+      ]
+    },
+    {
+      "offset": 43760,
+      "source_words_sha256": "fa91f2b84250d1aa5faa9cd05663c02aeb377627ad1ca5293a9467ae1cb05b56",
+      "parts": [
+        "Those? What are those, Sougo?"
+      ]
+    },
+    {
+      "offset": 43796,
+      "source_words_sha256": "c0e4bc3b5c96b7a33ff5a447a053f8ae1f14f3399e9e570a13f0c2076bb8557c",
+      "parts": [
+        "Gold orbs",
+        "?\nA serial castrator, maybe?"
+      ]
+    },
+    {
+      "offset": 43852,
+      "source_words_sha256": "17187760f230814c43ab2f2d40f92eaf1112ee5fa5df6ff40f080aceb48afb14",
+      "parts": [
+        "Dragon Tama",
+        "? New to me."
+      ]
+    },
+    {
+      "offset": 43888,
+      "source_words_sha256": "bf3d9a880ee576825539411e02d471b0d24af36a10230637451bdc53b29e0672",
+      "parts": [
+        "An urban legend?"
+      ]
+    },
+    {
+      "offset": 43908,
+      "source_words_sha256": "484ca8aa1cb3532a57ad4de1ea5a79c5fd1a3d784a096514d34df8e7cfacc813",
+      "parts": [
+        "Somebody put Kondo\nto bed in the back!"
+      ]
+    },
+    {
+      "offset": 43956,
+      "source_words_sha256": "7e937cc78bdf3e4b7abd14acbd7e1e51b22775f02750b0d28d08e4f307e7e1c2",
+      "parts": [
+        "...Go on, Sougo."
+      ]
+    },
+    {
+      "offset": 43988,
+      "source_words_sha256": "a1c47d0677a3e904e6597aeed3bf7fa38394c5ef0e5066ce91998422818a6655",
+      "parts": [
+        "Then what?"
+      ]
+    },
+    {
+      "offset": 44008,
+      "source_words_sha256": "6940ae473daea43f86f31831b133f20f194ef9f86d5ae3fb28de7e652b0737c2",
+      "parts": [
+        "Nonsense. What is this, a manga?"
+      ]
+    },
+    {
+      "offset": 44044,
+      "source_words_sha256": "aec44c087a9b3ab72b321597a4dc6cbe6d3090b971b2f3757491139c2589aa42",
+      "parts": [
+        "Even nonsense is real\nto someone who believes it."
+      ]
+    },
+    {
+      "offset": 44128,
+      "source_words_sha256": "d7e7bf85ab2e8d32bd3514399ab51948126d0ee247319550fcc5a2db1e765061",
+      "parts": [
+        "Fine. ",
+        "We've got our orders.\nInvestigate, and we'll find out."
+      ]
+    },
+    {
+      "offset": 44212,
+      "source_words_sha256": "1d5d05088a84a193dc12e49b7f3e6ad40dfa4d79d7d671f9bbe497ff27cda973",
+      "parts": [
+        "Time we got serious\nabout cracking down on this."
+      ]
+    },
+    {
+      "offset": 44268,
+      "source_words_sha256": "fc21b475310ff73d14adb387bac0cef1a0a812fd8eaa78cdbc91ddd6c934ae7f",
+      "parts": [
+        "...put them to dangerous use."
+      ]
+    },
+    {
+      "offset": 44308,
+      "source_words_sha256": "7b68476ca8f96dafdc8e0211e5303c132dcb425c8edb53054c44d7f8134c8458",
+      "parts": [
+        "I know about ",
+        "Gin Tama",
+        ", but..."
+      ]
+    },
+    {
+      "offset": 44348,
+      "source_words_sha256": "df24f4a07d124fe4d7ca047be1825358f565f30e087e2d22a18061a4f8fa3bc3",
+      "parts": [
+        "Those... You know... Battles?"
+      ]
+    },
+    {
+      "offset": 44400,
+      "source_words_sha256": "41f372f030af0047b175b3fec965042b851cdb6ef18a90d38bb77e8e3566710d",
+      "parts": [
+        "How did you get that?!\nFollow the conversation!"
+      ]
+    },
+    {
+      "offset": 44456,
+      "source_words_sha256": "acdb5b60aa4c35a45f2548e0c33dbb2830fca4310e2852c4c3f5ed6c5af4ad3e",
+      "parts": [
+        "Guh..."
+      ]
+    },
+    {
+      "offset": 44480,
+      "source_words_sha256": "98cfc6b499d718dfe46ab7d120fa72f42c9ef5cf7a65b45c1e8d9558175f9fce",
+      "parts": [
+        "Yamazaki!\n",
+        "...Where did you spring from?"
+      ]
+    },
+    {
+      "offset": 44836,
+      "source_words_sha256": "962ff5500747f7bb3a468e76215f219796191e7dbfdda8c72af4611e28d483b8",
+      "parts": [
+        "What is it, Sougo?"
+      ]
+    },
+    {
+      "offset": 44860,
+      "source_words_sha256": "40b414486093fc0da55d1fba7b005f7c5548213e393e6fd0a028f3db75e9cf95",
+      "parts": [
+        "...Don't say it.\nI know exactly what you're thinking."
+      ]
+    },
+    {
+      "offset": 44928,
+      "source_words_sha256": "532933f5d3f0a56e55b175cceebc2363b5f14a382b333b809820230eb5905e4b",
+      "parts": [
+        "Sougo..."
+      ]
+    },
+    {
+      "offset": 44944,
+      "source_words_sha256": "5470260e31077abf888f1b780db597c560871fd387cd92dd0c94db80be13705b",
+      "parts": [
+        "Good work, Sougo."
+      ]
+    },
+    {
+      "offset": 44976,
+      "source_words_sha256": "3c6a96229c605ae280b52eeb7957129723baa885777d27639d3ccc78b2b92933",
+      "parts": [
+        "Thing? What thing?"
+      ]
+    },
+    {
+      "offset": 45008,
+      "source_words_sha256": "8dc3f914da43c95b57c955934bc070b5cde40c9b770cd5387015555ebdec255a",
+      "parts": [
+        "How many times must I tell you?\nBe specific. Be accurate."
+      ]
+    },
+    {
+      "offset": 45064,
+      "source_words_sha256": "1323ceb0c579b156cc45fa41117affe21dde9761784dde8ac427e7c7614e7a4f",
+      "parts": [
+        "Yes. ",
+        "Even for me."
+      ]
+    },
+    {
+      "offset": 45100,
+      "source_words_sha256": "3459af8148df58476b3ea1950e07064062cfd21b6bfd8cf6c1dc42a10518e149",
+      "parts": [
+        "...Toshi? Got a moment?"
+      ]
+    },
+    {
+      "offset": 45148,
+      "source_words_sha256": "a0cd6c3183ce65dfbf3b8aa38edcdf26f736e0094a89a31e979902017623d76c",
+      "parts": [
+        "There's something I've been\nmeaning to ask for a while..."
+      ]
+    },
+    {
+      "offset": 45216,
+      "source_words_sha256": "8fba2586021d1fbed8354e1517a4a73dd56a4cc89017c5355fcf257cb381a83e",
+      "parts": [
+        "Well, here goes..."
+      ]
+    },
+    {
+      "offset": 45252,
+      "source_words_sha256": "c5f65fd1e74eecbd5740ae0bf93c5d05edb47223f5378294a6a5d2578b003ac2",
+      "parts": [
+        "That thing causing all the fuss...\n",
+        "You know, the... the thing..."
+      ]
+    },
+    {
+      "offset": 45328,
+      "source_words_sha256": "a9efa0e2e22e8dfaedba7ab04726c9e555f05b769bb89c31e03975aac911868d",
+      "parts": [
+        "Yes, ",
+        "those ",
+        "Gin Tama",
+        "..."
+      ]
+    },
+    {
+      "offset": 45376,
+      "source_words_sha256": "8fd891f7f30b0d4f6d6795a80779d2d1e1e4f5628b113dbc5d806da0f340ca9c",
+      "parts": [
+        "Gin Tama",
+        "...\n",
+        "What are they?"
+      ]
+    },
+    {
+      "offset": 45412,
+      "source_words_sha256": "7b92281a209be3e57d9291bcaf6ceeb8144fb63b90a4d691d3987248fb3830b6",
+      "parts": [
+        "Well, I'm not exactly\nup on all the latest fads..."
+      ]
+    },
+    {
+      "offset": 45488,
+      "source_words_sha256": "456e94c55b8e6fe4380edafed72995bd96f8aebd389235636cefa73c87dae6c6",
+      "parts": [
+        "Gahahaha!\n",
+        "Manly, isn't it?"
+      ]
+    },
+    {
+      "offset": 45524,
+      "source_words_sha256": "c8b9325422addd5a29a2ed374ad00ac6e775eb8060bf7f07f901181155115217",
+      "parts": [
+        "Thanks, Sougo."
+      ]
+    },
+    {
+      "offset": 45552,
+      "source_words_sha256": "5864cf1df587702b04c93e91225fd0e739a7e19b637b035e5e829162178b5d7b",
+      "parts": [
+        "R-right. Got it."
+      ]
+    },
+    {
+      "offset": 45576,
+      "source_words_sha256": "4cbd6596555b3831d4a205004607c33e886859151125bc150bd5413140ca9c48",
+      "parts": [
+        "I see! ",
+        "So, ",
+        "Gin Tama",
+        " are just\n",
+        "little orbs",
+        ", then?"
+      ]
+    },
+    {
+      "offset": 45652,
+      "source_words_sha256": "e99ac9822b94a24a49134ca76eb2212e38df46280f4873bb7b14e4bc65001ae2",
+      "parts": [
+        "...Then why ",
+        "are people\nbleeding over ",
+        "little orbs",
+        "?"
+      ]
+    },
+    {
+      "offset": 45728,
+      "source_words_sha256": "a964f7963f1f85277a53c2286a3930e7876aa76904d89e3d80f77b34d49a7758",
+      "parts": [
+        "Huh?"
+      ]
+    },
+    {
+      "offset": 45740,
+      "source_words_sha256": "5bc581e057beba4b8fcd6660fb076bec2b10fe33a188494f0aed3cb0559a7b98",
+      "parts": [
+        "Uh-huh. And?"
+      ]
+    },
+    {
+      "offset": 45764,
+      "source_words_sha256": "2ed55dee676cbcfd5f6859400bee7d2111ebaeac72e069321b2b804bb755cfc2",
+      "parts": [
+        "Oh! Boss!"
+      ]
+    },
+    {
+      "offset": 45788,
+      "source_words_sha256": "0add4ea8b538fb0ac785d2e5b5e5e1eb02094055c2f025ea4c44fc299f74bc8b",
+      "parts": [
+        "Y-yes. ",
+        "I know."
+      ]
+    },
+    {
+      "offset": 45816,
+      "source_words_sha256": "02dedfad8c93b8c782cdc1baaa735c97b02791ed40260d10a0e25871d18fe761",
+      "parts": [
+        "I'd like to discuss\nsomething about that..."
+      ]
+    },
+    {
+      "offset": 45860,
+      "source_words_sha256": "5956f7b910b93cb475809c7518a634c072fb6f766712226b26c0b0271377e8e1",
+      "parts": [
+        "Incidents involving ",
+        "Gin Tama",
+        "\nhave been on the rise."
+      ]
+    },
+    {
+      "offset": 45928,
+      "source_words_sha256": "2cad3532b2de7f36d477e88d6913b3126e2f011a1a9744f5c8516467e961bd41",
+      "parts": [
+        "A little scuffle\nwouldn't be much trouble..."
+      ]
+    },
+    {
+      "offset": 45996,
+      "source_words_sha256": "5dc1460770863d1b4bd176a4037105cdbd7071cc307012a9ef213d292ec26278",
+      "parts": [
+        "But things have\nescalated lately."
+      ]
+    },
+    {
+      "offset": 46048,
+      "source_words_sha256": "afceed690d246693102c9eb2a4ba1d99de004ef9f7def60dc7f9cb36225bc4e2",
+      "parts": [
+        "Gin Tama",
+        " disputes\nare drawing blood."
+      ]
+    },
+    {
+      "offset": 46104,
+      "source_words_sha256": "11a12f5a4d19c73fbb72ac5832089d1c04a1303227af25d49fbfc1065f361a34",
+      "parts": [
+        "With all our other duties,\nwe were hoping for special..."
+      ]
+    },
+    {
+      "offset": 46180,
+      "source_words_sha256": "54361dfe09bb06070af9bdd63d842bbc6c7f82f61075caabba2acb333e0c9823",
+      "parts": [
+        "A special Gin Tama task force",
+        "..."
+      ]
+    },
+    {
+      "offset": 46232,
+      "source_words_sha256": "205baa253b18e37d1b01bd7a2b0595510e5cf44ef2ac990a05b9adf9a4a03c63",
+      "parts": [
+        "Huh?"
+      ]
+    },
+    {
+      "offset": 46244,
+      "source_words_sha256": "c7e25788f149450aa6e50bca6474ce0c11ab2c6a7eedcdaadfe11428b9032cfc",
+      "parts": [
+        "Huh? ",
+        "Well... ",
+        "This year makes..."
+      ]
+    },
+    {
+      "offset": 46304,
+      "source_words_sha256": "6ddc72968ca7aae12ca58ed9fcaf06cb8cc9d346f5f10261c4dd2264d1701b7e",
+      "parts": [
+        "Uh..."
+      ]
+    },
+    {
+      "offset": 46328,
+      "source_words_sha256": "25f48c45cf606f7dcfacfee4859713895607a7c8db393c47b04f6f7d7c01527a",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 46360,
+      "source_words_sha256": "7208495bcf54e26dad95415eba0e7dc6141c6b502692bb666967ed2a2e01db83",
+      "parts": [
+        "But... Still..."
+      ]
+    },
+    {
+      "offset": 46392,
+      "source_words_sha256": "496f25c7c87dbea158f87efc8d7bd1c87dab55fe29f0d8e56f65cfa74a0f1ccb",
+      "parts": [
+        "Th-that's only because we\nwork so hard ",
+        "day and night..."
+      ]
+    },
+    {
+      "offset": 46480,
+      "source_words_sha256": "d818b2b9e3c54a40ebdbb523b5e2f6460ef10e7b890014806b76a8c5d680750b",
+      "parts": [
+        "I'll... ",
+        "pass on that."
+      ]
+    },
+    {
+      "offset": 46520,
+      "source_words_sha256": "2248389a30cbb15f4d06e360ec5b2a27af2d78839255f265bdf3a7ee5e2b1e03",
+      "parts": [
+        "B-but! ",
+        "That's ten years\nwithout pay..."
+      ]
+    },
+    {
+      "offset": 46592,
+      "source_words_sha256": "e167c04cb574a7bba15679f3281fea2d8dbca35a6c3cadea2781d8c97d24be05",
+      "parts": [
+        "Ugh... I really asked for that..."
+      ]
+    },
+    {
+      "offset": 46644,
+      "source_words_sha256": "3648d98afc346f5bb55588388b04296f95d9a60a417bcad593baef50ec3c56e7",
+      "parts": [
+        "Ten years... No, twenty\nor thirty years without pay?"
+      ]
+    },
+    {
+      "offset": 46696,
+      "source_words_sha256": "4a689d933e3e7bfab7f81c6503d732e9be7f7c5c59ed0bd1bb5fa423c9640bed",
+      "parts": [
+        "My monthly salary is..."
+      ]
+    },
+    {
+      "offset": 46732,
+      "source_words_sha256": "999bb217baeac8f4b72a0e84586c4a2ce20426dfb83bfcffd7642f01666226bc",
+      "parts": [
+        "Wait... Thirty-four years\nand eight months without pay?!"
+      ]
+    },
+    {
+      "offset": 46808,
+      "source_words_sha256": "e6f4c3dbd536151854ceeae0bca8c1b8e85ac33202fe6260026cb98065db7242",
+      "parts": [
+        "Did I hear my name?"
+      ]
+    },
+    {
+      "offset": 46844,
+      "source_words_sha256": "91d242ae886c360cd894058ffe3765abb2245d2a59bfc03ed804488731af8bd9",
+      "parts": [
+        "What? Talking behind my back?"
+      ]
+    },
+    {
+      "offset": 46876,
+      "source_words_sha256": "e9ed0bf4bb86bfe03de17e71d37b21b7a437a7a090b0bfde1f0ed312ff6617ae",
+      "parts": [
+        "If you are, ",
+        "it's seppuku for you."
+      ]
+    },
+    {
+      "offset": 46912,
+      "source_words_sha256": "99735a1941fd7e40b1a809d9bd5bdb71115d15c4c7f0dedf4c86ac63381e6608",
+      "parts": [
+        "Oh, that latest craze?"
+      ]
+    },
+    {
+      "offset": 46952,
+      "source_words_sha256": "bb13968df66bcf2640d450d16d70a56baad6d4250a437d5884cd345b697caa62",
+      "parts": [
+        "My daughter's hooked on them..."
+      ]
+    },
+    {
+      "offset": 46996,
+      "source_words_sha256": "c5bd3d4e09d97772d1569490d230b6ef9e73c6198900e00ec0424069d77617ba",
+      "parts": [
+        "So? What's wrong with ",
+        "Gin Tama",
+        "?"
+      ]
+    },
+    {
+      "offset": 47040,
+      "source_words_sha256": "16632c40eb007a6c6e5223af681fd10bf73fab0a50daac3c27433f6d9dce98a0",
+      "parts": [
+        "Discuss something?"
+      ]
+    },
+    {
+      "offset": 47064,
+      "source_words_sha256": "7fe352561d0cec5ea94b179fdd4866c837129d560887af51666839ac8ca7454f",
+      "parts": [
+        "If it's something stupid...\n",
+        "You know what happens, right?"
+      ]
+    },
+    {
+      "offset": 47132,
+      "source_words_sha256": "25f48c45cf606f7dcfacfee4859713895607a7c8db393c47b04f6f7d7c01527a",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 47164,
+      "source_words_sha256": "6c2595d6e92b94d86e7cd85807a148e93dbfe59681643545ad0055ad431971e4",
+      "parts": [
+        "What special favor?"
+      ]
+    },
+    {
+      "offset": 47204,
+      "source_words_sha256": "1fbe0c94bba3ea6d45118de8cdf9602506145717ab8dd2c7f59176c067cec3b3",
+      "parts": [
+        "Chief"
+      ]
+    },
+    {
+      "offset": 47216,
+      "source_words_sha256": "b4c7fcc29af3be4044006d78adc19889867dbf01b5cc5578c0f096c490d16373",
+      "parts": [
+        "How long have you been chief?"
+      ]
+    },
+    {
+      "offset": 47256,
+      "source_words_sha256": "bd7d109171ec73ee49622f430ca4cf584f571032c99c8f6454f8570793bf6ba7",
+      "parts": [
+        "Don't count! Don't count!\nAre you an idiot?"
+      ]
+    },
+    {
+      "offset": 47304,
+      "source_words_sha256": "e5a6cf08d4d5f6541ecb2c4d3ce54526f1a16282b8e9bffd912aef11d704f8b4",
+      "parts": [
+        "Listen. ",
+        "Special task forces",
+        "\nare for... Listen carefully!"
+      ]
+    },
+    {
+      "offset": 47380,
+      "source_words_sha256": "68ea0f3ef7bee38cbe067c70568a12515a3994211f11fa5e9b140eecb70a4d6f",
+      "parts": [
+        "Major incidents\nthat threaten the nation!"
+      ]
+    },
+    {
+      "offset": 47444,
+      "source_words_sha256": "dc3de80cac3f32c6a4c9f3ccdebff3b9b8c2291d502771c86fc6ce123295ebe9",
+      "parts": [
+        "Anti-shogunate sabotage,\nVIP kidnappings, mass murders..."
+      ]
+    },
+    {
+      "offset": 47520,
+      "source_words_sha256": "479b041908dfaf48ac78dcdba88a284433e889a8af69438218b43893adcd09e2",
+      "parts": [
+        "That sort of thing!\nThreats to the nation!"
+      ]
+    },
+    {
+      "offset": 47572,
+      "source_words_sha256": "6c5482c2d08b0292ab11d3de807d686dc4677b561760e678b9b4954deb085246",
+      "parts": [
+        "All this for ",
+        "little orbs",
+        "?\nHave you lost your mind?"
+      ]
+    },
+    {
+      "offset": 47628,
+      "source_words_sha256": "e094a5670bf39b337b98d57915de4a4ecd6738bc195bed4af4b2a08c7fad081d",
+      "parts": [
+        "And..."
+      ]
+    },
+    {
+      "offset": 47640,
+      "source_words_sha256": "c19c4937dc4400a1bd73e97dc3e5ea4d4034bd66d5a56e43b4b0d3537fbd57fa",
+      "parts": [
+        "A hundred years of your pay\nwouldn't cover it!"
+      ]
+    },
+    {
+      "offset": 47688,
+      "source_words_sha256": "49a73c11091d4c73d40c8598f0f556eb06ededd773cf3207eb60fede6689362d",
+      "parts": [
+        "We're already broke!"
+      ]
+    },
+    {
+      "offset": 47724,
+      "source_words_sha256": "671301d579b6cc30245a3074af967be4b609ed6a4b2ce493596e70a699de3334",
+      "parts": [
+        "Paying for houses you wrecked,\nand civilians hurt\nin your investigations..."
+      ]
+    },
+    {
+      "offset": 47816,
+      "source_words_sha256": "d246f7b3589db1ae27aac5518352605e78ee778576e8608532662cd36160e66c",
+      "parts": [
+        "Want to cut that belly open\nfor real?"
+      ]
+    },
+    {
+      "offset": 47860,
+      "source_words_sha256": "18ba58c4146128658d1ed4a1c3e1c7d522bf4a1f208bd755b335bf3f82ff1b8b",
+      "parts": [
+        "Quit sleep talking!\nWrite last month's reports!"
+      ]
+    },
+    {
+      "offset": 47924,
+      "source_words_sha256": "1cae17d07a08e6b871d50f7694d391b4c0a34fb39d335fb82fba89997a3f28d5",
+      "parts": [
+        "That inn you wrecked?\nThe repairs come out of your pay!"
+      ]
+    },
+    {
+      "offset": 47992,
+      "source_words_sha256": "29cd8028d3921f2d8b45eaaff54c88abefd2bc9b2f9766c4cba2cf436855dcec",
+      "parts": [
+        "Ten years won't cover it, idiot!\nJust cut your belly open!"
+      ]
+    },
+    {
+      "offset": 48048,
+      "source_words_sha256": "92282f226c47f156c78215fb4f40e90a2b74701d08120e9bed0620c05ea350cf",
+      "parts": [
+        "Hey. Forgot one thing."
+      ]
+    },
+    {
+      "offset": 48080,
+      "source_words_sha256": "cab7d1a2cbdc51ac1a6b26bc87e0c1f2fe330010396dcfaa8f4fcac5754d0c1c",
+      "parts": [
+        "Kondo...?"
+      ]
+    },
+    {
+      "offset": 48104,
+      "source_words_sha256": "2c0db4774c35af95d5638d09186631646402b86eed0daee29d82950a6e561dec",
+      "parts": [
+        "Hijikata, then.\nAbout those ",
+        "Gin Tama",
+        "..."
+      ]
+    },
+    {
+      "offset": 48164,
+      "source_words_sha256": "7e1d9fb6560286cc680e05f4359896b591d3dbe51867397514f5148af7ad88d2",
+      "parts": [
+        "We've had a rather\ntroubling report."
+      ]
+    },
+    {
+      "offset": 48212,
+      "source_words_sha256": "66adb278c60b260abba6e29be28a395c46aba8c76b0f86d56ed3f3d7dae56b8a",
+      "parts": [
+        "Gin Tama",
+        " thieves are about."
+      ]
+    },
+    {
+      "offset": 48256,
+      "source_words_sha256": "c2177a8d8ddaf286387e615c3a8a2ce86dfde61832841b892330f57da9e7b212",
+      "parts": [
+        "If it's true, that's ",
+        "theft",
+        ".\nNot just some scuffle."
+      ]
+    },
+    {
+      "offset": 48324,
+      "source_words_sha256": "98a5a0ebd5f1f40a94a50a7f36d95666096dd81c85a570b821c3ddb6fb775544",
+      "parts": [
+        "Investigate. That's all."
+      ]
+    },
+    {
+      "offset": 48348,
+      "source_words_sha256": "1e44336e62f806692b77c87fa82dcf3f44ee1b10087da6700f9d58aae9f7826f",
+      "parts": [
+        "I'm back."
+      ]
+    },
+    {
+      "offset": 48376,
+      "source_words_sha256": "f0370448caebc476425a791153a830b13a17a4cdd71631dc370eefab9b73a8aa",
+      "parts": [
+        "Not much I could do, really."
+      ]
+    },
+    {
+      "offset": 48424,
+      "source_words_sha256": "77e16245eb38aa73d0f444bc58f83096cf89b56cb8667bae50d68d4dffd902bc",
+      "parts": [
+        "The usual thing again. That thing..."
+      ]
+    },
+    {
+      "offset": 48472,
+      "source_words_sha256": "be2751e2007e2ec642b29baf834feff432b8f9b958a6f59232d223a17d2ad4d4",
+      "parts": [
+        "Yes, another ",
+        "Gin Tama",
+        " incident",
+        ". Same old quarrel."
+      ]
+    },
+    {
+      "offset": 48532,
+      "source_words_sha256": "0ce35fabbe847e43afd94c26b7fc89d304a4e6e1c2d0ec7d4e0d7ede5f2687a9",
+      "parts": [
+        "\"That orb's mine!\"\n\"No, it's mine!\""
+      ]
+    },
+    {
+      "offset": 48568,
+      "source_words_sha256": "8fde907c9cd70ba804e7d3d9c4ca7f89095b58ad3c266fa63cd9299131e52c8f",
+      "parts": [
+        "\"Hand it over!\" \"Not a chance!\"\nThat sort of thing."
+      ]
+    },
+    {
+      "offset": 48636,
+      "source_words_sha256": "fd0bc4b84d3ea474e3512942f4ff80bd3d652472db8c3406244c59abdf3e49f3",
+      "parts": [
+        "One fellow had his head\ncracked open with a block."
+      ]
+    },
+    {
+      "offset": 48704,
+      "source_words_sha256": "f996b60d1ed625b82732fd171e9754af5e4d6bc7b87001000b1b0be394cea6f0",
+      "parts": [
+        "Once there's blood,\nwe can't just leave it alone."
+      ]
+    },
+    {
+      "offset": 48768,
+      "source_words_sha256": "45cde8762a3ff510011fffc43a0771032c011cb7f1a840e370169f792943c4f6",
+      "parts": [
+        "We're grilling\nthe fellow who hit him."
+      ]
+    },
+    {
+      "offset": 48816,
+      "source_words_sha256": "256d070a11db7a79aa1eea5548854435ce167a0c101a50160e73893b4398ef12",
+      "parts": [
+        "Fifty reports. Twenty-seven callouts.\nSixteen actual incidents."
+      ]
+    },
+    {
+      "offset": 48892,
+      "source_words_sha256": "83967a5c630f6bb04baa5b4e46261a93871f5497811861648cc4170c24988b3a",
+      "parts": [
+        "And another thing."
+      ]
+    },
+    {
+      "offset": 48916,
+      "source_words_sha256": "734ff1733b625da592df04ac939d4498ca958f9aabc653f53a7e44b28e0562c2",
+      "parts": [
+        "Those orbs",
+        " can be used as weapons,\ndepending on how you use them."
+      ]
+    },
+    {
+      "offset": 48988,
+      "source_words_sha256": "4286032027404986a6fac0077b069e075c0dd31d35fa792a7a65031f0d0ecaab",
+      "parts": [
+        "Joui rebels",
+        " could misuse them..."
+      ]
+    },
+    {
+      "offset": 49048,
+      "source_words_sha256": "3dc9ac96064b26cbb8ed91d323194775600ddcbc33a8a821b1725db9ffb7d735",
+      "parts": [
+        "?"
+      ]
+    },
+    {
+      "offset": 49056,
+      "source_words_sha256": "186896c7c5b2a8f837a6852993d59ff19a414d9f3dfdc723fa9a477645e9aaf2",
+      "parts": [
+        "Well, ",
+        "in a manner of speaking."
+      ]
+    },
+    {
+      "offset": 49092,
+      "source_words_sha256": "bf5fae78590b68897cc1e8d2f7586c0a96847694c7cd6aed1b528ef7f72f169d",
+      "parts": [
+        "Keep it ",
+        "simple enough",
+        " for Kondo, right?"
+      ]
+    },
+    {
+      "offset": 49140,
+      "source_words_sha256": "6584f97b64e9b21f13180947826a9a1405bc5bff5a301ad455da09ecc589bf6a",
+      "parts": [
+        "Ready, Kondo?"
+      ]
+    },
+    {
+      "offset": 49172,
+      "source_words_sha256": "7ec2d3a48b6b91121d699087f29cdc65764677974aa39c62397b52f1a82df2e3",
+      "parts": [
+        "Here's a quick explanation of ",
+        "Gin Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 49236,
+      "source_words_sha256": "b02723ae8383bfedf4e5e20b62f23d74ad851649707435a19c21b2befeb6e01c",
+      "parts": [
+        "Take notes. Ask questions\nif there's anything you don't get."
+      ]
+    },
+    {
+      "offset": 49304,
+      "source_words_sha256": "59b3cd185cf4bbb75fc53dde2deead693e26340eca16a70183d8964e65946fea",
+      "parts": [
+        "Gin Tama",
+        " are the latest collectible.\nThey just look like little orbs."
+      ]
+    },
+    {
+      "offset": 49388,
+      "source_words_sha256": "fcb13e69707c5d796fbefb5f6c9b6e58b2dd60e54312797fe942f3dc23fb3e13",
+      "parts": [
+        "Well, yes. Just plain old\n",
+        "little orbs",
+        "."
+      ]
+    },
+    {
+      "offset": 49460,
+      "source_words_sha256": "41a1e37a3bca4c6f868cdcd40e34a2fb753278b37c7c4f91bec563f545696550",
+      "parts": [
+        "That's what I was\njust explaining to you."
+      ]
+    },
+    {
+      "offset": 49516,
+      "source_words_sha256": "424946415f751c5f81a2847798f30da652086c040471cd8dd51d39a5ed606379",
+      "parts": [
+        "Listen.\n",
+        "Gin Tama",
+        " are..."
+      ]
+    },
+    {
+      "offset": 49572,
+      "source_words_sha256": "872bdb45fd828dcf9e7bca0d94445c02828f8fd3db760fb199ba62fecaf0a3de",
+      "parts": [
+        "Bit too advanced for Kondo?"
+      ]
+    },
+    {
+      "offset": 49616,
+      "source_words_sha256": "bee11e7c879d068723d2db71ff3b52e46c63c04f9f951419fb97f33c913d0009",
+      "parts": [
+        "Why don't I ",
+        "kill them?"
+      ]
+    },
+    {
+      "offset": 49652,
+      "source_words_sha256": "67ee44b0435d73abffe8b97b29514c7709aec4fa2181aa0211ad3e8fbbee3d90",
+      "parts": [
+        "All three."
+      ]
+    },
+    {
+      "offset": 49672,
+      "source_words_sha256": "3a9a4cfae496a28c08b36b8618c246ace8909095f18be8b1ec171fbf23204025",
+      "parts": [
+        "Then at least this one..."
+      ]
+    },
+    {
+      "offset": 49720,
+      "source_words_sha256": "41124a7671e34744b4cb2ef701ba3c8f0adea2179f825fb30028fad4ffb58702",
+      "parts": [
+        "Not now, Kondo. It is broken."
+      ]
+    },
+    {
+      "offset": 49772,
+      "source_words_sha256": "7696104692b36d76f153f7fa4a9949e1c79565d2a191cfafa98a6a41cc65dbc7",
+      "parts": [
+        "Still think I should ",
+        "kill them?"
+      ]
+    },
+    {
+      "offset": 49812,
+      "source_words_sha256": "b9dbc5517bdeb9d34065dec17ca50cb27c30e6b216ebbd10e7b5f6a749034574",
+      "parts": [
+        "Still, stealing ",
+        "Gin Tama",
+        "?\nWhat an odd choice."
+      ]
+    },
+    {
+      "offset": 49868,
+      "source_words_sha256": "1b7d2f06346dd0718cb9442df07ea889841b356a80f2c59f4bcf1d22648e3bbc",
+      "parts": [
+        "Oh... Unless they're\nafter those..."
+      ]
+    },
+    {
+      "offset": 49920,
+      "source_words_sha256": "656649ed99464b43421b5a96ab8d9a360a39ca0abd13491df0c8822d9e6ec0b1",
+      "parts": [
+        "Well, maybe they're after\n",
+        "the rare gold orbs",
+        "."
+      ]
+    },
+    {
+      "offset": 49968,
+      "source_words_sha256": "e755e5d742d73f4cf0e4e6982899529882051529638c9daf61590f0cd50762ed",
+      "parts": [
+        "No. Not that."
+      ]
+    },
+    {
+      "offset": 50000,
+      "source_words_sha256": "daed5db31699c01fa1c0fb5223b6c0fb6b71201015ba2f93a71a040382915f47",
+      "parts": [
+        "Besides ordinary ",
+        "Gin Tama",
+        ",\nthere are very rare ",
+        "Dragon Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 50096,
+      "source_words_sha256": "86a01aab77fbfb2675e44736b1e4e22418735a6e8f2d9ccf415a986e1f1bb5d5",
+      "parts": [
+        "There's a funny rumor.\nAn urban legend, you might say."
+      ]
+    },
+    {
+      "offset": 50172,
+      "source_words_sha256": "f8f55a42305429af39e9b0ea451daae9cdc5fd5901b862019686e7dd8cd38c2e",
+      "parts": [
+        "Sounds like nonsense to me."
+      ]
+    },
+    {
+      "offset": 50208,
+      "source_words_sha256": "39d320e480885163ff38bb254db07c1e1636afb8614fbd71a20760dc0358de67",
+      "parts": [
+        "Seven Dragon Tama",
+        ", I think.\nCollect that many..."
+      ]
+    },
+    {
+      "offset": 50272,
+      "source_words_sha256": "54494ecbdb7e4c0c2c4b6e0336e09996f1fea92494f284b68d0a8130e410bcba",
+      "parts": [
+        "They say they'll\ngrant any wish."
+      ]
+    },
+    {
+      "offset": 50320,
+      "source_words_sha256": "f3b0b72c0586a8e1c2bdfb9c592bfb8df6396f9dcd2d3bb008f5d0a3f3921380",
+      "parts": [
+        "I agree, but if people\nare spreading it as the truth..."
+      ]
+    },
+    {
+      "offset": 50392,
+      "source_words_sha256": "777fb000047e4a6fbc9c16bfd56fb01783986c12b51df8448c00a76d92c81b06",
+      "parts": [
+        "You find them by the roadside,\nor people give them to you."
+      ]
+    },
+    {
+      "offset": 50464,
+      "source_words_sha256": "36f03ec24c2ebf2c80bf38318836e515236ab419324b7313dc11dff6998680c5",
+      "parts": [
+        "There are quite a few varieties."
+      ]
+    },
+    {
+      "offset": 50504,
+      "source_words_sha256": "1e593c2ec11dbfd068448d6086e5673e8e5e940fe67424e62cf8ed8f45d9448b",
+      "parts": [
+        "And the ",
+        "Gin Tama",
+        " you collect\ncome in handy in all sorts of ways."
+      ]
+    },
+    {
+      "offset": 50572,
+      "source_words_sha256": "aaa43a3d5fc3de71c4dc8bcbe00e83b42c8144f63b2e23be2d206719a0b4f630",
+      "parts": [
+        "That's why people\nkeep fighting over them."
+      ]
+    },
+    {
+      "offset": 50628,
+      "source_words_sha256": "83edf986b8a01a9e78d814c327207ddd16ca422ed5810c5310f63511799ab89f",
+      "parts": [
+        "That's about it.\nDid you follow that?"
+      ]
+    },
+    {
+      "offset": 50676,
+      "source_words_sha256": "77d4070b940b71c6257d774240782bf8365cbf9b5d572d849183943cad376839",
+      "parts": [
+        "Gin Tama",
+        " in ",
+        "Gin Tama",
+        " battles..."
+      ]
+    },
+    {
+      "offset": 50716,
+      "source_words_sha256": "aa431231ec28b5c50b3ef13b501004bc3c5d5bf33581fde699c3b898ad4f7d20",
+      "parts": [
+        "They say those battles\nare only getting more heated."
+      ]
+    },
+    {
+      "offset": 50768,
+      "source_words_sha256": "a64571e71c55f7c851e76404dd6ccd4534601842c4927b29620584134537f7a0",
+      "parts": [
+        "Need help with seppuku?\nGlad to assist."
+      ]
+    },
+    {
+      "offset": 50808,
+      "source_words_sha256": "60ba94b0a53178254255e769a4f42507a6150e871e99af5841dc503226e0d5e3",
+      "parts": [
+        "I'm following it perfectly."
+      ]
+    },
+    {
+      "offset": 50844,
+      "source_words_sha256": "7173a5e1ae40df75c0d9a47e5f6ab6b4d76b6be88d5149cb3017aeaf73fa6269",
+      "parts": [
+        "You've never tried a ",
+        "Gin Tama battle",
+        ","
+      ]
+    },
+    {
+      "offset": 50900,
+      "source_words_sha256": "19992438662bd43d4cfea9e209b4bd5c548b3d9f3a7f461923242425dbbaf0f4",
+      "parts": [
+        "so you don't know them?"
+      ]
+    },
+    {
+      "offset": 50940,
+      "source_words_sha256": "11b2e520129b4427777ba7892597aba770fe1f73a8a78c4236af2b29be6ce165",
+      "parts": [
+        "He does have a point."
+      ]
+    },
+    {
+      "offset": 50996,
+      "source_words_sha256": "a6f32a8207acfaf8cc63d497ca97e2dc541546047cbf386335bf318d8003c2a1",
+      "parts": [
+        "Just thinking what I'd wish for\nwith seven ",
+        "Dragon Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 51056,
+      "source_words_sha256": "c420ccb62fb9201855fd8b6e60a2493cb71196200ecd28812f5dd37758065191",
+      "parts": [
+        "Then allow me to explain!"
+      ]
+    },
+    {
+      "offset": 51100,
+      "source_words_sha256": "3f5bf5ac84df81f4728555c2b23e6167ee9bb67c32dca29952bc09e783c1dc9e",
+      "parts": [
+        "Vice-Chief, I am\nan undercover officer, you know."
+      ]
+    },
+    {
+      "offset": 51156,
+      "source_words_sha256": "e9bb6806b2c216288e1c68cb64b685a16342eea997a6633e6b0e0acf47543c78",
+      "parts": [
+        "Gin Tama",
+        " and ",
+        "Gin Tama battles",
+        "..."
+      ]
+    },
+    {
+      "offset": 51200,
+      "source_words_sha256": "14527259f9bfbb6c5fe552737a1580f9057e62e78c1c77e905884214a8f82f3a",
+      "parts": [
+        "I know more than anyone\nin our ranks."
+      ]
+    },
+    {
+      "offset": 51244,
+      "source_words_sha256": "0b56f69adeb6a3d3831c48dfc8b6274ee7291f41a1cd64b7d6662217c6b468d7",
+      "parts": [
+        "Yamazaki!"
+      ]
+    },
+    {
+      "offset": 51264,
+      "source_words_sha256": "41ee2d0bdb3ba87580f88ec6cb81350fdb6a0611926a4ac3ff3af281d64cf82f",
+      "parts": [
+        "I'll lend you a hand, Vice-Chief!"
+      ]
+    },
+    {
+      "offset": 51316,
+      "source_words_sha256": "96d71cc89afea50ae1ebe682ef36d93066a575cd1ea8e4b011482316ea77f794",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 51340,
+      "source_words_sha256": "0c25de1b4e1ebf96fbbaf84bfe82cb5cabccfaa8168e5a507df034979880d978",
+      "parts": [
+        "Vice-Chief..."
+      ]
+    },
+    {
+      "offset": 51364,
+      "source_words_sha256": "14265913efcd4b63f5e1574366786e92f8b7cac94196e5cb319591ed873c9af2",
+      "parts": [
+        "You look awfully confident..."
+      ]
+    },
+    {
+      "offset": 51420,
+      "source_words_sha256": "b61749226d07f142c2b460afd83f4dd45fc0df68dc3b4a8d04e1ed1679857322",
+      "parts": [
+        "Am I explaining things\nyou already know?"
+      ]
+    },
+    {
+      "offset": 52720,
+      "source_words_sha256": "25f48c45cf606f7dcfacfee4859713895607a7c8db393c47b04f6f7d7c01527a",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 52752,
+      "source_words_sha256": "06ec81dbb925b93f9a8ceabe41b4b61be4f2730c405046f6d2668ea6c7dbeff2",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 52784,
+      "source_words_sha256": "0f9ee0cc64e25350132471a60d1e34cc42ba335ca26fc8dfcd8d08e19de997f8",
+      "parts": [
+        "Gah! Keep it down!"
+      ]
+    },
+    {
+      "offset": 52808,
+      "source_words_sha256": "88e04e9e29bf4c9dc08fec710d300fe71b0da95ab3c1fc76057354a6022a5b0d",
+      "parts": [
+        "I can hear you.\nYou don't have to yell!"
+      ]
+    },
+    {
+      "offset": 52852,
+      "source_words_sha256": "891d43d65feb19ba80caded2e799a5764c2599913f0ff09945114be238da7042",
+      "parts": [
+        "I'll fog up those glasses\nso you can't see a thing!"
+      ]
+    },
+    {
+      "offset": 52912,
+      "source_words_sha256": "d47c00b25859a7b0674fd10cab8c1eca952dc4200aad7cc2b6889d1571a5cfe9",
+      "parts": [
+        "My bad."
+      ]
+    },
+    {
+      "offset": 52924,
+      "source_words_sha256": "9510404961465a777f3430ec71ca8804c0803958ad34f6a86e711710e2514f64",
+      "parts": [
+        "I can hear you.\n",
+        "I'm just not listening."
+      ]
+    },
+    {
+      "offset": 52980,
+      "source_words_sha256": "0a391d6b1a6a5c17beb417b5103f5fdc40e6f85162362498129a84c65b915219",
+      "parts": [
+        "I know what you're\nabout to say.\n",
+        "I don't need to hear it."
+      ]
+    },
+    {
+      "offset": 53044,
+      "source_words_sha256": "1ca2251b7e98e9a82a2ba30e938572694306c25d78f0f8ee354f652ad73fa65b",
+      "parts": [
+        "\"Pay me!\" Or at least,\n\"Give me something to eat!\""
+      ]
+    },
+    {
+      "offset": 53104,
+      "source_words_sha256": "0e71b27cec7c2cc1692c98536ee7b4be53f98b8d850da0e28c8a74768388b9ad",
+      "parts": [
+        "Such ",
+        "sleazy",
+        " demands..."
+      ]
+    },
+    {
+      "offset": 53144,
+      "source_words_sha256": "dcbf94bd3f08299bedc7792df3f93cfe671fed1b14c0874722b95863a9dcec0a",
+      "parts": [
+        "I'm no villain."
+      ]
+    },
+    {
+      "offset": 53164,
+      "source_words_sha256": "b0ec2b47d0e6289931c0c33381127f541f236cc28d24fa96147c85b73549bff2",
+      "parts": [
+        "When did I ever\nmake you do that?"
+      ]
+    },
+    {
+      "offset": 53200,
+      "source_words_sha256": "df0f9102feb35bbe50cdf193bbf201b63d21f7609e5dbd33847b27120a4891b0",
+      "parts": [
+        "We don't have any work."
+      ]
+    },
+    {
+      "offset": 53228,
+      "source_words_sha256": "874619360d8dededcacde343d0a5af6e8943911f26d6922bd16085c1de94ac88",
+      "parts": [
+        "Can't work for free\nwith no work."
+      ]
+    },
+    {
+      "offset": 53264,
+      "source_words_sha256": "596cc2674ab5172336a8af5ed411239d1f4702a968ad5585f49f66a0dd851f9e",
+      "parts": [
+        "Don't like it? Then quit."
+      ]
+    },
+    {
+      "offset": 53304,
+      "source_words_sha256": "ab3e48bdc1665d2377273c0202894c12279c85d273dbd96eb93e79c645cee19e",
+      "parts": [
+        "TV? What are you\nwatching so intently?"
+      ]
+    },
+    {
+      "offset": 53360,
+      "source_words_sha256": "4fdf01e4813fbfa3fa48c804324ee651ea1ebed1b02348f21875ff1bc5793787",
+      "parts": [
+        "It's not Ladies 4, either."
+      ]
+    },
+    {
+      "offset": 53392,
+      "source_words_sha256": "2712f80dc79e4a518f750f49fd978c92429956e5509e96741329da739896a5f3",
+      "parts": [
+        "How textbook."
+      ]
+    },
+    {
+      "offset": 53416,
+      "source_words_sha256": "264074253ca8171c2a2761ba33c5b3ec25b02f656acb399906bb2466fcd04adb",
+      "parts": [
+        "Oh?"
+      ]
+    },
+    {
+      "offset": 53428,
+      "source_words_sha256": "c926fb6ac55b06ff283745ed41abc8d54e5a0b6627fbf1dbcabe5b025e5cb990",
+      "parts": [
+        "So watching the news\nwill get us work?\nYou're sure about that?"
+      ]
+    },
+    {
+      "offset": 53492,
+      "source_words_sha256": "9b5c9df7682fc7c99283d2e0f9c721b0fd603609588d21a8a545a4ea2adb8f2a",
+      "parts": [
+        "If it doesn't,\nit's your fault, ",
+        "Shinichi",
+        "."
+      ]
+    },
+    {
+      "offset": 53544,
+      "source_words_sha256": "83706389ed69e150e34ce4955cb322b55c70dd1724227c55f89c009ed4e663fe",
+      "parts": [
+        "What's the story?"
+      ]
+    },
+    {
+      "offset": 53580,
+      "source_words_sha256": "50af39b4ca8b678ff91e1d040a58192d6b215aada6110a028e36804c7a857605",
+      "parts": [
+        "A robbery?\n",
+        "Fraud?\n",
+        "Murder?"
+      ]
+    },
+    {
+      "offset": 53620,
+      "source_words_sha256": "68ac2d25f8bd202d2ae0c175c975646a8bd1eb2b89bb267b1b536a25aaf4d684",
+      "parts": [
+        "Gin Tama",
+        ""
+      ]
+    },
+    {
+      "offset": 53636,
+      "source_words_sha256": "1f1f6f872094bc44c7ecdc4fc80a1656a5fc187eb7f64cab455d9b6103055875",
+      "parts": [
+        "Why does that sound\nso familiar..."
+      ]
+    },
+    {
+      "offset": 53676,
+      "source_words_sha256": "cf0c64c06e8d140627a206a801c837127ef9f9ba27e1c117f3ca528b51d393ff",
+      "parts": [
+        "and so irritating\nat the same time?"
+      ]
+    },
+    {
+      "offset": 53712,
+      "source_words_sha256": "f6c380d20b7b2a4ffd6dc6d5bd955788d0d0381d1c615cb363004d457c15582f",
+      "parts": [
+        "You bluffing, Shinpachi?"
+      ]
+    },
+    {
+      "offset": 53740,
+      "source_words_sha256": "00710dbe9cb98038a2112d4338659330a3d97768411483d1880cf10c81ba80b4",
+      "parts": [
+        "Those gold or silver balls\nare that famous?"
+      ]
+    },
+    {
+      "offset": 53796,
+      "source_words_sha256": "15d98463295803b1ea8f700a531f7725e9160b089f6b3821b8d6593d841b2371",
+      "parts": [
+        "...",
+        "So, what are these balls?"
+      ]
+    },
+    {
+      "offset": 53832,
+      "source_words_sha256": "3489bfcc835a01c9ed88cf2d6d021555b4d49b4e75634268b604a089c012cf18",
+      "parts": [
+        "...What?\nThey're just little balls?"
+      ]
+    },
+    {
+      "offset": 53880,
+      "source_words_sha256": "a76f7815a9f49eb2e8b52762c2fd0248638aa43a6cedc229fccdc27387cf284b",
+      "parts": [
+        "What is it, Shinpachi?\nYou look half dead."
+      ]
+    },
+    {
+      "offset": 53940,
+      "source_words_sha256": "8f83f5a336521f8d8e3b53078a23141d38945e194f278bcd39ec765487483335",
+      "parts": [
+        "Hey, hey. ",
+        "What is this, Ninja Hattori?!"
+      ]
+    },
+    {
+      "offset": 53984,
+      "source_words_sha256": "cf4895dcaa9afe2b2fc98138e600a5ed74db7fbeb33d38c03bb5b8d7402fef01",
+      "parts": [
+        "A second ago you called them\npointless toys."
+      ]
+    },
+    {
+      "offset": 54048,
+      "source_words_sha256": "fa9706dcab7767319d91921b516cb161b074faa12f22cedde729dc097c7036a3",
+      "parts": [
+        "No thanks. ",
+        "Too much hassle."
+      ]
+    },
+    {
+      "offset": 54096,
+      "source_words_sha256": "5bc0d327fecc415b3c8262fee8dfe29af6cd698a35a725da4d61fbfd70afeb50",
+      "parts": [
+        "You're the captain.\nNot me."
+      ]
+    },
+    {
+      "offset": 54132,
+      "source_words_sha256": "fcdc4cd5450b561c0ce31f508a9d8d531ba3bfc51ec295b5894bea740d88a0e1",
+      "parts": [
+        "You forge your own fate."
+      ]
+    },
+    {
+      "offset": 54164,
+      "source_words_sha256": "d2abd083e0435caa3d9b7b37a9449e77d0d10b323ec312b807b8f5b0b0ea1068",
+      "parts": [
+        "And why is THAT our fate?!"
+      ]
+    },
+    {
+      "offset": 54200,
+      "source_words_sha256": "8e4c619cb72fe11e66f874391dcbc10c9f34a18a787eeee2c004e2cd1c3c2bfa",
+      "parts": [
+        "Call me names. Still no."
+      ]
+    },
+    {
+      "offset": 54232,
+      "source_words_sha256": "4a96dab62596572277d87661479efd859a8c967250ad8fdaddcd23dcd954181f",
+      "parts": [
+        "Want those balls so badly?\nGo get them yourself."
+      ]
+    },
+    {
+      "offset": 54280,
+      "source_words_sha256": "7aefe8344cdc47292f3f6a8ccab622eace520de3591eb8053a09eaa6e12cae92",
+      "parts": [
+        "As if I'd want any."
+      ]
+    },
+    {
+      "offset": 54304,
+      "source_words_sha256": "2a56edcc7b4f6101498a9acb61a60901762ecacd3ca78db8d94a62d244a25d25",
+      "parts": [
+        "Leave him. Let him go."
+      ]
+    },
+    {
+      "offset": 54328,
+      "source_words_sha256": "1032db5c5b131c94bb14b5b3fc0af8f330586ba634f1855c7bc67d2029c01149",
+      "parts": [
+        "Anyway, Kagura,\nI'm starving here."
+      ]
+    },
+    {
+      "offset": 54372,
+      "source_words_sha256": "0aa00f1841d5055c8df1baa9195eb602f4e71b101c1f073db8010684b34ee8ba",
+      "parts": [
+        "Let's hit the old hag's shop\nand beg for some scraps."
+      ]
+    },
+    {
+      "offset": 54428,
+      "source_words_sha256": "1cb1db4222ad81c128f7092d36dbf52967ca05f0d48da5b1b77cd72b405be59a",
+      "parts": [
+        "Ladies don't chew\npickled seaweed."
+      ]
+    },
+    {
+      "offset": 54464,
+      "source_words_sha256": "e3e3e002932d1ea4eaea95f1038cd35f6e2080faa76d994da442686387ae8da8",
+      "parts": [
+        "Keep it. That spirit\nsounds awfully flimsy."
+      ]
+    },
+    {
+      "offset": 54516,
+      "source_words_sha256": "edff02bf47ecb8bd71650d1ebdca4af465da35645268d23856d6d3da3a3f37a4",
+      "parts": [
+        "Why?"
+      ]
+    },
+    {
+      "offset": 54528,
+      "source_words_sha256": "3a6cfbebbe274ee79047ba63c8c3a141f31bd11d1dad6270044d68f7f60e268e",
+      "parts": [
+        "You two are too loud!\nI can't hear the TV!"
+      ]
+    },
+    {
+      "offset": 54580,
+      "source_words_sha256": "ccdfeca70988d71f52377b12a360d3a0cc7915505e9f85ef174876a7a86e8260",
+      "parts": [
+        "I'm watching the news."
+      ]
+    },
+    {
+      "offset": 54608,
+      "source_words_sha256": "45e222c816cd063218017c2acdbf7d25728c43c6a0384988cf3df9aa501340be",
+      "parts": [
+        "Keeping up with the world\nto find us some work."
+      ]
+    },
+    {
+      "offset": 54660,
+      "source_words_sha256": "3d8dd9f9bdb9b8ddd216c47a0592a277c8f838d62b0834dbb341d25fbbd3fafc",
+      "parts": [
+        "Marketing basics.\n",
+        "Basics."
+      ]
+    },
+    {
+      "offset": 54700,
+      "source_words_sha256": "fce381cc01b79f70f32a56307aac7b6bd8e2022af4892240a39734d698479b93",
+      "parts": [
+        "I said, keep it down!"
+      ]
+    },
+    {
+      "offset": 54736,
+      "source_words_sha256": "d58ffe4659f55f00a59b7bdf5cc293c100299bb5b2a49cb33f4208c745ebdb2a",
+      "parts": [
+        "Want me to spill your\nbrains out on the floor?!"
+      ]
+    },
+    {
+      "offset": 54780,
+      "source_words_sha256": "2180cb46fb8bab198e747bd2f037be76d20dac65a0899ed7ff5076f18d4f872b",
+      "parts": [
+        "Nothing that grim."
+      ]
+    },
+    {
+      "offset": 54824,
+      "source_words_sha256": "dd4a752be76ef197c2e0bfe8bcab5036141c667b66df47dbfcaeeaee9704551c",
+      "parts": [
+        "The latest craze:\n",
+        "Gin Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 54864,
+      "source_words_sha256": "5f5d08bd8b0e2a5ee198464d684aac77e57dca87249f99703733c95e3ac72b6c",
+      "parts": [
+        "Not before a lady!"
+      ]
+    },
+    {
+      "offset": 54896,
+      "source_words_sha256": "7cf9ad0fc65af28db9c418af4b9720515a8b4f3ae8c51bb0550e58e9699b7977",
+      "parts": [
+        "What does \"hip\" mean?"
+      ]
+    },
+    {
+      "offset": 54924,
+      "source_words_sha256": "5c0c0bcd004301e26ed639f16e5a8737f1e9593a1105855f5e6694c11f45ff57",
+      "parts": [
+        "Is \"trendy\" tasty?"
+      ]
+    },
+    {
+      "offset": 54960,
+      "source_words_sha256": "b75d8deb5a96d5d6a0933e2dd0b296a1e07b0af0a44b64ff9b621f828f6a8915",
+      "parts": [
+        "Shinpachi, look!\nThe TV!"
+      ]
+    },
+    {
+      "offset": 54992,
+      "source_words_sha256": "d280cd5e38ddda41c59f553cc26150e308ec0fdcdfd0aa09bc9cf38a99436642",
+      "parts": [
+        "Otsu-chan's on!"
+      ]
+    },
+    {
+      "offset": 55024,
+      "source_words_sha256": "8fab5eb9a00649a74753c30ea00ce6495bf1cd00832fad24540710f83af6b386",
+      "parts": [
+        "...There he goes."
+      ]
+    },
+    {
+      "offset": 55060,
+      "source_words_sha256": "0bdeafe52fd0260a175935f6b222088cadb3cb990ddc5abc89c340ce82b4f7cb",
+      "parts": [
+        "Good idea!"
+      ]
+    },
+    {
+      "offset": 55080,
+      "source_words_sha256": "59e57e7545ba443283ddb670b6c3c6782ef75d15f477d45b645b59a0889bd5c8",
+      "parts": [
+        "Let's go! Right now!"
+      ]
+    },
+    {
+      "offset": 55112,
+      "source_words_sha256": "ffdefa7034b19e5f7e4c8b921e317e2925e5c0c9cd04deda987d03d24e02d1fc",
+      "parts": [
+        "Mocking my seaweed?!"
+      ]
+    },
+    {
+      "offset": 55148,
+      "source_words_sha256": "8c4ff160d21468fd478385520f9a8b9868d5fb3463daf7b9d0b3afe295779d52",
+      "parts": [
+        "...That's right! I'm hooked\non ",
+        "collecting Gin Tama",
+        "...\n",
+        "destroy!"
+      ]
+    },
+    {
+      "offset": 55236,
+      "source_words_sha256": "665c080fb25f5cd90051d05a199dcc8aa2114239c2dee320955e9a6d6d163ac8",
+      "parts": [
+        "My fans bring me heaps\nevery day...\n",
+        "ladybug!"
+      ]
+    },
+    {
+      "offset": 55300,
+      "source_words_sha256": "c71c1ab94790223592de67ea2f82012db95e07e63b9c60ed3ca3d68b155a850c",
+      "parts": [
+        "So Otsu's become quite\na collector herself...\n",
+        "hangover water!"
+      ]
+    },
+    {
+      "offset": 55380,
+      "source_words_sha256": "48a4e6e19a64f9e7d639fd3b47a8d2c01b4041fad6d8da91204f08268a73b827",
+      "parts": [
+        "... Gin?"
+      ]
+    },
+    {
+      "offset": 55404,
+      "source_words_sha256": "ba1af29b5f72d61c11793ee64cb2aae11011789136655b55cc825f8610dc7b27",
+      "parts": [
+        "Hey, Gin.\nAre you listening?"
+      ]
+    },
+    {
+      "offset": 55436,
+      "source_words_sha256": "ad73adfdd17a3d54e96922b1479784193ab28805e53c8e7163b8acfe20d9cee4",
+      "parts": [
+        "...GIN!!"
+      ]
+    },
+    {
+      "offset": 55468,
+      "source_words_sha256": "c965e05e85e9420d14341b7fb440f0fa10ab59c54f63355c47de94f7a40702db",
+      "parts": [
+        "If you can hear me,\nat least answer!"
+      ]
+    },
+    {
+      "offset": 55516,
+      "source_words_sha256": "a16a857f934414730d20c82bb6df9abd931937f60be06cf6229211919f019acd",
+      "parts": [
+        "Why not?!"
+      ]
+    },
+    {
+      "offset": 55540,
+      "source_words_sha256": "142939494f8b1bf3e0a394a92eb169ac054d0d155486c73a30616d266d8c0e25",
+      "parts": [
+        "Fair demands aren't ",
+        "sleazy",
+        "!"
+      ]
+    },
+    {
+      "offset": 55588,
+      "source_words_sha256": "2c3a71b80b39392fb220bf8921273984eee42370f4e7dd5b00f711e3e6fdafbe",
+      "parts": [
+        "Sleazy",
+        "?!"
+      ]
+    },
+    {
+      "offset": 55612,
+      "source_words_sha256": "41fbf8c49ba91fd6364a3ad6c6189442132dca8e5a67b255dc88716b757f7be6",
+      "parts": [
+        "How much longer am I\nsupposed to work for free?!"
+      ]
+    },
+    {
+      "offset": 55664,
+      "source_words_sha256": "71ffd3c3010fbe41434fda10226348e1378bf188def32f94ab429bd4fd835daf",
+      "parts": [
+        "Call yourself a\n",
+        "boss?!"
+      ]
+    },
+    {
+      "offset": 55700,
+      "source_words_sha256": "6b33948e1c239e98a3b450fdd0692ea0a303c712fb44699de714bfb644360f72",
+      "parts": [
+        "It's not time for\nWataru Seken reruns, is it?"
+      ]
+    },
+    {
+      "offset": 55748,
+      "source_words_sha256": "9a298d8e67d2b1cbcb8df3420e2f85f20a2aef4d69807ece278d70524ddf1157",
+      "parts": [
+        "She has a point."
+      ]
+    },
+    {
+      "offset": 55772,
+      "source_words_sha256": "25559c93103e9998343d81c741cfa5d01a6f35741ad4aefcc41334b0759f6dda",
+      "parts": [
+        "We might be a little\ntoo out of touch\nwith the world..."
+      ]
+    },
+    {
+      "offset": 55836,
+      "source_words_sha256": "0148a065ea69d17afc1cf1cdc180b8055d2bd9ffc063da86124cce5e45ad3eee",
+      "parts": [
+        "How is that my fault?!"
+      ]
+    },
+    {
+      "offset": 55864,
+      "source_words_sha256": "876e166140500a906d47c617bf0cedc8a06db27701c10043cbbb3ab00b12e7ee",
+      "parts": [
+        "And it's ",
+        "Shinpachi",
+        "!"
+      ]
+    },
+    {
+      "offset": 55892,
+      "source_words_sha256": "83db08c123b51027312a0b1674392f40f21655335608dae6adbbcbbfc431f00f",
+      "parts": [
+        "Oh, ",
+        "Gin Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 55916,
+      "source_words_sha256": "58a24f6b1cee018ef6483e7fe0b21a0b0f4abb618f6a347d8ca19e95aef05d17",
+      "parts": [
+        "Gin Tama",
+        "? Everyone knows it."
+      ]
+    },
+    {
+      "offset": 55956,
+      "source_words_sha256": "063953c47bb44825aad92bf4a6c8604fedf2eef1dbe5d4f01b2ff6e89d5db218",
+      "parts": [
+        "You're just clueless."
+      ]
+    },
+    {
+      "offset": 55988,
+      "source_words_sha256": "aea75ccdd2b7b855f96614bc8036975cd7122541b75eba336507fd4ad8adc52d",
+      "parts": [
+        "Gin",
+        "! I said ",
+        "gin",
+        "!"
+      ]
+    },
+    {
+      "offset": 56016,
+      "source_words_sha256": "0895fe4c517bdb21c6e3982a805ef78d9a32901bd1b208f95423bf2e6b217049",
+      "parts": [
+        "Gold",
+        "..."
+      ]
+    },
+    {
+      "offset": 56036,
+      "source_words_sha256": "a15ecd2a80c32ef0a5617b6cfc96e3e00b96f40adea0067292246bad6d2c6099",
+      "parts": [
+        "Jump and Banpresto..."
+      ]
+    },
+    {
+      "offset": 56068,
+      "source_words_sha256": "4aa48f7c3c6c7a6484eb2fd0ac29ee38c626e5a9bd549fb8387df805a693ded9",
+      "parts": [
+        "...in a whole lot of trouble!"
+      ]
+    },
+    {
+      "offset": 56096,
+      "source_words_sha256": "cb52601e0f5f98f11636fdc49ace25194143af38ef1f06b1e5587f7943f2a58b",
+      "parts": [
+        "Oh! ",
+        "Here comes the part\nabout game mechanics."
+      ]
+    },
+    {
+      "offset": 56148,
+      "source_words_sha256": "e4cd4aecec0109dd5edf1330534d3f3b6fc636d00212c1599df4da74ad318c7e",
+      "parts": [
+        "We have to stop players\nfrom skipping this bit."
+      ]
+    },
+    {
+      "offset": 56192,
+      "source_words_sha256": "44f6e785b822944eb4bbf663346a9ad30af0d812dbc9d65d15e0872a837d6fe1",
+      "parts": [
+        "Keep it short and simple,\n",
+        "or they'll tune out..."
+      ]
+    },
+    {
+      "offset": 56264,
+      "source_words_sha256": "893bd01af868ed0358af19713742368fc45b2a9a019d77dd4463a60f54e34c54",
+      "parts": [
+        "Which is actually\n",
+        "pretty hard to do."
+      ]
+    },
+    {
+      "offset": 56312,
+      "source_words_sha256": "32c6f0f1095f8495102afabc6cf8d8dd4cda1d45081050c02df26b39a55f557a",
+      "parts": [
+        "All right, ",
+        "here goes!"
+      ]
+    },
+    {
+      "offset": 56340,
+      "source_words_sha256": "778397e7705e115e0b804b4348127839ceb546d289672d33844647378b5f2a9a",
+      "parts": [
+        "Edo's curtain rises!\nStand by to duel!!"
+      ]
+    },
+    {
+      "offset": 56396,
+      "source_words_sha256": "7208491ebfb9277b808b89d6876fdd932d1286da837cede51fcaa0b278a06889",
+      "parts": [
+        "Gin Tama are the hottest\nnew craze in Edo!"
+      ]
+    },
+    {
+      "offset": 56448,
+      "source_words_sha256": "084795bdc17db444893ce291a2d44a1b78ebf967cba6038f48e7cdd9276c07de",
+      "parts": [
+        "And Gin Tama battles\nare ",
+        "on fire!!"
+      ]
+    },
+    {
+      "offset": 56492,
+      "source_words_sha256": "de9f630fd9d3a405498fd705b65005ac56b0838713c25306f7cf2a57ebd12d93",
+      "parts": [
+        "There are an incredible\nnumber of different kinds."
+      ]
+    },
+    {
+      "offset": 56544,
+      "source_words_sha256": "a113eb772275a8eb1e6e197e856572f0713497cd607c93b820d57a2e1795f2e6",
+      "parts": [
+        "Once you start,\nyou can't quit.\n",
+        "You can't stop!!"
+      ]
+    },
+    {
+      "offset": 56596,
+      "source_words_sha256": "1faf7728c9daca017457ba2a578e43a49f8273af418b5510e5e7d6d330cdb026",
+      "parts": [
+        "They're hip! They're trendy!\nThey're miracle goods!!"
+      ]
+    },
+    {
+      "offset": 56652,
+      "source_words_sha256": "efefaf9945aedd1919066a9606152e95d4863eab2b3c0b40cab73f9c8779d32b",
+      "parts": [
+        "You don't get it, Gin."
+      ]
+    },
+    {
+      "offset": 56684,
+      "source_words_sha256": "eb2af9eef7ffe74cd18ca70cd48b2cc81333e23d2d4ad797ee6b11ab2a1e08ac",
+      "parts": [
+        "That's the collector's\nspirit, isn't it?"
+      ]
+    },
+    {
+      "offset": 56732,
+      "source_words_sha256": "6b542df630f177eb226c5767613794158e72f647b218c6c3d2578d537c3568e4",
+      "parts": [
+        "My heart's for\n",
+        "Otsu-chan",
+        " alone."
+      ]
+    },
+    {
+      "offset": 56776,
+      "source_words_sha256": "5ef4cebf22215acbd07536f43eaa0f875a22c299f27d572c605ffaf10d67d3ed",
+      "parts": [
+        "I couldn't care less\nabout those toys, anyway."
+      ]
+    },
+    {
+      "offset": 56832,
+      "source_words_sha256": "b1d3f5bf93b5f3b3c405af12a8c569cc010e02411051cc22e9403d68d5583380",
+      "parts": [
+        "W-w-what did you say?!"
+      ]
+    },
+    {
+      "offset": 56860,
+      "source_words_sha256": "d5c131f3388c0dd2a30d47a148e2c027049bb59b35d1b4d4223268afb3ea359a",
+      "parts": [
+        "My goddess!\nOtsu-chan herself!"
+      ]
+    },
+    {
+      "offset": 56896,
+      "source_words_sha256": "1b86c910280d049cdea4c62d313ac2a598553cc3e1aaa4de4e34302569689e7a",
+      "parts": [
+        "Gwaaah!"
+      ]
+    },
+    {
+      "offset": 56916,
+      "source_words_sha256": "12039877448269ec46d015abe33e8959e0aa28b676383ced43ccee52c1e1333b",
+      "parts": [
+        "Nwooooh!"
+      ]
+    },
+    {
+      "offset": 56936,
+      "source_words_sha256": "2d913def2e332be3a87827f75a1b4108358dc99192d15d219da6344fd5e50251",
+      "parts": [
+        "Hogeeeh!"
+      ]
+    },
+    {
+      "offset": 56956,
+      "source_words_sha256": "bbc64feaced3a918906b603c886897e2fa22d251b9042f30db76232816f60c73",
+      "parts": [
+        "I... ",
+        "I... ",
+        "failed!\nI'm behind!\nUnfit to be captain!"
+      ]
+    },
+    {
+      "offset": 57016,
+      "source_words_sha256": "84d865caffb8c958cae9a879deaa1c3ca89a04f89db8e9d35e8ae4fe9945924e",
+      "parts": [
+        "Gin!"
+      ]
+    },
+    {
+      "offset": 57032,
+      "source_words_sha256": "3ff71edb3f722a37b01639aecc25f7a353c0dea46c1fadcb24cd34703fcfe481",
+      "parts": [
+        "Gin Tama",
+        "! Let's get some!"
+      ]
+    },
+    {
+      "offset": 57064,
+      "source_words_sha256": "57d70f098f6c877cb87355a8234849c218f200ecf377efa598bbe7fcd732f4b9",
+      "parts": [
+        "Let's start right away!!"
+      ]
+    },
+    {
+      "offset": 57092,
+      "source_words_sha256": "e1e5ee6fb6d90b56daef7d1e034a895561a9729b1484690a062f5daf0623423c",
+      "parts": [
+        "Let's start right NOW!!!"
+      ]
+    },
+    {
+      "offset": 57120,
+      "source_words_sha256": "335c7a7a1220ecd573cbff5b2e6dbe62a6b37e15b0583717934152d83064b9e0",
+      "parts": [
+        "What do you mean,\n\"too much hassle\"?!"
+      ]
+    },
+    {
+      "offset": 57160,
+      "source_words_sha256": "148254b6a6821b8d21de0a30d2705b6365ffa754d51e4a60585fd14c497eba94",
+      "parts": [
+        "Gin Tama",
+        "! We'll get them\nfor Otsu-chan!"
+      ]
+    },
+    {
+      "offset": 57216,
+      "source_words_sha256": "bc1070c705a0c8ee1e0d4f7ea8d78e4189f900025ce695256f3997632541dd20",
+      "parts": [
+        "As fan-club captain,\nit's my..."
+      ]
+    },
+    {
+      "offset": 57252,
+      "source_words_sha256": "01dc11ceea657c46898d4bfdca4707c00720b018dac069efca6805dc3994b55e",
+      "parts": [
+        "Duty! My duty!"
+      ]
+    },
+    {
+      "offset": 57276,
+      "source_words_sha256": "4946afc0861eaa5f34bb8690c29a6424eaca62aaf4b45c23291ba156699ee5ad",
+      "parts": [
+        "You employ the captain!\nWe're in this together!"
+      ]
+    },
+    {
+      "offset": 57328,
+      "source_words_sha256": "1cf0c884acfdd447f759fea94f5409bcb3210e28ea2155f3bb1c815c0adbe17e",
+      "parts": [
+        "You're my employer!\nWe're in this together!"
+      ]
+    },
+    {
+      "offset": 57376,
+      "source_words_sha256": "73b8d95ae8a3896c2ae0a9e6e8e6ad48cdf8cb6f11f3cd35221587e86f3bbc61",
+      "parts": [
+        "You heartless,\ndead-eyed perm-head!"
+      ]
+    },
+    {
+      "offset": 57420,
+      "source_words_sha256": "152636c11026cf3f5bfae96a7eae352bbf3eaba9f48009209fe3050cbb72b7fc",
+      "parts": [
+        "Fine! I won't ask\nfor your help again."
+      ]
+    },
+    {
+      "offset": 57456,
+      "source_words_sha256": "cf55cad4e7d7b7b258a856d755e1ae311f45efe6c51a65c8f43c42a84e16936d",
+      "parts": [
+        "I'll collect ",
+        "Gin Tama",
+        "\non my own!"
+      ]
+    },
+    {
+      "offset": 57496,
+      "source_words_sha256": "7e03f177db7892bd89f24d30ac2fedf2f47d0e615441011095a2cb3a337e647a",
+      "parts": [
+        "Don't come begging\nfor any later!"
+      ]
+    },
+    {
+      "offset": 57540,
+      "source_words_sha256": "dd3f7d17e48d9a12d89a5d4efde96a3a97c0d5a79a1d08a14bec21aa7f567236",
+      "parts": [
+        "Wait for me, Otsu-chan!"
+      ]
+    },
+    {
+      "offset": 57576,
+      "source_words_sha256": "a3176bbf7cd4167cb0939a4551dfe90604442c18790ab21fe6d9a3f60113a610",
+      "parts": [
+        "I'll give you a whole\nwarehouse full of ",
+        "Gin Tama",
+        "!"
+      ]
+    },
+    {
+      "offset": 57636,
+      "source_words_sha256": "8c7da8b3c86fcdea14f3cadbf1d74cef98150fbb2679d575e8bcf40460bce3ee",
+      "parts": [
+        "You should tell him off some more."
+      ]
+    },
+    {
+      "offset": 57680,
+      "source_words_sha256": "eb0e6880879eb555dd9adc2bc53c97cc1e75d6c7f3689352afd50ed26f4844e7",
+      "parts": [
+        "Go easy on him and he'll never learn."
+      ]
+    },
+    {
+      "offset": 57720,
+      "source_words_sha256": "a296b5cd4da53c8f8e1aa8388d406307e98edcbc08d770dd88ec821c56a0bbdf",
+      "parts": [
+        "They're all the rage in Edo now."
+      ]
+    },
+    {
+      "offset": 57760,
+      "source_words_sha256": "4f237a624981928e21ef1878593f342bcfe31a8ceab78e6cee713cf9e0792de1",
+      "parts": [
+        "Even Sakata, the useless,\nfreeloading blockhead..."
+      ]
+    },
+    {
+      "offset": 57820,
+      "source_words_sha256": "174f08391b117eed25af8ac7c06eabe5da822a1dc761bcbb8db1c87aaf62d8f1",
+      "parts": [
+        "About those ",
+        "gold rare orbs",
+        "..."
+      ]
+    },
+    {
+      "offset": 57872,
+      "source_words_sha256": "568c35ed4e309c7edb35236adf385cdefddb376f92b9a5fd9731e20c1fe42259",
+      "parts": [
+        "I've heard an interesting rumour."
+      ]
+    },
+    {
+      "offset": 57908,
+      "source_words_sha256": "d30b5db0400bc2c1d11bb65337a151074274109b083e7162e6e6d23d5b7f4ce9",
+      "parts": [
+        "Yes, those ",
+        "Dragon Tama",
+        ". You need ",
+        "seven",
+        ", I think..."
+      ]
+    },
+    {
+      "offset": 57984,
+      "source_words_sha256": "efef980dcc4952b9e54b8aab79962d22c75027b1d135f56e127b26f28ab4016c",
+      "parts": [
+        "Gather them and pray,\nand any wish will come true..."
+      ]
+    },
+    {
+      "offset": 58056,
+      "source_words_sha256": "c9428eb389055f31eeebc0dd356b5c0c3ebc99dca2e9f34d5ea956400a32e475",
+      "parts": [
+        "That describes you perfectly."
+      ]
+    },
+    {
+      "offset": 58088,
+      "source_words_sha256": "9c2381c34530bd55cddf9c6ea1036defcfb64ed949a786b7fa3ae9d77705dea6",
+      "parts": [
+        "But, Otose..."
+      ]
+    },
+    {
+      "offset": 58112,
+      "source_words_sha256": "187bcbc1ffb48aa27cdba11d4520647197d16ea80dfea8fbd405fd1e9c100b6d",
+      "parts": [
+        "Someone supposedly won\nthe lottery after collecting seven."
+      ]
+    },
+    {
+      "offset": 58176,
+      "source_words_sha256": "f219b66d0447fa3ca897cb23191bbd3df8f3980d1816ccd283468b0925b56e76",
+      "parts": [
+        "Well, they may have won...\nor they may not have..."
+      ]
+    },
+    {
+      "offset": 58236,
+      "source_words_sha256": "8431276c8e7b4e5d760a05fd7f22b17ad8b3d5294d5bd11bddc76d53bc7d471a",
+      "parts": [
+        "I know that!\nDon't mock me, perm-head!"
+      ]
+    },
+    {
+      "offset": 58296,
+      "source_words_sha256": "eebab2f4ac3859f1a26217f66d3eccc460e757c8b4f26b36be1179f0b1d85b68",
+      "parts": [
+        "A friend's ",
+        "relative's neighbour's ",
+        "second son's teacher's ",
+        "ex-wife told me."
+      ]
+    },
+    {
+      "offset": 58372,
+      "source_words_sha256": "92536754cf124897991819ee9331e048e71a38b23dac97ad50d5e49f56a5081e",
+      "parts": [
+        "So it's probably reliable."
+      ]
+    },
+    {
+      "offset": 58404,
+      "source_words_sha256": "8635c24794c2078b3d5133edb5708e1d52479ee97532a0b21442b47c4d1812a1",
+      "parts": [
+        "Sakata, have you ever\nseen a real Gin Tama?"
+      ]
+    },
+    {
+      "offset": 58460,
+      "source_words_sha256": "018c34f7c2051e8481fbd213a69f40bda5827eebafcc4383d794e4412ac8b129",
+      "parts": [
+        "How will you find something\nyou've never even seen?"
+      ]
+    },
+    {
+      "offset": 58512,
+      "source_words_sha256": "65c997db6cbe87cda0ad3335eec932a675b07f9188168b150331b983d3a6b6f7",
+      "parts": [
+        "Mayor of Carefree Town?"
+      ]
+    },
+    {
+      "offset": 58548,
+      "source_words_sha256": "fc79bc6802245ba887e97b3b447b9398cfe50d986735ff511eff13e330a09602",
+      "parts": [
+        "Here. Take this with you."
+      ]
+    },
+    {
+      "offset": 58588,
+      "source_words_sha256": "36862b59b9ba3fa0a367146c6e47ee60cea1a17abdbf9fce8bca2c452139e21b",
+      "parts": [
+        "A customer left it behind."
+      ]
+    },
+    {
+      "offset": 58616,
+      "source_words_sha256": "0f3d0aa4d43907a8554a47f40c0a0c5758a44b5ce2faba17f6cdb5dadb076209",
+      "parts": [
+        "Don't make me sound like a crook!"
+      ]
+    },
+    {
+      "offset": 58656,
+      "source_words_sha256": "94ca7965133e321140d3af65af84f8db0baaa85eb1c37894fa2ac3ef856c2fb5",
+      "parts": [
+        "I find things. I don't steal them."
+      ]
+    },
+    {
+      "offset": 58696,
+      "source_words_sha256": "61cdfa48d534ed893177c82b7eef81340e95c45cd8868364db8d8b39b0151456",
+      "parts": [
+        "Who said it was free,\nyou blockhead?"
+      ]
+    },
+    {
+      "offset": 58744,
+      "source_words_sha256": "828a80933a989bb5e0bb7c8b0db19b116d10f7df02b77aa027928614a90e9b0a",
+      "parts": [
+        "I know."
+      ]
+    },
+    {
+      "offset": 58760,
+      "source_words_sha256": "18e3a0dc1bd9c71eefcf286b8b8f2f03bdbc2ee2cc9df3fa8f57b39d9d97c07d",
+      "parts": [
+        "If those rare orbs make you rich,\nI want my cut."
+      ]
+    },
+    {
+      "offset": 58820,
+      "source_words_sha256": "f7b01ade12605e01fddb8855e9803816f13776c9727edd2723ec0e9ddfae48c4",
+      "parts": [
+        "Even he knows that much."
+      ]
+    },
+    {
+      "offset": 58856,
+      "source_words_sha256": "512601e15841cc44ce5d0c9647f94ed114566195276a20f572d1b97581cee8cb",
+      "parts": [
+        "Gah! ",
+        "Old hag! ",
+        "When did you get in?!\nThat's trespassing!"
+      ]
+    },
+    {
+      "offset": 58916,
+      "source_words_sha256": "1cdc46823ab499a4997c84ca89667c86632554fca23d36243f70a1268c41a138",
+      "parts": [
+        "Well, sure, but..."
+      ]
+    },
+    {
+      "offset": 58952,
+      "source_words_sha256": "5e1d51a5273123f639a535ced55ab88d3b6755eda58ba2c7f77580dc0d51f27b",
+      "parts": [
+        "Come on, Granny.\nSpare a starving man a meal?"
+      ]
+    },
+    {
+      "offset": 59020,
+      "source_words_sha256": "dff58872cf534ef9c914251e41abdb99de96e4b4f4b4ddedc79aa0cbb4a5ead7",
+      "parts": [
+        "A landlady's like a mother.\nA tenant's like her child."
+      ]
+    },
+    {
+      "offset": 59068,
+      "source_words_sha256": "9e7a90b7f0c726427849d3db3848453d8f1c28ba252728a0bdfedb4e8e052e11",
+      "parts": [
+        "And your poor child's crying\nfrom hunger here!"
+      ]
+    },
+    {
+      "offset": 59116,
+      "source_words_sha256": "62cf7ef133b5dc8a0b11e920cdca6f326faf56f88387fea8b926500327f46679",
+      "parts": [
+        "What a cruel world..."
+      ]
+    },
+    {
+      "offset": 59148,
+      "source_words_sha256": "5b5cd9bb10b30ff95bdfb23b8d64036535a37b051f4cbe54706d6d3f68230f47",
+      "parts": [
+        "Forget silver orbs.\nI want silver and gold coins..."
+      ]
+    },
+    {
+      "offset": 59216,
+      "source_words_sha256": "c98e6e367cfbf431e962a4920a43b5e242b40f497a1530981b72de067c2127fc",
+      "parts": [
+        "Huh. So those Gin Tama\nreally are that famous?"
+      ]
+    },
+    {
+      "offset": 59280,
+      "source_words_sha256": "c0a612b751f7113479efaa76c2d226b3c8129bf6f3ac36919c91918a944173b2",
+      "parts": [
+        "Hey, watch your mouth!\nThere's a kid here! A ",
+        "kid!"
+      ]
+    },
+    {
+      "offset": 59348,
+      "source_words_sha256": "df833a097196a6c31c0e8b899becee4343bb01158762b2d251d21e1c428cbf09",
+      "parts": [
+        "Hey! ",
+        "Cat-ears, dirty jokes too?!"
+      ]
+    },
+    {
+      "offset": 59396,
+      "source_words_sha256": "92c61e99eca6be127b87795603a0975329d1fba29ddcc6cc50696afc896e965d",
+      "parts": [
+        "Still green, Kagura."
+      ]
+    },
+    {
+      "offset": 59424,
+      "source_words_sha256": "95e7add7ef21e3fa511a8ba47a47dadfd45ee3ccbfb444f46e55c6d1e3920d08",
+      "parts": [
+        "Repetition is comedy."
+      ]
+    },
+    {
+      "offset": 59456,
+      "source_words_sha256": "39f57e8f74dc4efc268a3927fa509179225742dab0fb3ce38c4d055a6b0b15e8",
+      "parts": [
+        "What is this, ",
+        "Dragon Ball?"
+      ]
+    },
+    {
+      "offset": 59488,
+      "source_words_sha256": "6259bb1a8e1c88a653eac231cf3a4cc8f7158efb36d65fa8171d871faf23673a",
+      "parts": [
+        "What?! ",
+        "Really? ",
+        "Seriously?!"
+      ]
+    },
+    {
+      "offset": 59532,
+      "source_words_sha256": "e33e98191b5a7160528c0bfb5ca05017d22876d79bfea7fc0da646a1a1d8da68",
+      "parts": [
+        "They actually won the lottery?!\nFor real?!"
+      ]
+    },
+    {
+      "offset": 59580,
+      "source_words_sha256": "d6f6f4400bff5f0f88819c1a49f1485f141ae3bd39874d408d4c6949d9d84353",
+      "parts": [
+        "Do you know who it was?"
+      ]
+    },
+    {
+      "offset": 59616,
+      "source_words_sha256": "4948aaa2a55adcefc0a6a340fecc381af0f83ff37d638ce744a968c106d29f2c",
+      "parts": [
+        "...I see. ",
+        "Now I get it! ",
+        "Collect seven Dragon Tama..."
+      ]
+    },
+    {
+      "offset": 59696,
+      "source_words_sha256": "be62fc327846a055198168cffeab144f858e78e419769cf5921a7ca9e7a3f8e3",
+      "parts": [
+        "Collect orbs...\nand you can get filthy rich?!"
+      ]
+    },
+    {
+      "offset": 59760,
+      "source_words_sha256": "8c2253958f79ab7dac17dad6dda264e7d629614b974ec361f846cbe8b390fcb8",
+      "parts": [
+        "Kagura! ",
+        "We're going!"
+      ]
+    },
+    {
+      "offset": 59784,
+      "source_words_sha256": "a78b3301b4bef4aa8a62176f58b509d3dee27c0471798813c0dbae8926b5005a",
+      "parts": [
+        "Gin Tama",
+        "... no, ",
+        "rare Dragon Tama",
+        "!"
+      ]
+    },
+    {
+      "offset": 59840,
+      "source_words_sha256": "c9faa5e5e3084b309f6d3cd12101004077874f625783d66864c1c83790f8cd25",
+      "parts": [
+        "I'm not letting a chance\nto get rich slip away!"
+      ]
+    },
+    {
+      "offset": 59892,
+      "source_words_sha256": "f92b572c332e7d8955c93b55d5df2dd1d7766ecdbce495c650679376429a7f05",
+      "parts": [
+        "Believe and be saved!"
+      ]
+    },
+    {
+      "offset": 59924,
+      "source_words_sha256": "3c9bc5f99f9d8d10723d3c94430a1c568ede8172956d03476aa044c626ada932",
+      "parts": [
+        "Nonbelievers get nothing.\nExcept maybe a lonely death\nin a ditch."
+      ]
+    },
+    {
+      "offset": 59992,
+      "source_words_sha256": "c922e7917800382c3eef516a0085371caf5fe9534bc3c1c831dcf3f2b1c4f31b",
+      "parts": [
+        "Help me, Kagura! ",
+        "Once I'm rich... ",
+        "I know! ",
+        "I'll buy you pickled kelp!"
+      ]
+    },
+    {
+      "offset": 60080,
+      "source_words_sha256": "481f909c83d51707600d55123228691ad2cd37c9bfefdd95f7a06bbb8c1b3011",
+      "parts": [
+        "Enough to make you puke!\n",
+        "A lifetime supply of pickled kelp!"
+      ]
+    },
+    {
+      "offset": 60148,
+      "source_words_sha256": "a2d3444323b418e699ecaaed2ded3ae0e775df71178392575099f460e45206b0",
+      "parts": [
+        "Don't be so stingy, ",
+        "you old hag!"
+      ]
+    },
+    {
+      "offset": 60208,
+      "source_words_sha256": "03cf5f2a60dff56f931e055a820987586a21883696ba4196365cc8247a8e511f",
+      "parts": [
+        "Forget the back rent!\nI'll pay ten years in advance!"
+      ]
+    },
+    {
+      "offset": 60284,
+      "source_words_sha256": "bf5ab384f08f4c1278291d2cee4b9666098f08faefe0be9d4867bad9e1f3e33a",
+      "parts": [
+        "No time to waste!\nCome on, Kagura!"
+      ]
+    },
+    {
+      "offset": 60320,
+      "source_words_sha256": "16f5a1b70533bf956af194cb31a94a666a67ede27908fc68f3a9a0afcd81838d",
+      "parts": [
+        "No. ",
+        "I only just heard about them."
+      ]
+    },
+    {
+      "offset": 60364,
+      "source_words_sha256": "bc83fa01eb90d63c179df551a64d985752282ef0b8649d41397f271d14700bf7",
+      "parts": [
+        "...Yeah, fair point."
+      ]
+    },
+    {
+      "offset": 60396,
+      "source_words_sha256": "cf32c3a88053ef76d6295aec64c3a5678555bd695043d6e85228f9ff869a4e39",
+      "parts": [
+        "Huh? ",
+        "What's this?"
+      ]
+    },
+    {
+      "offset": 60424,
+      "source_words_sha256": "11e8956b521490d74cc200a097e8ba927ef1f07615e27a2f1006a873d205c2b4",
+      "parts": [
+        "Wait... is this one of those orbs?!"
+      ]
+    },
+    {
+      "offset": 60468,
+      "source_words_sha256": "5c0338ed564fc2279ee778dfbb8ee312a87ae12a2e65b58bb1e74ff7d3186145",
+      "parts": [
+        "Still got those sticky fingers, huh?"
+      ]
+    },
+    {
+      "offset": 60508,
+      "source_words_sha256": "7705ddc12f2724737ca54e6637702f1dc14fa073d66c2ea0cb4d5b44a60eff3c",
+      "parts": [
+        "Well, I can't exactly find one\nwithout a sample."
+      ]
+    },
+    {
+      "offset": 60564,
+      "source_words_sha256": "863273f0e14900e1a6dc4e4a19e682e35fcca541daccffb0f7456e4670cd8c57",
+      "parts": [
+        "Thanks. I'll take it."
+      ]
+    },
+    {
+      "offset": 60592,
+      "source_words_sha256": "69211e883b1bd3dd715318a623674211c5ef84e71ddd43468eebc509e343904e",
+      "parts": [
+        "What? I've got no money."
+      ]
+    },
+    {
+      "offset": 60620,
+      "source_words_sha256": "0e71349ffc7c4ea1e3bd93b830bcf55c360559d975f44aad283801dc7ce2facd",
+      "parts": [
+        "Fine. If I get rich,\nI'll treat you to plain udon!"
+      ]
+    },
+    {
+      "offset": 60684,
+      "source_words_sha256": "749dab3c3f0ee5191e1e766276cd8b3b72e7093037e67678b24e3e3d32f3b7c7",
+      "parts": [
+        "We're off, ",
+        "Granny! Catherine!"
+      ]
+    },
+    {
+      "offset": 60732,
+      "source_words_sha256": "e0f7192b7ed4f7d533c7a7473ab0de9552587342d7a50d4c1234118c3ab96e1a",
+      "parts": [
+        "Look forward to rent and udon!"
+      ]
+    },
+    {
+      "offset": 60772,
+      "source_words_sha256": "3c1fcd6a92232ec376844f084bf91b526debfe7918aef303a98503e94f7bf57e",
+      "parts": [
+        "A lesson from that greedy hag..."
+      ]
+    },
+    {
+      "offset": 60820,
+      "source_words_sha256": "3806aaf3b1587f59dd4341f2a0b11c54a771eb2e045baf979b87209d8034d6d9",
+      "parts": [
+        "...Yes, ma'am."
+      ]
+    },
+    {
+      "offset": 60844,
+      "source_words_sha256": "7bd70083793385a6fbb46205c61593f0c23ae8bc3f9eec494cb36f314192122e",
+      "parts": [
+        "Yeah, I know. ",
+        "Don't worry."
+      ]
+    },
+    {
+      "offset": 60888,
+      "source_words_sha256": "2d555f995b345f8d4d8f7befb5e751d6c0fbfdf56e605c1565ca0b2d0b84d48c",
+      "parts": [
+        "Fair point."
+      ]
+    },
+    {
+      "offset": 60904,
+      "source_words_sha256": "78efcc0e20c03f748176a9fcc865475ec62ed256716785cf5aa431b2b603b3d8",
+      "parts": [
+        "Nice one, Granny!\nAll those years weren't wasted!"
+      ]
+    },
+    {
+      "offset": 60980,
+      "source_words_sha256": "b3d7b62609cc3e31378111103775255a83e867a1c2d507ab2fbab13e6d993413",
+      "parts": [
+        "Rare",
+        "?"
+      ]
+    },
+    {
+      "offset": 61000,
+      "source_words_sha256": "ae20eda6c0404e62a8fe552b19a407f03a1fd3d755f4e16d32bd3b5443d01024",
+      "parts": [
+        "Gin-chan already made\nthat joke earlier..."
+      ]
+    },
+    {
+      "offset": 61060,
+      "source_words_sha256": "91f204e278b224da985ace7833467f29ded7877ce5980c885781a5dce03aa15d",
+      "parts": [
+        "Gin-chan, you're overdoing it."
+      ]
+    },
+    {
+      "offset": 61100,
+      "source_words_sha256": "28533ca2d52994ab368a577667593e5037ff7e1e639dccb2561694484457f7de",
+      "parts": [
+        "It's obviously a hoax.\nAn urban legend."
+      ]
+    },
+    {
+      "offset": 61156,
+      "source_words_sha256": "1d1bff8f3234b2a5e49e179a8a2a29c6b4acfa1d949833a020301fcd5bf878d7",
+      "parts": [
+        "Only idiots and desperate\npoor people would believe that."
+      ]
+    },
+    {
+      "offset": 61208,
+      "source_words_sha256": "24097fc4a3cfc67d26efa7500fb14f92ec31e442e702de1bbabd4abb91be8faf",
+      "parts": [
+        "How?! ",
+        "Is your head all right?"
+      ]
+    },
+    {
+      "offset": 61248,
+      "source_words_sha256": "d1c6af948f2839b26fd87d9f92c69c2ad26267813c2fc4ba04de3b194c9d4214",
+      "parts": [
+        "Gin-chan, what's wrong?\nYour eyes are scary."
+      ]
+    },
+    {
+      "offset": 61296,
+      "source_words_sha256": "aeb6900cb223d182d89da149f817e246ce6ec36f836d9cda4a4de17b5e8b6f54",
+      "parts": [
+        "D-did you actually believe it...?!"
+      ]
+    },
+    {
+      "offset": 61336,
+      "source_words_sha256": "7f792fe7f158e39df529d85ba92384d0e0dc8947f537926ea1516f8bd4eb1fe7",
+      "parts": [
+        "Going? Going where?"
+      ]
+    },
+    {
+      "offset": 61364,
+      "source_words_sha256": "1de9357376ab90c9372ea600003b21b840e7d31fb05fa1936e451649706b43f2",
+      "parts": [
+        "He really did believe it."
+      ]
+    },
+    {
+      "offset": 61392,
+      "source_words_sha256": "34c108198d0b31cf458b63a145cae0e242c1469769a2fa0a30b88dbb8a22facb",
+      "parts": [
+        "Really?!"
+      ]
+    },
+    {
+      "offset": 61412,
+      "source_words_sha256": "25d585aad36b073372a5d4a8f06430cc41f6fbd0a6142fa090fba8e727d8bf6d",
+      "parts": [
+        "With that much money,\nbuying our own building is smarter."
+      ]
+    },
+    {
+      "offset": 61468,
+      "source_words_sha256": "da52516fd0c97d79f373c55dff9de88ee748654efd4edf18ee38d37d17e079e7",
+      "parts": [
+        "That's pocketing lost property."
+      ]
+    },
+    {
+      "offset": 61512,
+      "source_words_sha256": "84f759e017e678b6eba063c68978a005a5075d42e3e8ec38a16c1ac57a75bd87",
+      "parts": [
+        "Gin-chan! ",
+        "Granny's blinded by greed!\nNow's our chance!"
+      ]
+    },
+    {
+      "offset": 61584,
+      "source_words_sha256": "0f86d7cc21354d23c4a74679452bf1d083425e603d27f9fdef99810cf480836b",
+      "parts": [
+        "We can get a free lesson!"
+      ]
+    },
+    {
+      "offset": 61624,
+      "source_words_sha256": "2676de46311094385116f3d5d520d8b365177ff14c872ed1f6f5d9fad6844817",
+      "parts": [
+        "No meals for freeloaders!"
+      ]
+    },
+    {
+      "offset": 61664,
+      "source_words_sha256": "d3a3204cbe711da1b5ebe5f429bf5ba80ea6684f1759bb05cdda4eace02806ed",
+      "parts": [
+        "No rent, no family!"
+      ]
+    },
+    {
+      "offset": 61696,
+      "source_words_sha256": "5f3124e057ca3f0bdc7e9d634027c25a41efbaa8b83e1238319d8fdbb99287cf",
+      "parts": [
+        "Even you, the king of clueless,\nhave heard of Gin Tama?"
+      ]
+    },
+    {
+      "offset": 61780,
+      "source_words_sha256": "c101626b9a35006d61469608f7e83b647194a73b8bf8dc9ffeff534e62765f87",
+      "parts": [
+        "My customers..."
+      ]
+    },
+    {
+      "offset": 61804,
+      "source_words_sha256": "0f8f530628edd93882a0a6c5791f58564c66ecd43cb9661697edb2e16894c9ee",
+      "parts": [
+        "They bring in their orbs\nand trade with each other."
+      ]
+    },
+    {
+      "offset": 61864,
+      "source_words_sha256": "a2287d4a8deabab9f9ffc31e732cc8de594c4f328b93341a6dd4724ee9918737",
+      "parts": [
+        "Besides the ordinary ones,\nthere are ",
+        "rare orbs",
+        " worth a lot."
+      ]
+    },
+    {
+      "offset": 61940,
+      "source_words_sha256": "5a060b310b9629ec35c859a9f940bebda5b93063395f3b8a5ebfd805f61742b9",
+      "parts": [
+        "Yes, they're hard to find.\n",
+        "Now, ",
+        "what were they called...?"
+      ]
+    },
+    {
+      "offset": 62024,
+      "source_words_sha256": "8295ff7c00f3c7d2d9caff2740531307087934c783c1f6ced1210dd1368506fc",
+      "parts": [
+        "Oh, right. ",
+        "Dragon Tama",
+        ", those ",
+        "gold rare orbs",
+        "."
+      ]
+    },
+    {
+      "offset": 62088,
+      "source_words_sha256": "3cbf6b296510b3478dbfcd5120aefef9c3b967c75f10068559d8b57404a07da9",
+      "parts": [
+        "Rumour? What sort, ",
+        "Catherine?"
+      ]
+    },
+    {
+      "offset": 62144,
+      "source_words_sha256": "99cc594188159c2a0e5b9d72d258580259656af0d4f6b2da00a352748216816c",
+      "parts": [
+        "Sounds like some dodgy\nnew religious cult to me."
+      ]
+    },
+    {
+      "offset": 62192,
+      "source_words_sha256": "c5fb61d7fc2407bd3512d6446fe8aa2c6ca6702827f6f9e88d5908b8d2a2319b",
+      "parts": [
+        "Rent before kelp!"
+      ]
+    },
+    {
+      "offset": 62228,
+      "source_words_sha256": "aa15810dd197ddcee7f3b41fc540d9b6f2663417ac379d94abf6ebc266c6b51f",
+      "parts": [
+        "Well, aren't you fired up?"
+      ]
+    },
+    {
+      "offset": 62276,
+      "source_words_sha256": "59f113699c53dd82c8d0daff20c3e2bad2c40c420aa56b34920076a761679fd2",
+      "parts": [
+        "But you're a complete beginner\nwhen it comes to Gin Tama battles."
+      ]
+    },
+    {
+      "offset": 62336,
+      "source_words_sha256": "a1317145fd72ea5964d13f0bad20e0103d27a163ba42f45572cdc02a382ebea5",
+      "parts": [
+        "Go in knowing nothing,\nand you'll just get flattened."
+      ]
+    },
+    {
+      "offset": 62396,
+      "source_words_sha256": "2e6d37ad838c6aa2cf6f72fd34a3c03bfd17d6bba84632f2c75ab11a011b47d7",
+      "parts": [
+        "Since you're finally motivated..."
+      ]
+    },
+    {
+      "offset": 62432,
+      "source_words_sha256": "051687013925bb4ca90bfade11c5268d2a9167377c1b778e8640488401219ed4",
+      "parts": [
+        "And I do need that rent...\nI'll teach you the basics."
+      ]
+    },
+    {
+      "offset": 62508,
+      "source_words_sha256": "7b8831cb7bd3ed1acfd475f9b3a0a4067edc6c93613141cdbae862f6bb83ab10",
+      "parts": [
+        "I'm mostly doing this\nout of kindness!"
+      ]
+    },
+    {
+      "offset": 62548,
+      "source_words_sha256": "2976694016b9f3288b573e03a144d10708b1d901f85c6abc610a05f29159991e",
+      "parts": [
+        "So shut up and listen, ",
+        "you ",
+        "little punk!!"
+      ]
+    },
+    {
+      "offset": 62604,
+      "source_words_sha256": "06ec81dbb925b93f9a8ceabe41b4b61be4f2730c405046f6d2668ea6c7dbeff2",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 62636,
+      "source_words_sha256": "6911a3d6140afaf06ca4ece55d5d5df3241d2e758a8abe7d9a271c30dc9c74c4",
+      "parts": [
+        "What? ",
+        "So sure of yourself..."
+      ]
+    },
+    {
+      "offset": 62684,
+      "source_words_sha256": "7c967bed99917e7656734e520c0f64f1e30308022e44822d2ffb58502b6efbc5",
+      "parts": [
+        "Is my explanation\njust meddling, then?"
+      ]
+    },
+    {
+      "offset": 62728,
+      "source_words_sha256": "bd5eff57ebb933c13715d33f15055c78d0ce2c28eb49b652d51109f0373eee84",
+      "parts": [
+        "Oh, is that so? My mistake."
+      ]
+    },
+    {
+      "offset": 62764,
+      "source_words_sha256": "d996b07f569b43baeee3caf224ec863dad5cb11686d2d35792f287380bdf380e",
+      "parts": [
+        "Just don't get too full\nof yourself."
+      ]
+    },
+    {
+      "offset": 62812,
+      "source_words_sha256": "f9384caa061daed470eafa79470ddde64f746f6ece5597fc9df9fc791087aa2b",
+      "parts": [
+        "Well, now...\nNot bad at all."
+      ]
+    },
+    {
+      "offset": 62856,
+      "source_words_sha256": "5760e2855173d089a7a5b4cd1fb7d7e31c7ee5391326fa3b02b8153e1f020c39",
+      "parts": [
+        "You shouldn't have trouble\nwith the local crowd."
+      ]
+    },
+    {
+      "offset": 62916,
+      "source_words_sha256": "7152fd2aacec39657b48f8b43478a49354475dce8dfe57c7357d4f42c8ca1163",
+      "parts": [
+        "Not that I could picture\nyou losing a war of words..."
+      ]
+    },
+    {
+      "offset": 62976,
+      "source_words_sha256": "4e36b4ec03ce3c319cc9ba67999e76eb9db231cb097cdd3108012c6550a73fa8",
+      "parts": [
+        "But you won't get far\nwithout enough Gin Tama.\nKeep collecting them."
+      ]
+    },
+    {
+      "offset": 63052,
+      "source_words_sha256": "07b1d600e529dc1973b4081e3c064489b3e112eae9f000b0e49af6fc615533f4",
+      "parts": [
+        "There are still rare orbs\neven I haven't seen."
+      ]
+    },
+    {
+      "offset": 63116,
+      "source_words_sha256": "eb3c37239313409eb6c598624d973afbb4bd78b20cb7c37c1a12db0584719c4e",
+      "parts": [
+        "From what I've heard..."
+      ]
+    },
+    {
+      "offset": 63140,
+      "source_words_sha256": "213f1f2144e82b5c40194bd8492493f795157e7bedb539c60dc2b1d5de954a62",
+      "parts": [
+        "You can power up Kotodama\nwith a ",
+        "Kotodama Boost",
+        "..."
+      ]
+    },
+    {
+      "offset": 63212,
+      "source_words_sha256": "59e391289a5bfc6205c27fdb68cebaddc469d5fd19d652bdeb9e8fe651e2d8ab",
+      "parts": [
+        "And summon allies with\n",
+        "Character Orbs",
+        ", apparently."
+      ]
+    },
+    {
+      "offset": 63276,
+      "source_words_sha256": "15e5da8966ac664d292feee55974277e4edafcb77aec4eb6abcf350998984d71",
+      "parts": [
+        "I'd love to see those\nif I get the chance."
+      ]
+    },
+    {
+      "offset": 63336,
+      "source_words_sha256": "398704c0ff954aa24c4644af8af5d3c03707a7993ffe669ca208b57158206230",
+      "parts": [
+        "Anyway, all that aside..."
+      ]
+    },
+    {
+      "offset": 63368,
+      "source_words_sha256": "abd8e8515e9bbe625553a91bd56a0bf7505e7ae609b3019e7305b5b33df493fe",
+      "parts": [
+        "Relax and enjoy yourself.\nThat's what matters."
+      ]
+    },
+    {
+      "offset": 63420,
+      "source_words_sha256": "5124b0d82ebea039549d8129e8897bb6ac2168900e3f6ff88aca884fe2580a24",
+      "parts": [
+        "Work hard. Pay your rent!"
+      ]
+    },
+    {
+      "offset": 63460,
+      "source_words_sha256": "78e2ac6e59e8f4788923b0a8a0d44981ea78c8ade5ed01cc4e0c717a1b53e76a",
+      "parts": [
+        "What a sorry showing."
+      ]
+    },
+    {
+      "offset": 63492,
+      "source_words_sha256": "59293a534888acea2f2232dae73c8c27021ba580f726364063498ec3bb0c3f1f",
+      "parts": [
+        "The orbs I lent you weren't\nmuch good, either. I suppose\nthat's how beginners start..."
+      ]
+    },
+    {
+      "offset": 63580,
+      "source_words_sha256": "398704c0ff954aa24c4644af8af5d3c03707a7993ffe669ca208b57158206230",
+      "parts": [
+        "Anyway, all that aside..."
+      ]
+    },
+    {
+      "offset": 63612,
+      "source_words_sha256": "aafebfb7cdee453cb85b431ddd530172cea8f991b21870a059030b447c80a430",
+      "parts": [
+        "Collect more orbs\nand get some practice."
+      ]
+    },
+    {
+      "offset": 63656,
+      "source_words_sha256": "d904bbf5cf424b247395919d963cdaa50a13c650063b824de3ecef7719aab8e8",
+      "parts": [
+        "You might stumble across\na rare orb you never expected."
+      ]
+    },
+    {
+      "offset": 63716,
+      "source_words_sha256": "fd073f90b687cc6760993bbd488ed97d9d18bdd8e818d81a25c33527fd47a692",
+      "parts": [
+        "Don't mouth off when\nyou haven't paid your rent!"
+      ]
+    },
+    {
+      "offset": 63772,
+      "source_words_sha256": "44464dbe4b83adda4e248842eefc6c9e3e6d49c21d25c4ed269add7f14f34b2e",
+      "parts": [
+        "This is MY house!"
+      ]
+    }
+  ]
+}
