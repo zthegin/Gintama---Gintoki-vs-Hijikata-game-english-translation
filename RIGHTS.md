@@ -8,7 +8,7 @@ I do not own Gintama, the original game or its characters, story, artwork, music
 
 I do not support piracy and discourage it. Use only your own legally obtained ROM. Do not share game files or link to unauthorized downloads.
 
-I take rights concerns seriously. If Bandai Namco, Hideaki Sorachi or another rights holder or authorized representative contacts me, I will promptly review the request and verify the sender's authority and the material concerned. For a verified request, I will remove or disable the affected material I control and stop the related work. If the concern covers the project as a whole, this may mean taking it offline. I will follow GitHub's takedown process and applicable legal requirements.
+I take rights concerns seriously. If Bandai Namco, Hideaki Sorachi or another rights holder or authorized representative contacts me, I will promptly review the request and verify the sender's authority and the material concerned. For a verified request, I will remove or disable the affected material I control and stop the related work. If the concern covers the project as a whole, this may mean taking it offline, and I will follow GitHub's takedown process.
 
 This covers public repositories, releases, website files and other published project copies I control. I cannot guarantee removal of independent forks, clones, caches or third-party archives.
 
