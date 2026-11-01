@@ -11,10 +11,38 @@
   ],
   "messages": [
     {
+      "offset": 28,
+      "source_words_sha256": "25f48c45cf606f7dcfacfee4859713895607a7c8db393c47b04f6f7d7c01527a",
+      "parts": [
+        "............"
+      ]
+    },
+    {
       "offset": 60,
       "source_words_sha256": "7681a62e7d8c21471d640a820f3ef738cdd5f1ed4592d57c668f2c939b2de91a",
       "parts": [
         "Hey, Gin."
+      ]
+    },
+    {
+      "offset": 80,
+      "source_words_sha256": "06ec81dbb925b93f9a8ceabe41b4b61be4f2730c405046f6d2668ea6c7dbeff2",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 112,
+      "source_words_sha256": "f6747be33ed2cf79e32d4029caebbd98662b516e5311f2f89b84ceb07ff0e03f",
+      "parts": [
+        "Hey, Gin!"
+      ]
+    },
+    {
+      "offset": 136,
+      "source_words_sha256": "d9de008c8d8b2a2b1f364ddd60ee1073b82d1ac192b904c0b72e5db2b68eddbd",
+      "parts": [
+        "............"
       ]
     },
     {
@@ -29,6 +57,13 @@
       "source_words_sha256": "043baa62b53b92bcbf40ebd3b9920c5ca01e64e9cecee163f4827955876d075a",
       "parts": [
         "Quit yelling,\nGlasses!"
+      ]
+    },
+    {
+      "offset": 220,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
       ]
     },
     {
@@ -50,6 +85,13 @@
       "source_words_sha256": "d47c00b25859a7b0674fd10cab8c1eca952dc4200aad7cc2b6889d1571a5cfe9",
       "parts": [
         "Sorry."
+      ]
+    },
+    {
+      "offset": 392,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
       ]
     },
     {
@@ -77,10 +119,24 @@
       ]
     },
     {
+      "offset": 560,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
+      ]
+    },
+    {
       "offset": 580,
       "source_words_sha256": "c547a1589f97452aa288a5637fbc08e2ebc59507918bb41c4b3bed99204e48aa",
       "parts": [
         "Pay me. If you can't,\nat least feed me."
+      ]
+    },
+    {
+      "offset": 640,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
       ]
     },
     {
@@ -111,6 +167,13 @@
       ]
     },
     {
+      "offset": 760,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
+      ]
+    },
+    {
       "offset": 780,
       "source_words_sha256": "41fbf8c49ba91fd6364a3ad6c6189442132dca8e5a67b255dc88716b757f7be6",
       "parts": [
@@ -125,10 +188,24 @@
       ]
     },
     {
+      "offset": 860,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
+      ]
+    },
+    {
       "offset": 880,
       "source_words_sha256": "b0ec2b47d0e6289931c0c33381127f541f236cc28d24fa96147c85b73549bff2",
       "parts": [
         "When did I ever\nmake you do that?"
+      ]
+    },
+    {
+      "offset": 916,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
       ]
     },
     {
@@ -159,6 +236,48 @@
       "source_words_sha256": "d8d66b66a22812e58af9e50834b7602a1b8cd1ed8d7662882c3911ac244fb703",
       "parts": [
         "Don't like it?\nYou're free to quit."
+      ]
+    },
+    {
+      "offset": 1136,
+      "source_words_sha256": "2e131d2e78fa88a5ec6fb65696af994189cae0a8044591de1e714c392881906f",
+      "parts": [
+        "......"
+      ]
+    },
+    {
+      "offset": 1156,
+      "source_words_sha256": "3a6cfbebbe274ee79047ba63c8c3a141f31bd11d1dad6270044d68f7f60e268e",
+      "parts": [
+        "You two, shut up!\nI can't hear the TV!"
+      ]
+    },
+    {
+      "offset": 1208,
+      "source_words_sha256": "ab3e48bdc1665d2377273c0202894c12279c85d273dbd96eb93e79c645cee19e",
+      "parts": [
+        "TV? What are you\nso absorbed in?"
+      ]
+    },
+    {
+      "offset": 1264,
+      "source_words_sha256": "cfb1938e1cc5c6af663be4635777850393130175d0d400f197e240727f3ae969",
+      "parts": [
+        "Not time for\ndrama reruns, is it?"
+      ]
+    },
+    {
+      "offset": 1308,
+      "source_words_sha256": "4fdf01e4813fbfa3fa48c804324ee651ea1ebed1b02348f21875ff1bc5793787",
+      "parts": [
+        "Not Ladies 4, either."
+      ]
+    },
+    {
+      "offset": 1340,
+      "source_words_sha256": "ccdfeca70988d71f52377b12a360d3a0cc7915505e9f85ef174876a7a86e8260",
+      "parts": [
+        "The news."
       ]
     },
     {
