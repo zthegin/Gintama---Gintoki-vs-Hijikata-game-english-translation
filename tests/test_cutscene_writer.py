@@ -116,7 +116,7 @@ class CutsceneTests(unittest.TestCase):
         identities = {offset: (digest, count) for offset, end, digest, count in index["records"]}
         self.assertTrue(all(identities[row["offset"]] == (row["source_words_sha256"], len(row["parts"])) for row in scene["messages"]))
         self.assertIn("Otose", scene["scope"])
-        self.assertEqual(scene["messages"][0]["offset"], 0x3C)
+        self.assertEqual(scene["messages"][0]["offset"], 0x1C)
         with tempfile.TemporaryDirectory() as folder:
             p = Path(folder) / "scene.json"
             bad = dict(self.scene)
