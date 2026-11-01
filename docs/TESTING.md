@@ -36,7 +36,7 @@ The repository-health workflow runs the full verifier on Windows and Ubuntu with
 
 Technical checks cannot establish permission, translation quality or correct rendering throughout the game. Use your own legally obtained ROM for separate local playtesting. Follow [the publication checklist](PUBLISHING.md) before sharing an artifact.
 
-The optional full-UI regression reads a private ROM from `GINTAMA_TEST_ROM`. It builds all 649 variants and 122 UI slots, checks font/script preservation and validates a BPS roundtrip. Without that environment variable, the game-file check is skipped; the synthetic geometry, font, compression and output-safety tests still run.
+The optional full-UI regression reads a private ROM from `GINTAMA_TEST_ROM`. It builds all 650 variants and 122 UI slots, checks font/script preservation and validates a BPS roundtrip. Without that environment variable, the game-file check is skipped; the synthetic geometry, font, compression and output-safety tests still run.
 
 ---
 
