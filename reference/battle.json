@@ -3791,6 +3791,69 @@
           "parts": [
             "Taaaaaaah!!"
           ]
+        },
+        {
+          "offset": 2808,
+          "source_words_sha256": "541b79ae3a3b8a6ae89925f113d301a45997bf123c5525fe13ae9fbb4fc9cb2d",
+          "parts": [
+            "Gwah?!"
+          ]
+        },
+        {
+          "offset": 2864,
+          "source_words_sha256": "5fe67d1e7a9393932a2f0ab4e365efd65f42e847277e00f6ae6a0ac151b85fff",
+          "parts": [
+            "Heh heh... I'll take it!"
+          ]
+        },
+        {
+          "offset": 2904,
+          "source_words_sha256": "3fbecdf19930e1361dff25bc2d25f3368018d04009607c491eb7c30eb8b6794d",
+          "parts": [
+            "Ah... D-don't suck it..."
+          ]
+        },
+        {
+          "offset": 3384,
+          "source_words_sha256": "935545f3635f0e5b2c9f1651a52b033fc73d205b2b27f1432c07aaf348774c0f",
+          "parts": [
+            "M-my eyes! Ink in my eyes!!"
+          ]
+        },
+        {
+          "offset": 3424,
+          "source_words_sha256": "a5a0405bbe3e84c4d63d26d2f374ecb1e5c2dda5ed0b81a8a43848860df77431",
+          "parts": [
+            "Ninja technique... Take this!"
+          ]
+        },
+        {
+          "offset": 3460,
+          "source_words_sha256": "9845dcf84e2069f640d0a6d0d7f6b2db757456efc4cf47ef1b6b7963fe235b9e",
+          "parts": [
+            "Ninjas mean kunai... Right?"
+          ]
+        },
+        {
+          "offset": 3496,
+          "source_words_sha256": "e8e92627925d424a5b1cdf6e6d9ec4c576e6a9f33150049a212b7d521745ef3b",
+          "parts": [
+            "There!"
+          ]
+        },
+        {
+          "offset": 3508,
+          "source_words_sha256": "f24527c6bffe7b5442ea5170f25cf450baf2e081e1c57358179841f8a8f72b79",
+          "parts": [
+            "Too bad, won't work on m--\nOwwwww?!"
+          ]
+        },
+        {
+          "offset": 3640,
+          "source_words_sha256": "b2405f0529e96c8986f2964f4a36607ec9cb5818a692abf935e017d7470e5c33",
+          "parts": [
+            "N-no!\nNot that sound!!"
+          ]
         }
       ]
     },
@@ -4001,6 +4064,69 @@
           "source_words_sha256": "10c2d5d6776754cafa08a793c3097c8f4084407124344fac985ba4c4e2bfd0a2",
           "parts": [
             "Leader... Crab!"
+          ]
+        },
+        {
+          "offset": 1820,
+          "source_words_sha256": "3330f82765e3ff9a4e733ea494d9220cf1cb29fa4720bf06c050119469d3f3b9",
+          "parts": [
+            "Rotten crab? What an evil\nattack! You've got promise!\nHuh? I'm feeling sick..."
+          ]
+        },
+        {
+          "offset": 1920,
+          "source_words_sha256": "845e28630966c0423012d3e162f354766cb447271e77619cc5c5c5cd2e3d3add",
+          "parts": [
+            "Leader... Eggs!"
+          ]
+        },
+        {
+          "offset": 1960,
+          "source_words_sha256": "b7c075365030e576b15abd175a9f216efd091e0acc3b22bf4e907f1f43e9aefb",
+          "parts": [
+            "Defense Force Eggs!!\nHahaha... What a smell..."
+          ]
+        },
+        {
+          "offset": 2056,
+          "source_words_sha256": "80e92a9984d844d36599a5de664a6d9490e9e9055d664f447c8468d4baa19512",
+          "parts": [
+            "And it's rotten!\nGreat! Dangerously great!\nW-where's the toilet...?"
+          ]
+        },
+        {
+          "offset": 2272,
+          "source_words_sha256": "edb801d861f1a590e6bdb4f7928de7b8852526ceff8a91ff79efb93de34b53d5",
+          "parts": [
+            "Leader... Ashtray!"
+          ]
+        },
+        {
+          "offset": 2384,
+          "source_words_sha256": "f9c9b2209b3aaf3f435cbf7c11b3a2070864d05d744074be3901d3362f531446",
+          "parts": [
+            "An evil organization's power!"
+          ]
+        },
+        {
+          "offset": 2412,
+          "source_words_sha256": "4eb30a13d7fe2a37fb8ba125b4e3bd71b76d71a95f434e776521f819865aeeb0",
+          "parts": [
+            "Eat this!"
+          ]
+        },
+        {
+          "offset": 2424,
+          "source_words_sha256": "dc92295c1c0877367d0e4ac2f3de1cc3c4be68f9efb2a2d10a67d77b0145c184",
+          "parts": [
+            "Here!"
+          ]
+        },
+        {
+          "offset": 2436,
+          "source_words_sha256": "261adf90f215ed2a9377223964ea95b30afbc53281efb1dee9d1b46ce203bb1e",
+          "parts": [
+            "Tabireba-gwooooh!!\nWh-what kind of weapon is this?!"
           ]
         }
       ]
@@ -4213,6 +4339,69 @@
           "parts": [
             "Oraaaaah!!"
           ]
+        },
+        {
+          "offset": 2120,
+          "source_words_sha256": "8b140dc780ff44736b833e546183179142c47cbd129e4b5c71df46fbfa10377a",
+          "parts": [
+            "Y-you bastard?!\nThe eggs! Eggs are dangerous!"
+          ]
+        },
+        {
+          "offset": 2312,
+          "source_words_sha256": "a8af0cea15fc9307d6506b17db8f5e78aeca3b37abee83eab105af654f1dc4eb",
+          "parts": [
+            "Don't get cocky!!"
+          ]
+        },
+        {
+          "offset": 2500,
+          "source_words_sha256": "4d05935e43d4b850043b60fd9f6836e19878bbea38f667759e4e6b06572029c4",
+          "parts": [
+            "Gwoooooh?!\nWh-what IS this?!"
+          ]
+        },
+        {
+          "offset": 2632,
+          "source_words_sha256": "a6660cde9d13b6aa304f85973b16d8f1132bff881636d76f7d289ce9cd899339",
+          "parts": [
+            "Doraaaaah!!"
+          ]
+        },
+        {
+          "offset": 2664,
+          "source_words_sha256": "a1fde143fa3213eaa858b837ad5e7990d4b67998c3bc687aab92591f61a0cc78",
+          "parts": [
+            "Hidebu!!"
+          ]
+        },
+        {
+          "offset": 2912,
+          "source_words_sha256": "845e35bd4e42ff6b53a480ae0ac40d3f5b3604e73bb3e5aac13ed0b41be6eee8",
+          "parts": [
+            "Heh heh...\nBlood sells for a lot."
+          ]
+        },
+        {
+          "offset": 2960,
+          "source_words_sha256": "099b82dfeb7973a4e99693d0ff44a8fe4aba396feedfccf2b2607e617b05ee0e",
+          "parts": [
+            "Y-you bastard!!\nStooooop!!"
+          ]
+        },
+        {
+          "offset": 3476,
+          "source_words_sha256": "6e577d7e379557f6515c489b856020c57752d4e265aff22f77db45aab55dee1b",
+          "parts": [
+            "I-ink stings my eyes...\nI can't see like this!"
+          ]
+        },
+        {
+          "offset": 3740,
+          "source_words_sha256": "fb633c4bc4e553a40dac7c3c26f1b6127abc2df432982b4dd8af95bbc175fbcf",
+          "parts": [
+            "You bastaaaard!!\nS-stop or I'll knock you flying!"
+          ]
         }
       ]
     },
@@ -4423,6 +4612,69 @@
           "source_words_sha256": "122dd807062d4e0b8586d9a7a8781ed7e0b93230f0107af1e3633dce708d1825",
           "parts": [
             "Gwooooooh!!\nThis won't do.\nI'll buy new clothes..."
+          ]
+        },
+        {
+          "offset": 4712,
+          "source_words_sha256": "231e7aad8487f2b10ce4b94be810326608ad7722c3b9e4c03354bfed87517255",
+          "parts": [
+            "Hmm...?\nSeen that somewhere..."
+          ]
+        },
+        {
+          "offset": 4792,
+          "source_words_sha256": "a3f1bd743e38aa84a81d3771530ac932da4df2dacef722bce1e8bce014e7fd08",
+          "parts": [
+            "Heh heh heh...\nA space pirate's power!!"
+          ]
+        },
+        {
+          "offset": 5032,
+          "source_words_sha256": "7989f91d1db3d0ee21f35d0561dd9fd22ef50a02019871219e7db861eed2c433",
+          "parts": [
+            "Cough! Cough! Gah!\nInsecticide, of all things?!\nUnforgivable!!"
+          ]
+        },
+        {
+          "offset": 6116,
+          "source_words_sha256": "317369a4af396867f163d815b6ade79e5f46ea2c3f30bfc9a0fa858fa04ffdba",
+          "parts": [
+            "No need to fear\na samurai's dull blade...\nHideously unbeautiful..."
+          ]
+        },
+        {
+          "offset": 6424,
+          "source_words_sha256": "88d60e1be440d2bfdd21d3603504382d7d300394b512a703a046367b259e8d01",
+          "parts": [
+            "What?! What's THAT?!\nFood...? Earthlings... STINKS!"
+          ]
+        },
+        {
+          "offset": 6664,
+          "source_words_sha256": "4d68d5eec8bfa616e0183ae1f3d88d3e320dc59bb8842dc04be01573b2604359",
+          "parts": [
+            "Hey! Curry smell\nis hard to wash out!\nOw-ow! Sauce in my eyes!"
+          ]
+        },
+        {
+          "offset": 7436,
+          "source_words_sha256": "8150e88711909666f01d33e56c617a0e1df11fd4cd814c7e621a6e91be6e97f9",
+          "parts": [
+            "You've got a pretty move..."
+          ]
+        },
+        {
+          "offset": 7528,
+          "source_words_sha256": "f836d448b0f366a53a09401b436f2a6de910f71f8a665fa65d2a8a2d3c1c82fc",
+          "parts": [
+            "Heh... Those apes'\narmed police\naren't bad..."
+          ]
+        },
+        {
+          "offset": 7640,
+          "source_words_sha256": "73391b08993e7f0ebfba1efb702f02a78ef3997f8aeda17e1c6f9f60190de6e7",
+          "parts": [
+            "You're... Katsura!!"
           ]
         }
       ]
@@ -4635,6 +4887,69 @@
           "parts": [
             "No way he'll understand\nanything that difficult."
           ]
+        },
+        {
+          "offset": 18992,
+          "source_words_sha256": "8157a2389f5d51481f0015e7c3b56aa07b4873bac047b32ef8da11d62e770fd6",
+          "parts": [
+            "Cut it out. In a real fight,\nyou wouldn't stand a chance!"
+          ]
+        },
+        {
+          "offset": 19448,
+          "source_words_sha256": "9b1b565962c4675aa954f4d7a3a14bf8f31676f52d8978d3a20b1df0487a928d",
+          "parts": [
+            "'Tiny' sounds cute,\nbut 'old man'\nreally ruins it."
+          ]
+        },
+        {
+          "offset": 20400,
+          "source_words_sha256": "48a5ae050ec2bb8de0240cb1a0cddb5b9b8aa5de0f2bee80f5cf7481ce654107",
+          "parts": [
+            "You're annoying."
+          ]
+        },
+        {
+          "offset": 20556,
+          "source_words_sha256": "e160ed15d5acf86a1cd387ce0e54b30fec3c503c375587e1200223a64b33609e",
+          "parts": [
+            "Ah... Feeling tired."
+          ]
+        },
+        {
+          "offset": 22136,
+          "source_words_sha256": "c21fc4da760aa1f0ff9e714e99beed913c478397015d064937bb030b6fd78af2",
+          "parts": [
+            "Who's a monster...?"
+          ]
+        },
+        {
+          "offset": 24472,
+          "source_words_sha256": "b98be6e4983009c19610232a7f5e29f639e0ce7fe000a763a08e7fc3b6fec7f8",
+          "parts": [
+            "No way this gross\ncurly-head gets girls.\nA gorilla's got better odds."
+          ]
+        },
+        {
+          "offset": 26108,
+          "source_words_sha256": "9b3410baee6b87c588f12568c8c147e919501ee6a2b3c50edaf738f454ca16a1",
+          "parts": [
+            "I'd rather make ramen\nthan bother with this guy."
+          ]
+        },
+        {
+          "offset": 27148,
+          "source_words_sha256": "681df8e7fc4d0b67df761b979e3a078aa6749e907d37b5e6744e95b16cc7b026",
+          "parts": [
+            "Maybe you should\ngo to a hospital instead?"
+          ]
+        },
+        {
+          "offset": 27552,
+          "source_words_sha256": "7e47d830bd8651c760fe610bfe86a47c4878df83c5f1fe4f8871022705d0d3b3",
+          "parts": [
+            "...Getting annoyed."
+          ]
         }
       ]
     },
@@ -4845,6 +5160,69 @@
           "source_words_sha256": "162a4b6e8bd890e1921d03009961543475c3f28ea52144ed4f51e0ec268be672",
           "parts": [
             "Who's a ham?!"
+          ]
+        },
+        {
+          "offset": 23604,
+          "source_words_sha256": "adf64f6beeb4c30f284c480d0d8ae9e30ba907eafd2b28692c2a113e734b4796",
+          "parts": [
+            "Th-this is emergency meat!!"
+          ]
+        },
+        {
+          "offset": 24540,
+          "source_words_sha256": "4125c63b7fe6184ad670d80d95d714d988570fd704aea6af2679ef72b82873d1",
+          "parts": [
+            "Wh-what, bastard?!\nCalling me a wig?!"
+          ]
+        },
+        {
+          "offset": 25340,
+          "source_words_sha256": "65f867f5ebb25499eafc5be315787c403ecad51728340aa9565a59887c1d29f3",
+          "parts": [
+            "What's that?\nYou just mocked me!\nI've been mocked!"
+          ]
+        },
+        {
+          "offset": 28300,
+          "source_words_sha256": "ebbae4be60c9aa07efadc4b6ccf2e1855f7807cc80885b82e49bb6e7a19154e1",
+          "parts": [
+            "!!! Called me tone-deaf?!\nRight! Recital time!!"
+          ]
+        },
+        {
+          "offset": 28560,
+          "source_words_sha256": "87158aa6ed3223c70bd16a9a0eedb1e5e7b3a0dcdf6f8da06a23bec35f874655",
+          "parts": [
+            "Th-that's mean...\nWhat could this be\nBUT cooking?"
+          ]
+        },
+        {
+          "offset": 28976,
+          "source_words_sha256": "a172189508f5585a9675b617e65d14997f32a0f8703918ed594a0d0051e9dc03",
+          "parts": [
+            "Th-that's a sore subject..."
+          ]
+        },
+        {
+          "offset": 29160,
+          "source_words_sha256": "0a8f7fdcedfb9b4f7745fb1cd5589f55ec5d1867992bedecbf6070567837b0b7",
+          "parts": [
+            "Sh-shut up!\nOther people just\ncall me that!"
+          ]
+        },
+        {
+          "offset": 29396,
+          "source_words_sha256": "3f9c3f9055dfc16be3a40a8d58554e3b81d5be8fd6355982491f7460a65d0b02",
+          "parts": [
+            "Who's an idiot prince?!"
+          ]
+        },
+        {
+          "offset": 29528,
+          "source_words_sha256": "7de3fc8571ffffd4c5e48d24aaf7a097d59d2df21784cfe1a4148ed2a4e70cd3",
+          "parts": [
+            "Don't call me an idiot, idiot!!"
           ]
         }
       ]
@@ -5057,6 +5435,69 @@
           "parts": [
             "Whether he understands\nis another question entirely."
           ]
+        },
+        {
+          "offset": 25636,
+          "source_words_sha256": "2f4389d821c0749794f0e18d433cd332cd73035ce4138cecc7e7a5bdafc0f149",
+          "parts": [
+            "Um...\nHas anyone seen\nmy turn anywhere?"
+          ]
+        },
+        {
+          "offset": 26252,
+          "source_words_sha256": "5562f203bd554319de06bc79563fdb7661b2d8ba48c5f0e03581c72ff250091e",
+          "parts": [
+            "Don't call me tiny!!"
+          ]
+        },
+        {
+          "offset": 27232,
+          "source_words_sha256": "e7b32fe6163f09e6813e7b399091f82d7004ef78e90033fc65d5a1cea60c9dc8",
+          "parts": [
+            "No... Not a water flea.\nThat's too far..."
+          ]
+        },
+        {
+          "offset": 28672,
+          "source_words_sha256": "8f40e97ad488e6bf9165db0134d78018fe464fdfa9d24538c9b92efedebcf5fe",
+          "parts": [
+            "Even a shonen villain\nwouldn't have\na name like that nowadays."
+          ]
+        },
+        {
+          "offset": 30720,
+          "source_words_sha256": "fd06a0331e4b1b92dc0a5fa42ee38b10e819d9d76a7aa8666cf584d482724616",
+          "parts": [
+            "THAT...? Oh, p**p?"
+          ]
+        },
+        {
+          "offset": 32484,
+          "source_words_sha256": "b8fe642bd3baa7558d110e12539301f4620dfaa3975d91b268650a3d007b87d0",
+          "parts": [
+            "Schoolgirls love your curls.\nThey say they're\n'SUPER gross.'"
+          ]
+        },
+        {
+          "offset": 34044,
+          "source_words_sha256": "99e5e5deb788342ca319bc43a483200a0d8784c1492d9c647ffede27cac00d1c",
+          "parts": [
+            "S-saying whatever you want..."
+          ]
+        },
+        {
+          "offset": 34540,
+          "source_words_sha256": "730dc86de771469d231740d1268446cc4be5eb6e6f78235c914e5b689778b7f8",
+          "parts": [
+            "Giving up already?!\n...Am I that boring?"
+          ]
+        },
+        {
+          "offset": 36356,
+          "source_words_sha256": "32e25310f4662ad009a89ed062805870d0a63c56966362c07c2102492c365b21",
+          "parts": [
+            "Th-this is bad...\nReally bad...!"
+          ]
         }
       ]
     },
@@ -5267,6 +5708,69 @@
           "source_words_sha256": "bcc75fa1853297a278e521422a7fe1e2e62748bc5fd3b8faf17290fef6c76b56",
           "parts": [
             "D-don't call me a pig!"
+          ]
+        },
+        {
+          "offset": 25432,
+          "source_words_sha256": "5a769985d0bded493ca8988667e7ab40372884c6828c148e07e704a707d55238",
+          "parts": [
+            "A-are you the type\nwho only fights\nwhen victory's certain?"
+          ]
+        },
+        {
+          "offset": 26616,
+          "source_words_sha256": "c0c4ec168781e656ff41b1d34594b550dda83d283afab731d50b54eec0504c93",
+          "parts": [
+            "Pfft... Excuse me.\nSo weak I had to laugh."
+          ]
+        },
+        {
+          "offset": 27060,
+          "source_words_sha256": "225b1da475eccc2af1c9dc562aa74d7a8bb15df9ab0b127f7f4eaddce4ed99b4",
+          "parts": [
+            "L-lousy character..."
+          ]
+        },
+        {
+          "offset": 28340,
+          "source_words_sha256": "3f810174508700d0cb8653c1853301d86746529120bc3f36a36ff1767d5168ea",
+          "parts": [
+            "Some people never\nlet go of childhood dreams,\neven as adults..."
+          ]
+        },
+        {
+          "offset": 30360,
+          "source_words_sha256": "ae660ffa61cda52535694570bad8f96949a4e875f223f2fbb910c36a4fdb0dc1",
+          "parts": [
+            "Hijikata... You can't\nsay it looks like p**p\nout loud..."
+          ]
+        },
+        {
+          "offset": 32380,
+          "source_words_sha256": "c97f46156501a113ac94f878c03c75e33ed3cc5da82df73eee0326a07f7ef9d7",
+          "parts": [
+            "Otae's got a fiance.\nThey've already done\nthis and that, too."
+          ]
+        },
+        {
+          "offset": 33960,
+          "source_words_sha256": "cb96cf67666f0e0408d4fdc22dbad1dab68e7213f6a288bc82d0c18e9fad9d2d",
+          "parts": [
+            "No, pay attention.\nWe're battling!"
+          ]
+        },
+        {
+          "offset": 35280,
+          "source_words_sha256": "b4269b1b78b7f2b4fa4fc52b222bf452ff5574a8e643b5766635e3f8f6d5888f",
+          "parts": [
+            "...Well, a bit\nlate for that now, huh."
+          ]
+        },
+        {
+          "offset": 36696,
+          "source_words_sha256": "7273eeea2566f4febc2d249cba2c3cefc3f8f9ad04e60200b2f9171352b23b7d",
+          "parts": [
+            "Hm? NOW you care\nwhat others think?"
           ]
         }
       ]
@@ -5479,6 +5983,69 @@
           "parts": [
             "My turn!"
           ]
+        },
+        {
+          "offset": 25740,
+          "source_words_sha256": "844a3f176773c5ff5a2a8cc5e0010f28d3019ae16670ed069fc402c4d7aa7c06",
+          "parts": [
+            "Think a Natural\nlike you could beat me?"
+          ]
+        },
+        {
+          "offset": 26232,
+          "source_words_sha256": "3477f64d1f594de7ffe06e1a78ec639f4c15314e1306e91868e7be0b7f71400c",
+          "parts": [
+            "Don't call it pathetic!!"
+          ]
+        },
+        {
+          "offset": 27300,
+          "source_words_sha256": "647dcb1ec6a226b16bdccb0051c9da6444f5ca8f4f9a7bc722cec0b81f50787f",
+          "parts": [
+            "Please get offscreen.\nStorage is limited."
+          ]
+        },
+        {
+          "offset": 28668,
+          "source_words_sha256": "2c20d65fa32c194f6344b68cc612cda6df212375110624133b88487a15085970",
+          "parts": [
+            "Idiot!"
+          ]
+        },
+        {
+          "offset": 30460,
+          "source_words_sha256": "357aacb36d888eb1609054771d6409dae1cdc4b2cd4a091c0227e6cf36c49d98",
+          "parts": [
+            "Jump, Jump...\nHow long will you stay a kid?"
+          ]
+        },
+        {
+          "offset": 32256,
+          "source_words_sha256": "97f813f74e0766c21bd8e162f52facebf9c915d0c17dd75c5c6c03f3eeb57e7a",
+          "parts": [
+            "Huh? Didn't she\nget married recently?\nI caught the bouquet."
+          ]
+        },
+        {
+          "offset": 33560,
+          "source_words_sha256": "3ba21588caec7295da265c9dbe029fdc6d8b98207e22f92a61d27b2b7676594b",
+          "parts": [
+            "Hey, pay attention.\nWe're battling!"
+          ]
+        },
+        {
+          "offset": 34936,
+          "source_words_sha256": "67edefede4f0d35873d1b52143f50aaced1625ee1b5d010bf2991f2bb95411d2",
+          "parts": [
+            "I'm normal!\n...Probably."
+          ]
+        },
+        {
+          "offset": 36292,
+          "source_words_sha256": "1497641bf5d9fcd6f1182a9f304128be6d4fc9b7b95279c3040be3e5650e94b2",
+          "parts": [
+            "You don't get barbecue\noften, right?\nGo on, eat up."
+          ]
         }
       ]
     },
@@ -5689,6 +6256,69 @@
           "source_words_sha256": "bc79b1d74845c4a886565340b0addd3ed3d5ce28c6601f4f282ccd13ab6516c7",
           "parts": [
             "H-how'd you know?!"
+          ]
+        },
+        {
+          "offset": 25436,
+          "source_words_sha256": "6b1677f50eafacfb89acd31c7a3325ba52b32475246564d0ea7a10f9030a24bf",
+          "parts": [
+            "Only natural\nfor a Natural like you, huh?"
+          ]
+        },
+        {
+          "offset": 26472,
+          "source_words_sha256": "88a5376141aecf61d4a7a1d5eaecbe46bd5ce6204883411b1e2efd66732d255f",
+          "parts": [
+            "Damn it.\nWhat an infuriating\nway to put it..."
+          ]
+        },
+        {
+          "offset": 27168,
+          "source_words_sha256": "e5bb38543ba8a684eddc1de286727a02c642cbe767db6b38f388cbcfd1ff6eba",
+          "parts": [
+            "Are you Gi*n or what?!"
+          ]
+        },
+        {
+          "offset": 28368,
+          "source_words_sha256": "25041363989770d19fd0665788f5941ed7b78b1021f8c16d3b06a2e4dee3dc0e",
+          "parts": [
+            "Hey, you idiot."
+          ]
+        },
+        {
+          "offset": 30208,
+          "source_words_sha256": "c2d082296bf380ebc7d365b753ccccfc0090f6fb8bb64211cecf87842f3cb474",
+          "parts": [
+            "Can't be Peter Pan forever."
+          ]
+        },
+        {
+          "offset": 32148,
+          "source_words_sha256": "06093c035f8f32b323e69b527e0fee6e8a0a42f8d7ccd4b5332fcd3d2c9a741d",
+          "parts": [
+            "The newswoman Ketsuno's\nmarried, you know.\nHuh? Didn't know?"
+          ]
+        },
+        {
+          "offset": 33376,
+          "source_words_sha256": "62c3c2a3ea6d111a986025ac9791eb70137377265abd4c7521d06b55699cf0b1",
+          "parts": [
+            "Giving up already?!\n...Am I that boring?"
+          ]
+        },
+        {
+          "offset": 34708,
+          "source_words_sha256": "f77e02dde257499276919d9c0aaddc11131c9e69ed759c7c26ac2fb370242538",
+          "parts": [
+            "What? Wanna be eaten?\nHuh?"
+          ]
+        },
+        {
+          "offset": 36172,
+          "source_words_sha256": "3a4c3c95d008a585f41103495e86027a77737693e0fd930458545b2a00811efb",
+          "parts": [
+            "What... A masochist?!\nGross!!"
           ]
         }
       ]
@@ -5901,6 +6531,69 @@
           "parts": [
             "If I fall for that,\nI'll die..."
           ]
+        },
+        {
+          "offset": 23828,
+          "source_words_sha256": "9d6476fe203744cdcbdf6d7d92ffb5aecf0d99bc762c83ebb45ae77c3f845891",
+          "parts": [
+            "S-so sudden!\nMy heart nearly stopped!"
+          ]
+        },
+        {
+          "offset": 24012,
+          "source_words_sha256": "1367ed999f8295bb9bbb459a39d6956f959f9f48d3a21aeae652b9711f07dcc3",
+          "parts": [
+            "What do YOU know of wigs?!"
+          ]
+        },
+        {
+          "offset": 26140,
+          "source_words_sha256": "667bbca4bcf2c507089e74fcc6db3cf68217dc6a35cb6e0acdcbf303f822ef4f",
+          "parts": [
+            "Oh, um...\nAbout my hairstyle..."
+          ]
+        },
+        {
+          "offset": 26308,
+          "source_words_sha256": "0e986b809ab1b49f73cc0d357e681c5bb34ea04eb5e7d3e6e34f3e66a03cb438",
+          "parts": [
+            "Huh?! This head's lame?!\nNo way! It's awesome!\nR-right? Awesome, right?!"
+          ]
+        },
+        {
+          "offset": 30424,
+          "source_words_sha256": "6c13ff5c3b54a2e29d04578e0f19906271e7e1a069d9f88161364e1579fa2b3c",
+          "parts": [
+            "Hijikata just wants\nto stay a kid forever,\nI'm sure..."
+          ]
+        },
+        {
+          "offset": 32532,
+          "source_words_sha256": "9fbf07e30e9796ae7389ddf3cdd79e818e17034747d8e6d06a774e49cfd6b898",
+          "parts": [
+            "Oh, I heard through\nthe grapevine\nthere's a baby now."
+          ]
+        },
+        {
+          "offset": 33864,
+          "source_words_sha256": "d695db0289ac747b15ac3f45804a807c98903821bad3cbbf730622fa3b1051b9",
+          "parts": [
+            "Pest? Did you call me a pest?"
+          ]
+        },
+        {
+          "offset": 34980,
+          "source_words_sha256": "f7752d3cc657f3f08fc5d8a5ba923ebf180e66ecf1d65d640e78122f7404f0a3",
+          "parts": [
+            "N-no, thanks."
+          ]
+        },
+        {
+          "offset": 36496,
+          "source_words_sha256": "43f03780ebd2d51d73a17228b49ddd3cf2036c7f5b6d75ca2f50ec0549b645e0",
+          "parts": [
+            "Then I'll make you\nvery happy."
+          ]
         }
       ]
     },
@@ -6111,6 +6804,69 @@
           "source_words_sha256": "14c51b02ecc64c8c89917d194ea8d6827ed75a865026f87c85ee1ee43c4676b6",
           "parts": [
             "No waaaaaay?!"
+          ]
+        },
+        {
+          "offset": 26132,
+          "source_words_sha256": "2533ecef869dddabfa5daf6f5a67d81af89f5cf19b3ebc9f98e93ae15ba8eb28",
+          "parts": [
+            "U-ugh...\nY-you... You!!"
+          ]
+        },
+        {
+          "offset": 26340,
+          "source_words_sha256": "88dfa99e7b5aa58ca64bbf3067309f67b42b4e7ed58b063246bdb638ee4ec289",
+          "parts": [
+            "Who's an ultra-hyper-runt?!"
+          ]
+        },
+        {
+          "offset": 26524,
+          "source_words_sha256": "c5a4bceacf1983af6110317b5109e37fc890480948352e84a28f465f21bd2d1d",
+          "parts": [
+            "Idiot! They always say\nbigger is better...\nThat rules ME out!!"
+          ]
+        },
+        {
+          "offset": 29112,
+          "source_words_sha256": "dc1bb07a9038bffa043ad57f82f575e4f7bfd66f15910970fbfcfa95bcc7a15f",
+          "parts": [
+            "Um, what was your name?\nIdiot... I remember\nup to 'idiot'..."
+          ]
+        },
+        {
+          "offset": 31240,
+          "source_words_sha256": "a470d389f95291cdc74edbefd4fe15ea076f75528d6fda629acca3bb5d88845e",
+          "parts": [
+            "Prince of Planet Sadist?!"
+          ]
+        },
+        {
+          "offset": 33456,
+          "source_words_sha256": "10bf5220abaa74411bb1d9b57e6ebb50637b4d42e5c98c47c9b46113201e04bd",
+          "parts": [
+            "Burning, if possible."
+          ]
+        },
+        {
+          "offset": 34508,
+          "source_words_sha256": "6f54285f428616db240712bfc11865f76e2f328b456d98b98e1213c922ea2fb8",
+          "parts": [
+            "Not that fancy.\nCockroach is enough."
+          ]
+        },
+        {
+          "offset": 35608,
+          "source_words_sha256": "609cb7951a3d0ead586a0277e87be25793f9cb9f42b37e86fe6ee7c114327e8e",
+          "parts": [
+            "Gin, leave\nsome for me."
+          ]
+        },
+        {
+          "offset": 37168,
+          "source_words_sha256": "7862940d2fc68fbfbac384c835f458499a13eeb51ceb9179ea9ba35e2064fa74",
+          "parts": [
+            "Masochists find\npain and suffering pleasurable,\nright...? ...Gross!"
           ]
         }
       ]
@@ -6323,6 +7079,69 @@
           "parts": [
             "My turn comes around again!"
           ]
+        },
+        {
+          "offset": 25740,
+          "source_words_sha256": "90d99b10e759ebc287ccbee2610bcaf403e59b141a1506e4970141ee42d850cf",
+          "parts": [
+            "Hey, you tiny old man."
+          ]
+        },
+        {
+          "offset": 26192,
+          "source_words_sha256": "d7c044e928a9f2cdfcdfb8565bd256d29c3b212fd53bfb1606539585f0b30d84",
+          "parts": [
+            "D-don't be stupid!\nThis hairstyle can't be lame...!"
+          ]
+        },
+        {
+          "offset": 26364,
+          "source_words_sha256": "7a7109bec093bd490c1af25f59343f8c527a4bd0a339480cae9d1b3ddd4b9fcc",
+          "parts": [
+            "Huh?! This hair's lame?!\nNo way! It's awesome!\nR-right? It's awesome, right?!"
+          ]
+        },
+        {
+          "offset": 28800,
+          "source_words_sha256": "50fb2239ad3e2ffe3c61b2e261f59d9a754b0b9c852a7bd4bc0bfdad9e7a79f3",
+          "parts": [
+            "Shut up, monster!"
+          ]
+        },
+        {
+          "offset": 30804,
+          "source_words_sha256": "1000df8d9fbc6362a561a72bc147ac6fea8e2938fa29b5d3c26daff40aa39076",
+          "parts": [
+            "Oh, tormenting people\nis your hobby?\nHuman trash, huh."
+          ]
+        },
+        {
+          "offset": 32944,
+          "source_words_sha256": "fb916c45e698c57d35d5a61a3bea959552486e05ca130bd5eea6245cac8e7286",
+          "parts": [
+            "Make it nice and hot."
+          ]
+        },
+        {
+          "offset": 34024,
+          "source_words_sha256": "1a6ed18e58adb453a451f562c71b57dde3c9f8cd5f6b9ae2b95f8645c1b50f41",
+          "parts": [
+            "In short,\nsociety's cockroach, huh."
+          ]
+        },
+        {
+          "offset": 35324,
+          "source_words_sha256": "a96bf9b5c833e72e86ec678b6004410daa963e4ade4f4753afe903ed268c146e",
+          "parts": [
+            "Kwah!"
+          ]
+        },
+        {
+          "offset": 36992,
+          "source_words_sha256": "ce623d5c5062e436ba366da63c86a3fa4def78ca45eda9c0fc5fd80d3e704943",
+          "parts": [
+            "You can't have Earth!\nGet out! Get out!"
+          ]
         }
       ]
     },
@@ -6533,6 +7352,69 @@
           "source_words_sha256": "dee5b775012a77364ebe97275031afbafdd6aeaca3c5b8654ab54bb450fd964c",
           "parts": [
             "Hmph! It's not all bad.\nYou bump your head,\nlook older than your age..."
+          ]
+        },
+        {
+          "offset": 25496,
+          "source_words_sha256": "1c0e6fe4b4c6ea9851eb92104d25266e052f9ef68690b8cf0e242cf2900d4b38",
+          "parts": [
+            "Don't mock me!\nI understand what you said!\n...Now I'm maaaad!"
+          ]
+        },
+        {
+          "offset": 27356,
+          "source_words_sha256": "2c22defa9789cbfa10b35a32780c914f076a79ceecd0b4097f09dac547a56f26",
+          "parts": [
+            "Even a water flea beats you."
+          ]
+        },
+        {
+          "offset": 28080,
+          "source_words_sha256": "6fa70307a9108ae70eb8deb0aaf559223657dfe7c681a6324b91ed7f3c4096d7",
+          "parts": [
+            "Just say it outright.\nHe's tone-deaf."
+          ]
+        },
+        {
+          "offset": 29636,
+          "source_words_sha256": "9a018adc120639471134102c7e3e3fc64c25a14869a7e4061e993dc00a1c72bb",
+          "parts": [
+            "I only talk\nto humans\nor something close enough."
+          ]
+        },
+        {
+          "offset": 30784,
+          "source_words_sha256": "5f45565dca3e9e019b49da66ceb152e4b5b096128c503d37b88ffb26d16b8aeb",
+          "parts": [
+            "H-hey!\nYou can't say that!!"
+          ]
+        },
+        {
+          "offset": 33848,
+          "source_words_sha256": "2aac38701eba378326086f3f2a94ae8e7234f52fa1c6611c435fc87d34d8ea50",
+          "parts": [
+            "I-I'm done for\neven without burning...\nWh-what people..."
+          ]
+        },
+        {
+          "offset": 34944,
+          "source_words_sha256": "863fb47d9ca755a1df2ef70f1bc9a7eb5817715a91d71b31b0e4e31da71f59c8",
+          "parts": [
+            "Wh-what?!\nTreating me like a roach?!"
+          ]
+        },
+        {
+          "offset": 36220,
+          "source_words_sha256": "b3debf7862c9fd01b96187a67cd8a9a59d7fa590ac5feb517c4ea2b49a6424b6",
+          "parts": [
+            "U-ugh... What a presence..."
+          ]
+        },
+        {
+          "offset": 37872,
+          "source_words_sha256": "7ab86880d4f20f9b171a01d796cc94739630850ff0f05dfd9ae3276b633f63ae",
+          "parts": [
+            "H-how'd you know?!"
           ]
         }
       ]
@@ -6745,6 +7627,69 @@
           "parts": [
             "Your turn...\nHope it comes around, huh?"
           ]
+        },
+        {
+          "offset": 25824,
+          "source_words_sha256": "c3dfd9e921f9c3f53f6b9c58d9903c31e6abf396f2da095b335b9e8e9a7d62a5",
+          "parts": [
+            "Tiny AND dull.\nThat's gotta hurt."
+          ]
+        },
+        {
+          "offset": 26696,
+          "source_words_sha256": "ae95873bfe40cfc6addb1301117ff4a82271a38d2465ee98ccc754d5fc1b9d76",
+          "parts": [
+            "Hijikata, even someone\nbelow a water flea\nis trying to live..."
+          ]
+        },
+        {
+          "offset": 27428,
+          "source_words_sha256": "de0cf6de27b29b7dcea567443ef468f789682e3c31441ab8a8fd5e5383ce393a",
+          "parts": [
+            "The tone-deaf always\nlove singing, huh?\nWhat a pain."
+          ]
+        },
+        {
+          "offset": 29164,
+          "source_words_sha256": "fd29e92d174815b52b927ee91f6f20ad16f03488c5a86d312c96c55f3ceba37d",
+          "parts": [
+            "Huh? A parfait? Really?\nPfft... How old ARE you?"
+          ]
+        },
+        {
+          "offset": 30252,
+          "source_words_sha256": "cd9ee2692203ed45be410026b3c37bb678ec2cc1d3b99b6be1a0a454086b2b55",
+          "parts": [
+            "Idiot! Apologize to curry!"
+          ]
+        },
+        {
+          "offset": 33284,
+          "source_words_sha256": "9d437d069fba0a26fb8cd8bca7a588b0c9f51ae5439ca5345fb01ef390e886a1",
+          "parts": [
+            "Catch a cold!\nLet it get worse!"
+          ]
+        },
+        {
+          "offset": 34444,
+          "source_words_sha256": "913817dd80fde2b823744810ed68ad52abdb5742a86be5124d979695d20d12b2",
+          "parts": [
+            "Huh? I'm not\njoking around, right?\nI'm not, right?!"
+          ]
+        },
+        {
+          "offset": 35572,
+          "source_words_sha256": "fe97a7670c142516ae1c886ebe6eb4e91a0c6b73850613c97a0efa1f5bbddb79",
+          "parts": [
+            "You're finished."
+          ]
+        },
+        {
+          "offset": 37276,
+          "source_words_sha256": "09e05c338c59b2be38e32a821eba43f8d205709ad6e61d3957ffad3079000917",
+          "parts": [
+            "One look at your face\ntells me what you're thinking.\n...You can't have Earth."
+          ]
         }
       ]
     },
@@ -6955,6 +7900,69 @@
           "source_words_sha256": "e95a6f1a357233d96ed2c195e2cc309bbea73fa06203acf38a7d2b733bfcbd0a",
           "parts": [
             "Gyaaaaaah!!\n...I-it's not my fault.\nThe fault's... [Slump]"
+          ]
+        },
+        {
+          "offset": 7120,
+          "source_words_sha256": "0b57f65d98cb23b39572e38308aa9c38d5cd2f54f59b9a655d0455dc5b754308",
+          "parts": [
+            "Gwaaaaah?!\nWh-what is this violent woman..."
+          ]
+        },
+        {
+          "offset": 7236,
+          "source_words_sha256": "2e9a4479afb1c39eaebe13418ab46385acab2c07c75aac10e17f3d6d6a722f63",
+          "parts": [
+            "Gwah!\nTo someone this dull..."
+          ]
+        },
+        {
+          "offset": 7336,
+          "source_words_sha256": "f1eb8bc0f2de5fc5f6d654ef21cc079c9a570e5bd820679565387d154968b0de",
+          "parts": [
+            "Gah?! You...\nIsn't protecting\nus Amanto your job...?"
+          ]
+        },
+        {
+          "offset": 7468,
+          "source_words_sha256": "2dbbed8b93cce4d2d5fd0248af17345ccfaff1206d6a43a2c1aa8daef7cd679a",
+          "parts": [
+            "Gah?! You...\nDon't think you can\nattack me and get away with it!"
+          ]
+        },
+        {
+          "offset": 7596,
+          "source_words_sha256": "f93188f29a015be1f4c634ee71e939c2946ddb7835ee360b1eda9b5b0d47d6a0",
+          "parts": [
+            "Gyaaaaaah!!\nTh-that guy...\nAttacked without a thought..."
+          ]
+        },
+        {
+          "offset": 7724,
+          "source_words_sha256": "74153ff36f29bdde79fa4e310c3ab6e903a1b5b8fa46026af0fdc72f7311f825",
+          "parts": [
+            "Heeeey?! You guys...\nWho do you think\nI am... Guh."
+          ]
+        },
+        {
+          "offset": 8092,
+          "source_words_sha256": "8bb8713187fd6fada3b648b41c29b06ee31e03d7c6ac832cc789c8c69508e0d5",
+          "parts": [
+            "Gwoaaaah!!\nLiterally an octopus beating..."
+          ]
+        },
+        {
+          "offset": 8396,
+          "source_words_sha256": "d6ceb4c39745b173422ff10093d87be5251ad45a2c60dabe3990eab628879c61",
+          "parts": [
+            "A-at least use a G-pen..."
+          ]
+        },
+        {
+          "offset": 8524,
+          "source_words_sha256": "5d00312a175ac9da391c3c9548c286004a19d8580c1beb1649eb82a522cd3d9a",
+          "parts": [
+            "Aaaaaah!! Don't eat me!\nMy armpits are sour!\nOkay? Okay?!"
           ]
         }
       ]
@@ -7237,6 +8245,69 @@
           "parts": [
             "Hot! Hoooooot!!"
           ]
+        },
+        {
+          "offset": 3724,
+          "source_words_sha256": "4abae4e5e94d3b602447e4b642b35f36b5ce67be7872d1ed13c5361f6a41ba81",
+          "parts": [
+            "Whaaaaaat?!"
+          ]
+        },
+        {
+          "offset": 3828,
+          "source_words_sha256": "ee9b4bc91c9d31ee15f4a33ecb265c1d72400ab7ef535f3188541558a18e1241",
+          "parts": [
+            "...What's that?"
+          ]
+        },
+        {
+          "offset": 3932,
+          "source_words_sha256": "f373c6ffde56032113a9d79ecd2e9fb8eac62d8096defe2241d3844c2461509a",
+          "parts": [
+            "Wait!! What IS that?!"
+          ]
+        },
+        {
+          "offset": 4048,
+          "source_words_sha256": "57fcbbea706c2e919126022aac82e61b08df60bbfb276c790c1ef1792c00b4fc",
+          "parts": [
+            "Cough! Cough... I-idiot!\nDon't point that at people!"
+          ]
+        },
+        {
+          "offset": 4540,
+          "source_words_sha256": "5e0e40e073145093a1c58dc583e6b3db8b1a62afeb0e916b77d8292f817406b2",
+          "parts": [
+            "I'll live the way\nI find beautiful\nand protect what I want!"
+          ]
+        },
+        {
+          "offset": 4608,
+          "source_words_sha256": "4c96f5392faf18187fd814c0aa7df1debcee5e03e7af8530731466c38978399a",
+          "parts": [
+            "Whoa!! Self-destruct?!"
+          ]
+        },
+        {
+          "offset": 4728,
+          "source_words_sha256": "baf2216d9da3a790cd21171e74c3542c646594238bfabcded57dd375338b0153",
+          "parts": [
+            "Gah! Y-you!\nWhat are you swinging around?!"
+          ]
+        },
+        {
+          "offset": 5184,
+          "source_words_sha256": "f5e5561b0c04806c10dcdecc2e184e1907a84822521a67b73b93c63caf619b7a",
+          "parts": [
+            "Gwooh...\nI-I've seen that somewhere...?!"
+          ]
+        },
+        {
+          "offset": 5324,
+          "source_words_sha256": "5feabe97f707149d91b89c415e9cf170730fe578de757de272a2626dacb1d352",
+          "parts": [
+            "It stiiiiinks!\nDon't throw that stuff!"
+          ]
         }
       ]
     },
@@ -7448,6 +8519,69 @@
           "parts": [
             "Here it coooomes!!\nC-call an ambulance..."
           ]
+        },
+        {
+          "offset": 3364,
+          "source_words_sha256": "8fa669a417b0a2a0735fd23dfe618e79122bab0fbe2bcb825e56dcbdc5e64d9c",
+          "parts": [
+            "Shut uuuuup!!"
+          ]
+        },
+        {
+          "offset": 3396,
+          "source_words_sha256": "695d2ced18cbd4e201576a371086d89b1c5766cd6e578c5c3a2c7bce9aa0009b",
+          "parts": [
+            "Buberaaa!!"
+          ]
+        },
+        {
+          "offset": 3644,
+          "source_words_sha256": "0837e17fc394f057c7bc78bbf2677cfe146053b4787ff29283a84001b5945aed",
+          "parts": [
+            "Hey, spare this old man\na little blood?\nJust a little."
+          ]
+        },
+        {
+          "offset": 3720,
+          "source_words_sha256": "f45990df88c8e201ec65df09894ffca3026969c2a17ac5f90ce2b59931dca2a8",
+          "parts": [
+            "Heeeey!! Don't take\nthis old man's blood!\nI've got nothing else left!"
+          ]
+        },
+        {
+          "offset": 4276,
+          "source_words_sha256": "84242caa7641e5e6d9ea83b1d070b2e4d71ea961afddf66845ce3883be33ac09",
+          "parts": [
+            "Heeey! Squid ink\non my shades...\nC-can't see!!"
+          ]
+        },
+        {
+          "offset": 4588,
+          "source_words_sha256": "0f885d4f3c04c7d6f58d9d48ecea62302b29bc5de61d1f55a16e240f36ae1936",
+          "parts": [
+            "Ngwooooh!!\nS-stop! Stoooop!!"
+          ]
+        },
+        {
+          "offset": 4744,
+          "source_words_sha256": "6115ca948197fc796ad69b9173d3447a2c9be4460794082f3bc7dbc715e50968",
+          "parts": [
+            "Hoooooot!!\nHey! That could\nactually kill me! Seriously!"
+          ]
+        },
+        {
+          "offset": 4928,
+          "source_words_sha256": "2d7c03f0a80787d7ad47cd79353296d0f74c214acda1828742132859da1f7e7b",
+          "parts": [
+            "Gyaaaaah!!\nWh-what's that doll...?"
+          ]
+        },
+        {
+          "offset": 5228,
+          "source_words_sha256": "4480607522bf29a19b7115f4198412b2267605d872c8391ef335c23a4bb28c0a",
+          "parts": [
+            "Gyaah!! Y-you, that's...\nNeo Armstrong Cyclone\nJet Armstr-- [Slump]"
+          ]
         }
       ]
     },
@@ -7658,6 +8792,69 @@
           "source_words_sha256": "beb387e33f43fe3c6a0ff3fd91994e732aab74ec4da68f3eb18642c2d8fa1ed7",
           "parts": [
             "Ngwoooooh?!\nC-could this crab be...\nRottennnn?!"
+          ]
+        },
+        {
+          "offset": 2520,
+          "source_words_sha256": "5e6d562c3605d081363c98f48a3fde28a511202d20b67fa1d74815570a59f689",
+          "parts": [
+            "Gwaaaaah?!\nM-my stomach! My stomach!"
+          ]
+        },
+        {
+          "offset": 2928,
+          "source_words_sha256": "1dbd511ec88ef26f75d07b450e9d32a731652effd3d85625cd461868a6373305",
+          "parts": [
+            "Ngaaaaah!!\nWh-what IS this?!"
+          ]
+        },
+        {
+          "offset": 3012,
+          "source_words_sha256": "151684ba29ac97c4f19e71951c0ec5bb9d83b9a51bb2bd9ebfd60d9c0692af38",
+          "parts": [
+            "R-rotting... My body's rotting!\nI'm rotting away!"
+          ]
+        },
+        {
+          "offset": 3092,
+          "source_words_sha256": "6dffd621f5250da9f21e064b1b16c44eeb8c84d2b457ed803e0c87e408fc01d6",
+          "parts": [
+            "Nryaaaah!!"
+          ]
+        },
+        {
+          "offset": 3124,
+          "source_words_sha256": "494d1d12d5912d1b2b3a9203f23f58fae8425925e77ff00facef0f05b694d0c0",
+          "parts": [
+            "Owwww!!"
+          ]
+        },
+        {
+          "offset": 3380,
+          "source_words_sha256": "d0c17e1e9dab340100959d3039bc880bc33cdc6080c0c4e502b58b9da34ea06b",
+          "parts": [
+            "A little of your blood."
+          ]
+        },
+        {
+          "offset": 3420,
+          "source_words_sha256": "8f23242f850584efb56975562b1e696e8162acdde63406dc09640a3c4c1d8cac",
+          "parts": [
+            "Heeeey! Stop! Cut it out!\nM-my blooooood?!"
+          ]
+        },
+        {
+          "offset": 3996,
+          "source_words_sha256": "082e48644220405bddcb72124715895ca0463fae4f2cab956c5c059e844407d6",
+          "parts": [
+            "Ah! Ow! Ow-ow-ow!\nStings! Stings my eyes!"
+          ]
+        },
+        {
+          "offset": 4272,
+          "source_words_sha256": "5f0f47beefb63771a0a4220e9a5a2da6eb0ec8cacbb3ea315560a3137772eb05",
+          "parts": [
+            "Nwoooooh?! S-stop!\nStop that sound!!"
           ]
         }
       ]
@@ -7940,6 +9137,69 @@
           "parts": [
             "Doryaaaaah!!"
           ]
+        },
+        {
+          "offset": 2792,
+          "source_words_sha256": "d1f732815ff6f8f36638bb7db344bc9c113ac00a04a01666d3527e67cf764334",
+          "parts": [
+            "Ngaaaaah?!"
+          ]
+        },
+        {
+          "offset": 2908,
+          "source_words_sha256": "ce969317b61a4777c5b182ce52645a284e9e68de3303012e221ba60e11cb2625",
+          "parts": [
+            "Gah!!"
+          ]
+        },
+        {
+          "offset": 2964,
+          "source_words_sha256": "1b9b20ea2a98a5faa1eb1bd1a1e3d6f10ec6cb9aa4326dcbbc45ab5d71cca39e",
+          "parts": [
+            "You're quite hot-blooded.\nI'll drain a little for you...\nHold still!!"
+          ]
+        },
+        {
+          "offset": 3072,
+          "source_words_sha256": "285437500dc91bcdc406ccbec0a4807a610c3fd0492c3e4804672beed398f795",
+          "parts": [
+            "S-stop! Stop it!\nI've got low blood pressure!"
+          ]
+        },
+        {
+          "offset": 3572,
+          "source_words_sha256": "277ffc7650a8907e29bf3e638eddd09a863e294fc52aabb4eee5dc204aa10169",
+          "parts": [
+            "Y-you bastard!\nInk in my eyes?!"
+          ]
+        },
+        {
+          "offset": 3632,
+          "source_words_sha256": "08c57cdae8ac386f6c58b3c3387ecb10990a64f1d61e741651a2473ae06872cb",
+          "parts": [
+            "Drop dead!"
+          ]
+        },
+        {
+          "offset": 3652,
+          "source_words_sha256": "09054a6b31110f321758c39a74ade2d02b8a053e575d96e849884f1c080b7671",
+          "parts": [
+            "Too early to sleep!"
+          ]
+        },
+        {
+          "offset": 3672,
+          "source_words_sha256": "6ef6b0bb987bfa1376170a610e22886602079cbc6fc6876ffcfed270b56ccbc2",
+          "parts": [
+            "Mine!"
+          ]
+        },
+        {
+          "offset": 3804,
+          "source_words_sha256": "21c2df7827d11bef2bbde067b4cf9d0191d79563bc93b683fc07a7ee7481fda6",
+          "parts": [
+            "S-stop! Please stop!!"
+          ]
         }
       ]
     },
@@ -8150,6 +9410,69 @@
           "source_words_sha256": "fb4a45f85a371a647a5ab59a86d19d70a679d64fca198d949eeaca35d9ec2e36",
           "parts": [
             "My guts feel\nturned inside out...\nGwooooh... Help..."
+          ]
+        },
+        {
+          "offset": 2988,
+          "source_words_sha256": "c47003db61f6790b454c1d7165e70fdec6dbfa15beec139520debe215c8ac456",
+          "parts": [
+            "Daryaaaah!!"
+          ]
+        },
+        {
+          "offset": 3024,
+          "source_words_sha256": "3ec87e4c3b3aac7acfd9ce7166d6e460514928f74d7b7cc6659b85959d51dc5a",
+          "parts": [
+            "Gwoaaaah!!"
+          ]
+        },
+        {
+          "offset": 3280,
+          "source_words_sha256": "3fdbc28629494ce3afd7bd33415342bb7229b58fe7e3f064b8c99fa601e80204",
+          "parts": [
+            "I'll take a little blood."
+          ]
+        },
+        {
+          "offset": 3324,
+          "source_words_sha256": "c1579c6e9c60ae9651ef7d839c4cc5122a7e3bc9c05799e99e2a98f7c39d16be",
+          "parts": [
+            "Heeey!! Y-you!\nWhat are you doing\nwith my blood?!"
+          ]
+        },
+        {
+          "offset": 3888,
+          "source_words_sha256": "e3af3cdf09e1fb5d0a81121d7e0e04cd25eca0324aa35ef4af069195a5c51c77",
+          "parts": [
+            "Ngh?! Squid ink\non my goggles...!\nWon't come off?!"
+          ]
+        },
+        {
+          "offset": 4160,
+          "source_words_sha256": "1869c09e0c1bf48b846fcb9a72d89b742c064a01c8f233dd2552a31793769a3a",
+          "parts": [
+            "Woooooh?!\nS-stop! Cut it out!"
+          ]
+        },
+        {
+          "offset": 4252,
+          "source_words_sha256": "694b136b9638c6c575839a323bdcce18796bb6e4e25900cfd88bd18b72e72482",
+          "parts": [
+            "Fireworks by Gengai Hiraga!\nWant a taste?!"
+          ]
+        },
+        {
+          "offset": 4320,
+          "source_words_sha256": "d98ae8db15167e9216bfc6c4eb0424b86c27eaa4f2b5e72deab57d248825d17c",
+          "parts": [
+            "Hoooooot?!\nI-idiot! Don't\nfire that at people!!"
+          ]
+        },
+        {
+          "offset": 4512,
+          "source_words_sha256": "1b8dc0cbddd99251b2fc575766518b85c4e475159fca5c1f99dd0c18a2d775b6",
+          "parts": [
+            "Ngwaaaaah!!\nTh-that's... A J-Justaway..."
           ]
         }
       ]
@@ -8362,6 +9685,69 @@
           "parts": [
             "Gyaaaaah?!\nImpossible...\nWhy's that weapon here...?!"
           ]
+        },
+        {
+          "offset": 7208,
+          "source_words_sha256": "20bcd30803c41ee228a195fb1ee9d42d0ff24bc3affb063cf6684fb20f0cb946",
+          "parts": [
+            "Gwaaaaah!!\nY-you curly samurai... Gah."
+          ]
+        },
+        {
+          "offset": 7416,
+          "source_words_sha256": "b4d510d07210ffce3c96cd1ec14f51bf7499fcfcc3ae68d009d6c9ca7f233eb9",
+          "parts": [
+            "Gwaaaaah?!\nY-you... You're wanted...?"
+          ]
+        },
+        {
+          "offset": 7912,
+          "source_words_sha256": "28e4e53ca882c1c0b496bb660d53ef613086cdd87ddf7b4cf4cfa2bb33431116",
+          "parts": [
+            "Gyaaaaaah!!\n...N-not my fault.\nIt's that idiot... Prince... [Slump]"
+          ]
+        },
+        {
+          "offset": 8064,
+          "source_words_sha256": "15112ba9fabd724ad0505d623bd6b55cab2ac54bdf49e94f77e9c4e3e90dde92",
+          "parts": [
+            "Gwaaaaah?!\nWh-what is this violent woman..."
+          ]
+        },
+        {
+          "offset": 8280,
+          "source_words_sha256": "e7b726f4e7dc22f8a1fd11ccb2f48973452cad91f6c49d01e5e4b17f20023e55",
+          "parts": [
+            "Gah?! You...\nIsn't protecting me your job...?"
+          ]
+        },
+        {
+          "offset": 8660,
+          "source_words_sha256": "6f8dd1a023c899bd511eb61238b25852dd15b90f48dc054ccd2dc0d9555cab3e",
+          "parts": [
+            "Heeeey?! You guys...\nWho do you think\nI am... Guh."
+          ]
+        },
+        {
+          "offset": 9124,
+          "source_words_sha256": "83b3d8a610eb0b508e973897bbce42f3906ba02f360a708e82d240c83f9b54bb",
+          "parts": [
+            "Gwoaaaah!!\nI-idiot prince...\nThis is all your fault..."
+          ]
+        },
+        {
+          "offset": 9244,
+          "source_words_sha256": "967ee80ff54bdeec6c8c09f80430b3222d762176b32ef394c15e762a903020a1",
+          "parts": [
+            "Golf's not my\nonly specialty!"
+          ]
+        },
+        {
+          "offset": 9424,
+          "source_words_sha256": "59e2a3e6043f734e121d7cf0699f21789e8ddaf0e0b3998d02301d33eaddc063",
+          "parts": [
+            "Behold!\nMy penmanship!!"
+          ]
         }
       ]
     },
@@ -8572,6 +9958,69 @@
           "source_words_sha256": "6f4e012b6181222c3eeab322338f715bd2bbafc6a546775837ab29cbcefad069",
           "parts": [
             "Th-this... Ugh...\nIt's rotten?!"
+          ]
+        },
+        {
+          "offset": 2548,
+          "source_words_sha256": "0624c642ef8e1113dc1af9d278c1d3a0dfee6eec3afe5afcb6205ff56af0448f",
+          "parts": [
+            "Oooooh...?! It's rotten...\nThese eggs... They're rotten!!"
+          ]
+        },
+        {
+          "offset": 3032,
+          "source_words_sha256": "dfc058192e868d22aeb1a51a8005a4028e1bc97ced62d8daa850e87046c0e207",
+          "parts": [
+            "Wh-what... Is this?!\nA-an omelet?!"
+          ]
+        },
+        {
+          "offset": 3132,
+          "source_words_sha256": "39c4a3698077ea3b0a76bd8d355f997bf1b07c211bdfddb3bcf7206e303aed1b",
+          "parts": [
+            "My head's spinning!\nI feel sick!!"
+          ]
+        },
+        {
+          "offset": 3196,
+          "source_words_sha256": "38ef6eb7bbd656a3d2c774a8607f591c9af6e2612f6d773a54a11bedb73f9edc",
+          "parts": [
+            "Hooooooh!!"
+          ]
+        },
+        {
+          "offset": 3452,
+          "source_words_sha256": "d99e41ae81419345545e8771c55cc3cf2c812d2844d9bf26d9b20947e06071f7",
+          "parts": [
+            "Blood... Bloooood!!\nGive me blood... Your blood...!"
+          ]
+        },
+        {
+          "offset": 3536,
+          "source_words_sha256": "043d965b635f3cf3b351e13d14229b5c394d330e1eaaa3ca7bfd62c71442e9bc",
+          "parts": [
+            "N-no... M-my blood...\nMy bloooood!!"
+          ]
+        },
+        {
+          "offset": 4084,
+          "source_words_sha256": "080de849474026e8b0c1486dfd45624732e8ab176409d51de8ad9c4124e80444",
+          "parts": [
+            "S-squid ink...?!\nCan't see... Can't see!!"
+          ]
+        },
+        {
+          "offset": 4380,
+          "source_words_sha256": "341d7b007f6d90971e23e9dd27088252fdbad376c8dcf851d358db64d786f469",
+          "parts": [
+            "Eeeeeek!! S-stop...\nStop that sound!!"
+          ]
+        },
+        {
+          "offset": 4548,
+          "source_words_sha256": "08e7050865f53279d62ac2887dacda861184c0b52dc1759d5e62e6c26168b401",
+          "parts": [
+            "Hot-hot-hot-hot!!"
           ]
         }
       ]
@@ -8854,6 +10303,69 @@
           "parts": [
             "Ngwaaaaah!!"
           ]
+        },
+        {
+          "offset": 4584,
+          "source_words_sha256": "c374c146f02755ad301540ca971064836d40ca51c3da0fb47cd92149dda9e6d4",
+          "parts": [
+            "Wh-what IS thaaaat?!"
+          ]
+        },
+        {
+          "offset": 4716,
+          "source_words_sha256": "dc102e18633b475212560e0a27ea00c854d34eb1b39b530eff7cb0c4da53631d",
+          "parts": [
+            "Cough! Cough!\nWhat are you doing?!\nI'm not a bug!"
+          ]
+        },
+        {
+          "offset": 5328,
+          "source_words_sha256": "97858026f515f56f49f4a0c6600ce14cf2921db5916f71602a84997ed1fa6cb0",
+          "parts": [
+            "G-Gin...\nWhat the hell are you doing?!"
+          ]
+        },
+        {
+          "offset": 6044,
+          "source_words_sha256": "5fcefa042ce51696e73b40af18e744adb5e561bda9a96af3d29891935a5cd15f",
+          "parts": [
+            "Ngh?!\n...E-Elly?!"
+          ]
+        },
+        {
+          "offset": 6180,
+          "source_words_sha256": "96b56bffeac9e90a57d180122a8f80a3ff79f6a05a5914fadaa2cb83a7276214",
+          "parts": [
+            "Stinks! Stinks!\nIt stiiiinks!"
+          ]
+        },
+        {
+          "offset": 6308,
+          "source_words_sha256": "b86d55ade545dbfe405cd98dfee09104a3f660c91558fc4e30c6b67b37fc9c9e",
+          "parts": [
+            "Hoooooot?!"
+          ]
+        },
+        {
+          "offset": 6364,
+          "source_words_sha256": "c5e04817144740bfde6561acc09da44c72a448fe0d76472c0f334dd4a1a42055",
+          "parts": [
+            "Th-the sauce!\nStings my eyes!"
+          ]
+        },
+        {
+          "offset": 6548,
+          "source_words_sha256": "7ac3b67f1365d55359532dc9428a1719f428ed9b102d898b5808010fdcbd46cd",
+          "parts": [
+            "Ch-chalk dust!\nThe dust!!"
+          ]
+        },
+        {
+          "offset": 6932,
+          "source_words_sha256": "bedb589f6310866a07206e78165950af3053a30dd089e4d99e663df51f2e4cab",
+          "parts": [
+            "Whoa?! It s-spat ink?!"
+          ]
         }
       ]
     },
@@ -9065,6 +10577,69 @@
           "parts": [
             "Target locked on."
           ]
+        },
+        {
+          "offset": 5520,
+          "source_words_sha256": "4672f692155dbadbe9761d5771d6444038aab06866376b7084975ee411e0150d",
+          "parts": [
+            "Natto, firing... STINKS!"
+          ]
+        },
+        {
+          "offset": 5680,
+          "source_words_sha256": "245a8e4bd90edfa5dbb54924d6e1bda3fc069107da34c6c6236bafa0eba17f15",
+          "parts": [
+            "Hungry?"
+          ]
+        },
+        {
+          "offset": 5796,
+          "source_words_sha256": "fc190d6c0d1b042501fd820f8b026239317d1966d3add9b3c4ca407249c86f72",
+          "parts": [
+            "Camera malfunction!\nCan't see ahead!"
+          ]
+        },
+        {
+          "offset": 7972,
+          "source_words_sha256": "f0b01732e3ecf2cd817910f55b4470b43b292d6a2abc76bc018ab539f276b9ab",
+          "parts": [
+            "System down: octopus beating."
+          ]
+        },
+        {
+          "offset": 8320,
+          "source_words_sha256": "9db42eaba0ccb69277458968f2404ee6b9c45b2dfd75162d08bdd39c4c6e2b70",
+          "parts": [
+            "March of the bugs."
+          ]
+        },
+        {
+          "offset": 8448,
+          "source_words_sha256": "c01bddda9e9b67a03621bc29b02a5ee89cafd953b1614f16157fb2537c493558",
+          "parts": [
+            "Mamushi Z, firing."
+          ]
+        },
+        {
+          "offset": 8620,
+          "source_words_sha256": "7e277795396305dd8e3372e336c5f661c37d425527dd0079ab1c6e3c0ce0ce18",
+          "parts": [
+            "Hazard level 200!\nDanger... Extreme danger..."
+          ]
+        },
+        {
+          "offset": 9100,
+          "source_words_sha256": "4ee68365007622b8166a45cbc359a86fcde9d6d0c6539a00b77f2af82115d4f4",
+          "parts": [
+            "Healing activated."
+          ]
+        },
+        {
+          "offset": 9132,
+          "source_words_sha256": "1ec2e821a29a6d07f2c00b35269c9c90e539d6b0af7ea4da62478fe821fa0b94",
+          "parts": [
+            "Enemy healing confirmed."
+          ]
         }
       ]
     },
@@ -9268,6 +10843,69 @@
           "source_words_sha256": "0e9281247ff3ccd458e058d0cff650bfcbd5c056aa80b9c02f6b9069737030ac",
           "parts": [
             "Wh-what have you done...!\nIt's rotten!!"
+          ]
+        },
+        {
+          "offset": 1968,
+          "source_words_sha256": "eddb71bcb36243efc4d4d4c5be6a85966111b9a3b95f2c43e2b9277931fa00c4",
+          "parts": [
+            "Wh-what have you done...!\nIt's rotten!!"
+          ]
+        },
+        {
+          "offset": 2276,
+          "source_words_sha256": "078f24c7cd933a788767cd3ba3c35881955fe0ef32142482c80ac560e0703539",
+          "parts": [
+            "Go on. Eat up."
+          ]
+        },
+        {
+          "offset": 2312,
+          "source_words_sha256": "e4c543a7256e2e0d6ef876eed0b50e9e06baafeb2510807375699255022c5901",
+          "parts": [
+            "Gwoooooh?!\nWh-what IS this!!"
+          ]
+        },
+        {
+          "offset": 2456,
+          "source_words_sha256": "eed20c73fa841fa59d50d72d9297fbbc1cc4aaadbc36f05730c15d9630f526ca",
+          "parts": [
+            "Soryaaaaah!"
+          ]
+        },
+        {
+          "offset": 2480,
+          "source_words_sha256": "080e52e67a535165367f50af4217eb00e850739b15bdba961962c40402d43b93",
+          "parts": [
+            "Oryaaaah!"
+          ]
+        },
+        {
+          "offset": 2504,
+          "source_words_sha256": "137d686b81b10ece4c6528a25c27dc0b31890147bb30097f3571a0beaadf9d00",
+          "parts": [
+            "Dosseiii!"
+          ]
+        },
+        {
+          "offset": 2528,
+          "source_words_sha256": "12e7c82940ac5398a5b53038e7854aa786cfce4964d19a45c7e3eea62d02a69f",
+          "parts": [
+            "Gahwo?!"
+          ]
+        },
+        {
+          "offset": 2624,
+          "source_words_sha256": "967e5b57c9b2b544c49a7ef3a11c35d4a973af3c4389c9a1023f90704787bd59",
+          "parts": [
+            "Fugoh!"
+          ]
+        },
+        {
+          "offset": 2680,
+          "source_words_sha256": "b65b741e21313d82ec6a0f5025f5b82a755a5bbb5f3d493cdcd0e51a6815abd5",
+          "parts": [
+            "Heh..."
           ]
         }
       ]
@@ -9473,6 +11111,69 @@
           "parts": [
             "Gyaaaaaah!!\nTh-these eggs are rotten!!"
           ]
+        },
+        {
+          "offset": 2780,
+          "source_words_sha256": "066427731d87d5e035584c39343d7865655bd90c975b9dd27afeebe822737c90",
+          "parts": [
+            "Otae's omelet...\nHate to share it, but\nyou can have some. EAT IT!!"
+          ]
+        },
+        {
+          "offset": 2884,
+          "source_words_sha256": "eb536486550b9b7a8c6cbd663fc70dd5e5638ab5bbc46df0bbdbc4f67bc82c8d",
+          "parts": [
+            "Gwah! O-Otae's omelet?\nI could eat it\nforever... Gah!"
+          ]
+        },
+        {
+          "offset": 2996,
+          "source_words_sha256": "711dd77ee626ea77dfab112f57ea382f6d1e5d2b5bbda76da8729e76ca7d56da",
+          "parts": [
+            "Who is here?\nWhere are you?"
+          ]
+        },
+        {
+          "offset": 3036,
+          "source_words_sha256": "b1544569d4aa68fbbd3ec44df4234cb2027c3c4eb50e9fe6f9116542e05c6033",
+          "parts": [
+            "Doryaaaaaaaah!!"
+          ]
+        },
+        {
+          "offset": 3080,
+          "source_words_sha256": "e8f070b6d7c6a7071b871b2bdb797244a8003b64ce1b6524008ff084911bfe44",
+          "parts": [
+            "Tapah?!"
+          ]
+        },
+        {
+          "offset": 3312,
+          "source_words_sha256": "2026f44bbf8f5cbc6b376a748c30cfa2a39cf583a043f61bceaacb55b4707bab",
+          "parts": [
+            "High blood pressure, huh?\nI'll lower it a bit. Here!"
+          ]
+        },
+        {
+          "offset": 3380,
+          "source_words_sha256": "7e4aff64d855cd79ada2487d9cba28fe9ab451bbfe127c0f8a8d7e3dfd18e7be",
+          "parts": [
+            "Aaaaaah... Y-you...\nWhat are you doing\nwith my blood...?"
+          ]
+        },
+        {
+          "offset": 3932,
+          "source_words_sha256": "c268ad2deb1d3d8438256cc57f7e7f2464e03e734dd9bd6429e67fce3c42e8b0",
+          "parts": [
+            "Wait! Ink! In my eyes!\nWhoa! It stiiiings!!"
+          ]
+        },
+        {
+          "offset": 4200,
+          "source_words_sha256": "cac092322ccf8d8b12cdf0a44788722826e10a3b51db1048d76fae934dc9ea0f",
+          "parts": [
+            "Eeeeeek!!\nStop that sound!!"
+          ]
         }
       ]
     },
@@ -9676,6 +11377,69 @@
           "source_words_sha256": "5f75a38f04bc504f246840390016e847c215cf016a5643fcc7b6838da50403f4",
           "parts": [
             "Ngaaaaah!!"
+          ]
+        },
+        {
+          "offset": 3336,
+          "source_words_sha256": "6fdaed5781affcd4a6ec7dd40fde326a9d0a6207b9e6e39302a0c0ee6cdc2d89",
+          "parts": [
+            "I'll make you a star!"
+          ]
+        },
+        {
+          "offset": 3364,
+          "source_words_sha256": "fbfc8dba68282b0e040dbc4399fbe31920200f5f29e6567d2aed0820a500fa60",
+          "parts": [
+            "Doryaaaah!!"
+          ]
+        },
+        {
+          "offset": 3388,
+          "source_words_sha256": "a330d9001984ef0fc815e2e05287d7ae7b93eb686e3c1c3e2d32bc93b57d0fc9",
+          "parts": [
+            "Pay with your life."
+          ]
+        },
+        {
+          "offset": 3536,
+          "source_words_sha256": "4d667b20cd3b7ace184f60bb4f57f430f83a33479f45cc6ddc750f53f923a38f",
+          "parts": [
+            "Right! Give this old man\nyour blood... Hurry up!"
+          ]
+        },
+        {
+          "offset": 3608,
+          "source_words_sha256": "1f22d5385086fd765db90a21a29aa6fe6d9eecb5baa4f7c1e2b1c912450062c4",
+          "parts": [
+            "Heeey! My blood!\nWait! Don't take it!!"
+          ]
+        },
+        {
+          "offset": 4436,
+          "source_words_sha256": "1f1accdc7b72dc2c745b862699fc83688bbf31a4b2b77ff407ca0fc6d259202a",
+          "parts": [
+            "W-wait!\nStop that sound! Stop!"
+          ]
+        },
+        {
+          "offset": 4608,
+          "source_words_sha256": "2f2ec48c3e6969610c4cd566a36ea6cf0b22ea5649e8b7d29fbd3f20c7a93a37",
+          "parts": [
+            "Hoooooot!!\nHey! That could be\nworse than burns!!"
+          ]
+        },
+        {
+          "offset": 4820,
+          "source_words_sha256": "7024b3862c0d04cc109d2c4f483ca3348949a390042140f446fe3a72fe2a8497",
+          "parts": [
+            "Ngaaaaaah?!\nTh-that doll... You...\nPlanning a terrorist attack...?"
+          ]
+        },
+        {
+          "offset": 5164,
+          "source_words_sha256": "0203f76499a6e4ad8d6dd7275a2208fea9948a6dc0c953c25ad40c25167bbd1e",
+          "parts": [
+            "Y-you... Th-that's\nthe forbidden weapon..."
           ]
         }
       ]
@@ -9881,6 +11645,69 @@
           "parts": [
             "Explosives! Here they come!!"
           ]
+        },
+        {
+          "offset": 5156,
+          "source_words_sha256": "8074e607b9b4489776697d915d811161563489d600290654a0a5dfa1f9572bcc",
+          "parts": [
+            "The pinnacle of super-science!!"
+          ]
+        },
+        {
+          "offset": 5384,
+          "source_words_sha256": "fb1f1377554c702570bc88b68ac3b225505d07e51db5b76757ae358d552aa732",
+          "parts": [
+            "Cough... Gah...\nAm I a mosquito? A fly?"
+          ]
+        },
+        {
+          "offset": 6600,
+          "source_words_sha256": "6e34c97a2c64ddc2da81a5a49e894003a84a0710dc0886f7afce5af7810fdd5d",
+          "parts": [
+            "Damn! Scratched again...\nAnd I'd just\nwaxed this body!!"
+          ]
+        },
+        {
+          "offset": 6944,
+          "source_words_sha256": "65bcf16e81f339bdc85e06795cd03a83eb32c507deddf7231589c51c087f640c",
+          "parts": [
+            "Hey... What do you think?\nNatto on the final boss?"
+          ]
+        },
+        {
+          "offset": 7388,
+          "source_words_sha256": "3ce3bcb70627a270600377ebc64b27d424b1a9cf464bae91df8b769e8bef1e0e",
+          "parts": [
+            "Urp... Can't see a thing!\nPowder and liquid\nare a machine's worst enemies!"
+          ]
+        },
+        {
+          "offset": 7964,
+          "source_words_sha256": "a86cb8ef5db04ad5fda145bcba8095c604f91011cd119f21345ed3227de5b243",
+          "parts": [
+            "Y-you're pretty good..."
+          ]
+        },
+        {
+          "offset": 8048,
+          "source_words_sha256": "f3b2ac6fbe2f0884d630eb22dd1497fba417428b37fa407e4c529bbbac9a726f",
+          "parts": [
+            "Hmph... Even among\nlowly creatures, some\ncan handle a sword..."
+          ]
+        },
+        {
+          "offset": 8268,
+          "source_words_sha256": "bec0ac8ef2b665a14644fd2774dde1d5c84e78709ad672742747bebf1e4553ea",
+          "parts": [
+            "You again, Yato brat!\n...Go a little easy on me..."
+          ]
+        },
+        {
+          "offset": 8384,
+          "source_words_sha256": "c7b13ef471d1952f9eff1c8514563cdb8e132094676efd2358b7e61a3cdcea2a",
+          "parts": [
+            "You agaaaain!\n...Um, who were you?"
+          ]
         }
       ]
     },
@@ -10084,6 +11911,69 @@
           "source_words_sha256": "f3c561bdb2bef75093a78428e0d808cf917a037fe04ae52c865eeca1c522c7b2",
           "parts": [
             "From what I see,\na beetle's\nsmarter than this guy."
+          ]
+        },
+        {
+          "offset": 24880,
+          "source_words_sha256": "141218e71ed0f0e2a8de048925469e7d86c7fabefcf3c8b084c326e7f9a00a7e",
+          "parts": [
+            "Pointless..."
+          ]
+        },
+        {
+          "offset": 26652,
+          "source_words_sha256": "af433b31943c4274dddc1d8a7b59635287de219b8619fb72487d9c4cea1b1c1e",
+          "parts": [
+            "Lousy character!\nQuit wasting scenes!"
+          ]
+        },
+        {
+          "offset": 27364,
+          "source_words_sha256": "8318e4d90b9afca2daf0b3358ec5226cd2f1ae7f5d83a54c821efdf90a27a3eb",
+          "parts": [
+            "What's this?\nArt...? Huh, cooking?!"
+          ]
+        },
+        {
+          "offset": 28980,
+          "source_words_sha256": "567e9d2672ccc6edc1ab5e626c0d91ff2efdd394d48703e21b6bb46bc8abd8b1",
+          "parts": [
+            "Even kids don't\neat parfaits nowadays...?"
+          ]
+        },
+        {
+          "offset": 30548,
+          "source_words_sha256": "b1207435e4eab569bb8d8ef2f62252ba617adbf4969690df4e0f9a107e385f29",
+          "parts": [
+            "More like the greatest\nhero of Sadist Country, huh?"
+          ]
+        },
+        {
+          "offset": 32856,
+          "source_words_sha256": "20ee10d2a37ff55b3fc526e96fcfb5e97e8339ad482ada0d1350a154ebff494b",
+          "parts": [
+            "And a fever over 40 C!"
+          ]
+        },
+        {
+          "offset": 33912,
+          "source_words_sha256": "13405aaf52932b0c1164336409ab2dca027eaeee37899d2a4e4ddddf3d1eb138",
+          "parts": [
+            "Can I use my souvenir\nwooden sword on him?"
+          ]
+        },
+        {
+          "offset": 34992,
+          "source_words_sha256": "9b17e3549843f72e55b953e487da675833d295904790d6516c9738f210c343fb",
+          "parts": [
+            "...Th-this is\nno joke..."
+          ]
+        },
+        {
+          "offset": 36904,
+          "source_words_sha256": "6aec74fb2cfb4504c825c19d1ff5b689f639d1def26828bea3c9d0f8684c9e1d",
+          "parts": [
+            "You're practically\nthe mafia, you lot!!"
           ]
         }
       ]
@@ -10289,6 +12179,69 @@
           "parts": [
             "Y-you! What are you doing?!\nTreating me like a bug?!"
           ]
+        },
+        {
+          "offset": 4764,
+          "source_words_sha256": "9c64027c7c3ad9cd767df261850adcce99262b12f289b799678e9531534a1896",
+          "parts": [
+            "Enough... Knock it off!"
+          ]
+        },
+        {
+          "offset": 5568,
+          "source_words_sha256": "ed259e9199a83e97902b7bc391d548139f32f2f0b255d36cd0f5f83b992c16be",
+          "parts": [
+            "Stinks!!\nWh-what are you doing?!"
+          ]
+        },
+        {
+          "offset": 5768,
+          "source_words_sha256": "2caf479dd2ce48f3914da466ffbce68cb3809d38039af37fdc1736356dd58f88",
+          "parts": [
+            "Wait! You!\nC-curry in my eyes!"
+          ]
+        },
+        {
+          "offset": 5932,
+          "source_words_sha256": "8bde66ea584ddc10180ba1fb54ab647706ddb32fc8b8e2765dd2b57d6e944d92",
+          "parts": [
+            "M-my eyes! My eyes?!"
+          ]
+        },
+        {
+          "offset": 6248,
+          "source_words_sha256": "2e2cfdad78981ad31f40683e03b189f36b03098fe2c49dcf347d965a6fe42b24",
+          "parts": [
+            "O-octopus ink?!\nDamn! Can't see a thing..."
+          ]
+        },
+        {
+          "offset": 6444,
+          "source_words_sha256": "98d17e28b549e986c44b3424eedb4bd622bf6085369109481c441564a9890b9d",
+          "parts": [
+            "Hijikata!! You...!\nYou bastaaaard!!"
+          ]
+        },
+        {
+          "offset": 6528,
+          "source_words_sha256": "fa49b7ceb96f1c21acf72c9950c423f171a03d84fd7c8086ec38b8ee42dd5042",
+          "parts": [
+            "Get him, Zura!"
+          ]
+        },
+        {
+          "offset": 6560,
+          "source_words_sha256": "42bb0e25c57d31280699dda7322750ac874e49485fccfcadc803db1a7e00a394",
+          "parts": [
+            "Whoa?! K-Katsura!!\nYou bastaaaard!!"
+          ]
+        },
+        {
+          "offset": 6644,
+          "source_words_sha256": "90a7359ee6e2dcc3649f587089dd451e1122d30b63a6424a2fa6f302859e5320",
+          "parts": [
+            "Get them, Kagura!"
+          ]
         }
       ]
     },
@@ -10492,6 +12445,69 @@
           "source_words_sha256": "ad1d80cbe0503344dc934f770ea20f7a9b65b1f4088d54e72376ab4167ac437a",
           "parts": [
             "Gwooooh?!\nTh-these eggs...\nThey're rotten!!"
+          ]
+        },
+        {
+          "offset": 2528,
+          "source_words_sha256": "b046c8c79d6349dcc82695cfd80413b26b6b394801e86a563496d4b10cf4e8b4",
+          "parts": [
+            "What are you dooooing!!"
+          ]
+        },
+        {
+          "offset": 2656,
+          "source_words_sha256": "6ec8671604b902e24a091f864de23245477cea0b993d219bc95bd1d367338482",
+          "parts": [
+            "Cook an egg and\nit's an omelet.\nWhatever state it's in."
+          ]
+        },
+        {
+          "offset": 2720,
+          "source_words_sha256": "8e1f61075ed3d05df5e0397d00b8eb93df1e2fdae587ab50d1e564046d63153a",
+          "parts": [
+            "Fugoooooh?!"
+          ]
+        },
+        {
+          "offset": 2772,
+          "source_words_sha256": "4dc1c66da646ff41505f226cd5689fb6faecda856db953cf43a2f9bbaff43bda",
+          "parts": [
+            "My, what a lovely omelet...\n............\nMY STOMACH HUUUURTS!!"
+          ]
+        },
+        {
+          "offset": 2876,
+          "source_words_sha256": "d119030680f2af9bfd661495cd10597dfabf66b7cfb2ad21f507a316fa5c4a07",
+          "parts": [
+            "Dosseiiiii!!!"
+          ]
+        },
+        {
+          "offset": 2964,
+          "source_words_sha256": "36490a8cb3ba781b07bfa168258f93a4551aa612cf950f13f2c3a3d9b44c7a2b",
+          "parts": [
+            "Don't move from there!!"
+          ]
+        },
+        {
+          "offset": 3124,
+          "source_words_sha256": "5fe227b5605600ef8666e0c31682546fde728d2a9dd11c4c41a6e73febc7d991",
+          "parts": [
+            "Heh heh heh..."
+          ]
+        },
+        {
+          "offset": 3152,
+          "source_words_sha256": "58c189db1dcfc9213ca6f5cce3fbf7715d7a41d60fe8033db83d2bc204d77d14",
+          "parts": [
+            "A-ah... A-anemia..."
+          ]
+        },
+        {
+          "offset": 3640,
+          "source_words_sha256": "96dbac72558ecae7ae146e1b92f838d0763ea0d83946af27883b952a44dba0e9",
+          "parts": [
+            "Ow! Ow-ow-ow?!\nI-ink in my eyes...!\nIt stiiiings?!"
           ]
         }
       ]
@@ -10767,6 +12783,69 @@
           "parts": [
             "Woooooh...\nStop that!!"
           ]
+        },
+        {
+          "offset": 4408,
+          "source_words_sha256": "0db379ea9e4b622f94c803634314a3c65fe24832ae2734a76415de4bc29e21ef",
+          "parts": [
+            "Hoooooot!! Didn't they\nteach you not to point\nfireworks at people?!"
+          ]
+        },
+        {
+          "offset": 4620,
+          "source_words_sha256": "894fabdac3b84f6263daea6db191b69d9598a03333fc800b8b7d4563c7adb8bd",
+          "parts": [
+            "Gwaaaaah!!\nA bomb... Who'd have thought..."
+          ]
+        },
+        {
+          "offset": 4772,
+          "source_words_sha256": "2afe25a5c887d3a359f06777e45553305d84e9d1428c0ea73fac6a79089d59f1",
+          "parts": [
+            "...What's that?"
+          ]
+        },
+        {
+          "offset": 4928,
+          "source_words_sha256": "dba4c392d41d89872a502afb1de501efb3abe3dd56b1a68bbe72078455dfe292",
+          "parts": [
+            "Ngaaaaah!!\nTh-that's...\nThat sealed-away weapon..."
+          ]
+        },
+        {
+          "offset": 5100,
+          "source_words_sha256": "87248dbb5e5e74412552b33238a67ad2a1b7dfe5c3e1129b47bbe09e5bff62b2",
+          "parts": [
+            "Cough! Cough!\nHeeey! Insecticide\non an old lady?!"
+          ]
+        },
+        {
+          "offset": 5744,
+          "source_words_sha256": "017dcdcdb1582786746e61df20c69c5a1a8294b37e82bb6196783a1a26086735",
+          "parts": [
+            "What are you dooooing?!\nYou natural perm!!"
+          ]
+        },
+        {
+          "offset": 6632,
+          "source_words_sha256": "d8b3d51b1e7a10c7c36909cd16e69f79904ad2faf04c37d15a50397e06aeed8f",
+          "parts": [
+            "Stinks?!\nWh-why natto?!"
+          ]
+        },
+        {
+          "offset": 6772,
+          "source_words_sha256": "029722bc1921ba5cb7dcb922479c94c4c33f17eb1af11251393f0102e1268c11",
+          "parts": [
+            "Hot-hot-hot-hot!!"
+          ]
+        },
+        {
+          "offset": 6828,
+          "source_words_sha256": "50dc4b055630bb21c58357b1eedd379554fb91d2410845724da6093ffa70d04c",
+          "parts": [
+            "Hey!! Curry!\nCurry in my eeeeeyes!!"
+          ]
         }
       ]
     },
@@ -10970,6 +13049,69 @@
           "source_words_sha256": "02dfb6afa286e4a074bcc81a69d2fe7c3f9bc2fc6feaa84427354674ae6f3b15",
           "parts": [
             "How's this... Lambada!"
+          ]
+        },
+        {
+          "offset": 2368,
+          "source_words_sha256": "c2e86b52cdb8c3269058b6f8dd56d31180d770b5fe9c91d041c11dfbd7e24a6f",
+          "parts": [
+            "Th-these eggs are rotten!"
+          ]
+        },
+        {
+          "offset": 2800,
+          "source_words_sha256": "1d26e6234051a926b1045e196df544688ddcc61406299aa8dcb5911e6e16c060",
+          "parts": [
+            "...? What's this...\nUrp...!"
+          ]
+        },
+        {
+          "offset": 2972,
+          "source_words_sha256": "ed9e111b7e6642e727a40bda61a29df2fe01149de4b90972e29b1899989b7bf1",
+          "parts": [
+            "Haiyaaaaah!!"
+          ]
+        },
+        {
+          "offset": 3004,
+          "source_words_sha256": "70d4dd94df524f63ebad2a99794047d2b81715d7e9a73ddc9a772f2eeafc27ba",
+          "parts": [
+            "Owwww?!"
+          ]
+        },
+        {
+          "offset": 3272,
+          "source_words_sha256": "e8f03e802adef947f554e286bff6060435314760fa1a79a6ae70a7142777573c",
+          "parts": [
+            "A little of your blood...\nThank you... Necromancer!"
+          ]
+        },
+        {
+          "offset": 3340,
+          "source_words_sha256": "a90335d447bbfaa6090baca6b3cb6c7067b4b0e6809185c8a904af10ca174a6e",
+          "parts": [
+            "A-ah... M-my blood..."
+          ]
+        },
+        {
+          "offset": 3860,
+          "source_words_sha256": "dafa6fd3c185b669e770a851c2f525b248d755bd72cf0cefbf37ebb0a3144f81",
+          "parts": [
+            "I-ink! Ink in my eyes!"
+          ]
+        },
+        {
+          "offset": 4036,
+          "source_words_sha256": "7f5c2a0542acaea08b7800bd4964b5197a3d2771cb29ad2d43e3fe153ce40cd0",
+          "parts": [
+            "Me? I'm fine.\nGot my ears covered!\nHere goes!"
+          ]
+        },
+        {
+          "offset": 4108,
+          "source_words_sha256": "f9dae4f3e52f9e223e78583b7638c890b83685bb92badb3467132e81d30eebd3",
+          "parts": [
+            "H-hey! Stop that\nsound... Teriyaki burger!"
           ]
         }
       ]
@@ -11175,6 +13317,69 @@
           "parts": [
             "Y-yes! Y-y-yessir!!"
           ]
+        },
+        {
+          "offset": 14680,
+          "source_words_sha256": "bfbc456effbe702aa911b658703ba64fa1acb7eccbaa910469ff1fbbd0716fc8",
+          "parts": [
+            "Y-yes! Y-y-yessir!!\nYessir!"
+          ]
+        },
+        {
+          "offset": 15920,
+          "source_words_sha256": "e676b1873879ed2cc65f6ee725eff402dcd7e04e82499ecd32eb102431d5e19a",
+          "parts": [
+            "Come on, get offscreen.\nYou're wasting storage."
+          ]
+        },
+        {
+          "offset": 16504,
+          "source_words_sha256": "a49ae5806ea35cfcaa6251edab46dc8cdb3ea3dc8dca4266d213840594cafbda",
+          "parts": [
+            "Four Devas?!\nAn evil secret society?!"
+          ]
+        },
+        {
+          "offset": 17684,
+          "source_words_sha256": "2b7ff1b28f65ffeffa6d6291b43833a1ce6a8a4547fbc398c692fc264e44cbbc",
+          "parts": [
+            "Curry... Honestly,\nit looks like THAT."
+          ]
+        },
+        {
+          "offset": 18620,
+          "source_words_sha256": "6df380d55034e1746e9cdf8b0ff68c970681980716a565fe600bd776747ff86a",
+          "parts": [
+            "Without natural curls,\nyou'd be popular... Maybe."
+          ]
+        },
+        {
+          "offset": 19788,
+          "source_words_sha256": "e4e80fe4c2c28d468024c7a053c849241b36eb7155966eef752e41f6151b1ea3",
+          "parts": [
+            "No number of turns\nis enough for\ndealing with you!"
+          ]
+        },
+        {
+          "offset": 20396,
+          "source_words_sha256": "8bebba90786b948775795458943ee3c3afd3f80f9f45e006b109ca6cc4cc9850",
+          "parts": [
+            "Pillow fight!\nAnd a brick fight too!"
+          ]
+        },
+        {
+          "offset": 21348,
+          "source_words_sha256": "6ab3d21f3e167f3fde4aa7975b38dd6b09b06bf0fd3a668140563797494faaab",
+          "parts": [
+            "...Aww, dropped\nmy barbecue. You can\neat that if you want."
+          ]
+        },
+        {
+          "offset": 22412,
+          "source_words_sha256": "293cc4a2b2e42e5aea1ed13844e01965ee0e7836971282c7cbc3985342f1212b",
+          "parts": [
+            "This country doesn't\nneed you Amanto!"
+          ]
         }
       ]
     },
@@ -11378,6 +13583,69 @@
           "source_words_sha256": "dfc94f901f0db8a19ac998d921224043bbb756480e0ce28aa4c669c8a088e50b",
           "parts": [
             "Ahaaaaah...\nYou... My blood...\nAhaaaaah..."
+          ]
+        },
+        {
+          "offset": 3760,
+          "source_words_sha256": "58b49bbb92ea8973e8720686b25050ac62aa3e47858d4c272fdc80a4a6b04e2d",
+          "parts": [
+            "Ngh?! Is that ink?\nOw-ow... Stings my eyes!!"
+          ]
+        },
+        {
+          "offset": 4020,
+          "source_words_sha256": "7524e95eba47a6c779f0fa9e8bed5de81ba2dfdcf02ee6a557cc5842a39da849",
+          "parts": [
+            "Wait! That's not okay...\nNot just drag queens.\nNobody should get that!"
+          ]
+        },
+        {
+          "offset": 4212,
+          "source_words_sha256": "b6dfbd2793af38b8d355710375b6bbb676e33feb2785eb0a4004badc24e551d6",
+          "parts": [
+            "Hot-hot-hot!!\nHot?\nHot-hot-hot!!"
+          ]
+        },
+        {
+          "offset": 4376,
+          "source_words_sha256": "c373365eff91cdb3539a52c3ffadb008019a7ccd71816248e7e2870c1c60b864",
+          "parts": [
+            "Gyaboooooh!!"
+          ]
+        },
+        {
+          "offset": 4488,
+          "source_words_sha256": "5d7ae3dabd4b92dd76264c65c1a84204b58305be50cb8827b0399bb65129de38",
+          "parts": [
+            "Ow!\n...What's that?"
+          ]
+        },
+        {
+          "offset": 4568,
+          "source_words_sha256": "cc32e616d3a4c59ee89140cfb9bd27f5de46b8047ff0b408b9b29ed18ce3ffe9",
+          "parts": [
+            "Heh... This Neo Armstrong...\nWhat was it? Forget it!\nDrag Queen Cannon, FIRE!!"
+          ]
+        },
+        {
+          "offset": 4688,
+          "source_words_sha256": "d1e2c45d23033c5baedc17ee24de01dccfeb226fba27990a1f7102e089cf4d4e",
+          "parts": [
+            "Dabaaaaaah!!!\nWh-where'd you get\nsomething that dangerous...?"
+          ]
+        },
+        {
+          "offset": 4848,
+          "source_words_sha256": "be68a55e6964cdcf23528468eafe7917701a585a58f26ea6fce1bd203715f536",
+          "parts": [
+            "W-wait a minute!!\nThey call us butterflies,\nbut insecticide? Really?!"
+          ]
+        },
+        {
+          "offset": 6392,
+          "source_words_sha256": "527719ae0770c3c169711c51121fe6a27b352ed9ae7800b966f79f65ec529bee",
+          "parts": [
+            "Ow-ow-ow... In my eye?!\nCarrot? Ow! Potato?\nOw! No, carrooooot?!"
           ]
         }
       ]
@@ -11912,6 +14180,69 @@
           "parts": [
             "Now!\nGo, Sadomaru No. 22!"
           ]
+        },
+        {
+          "offset": 9028,
+          "source_words_sha256": "7c4b18116e03a2ebbdd891ae962ea37ed4fc5003f8af5f4fa8a725cc8e53e568",
+          "parts": [
+            "Gah!! Wait! It's huge!\nToo big! Wait...!"
+          ]
+        },
+        {
+          "offset": 9224,
+          "source_words_sha256": "3b6ef17a0717f340445b6740fdae56f24758b987de317ac820fcd66b00b030db",
+          "parts": [
+            "It's buuuurning!\nSomething inside meeeee!"
+          ]
+        },
+        {
+          "offset": 9540,
+          "source_words_sha256": "28269c32977161821aa6934fe5f0eefbe5c802bef5fa4eb6b6686474b5a1cc29",
+          "parts": [
+            "Whoa! This is my share.\nThis is Gin's. My share.\nKagura's. My share..."
+          ]
+        },
+        {
+          "offset": 9680,
+          "source_words_sha256": "1a1f46b10bac7505b41a8291c3b5d2efc3ff65034864d0153b9d1fa6b182ab0c",
+          "parts": [
+            "G-Gin... Hijikata...\nYou didn't have\nto use THAT on me..."
+          ]
+        },
+        {
+          "offset": 9916,
+          "source_words_sha256": "6f4c9c0bcc90e49ce66380dca68c07e48dc6898847c8d137fdc9649af56291f1",
+          "parts": [
+            "Too slow."
+          ]
+        },
+        {
+          "offset": 9992,
+          "source_words_sha256": "3bb6b4b314cde0d6afa48e1419faff0fa1976df7b6e5aea23e3ab1f60ba0e148",
+          "parts": [
+            "Surprisingly good, isn't it?"
+          ]
+        },
+        {
+          "offset": 10028,
+          "source_words_sha256": "8fb35bfedbb9186adaf3ad638401e0d11c0513a05f53a1e62d1609ce5bec659d",
+          "parts": [
+            "Kagura's enough\npickled kelp for me."
+          ]
+        },
+        {
+          "offset": 10108,
+          "source_words_sha256": "79799f7def33d05b82b02cfc35ce70110f8b5b98070eb8e286f0f76426d42920",
+          "parts": [
+            "Mmm, tasty."
+          ]
+        },
+        {
+          "offset": 10188,
+          "source_words_sha256": "43aab0a684fc711b49dd4b9279e2a9cfd82ce26cf9c75451e3b7f784a13e3f64",
+          "parts": [
+            "So sweet...\nNo wonder Sis likes it."
+          ]
         }
       ]
     },
@@ -12116,6 +14447,69 @@
           "parts": [
             "Thoroughly rotten...\nHeh... My head's spinning."
           ]
+        },
+        {
+          "offset": 2236,
+          "source_words_sha256": "93dd208664682150634026e5a55c78956baca425bdf631dfe9b521bc0fa95d81",
+          "parts": [
+            "You...\nEggs... Raw eggs...\nUgh..."
+          ]
+        },
+        {
+          "offset": 2628,
+          "source_words_sha256": "50f3461ad85dbb680091070dae7e7d847e445403345015d6f5f99f1565c6ca4c",
+          "parts": [
+            "Guh?!...\nWhat? An unknown weapon?"
+          ]
+        },
+        {
+          "offset": 2792,
+          "source_words_sha256": "492132935b03393aa42473e0cedb56a479496c8180692b511b5fa5676b323659",
+          "parts": [
+            "Show me your beast!"
+          ]
+        },
+        {
+          "offset": 2828,
+          "source_words_sha256": "1411d499eaad112c103fa17c187182182f19f0d04da79ec0cd824639a367f167",
+          "parts": [
+            "...Guh?!\nBarehanded?!"
+          ]
+        },
+        {
+          "offset": 2928,
+          "source_words_sha256": "3be4ebc200b5b75768bc1dab91005f5a0acd7e19e91b27a07be5affcc53f3cde",
+          "parts": [
+            "I'll take you on."
+          ]
+        },
+        {
+          "offset": 3040,
+          "source_words_sha256": "c0aa41748df110af3e5667139600407e80ea1182d1d768e02a515adec91a486e",
+          "parts": [
+            "Give me... Your blood!"
+          ]
+        },
+        {
+          "offset": 3080,
+          "source_words_sha256": "7d43a427dae8deb073082a87d0f49df1388718467c379c7be3994955af50890b",
+          "parts": [
+            "You... My blood?!"
+          ]
+        },
+        {
+          "offset": 3592,
+          "source_words_sha256": "babac67def1fc74393de5c05104b8290e4665e13c2fa4a526613ff0e3f435a25",
+          "parts": [
+            "...?! Squid ink?\nGuh... Can't see ahead..."
+          ]
+        },
+        {
+          "offset": 4028,
+          "source_words_sha256": "34085a6e12d60a312d520c0668455e4e8aef586b1aa32b1196d9ed88009b9616",
+          "parts": [
+            "Hey, give me a break...\nYou'll put holes\nin my kimono..."
+          ]
         }
       ]
     },
@@ -12312,6 +14706,62 @@
           "source_words_sha256": "7f1834934eaec5f58f4f01b662e607f00dacdbc92ce9dcbd192581cb17490079",
           "parts": [
             "Th-these eggs are rotten!"
+          ]
+        },
+        {
+          "offset": 2664,
+          "source_words_sha256": "a4ac6f278bee7a2d5245190f031995f8f94f558d87e5e2338314ef7757ea9566",
+          "parts": [
+            "Gyaaaah?!\nA w-weapon! Some kind of weapon!"
+          ]
+        },
+        {
+          "offset": 2744,
+          "source_words_sha256": "b521279bce4f172ca3c71bbc73558937a667c73d07191d5efb38720a9bbfbf32",
+          "parts": [
+            "P-poison...\nAll through my body!"
+          ]
+        },
+        {
+          "offset": 3064,
+          "source_words_sha256": "50d2255bdbceec2109af9231f158049b7a32f259b15940f67ac7838033b4b5a1",
+          "parts": [
+            "High blood pressure, huh?\nI'll take a little."
+          ]
+        },
+        {
+          "offset": 3116,
+          "source_words_sha256": "6c5c50273c381da4b2260364bb3daea14e2e8d12eddf2655fac4bf8b1d6bda2e",
+          "parts": [
+            "M-my blood...!"
+          ]
+        },
+        {
+          "offset": 3620,
+          "source_words_sha256": "274a3fd77d775ed98dcaf10e6a0d47c79d557c383b465a1c686987e20f95f42c",
+          "parts": [
+            "Squid ink's good for you...\nBut not your eyes--\nOw-ow-ow!"
+          ]
+        },
+        {
+          "offset": 3904,
+          "source_words_sha256": "1d5982d816bfe0745b61025d8a16e94ec0cad2e37f546cb85136594ada33d52a",
+          "parts": [
+            "S-stop it!!"
+          ]
+        },
+        {
+          "offset": 4044,
+          "source_words_sha256": "ab68c0a6701787430c484da2a3df60d450b75fe09face40b4887842c69561f47",
+          "parts": [
+            "Hot-hot-hot-hot!!"
+          ]
+        },
+        {
+          "offset": 4180,
+          "source_words_sha256": "c716248d5e387fcb3fff4ac67f046a4f6bde8a7604d3e8ad1303a2d2df51130c",
+          "parts": [
+            "Gwaaaaah!!"
           ]
         }
       ]
