@@ -6,7 +6,7 @@ The numbered batches cover editable field records, not every line of the game. B
 - `review/field/batch_0090.json` through `batch_0114.json`: 4,814 records in 25 research batches. These are not ready for translation or patching and do not appear in the editor.
 - `reference/field_batch_coverage.json`: the assignment of every previously unbatched record, its review blockers and any exact match to an existing translated entry.
 
-All new English fields start empty. Creating a template does not count as translating it. The 71 earlier numbered batches and their English remain unchanged. There are now 89 editable numbered batches, with 71 complete.
+All new English fields start empty. Creating a template does not count as translating it. The 71 earlier numbered batches and their English remain unchanged. There are now 89 editable numbered batches, with 72 complete. Batch 72 has been translated and checked as a test of the new queue.
 
 ## Translate an editable batch
 
