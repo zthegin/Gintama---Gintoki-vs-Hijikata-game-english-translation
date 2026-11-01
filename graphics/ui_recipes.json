@@ -9827,6 +9827,38 @@
         16
       ],
       "id": "ui_region_174"
+    },
+    {
+      "asset": "screen/j_16.nbfc",
+      "source_SHA256": "992a203e564085a5808b892ea78500fd306b4f565aea26766ae5626f30692761",
+      "palette": "screen/j_16.nbfp",
+      "mapped": false,
+      "dimensions": [
+        32,
+        32
+      ],
+      "cell": [
+        32,
+        16
+      ],
+      "id": "ui_region_175",
+      "labels": [
+        {
+          "English_UI": "CLEAR",
+          "rect": [
+            0,
+            17,
+            32,
+            28
+          ],
+          "font_style": "crisp",
+          "pixel_height": 7,
+          "maximum_integer_scale": 1,
+          "background": 0,
+          "ink": 2,
+          "edge": 0
+        }
+      ]
     }
   ],
   "ui_text": [

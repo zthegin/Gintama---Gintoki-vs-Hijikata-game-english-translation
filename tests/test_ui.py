@@ -194,7 +194,7 @@ class UIBuilderTests(unittest.TestCase):
         letters = images.read_json(ROOT / "graphics/lowercase_font.json")["letters"]
         with contextlib.redirect_stdout(io.StringIO()):
             result, report = ui.build(source, recipe, catalog, batch, alphabet, letters)
-        self.assertEqual((report["graphics"], report["ui_text"]), (649, 122))
+        self.assertEqual((report["graphics"], report["ui_text"]), (650, 122))
         self.assertEqual(apply(source, create(source, result)), result)
         before = images.nds_files(source)
         after = images.nds_files(result)
