@@ -194,7 +194,7 @@ class UIBuilderTests(unittest.TestCase):
         letters = images.read_json(ROOT / "graphics/lowercase_font.json")["letters"]
         with contextlib.redirect_stdout(io.StringIO()):
             result, report = ui.build(source, recipe, catalog, batch, alphabet, letters)
-        self.assertEqual((report["graphics"], report["ui_text"]), (650, 122))
+        self.assertEqual((report["graphics"], report["ui_text"]), (650, 125))
         self.assertEqual(apply(source, create(source, result)), result)
         before = images.nds_files(source)
         after = images.nds_files(result)
@@ -232,9 +232,9 @@ class UIBuilderTests(unittest.TestCase):
             for row in recipe["script_labels"] if row["script"] == "adventure/script/s01.msb"
         ]
         ui.unchanged_outside(old_scene, new_scene, scene_spans + choice_labels)
-        self.assertEqual(len(recipe["script_labels"]), 13)
+        self.assertEqual(len(recipe["script_labels"]), 24)
         self.assertEqual(report["script_labels"]
-                         + len(report["script_labels_covered_by_messages"]), 13)
+                         + len(report["script_labels_covered_by_messages"]), 24)
         occupied = {ui.dialogue.FIELD: spans, "adventure/script/s01.msb": scene_spans}
         expected_covered = {
             row["id"] for row in recipe["script_labels"]

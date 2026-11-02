@@ -93,7 +93,7 @@ These counts measure text records, not hours of gameplay.
 | Battle dialogue | 2,125 / 142,242 entries | 1.49% |
 | Opening cutscene | 556 entries | Full cutscene total not catalogued |
 | Graphical variants | 650 | Total not catalogued |
-| Native UI text | 122 slots | Total not catalogued |
+| Native UI text | 125 slots | Total not catalogued |
 
 All 22,480 currently indexed field records have English text across 114 completed numbered batches. This includes dialogue, short menu labels and a few developer placeholder messages. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
 

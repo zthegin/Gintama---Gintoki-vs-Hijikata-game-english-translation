@@ -10639,6 +10639,30 @@
       "id": "ui_text_063",
       "offset": 1199720,
       "source_sha256": "436f994e81b43b0c88c266ae5018caf2ec91dbb6536ab3b3d7c36fad20e18197"
+    },
+    {
+      "id": "quest_faulty_goods_title",
+      "offset": 1018356,
+      "word_capacity": 15,
+      "source_sha256": "f4d02ccf5bb15bbc21ade8db7a4ab6cd375eb51d805b1b32e694e34de882568c",
+      "English_UI": "Faulty Goods Co",
+      "maximum_line_width": 248
+    },
+    {
+      "id": "quest_faulty_goods_summary",
+      "offset": 1018392,
+      "word_capacity": 63,
+      "source_sha256": "ee6feac180310fe21678a8e9ab961544af8eb0ce5ce4930a7d85935ad410bf11",
+      "English_UI": "Yamazaki's racket was junk.\nArrest Marilyn and Michael!",
+      "maximum_line_width": 248
+    },
+    {
+      "id": "quest_faulty_goods_detail",
+      "offset": 1018520,
+      "word_capacity": 127,
+      "source_sha256": "c01ac0bbcd48df986ec575815a148e657432ce62ac2141f4b524f513fe753aef",
+      "English_UI": "Yamazaki's racket broke in one swing.\nShoddy mail-order goods! Find and arrest\nMarilyn and Michael, who fled.",
+      "maximum_line_width": 248
     }
   ],
   "item_text": [
@@ -11223,6 +11247,94 @@
       "word_capacity": 15,
       "source_sha256": "5fa616a66f89e61d89433008ef420d939160f99fab8f63092870a5e97ec8ff2a",
       "english": "if you need to check anything."
+    },
+    {
+      "id": "tutorial_choice_fda48",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038920,
+      "word_capacity": 11,
+      "source_sha256": "c799a31b8c19ac06e93e76b47d8cae4f968ad2efecc80a28a09ec51223ff7e13",
+      "english": "Gin Tama Battles"
+    },
+    {
+      "id": "tutorial_choice_fda60",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038944,
+      "word_capacity": 11,
+      "source_sha256": "fd73254d6701d42df27ec4e709e492951ae921349fef96467b217d167e1a1f33",
+      "english": "Cases and Quests"
+    },
+    {
+      "id": "tutorial_choice_fda78",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038968,
+      "word_capacity": 16,
+      "source_sha256": "21d9188d8b59709c662bcbb8e7f9f64f1fc852d59d877c89837dd3b272ead115",
+      "english": "Gacha Gin Tama de Pon!"
+    },
+    {
+      "id": "tutorial_choice_fda9c",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1039004,
+      "word_capacity": 12,
+      "source_sha256": "78dc0e6cf230416079295f9f87bb268b49b252db97eed5cc847018f7210233bd",
+      "english": "Too long. Never mind."
+    },
+    {
+      "id": "tutorial_choice_fd9f8",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038840,
+      "word_capacity": 12,
+      "source_sha256": "6ffe7596c258f38911c0c973c5294cdded8dc7734a977776ccafab89a8d763f2",
+      "english": "Battle Rules"
+    },
+    {
+      "id": "tutorial_choice_fda14",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038868,
+      "word_capacity": 9,
+      "source_sha256": "95790d83b2464285ff50c87f8d8b31df4e5117af83920d5c649525de6bc899c4",
+      "english": "Face-Down Tama"
+    },
+    {
+      "id": "tutorial_choice_fda28",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038888,
+      "word_capacity": 10,
+      "source_sha256": "463e723a4b3c519ecbfce02d9c1b4a08a7b29e1cf57b643ff2b34b1346eab440",
+      "english": "Character Tama"
+    },
+    {
+      "id": "tutorial_choice_fdab8",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1039032,
+      "word_capacity": 10,
+      "source_sha256": "068ce4f8f3f2c9d7ad57cd2a6d7e0f206107d0cc03240682a0064d6a77bd74c1",
+      "english": "What Are Quests?"
+    },
+    {
+      "id": "tutorial_choice_fdad0",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1039056,
+      "word_capacity": 17,
+      "source_sha256": "cbff0ae7dd5a152a1fa556cc6f7fae2cc35456c459f48e853760710f172f600a",
+      "english": "Starting and Solving Quests"
+    },
+    {
+      "id": "tutorial_choice_fd9e8",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1038824,
+      "word_capacity": 7,
+      "source_sha256": "dbbc55d80d2494107e7e7940c9ed2cc55ab644c4ca888a83a3251c701784251c",
+      "english": "Never mind"
+    },
+    {
+      "id": "tutorial_choice_fdaf4",
+      "script": "field/script/fld_scr.msb",
+      "offset": 1039092,
+      "word_capacity": 7,
+      "source_sha256": "dbbc55d80d2494107e7e7940c9ed2cc55ab644c4ca888a83a3251c701784251c",
+      "english": "Never mind"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Translating graphics and UI
 
-The full local builder reproduces **650 graphical variants and 122 native UI text slots** from the supported original ROM. The browser editor handles the 193 Gin Tama name images; the other formats use the checked recipes in `graphics/ui_recipes.json`. No extracted artwork, native font records or palettes are bundled.
+The full local builder reproduces **650 graphical variants and 125 native UI text slots** from the supported original ROM. The browser editor handles the 193 Gin Tama name images; the other formats use the checked recipes in `graphics/ui_recipes.json`. No extracted artwork, native font records or palettes are bundled.
 
 ## Full UI build
 
