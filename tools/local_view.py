@@ -8,10 +8,16 @@ import argparse
 import csv
 import html
 import json
+import struct
 import zipfile
 from pathlib import Path
 
 from sync_csv import escape
+from dialogue_writer import LINE, PAGE, read_json, record_terminator, words_at
+from field_markup import INLINE_CONTROLS, ACCENT
+from image_workflow import sha
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def collect(zip_path: Path, batch_path: Path) -> list[dict]:
@@ -37,6 +43,69 @@ def collect(zip_path: Path, batch_path: Path) -> list[dict]:
                 "decode_status": original["decode_status"],
             }
         )
+    return rows
+
+
+def collect_source(msb_path: Path, batch_path: Path, *, root: Path = ROOT) -> list[dict]:
+    """Read only hash-verified message spans from the matching local source file."""
+    reference = read_json(root / "reference/record_index.json")
+    field = msb_path.read_bytes()
+    if sha(field) != reference["source_msb_sha256"]:
+        raise ValueError("Original dialogue hash mismatch")
+    lookup = {entry["id"]: entry for entry in reference["records"]}
+    if len(lookup) != len(reference["records"]):
+        raise ValueError("Duplicate reference ID")
+    glyphs = read_json(root / "reference/glyph_codes_public.json")["codes"]
+    batch = read_json(batch_path)
+    rows, seen = [], set()
+    markers = {LINE: "\n", PAGE: "\f", 0xFF81: "[red]", 0xFF82: "[blue]", 0xFF84: "[/color]"}
+    markers.update({code: f"[ctrl:{code:04X}]" for code in INLINE_CONTROLS | {ACCENT}})
+    for entry in batch["records"]:
+        identifier = entry["id"]
+        if identifier in seen or identifier not in lookup or not identifier.startswith("msb_"):
+            raise ValueError("Unknown or duplicate dialogue ID: " + identifier)
+        seen.add(identifier)
+        indexed = lookup[identifier]
+        if entry["source_words_sha256"] != indexed["source_words_sha256"]:
+            raise ValueError("Source hash mismatch: " + identifier)
+        raw_colors = indexed.get("raw_color_controls", False)
+        if type(raw_colors) is not bool:
+            raise ValueError("Invalid raw color control metadata")
+        record_markers = dict(markers)
+        if raw_colors:
+            record_markers.update({code: f"[ctrl:{code:04X}]" for code in (0xFF81, 0xFF82, 0xFF83, 0xFF84)})
+        terminator = record_terminator(indexed)
+        words = words_at(field, int(indexed["offset_hex"], 16), terminator=terminator)
+        raw = struct.pack("<" + "H" * len(words), *words)
+        if sha(raw) != indexed["source_words_sha256"]:
+            raise ValueError("Source span hash mismatch: " + identifier)
+        suffix = indexed.get("trailing_controls", [])
+        if not isinstance(suffix, list) or (suffix and
+                (terminator != 0 or suffix != [0xFF81] or type(suffix[0]) is not int)):
+            raise ValueError("Unsupported protected dialogue suffix")
+        if len(words) <= len(suffix) + 1:
+            raise ValueError("Empty dialogue source prefix")
+        if suffix and words[-len(suffix)-1:-1] != suffix:
+            raise ValueError("Protected dialogue suffix changed")
+        editable = words[:-len(suffix)-1] if suffix else words[:-1]
+        text = []
+        for code in editable:
+            if code in record_markers:
+                text.append(record_markers[code])
+            elif 1 <= code <= 6953 and f"0x{code:04X}" in glyphs:
+                value = glyphs[f"0x{code:04X}"]
+                if not isinstance(value, str) or len(value) != 1:
+                    raise ValueError("Invalid source glyph mapping")
+                text.append(value)
+            else:
+                raise ValueError(f"Unresolved source glyph or control: {code:04X}")
+        rows.append({
+            "id": identifier,
+            "japanese": "".join(text),
+            "english": entry["english"] or "",
+            "translator_note": entry["translator_note"] or "",
+            "decode_status": indexed["decode_status"],
+        })
     return rows
 
 
@@ -119,13 +188,16 @@ section{border-bottom:1px solid #ddd;padding:1rem 0}h2{font-size:1.05rem}small{c
 
 def main():
     p = argparse.ArgumentParser(
-        description="Build private side-by-side CSV, Markdown or HTML from your own extraction"
+        description="Build a private side-by-side preview from your matching MSB or extraction"
     )
-    p.add_argument(
-        "--extraction",
-        type=Path,
-        required=True,
-        help="Your local private-extraction.zip",
+    inputs = p.add_mutually_exclusive_group(required=True)
+    inputs.add_argument(
+        "--extraction", "--zip", dest="extraction", type=Path,
+        help="Your local private-extraction.zip (legacy span hashes)",
+    )
+    inputs.add_argument(
+        "--msb", type=Path,
+        help="Matching original field MSB; reads current trusted message spans",
     )
     p.add_argument(
         "--batch",
@@ -148,12 +220,15 @@ def main():
         p.error(
             "The private source preview must be written OUTSIDE the public repository"
         )
-    if resolved in {args.extraction.resolve(), args.batch.resolve()}:
-        p.error("Preview output must be separate from the extraction and batch inputs")
-    rows = collect(args.extraction, args.batch)
+    source_path = args.msb if args.msb is not None else args.extraction
+    if resolved in {source_path.resolve(), args.batch.resolve()}:
+        p.error("Preview output must be separate from the source and batch inputs")
+    rows = (collect_source(args.msb, args.batch, root=repo)
+            if args.msb is not None else collect(args.extraction, args.batch))
     save(rows, args.format, output)
     print(f"Wrote {len(rows)} records to {resolved} (PRIVATE LOCAL VIEW)")
 
 
 if __name__ == "__main__":
     main()
+

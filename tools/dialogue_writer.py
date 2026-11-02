@@ -7,13 +7,13 @@ import struct
 from pathlib import Path
 
 from english_font import encode_text
-from field_markup import COLOR_CONTROLS, COLOR_MARKER, color_tokens, strip_colors
+from field_markup import COLOR_CONTROLS, TEXT_CONTROLS, TEXT_MARKER, color_tokens, strip_colors
 from image_workflow import require, sha
 from text_policy import check_safe_text, strict_json
 
 ROOT = Path(__file__).resolve().parents[1]
 LINE, END, PAGE = 0xFF70, 0xFF71, 0xFF72
-FIELD_CONTROLS = frozenset({LINE, END, PAGE}) | COLOR_CONTROLS
+FIELD_CONTROLS = frozenset({LINE, END, PAGE}) | TEXT_CONTROLS
 FIELD = "field/script/fld_scr.msb"
 CDB = "field/script/fld_scr.cdb"
 
@@ -62,17 +62,27 @@ def load_records(root=ROOT, batch=None):
     return result
 
 
-def words_at(field, offset, *, minimum_offset=16):
+def record_terminator(indexed):
+    require("raw_color_controls" not in indexed or type(indexed["raw_color_controls"]) is bool, "Invalid raw color controls flag")
+    termination = indexed.get("termination", "end")
+    require(isinstance(termination, str) and termination in {"end", "nul"}, "Invalid indexed termination")
+    return 0 if termination == "nul" else END
+
+
+def words_at(field, offset, *, minimum_offset=16, terminator=END):
     require(
         type(offset) is int and minimum_offset <= offset < len(field) and offset % 2 == 0,
         "Invalid dialogue offset",
     )
+    require(type(terminator) is int and terminator in {END, 0}, "Invalid dialogue terminator")
     words = []
     for at in range(offset, len(field) - 1, 2):
         word = struct.unpack_from("<H", field, at)[0]
+        require(terminator != 0 or word != END, "Unexpected END inside NUL record")
         words.append(word)
-        if word == END:
-            require(field[at + 2 : at + 4] == b"\0\0", "Missing dialogue separator")
+        if word == terminator:
+            if terminator == END:
+                require(field[at + 2 : at + 4] == b"\0\0", "Missing dialogue separator")
             return words
     raise ValueError("Unterminated dialogue")
 
@@ -87,14 +97,14 @@ def layout(text, fonts, latin, width=176):
     strip_colors(text)  # Validate the complete spans before wrapping fragments.
 
     def size(line):
-        codes = encode_text(COLOR_MARKER.sub("", line), latin)
+        codes = encode_text(TEXT_MARKER.sub("", line), latin)
         return max(
             sum(advance(code, font, stride) for code in codes) for font, stride in fonts
         )
 
     pages = []
     for page in text.split("\f"):
-        require(bool(COLOR_MARKER.sub("", page).strip()), "Empty dialogue page")
+        require(bool(TEXT_MARKER.sub("", page).strip()), "Empty dialogue page")
         lines = []
         for paragraph in page.split("\n"):
             line = ""
@@ -122,18 +132,18 @@ def layout(text, fonts, latin, width=176):
     return laid_out, codes
 
 
-def check_layout(words, fonts, width=176):
+def check_layout(words, fonts, width=176, *, terminator=END):
     for font, stride in fonts:
         x, line = 0, 0
         for word in words:
-            if word == END:
+            if word == terminator:
                 break
             if word == PAGE:
                 x, line = 0, 0
             elif word == LINE:
                 x, line = 0, line + 1
                 require(line < 3, "Dialogue exceeds three lines")
-            elif word in COLOR_CONTROLS:
+            elif word in TEXT_CONTROLS:
                 continue
             else:
                 x += advance(word, font, stride)
@@ -165,44 +175,64 @@ def patch(field, cdb, records, reference, fonts, latin, *, packer=None):
             "Dialogue source hash changed: " + entry_id,
         )
         offset = int(source["offset_hex"], 16)
-        original = words_at(field, offset)
+        terminator = record_terminator(source)
+        original = words_at(field, offset, terminator=terminator)
+        suffix = source.get("trailing_controls", [])
+        require(isinstance(suffix, list) and (not suffix or
+                (terminator == 0 and suffix == [0xFF81] and type(suffix[0]) is int)),
+                "Unsupported protected dialogue suffix")
+        require(len(original) > len(suffix) + 1, "Empty dialogue source prefix")
+        if suffix:
+            require(original[-len(suffix)-1:-1] == suffix, "Protected dialogue suffix changed")
+        editable_original = original[:-len(suffix)-1] if suffix else original[:-1]
         raw = struct.pack("<" + "H" * len(original), *original)
         require(
             sha(raw) == source["source_words_sha256"],
             "Dialogue source span changed: " + entry_id,
         )
         require(
-            all(1 <= word <= 6953 or word in FIELD_CONTROLS for word in original),
+            all(1 <= word <= 6953 or word in FIELD_CONTROLS for word in original[:-1]),
             "Complex dialogue controls need separate handling: " + entry_id,
         )
         check_safe_text(row["english"], entry_id)
         require(
-            row["english"].count("\f") == original.count(PAGE),
+            row["english"].count("\f") == editable_original.count(PAGE),
             "Preserve dialogue page count: " + entry_id,
         )
         laid_out, codes = layout(row["english"], fonts, latin)
+        if terminator == 0:
+            line_limits = [1]
+            for word in editable_original:
+                if word == PAGE:
+                    line_limits.append(1)
+                elif word == LINE:
+                    line_limits[-1] += 1
+            require(all(page.count("\n") + 1 <= limit
+                        for page, limit in zip(laid_out.split("\f"), line_limits)),
+                    "Menu text exceeds its original line count: " + entry_id)
         require(
-            [word for word in codes if word in COLOR_CONTROLS or word == PAGE]
-            == [word for word in original if word in COLOR_CONTROLS or word == PAGE],
+            [word for word in codes if word in TEXT_CONTROLS or word == PAGE]
+            == [word for word in editable_original if word in TEXT_CONTROLS or word == PAGE],
             "Preserve dialogue color controls and their page order: " + entry_id,
         )
-        if len(codes) >= len(original) and packer is not None:
-            codes = packer.pack(codes, len(original) - 1)
-        padding = len(original) - len(codes) - 1
+        budget = len(editable_original)
+        if len(codes) > budget and packer is not None:
+            codes = packer.pack(codes, budget)
+        padding = budget - len(codes)
         require(
             padding >= 0,
-            f"{entry_id}: English needs {len(codes) + 1} words; the fixed slot holds {len(original)}. Shorten the line; text is never truncated.",
+            f"{entry_id}: English needs {len(codes)} words; the fixed slot holds {budget}. Shorten the line; text is never truncated.",
         )
-        encoded = codes + [1] * padding + [END]
+        encoded = codes + [1] * padding + suffix + [terminator]
         require(
-            [word for word in encoded if word in COLOR_CONTROLS or word == PAGE]
-            == [word for word in original if word in COLOR_CONTROLS or word == PAGE],
+            [word for word in encoded[:budget] if word in TEXT_CONTROLS or word == PAGE]
+            == [word for word in editable_original if word in TEXT_CONTROLS or word == PAGE],
             "Packed dialogue color controls changed: " + entry_id,
         )
-        check_layout(encoded, fonts)
+        check_layout(encoded, fonts, terminator=terminator)
         payload = struct.pack("<" + "H" * len(encoded), *encoded)
         end = offset + len(payload)
-        require(payload[-2:] == field[end - 2 : end] == b"q\xff", "Dialogue END moved")
+        require(payload[-2:] == field[end - 2 : end] == struct.pack("<H", terminator), "Dialogue END moved")
         target[offset:end] = payload
         spans.append((offset, end))
         report.append(

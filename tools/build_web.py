@@ -170,8 +170,8 @@ def build(out: Path, *, repository: str | None = None):
                         "line_breaks",
                         "duplicate_count",
                     )
-                } | ({"control_sequence": original["control_sequence"]}
-                     if "control_sequence" in original else {})
+                } | {key: original[key] for key in ("control_sequence", "termination", "trailing_controls", "raw_color_controls")
+                     if key in original}
             )
         metadata = assets / "metadata" / rel
         metadata.parent.mkdir(parents=True, exist_ok=True)

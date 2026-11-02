@@ -1,0 +1,697 @@
+{
+  "format": "gintama-field-record-migrations-v1",
+  "notes": [
+    "Functional indexing corrections only; no source text or game bytes.",
+    "These86 formerly overlong spans are now bounded by CDB-referenced NUL strings. Other choice labels may still need indexing."
+  ],
+  "records": [
+    {
+      "id": "msb_000FC054",
+      "previous_scanned_sha256": "c30a7d0cc7ab0444611a27df88044302e718e8cc55400e70217142300c6714f2",
+      "prefix_sha256": "4fad526b43058fd1449be10706fe67fc4dc7b44e0124ffe0ecc2d2df385887d4",
+      "offset_hex": "0xFC054",
+      "terminator_offset_hex": "0xfc06a",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FC228",
+      "previous_scanned_sha256": "1c60b8e0e4d3bff92be3dc82fd71c7932e794de7d863aade5c675a914da18b5b",
+      "prefix_sha256": "375c60c15bf284545f950712dbc16bc0a26d52799a560eb976c8fccdcb0f29f8",
+      "offset_hex": "0xFC228",
+      "terminator_offset_hex": "0xfc238",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FC334",
+      "previous_scanned_sha256": "55831533530a91bb13dab1f39727f661f196657d0c030cb86410f1c9b0b6a1ad",
+      "prefix_sha256": "1850ad2d76bd1925c042c0bd3c6f6ff461fd2bc0a37f52e1a92d1afb6b23718f",
+      "offset_hex": "0xFC334",
+      "terminator_offset_hex": "0xfc34c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FC83C",
+      "previous_scanned_sha256": "105f498c9dfcb5529c80a80e716c0443f56bb07dab5759c43094cec005f8b34b",
+      "prefix_sha256": "1850ad2d76bd1925c042c0bd3c6f6ff461fd2bc0a37f52e1a92d1afb6b23718f",
+      "offset_hex": "0xFC83C",
+      "terminator_offset_hex": "0xfc854",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FCA44",
+      "previous_scanned_sha256": "06d545d040cb050295a7ea5bc917e5c1b5319f2e49300f66676cc85421942438",
+      "prefix_sha256": "8eb8118aaec631f407378f5bbcad059672a24c60616c510b9fde5e9a36cfc3a8",
+      "offset_hex": "0xFCA44",
+      "terminator_offset_hex": "0xfca58",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FCAA4",
+      "previous_scanned_sha256": "8388332cd31694d871e1aae28851a8b0d034fd472f6028582944e96e2dd4011f",
+      "prefix_sha256": "8eb8118aaec631f407378f5bbcad059672a24c60616c510b9fde5e9a36cfc3a8",
+      "offset_hex": "0xFCAA4",
+      "terminator_offset_hex": "0xfcab8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FCC38",
+      "previous_scanned_sha256": "8ca730ec7ab233aa579b4e894ea2691a5a5fd683ed663d839970f0af7905179c",
+      "prefix_sha256": "4fa1008d9bc865d2af5ff1a570033554df254687471474cca0a8f01c62f26f5c",
+      "offset_hex": "0xFCC38",
+      "terminator_offset_hex": "0xfcc50",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FCCA0",
+      "previous_scanned_sha256": "f21cea88213485944e71a79827e1936cac1ddc1d3ff0f21de1f0749a4dd06426",
+      "prefix_sha256": "27afd36ac86731bc895a707d4c949b95cb63c90fee0cdcc44c29fc6b903f7a13",
+      "offset_hex": "0xFCCA0",
+      "terminator_offset_hex": "0xfccb6",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD048",
+      "previous_scanned_sha256": "b996d6468dd3944cc718df9db4a0c986dfce49a000f19809663699acbca8c8ed",
+      "prefix_sha256": "08e7c27ecbe86e75999a9145eac6a62404a6d6ab68e5cf745d41efe230cb3b8e",
+      "offset_hex": "0xFD048",
+      "terminator_offset_hex": "0xfd058",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD148",
+      "previous_scanned_sha256": "67349f18cac5bc0e0f936f513731f28ce6ad62cbffa0b2b8936d1dbc07fed551",
+      "prefix_sha256": "ecd591955c96e40dc18dface1d9b77f4a94d606207cee0491569eb17baa110fb",
+      "offset_hex": "0xFD148",
+      "terminator_offset_hex": "0xfd14e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD754",
+      "previous_scanned_sha256": "7e1cd9dd640b2293aecd0b931ceedd5abfb9b561be0789e0530c17dab49b400d",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0xFD754",
+      "terminator_offset_hex": "0xfd758",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD814",
+      "previous_scanned_sha256": "096100e9baeedccf7867b6c15653a8abbf77d4434d09dce9bc164db660329854",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0xFD814",
+      "terminator_offset_hex": "0xfd818",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD8B8",
+      "previous_scanned_sha256": "096100e9baeedccf7867b6c15653a8abbf77d4434d09dce9bc164db660329854",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0xFD8B8",
+      "terminator_offset_hex": "0xfd8bc",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD960",
+      "previous_scanned_sha256": "096100e9baeedccf7867b6c15653a8abbf77d4434d09dce9bc164db660329854",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0xFD960",
+      "terminator_offset_hex": "0xfd964",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FD9AC",
+      "previous_scanned_sha256": "59eb2dfdb406992e317f3537538dedc54a0e972d0196724cb84ee08b7bbdb8ea",
+      "prefix_sha256": "3dec15b08d5d9d6e0229f9e0238b0742e650debb2851d737eab401043b61afc0",
+      "offset_hex": "0xFD9AC",
+      "terminator_offset_hex": "0xfd9c4",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FDFE8",
+      "previous_scanned_sha256": "6a3aa0bf75a177ae837531df00d0850d93e9754c3e33afaf589617885309db7e",
+      "prefix_sha256": "375c60c15bf284545f950712dbc16bc0a26d52799a560eb976c8fccdcb0f29f8",
+      "offset_hex": "0xFDFE8",
+      "terminator_offset_hex": "0xfdff8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE084",
+      "previous_scanned_sha256": "9ced9c443c0813ffc49bcee5efbe8e8a56923733cecf8a3e392a7a55510dded4",
+      "prefix_sha256": "6461bda726daee0279ce2b537a9153cc1230c91cb41545e30560f3a69aabf8db",
+      "offset_hex": "0xFE084",
+      "terminator_offset_hex": "0xfe09e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE144",
+      "previous_scanned_sha256": "2fba14a1242c870195ec2d20e3c7bbf4f3656814056526396d1631dca77bc7bb",
+      "prefix_sha256": "95aa620c45ee5564b761cda95df08d886ef6dbf8d88f9e282584fb3fe196d6d6",
+      "offset_hex": "0xFE144",
+      "terminator_offset_hex": "0xfe14c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE420",
+      "previous_scanned_sha256": "ba5d5e4cbed6ba29a10d0b69855455d3ece2863b0f5947e2772d6dcb555b315d",
+      "prefix_sha256": "f165c7c5810da640ba92b3c927a81e971cfe4516504bc92500b98858e22d8ae1",
+      "offset_hex": "0xFE420",
+      "terminator_offset_hex": "0xfe428",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE47C",
+      "previous_scanned_sha256": "ba5d5e4cbed6ba29a10d0b69855455d3ece2863b0f5947e2772d6dcb555b315d",
+      "prefix_sha256": "f165c7c5810da640ba92b3c927a81e971cfe4516504bc92500b98858e22d8ae1",
+      "offset_hex": "0xFE47C",
+      "terminator_offset_hex": "0xfe484",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE4D8",
+      "previous_scanned_sha256": "8f921cf76b1ce569cbf3e100a5405a442f887c747f5ee8ad13df4b2d265e7740",
+      "prefix_sha256": "844c08969098428f5f97ca4e3e22aae7f5ef29e8bb0e46b1311e465c68e52d5f",
+      "offset_hex": "0xFE4D8",
+      "terminator_offset_hex": "0xfe4ec",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE608",
+      "previous_scanned_sha256": "3ec6461ba7a20095079fc449fbd608fee871afa4ecf73d5dafd7560faa18cbd9",
+      "prefix_sha256": "01cbbdc6e087da92368f485beda688833a98a6e82edb31349502d25b064539bb",
+      "offset_hex": "0xFE608",
+      "terminator_offset_hex": "0xfe616",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE638",
+      "previous_scanned_sha256": "0021f8ddd84de8b4c6844a14ab79824351ffb72b0dda3e788b6639c6abffae84",
+      "prefix_sha256": "58a655bc98b6910c4ad1f21b1b3e472c200c62ac6ce679a768dee4e5a60e729c",
+      "offset_hex": "0xFE638",
+      "terminator_offset_hex": "0xfe640",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE670",
+      "previous_scanned_sha256": "f006596f135235a358c7b6bbb1c2b2923ee477e7a785e60d6255c5f0ec86406c",
+      "prefix_sha256": "cf0f52f5c9391dcc6edd62a273b6f6fcefb49b595ef7f1693363fdcaf7239d89",
+      "offset_hex": "0xFE670",
+      "terminator_offset_hex": "0xfe678",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE6CC",
+      "previous_scanned_sha256": "8162f6d94aa3c276d52dcccadcc34b36b0a4b5da903f0d531d06c53a7cc69469",
+      "prefix_sha256": "a5b7c2f40d34dc30170be1373b3a2348a18147e83242ab080ba096f9db2e3b42",
+      "offset_hex": "0xFE6CC",
+      "terminator_offset_hex": "0xfe6da",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE7D0",
+      "previous_scanned_sha256": "8411756050525f106d20c5a2c808e397782a5d6f53d2920f24c8207bed1e8186",
+      "prefix_sha256": "383de3d7a890ac37d487c80d7e99ee5e9eb21e884269666eb62b7a8e282ccad6",
+      "offset_hex": "0xFE7D0",
+      "terminator_offset_hex": "0xfe7e0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FE82C",
+      "previous_scanned_sha256": "c091a3ad0d45bfa7b758511960663b0b47633ce27812847db79e19f814793ccc",
+      "prefix_sha256": "383de3d7a890ac37d487c80d7e99ee5e9eb21e884269666eb62b7a8e282ccad6",
+      "offset_hex": "0xFE82C",
+      "terminator_offset_hex": "0xfe83c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEA28",
+      "previous_scanned_sha256": "0fa029817e226089ff6611e4df0f0717716703866ebc93c3031b97377c19067d",
+      "prefix_sha256": "368729c0437fb2e3e5c091e6eec2f6f0f6a84e6c9c6cc8e3ed6dea3b2f6b4703",
+      "offset_hex": "0xFEA28",
+      "terminator_offset_hex": "0xfea38",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEA7C",
+      "previous_scanned_sha256": "0fa029817e226089ff6611e4df0f0717716703866ebc93c3031b97377c19067d",
+      "prefix_sha256": "368729c0437fb2e3e5c091e6eec2f6f0f6a84e6c9c6cc8e3ed6dea3b2f6b4703",
+      "offset_hex": "0xFEA7C",
+      "terminator_offset_hex": "0xfea8c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEB00",
+      "previous_scanned_sha256": "07089914d122f4cd57b50142226217a0866afde8d96feea913d56e5798da659a",
+      "prefix_sha256": "483caba172e906891c9c99d866b6785fceb158fd42d16d5883a7755492c7f10e",
+      "offset_hex": "0xFEB00",
+      "terminator_offset_hex": "0xfeb08",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEB6C",
+      "previous_scanned_sha256": "a085e1ac93851c2a42a1330eb4dbcc57e80682d533deb5c5b5e785d06624f82b",
+      "prefix_sha256": "c2aef43817702c6aaf87dac0cde36bf5b687f5d3e632f20810967e75a3e76ae6",
+      "offset_hex": "0xFEB6C",
+      "terminator_offset_hex": "0xfeb80",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FECB0",
+      "previous_scanned_sha256": "c55199547d4e8a25779ad308a4edf393783b825e57fca65b2ef951dd2952fdc9",
+      "prefix_sha256": "062462b73bbe664fe8493217be269098fdc90cfe4c5fcb7bd5b7c703d7306bfa",
+      "offset_hex": "0xFECB0",
+      "terminator_offset_hex": "0xfecc0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FED00",
+      "previous_scanned_sha256": "f6097449a057aeacbd275650671518906506f62f2e6e2256d98f21c7d01f59f4",
+      "prefix_sha256": "062462b73bbe664fe8493217be269098fdc90cfe4c5fcb7bd5b7c703d7306bfa",
+      "offset_hex": "0xFED00",
+      "terminator_offset_hex": "0xfed10",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FED50",
+      "previous_scanned_sha256": "1e6bb4c603b451bc8577156135184436e844d1e82b49dbaf149e897778db59ab",
+      "prefix_sha256": "062462b73bbe664fe8493217be269098fdc90cfe4c5fcb7bd5b7c703d7306bfa",
+      "offset_hex": "0xFED50",
+      "terminator_offset_hex": "0xfed60",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEDA4",
+      "previous_scanned_sha256": "b55c9c0b3f38cdb42d217b03eb3cc364ae5c068dea4ed7be69d165995546214a",
+      "prefix_sha256": "062462b73bbe664fe8493217be269098fdc90cfe4c5fcb7bd5b7c703d7306bfa",
+      "offset_hex": "0xFEDA4",
+      "terminator_offset_hex": "0xfedb4",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEDF4",
+      "previous_scanned_sha256": "e9bc1aa8b3f493425b1d0d863d9138d9a95de0b3ad6591bf52d299356f362f93",
+      "prefix_sha256": "062462b73bbe664fe8493217be269098fdc90cfe4c5fcb7bd5b7c703d7306bfa",
+      "offset_hex": "0xFEDF4",
+      "terminator_offset_hex": "0xfee04",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FEF20",
+      "previous_scanned_sha256": "e9de4044f462bca59cc4c34ce5cb4341a6155aeb243f06b5d88a9eb107df954f",
+      "prefix_sha256": "f5868a88be777c8f0c83fe919824273cd91490cfd9b16abc25a117dfdb4c1ff7",
+      "offset_hex": "0xFEF20",
+      "terminator_offset_hex": "0xfef2c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF02C",
+      "previous_scanned_sha256": "6d36fdf3a202b98f9b85cd1d66563ace5b6a4f845b8ddcae4ffafb04870dfb9d",
+      "prefix_sha256": "6a1353d39c09da1fd17d9b0afce25bb0a24eb93bbfd22f541ed564436b8bc2a6",
+      "offset_hex": "0xFF02C",
+      "terminator_offset_hex": "0xff03c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF1C0",
+      "previous_scanned_sha256": "154099f8b82d759f0f3d81cce1aed6c472cf3a555c309ba6cb712b6a172ecd56",
+      "prefix_sha256": "b27e84f160167c025b81be0aa9ff996eb248829af2dadb3cb49575efd6b7edf2",
+      "offset_hex": "0xFF1C0",
+      "terminator_offset_hex": "0xff1d6",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF298",
+      "previous_scanned_sha256": "1ffdf09d086e7536a4396dbb22af18c34328f87efb888d7e1eedd8a09cfff3d1",
+      "prefix_sha256": "7afe81f9cfeeddc37464dce5dcc0d30a91e11d29492c75f20311179ec82eb273",
+      "offset_hex": "0xFF298",
+      "terminator_offset_hex": "0xff2ae",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF380",
+      "previous_scanned_sha256": "2956738e5d6ba6d84cac3ebb040d3492b3764d8a5c4fa6b07bbcc9ebc0ae3772",
+      "prefix_sha256": "69f36a6fe2dfbf2f03ca39bc9da82a0bde6b652643af5edc364e844956134733",
+      "offset_hex": "0xFF380",
+      "terminator_offset_hex": "0xff392",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF490",
+      "previous_scanned_sha256": "b5f62b0e9c9b7df3de6e985183b52d13b9b72492eb301c2c598ff94d06b7ab4d",
+      "prefix_sha256": "7095e6763c849f76cfc7535f2f9c251c85d72528a08a6b7ec81ce29b6290cc8a",
+      "offset_hex": "0xFF490",
+      "terminator_offset_hex": "0xff49e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF690",
+      "previous_scanned_sha256": "5f5ad88694c18b4325b2ac482adb6571cff8403d8f27551d0215e78e988ac311",
+      "prefix_sha256": "7afe81f9cfeeddc37464dce5dcc0d30a91e11d29492c75f20311179ec82eb273",
+      "offset_hex": "0xFF690",
+      "terminator_offset_hex": "0xff6a6",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF744",
+      "previous_scanned_sha256": "ca87cece9817aaf7ce298fc97fe531faf6ea81c9d69a633c6e4286c074bce52e",
+      "prefix_sha256": "64c39d4e58c5853c7080dbc2ec6939775cb8d10d00d7d95dae60710875409fbc",
+      "offset_hex": "0xFF744",
+      "terminator_offset_hex": "0xff754",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF7A0",
+      "previous_scanned_sha256": "ca87cece9817aaf7ce298fc97fe531faf6ea81c9d69a633c6e4286c074bce52e",
+      "prefix_sha256": "64c39d4e58c5853c7080dbc2ec6939775cb8d10d00d7d95dae60710875409fbc",
+      "offset_hex": "0xFF7A0",
+      "terminator_offset_hex": "0xff7b0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF844",
+      "previous_scanned_sha256": "a2b08bd870851d0ef5a029fead24b8b52d471bbe3b50fcd2180f769c33a2461c",
+      "prefix_sha256": "3766c624e294b8f4812ac94aa93c5054232e05bdbfef8b7c3dae811b6698ada4",
+      "offset_hex": "0xFF844",
+      "terminator_offset_hex": "0xff850",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FF9B0",
+      "previous_scanned_sha256": "974128c90c4f654feb83c5682a9c69b419aa83e8280f089d3626b60817fed02e",
+      "prefix_sha256": "3766c624e294b8f4812ac94aa93c5054232e05bdbfef8b7c3dae811b6698ada4",
+      "offset_hex": "0xFF9B0",
+      "terminator_offset_hex": "0xff9bc",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FFA4C",
+      "previous_scanned_sha256": "c689d2336123bcf57d84862a60c19400a51b68d56629b5660c738c2106268f59",
+      "prefix_sha256": "26a18bd873f72528194f1c5d24d7c61f5a848d63ed7ca896c2acb3b8b6618d8b",
+      "offset_hex": "0xFFA4C",
+      "terminator_offset_hex": "0xffa5c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FFAD4",
+      "previous_scanned_sha256": "2d04d5deaadfda9143fe827ee1c255788e5849457e4d8062bdc991a3d96f83ec",
+      "prefix_sha256": "2c71ace9dcea208780e3932ebc3c2e6fab868e80d573ee6266dd20a0095e3217",
+      "offset_hex": "0xFFAD4",
+      "terminator_offset_hex": "0xffade",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_000FFCE8",
+      "previous_scanned_sha256": "b9712937aab6cc5531b6ad31924a2d1464d601f2326467f4812c047ebb609f2b",
+      "prefix_sha256": "e561bc4eda79c1d1b7190e9fb55e96adce66944f00289f0c5054e81efc71c44f",
+      "offset_hex": "0xFFCE8",
+      "terminator_offset_hex": "0xffcf0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001001DC",
+      "previous_scanned_sha256": "0eb563026f95c78c9760aae46dfb29b8bc47a4a4f58b6752af94c2c40f78d730",
+      "prefix_sha256": "a8c8a4591332df5e6f2405c6856399a79323875cf9c48b01f038b2b675104686",
+      "offset_hex": "0x1001DC",
+      "terminator_offset_hex": "0x1001e8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001006E0",
+      "previous_scanned_sha256": "c0e9af90492d2849b422c25a3fa63c34431c5d7b27fd5e4b358ef86b3a2c3508",
+      "prefix_sha256": "95ebf0de645d5f5892cbd761ce1b3acdfd83b085ac15220d02bac7827312596b",
+      "offset_hex": "0x1006E0",
+      "terminator_offset_hex": "0x1006ea",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001007B8",
+      "previous_scanned_sha256": "2e7baa6b255ab4c81d20cd1ec0caadb97e7abd2888e50aef8693fd516d5d59f6",
+      "prefix_sha256": "d20337b15d104e957bbdcbe657e1a31dc3308c31ec556a29f45b8d3f1f80a5a9",
+      "offset_hex": "0x1007B8",
+      "terminator_offset_hex": "0x1007ce",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001010D8",
+      "previous_scanned_sha256": "a085e1ac93851c2a42a1330eb4dbcc57e80682d533deb5c5b5e785d06624f82b",
+      "prefix_sha256": "c2aef43817702c6aaf87dac0cde36bf5b687f5d3e632f20810967e75a3e76ae6",
+      "offset_hex": "0x1010D8",
+      "terminator_offset_hex": "0x1010ec",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001012E0",
+      "previous_scanned_sha256": "54bd2b9101c2a6256699e677eb8a7844c7119cd8510d28e3306dfae2b7493085",
+      "prefix_sha256": "de96bdbb2da2dace00418ccf44b5818ab0e6e83b7b8c5f6edd4721dd56b23fe5",
+      "offset_hex": "0x1012E0",
+      "terminator_offset_hex": "0x1012ec",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_0010137C",
+      "previous_scanned_sha256": "a44775d2c798303dfb7f5f9367101e4d9ab719e20005ee3387760fef7a792312",
+      "prefix_sha256": "9f25e84d4786df37965ec142aa1f5b099382162e980fefc41cd4bc6dddc9a645",
+      "offset_hex": "0x10137C",
+      "terminator_offset_hex": "0x101388",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_0010149C",
+      "previous_scanned_sha256": "b04d2e6bd793b6eb477f174f04713c16adb6eded3c51d8a9bf2fb28e2c09272a",
+      "prefix_sha256": "b43c8d772e8fa4d9f1f9f227438700133b144c08c90676ccd03a738bbd4df856",
+      "offset_hex": "0x10149C",
+      "terminator_offset_hex": "0x1014ac",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00101518",
+      "previous_scanned_sha256": "1dd675df47a09ea47730c548a3a682ef8be5b3cf1da2402be394c945a02fe119",
+      "prefix_sha256": "e9fd4114f7bb1b41f1ba4a3cfa6535d2db3886fa249a1b7ec9d1d6c5ea7e10f1",
+      "offset_hex": "0x101518",
+      "terminator_offset_hex": "0x101524",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00101810",
+      "previous_scanned_sha256": "ad309644b39f74f6c4e98e81e2f8ece88805eb691eaec7ab83af2ed4abdb40ff",
+      "prefix_sha256": "a8200478b5b66483f6b44387be7f21049c410177d228d49a753f03313467a2a4",
+      "offset_hex": "0x101810",
+      "terminator_offset_hex": "0x10181e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_0010192C",
+      "previous_scanned_sha256": "23dec7be2c5c2515c6ee7019d74dd2d712908a68de2f652e97ffcca3acec8743",
+      "prefix_sha256": "5968f20eecc130024f3139d813623796d7c84c355ec0c727877f34953afd5c29",
+      "offset_hex": "0x10192C",
+      "terminator_offset_hex": "0x10193e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_0010198C",
+      "previous_scanned_sha256": "348c4248d24312941322c857899c4d4821aa6b1edf31338fc2dde527e7d9ee76",
+      "prefix_sha256": "64c39d4e58c5853c7080dbc2ec6939775cb8d10d00d7d95dae60710875409fbc",
+      "offset_hex": "0x10198C",
+      "terminator_offset_hex": "0x10199c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00101C0C",
+      "previous_scanned_sha256": "50b65d0c3cee9b45fa79e04e9b33e56911db8d0b67dce6878709bbe16464217f",
+      "prefix_sha256": "0e32e1d292946ae52850bb9afeefa234959601ecd7815e6c529d46218c2f1305",
+      "offset_hex": "0x101C0C",
+      "terminator_offset_hex": "0x101c1a",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00102034",
+      "previous_scanned_sha256": "25735d804ef70289bc7ffafac2574942c370a2a8dd7b5f6c76c0dac5218053ec",
+      "prefix_sha256": "b9fb9e55ff487784b7519edcfe5e30ad6eee9e2269deaf467aaf121be17d19ea",
+      "offset_hex": "0x102034",
+      "terminator_offset_hex": "0x10203e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001020E0",
+      "previous_scanned_sha256": "6351b6af29f18fef17c71cb4e19c4817640b83be6c55d46ebc1cd880a2302d77",
+      "prefix_sha256": "62a0169cf59b0d5d109ca9157b7ba5abb86736622cfd684466401891fa50d21e",
+      "offset_hex": "0x1020E0",
+      "terminator_offset_hex": "0x1020f0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00102184",
+      "previous_scanned_sha256": "ac1d4c7721f8efb21e947c11502e4567686f2427d7276d9458f51d71baf1db49",
+      "prefix_sha256": "37cbad3a8385e0e038ba8b42337fdc63443085a8befdeaf342b8e04153f5a640",
+      "offset_hex": "0x102184",
+      "terminator_offset_hex": "0x10218e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001021F4",
+      "previous_scanned_sha256": "4acb258c14c0feeeb12a6e775fbd21916b87e1e3a2e6d44bfea7523c85213da8",
+      "prefix_sha256": "10d3534df44eefb1baccbc8ab685320dc7d3ff52e64f7594ef730a142c285e76",
+      "offset_hex": "0x1021F4",
+      "terminator_offset_hex": "0x102204",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001022B0",
+      "previous_scanned_sha256": "85e112a8fca556d2d70d46a33068d87f7a063ba511b432935c85cf3dc72edc13",
+      "prefix_sha256": "92bd37d0763ea276395c87e50b9dd4675a67cfa70b8b3429313ff30ca3767439",
+      "offset_hex": "0x1022B0",
+      "terminator_offset_hex": "0x1022be",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001023E8",
+      "previous_scanned_sha256": "63ea15eff57cfa6173428b6288a88e54e5e6ef6201af7ba06f1f583f6076cfbb",
+      "prefix_sha256": "5f34cf9f6bce34ca7e88668f5cd4fa3e62e2bf5725c570f726fc7a54bc46edbb",
+      "offset_hex": "0x1023E8",
+      "terminator_offset_hex": "0x1023f2",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00102604",
+      "previous_scanned_sha256": "735ea6d01d01bb33d16c682f736bf12d259dc2886b419c2fb4aeacc6d1c63c12",
+      "prefix_sha256": "707ff2c44d884095bc90ffe06ce2c0f7c08ecae6cbfc64b35ae51e057d649f61",
+      "offset_hex": "0x102604",
+      "terminator_offset_hex": "0x102616",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00102934",
+      "previous_scanned_sha256": "b24561e19bd3cec3cab5fe876fb314280c73699ad6dcd14442b39ef81a204c51",
+      "prefix_sha256": "6cb328a689dade24e96d4dec71bc94c7efd64ec730178598350e5e474f5114ee",
+      "offset_hex": "0x102934",
+      "terminator_offset_hex": "0x10293e",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00102CC8",
+      "previous_scanned_sha256": "eddb2d315f3638ce15d941c4e3c5d5ea59ba63a069d82a560cd58892c26ceb8b",
+      "prefix_sha256": "1a1cff68ea9c8900e0f856618c6b1027fa7b810e813aefb9b925556f75fe54d4",
+      "offset_hex": "0x102CC8",
+      "terminator_offset_hex": "0x102cd8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001033F4",
+      "previous_scanned_sha256": "2e7baa6b255ab4c81d20cd1ec0caadb97e7abd2888e50aef8693fd516d5d59f6",
+      "prefix_sha256": "d20337b15d104e957bbdcbe657e1a31dc3308c31ec556a29f45b8d3f1f80a5a9",
+      "offset_hex": "0x1033F4",
+      "terminator_offset_hex": "0x10340a",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103804",
+      "previous_scanned_sha256": "dfc8249ae697cdc373bb150c96cf2bd21bf1b927fbee40f5ca8759a931cdfbc8",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x103804",
+      "terminator_offset_hex": "0x103808",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103838",
+      "previous_scanned_sha256": "ee4bf0549a80edee17e3887b0bd4d7aff113604e82f2e3aa43daaa954f5fac29",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x103838",
+      "terminator_offset_hex": "0x10383c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_0010386C",
+      "previous_scanned_sha256": "ddc2bd542c7cc40b6cae5d142ee8f8ad11e2f038561310d5bb285c3f0ffbbeaa",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x10386C",
+      "terminator_offset_hex": "0x103870",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001038A0",
+      "previous_scanned_sha256": "36bad5c3ce596bd6fdde97d012906a3073b623b06823fcfa619bc16c6fd725c2",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x1038A0",
+      "terminator_offset_hex": "0x1038a4",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001038D4",
+      "previous_scanned_sha256": "ecece3f4cb925752c6c46e436ecfdcf33e85eb5c1e3816e83c412a4b2c8dfa4e",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x1038D4",
+      "terminator_offset_hex": "0x1038d8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103964",
+      "previous_scanned_sha256": "d32fcfcf088b08857a47dde8f299a7dc149af6c05bb05cd488c60a8d898b41b6",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x103964",
+      "terminator_offset_hex": "0x103968",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_001039C4",
+      "previous_scanned_sha256": "818ef001ea6d08500172038f597dd045b9dfc06f36cb72270f19dfa89314e48c",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x1039C4",
+      "terminator_offset_hex": "0x1039c8",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103A30",
+      "previous_scanned_sha256": "2854f6821fe7a812c38ee92b031f6141f852bec2409d6612ffb864ebc66c0f1c",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103A30",
+      "terminator_offset_hex": "0x103a34",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103ADC",
+      "previous_scanned_sha256": "c08876fde3d3bf9d2cd7370834e88bebff3a452a86cecae7627765a9952f370c",
+      "prefix_sha256": "274d7111891195e0898d869dc3919984782f30cba15a37e938bad6720ca083d2",
+      "offset_hex": "0x103ADC",
+      "terminator_offset_hex": "0x103ae0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103B28",
+      "previous_scanned_sha256": "13946ffaf92199c7823ec88509cd2f19526a456951f5396b43d4f7c20145e2f2",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103B28",
+      "terminator_offset_hex": "0x103b2c",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103B90",
+      "previous_scanned_sha256": "db3e42acb29a658b0710ce482985b52e74a33f079e6b941bc3d51a22ad52b080",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103B90",
+      "terminator_offset_hex": "0x103b94",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103BBC",
+      "previous_scanned_sha256": "6ca32ec12cbac4e7f064d946bffe8866ede3f0b13c0336d6c9bc5e3428e1a527",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103BBC",
+      "terminator_offset_hex": "0x103bc0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103BEC",
+      "previous_scanned_sha256": "739ff0ec38c414e62c29b2e794a3b6229db40a4d68cd537371cee1db114b80f8",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103BEC",
+      "terminator_offset_hex": "0x103bf0",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    },
+    {
+      "id": "msb_00103C5C",
+      "previous_scanned_sha256": "c9caca412d4489a6be516d165ea8d4503e27563176d936f749d31b5cb3249083",
+      "prefix_sha256": "1bf786716455b9757da480e568af8e9566180c8da7ed3243c8cbf6d15323ecf4",
+      "offset_hex": "0x103C5C",
+      "terminator_offset_hex": "0x103c60",
+      "reason": "CDB-referenced NUL-terminated choice or UI prefix; old scan crossed the string boundary."
+    }
+  ]
+}

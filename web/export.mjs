@@ -1,28 +1,36 @@
 // Unofficial fan translation project for Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!! (Nintendo DS).
 // I do not own Gintama or the original game. No affiliation or endorsement is implied.
 // Use only legally obtained ROMs; piracy is discouraged. See RIGHTS.md for licensing and rights limits.
-import { checkRecordText, finiteJson, stripColors, colorControls } from './text-policy.mjs';
+import { checkRecordText, finiteJson, stripColors, colorControls, fieldMarkupSequence, inlineFieldControls } from './text-policy.mjs';
 
 export function fieldControlSequence(text) {
-  colorControls(text);
-  return [...text.matchAll(/\[(blue|red|\/color)\]|\f/gi)].map((match) =>
-    match[0] === '\f' ? 0xff72 : match[1].toLowerCase() === 'blue' ? 0xff82
-      : match[1].toLowerCase() === 'red' ? 0xff81 : 0xff84,
-  );
+  return fieldMarkupSequence(text);
 }
 
 export function checkDialogue(entry, metadata) {
   checkRecordText(entry);
+  if (metadata.termination !== undefined && !['end', 'nul'].includes(metadata.termination))
+    throw new Error('Invalid record termination.');
   if (!entry.english || !entry.english.trim()) throw new Error(`${entry.id}: English is empty.`);
+  if (metadata.raw_color_controls !== undefined && typeof metadata.raw_color_controls !== 'boolean')
+    throw new Error('Invalid raw color controls flag.');
   const pages = stripColors(entry.english).split('\f');
   if (pages.length - 1 !== metadata.page_breaks)
     throw new Error(
       `${entry.id}: keep ${metadata.page_breaks} page break(s). Type \\f between dialogue pages.`,
     );
+  if (metadata.termination === 'nul') {
+    if (!Number.isSafeInteger(metadata.line_breaks) || metadata.line_breaks < 0)
+      throw new Error(`${entry.id}: load the matching game metadata to verify menu lines.`);
+    if ((stripColors(entry.english).match(/\n/g) || []).length > metadata.line_breaks)
+      throw new Error(`${entry.id}: keep the original menu line count.`);
+  }
   if (pages.some((page) => !page.trim()))
     throw new Error(`${entry.id}: a dialogue page is empty. Add its text before exporting.`);
   const colors = colorControls(entry.english);
   const expected = metadata.color_controls;
+  if (!Array.isArray(metadata.control_sequence) && fieldControlSequence(entry.english).some((code) => inlineFieldControls.has(code)))
+    throw new Error(`${entry.id}: load your matching game file to verify inline controls before exporting.`);
   if (Array.isArray(metadata.control_sequence)) {
     if (JSON.stringify(fieldControlSequence(entry.english)) !== JSON.stringify(metadata.control_sequence))
       throw new Error(`${entry.id}: keep the source colors in their original order and dialogue pages.`);

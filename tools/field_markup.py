@@ -7,13 +7,18 @@ import re
 
 RED, BLUE, RESET = 0xFF81, 0xFF82, 0xFF84
 PAGE = 0xFF72
-COLOR_CONTROLS = frozenset({RED, BLUE, RESET})
+ACCENT = 0xFF83  # Exact source color selector; no color name is assumed.
+COLOR_CONTROLS = frozenset({RED, BLUE, ACCENT, RESET})
+INLINE_CONTROLS = frozenset({0xFFA1, 0xFFA2, 0xFFA3, 0xFFA5, 0xFFB1, 0xFFB2})
+TEXT_CONTROLS = COLOR_CONTROLS | INLINE_CONTROLS
 COLOR_MARKER = re.compile(r"\[(blue|red|/color)\]", re.IGNORECASE)
-_MARKER = COLOR_MARKER
+CONTROL_MARKER = re.compile(r"\[ctrl:([0-9a-f]{4})\]", re.IGNORECASE)
+TEXT_MARKER = re.compile(r"\[(blue|red|/color)\]|\[ctrl:([0-9a-f]{4})\]", re.IGNORECASE)
+_MARKER = TEXT_MARKER
 _OPEN_CODES = {"blue": BLUE, "red": RED}
 _CLOSE_CODE = RESET
 _MALFORMED = re.compile(
-    r"\[/?(?:blue|red|color|FF8[124])(?=[\]\s/]|$)", re.IGNORECASE
+    r"\[/?(?:blue|red|color|ctrl|FF8[1234])(?=[\]\s/:]|$)", re.IGNORECASE
 )
 
 
@@ -29,11 +34,23 @@ def _parse(text: str) -> tuple[str, tuple[int, ...]]:
     color_start = 0
     for match in _MARKER.finditer(text):
         pieces.append(text[cursor : match.start()])
-        marker = match.group(1).lower()
+        marker = match.group(1).lower() if match.group(1) else None
+        if marker is None:
+            code = int(match.group(2), 16)
+            if code not in TEXT_CONTROLS:
+                raise ValueError("Unsupported inline control marker")
+            codes.append(code)
+            if code == ACCENT:
+                if opened:
+                    raise ValueError("Color markers cannot be nested")
+                opened = True
+                color_start = match.end()
+            cursor = match.end()
+            continue
         if marker == "/color":
             if not opened:
                 raise ValueError("Color close marker has no matching open marker")
-            if not text[color_start : match.start()].strip():
+            if not TEXT_MARKER.sub("", text[color_start : match.start()]).strip():
                 raise ValueError("A colored span needs visible text")
             codes.append(_CLOSE_CODE)
             opened = False
@@ -64,7 +81,7 @@ def strip_color_markers(text: str) -> str:
 
 def color_controls(text: str) -> tuple[int, ...]:
     """Return source control codes in markup order (blue FF82, red FF81, end FF84)."""
-    return _parse(text)[1]
+    return tuple(code for code in _parse(text)[1] if code in COLOR_CONTROLS)
 
 
 def color_tokens(text: str) -> list[str | int]:
@@ -75,8 +92,9 @@ def color_tokens(text: str) -> list[str | int]:
     for match in _MARKER.finditer(text):
         if match.start() > cursor:
             result.append(text[cursor : match.start()])
-        marker = match.group(1).lower()
-        result.append(_CLOSE_CODE if marker == "/color" else _OPEN_CODES[marker])
+        marker = match.group(1).lower() if match.group(1) else None
+        result.append(int(match.group(2), 16) if marker is None else
+                      _CLOSE_CODE if marker == "/color" else _OPEN_CODES[marker])
         cursor = match.end()
     if cursor < len(text):
         result.append(text[cursor:])
@@ -100,10 +118,12 @@ def check_record_controls(text: str | None, indexed: dict) -> None:
         return
     if not isinstance(indexed, dict) or not isinstance(indexed.get("id"), str):
         raise ValueError("Invalid indexed record identity")
+    if "raw_color_controls" in indexed and type(indexed["raw_color_controls"]) is not bool:
+        raise ValueError("Invalid raw color controls flag")
     actual = control_sequence(text)
     identifier = indexed["id"]
     if not identifier.startswith("msb_"):
-        if any(code in COLOR_CONTROLS for code in actual):
+        if any(code in TEXT_CONTROLS for code in actual):
             raise ValueError("Color markers are not supported in image labels: " + identifier)
         return
     pages = indexed.get("page_breaks", 0)
@@ -111,7 +131,7 @@ def check_record_controls(text: str | None, indexed: dict) -> None:
         raise ValueError("Invalid indexed page count: " + identifier)
     expected = indexed.get("control_sequence", [PAGE] * pages)
     if (not isinstance(expected, (list, tuple))
-            or any(type(code) is not int or code not in COLOR_CONTROLS | {PAGE}
+            or any(type(code) is not int or code not in TEXT_CONTROLS | {PAGE}
                    for code in expected)
             or expected.count(PAGE) != pages):
         raise ValueError("Invalid indexed control sequence: " + identifier)

@@ -106,12 +106,30 @@ export async function verifyGame(game, reference) {
   return true;
 }
 
+const fieldInlineControls = new Set([0xffa1, 0xffa2, 0xffa3, 0xffa5, 0xffb1, 0xffb2]);
+
 export async function readRecord(msb, record, codes) {
   const offset = Number.parseInt(record.offset_hex, 16);
   check(
     Number.isSafeInteger(offset) && offset >= 16 && offset % 2 === 0 && offset < msb.length,
     'Invalid record offset.',
   );
+  check(record.termination === undefined || record.termination === 'end' || record.termination === 'nul', 'Invalid record termination.');
+  check(record.raw_color_controls === undefined || typeof record.raw_color_controls === 'boolean', 'Invalid raw color controls flag.');
+  const endCode = record.termination === 'nul' ? 0 : 0xff71;
+  let protectedTailAt = -1;
+  if (record.trailing_controls !== undefined) {
+    check(Array.isArray(record.trailing_controls) &&
+      (record.trailing_controls.length === 0 || (endCode === 0 && record.trailing_controls.length === 1 && record.trailing_controls[0] === 0xff81)),
+      'Unsupported protected source suffix.');
+    if (record.trailing_controls.length) {
+      let terminal = offset;
+      while (terminal + 1 < msb.length && u16(msb, terminal) !== 0 && terminal - offset <= 10000) terminal += 2;
+      check(terminal + 1 < msb.length && terminal - offset <= 10000 && u16(msb, terminal) === 0 &&
+        terminal > offset + 2 && u16(msb, terminal - 2) === 0xff81, 'Protected source suffix changed.');
+      protectedTailAt = terminal - 2;
+    }
+  }
   let end = offset,
     terminator = false,
     text = '',
@@ -121,17 +139,23 @@ export async function readRecord(msb, record, codes) {
   const decoder = codes.codes;
   for (; end + 1 < msb.length; end += 2) {
     const code = u16(msb, end);
-    if (code === 0xff71) {
+    if (code === endCode) {
       end += 2;
       terminator = true;
       break;
     }
+    if (end === protectedTailAt) continue;
+    check(endCode !== 0 || code !== 0xff71, 'Unexpected END inside NUL record.');
     if (code === 0xff70) text += '\n';
     else if (code === 0xff72) {
       text += '\f';
       controlSequence.push(code);
     }
-    else if (code === 0xff81) {
+    else if (record.raw_color_controls && [0xff81, 0xff82, 0xff84].includes(code)) {
+      text += `[ctrl:${code.toString(16).toUpperCase()}]`;
+      colorControls.push(code);
+      controlSequence.push(code);
+    } else if (code === 0xff81) {
       text += '[red]';
       colorControls.push(code);
       controlSequence.push(code);
@@ -142,6 +166,10 @@ export async function readRecord(msb, record, codes) {
     } else if (code === 0xff84) {
       text += '[/color]';
       colorControls.push(code);
+      controlSequence.push(code);
+    } else if (code === 0xff83 || fieldInlineControls.has(code)) {
+      text += `[ctrl:${code.toString(16).toUpperCase()}]`;
+      if (code === 0xff83) colorControls.push(code);
       controlSequence.push(code);
     } else if (code === 0 || code === 0x5353) {
       text += `⟦STRUCT:0x${code.toString(16).padStart(4, '0')}⟧`;
@@ -158,7 +186,7 @@ export async function readRecord(msb, record, codes) {
     }
     check(end - offset <= 10000, 'Record exceeds maximum expected size.');
   }
-  check(terminator && end + 2 <= msb.length && u16(msb, end) === 0, 'Malformed record terminator.');
+  check(terminator && end > offset + 2 && (endCode === 0 || (end + 2 <= msb.length && u16(msb, end) === 0)), 'Malformed record terminator.');
   check(
     (await sha256(msb.subarray(offset, end))) === record.source_words_sha256,
     `Source text mismatch for ${record.id}.`,

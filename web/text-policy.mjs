@@ -63,25 +63,35 @@ const signatures = [
   [37, 80, 68, 70, 45],
 ];
 const hasHidden = (value) => hidden.test(value.replace(/[\n\f]/g, ''));
-const colorMarker = /\[(blue|red|\/color)\]/gi;
-const colorLikeMarker = /\[(\/?(?:blue|red|color)|ff[0-9a-f]{2})(?=[\]\s]|$)[^\]]*\]?/gi;
+export const inlineFieldControls = new Set([0xffa1, 0xffa2, 0xffa3, 0xffa5, 0xffb1, 0xffb2]);
+const colorMarker = /\[(blue|red|\/color)\]|\[ctrl:([0-9a-f]{4})\]/gi;
+const colorLikeMarker = /\[\/?(?:blue|red|color|ctrl|ff[0-9a-f]{2})(?=[\]\s/:]|$)[^\]]*\]?/gi;
 
 function parseColors(value) {
   if (typeof value !== 'string') throw new Error('Dialogue markup must be text');
-  for (const match of value.matchAll(colorLikeMarker)) {
-    const token = match[0];
-    if (!/^\[(?:blue|red|\/color)\]$/i.test(token))
-      throw new Error('Malformed color marker');
+  if (colorLikeMarker.test(value.replace(colorMarker, ''))) {
+    colorLikeMarker.lastIndex = 0;
+    throw new Error('Malformed color or control marker');
   }
-  let text = '', cursor = 0, opened = false;
-  let spanStart = -1;
+  colorLikeMarker.lastIndex = 0;
+  let text = '', cursor = 0, opened = false, spanStart = -1;
   const codes = [];
   for (const match of value.matchAll(colorMarker)) {
     text += value.slice(cursor, match.index);
-    const marker = match[1].toLowerCase();
-    if (marker === '/color') {
+    const marker = match[1]?.toLowerCase();
+    if (!marker) {
+      const code = parseInt(match[2], 16);
+      if (!inlineFieldControls.has(code) && ![0xff81, 0xff82, 0xff83, 0xff84].includes(code))
+        throw new Error('Unsupported inline control marker');
+      codes.push(code);
+      if (code === 0xff83) {
+        if (opened) throw new Error('Color markers cannot be nested');
+        opened = true;
+        spanStart = match.index + match[0].length;
+      }
+    } else if (marker === '/color') {
       if (!opened) throw new Error('Color close marker has no matching open marker');
-      if (!value.slice(spanStart, match.index).trim())
+      if (!value.slice(spanStart, match.index).replace(colorMarker, '').trim())
         throw new Error('Color span must contain visible text');
       codes.push(0xff84);
       opened = false;
@@ -108,7 +118,14 @@ export function stripColorMarkers(value) {
 }
 
 export function colorControls(value) {
-  return parseColors(value).codes;
+  return parseColors(value).codes.filter((code) => !inlineFieldControls.has(code));
+}
+
+export function fieldMarkupSequence(value) {
+  parseColors(value);
+  return [...value.matchAll(/\[(blue|red|\/color)\]|\[ctrl:([0-9a-f]{4})\]|\f/gi)].map((match) =>
+    match[0] === '\f' ? 0xff72 : match[2] ? parseInt(match[2], 16) :
+    match[1].toLowerCase() === 'blue' ? 0xff82 : match[1].toLowerCase() === 'red' ? 0xff81 : 0xff84);
 }
 
 export function normalizeForInspection(value) {

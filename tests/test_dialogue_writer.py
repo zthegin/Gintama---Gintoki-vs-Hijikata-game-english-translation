@@ -238,6 +238,121 @@ class DialogueWriterTests(unittest.TestCase):
         self.assertEqual(result[0, 0], 0)
         self.assertEqual(set(np.unique(result)), {0, 1, 6})
 
+    def test_verified_inline_controls_are_single_words_and_keep_order(self):
+        self.setup_slot([0xFFA1] + [2] * 16 + [0xFF83] + [2] * 8 +
+                        [RESET, writer.PAGE, 0xFFB1] + [2] * 20 + [0xFFB2, writer.END])
+        self.row['english'] = '[ctrl:FFA1]Hello [ctrl:FF83]there[/color].\f[ctrl:FFB1]Bye.[ctrl:FFB2]'
+        target, spans, _ = self.patch()
+        words = writer.words_at(target, 16)
+        kept = [word for word in words if word in writer.FIELD_CONTROLS]
+        self.assertEqual(kept, [0xFFA1, 0xFF83, RESET, writer.PAGE, 0xFFB1, 0xFFB2, writer.END])
+        self.assertEqual(target[spans[0][1]-2:], self.field[spans[0][1]-2:])
+        for english in ('Hello [ctrl:FF83]there[/color].\f[ctrl:FFB1]Bye.[ctrl:FFB2]',
+                        '[ctrl:FFA1]Hello [ctrl:FF83]there[/color].\f[ctrl:FFB2]Bye.[ctrl:FFB1]'):
+            self.row['english'] = english
+            with self.assertRaisesRegex(ValueError, 'controls'):
+                self.patch()
+
+    def test_unknown_or_malformed_inline_controls_are_rejected(self):
+        for text in ('[ctrl:FF91]x', '[ctrl:FF00]x', '[ctrl:FFA1', '[ctrl FFA1]x',
+                     '[ctrl:FF83]x', '[ctrl:FF83][/color]', '[blue][ctrl:FF83]x[/color][/color]'):
+            with self.subTest(text=text), self.assertRaises(ValueError):
+                strip_colors(text)
+
+    def test_inline_markers_have_no_display_width(self):
+        text = '[ctrl:FFA1]Hello.[ctrl:FFB1]'
+        laid_out, codes = writer.layout(text, self.fonts, {})
+        self.assertEqual(laid_out, text)
+        self.assertEqual(codes[0], 0xFFA1)
+        self.assertEqual(codes[-1], 0xFFB1)
+        self.assertEqual(strip_colors(text), 'Hello.')
+
+    def test_nul_prefix_preserves_neighboring_choice_bytes_and_protected_tail(self):
+        for suffix in ([], [RED]):
+            self.setup_slot([2] * 30 + suffix + [0])
+            self.reference['records'][0].update(termination='nul', trailing_controls=suffix)
+            self.row['english'] = 'Hello.'
+            target, spans, _ = self.patch()
+            end = spans[0][1]
+            self.assertEqual(len(target), len(self.field))
+            self.assertEqual(target[end:], self.field[end:])
+            self.assertEqual(target[end-2*(len(suffix)+1):end], self.field[end-2*(len(suffix)+1):end])
+            words = writer.words_at(target, 16, terminator=0)
+            self.assertEqual(words[-1], 0)
+            self.assertEqual(words[-len(suffix)-1:-1] if suffix else [], suffix)
+
+    def test_nul_prefix_rejects_empty_missing_wrong_hash_and_invalid_termination(self):
+        self.setup_slot([0])
+        self.reference['records'][0]['termination'] = 'nul'
+        with self.assertRaisesRegex(ValueError, 'Empty'):
+            self.patch()
+        with self.assertRaisesRegex(ValueError, 'Unterminated'):
+            writer.words_at(b'X' * 16 + b'xx' * 5, 16, terminator=0)
+        self.setup_slot([2]*10 + [0] + [2]*10 + [writer.END])
+        self.reference['records'][0]['termination'] = 'nul'
+        with self.assertRaisesRegex(ValueError, 'source span'):
+            self.patch()
+        self.setup_slot([2]*10 + [writer.END, 0])
+        self.reference['records'][0]['termination'] = 'nul'
+        with self.assertRaisesRegex(ValueError, 'Unexpected END'):
+            writer.words_at(self.field, 16, terminator=0)
+        with self.assertRaisesRegex(ValueError, 'Unexpected END'):
+            self.patch()
+        for termination in ('unknown', 0, None):
+            self.reference['records'][0]['termination'] = termination
+            with self.assertRaisesRegex(ValueError, 'termination'):
+                self.patch()
+
+    def test_protected_suffix_requires_exact_known_tail_and_nul_mode(self):
+        self.setup_slot([2] * 20 + [RED, 0])
+        source = self.reference['records'][0]
+        source.update(termination='nul', trailing_controls=[BLUE])
+        self.row['english'] = 'Hello.'
+        with self.assertRaisesRegex(ValueError, 'suffix'):
+            self.patch()
+        source['trailing_controls'] = [RED, BLUE]
+        with self.assertRaisesRegex(ValueError, 'suffix'):
+            self.patch()
+        source['trailing_controls'] = [RED]
+        self.field = self.field[:16+20*2] + struct.pack('<H', BLUE) + self.field[16+21*2:]
+        self.reference['source_msb_sha256'] = images.sha(self.field)
+        with self.assertRaisesRegex(ValueError, 'suffix'):
+            self.patch()
+
+    def test_verified_raw_color_transitions_preserve_each_native_word(self):
+        self.setup_slot([0xFFA3, writer.LINE, RED, BLUE] + [2] * 12 +
+                        [RESET] + [2] * 12 + [RESET, writer.END])
+        self.reference['records'][0]['raw_color_controls'] = True
+        self.row['english'] = '[ctrl:FFA3]\n[ctrl:FF81][ctrl:FF82]Hi[ctrl:FF84] there.[ctrl:FF84]'
+        target, _, _ = self.patch()
+        words = writer.words_at(target, 16)
+        self.assertEqual([w for w in words if w in writer.FIELD_CONTROLS and w != writer.LINE],
+                         [0xFFA3, RED, BLUE, RESET, RESET, writer.END])
+        self.row['english'] = self.row['english'].replace('[ctrl:FF81]', '')
+        with self.assertRaisesRegex(ValueError, 'controls'):
+            self.patch()
+        self.reference['records'][0]['raw_color_controls'] = 'yes'
+        with self.assertRaisesRegex(ValueError, 'flag'):
+            self.patch()
+        with self.assertRaisesRegex(ValueError, 'nested'):
+            strip_colors('[red][blue]Hi[/color][/color]')
+
+    def test_nul_menu_rejects_explicit_or_automatically_wrapped_extra_lines(self):
+        self.setup_slot([2] * 100 + [0])
+        self.reference['records'][0]['termination'] = 'nul'
+        for text in ('First.\nSecond.',
+                     'This is a long menu option that should wrap onto a second line.'):
+            self.row['english'] = text
+            with self.subTest(text=text), self.assertRaisesRegex(ValueError, 'Menu text exceeds'):
+                self.patch()
+        self.setup_slot([2] * 30 + [writer.LINE] + [2] * 30 + [0])
+        self.reference['records'][0]['termination'] = 'nul'
+        self.row['english'] = 'First.\nSecond.'
+        self.patch()
+        self.setup_slot([2] * 80 + [writer.END])
+        self.row['english'] = 'One.\nTwo.\nThree.'
+        self.patch()
+
 
 if __name__ == "__main__":
     unittest.main()
