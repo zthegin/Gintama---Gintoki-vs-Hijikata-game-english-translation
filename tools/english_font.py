@@ -7,8 +7,11 @@ from pathlib import Path
 from image_workflow import read_json, require
 
 CHARACTERS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ?. ,!"
+PUNCTUATION = '\'"-:;()[]/\\%&+*=<>_#$@^`{|}~'
+CHARACTERS += PUNCTUATION
 GLYPH_CODES = {ch: 6954 + i for i, ch in enumerate(CHARACTERS)}
 ROOT = Path(__file__).resolve().parents[1]
+PUNCTUATION_ALIASES = {"‘": "'", "’": "'", "“": '"', "”": '"', "‐": "-", "‑": "-"}
 
 
 def append_font(original, stride, lowercase):
@@ -64,6 +67,10 @@ def encode_text(text, latin):
     lookup["\n"] = 0xFF70
     for ch in text:
         if ch not in lookup:
+            canonical = PUNCTUATION_ALIASES.get(ch, ch)
+            if canonical in GLYPH_CODES:
+                lookup[ch] = GLYPH_CODES[canonical]
+                continue
             native = {"'": "’", '"': "”", "-": "‐"}.get(
                 ch, chr(ord(ch) + 0xFEE0) if "!" <= ch <= "~" else ch
             )

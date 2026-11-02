@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import battle_writer as battle
 import cutscene_writer as cutscene
 import dialogue_writer as dialogue
-from english_font import GLYPH_CODES, append_font, encode_text
+from english_font import CHARACTERS, GLYPH_CODES, append_font, encode_text
 from image_workflow import read_json, sha
 
 
@@ -48,7 +48,7 @@ class ClusterClippingTests(unittest.TestCase):
     def test_appended_glyphs_preserve_native_records_metrics_and_palette_counts(self):
         letters = {**self.lowercase,
                    **read_json(ROOT / "graphics/extended_font.json")["letters"]}
-        self.assertEqual(len(letters), 57)
+        self.assertEqual(len(letters), len(CHARACTERS))
         for font, stride in self.fonts:
             self.assertEqual(font[:6953 * stride], bytes(6953 * stride))
             legacy = previous_alignment(font, stride)

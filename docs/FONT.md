@@ -11,14 +11,17 @@ The UI builder appends the same English bank to DFGB12 and DFGB10, preserving al
 | English space | 7008, three-pixel advance |
 | , | 7009 |
 | ! | 7010 |
+| Apostrophe | 7011 |
+| Double quote | 7012 |
+| Other ASCII punctuation | 7013–7038 |
 
 The capitals are seven pixels tall and share the lowercase baseline. Edit their rows and advances in `graphics/extended_font.json`. This is original project lettering; game font records are read from your legally obtained matching ROM.
 
-`tools/english_font.py` packs the records. The UI text encoder and sign renderer use the new codes. English word spaces use the appended blank record. Native code 1 stays unchanged for fixed-slot padding; commas and exclamation marks use matching project-created glyphs. Other baked graphics keep their existing lettering. Rebuild using the normal installation command.
+`tools/english_font.py` packs the records. The UI text encoder and sign renderer use the new codes. English word spaces use the appended blank record. Native code 1 stays unchanged for fixed-slot padding. All 32 ASCII punctuation characters now use matching project-created glyphs, including apostrophes, quotes, hyphens, colons, semicolons, brackets, slashes and percent signs. Curly quotes and typographic hyphens encode through the matching custom glyphs without rewriting the saved translation. Digits still use their native records. Other baked graphics keep their existing lettering. Rebuild using the normal installation command.
 
 Dialogue writers must use this mapping and respect the existing message and page limits. Fixed-size dialogue insertion does not support arbitrary script growth or alter the browser's separate 4×7 image-label alphabet.
 
-All 57 English glyphs leave a blank column after their ink. This protects the right edge of packed dialogue tiles without changing letter advances or removing strokes. Both font sizes pass pixel-decoding, record-preservation and ROM/patch checks. An earlier DFGB12 bank passed fourteen real melonDS captures covering every capital, question marks and periods; this alignment change still needs an in-game visual check. DFGB10 has not been checked separately in-game. Offline previews are labelled as such.
+All 85 English glyphs leave a blank column after their ink. This protects the right edge of packed dialogue tiles without changing letter advances or removing strokes. Both font sizes pass pixel-decoding, record-preservation and ROM/patch checks. An earlier DFGB12 bank passed fourteen real melonDS captures covering every capital, question marks and periods; this alignment change still needs an in-game visual check. DFGB10 has not been checked separately in-game. Offline previews are labelled as such.
 
 Oversized field lines can use the same packed-letter technique as the cutscene writer. Page controls stay separate, and the script keeps its original byte size. The four scripted menu/reward labels are hash-checked separately, preserving colour controls and null terminators.
 

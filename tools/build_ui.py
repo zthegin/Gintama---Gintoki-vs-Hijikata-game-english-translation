@@ -525,7 +525,6 @@ def build(
                 if row["field"] == "description"
                 else row["english"]
             )
-            text = text.replace("'", "’").replace("-", "‐")
         else:
             terminator = int(row.get("terminator_hex", "0"), 16)
             text = row["English_UI"]

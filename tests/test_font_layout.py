@@ -2,6 +2,7 @@
 # I do not own Gintama or the original game. No affiliation or endorsement is implied.
 # Use only legally obtained ROMs; piracy is discouraged. See RIGHTS.md for licensing and rights limits.
 import struct
+import string
 import sys
 import unittest
 from pathlib import Path
@@ -10,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 import cutscene_writer as cutscene
 import dialogue_writer as dialogue
 import image_workflow as images
-from english_font import GLYPH_CODES, append_font, encode_text
+from english_font import CHARACTERS, PUNCTUATION, GLYPH_CODES, append_font, encode_text
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -38,6 +39,41 @@ class FontLayoutTests(unittest.TestCase):
                 self.assertTrue(row[width - 3])
                 self.assertFalse(row[width - 2])
                 self.assertFalse(row[width - 1])
+
+    def test_all_ascii_punctuation_uses_custom_codes_without_shifting_old_codes(self):
+        legacy = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ?. ,!"
+        self.assertEqual(CHARACTERS[:len(legacy)], legacy)
+        self.assertEqual({ch: GLYPH_CODES[ch] for ch in legacy},
+                         {ch: 6954 + i for i, ch in enumerate(legacy)})
+        self.assertEqual(set(PUNCTUATION), set(string.punctuation) - set(legacy))
+        latin = images.read_json(ROOT / "graphics/ui_recipes.json")["latin_glyphs"]
+        self.assertEqual(encode_text(string.punctuation, latin),
+                         [GLYPH_CODES[ch] for ch in string.punctuation])
+        self.assertEqual(encode_text("‘’“”‐‑", latin),
+                         [GLYPH_CODES[ch] for ch in "''\"\"--"])
+        # Digits continue to use their supported native records.
+        self.assertEqual(encode_text("0", latin), [latin["０"]])
+
+    def test_punctuation_joins_keep_pixels_in_both_font_sizes(self):
+        for font, stride in self.fonts:
+            apostrophe = cutscene.record_pixels(font, stride, GLYPH_CODES["'"])
+            self.assertTrue(any(any(row) for row in apostrophe[2:5]))
+            self.assertFalse(any(any(row) for row in apostrophe[5:]))
+            samples = ["A" + char for char in PUNCTUATION] + ["n's", "'n'", '"I']
+            for text in samples:
+                with self.subTest(stride=stride, text=text):
+                    codes = encode_text(text, {})
+                    packed = cutscene.cluster_codes(codes, font, stride)
+                    actual = cutscene.record_pixels(packed, stride, 1)
+                    width = dialogue.advance(1, packed, stride)
+                    expected = [[] for _ in actual]
+                    for code in codes:
+                        advance = dialogue.advance(code, font, stride)
+                        rows = cutscene.record_pixels(font, stride, code)
+                        for y, row in enumerate(rows):
+                            expected[y].extend(row[:advance])
+                    self.assertEqual([row[:width] for row in actual], expected)
+                    self.assertTrue(all(row[width - 1] == 0 for row in actual))
 
     def test_packed_field_preserves_pixels_pages_end_and_native_records(self):
         text = "Running, Gin!\fNo, run!"
