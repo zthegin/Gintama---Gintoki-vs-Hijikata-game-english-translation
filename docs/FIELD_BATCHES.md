@@ -4,7 +4,7 @@ Every currently indexed field record has an editable template. This measures the
 
 There are 114 numbered editable batches: `0001-0089` and `0115-0139`. Earlier batch IDs remain stable. The former research batches `0090-0114` were replaced after verified glyph, control and string-boundary research. See [the evidence and limits](FIELD_RESEARCH.md).
 
-The 22,480 indexed field records include 17,223 translated entries. Of the 114 numbered batches, 86 are complete. Adding templates does not translate their text. The source index may still omit other choice labels or dialogue strings.
+The 22,480 indexed field records include 17,423 translated entries. Of the 114 numbered batches, 87 are complete. Adding templates does not translate their text. The source index may still omit other choice labels or dialogue strings.
 
 ## Translate a batch
 
