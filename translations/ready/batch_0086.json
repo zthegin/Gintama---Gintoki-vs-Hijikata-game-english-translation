@@ -5,1201 +5,1201 @@
     {
       "id": "msb_000DEC98",
       "source_words_sha256": "886cc8cf926827be049a2a7334963d3ea451bbd2874e6b88a5c0c2f9a7eb3872",
-      "english": null,
+      "english": "Yamazaki! Found you!",
       "translator_note": null
     },
     {
       "id": "msb_000DF0B8",
       "source_words_sha256": "e306339f3dc9d8eb7c25d722531291cfdc2f38ff72964ec099123d9738dad2c4",
-      "english": null,
+      "english": "Yamazaki, what now?",
       "translator_note": null
     },
     {
       "id": "msb_000DF19C",
       "source_words_sha256": "3497efcc7074bf7b9bdd0601848a3c634a8422e459ab35fb976b0a3e77fe4090",
-      "english": null,
+      "english": "I'll find you. Just watch!",
       "translator_note": null
     },
     {
       "id": "msb_000DF1EC",
       "source_words_sha256": "1dc82dd7a6bf16411cc82fa9d7468794bd0875f0ddc5dde766d47baf94480e39",
-      "english": null,
+      "english": "You'll never find me!",
       "translator_note": null
     },
     {
       "id": "msb_000DF20C",
       "source_words_sha256": "385ebdad7e325133ae50aa1f1127de12fb84e8c92756c12e231eafd66725fe9b",
-      "english": null,
+      "english": "Found you. All done.",
       "translator_note": null
     },
     {
       "id": "msb_000DF230",
       "source_words_sha256": "008340d5256e5aabe1002d03877c9031b76ee13cb0a4f626011e9bd065f7ab20",
-      "english": null,
+      "english": "Eight finds!",
       "translator_note": null
     },
     {
       "id": "msb_000DF304",
       "source_words_sha256": "11227c3e6c4670ca43d696f5b130ea41d83bf5bdb6902aeb6de165c2a35e70e6",
-      "english": null,
+      "english": "Aaaah!\nYou spotted me!!",
       "translator_note": null
     },
     {
       "id": "msb_000DF800",
       "source_words_sha256": "90433b37b27289495fc981152a363563c9c9ad4e539faff9bf3144897b5092e1",
-      "english": null,
+      "english": "Handy things exist, huh.",
       "translator_note": null
     },
     {
       "id": "msb_000DF910",
       "source_words_sha256": "32eb4cd5ed026192538e4c5c67f242cace01fdd1547a0d93cd0b69bcf7c74cb0",
-      "english": null,
+      "english": "Kondo! Got the twelve\nKotetsu you wanted.",
       "translator_note": null
     },
     {
       "id": "msb_000DFDE4",
       "source_words_sha256": "90433b37b27289495fc981152a363563c9c9ad4e539faff9bf3144897b5092e1",
-      "english": null,
+      "english": "Handy things exist, huh.",
       "translator_note": null
     },
     {
       "id": "msb_000DFEA8",
       "source_words_sha256": "b5edae09c57febb2f9ef9348f12b8b879359fc9499ac4eaeaf6e8d592a592640",
-      "english": null,
+      "english": "Sogo! Got the twelve\nbazookas you wanted.",
       "translator_note": null
     },
     {
       "id": "msb_000DFFA8",
       "source_words_sha256": "c8d59536bc2da0c10967668459e8bec0aa1bbce3a7ca7f07e21c6bada26aae1d",
-      "english": null,
+      "english": "What...?!",
       "translator_note": null
     },
     {
       "id": "msb_000E01E8",
       "source_words_sha256": "d29a32971bc1f803bfe250b4cdbc5d529d6573fec74341c8afde7520a354eb28",
-      "english": null,
+      "english": "Again...?",
       "translator_note": null
     },
     {
       "id": "msb_000E0224",
       "source_words_sha256": "09cdfdfa6d7e25ecf35e9c239d349d74ef77d77a6669a0b6443312fe356bd8bd",
-      "english": null,
+      "english": "And now, the\nShinsengumi Quiz!!",
       "translator_note": null
     },
     {
       "id": "msb_000E02D8",
       "source_words_sha256": "1326ec11f6b8f1851e15034ea65dc1ae80e7306334d9679751e0d36024a781e5",
-      "english": null,
+      "english": "Every question\nis about the Shinsengumi.",
       "translator_note": null
     },
     {
       "id": "msb_000E0340",
       "source_words_sha256": "dbd510cea348b625bc1aaadcd3b533e3ba163d365828b7b528516c8a55b74310",
-      "english": null,
+      "english": "Take the Shinsengumi Quiz?",
       "translator_note": null
     },
     {
       "id": "msb_000E04B4",
       "source_words_sha256": "9991d3f7a7892a2ce736ef8069f99fcd05c4ab6568af66c441833e4691168b14",
-      "english": null,
+      "english": "What...?",
       "translator_note": null
     },
     {
       "id": "msb_000E04CC",
       "source_words_sha256": "18169d27a3fbced2e0ad0b39510f8757854f89a78c32588835a4e72cc832cb3a",
-      "english": null,
+      "english": "Suit yourself...",
       "translator_note": null
     },
     {
       "id": "msb_000E09E8",
       "source_words_sha256": "c7155e7371731baaf0d12ed0ecd916ea830ab9fd947939eea9b8d311035229ec",
-      "english": null,
+      "english": "Forgot already?\nWe caught escaped bugs\non the shogun's orders!",
       "translator_note": null
     },
     {
       "id": "msb_000E0A2C",
       "source_words_sha256": "b7d538e116cd0495be6309e1880ae23955413391df5535fe30954a1a1b07af1f",
-      "english": null,
+      "english": "Why?",
       "translator_note": null
     },
     {
       "id": "msb_000E0A38",
       "source_words_sha256": "724177e26bbc908edc5e145d1cbf5512f8009231c8f192aaa8292427c5e3958c",
-      "english": null,
+      "english": "You don't understand me!\fSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E0D20",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E0D70",
       "source_words_sha256": "18169d27a3fbced2e0ad0b39510f8757854f89a78c32588835a4e72cc832cb3a",
-      "english": null,
+      "english": "Suit yourself...",
       "translator_note": null
     },
     {
       "id": "msb_000E0D8C",
       "source_words_sha256": "a9963cbdb2b2157a075e107f6495afb24ee2d934c6dc0eacfa13cfaf978ef6bf",
-      "english": null,
+      "english": "You don't have to go that far...",
       "translator_note": null
     },
     {
       "id": "msb_000E0DF0",
       "source_words_sha256": "0b714fddfd9250c735854d742276c781e2e9b839fbf633146b5e96b41c56a2aa",
-      "english": null,
+      "english": "Why?!",
       "translator_note": null
     },
     {
       "id": "msb_000E0E28",
       "source_words_sha256": "724177e26bbc908edc5e145d1cbf5512f8009231c8f192aaa8292427c5e3958c",
-      "english": null,
+      "english": "You don't understand me!\fSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E0F50",
       "source_words_sha256": "a9963cbdb2b2157a075e107f6495afb24ee2d934c6dc0eacfa13cfaf978ef6bf",
-      "english": null,
+      "english": "You don't have to go that far...",
       "translator_note": null
     },
     {
       "id": "msb_000E1058",
       "source_words_sha256": "4ebbf1f4b5f59aa2544ede7ec5124f793eeb9c8eae6bc5017a0593d2284e5b4c",
-      "english": null,
+      "english": "Wrong anyway!\nGame over!\nTry again sometime!",
       "translator_note": null
     },
     {
       "id": "msb_000E1130",
       "source_words_sha256": "19f15b4a5da9d73d5938cdcccaf692631735db480eb6fb7e8769d5636ab403d5",
-      "english": null,
+      "english": "Why...?",
       "translator_note": null
     },
     {
       "id": "msb_000E1260",
       "source_words_sha256": "4ebbf1f4b5f59aa2544ede7ec5124f793eeb9c8eae6bc5017a0593d2284e5b4c",
-      "english": null,
+      "english": "Wrong anyway!\nGame over!\nTry again sometime!",
       "translator_note": null
     },
     {
       "id": "msb_000E1638",
       "source_words_sha256": "d8c5b3851097bee9f422c8a2700b6688932e4f66ca97065a55e07e52329807f1",
-      "english": null,
+      "english": "Not interested...",
       "translator_note": null
     },
     {
       "id": "msb_000E17E0",
       "source_words_sha256": "5e1e00c8838cf6781be661001dafac29afbfa8c14ccb8db797c1e148c8344b7d",
-      "english": null,
+      "english": "Good grief...\nYou'll have to try again.",
       "translator_note": null
     },
     {
       "id": "msb_000E1B0C",
       "source_words_sha256": "5e1e00c8838cf6781be661001dafac29afbfa8c14ccb8db797c1e148c8344b7d",
-      "english": null,
+      "english": "Good grief...\nYou'll have to try again.",
       "translator_note": null
     },
     {
       "id": "msb_000E1D00",
       "source_words_sha256": "5e1e00c8838cf6781be661001dafac29afbfa8c14ccb8db797c1e148c8344b7d",
-      "english": null,
+      "english": "Good grief...\nYou'll have to try again.",
       "translator_note": null
     },
     {
       "id": "msb_000E1D50",
       "source_words_sha256": "39a73f2d9659086a3cc0d684bb5ca43d390095f3165e5b0ffa35e3b76cb167a5",
-      "english": null,
+      "english": "Don't say that...",
       "translator_note": null
     },
     {
       "id": "msb_000E21F4",
       "source_words_sha256": "569e5720130b80ef08312f815a3ed3178872897c479699584c785a3f067da228",
-      "english": null,
+      "english": "No idea...",
       "translator_note": null
     },
     {
       "id": "msb_000E222C",
       "source_words_sha256": "4d0a59695b7512de079779a37df68c823fa216398f37bef5ab6380b793905d03",
-      "english": null,
+      "english": "That again...?",
       "translator_note": null
     },
     {
       "id": "msb_000E2624",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E2904",
       "source_words_sha256": "458c1551107535452523d3cb193367752f9175cdda0059073e456f0001d36730",
-      "english": null,
+      "english": "Toshi! Wrong!\nI'm still worried!\nSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E2958",
       "source_words_sha256": "83f32f53b9bb971833e0b16c7bf64045595ab56abb12a62d2dc2e3ec5f13c5ef",
-      "english": null,
+      "english": "Game over!\nTry again sometime!",
       "translator_note": null
     },
     {
       "id": "msb_000E2A24",
       "source_words_sha256": "6f03001bea0c31487ab887f9776d921daae920603f146f6f5acfefc4250e4e11",
-      "english": null,
+      "english": "Correct!",
       "translator_note": null
     },
     {
       "id": "msb_000E2AB8",
       "source_words_sha256": "10be68cf256bd19d6b8a84edc10314e22ebd6b53d5bdc2891e1cf2dfaa958c08",
-      "english": null,
+      "english": "Otose...",
       "translator_note": null
     },
     {
       "id": "msb_000E2E00",
       "source_words_sha256": "4fc30ab3061ead37902e365f9e9641d375b57a1b0b05d4a61b909dd9a3b1cae9",
-      "english": null,
+      "english": "With this...\nSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E2EE4",
       "source_words_sha256": "4d0a59695b7512de079779a37df68c823fa216398f37bef5ab6380b793905d03",
-      "english": null,
+      "english": "That again...?",
       "translator_note": null
     },
     {
       "id": "msb_000E2F64",
       "source_words_sha256": "d63dc903d3e3d13684939fc57d7cdc0f7db70f914e11af028d2850504a672b91",
-      "english": null,
+      "english": "No, no good!\nSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E33F4",
       "source_words_sha256": "d63dc903d3e3d13684939fc57d7cdc0f7db70f914e11af028d2850504a672b91",
-      "english": null,
+      "english": "No, no good!\nSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E39E0",
       "source_words_sha256": "e8b289bffdb3b83a91bfd8517c908e900342a4c668fcfd8c981a7923bc70643d",
-      "english": null,
+      "english": "Right!!",
       "translator_note": null
     },
     {
       "id": "msb_000E3B30",
       "source_words_sha256": "d63dc903d3e3d13684939fc57d7cdc0f7db70f914e11af028d2850504a672b91",
-      "english": null,
+      "english": "No, no good!\nSo much for trust!",
       "translator_note": null
     },
     {
       "id": "msb_000E3D74",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E3F7C",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E40C0",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E41FC",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E4524",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E46F8",
       "source_words_sha256": "ded0b42ba9e40294df2b8f1906c84cf1eed7048d10a8a7d2e8ba3ebe6a8a826e",
-      "english": null,
+      "english": "Work.",
       "translator_note": null
     },
     {
       "id": "msb_000E48A8",
       "source_words_sha256": "d7efdfbefd64a367002b1043dc4151c07336590959a648e8eea57e624f5f7178",
-      "english": null,
+      "english": "Tch...!\nWrong one...",
       "translator_note": null
     },
     {
       "id": "msb_000E4B08",
       "source_words_sha256": "c4ff30953463a2370db59feda0c7d2c7f4832d24be3e690cb8efb551de497aaf",
-      "english": null,
+      "english": "Tch...!",
       "translator_note": null
     },
     {
       "id": "msb_000E5094",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E50A4",
       "source_words_sha256": "e8b289bffdb3b83a91bfd8517c908e900342a4c668fcfd8c981a7923bc70643d",
-      "english": null,
+      "english": "Right!!",
       "translator_note": null
     },
     {
       "id": "msb_000E5184",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E5624",
       "source_words_sha256": "967bac1a20e434465b60fb2bd2182e8dd5d0642c5786783524b14efa1cddc056",
-      "english": null,
+      "english": "You're always\nhalf asleep anyway...",
       "translator_note": null
     },
     {
       "id": "msb_000E5664",
       "source_words_sha256": "924c2f53dcac9f7b7b7c88fdb7a3f08931225c6a963dbf6632fbac147371a5cb",
-      "english": null,
+      "english": "Not my fault!\nSogo's the one asleep!",
       "translator_note": null
     },
     {
       "id": "msb_000E5D6C",
       "source_words_sha256": "e8b289bffdb3b83a91bfd8517c908e900342a4c668fcfd8c981a7923bc70643d",
-      "english": null,
+      "english": "Right!!",
       "translator_note": null
     },
     {
       "id": "msb_000E5F78",
       "source_words_sha256": "c4ff30953463a2370db59feda0c7d2c7f4832d24be3e690cb8efb551de497aaf",
-      "english": null,
+      "english": "Tch...!",
       "translator_note": null
     },
     {
       "id": "msb_000E62C4",
       "source_words_sha256": "cbc5b2a79d48c977c1245bf2cdbcf483081f531f9e670862b1559fd1aae0bbf9",
-      "english": null,
+      "english": "That's a relief.",
       "translator_note": null
     },
     {
       "id": "msb_000E6748",
       "source_words_sha256": "dc3ae62e2087055719353897dec710dec0020302973b53d917c07c91a91091d5",
-      "english": null,
+      "english": "Isn't it [blue]Oedo Hospital[/color]?",
       "translator_note": null
     },
     {
       "id": "msb_000E6970",
       "source_words_sha256": "cf3bc7797f778d412d9c3fa5e442bb4ef85d57be08923ec91a3fd1b37ab715d2",
-      "english": null,
+      "english": "Really?",
       "translator_note": null
     },
     {
       "id": "msb_000E6CA8",
       "source_words_sha256": "8e9a052b2abe8919fce28d1d6cf6d79033f6a1fd0e2f0b58f7d29ce7fe9eb05d",
-      "english": null,
+      "english": "About what?",
       "translator_note": null
     },
     {
       "id": "msb_000E6F9C",
       "source_words_sha256": "bb2cbf7d82270495e8664c9134cfcde5515bf3f55f11646cce9f388fce5d1c2b",
-      "english": null,
+      "english": "Urgh...!",
       "translator_note": null
     },
     {
       "id": "msb_000E7040",
       "source_words_sha256": "8909ba9c37bdd0f984c58f31f588a20a801cdd2deb3ca045761126da8804f0f3",
-      "english": null,
+      "english": "Boss! We're outside\n[blue]Shinsengumi HQ[/color].\nIsn't this risky?",
       "translator_note": null
     },
     {
       "id": "msb_000E709C",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E73B8",
       "source_words_sha256": "a36374ac4b5ece2c68a65a79fdee30e0add167ac0cd940bddc1418b314e82fc8",
-      "english": null,
+      "english": "Spoils!",
       "translator_note": null
     },
     {
       "id": "msb_000E7530",
       "source_words_sha256": "75c64d185010a0aaa03ee63432a29dc15374026db50533e75d9bfd5c44d995cf",
-      "english": null,
+      "english": "Brought this one.",
       "translator_note": null
     },
     {
       "id": "msb_000E7654",
       "source_words_sha256": "533ab9534c4202040c3e896ee4e987caa594c1fdc24e07328ed7f8783d5ed854",
-      "english": null,
+      "english": "What is it?",
       "translator_note": null
     },
     {
       "id": "msb_000E798C",
       "source_words_sha256": "071306f2a032aaf2f561e966211a5b8921691e85fcdd807c6b524244c5473865",
-      "english": null,
+      "english": "Kanbei! Found you!!",
       "translator_note": null
     },
     {
       "id": "msb_000E7B4C",
       "source_words_sha256": "8b74ec364a1e9f386ea4aa2caed2489f949cc8a56d1ed7d2903ed464c32c0318",
-      "english": null,
+      "english": "Remember anything?",
       "translator_note": null
     },
     {
       "id": "msb_000E7B64",
       "source_words_sha256": "cf3bc7797f778d412d9c3fa5e442bb4ef85d57be08923ec91a3fd1b37ab715d2",
-      "english": null,
+      "english": "Really?",
       "translator_note": null
     },
     {
       "id": "msb_000E7C7C",
       "source_words_sha256": "fa2265713a62c55d87dbb93596f937cc938cd8b6803721eff88d389514b55f71",
-      "english": null,
+      "english": "Yeah.",
       "translator_note": null
     },
     {
       "id": "msb_000E7D24",
       "source_words_sha256": "261d37a4af006fc1df9cdf4e23adda1bbca6eebdbb3d80bcd9b98bfad0a57d45",
-      "english": null,
+      "english": "Toward [blue]Oedo Mart[/color], surely.",
       "translator_note": null
     },
     {
       "id": "msb_000E7DE0",
       "source_words_sha256": "bc656ea6fa1a735682667a618e26d0689e1f486c533bb4e35161346acdfbbe5a",
-      "english": null,
+      "english": "Toward [blue]Oedo Mart[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000E7E58",
       "source_words_sha256": "adc01a6b210bd8720229bdc03e50d748cd9ee83d499bf652b2793e7c00c4acc5",
-      "english": null,
+      "english": "Go straight\nto [blue]Denii's[/color]...",
       "translator_note": null
     },
     {
       "id": "msb_000E7F14",
       "source_words_sha256": "e0d81ae97aa3439de46b53303c3367febe9cead6a80e804be63dddb8ada23839",
-      "english": null,
+      "english": "Let's go to [blue]Denii's[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000E7F30",
       "source_words_sha256": "12df8a56cf17b37387d406c3250f741b8662e32fca469b46b58e679768959b4b",
-      "english": null,
+      "english": "All right. Let's go.",
       "translator_note": null
     },
     {
       "id": "msb_000E7FF8",
       "source_words_sha256": "cf3bc7797f778d412d9c3fa5e442bb4ef85d57be08923ec91a3fd1b37ab715d2",
-      "english": null,
+      "english": "Really?",
       "translator_note": null
     },
     {
       "id": "msb_000E8480",
       "source_words_sha256": "587c561eedc40adc92f127a8adea929a6ffbead3aaa0508b05d2734a787ac38b",
-      "english": null,
+      "english": "Need someone involved.",
       "translator_note": null
     },
     {
       "id": "msb_000E84BC",
       "source_words_sha256": "077194e30368aca627a9a5d23e0cfd2eb0b6d69c2591e64b4513f032c18e9d70",
-      "english": null,
+      "english": "Isn't that a guest\non your show?",
       "translator_note": null
     },
     {
       "id": "msb_000E8508",
       "source_words_sha256": "3c9b91af7f7aa756458591978ac13f1db4eff9affddc6c3dff67592ee858d665",
-      "english": null,
+      "english": "Not true!",
       "translator_note": null
     },
     {
       "id": "msb_000E8564",
       "source_words_sha256": "d7efdfbefd64a367002b1043dc4151c07336590959a648e8eea57e624f5f7178",
-      "english": null,
+      "english": "Tch...!\nWrong one...",
       "translator_note": null
     },
     {
       "id": "msb_000E89CC",
       "source_words_sha256": "a86e6daba682af9f37dc66da23705de1a0dd182938f61bd96d76bd504335d775",
-      "english": null,
+      "english": "How?",
       "translator_note": null
     },
     {
       "id": "msb_000E8A08",
       "source_words_sha256": "c0e9ab683992f90b3bf91226686ffffcd98329eef9342299fd0d0f1b60013f31",
-      "english": null,
+      "english": "I thought I'd\nsaid goodbye\nto Mayora 13...",
       "translator_note": null
     },
     {
       "id": "msb_000E8BE8",
       "source_words_sha256": "6ba0e1adf3d2154591c24cdf4480ef550e9d23cd0b8e100305331a9a86ae5b5d",
-      "english": null,
+      "english": "I'll tell you, then.\nYou saved Kuriko\nfrom yakuza kidnappers.",
       "translator_note": null
     },
     {
       "id": "msb_000E94D8",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E9514",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000E9550",
       "source_words_sha256": "c12b7335bc7d052e6a81794d25fece7878d502688b122cbb29734081361443e7",
-      "english": null,
+      "english": "...!",
       "translator_note": null
     },
     {
       "id": "msb_000E95E0",
       "source_words_sha256": "b9c00fed0ae9f9915826677718061005696d9085d1ee56012ed65b03d2f0e1e4",
-      "english": null,
+      "english": "Yes...",
       "translator_note": null
     },
     {
       "id": "msb_000E9760",
       "source_words_sha256": "be94210a9d5d9d2e44f0269141bf1569971c4b565c04d51d416beff4748bf620",
-      "english": null,
+      "english": "That's it.",
       "translator_note": null
     },
     {
       "id": "msb_000E97D4",
       "source_words_sha256": "61d646bca5f52aef13a476280dbadc51d2a154d1d720080f857c6959e8f86162",
-      "english": null,
+      "english": "Why?",
       "translator_note": null
     },
     {
       "id": "msb_000E9A84",
       "source_words_sha256": "6c485520c36ae1445353615c0559040ee9a439e07557f31076dc72c87954779a",
-      "english": null,
+      "english": "What, Sogo?",
       "translator_note": null
     },
     {
       "id": "msb_000E9B5C",
       "source_words_sha256": "b05d78e2fa62e121c5cdcb1b397fb45f299f8ead77b56b17c643d8f3ec10a4b3",
-      "english": null,
+      "english": "What do you mean?",
       "translator_note": null
     },
     {
       "id": "msb_000E9E74",
       "source_words_sha256": "df144e0f1630d6480bdd8964e5c91ffc2409901e7e94422241f5ce28a573ed5f",
-      "english": null,
+      "english": "By [blue]Hokuto Shinken[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000E9E90",
       "source_words_sha256": "7117c8c2164495d2e9bfec53cda2d9e72389deeb4d763ddf33b50125512ce590",
-      "english": null,
+      "english": "To [blue]Hokuto Shinken[/color]! Now!",
       "translator_note": null
     },
     {
       "id": "msb_000E9EB0",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000E9EEC",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000E9F28",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000E9F30",
       "source_words_sha256": "96d1bcabd91f0cf83ef3ccc080371d74516f797fd3ac5ffcb0e888902a4a001b",
-      "english": null,
+      "english": "To [blue]Derelict St.[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000E9F4C",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000E9F64",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EA278",
       "source_words_sha256": "35db4a6feea142652fee9bb179b9630a465423b2f96673cd654612a0520531d1",
-      "english": null,
+      "english": "Um... Staffing...\nWell... Various things...",
       "translator_note": null
     },
     {
       "id": "msb_000EA3F4",
       "source_words_sha256": "149aa1042945fa01b5f78e0b785d92a60c5c86a6f1d6605e02344aa48c7af77a",
-      "english": null,
+      "english": "A citizen's report.\nCan't ignore it!",
       "translator_note": null
     },
     {
       "id": "msb_000EA598",
       "source_words_sha256": "03d77ae2b0b5f5ba73d4864567d6e3ed609922061c5a2a5945256651688e3d2d",
-      "english": null,
+      "english": "What?!",
       "translator_note": null
     },
     {
       "id": "msb_000EA734",
       "source_words_sha256": "989cc219acf255e4c49808d6dfe6117a0e96250453543c2a870b960e60ed1ca2",
-      "english": null,
+      "english": "Hmm...",
       "translator_note": null
     },
     {
       "id": "msb_000EA878",
       "source_words_sha256": "f9e5a5a97453a4942f9f5f5a1670c8f100561f137b11b2dfe72eabb1a42f2cff",
-      "english": null,
+      "english": "I'm with Kondo on this.",
       "translator_note": null
     },
     {
       "id": "msb_000EAB48",
       "source_words_sha256": "aa4b81acbe98d619d1db2994aa5f262f22f82b9455fdaf115931ef95b6a827f3",
-      "english": null,
+      "english": "Not a lie!\nStaffing... Other stuff...\nI do all sorts of jobs!",
       "translator_note": null
     },
     {
       "id": "msb_000EABA8",
       "source_words_sha256": "bb2cbf7d82270495e8664c9134cfcde5515bf3f55f11646cce9f388fce5d1c2b",
-      "english": null,
+      "english": "Urgh...!",
       "translator_note": null
     },
     {
       "id": "msb_000EABDC",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000EAC44",
       "source_words_sha256": "a9e629150f07424098595760240fd572dbeddc0e7e6dbddfee4737d15123bae6",
-      "english": null,
+      "english": "Huh...?!",
       "translator_note": null
     },
     {
       "id": "msb_000EAC80",
       "source_words_sha256": "5009cdb1e19cfa58b14540f5691869187fc7432f089508be159f0bc3b1a9f65a",
-      "english": null,
+      "english": "!",
       "translator_note": null
     },
     {
       "id": "msb_000EACA8",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000EAEC0",
       "source_words_sha256": "37d077fe5a304bb1e953dca9fd02821ca66175c15c702e725a3ad5a62943f288",
-      "english": null,
+      "english": "Rush to the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EAED8",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EAEF4",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EAF0C",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EAF14",
       "source_words_sha256": "e3ffff8d223721ed74c7d3cf754941fb3c096e9a5dc6b205fcaae675a8e14523",
-      "english": null,
+      "english": "[blue]Derelict St.[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EAF28",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EAF40",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EB010",
       "source_words_sha256": "a392e82ccea8988f859eb7014999bc4b640aa271308b74adaa6b04683f1fc386",
-      "english": null,
+      "english": "Right, we're done!\nBack to [blue]HQ[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EB040",
       "source_words_sha256": "038febc4f0570d88c1e3422a161da1cbfa82d09e9480b733f65d23995ebf3e7d",
-      "english": null,
+      "english": "Tch!",
       "translator_note": null
     },
     {
       "id": "msb_000EBA14",
       "source_words_sha256": "bbf75639f0684c339079e88cc19bec2eee65842c9bbba181d56836ca0297952d",
-      "english": null,
+      "english": "Urgh...",
       "translator_note": null
     },
     {
       "id": "msb_000EBC8C",
       "source_words_sha256": "c2528ff53e202dfbfec5986ff3a161414e68259e4265834224f55f691142eec3",
-      "english": null,
+      "english": "Huh...?",
       "translator_note": null
     },
     {
       "id": "msb_000EBF44",
       "source_words_sha256": "e1ca79d9100cd281b3754e75c4a9aa05d81eceb8ac9cf6dae8e83cb697f46503",
-      "english": null,
+      "english": "Huh?",
       "translator_note": null
     },
     {
       "id": "msb_000EBF4C",
       "source_words_sha256": "fbf8ca7a5bfc0cd3f7ab58d5ef8ad4dbceb87bb748e901abb3178c2050557506",
-      "english": null,
+      "english": "Why?!",
       "translator_note": null
     },
     {
       "id": "msb_000EC1FC",
       "source_words_sha256": "b05bb3bc0561745cd22c6c787a3b8b6410f7a0875fbb91b731fd43b8abaa4cfd",
-      "english": null,
+      "english": "Excuse me?!",
       "translator_note": null
     },
     {
       "id": "msb_000EC270",
       "source_words_sha256": "323614cef1d0eeeb716b5d99867a9f2617d1b0b2fc211392a9cdb7ed09d84254",
-      "english": null,
+      "english": "Huh...",
       "translator_note": null
     },
     {
       "id": "msb_000EC284",
       "source_words_sha256": "c8cc3cd21a1f3d8146837fb2e47fa07046c2b0c61571635ca52b9c1a4d456773",
-      "english": null,
+      "english": "B-but...",
       "translator_note": null
     },
     {
       "id": "msb_000EC3D4",
       "source_words_sha256": "a5051bd7bf90dc460630061c2ca765d0838588d3dae3eddb798c862621127692",
-      "english": null,
+      "english": "Ah...",
       "translator_note": null
     },
     {
       "id": "msb_000EC580",
       "source_words_sha256": "e64d2f1f1996ba5b82083185943647881c55c180ac9b8bba1d2ac0049826eaa2",
-      "english": null,
+      "english": "By [blue]Hokuto[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EC594",
       "source_words_sha256": "37d077fe5a304bb1e953dca9fd02821ca66175c15c702e725a3ad5a62943f288",
-      "english": null,
+      "english": "Rush to the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EC5AC",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EC5C8",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EC5E0",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EC5E8",
       "source_words_sha256": "e3ffff8d223721ed74c7d3cf754941fb3c096e9a5dc6b205fcaae675a8e14523",
-      "english": null,
+      "english": "[blue]Derelict St.[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EC5FC",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EC614",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EC64C",
       "source_words_sha256": "ecd6c76296a0129820fd9948b50e63417be6fa229d803cb0ef22e0aedab4abd1",
-      "english": null,
+      "english": "Sogo, you promised.\nGive me that special Tama.",
       "translator_note": null
     },
     {
       "id": "msb_000EC680",
       "source_words_sha256": "0a7801bfb7002f0c8734405f8f02f19a28400211f8059fa9c78650f9a36794ad",
-      "english": null,
+      "english": "This is the special one?",
       "translator_note": null
     },
     {
       "id": "msb_000EC698",
       "source_words_sha256": "426df8cbed088b2945aeff18ab185a54ee961aef9649416a7d92a42aab99f001",
-      "english": null,
+      "english": "Yeah. Let's go back.",
       "translator_note": null
     },
     {
       "id": "msb_000EC6E4",
       "source_words_sha256": "a392e82ccea8988f859eb7014999bc4b640aa271308b74adaa6b04683f1fc386",
-      "english": null,
+      "english": "Right, we're done!\nBack to [blue]HQ[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EC714",
       "source_words_sha256": "038febc4f0570d88c1e3422a161da1cbfa82d09e9480b733f65d23995ebf3e7d",
-      "english": null,
+      "english": "Tch!",
       "translator_note": null
     },
     {
       "id": "msb_000EC720",
       "source_words_sha256": "7d22480d8493323eea5ae1ffb962eace7cdcc7ab2c2509581510cf9432788088",
-      "english": null,
+      "english": "All right.\nHere you go.",
       "translator_note": null
     },
     {
       "id": "msb_000EC73C",
       "source_words_sha256": "a5db72e1544adfc858017693123dc0e379808ececb448c2e4ec8f1af8a713358",
-      "english": null,
+      "english": "Try it and you'll see.",
       "translator_note": null
     },
     {
       "id": "msb_000EC8A4",
       "source_words_sha256": "42843a31a81bc10602e381a127785562a218b63fa7b6e7774dc2f75c2917cc66",
-      "english": null,
+      "english": "I live nearby.\nFighting in the street\nis a nuisance!",
       "translator_note": null
     },
     {
       "id": "msb_000ED080",
       "source_words_sha256": "d7877a7995ced069cf29ec56329726583755615f8fc7ef23f546b7d2ee4e9050",
-      "english": null,
+      "english": "This is bad...",
       "translator_note": null
     },
     {
       "id": "msb_000ED0B8",
       "source_words_sha256": "03e86891fc71224b345c0d3813e49066011c0d636d7224f680f5187e25b41d24",
-      "english": null,
+      "english": "Yeah...",
       "translator_note": null
     },
     {
       "id": "msb_000ED128",
       "source_words_sha256": "e64d2f1f1996ba5b82083185943647881c55c180ac9b8bba1d2ac0049826eaa2",
-      "english": null,
+      "english": "By [blue]Hokuto[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000ED13C",
       "source_words_sha256": "37d077fe5a304bb1e953dca9fd02821ca66175c15c702e725a3ad5a62943f288",
-      "english": null,
+      "english": "Rush to the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000ED154",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000ED174",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000ED18C",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000ED194",
       "source_words_sha256": "e3ffff8d223721ed74c7d3cf754941fb3c096e9a5dc6b205fcaae675a8e14523",
-      "english": null,
+      "english": "[blue]Derelict St.[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000ED1A8",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000ED1C0",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000ED1F8",
       "source_words_sha256": "ecd6c76296a0129820fd9948b50e63417be6fa229d803cb0ef22e0aedab4abd1",
-      "english": null,
+      "english": "Sogo, you promised.\nGive me that special Tama.",
       "translator_note": null
     },
     {
       "id": "msb_000ED22C",
       "source_words_sha256": "0a7801bfb7002f0c8734405f8f02f19a28400211f8059fa9c78650f9a36794ad",
-      "english": null,
+      "english": "This is the special one?",
       "translator_note": null
     },
     {
       "id": "msb_000ED244",
       "source_words_sha256": "426df8cbed088b2945aeff18ab185a54ee961aef9649416a7d92a42aab99f001",
-      "english": null,
+      "english": "Yeah. Let's go back.",
       "translator_note": null
     },
     {
       "id": "msb_000ED290",
       "source_words_sha256": "a392e82ccea8988f859eb7014999bc4b640aa271308b74adaa6b04683f1fc386",
-      "english": null,
+      "english": "Right, we're done!\nBack to [blue]HQ[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000ED2C0",
       "source_words_sha256": "038febc4f0570d88c1e3422a161da1cbfa82d09e9480b733f65d23995ebf3e7d",
-      "english": null,
+      "english": "Tch!",
       "translator_note": null
     },
     {
       "id": "msb_000ED2CC",
       "source_words_sha256": "7d22480d8493323eea5ae1ffb962eace7cdcc7ab2c2509581510cf9432788088",
-      "english": null,
+      "english": "All right.\nHere you go.",
       "translator_note": null
     },
     {
       "id": "msb_000ED2E8",
       "source_words_sha256": "a5db72e1544adfc858017693123dc0e379808ececb448c2e4ec8f1af8a713358",
-      "english": null,
+      "english": "Try it and you'll see.",
       "translator_note": null
     },
     {
       "id": "msb_000ED784",
       "source_words_sha256": "533ab9534c4202040c3e896ee4e987caa594c1fdc24e07328ed7f8783d5ed854",
-      "english": null,
+      "english": "What is it?",
       "translator_note": null
     },
     {
       "id": "msb_000ED7C4",
       "source_words_sha256": "533ab9534c4202040c3e896ee4e987caa594c1fdc24e07328ed7f8783d5ed854",
-      "english": null,
+      "english": "What is it?",
       "translator_note": null
     },
     {
       "id": "msb_000ED7D4",
       "source_words_sha256": "f8bc59422c5cb2a091e2d88699765e173e4937e6b4f6a3a21fddc33679e6798e",
-      "english": null,
+      "english": "Fine...\fAh!! My wallet?!\nLeft it at [blue]HQ[/color]!!",
       "translator_note": null
     },
     {
       "id": "msb_000ED9EC",
       "source_words_sha256": "05bab0b6522f052df35e2df7d601679d536808431bfa3c1979a178abb3ca07e9",
-      "english": null,
+      "english": "Hmph! No time\nto play with kids, yes!",
       "translator_note": null
     },
     {
       "id": "msb_000EDAB4",
       "source_words_sha256": "feebe029cce68e1932c86974a708841689d92b83ba14e30a4e421bf12a3721a5",
-      "english": null,
+      "english": "Waaaah!!",
       "translator_note": null
     },
     {
       "id": "msb_000EDC9C",
       "source_words_sha256": "10514f11a1eac1277f381074ff958efe43d2f365728601460349c8fb1cfe5d03",
-      "english": null,
+      "english": "I know...",
       "translator_note": null
     },
     {
       "id": "msb_000EDD60",
       "source_words_sha256": "c4ff30953463a2370db59feda0c7d2c7f4832d24be3e690cb8efb551de497aaf",
-      "english": null,
+      "english": "Tch...!",
       "translator_note": null
     },
     {
       "id": "msb_000EDFD8",
       "source_words_sha256": "7efbad0d5cb06d647a1ae68fa210f829a405c55b5dd1dd5c5430a2a749022541",
-      "english": null,
+      "english": "Yes.",
       "translator_note": null
     },
     {
       "id": "msb_000EE028",
       "source_words_sha256": "cbb2b52f538fcf0b979aa3aedcff69115e49a95585a38efedef833a4d781393b",
-      "english": null,
+      "english": "No way...",
       "translator_note": null
     },
     {
       "id": "msb_000EE1A0",
       "source_words_sha256": "a57eccabed174487e51de913ce8557deb5766b24ece9499ab0a117f74dca3617",
-      "english": null,
+      "english": "What?",
       "translator_note": null
     },
     {
       "id": "msb_000EE21C",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000EE3C8",
       "source_words_sha256": "e64d2f1f1996ba5b82083185943647881c55c180ac9b8bba1d2ac0049826eaa2",
-      "english": null,
+      "english": "By [blue]Hokuto[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EE3DC",
       "source_words_sha256": "37d077fe5a304bb1e953dca9fd02821ca66175c15c702e725a3ad5a62943f288",
-      "english": null,
+      "english": "Rush to the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EE3F4",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EE418",
       "source_words_sha256": "37d077fe5a304bb1e953dca9fd02821ca66175c15c702e725a3ad5a62943f288",
-      "english": null,
+      "english": "Rush to the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EE430",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EE44C",
       "source_words_sha256": "5f688b24b8a48a7f1ec7c5e191c4825360414096810d19bbceac348f40ef915c",
-      "english": null,
+      "english": "Right! To the scene!",
       "translator_note": null
     },
     {
       "id": "msb_000EE464",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EE49C",
       "source_words_sha256": "ecd6c76296a0129820fd9948b50e63417be6fa229d803cb0ef22e0aedab4abd1",
-      "english": null,
+      "english": "Sogo, you promised.\nGive me that special Tama.",
       "translator_note": null
     },
     {
       "id": "msb_000EE4D0",
       "source_words_sha256": "0a7801bfb7002f0c8734405f8f02f19a28400211f8059fa9c78650f9a36794ad",
-      "english": null,
+      "english": "This is the special one?",
       "translator_note": null
     },
     {
       "id": "msb_000EE4E8",
       "source_words_sha256": "426df8cbed088b2945aeff18ab185a54ee961aef9649416a7d92a42aab99f001",
-      "english": null,
+      "english": "Yeah. Let's go back.",
       "translator_note": null
     },
     {
       "id": "msb_000EE534",
       "source_words_sha256": "a392e82ccea8988f859eb7014999bc4b640aa271308b74adaa6b04683f1fc386",
-      "english": null,
+      "english": "Right, we're done!\nBack to [blue]HQ[/color].",
       "translator_note": null
     },
     {
       "id": "msb_000EE564",
       "source_words_sha256": "038febc4f0570d88c1e3422a161da1cbfa82d09e9480b733f65d23995ebf3e7d",
-      "english": null,
+      "english": "Tch!",
       "translator_note": null
     },
     {
       "id": "msb_000EE570",
       "source_words_sha256": "7d22480d8493323eea5ae1ffb962eace7cdcc7ab2c2509581510cf9432788088",
-      "english": null,
+      "english": "All right.\nHere you go.",
       "translator_note": null
     },
     {
       "id": "msb_000EE58C",
       "source_words_sha256": "a5db72e1544adfc858017693123dc0e379808ececb448c2e4ec8f1af8a713358",
-      "english": null,
+      "english": "Try it and you'll see.",
       "translator_note": null
     },
     {
       "id": "msb_000EE608",
       "source_words_sha256": "10514f11a1eac1277f381074ff958efe43d2f365728601460349c8fb1cfe5d03",
-      "english": null,
+      "english": "I know...",
       "translator_note": null
     },
     {
       "id": "msb_000EE6C0",
       "source_words_sha256": "2350da1680f06165dd727258cfb15f4288f867b6d48c9627bdf8e78507b8e32f",
-      "english": null,
+      "english": "OK.",
       "translator_note": null
     },
     {
       "id": "msb_000EE744",
       "source_words_sha256": "02c6b3665850e70fe1fba53f67c6491ddef1e06482498ab747588358421bbb8a",
-      "english": null,
+      "english": "What rumor?",
       "translator_note": null
     },
     {
       "id": "msb_000EE8F0",
       "source_words_sha256": "762ffa98a439cefbf612d968acf3a0d07765dac679e70e80145cc84d078dad26",
-      "english": null,
+      "english": "Got it.",
       "translator_note": null
     },
     {
       "id": "msb_000EEC18",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000EEC28",
       "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
-      "english": null,
+      "english": "...",
       "translator_note": null
     },
     {
       "id": "msb_000EED30",
       "source_words_sha256": "829e0d1f2e4410f4fd0b3819d5a70e068e2f68a8238ac0e0c944622ad93ea450",
-      "english": null,
+      "english": "So what?",
       "translator_note": null
     },
     {
       "id": "msb_000EF288",
       "source_words_sha256": "80da1820fa2b62d11e07cb7773e4db40a32ba1b75a2c1d818861a79f6765b846",
-      "english": null,
+      "english": "Looks that way.",
       "translator_note": null
     }
   ]
