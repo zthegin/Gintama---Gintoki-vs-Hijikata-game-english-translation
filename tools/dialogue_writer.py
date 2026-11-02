@@ -223,7 +223,13 @@ def patch(field, cdb, records, reference, fonts, latin, *, packer=None):
             padding >= 0,
             f"{entry_id}: English needs {len(codes)} words; the fixed slot holds {budget}. Shorten the line; text is never truncated.",
         )
-        encoded = codes + [1] * padding + suffix + [terminator]
+        # A trailing newline positions the value drawn after this menu prefix.
+        if terminator == 0 and editable_original[-1] == LINE:
+            require(codes and codes[-1] == LINE,
+                    "Preserve the menu prefix's final newline: " + entry_id)
+            encoded = codes[:-1] + [1] * padding + [LINE] + suffix + [terminator]
+        else:
+            encoded = codes + [1] * padding + suffix + [terminator]
         require(
             [word for word in encoded[:budget] if word in TEXT_CONTROLS or word == PAGE]
             == [word for word in editable_original if word in TEXT_CONTROLS or word == PAGE],

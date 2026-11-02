@@ -281,6 +281,20 @@ class DialogueWriterTests(unittest.TestCase):
             self.assertEqual(words[-1], 0)
             self.assertEqual(words[-len(suffix)-1:-1] if suffix else [], suffix)
 
+    def test_menu_value_starts_at_original_line_origin_after_padding(self):
+        self.setup_slot([2] * 20 + [writer.LINE, RED, 0])
+        self.reference['records'][0].update(termination='nul', trailing_controls=[RED])
+        self.row['english'] = 'Time\n'
+        target, spans, report = self.patch()
+        words = writer.words_at(target, 16, terminator=0)
+        self.assertGreater(report[0]['padding_words'], 0)
+        self.assertEqual(words[-3:], [writer.LINE, RED, 0])
+        self.assertEqual(len(words), 23)
+        self.assertEqual(target[spans[0][1]:], self.field[spans[0][1]:])
+        self.row['english'] = 'Time'
+        with self.assertRaisesRegex(ValueError, 'final newline'):
+            self.patch()
+
     def test_nul_prefix_rejects_empty_missing_wrong_hash_and_invalid_termination(self):
         self.setup_slot([0])
         self.reference['records'][0]['termination'] = 'nul'
