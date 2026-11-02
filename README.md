@@ -88,8 +88,8 @@ These counts measure text records, not hours of gameplay.
 
 | Category | Translated / indexed | Progress |
 | --- | ---: | ---: |
-| Field dialogue | 21,266 / 22,480 entries | 94.60% |
-| Field batches | 107 / 114 complete | 93.86% |
+| Field dialogue | 21,466 / 22,480 entries | 95.49% |
+| Field batches | 108 / 114 complete | 94.74% |
 | Battle dialogue | 2,106 / 142,242 records | 1.48% |
 | Opening cutscene | 556 entries | Full cutscene total not catalogued |
 | Graphical variants | 650 | Total not catalogued |
