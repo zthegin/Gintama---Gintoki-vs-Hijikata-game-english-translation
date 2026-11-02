@@ -20,6 +20,13 @@
           ]
         },
         {
+          "offset": 40,
+          "source_words_sha256": "85835df7cd1c1db853d481802ca0d07d37c519d8af8323d3849d8816aaf7a80f",
+          "parts": [
+            "...Ah, torment me\nsome more..."
+          ]
+        },
+        {
           "offset": 80,
           "source_words_sha256": "16cdc8268b82bf811361dacff07e9bd4bdb0eb1bde56fb1faae3f5550d9de613",
           "parts": [
@@ -63,6 +70,13 @@
       "record_count": 7,
       "messages": [
         {
+          "offset": 4,
+          "source_words_sha256": "52f9539acb40094f8567616dc6456b38360a3c839391d387ef6a426b8b55b5c2",
+          "parts": [
+            "This is the end,\nEarth Defense Force!"
+          ]
+        },
+        {
           "offset": 48,
           "source_words_sha256": "68e86dd947c46daa780e5197c4d1fe85f4755a3fe190f5a131854e4c067ebf7e",
           "parts": [
@@ -88,6 +102,20 @@
           "source_words_sha256": "9d95c91ecc3e6332fd0cefe30729593b19f91e8f851ec7a930acb410abd26f60",
           "parts": [
             "My enemy... Oh, these guys..."
+          ]
+        },
+        {
+          "offset": 276,
+          "source_words_sha256": "35fcde8ecad9bdbca640ee4b7cb5807e621bf3969ad864727d3fb4291c06c392",
+          "parts": [
+            "Before evil's great defense,\nyour attack is nothing!"
+          ]
+        },
+        {
+          "offset": 336,
+          "source_words_sha256": "fbd83bfe57344ee243d677c48d1294c8a9d339a5ed128aac49cc30368bb75be0",
+          "parts": [
+            "Behold our science!"
           ]
         }
       ]
@@ -368,6 +396,13 @@
           ]
         },
         {
+          "offset": 196,
+          "source_words_sha256": "1adf66cabd233880a4be1a48315f3f20522e5f5ae2d9d181fd6183461c8baaa7",
+          "parts": [
+            "Y-you'll pay..."
+          ]
+        },
+        {
           "offset": 224,
           "source_words_sha256": "73d5a78b715ea0c6b35b93227bc59c0c99c9ec9323cc49956fd50c8a91f94411",
           "parts": [
@@ -414,6 +449,27 @@
           "source_words_sha256": "113589b5f7cdd7387f47c92fc80d422e554c37c78e1e3c4c665617838c4705c4",
           "parts": [
             "How d'you like this gadget?!"
+          ]
+        },
+        {
+          "offset": 472,
+          "source_words_sha256": "ac9d1919c59ff904a41e977cf740620a09c6bc880ecf8b2d8e461f5b3db11c9e",
+          "parts": [
+            "Your parlor swordplay\nis no match for me."
+          ]
+        },
+        {
+          "offset": 524,
+          "source_words_sha256": "988014508228e8339838885b2dfd737e99b313f89952a1cef3d80bd42205cfca",
+          "parts": [
+            "Bad move.\nNow I mean business."
+          ]
+        },
+        {
+          "offset": 560,
+          "source_words_sha256": "700ef82688e606cae03c1f5dfbb94e9d8dd2e06e8ac9d7d4e5ecbe72b451a02b",
+          "parts": [
+            "Sorry, the Shinsengumi\naren't free to humor you\nall day."
           ]
         }
       ]
@@ -595,6 +651,13 @@
       "source_cdb_sha256": "e286b2fa1353c3a7d0c216b0eda6052d2e4b632b28c8196241a9ad38391f115d",
       "record_count": 7,
       "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "1d44517188dae3a8562ae2a74de7aa723f6f0f7e36e6db136a5be1226ed83bb3",
+          "parts": [
+            "Finish them and go.\nMy show's rerun\nstarts this evening."
+          ]
+        },
         {
           "offset": 72,
           "source_words_sha256": "137aa642685ed09784fdc03d8a6e6f2f3a5a6d2068c986c43261999284d918d1",
@@ -801,6 +864,13 @@
           ]
         },
         {
+          "offset": 196,
+          "source_words_sha256": "1adf66cabd233880a4be1a48315f3f20522e5f5ae2d9d181fd6183461c8baaa7",
+          "parts": [
+            "Y-you'll pay..."
+          ]
+        },
+        {
           "offset": 224,
           "source_words_sha256": "73d5a78b715ea0c6b35b93227bc59c0c99c9ec9323cc49956fd50c8a91f94411",
           "parts": [
@@ -847,6 +917,20 @@
           "source_words_sha256": "113589b5f7cdd7387f47c92fc80d422e554c37c78e1e3c4c665617838c4705c4",
           "parts": [
             "How d'you like this gadget?!"
+          ]
+        },
+        {
+          "offset": 472,
+          "source_words_sha256": "ac9d1919c59ff904a41e977cf740620a09c6bc880ecf8b2d8e461f5b3db11c9e",
+          "parts": [
+            "Your parlor swordplay\nis no match for me."
+          ]
+        },
+        {
+          "offset": 524,
+          "source_words_sha256": "988014508228e8339838885b2dfd737e99b313f89952a1cef3d80bd42205cfca",
+          "parts": [
+            "Bad move.\nNow I mean business."
           ]
         },
         {
@@ -1355,6 +1439,13 @@
           ]
         },
         {
+          "offset": 196,
+          "source_words_sha256": "1adf66cabd233880a4be1a48315f3f20522e5f5ae2d9d181fd6183461c8baaa7",
+          "parts": [
+            "Y-you'll pay..."
+          ]
+        },
+        {
           "offset": 224,
           "source_words_sha256": "73d5a78b715ea0c6b35b93227bc59c0c99c9ec9323cc49956fd50c8a91f94411",
           "parts": [
@@ -1401,6 +1492,20 @@
           "source_words_sha256": "113589b5f7cdd7387f47c92fc80d422e554c37c78e1e3c4c665617838c4705c4",
           "parts": [
             "How's that for a trap?!"
+          ]
+        },
+        {
+          "offset": 472,
+          "source_words_sha256": "ac9d1919c59ff904a41e977cf740620a09c6bc880ecf8b2d8e461f5b3db11c9e",
+          "parts": [
+            "Your parlor swordplay\nis no match for me."
+          ]
+        },
+        {
+          "offset": 524,
+          "source_words_sha256": "988014508228e8339838885b2dfd737e99b313f89952a1cef3d80bd42205cfca",
+          "parts": [
+            "Bad move.\nNow I mean business."
           ]
         },
         {
@@ -1825,6 +1930,13 @@
           ]
         },
         {
+          "offset": 40,
+          "source_words_sha256": "85835df7cd1c1db853d481802ca0d07d37c519d8af8323d3849d8816aaf7a80f",
+          "parts": [
+            "...Ah, torment me\nsome more..."
+          ]
+        },
+        {
           "offset": 80,
           "source_words_sha256": "16cdc8268b82bf811361dacff07e9bd4bdb0eb1bde56fb1faae3f5550d9de613",
           "parts": [
@@ -1886,6 +1998,13 @@
           "source_words_sha256": "ed462bf2f3a79d0e9bcd3af21bb31b1a8ebec8bdeef0fabdec7d0f8667db7286",
           "parts": [
             "Ngh... Oh... Oh..."
+          ]
+        },
+        {
+          "offset": 268,
+          "source_words_sha256": "2026494519cf12f065ba2d121918729705dfe85031751bf8a8e5e4c653d95e16",
+          "parts": [
+            "Hahaha! Underestimated\nthis old man's defense?"
           ]
         },
         {
@@ -1960,6 +2079,13 @@
       "source_cdb_sha256": "ea2820552dfda2c2b875631099c4c35f79449cd50846b063d385f47998250565",
       "record_count": 7,
       "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "85e5b8235fb8f01e2db31b5aa443272c983cf2294130a64eb8fcae094368055d",
+          "parts": [
+            "...Ready for this?"
+          ]
+        },
         {
           "offset": 40,
           "source_words_sha256": "ccffeb51ccd4f5937d3064f8e9e6e8da134c1b82971569f63f3e763662c559e6",
@@ -2559,6 +2685,13 @@
       "source_cdb_sha256": "0274bef11fa5e57980c1a537d311721c0b589ad1aaf2fc21fa0883bdafcb2a45",
       "record_count": 7,
       "messages": [
+        {
+          "offset": 4,
+          "source_words_sha256": "85e5b8235fb8f01e2db31b5aa443272c983cf2294130a64eb8fcae094368055d",
+          "parts": [
+            "...Ready for this?"
+          ]
+        },
         {
           "offset": 40,
           "source_words_sha256": "ccffeb51ccd4f5937d3064f8e9e6e8da134c1b82971569f63f3e763662c559e6",

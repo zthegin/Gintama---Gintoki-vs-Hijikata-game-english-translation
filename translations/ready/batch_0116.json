@@ -17,7 +17,7 @@
     {
       "id": "msb_0000D96C",
       "source_words_sha256": "b4ee3da2ecfef1cedae0de941d3b6ef235baeaaf1a99eb66e79773af83f9640d",
-      "english": "Listen. Talk to me again,\nand I won't guarantee\nyour life... Okay?",
+      "english": "Talk to me again,\nand you may not live.\nGot it?",
       "translator_note": null
     },
     {
@@ -149,7 +149,7 @@
     {
       "id": "msb_00010268",
       "source_words_sha256": "535f88b684aa7eac6a78daeeb4b4e51f91a74f94fafdb1a9ee4a074b7561654e",
-      "english": "Stay small fry and fine.\nBut cause trouble...\nMy bazooka'll fire.",
+      "english": "Stay small-time. Fine.\nBut cause trouble...\nMy bazooka'll open fire.",
       "translator_note": null
     },
     {
@@ -167,7 +167,7 @@
     {
       "id": "msb_00010958",
       "source_words_sha256": "a10b5addbc0d40fd0f776ceec628f1b62621c74e9abf50c6964535949c4a1859",
-      "english": "Shinsengumi...\nI lose...",
+      "english": "Shinsengumi...\nAs expected. I lose.",
       "translator_note": null
     },
     {

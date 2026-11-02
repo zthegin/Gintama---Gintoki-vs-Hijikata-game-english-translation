@@ -90,12 +90,12 @@ These counts measure text records, not hours of gameplay.
 | --- | ---: | ---: |
 | Field dialogue | 22,480 / 22,480 entries | 100.00% |
 | Field batches | 114 / 114 complete | 100.00% |
-| Battle dialogue | 2,106 / 142,242 records | 1.48% |
+| Battle dialogue | 2,125 / 142,242 entries | 1.49% |
 | Opening cutscene | 556 entries | Full cutscene total not catalogued |
 | Graphical variants | 650 | Total not catalogued |
 | Native UI text | 122 slots | Total not catalogued |
 
-All 22,480 currently indexed field records now have editable templates. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
+All 22,480 currently indexed field records have English text across 114 completed numbered batches. This includes dialogue, short menu labels and a few developer placeholder messages. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
 
 Indexed totals include records the current writers cannot edit. Repeated records and graphical variants are counted separately. These figures are not a percentage of the whole game. New text passes offline build checks; complete in-game playtesting is still pending.
 
