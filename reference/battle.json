@@ -3706,6 +3706,223 @@
           "parts": [
             "Work hard. Pay your rent!"
           ]
+        },
+        {
+          "offset": 4688,
+          "source_words_sha256": "2bc0de1f6447e5f950cc216afe98fd13e7778c4144e93096fa49f3a736b69d76",
+          "parts": [
+            "No, explain it to me."
+          ]
+        },
+        {
+          "offset": 4712,
+          "source_words_sha256": "08cf85f58ed37870ed47c0a01ca609399b7f46f1a85a6cdd527bf43f686ea7a7",
+          "parts": [
+            "Yeah. Butt out."
+          ]
+        },
+        {
+          "offset": 4732,
+          "source_words_sha256": "2b3a83b5f5c930199b6daacd72638122b91d2397737cc603e20c3de28a28e180",
+          "parts": [
+            "Explain it once more."
+          ]
+        },
+        {
+          "offset": 4760,
+          "source_words_sha256": "ac827a53267d6f222a91c7dc8a99bb5498396f69cf32451cb46032e10958ad4d",
+          "parts": [
+            "Yeah, got it."
+          ]
+        },
+        {
+          "offset": 4780,
+          "source_words_sha256": "d373ccad87d1d98e57abccc7caeccaebd0b4446ca1f33101cfda5c57030141b2",
+          "parts": [
+            "Say something?"
+          ]
+        },
+        {
+          "offset": 4800,
+          "source_words_sha256": "ac827a53267d6f222a91c7dc8a99bb5498396f69cf32451cb46032e10958ad4d",
+          "parts": [
+            "Yeah, got it."
+          ]
+        },
+        {
+          "offset": 4820,
+          "source_words_sha256": "77811870594d30d1b1d8fe6e23ec32c2c4e4cad4cc7a0e99fd19a35f9c3ecbd9",
+          "parts": [
+            "Face-down Tama again."
+          ]
+        },
+        {
+          "offset": 4912,
+          "source_words_sha256": "7db062bd22bc274ed3a37abbdc17b8b621fb9815801f0952c60509ee6859d4c4",
+          "parts": [
+            "Vice-Chief...\nYou look awfully\nsure of yourself..."
+          ]
+        },
+        {
+          "offset": 4968,
+          "source_words_sha256": "942d4c48e8e69c20b5d600bfafb63ab49bccb1d53d2bf6c1e0170f93172c9fec",
+          "parts": [
+            "Is my explanation\njust unwanted advice?"
+          ]
+        },
+        {
+          "offset": 5012,
+          "source_words_sha256": "95431b27349ed3b67948b9f2776006b4834a4576e63728a9a5b17aaedff42923",
+          "parts": [
+            "Sorry.\nI guess I was meddling..."
+          ]
+        },
+        {
+          "offset": 5060,
+          "source_words_sha256": "e79796a923e2d2ba3bfd7340b92bed4b7254eb7d035a80abe2dae261455a9324",
+          "parts": [
+            "But please be careful.\nYou're our...\nthe Shinsengumi's Vice-Chief."
+          ]
+        },
+        {
+          "offset": 5140,
+          "source_words_sha256": "191d5c0f00edd90efb28ba1a12e1dcf702eec51cfa1a1c298cce867f1469a643",
+          "parts": [
+            "I know, Zaki.\nI won't disgrace the Shinsengumi."
+          ]
+        },
+        {
+          "offset": 5200,
+          "source_words_sha256": "30172bf52e220cddcff72139baa5252d09c7b4e1e632e32f16cce1c5865a3e2a",
+          "parts": [
+            "Stop calling me that!\nIt sounds like a death spell!"
+          ]
+        },
+        {
+          "offset": 5264,
+          "source_words_sha256": "ae60be3a9cad1ca5a3bab88824c7f2e230fb2e01ccc27a8d8a1657f29e6d3f1d",
+          "parts": [
+            "Ready? First,\nI'll explain the battle screen."
+          ]
+        },
+        {
+          "offset": 5316,
+          "source_words_sha256": "c645f6fc76d5ef5b8d1ac129bcd66ab0a5f53ebe4652e85cdda6a14f39f805b5",
+          "parts": [
+            "Look at the top of the screen.\nSee the gauges\nbeside the face icons?"
+          ]
+        },
+        {
+          "offset": 5400,
+          "source_words_sha256": "c31696e83fc021206a8a1632acc4d27df6387cba22c92d14b903a441b8c744ef",
+          "parts": [
+            "Yours are on the left.\nYour opponent's are on the right.\nMine, in this case."
+          ]
+        },
+        {
+          "offset": 5480,
+          "source_words_sha256": "5b3618dbd187b3f36fad37c825ee042bb46b8c647fcf8edd15a6f946cc865559",
+          "parts": [
+            "See those two gauges?"
+          ]
+        },
+        {
+          "offset": 5512,
+          "source_words_sha256": "fd7848489408128f0820c65a7388a6c64a8bc684c19b3f97b172ffcb509389e4",
+          "parts": [
+            "The top one is Health.\nThe bottom one is Spirit."
+          ]
+        },
+        {
+          "offset": 5576,
+          "source_words_sha256": "14c62d7e01285c81ca4172c9edd3404abab9937b7c6bd29e4285585c7f9e7db9",
+          "parts": [
+            "Physical attacks\nreduce your Health..."
+          ]
+        },
+        {
+          "offset": 5632,
+          "source_words_sha256": "efdee6a39688bd8fdca8711efd4f748bbde8d264055d9d09a415846b31f39d48",
+          "parts": [
+            "And mental attacks\nreduce your Spirit."
+          ]
+        },
+        {
+          "offset": 5692,
+          "source_words_sha256": "38aa18b8012172e6bf3a9a37b1aaf0072e8debadecd2a0b3c3dfb37fd05605c3",
+          "parts": [
+            "Here's the important part:\nif either gauge runs out,\nyou lose!"
+          ]
+        },
+        {
+          "offset": 5780,
+          "source_words_sha256": "3adfcafccf43163b161faa37773fb5b5e0500665e17eabb6ac96f93f20fa349a",
+          "parts": [
+            "So, will your body give out\nfirst, or will your spirit\nbreak? That's the idea."
+          ]
+        },
+        {
+          "offset": 5852,
+          "source_words_sha256": "15e81c8c8959ab60c9b23f369a0310d4028e3b117f5bc4edf55dbe2c179b0c2b",
+          "parts": [
+            "Well?\nDoes that make sense so far?"
+          ]
+        },
+        {
+          "offset": 5896,
+          "source_words_sha256": "48865e0f5e1014220b0be13a66db49d2757f6450cafccab2aa4925f014463ce2",
+          "parts": [
+            "Next up: Gin Tama."
+          ]
+        },
+        {
+          "offset": 5920,
+          "source_words_sha256": "ed35c3b875524d1a1f0dbaed89aa20b52b470ebd7f4f604981b2bca46f05221a",
+          "parts": [
+            "Look at the lower screen."
+          ]
+        },
+        {
+          "offset": 5948,
+          "source_words_sha256": "cc46331fac6b8e80386274f410f0fe26190af05a9c8337940ec7d622e5861e5c",
+          "parts": [
+            "Three types: Brawl,\nKotodama, and Effect. Each has\nattack and defense Gin Tama."
+          ]
+        },
+        {
+          "offset": 6040,
+          "source_words_sha256": "ab87d315d0fad0eba71e38a4ead3a8d24ab77168776aa5232fae3b6645d1a927",
+          "parts": [
+            "These are attack-type\nBrawl Gin Tama."
+          ]
+        },
+        {
+          "offset": 6092,
+          "source_words_sha256": "6415fbb8fbcc426e43f84913ec7c66c5021933f078a4439669b6e759eb622373",
+          "parts": [
+            "Tap one of the three icons\non the lower screen's left edge\nto switch Gin Tama types."
+          ]
+        },
+        {
+          "offset": 6192,
+          "source_words_sha256": "c4d7c6a5fd109bd785e708efc50ffee10d670acf1357858f833e3aecf10845b7",
+          "parts": [
+            "I've lent you some Gin Tama\nfor this lesson. Switch icons\nand check each type yourself."
+          ]
+        },
+        {
+          "offset": 6292,
+          "source_words_sha256": "f9650638f60d928bdfb1762f8034cfe7c257502a5fbe7292d0e6df6632423946",
+          "parts": [
+            "Whoa, Vice-Chief! Slow down!\nWe have to take this\none step at a time."
+          ]
+        },
+        {
+          "offset": 6368,
+          "source_words_sha256": "7af5da55911488e4e36ca66b27af63a75a21bcf376aa734b5ae2cbc43edaf482",
+          "parts": [
+            "First,\ncheck every Gin Tama type."
+          ]
         }
       ]
     },
