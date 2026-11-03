@@ -125,6 +125,20 @@ class CutsceneTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "offset"):
                 c.load_scene(p)
 
+    def test_all_scene_templates_load_and_keep_script_specific_header_boundary(self):
+        root = Path(c.__file__).resolve().parents[1]
+        for n in range(2, 6):
+            scene = c.load_scene(root / f"reference/cutscenes/s0{n}.json")
+            self.assertEqual(scene["script"], f"adventure/script/s0{n}.msb")
+            edited = {**scene, "messages": [{"offset": 4, "source_words_sha256": "a" * 64, "parts": ["Hello!"]}]}
+            with tempfile.TemporaryDirectory() as folder:
+                path = Path(folder) / "scene.json"; path.write_text(json.dumps(edited), encoding="utf-8")
+                self.assertEqual(c.load_scene(path)["messages"][0]["offset"], 4)
+                edited["script"] = "adventure/script/s01.msb"
+                path.write_text(json.dumps(edited), encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "offset"):
+                    c.load_scene(path)
+
     def test_website_json_loads_without_changing_source_metadata_or_parts(self):
         scene = c.load_scene()
         edited = json.loads(json.dumps(scene))

@@ -182,11 +182,11 @@ class ImportValidationTests(unittest.TestCase):
 
 class ImportRouteTests(unittest.TestCase):
     def test_import_route_requires_exact_branch_and_same_repository(self):
-        self.assertEqual(imports.import_number("codex/issue-42", "Owner/Repo", "owner/repo"), 42)
+        self.assertEqual(imports.import_number("review/issue-42", "Owner/Repo", "owner/repo"), 42)
         for branch, head in (
-            ("codex/issue-42", "contributor/fork"),
-            ("codex/issue-0", "owner/repo"),
-            ("codex/issue-42-extra", "owner/repo"),
+            ("review/issue-42", "contributor/fork"),
+            ("review/issue-0", "owner/repo"),
+            ("review/issue-42-extra", "owner/repo"),
             ("main", "owner/repo"),
         ):
             self.assertIsNone(imports.import_number(branch, head, "owner/repo"))
