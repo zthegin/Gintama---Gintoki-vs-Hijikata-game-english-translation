@@ -40,7 +40,7 @@ class IssueImportTests(unittest.TestCase):
         self.write("credits/merged_prs.json", issues.encoded({"format": FORMAT, "entries": []}))
         self.write(issues.LEDGER, issues.encoded({"format": issues.ISSUE_FORMAT, "entries": []}))
         self.write("TRANSLATORS.md", render({"entries": []}).encode())
-        self.git("init", "-b", "codex/issue-7")
+        self.git("init", "-b", "review/issue-7")
         self.commit()
 
     def write(self, name, data):
@@ -222,6 +222,27 @@ class IssueImportTests(unittest.TestCase):
         proof = cli.validate_fit(root, outputs, entry, Path(rom))
         self.assertTrue(proof["record_fit_checked"])
         self.assertFalse(proof["rom_written"])
+
+    def test_new_cutscene_issue_uses_its_own_index_path_and_contributor(self):
+        from credits import measure_reference_records
+        scene = {"format": "gintama-cutscene-v1", "script": "adventure/script/s02.msb", "scope": "Example", "source_msb_sha256": "c" * 64, "source_cdb_sha256": "d" * 64, "notes": [], "messages": []}
+        self.write("reference/cutscenes/s02.json", issues.encoded(scene))
+        self.write("reference/cutscene_index.json", issues.encoded({"format": "gintama-cutscene-index-v1", "source_rom_sha256": "e" * 64, "scripts": [{k: scene[k] for k in ("script", "source_msb_sha256", "source_cdb_sha256")} | {"records": [[16, 30, HASH, 1], [32, 40, "b" * 64, 0]]}]}))
+        body = f'Opening cutscene translation suggestion\n\nID: s02_00000010\nScript: adventure/script/s02.msb\nSource SHA-256: {HASH}\nEnglish parts (JSON):\n["New."]\n\nKeep the parts in this order. No source game text is included.\nThis suggestion needs maintainer review and a local ROM build.'
+        outputs, entry = issues.propose(self.root, issue(body))
+        after = json.loads(outputs["reference/cutscenes/s02.json"])
+        self.assertEqual(after["messages"][0]["parts"], ["New."])
+        self.assertEqual(entry["record"]["id"], "s02_00000010")
+        self.assertEqual(entry["login"], "example-translator")
+        self.assertEqual(measure_reference_records("reference/cutscenes/s02.json", scene, after)[0]["words"], 1)
+        self.write(issues.LEDGER, outputs[issues.LEDGER])
+        issues.read_issue_ledger(self.root / issues.LEDGER)
+        for off, digest in [(32, "b" * 64), (18, HASH), (16, "0" * 64)]:
+            bad = copy.deepcopy(after); bad["messages"][0].update(offset=off, source_words_sha256=digest)
+            with self.assertRaises(ValueError):
+                issues.validate_script_changes("reference/cutscenes/s02.json", scene, bad, root=self.root)
+        with self.assertRaises(ValueError):
+            issues.parse_suggestion(body.replace('ID: s02_', 'ID: s03_'))
 
     def test_opening_parts_are_imported_without_reordering(self):
         scene = {"format": "gintama-cutscene-v1", "script": "adventure/script/s01.msb", "scope": "Example", "source_msb_sha256": "c" * 64, "source_cdb_sha256": "d" * 64, "notes": [], "messages": [{"offset": 16, "source_words_sha256": HASH, "parts": ["Old."]}]}

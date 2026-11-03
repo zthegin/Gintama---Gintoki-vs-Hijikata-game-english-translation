@@ -19,9 +19,9 @@ DOCUMENT = "TRANSLATORS.md"
 TRANSLATION = re.compile(
     r"(?:translations/(?:ready|graphics)/[a-z][a-z0-9_]{0,79}\.json|"
     r"csv/(?:ready|graphics)/[a-z][a-z0-9_]{0,79}\.csv|"
-    r"reference/(?:opening_scene|battle)\.json)\Z"
+    r"reference/(?:opening_scene|battle|cutscenes/s0[2-5])\.json)\Z"
 )
-IMPORT_BRANCH = re.compile(r"codex/issue-([1-9][0-9]*)\Z")
+IMPORT_BRANCH = re.compile(r"review/issue-([1-9][0-9]*)\Z")
 
 
 def import_number(branch: str, head_repository: str, base_repository: str):

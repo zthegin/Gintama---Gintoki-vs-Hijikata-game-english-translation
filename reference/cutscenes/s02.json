@@ -1,0 +1,11 @@
+{
+  "format": "gintama-cutscene-v1",
+  "script": "adventure/script/s02.msb",
+  "source_msb_sha256": "7e03d78324381a683e1ae01dc0959d0433a9d235a049f7e0a0ebf5a615f9adfe",
+  "source_cdb_sha256": "4e594d21e5538966cd40e2eea472b986788f2da5eb278bb03e4d2fb263aaf93e",
+  "scope": "Cutscene script s02; supported END-terminated messages only.",
+  "notes": [
+    "Unofficial fan translation. Game files and Japanese are supplied locally from your legally obtained ROM. See RIGHTS.md."
+  ],
+  "messages": []
+}

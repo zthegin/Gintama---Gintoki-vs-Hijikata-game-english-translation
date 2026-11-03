@@ -75,9 +75,11 @@ test('battle suggestions contain only the edited English and verified identifier
 
 test('private ROM verifies battle variants and exports an edit for the Python builder', { skip: !process.env.GINTAMA_TEST_ROM }, async () => {
   const pack = published(), bytes = new Uint8Array(readFileSync(process.env.GINTAMA_TEST_ROM));
-  for (const script of pack.scripts.filter((s) => s.messages.length || s.script === 'battle/script/message/enemy03.msb')) {
+  for (const script of pack.scripts) {
     const game = await readBattleGame(bytes, 'original.nds', script);
-    assert.ok(game.rows.length > 0);
+    const inventory = JSON.parse(readFileSync(new URL('reference/battle_index.json', root), 'utf8'));
+    const expected = inventory.scripts.find(s => s.script === script.script).records;
+    assert.deepEqual(game.rows.map(r => [r.offset, r.source_words_sha256, r.parts.length]), expected.map(r => [r[0], r[2], r[3]]));
     for (const row of script.messages) assert.ok(game.rows.find((r) => r.offset === row.offset && r.source_words_sha256 === row.source_words_sha256));
     if (script.script === 'battle/script/character/gintoki.msb' && process.env.GINTAMA_BATTLE_EXPORT) {
       const rows = structuredClone(script.messages); rows[0].parts = ['All right! Here we go!'];

@@ -20,7 +20,7 @@ ISSUE_FORMAT = "gintama-issue-imports-v1"
 HASH = re.compile(r"[a-f0-9]{64}\Z")
 LOGIN = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?\Z")
 SCRIPT = re.compile(r"battle/script/(?:character|interrupt|item|message)/[a-z0-9_]+\.msb\Z")
-RECORD_PATH = re.compile(r"(?:translations/(?:ready|graphics)/[a-z][a-z0-9_]{0,79}|reference/(?:opening_scene|battle))\.json\Z")
+RECORD_PATH = re.compile(r"(?:translations/(?:ready|graphics)/[a-z][a-z0-9_]{0,79}|reference/(?:opening_scene|battle|cutscenes/s0[2-5]))\.json\Z")
 LEDGER = "credits/issue_imports.json"
 
 
@@ -155,11 +155,13 @@ def parse_suggestion(body):
         if private_contact(value) or (note is not None and private_contact(note)):
             raise ImportProblem("Remove personal contacts and home-directory paths")
         return {"kind": "batch", "id": identifier, "hash": digest, "value": value, "note": note}
-    scene = re.fullmatch(r'Opening cutscene translation suggestion\n\nID: (s01_([a-f0-9]{8}))\nScript: (adventure/script/s01\.msb)\nSource SHA-256: ([a-f0-9]{64})\nEnglish parts \(JSON\):\n([^\n]+)\n\nKeep the parts in this order\. No source game text is included\.\nThis suggestion needs maintainer review and a local ROM build\.', text)
+    scene = re.fullmatch(r'Opening cutscene translation suggestion\n\nID: (s0[1-5]_([a-f0-9]{8}))\nScript: (adventure/script/s0[1-5]\.msb)\nSource SHA-256: ([a-f0-9]{64})\nEnglish parts \(JSON\):\n([^\n]+)\n\nKeep the parts in this order\. No source game text is included\.\nThis suggestion needs maintainer review and a local ROM build\.', text)
     battle = re.fullmatch(r'Battle translation suggestion\n\nID: ([a-z0-9_]+)\nScript: (battle/script/(?:character|interrupt|item|message)/[a-z0-9_]+\.msb)\nOffset: ([0-9]+)\nSource SHA-256: ([a-f0-9]{64})\nEnglish parts \(JSON\):\n([^\n]+)\n\nKeep the parts in order\. No source game text is included\.\nA maintainer must review the English and test a local build\.', text)
     if scene:
         identifier, offset, script, digest, raw = scene.groups()
         offset = int(offset, 16)
+        if identifier != script[17:-4] + f"_{offset:08x}":
+            raise ImportProblem("Cutscene ID and script disagree")
         kind = "opening"
     elif battle:
         identifier, script, offset, digest, raw = battle.groups()
@@ -234,12 +236,20 @@ def opening_records(root):
 
 
 def validate_script_changes(path, before, after, *, root):
-    if path == "reference/opening_scene.json":
+    if path == "reference/opening_scene.json" or re.fullmatch(r"reference/cutscenes/s0[2-5]\.json", path):
         if {k: v for k, v in before.items() if k != "messages"} != {k: v for k, v in after.items() if k != "messages"}:
             raise ImportProblem("Opening inventory changed")
         previous = {row["offset"]: row for row in before["messages"]}
-        if Path(root, "reference/opening_index.json").is_file():
-            index, records = opening_records(root)
+        if path != "reference/opening_scene.json" or Path(root, "reference/opening_index.json").is_file():
+            if path == "reference/opening_scene.json":
+                index, records = opening_records(root)
+            else:
+                inventory = load(safe_path(root, "reference/cutscene_index.json"), 10000000)
+                matches = [s for s in inventory["scripts"] if s["script"] == before["script"]]
+                if len(matches) != 1:
+                    raise ImportProblem("Unknown cutscene script")
+                index = matches[0]
+                records = {off: (digest, count) for off, end, digest, count in index["records"] if count > 0}
             if any(before[k] != index[k] for k in ("script", "source_msb_sha256", "source_cdb_sha256")):
                 raise ImportProblem("Opening script differs from the trusted index")
         else:
@@ -250,7 +260,7 @@ def validate_script_changes(path, before, after, *, root):
             raise ImportProblem("Opening messages cannot be removed, repeated or reordered")
         for new in after["messages"]:
             if (set(new) != {"offset", "source_words_sha256", "parts"}
-                    or type(new["offset"]) is not int or new["offset"] < 16
+                    or type(new["offset"]) is not int or new["offset"] < (16 if path == "reference/opening_scene.json" else 4)
                     or not isinstance(new["parts"], list)
                     or records.get(new["offset"]) != (new["source_words_sha256"], len(new["parts"]))):
                 raise ImportProblem("Opening source metadata changed")
@@ -320,6 +330,8 @@ def propose(root, issue):
         outputs[csv_path(root / path, root).relative_to(root).as_posix()] = render_csv(data).encode("utf-8")
     else:
         path = "reference/opening_scene.json" if suggested["kind"] == "opening" else "reference/battle.json"
+        if suggested["kind"] == "opening" and suggested["script"] != "adventure/script/s01.msb":
+            path = "reference/cutscenes/" + suggested["script"][17:-4] + ".json"
         before = load(safe_path(root, path), 10000000)
         data = copy.deepcopy(before)
         if suggested["kind"] == "opening":

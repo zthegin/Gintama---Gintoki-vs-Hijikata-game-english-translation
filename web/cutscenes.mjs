@@ -6,12 +6,12 @@ import { parseStrictJson } from './text-policy.mjs';
 import { checkParts, checkScene, formatScene, readSceneGame, readSceneMessage, sceneId, sceneSuggestion } from './cutscene-codec.mjs';
 
 const $ = (id) => document.getElementById(id);
-const state = { scene: null, rows: [], glyphs: null, repository: '', game: null, active: 0, version: 0, gameVersion: 0, drafts: new Map() };
+const state = { file: null, scenes: [], scene: null, rows: [], glyphs: null, repository: '', game: null, active: 0, version: 0, gameVersion: 0, drafts: new Map() };
 const status = (text, error = false) => {
   $('scene-status').textContent = text;
   $('scene-status').classList.toggle('error', error);
 };
-const key = (row) => draftKey('gintama-opening', state.scene.source_msb_sha256, sceneId(row));
+const key = (row) => draftKey('gintama-opening', state.scene.source_msb_sha256, sceneId(row, state.scene));
 
 function working(row) {
   let parts = state.drafts.get(key(row));
@@ -34,17 +34,17 @@ function list() {
   let count = 0;
   state.rows.forEach((row, i) => {
     const english = working(row).parts.join('');
-    if (q && !`${sceneId(row)} ${english}`.toLowerCase().includes(q)) return;
+    if (q && !`${sceneId(row, state.scene)} ${english}`.toLowerCase().includes(q)) return;
     const li = document.createElement('li'), button = document.createElement('button');
     button.type = 'button';
-    button.textContent = `${sceneId(row)}: ${english.replaceAll('\n', ' ').slice(0, 65) || '(untranslated)'}`;
+    button.textContent = `${sceneId(row, state.scene)}: ${english.replaceAll('\n', ' ').slice(0, 65) || '(untranslated)'}`;
     button.classList.toggle('active', i === state.active);
     button.addEventListener('click', () => show(i));
     li.append(button);
     $('scene-entries').append(li);
     count++;
   });
-  $('scene-count').textContent = `${count} opening entries`;
+  $('scene-count').textContent = `${count} cutscene entries`;
 }
 
 function feedback() {
@@ -76,8 +76,8 @@ async function show(index) {
   if (!state.scene || index < 0 || index >= state.rows.length) return;
   state.active = index;
   const token = ++state.version, row = state.rows[index], current = working(row);
-  $('scene-title').textContent = `Opening entry ${index + 1}`;
-  $('scene-id').textContent = sceneId(row);
+  $('scene-title').textContent = `Cutscene entry ${index + 1}`;
+  $('scene-id').textContent = sceneId(row, state.scene);
   $('scene-previous').disabled = index === 0;
   $('scene-next').disabled = index === state.rows.length - 1;
   $('scene-parts').replaceChildren();
@@ -99,7 +99,7 @@ async function show(index) {
   list();
   if (state.game) {
     try {
-      const result = await readSceneMessage(state.game.msb, row, state.glyphs);
+      const result = await readSceneMessage(state.game.msb, row, state.glyphs, { minimumOffset: state.scene.script.endsWith('/s01.msb') ? 16 : 4 });
       if (token !== state.version) return;
       $('scene-original').textContent = result.parts.map((part, i) => `Part ${i + 1}\n${part}`).join('\n\n');
       if (result.unknown.length) status('Some glyphs could not be decoded. Check the scene in your own game before translating.', true);
@@ -124,7 +124,7 @@ function download() {
     const blob = new Blob([content], { type: 'application/json;charset=utf-8' });
     const url = URL.createObjectURL(blob), a = document.createElement('a');
     a.href = url;
-    a.download = 'opening_scene.json';
+    a.download = state.scene.script.endsWith('/s01.msb') ? 'opening_scene.json' : state.scene.script.slice(17, -4) + '.json';
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     $('scene-export-status').textContent = `${changes} changed entries. Test this JSON with --cutscene before submitting. It contains English and identifiers only.`;
@@ -155,7 +155,7 @@ function suggest() {
     if (!state.scene || !state.repository) throw new Error('Wait for the editor to load.');
     const row = state.rows[state.active];
     const body = sceneSuggestion(state.scene, row, working(row).parts);
-    const issueUrl = `https://github.com/${state.repository}/issues/new?title=${encodeURIComponent('Opening translation: ' + sceneId(row))}&body=${encodeURIComponent(body)}`;
+    const issueUrl = `https://github.com/${state.repository}/issues/new?title=${encodeURIComponent('Opening translation: ' + sceneId(row, state.scene))}&body=${encodeURIComponent(body)}`;
     window.open(issueUrl, '_blank', 'noopener,noreferrer');
     $('scene-record-status').classList.remove('error');
     $('scene-record-status').textContent = 'Review the English-only issue and submit it on GitHub. A maintainer imports opening suggestions manually. If no tab opened, ';
@@ -170,9 +170,10 @@ function suggest() {
   }
 }
 
-$('scene-rom').addEventListener('change', async (event) => {
+async function loadFile(event) {
   const file = event.target.files?.[0];
   if (!file) return;
+  state.file = file;
   const version = ++state.gameVersion;
   state.version++;
   state.game = null;
@@ -196,7 +197,8 @@ $('scene-rom').addEventListener('change', async (event) => {
     status(error.message, true);
     show(state.active);
   }
-});
+}
+$('scene-rom').addEventListener('change', loadFile);
 $('scene-search').addEventListener('input', list);
 $('scene-previous').addEventListener('click', () => show(state.active - 1));
 $('scene-next').addEventListener('click', () => show(state.active + 1));
@@ -211,6 +213,27 @@ try {
     return response.json();
   }));
   state.scene = checkScene(scene);
+  const response = await fetch('assets/cutscenes.json');
+  if (!response.ok) throw new Error('Missing cutscene catalog.');
+  const catalogScenes = await response.json();
+  if (catalogScenes.format !== 'gintama-cutscenes-v1' || !Array.isArray(catalogScenes.scenes)) throw new Error('Invalid cutscene catalog.');
+  state.scenes = catalogScenes.scenes.map(checkScene);
+  const selector = $('scene-script');
+  for (const item of state.scenes) {
+    const option = document.createElement('option'); option.value = item.script;
+    option.textContent = item.script.slice(17, -4); selector.append(option);
+  }
+  selector.value = state.scene.script;
+  selector.addEventListener('change', async () => {
+    ++state.gameVersion; ++state.version;
+    state.scene = state.scenes.find(item => item.script === selector.value);
+    state.game = null; state.rows = state.scene.messages; state.active = 0;
+    $('scene-parts').replaceChildren(); $('scene-original').textContent = '';
+    $('scene-id').textContent = ''; list();
+    if (state.rows.length) await show(0);
+    if (state.file) await loadFile({ target: { files: [state.file] } });
+    else status('Load your original ROM to reveal untranslated entries in this script.');
+  });
   state.rows = state.scene.messages;
   state.glyphs = glyphs;
   if (!/^[a-z\d_.-]+\/[a-z\d_.-]+$/i.test(catalog.repository || '')) throw new Error('Invalid contribution repository.');

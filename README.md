@@ -40,7 +40,7 @@ See [installation](docs/APPLY_PATCH.md) for the supported ROM checksum, existing
 <details>
 <summary>Let a local coding assistant set it up</summary>
 
-You can give Claude Code, Codex or another assistant with local file access this request. A chat-only assistant cannot build the file on your computer.
+You can give an assistant with local file access this request. A chat-only assistant cannot build the file on your computer.
 
 ```text
 Set up https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation in a folder I choose. Ask me for the local path to my own legally obtained, unmodified ROM before building. If I am unsure whether I may use and modify that file, stop and let me check. Do not find or download game files or ask anyone else for a ROM.
@@ -66,7 +66,7 @@ That submits one record for review. I check the wording and local build before a
 
 Maintainers can follow [Review and accept a website suggestion](docs/REVIEW_SUGGESTIONS.md) to take an issue through review, credit and publication.
 
-Use [Opening](https://zthegin.github.io/cutscenes.html) for the indexed first-cutscene entries, [Battle](https://zthegin.github.io/battle.html) for battle text, or [Images](https://zthegin.github.io/graphics.html) for name labels. These pages also use **Suggest on GitHub**. Other adventure cutscenes are not available yet. To send several field lines or image labels together, use the [batch walkthrough](docs/START_HERE.md#submit-a-batch-or-image-label).
+Use [Cutscenes](https://zthegin.github.io/cutscenes.html) for scripts `s01`–`s05`, [Battle](https://zthegin.github.io/battle.html) for any of the 90 battle scripts, or [Images](https://zthegin.github.io/graphics.html) for name labels. Choose a script and load your original ROM to reveal its untranslated entries. These pages also use **Suggest on GitHub**. To send several field lines or image labels together, use the [batch walkthrough](docs/START_HERE.md#submit-a-batch-or-image-label).
 
 Download from `main` to play. Send translation pull requests to `staging`. Two approvals on the current version put a valid translation PR in the reviewed queue; I still check and merge it myself. See the [contribution rules](CONTRIBUTING.md) for details and credits.
 
@@ -90,12 +90,14 @@ These counts measure text records, not hours of gameplay.
 | --- | ---: | ---: |
 | Field dialogue | 22,480 / 22,480 entries | 100.00% |
 | Field batches | 114 / 114 complete | 100.00% |
-| Battle dialogue | 2,125 / 142,242 entries | 1.49% |
-| Opening cutscene | 556 entries | Full cutscene total not catalogued |
+| Battle dialogue | 2,172 / 142,242 entries | 1.53% |
+| Cutscene dialogue | 556 / 4,064 editable entries | 13.68% |
 | Graphical variants | 650 | Total not catalogued |
 | Native UI text | 125 slots | Total not catalogued |
 
 All 22,480 currently indexed field records have English text across 114 completed numbered batches. This includes dialogue, short menu labels and a few developer placeholder messages. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
+
+The cutscene editor covers all five main scripts (`s01`–`s05`). Load your original ROM to reveal their untranslated entries. The `sub` script has no supported dialogue records. All 90 battle scripts are indexed; choose a script in the Battle editor to see its supported records. See [the editor guide](docs/BROWSER_EDITOR.md).
 
 Indexed totals include records the current writers cannot edit. Repeated records and graphical variants are counted separately. These figures are not a percentage of the whole game. New text passes offline build checks; complete in-game playtesting is still pending.
 

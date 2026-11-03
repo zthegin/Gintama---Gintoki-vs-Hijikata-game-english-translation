@@ -18,7 +18,7 @@ from text_policy import check_safe_text, normalized
 from field_markup import check_record_controls
 
 FORMAT = "gintama-community-translation-v1"
-REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json"}
+REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json", *(f"reference/cutscenes/s0{i}.json" for i in range(2, 6))}
 BATCH_ID = re.compile(r"[a-z][a-z0-9_]{0,79}\Z")
 RESERVED_BATCH_ID = re.compile(r"(?:con|prn|aux|nul|com[1-9]|lpt[1-9])\Z")
 TERM_WARN = re.compile(r"\b(?:silver orbs?|silver balls?)\b", re.I)
@@ -177,6 +177,11 @@ def check_repo(root: Path) -> tuple[dict, dict]:
         from battle_writer import load_pack
 
         load_pack(root=root)
+    for path in sorted((root / "reference/cutscenes").glob("*.json")):
+        from cutscene_writer import load_scene
+        from issue_imports import validate_script_changes
+        scene = load_scene(path)
+        validate_script_changes(path.relative_to(root).as_posix(), scene, scene, root=root)
     return reference, locations
 
 

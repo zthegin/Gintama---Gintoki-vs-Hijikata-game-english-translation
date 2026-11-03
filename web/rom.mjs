@@ -85,9 +85,9 @@ export async function sha256(bytes) {
   const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', bytes));
   return Array.from(digest, (b) => b.toString(16).padStart(2, '0')).join('');
 }
-export async function verifyGame(game, reference) {
+export async function verifyGame(game, reference, { minimumSize = 16 } = {}) {
   check(
-    game.msb.length >= 16 &&
+    game.msb.length >= minimumSize &&
       game.msb[0] === 115 &&
       game.msb[1] === 99 &&
       game.msb[2] === 114 &&

@@ -3923,6 +3923,118 @@
           "parts": [
             "First,\ncheck every Gin Tama type."
           ]
+        },
+        {
+          "offset": 6412,
+          "source_words_sha256": "f41fb84aa952cbd93ff7b0207dd0044004671f44e2f63947bbe25f138a5c6a56",
+          "parts": [
+            "Attack Brawl Gin Tama\ndeal physical damage."
+          ]
+        },
+        {
+          "offset": 6468,
+          "source_words_sha256": "fe07559edc22ad6945cfe4c21402297d2739401f9f3d19f937e9feeb4642c7a4",
+          "parts": [
+            "Throw them or strike your foe\nto reduce their Health."
+          ]
+        },
+        {
+          "offset": 6536,
+          "source_words_sha256": "94a28ff4e643422b36af9c4c357231990252f084b659b3636b554e74a47b31ae",
+          "parts": [
+            "Defense Brawl Gin Tama\nblock physical attacks."
+          ]
+        },
+        {
+          "offset": 6584,
+          "source_words_sha256": "252873af3145fde0a029cd670d35be722783614c705678c1c59908ad0ce81481",
+          "parts": [
+            "These reduce incoming damage\nand can restore your Health."
+          ]
+        },
+        {
+          "offset": 6660,
+          "source_words_sha256": "6fce0d448c50a7479ad2a14783245f180e44679640b741ac45a7174857a38f0f",
+          "parts": [
+            "Attack Kotodama Gin Tama\ndeal mental damage."
+          ]
+        },
+        {
+          "offset": 6716,
+          "source_words_sha256": "341d08111a561825738f02295846752d2b06edc6eb5207c4e0d0ec1b50a922c9",
+          "parts": [
+            "A remark that hits a sore spot\ncan bring down even\nthe toughest opponent."
+          ]
+        },
+        {
+          "offset": 6800,
+          "source_words_sha256": "2a4f24aabe3a24b5982f23757de8e7a4ba0ceb07f4410b5dd5a780f6b506ee52",
+          "parts": [
+            "But figuring out their\nweakness isn't always easy..."
+          ]
+        },
+        {
+          "offset": 6864,
+          "source_words_sha256": "849b447ceb310d2b9fd2b394f01a5f0e8e30f76124692b38236c8737e8d595e4",
+          "parts": [
+            "Watch closely and talk to people.\nGathering information is key."
+          ]
+        },
+        {
+          "offset": 6928,
+          "source_words_sha256": "9e3edc5845e9cba55303713781524f17a983a3bb4e85d3b0cd3b8c9892b43060",
+          "parts": [
+            "Defense Kotodama Gin Tama\nblock mental attacks."
+          ]
+        },
+        {
+          "offset": 6976,
+          "source_words_sha256": "684930a7db6386dd8a973cbcd916612d5ddb97b1bfbce5a9c0a127035aa7fb47",
+          "parts": [
+            "These reduce mental damage\nand restore your Spirit."
+          ]
+        },
+        {
+          "offset": 7044,
+          "source_words_sha256": "2b1ed738875761a77816b2c6d8b16ae75c296675d6dcefcb9c997c467b17dc4b",
+          "parts": [
+            "Next: Effect Gin Tama..."
+          ]
+        },
+        {
+          "offset": 7072,
+          "source_words_sha256": "4efb029a591457d5340d6dd86491cd1baa2cc665bfd35d1e1e08a7ee9c4aa705",
+          "parts": [
+            "Attack or defense,\nthese are for strategy."
+          ]
+        },
+        {
+          "offset": 7120,
+          "source_words_sha256": "278fc850043d4c6b99cc986f3fdabf7758e8b3336c14c5b46cf0abce1a1aef0d",
+          "parts": [
+            "They boost attack or defense,\nallow repeated attacks...\nSome even act as traps."
+          ]
+        },
+        {
+          "offset": 7192,
+          "source_words_sha256": "c9bbc2b887975699dab30d5257cf4bcf0a51dda5120c410f1fb856b5ea063ef9",
+          "parts": [
+            "Use them well,\nand they can make a big impact."
+          ]
+        },
+        {
+          "offset": 7244,
+          "source_words_sha256": "15e81c8c8959ab60c9b23f369a0310d4028e3b117f5bc4edf55dbe2c179b0c2b",
+          "parts": [
+            "Well?\nDoes that make sense so far?"
+          ]
+        },
+        {
+          "offset": 7288,
+          "source_words_sha256": "fbf7b61b41984085b7be7acdc05957dccd8259d988e3a0e4557d5d853e22d872",
+          "parts": [
+            "Now...\nLastly, face-down Tama."
+          ]
         }
       ]
     },

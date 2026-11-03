@@ -57,11 +57,11 @@ def validate_fit(root, outputs, entry, rom_path):
         catalog, _, alphabet = images.validate_graphic_translations(root)
         ui.build(source, recipe, catalog, data, alphabet, letters, dialogue_records=[], cutscene_scene=False, battle_pack=False)
     else:
-        if record["path"] == "reference/opening_scene.json":
+        if record["path"] == "reference/opening_scene.json" or record["path"].startswith("reference/cutscenes/"):
             script = data["script"]
             offset = int(record["id"].split("_")[-1], 16)
             metadata = data
-            minimum = 16
+            minimum = 16 if script == "adventure/script/s01.msb" else 4
         else:
             _, script, raw_offset = record["id"].split(":")
             offset = int(raw_offset, 16)
@@ -129,8 +129,8 @@ def import_one(root, number, *, apply=False, rom=None, fetch=fetch_issue, fit=va
     root = Path(root).absolute()
     safe_path(root, "README.md")
     state = checkout_state(root) if apply else None
-    if apply and state[0] not in {"staging", f"codex/issue-{number}"}:
-        raise ImportProblem("Use staging or the matching codex/issue-N review branch")
+    if apply and state[0] not in {"staging", f"review/issue-{number}"}:
+        raise ImportProblem("Use staging or the matching review/issue-N review branch")
     if apply and rom is None:
         raise ImportProblem("--apply requires --rom with your own legally obtained original ROM")
     token = os.environ.get("GITHUB_TOKEN")

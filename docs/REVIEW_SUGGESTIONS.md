@@ -18,7 +18,7 @@ This is the maintainer route; contributors can keep using the website. Use a fre
 
 ```powershell
 git fetch origin
-git switch -c codex/issue-123 origin/staging
+git switch -c review/issue-123 origin/staging
 .\.venv\Scripts\python.exe tools/import_issue.py 123
 .\.venv\Scripts\python.exe tools/import_issue.py 123 --rom "C:/Games/Gintama/original.nds" --apply
 git diff
@@ -30,7 +30,7 @@ Review the diff. It should contain the accepted text, its matching CSV when used
 
 ## 3. Open the staging PR
 
-Commit only the files listed by the importer and push your review branch. On GitHub, open a PR with **base: staging** and **compare: codex/issue-123**. Reference the issue, for example `Accepts #123`, and describe the checks you ran.
+Commit only the files listed by the importer and push your review branch. On GitHub, open a PR with **base: staging** and **compare: review/issue-123**. Reference the issue, for example `Accepts #123`, and describe the checks you ran.
 
 Read **Files changed** and wait for **Translation validation** to pass. CI checks the imported data and attribution without receiving a ROM; the local importer performs the game-file fit check.
 

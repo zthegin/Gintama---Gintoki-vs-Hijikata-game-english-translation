@@ -48,7 +48,7 @@ export async function readBattleGame(bytes, name, script) {
     game = { msb: files.get(script.script), cdb: files.get(script.script.slice(0, -3) + 'cdb') };
     check(game.msb && game.cdb, 'Battle script is missing from this ROM.');
   }
-  await verifyGame(game, script);
+  await verifyGame(game, script, { minimumSize: 4 });
   const indexed = scanBattle(game.msb);
   check(indexed.length === script.record_count, 'Battle record count changed.');
   const bundled = new Map(script.messages.map((row) => [row.offset, row]));

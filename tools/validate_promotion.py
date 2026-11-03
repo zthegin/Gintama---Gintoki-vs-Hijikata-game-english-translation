@@ -14,7 +14,7 @@ from validate_pr import check_repo, inventory, load
 from credits import read_ledger, render
 from issue_imports import read_issue_ledger, validate_script_changes
 
-REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json"}
+REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json", *(f"reference/cutscenes/s0{i}.json" for i in range(2, 6))}
 ALLOWED = {
     "TRANSLATORS.md", "credits/merged_prs.json", "credits/issue_imports.json",
 } | REFERENCE_PATHS

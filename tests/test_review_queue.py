@@ -335,7 +335,7 @@ class CheckoutSafetyTests(unittest.TestCase):
 
     def test_same_repository_issue_branch_uses_trusted_import_validator(self):
         self.api.pr["head"].update(
-            ref="codex/issue-42", repo={"full_name": self.api.repository}
+            ref="review/issue-42", repo={"full_name": self.api.repository}
         )
         with (
             patch.object(review_queue.subprocess, "run", side_effect=self.git),
@@ -353,9 +353,9 @@ class CheckoutSafetyTests(unittest.TestCase):
 
     def test_fork_and_similarly_named_branches_keep_ordinary_validation(self):
         for branch, repository in (
-            ("codex/issue-42", "contributor/fork"),
-            ("codex/issue-42-extra", self.api.repository),
-            ("codex/issue-0", self.api.repository),
+            ("review/issue-42", "contributor/fork"),
+            ("review/issue-42-extra", self.api.repository),
+            ("review/issue-0", self.api.repository),
         ):
             with self.subTest(branch=branch, repository=repository):
                 self.api.pr["head"].update(

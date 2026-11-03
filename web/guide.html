@@ -22,7 +22,7 @@
           <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
         </div>
         <nav aria-label="Main">
-          <a href="index.html">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
+          <a href="index.html">Dialogue</a><a href="cutscenes.html">Cutscenes</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
           ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
         </nav>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
@@ -65,12 +65,11 @@
         names consistent. If you only proofread the English, say so in your note.
       </p>
       <p>
-        Use <a href="cutscenes.html">Opening</a> for the indexed first-cutscene
-        entries, <a href="battle.html">Battle</a> for battle text, or
+        Use <a href="cutscenes.html">Cutscenes</a> for scripts s01–s05, <a href="battle.html">Battle</a> for battle text, or
         <a href="graphics.html">Images</a> for name labels. These also use
-        <strong>Suggest on GitHub</strong>. Keep opening parts in their existing
+        <strong>Suggest on GitHub</strong>. Keep cutscene parts in their existing
         count and order; for image labels, check native size and wait for
-        <strong>Fits</strong>. Other adventure cutscenes are not indexed yet.
+        <strong>Fits</strong>. Load your original ROM to reveal supported untranslated entries.
       </p>
       <p>
         Issues are public under your GitHub account. Submit English and notes
@@ -119,7 +118,7 @@
           <code>csv/graphics/gin_tama_names.csv</code>.
         </p>
         <p>
-          Opening exports replace <code>reference/opening_scene.json</code>.
+          Cutscene exports update <code>reference/opening_scene.json</code> for s01, or the matching <code>reference/cutscenes/s02.json</code> through <code>s05.json</code> file.
           Battle exports contain the selected script; merge its messages into
           <code>reference/battle.json</code>, keeping every other script and existing entry.
           These packs do not need CSV files. Test locally first; CI checks source identities,
@@ -199,7 +198,7 @@ py -3.13 -m http.server 8000 --bind 127.0.0.1 --directory ../editor-site</pre
         changes in-game, follow
         <a href="install.html">installation</a>. Dialogue exports are drafts;
         the current build applies the bundled field dialogue, opening scene and battle text.
-        There are 22480 field messages (100.00% of 22480 indexed records), 114 of 114 editable field batches complete, 556 opening cutscene entries and 2125 battle messages (1.49% of 142242 indexed battle records). Battle totals include repeated variants and records the writers cannot edit. Other adventure cutscenes and unindexed text remain outside the completed field batches.
+        There are 22480 field messages (100.00% of 22480 indexed records), 114 of 114 editable field batches complete, 556 opening cutscene entries and 2172 battle messages (1.53% of 142242 indexed battle records). Battle totals include repeated variants and records the writers cannot edit. The cutscene index includes 4064 editable entries across s01–s05; their completion is separate from the field batches.
       </p>
       <p>
         To test opening or battle edits locally, download their JSON and use

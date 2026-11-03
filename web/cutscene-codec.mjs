@@ -14,7 +14,7 @@ const sameKeys = (value, keys) =>
   value && typeof value === 'object' && !Array.isArray(value) &&
   Object.keys(value).length === keys.length && keys.every((key) => Object.hasOwn(value, key));
 
-export const sceneId = (row) => 's01_' + row.offset.toString(16).padStart(8, '0');
+export const sceneId = (row, scene = { script: 'adventure/script/s01.msb' }) => scene.script.slice(17, -4) + '_' + row.offset.toString(16).padStart(8, '0');
 
 export function checkParts(parts, expectedCount) {
   check(Array.isArray(parts) && parts.length === expectedCount, 'Keep every original text part.');
@@ -30,14 +30,14 @@ export function checkParts(parts, expectedCount) {
 
 export function checkScene(scene) {
   check(sameKeys(scene, ['format', 'script', 'scope', 'source_msb_sha256', 'source_cdb_sha256', 'notes', 'messages']), 'Invalid opening scene data.');
-  check(scene.format === 'gintama-cutscene-v1' && scene.script === 'adventure/script/s01.msb', 'Only the opening s01 cutscene is supported.');
+  check(scene.format === 'gintama-cutscene-v1' && /^adventure\/script\/s0[1-5]\.msb$/.test(scene.script), 'Unsupported cutscene script.');
   check(hexHash(scene.source_msb_sha256) && hexHash(scene.source_cdb_sha256), 'Invalid cutscene source hash.');
   check(typeof scene.scope === 'string' && Array.isArray(scene.notes) && scene.notes.every((note) => typeof note === 'string'), 'Invalid scene description.');
-  check(Array.isArray(scene.messages) && scene.messages.length > 0 && scene.messages.length <= 2000, 'Invalid cutscene message list.');
+  check(Array.isArray(scene.messages) && scene.messages.length >= 0 && scene.messages.length <= 2000, 'Invalid cutscene message list.');
   const seen = new Set();
   for (const row of scene.messages) {
     check(sameKeys(row, ['offset', 'source_words_sha256', 'parts']), 'Invalid cutscene entry.');
-    check(Number.isSafeInteger(row.offset) && row.offset >= 16 && row.offset % 2 === 0 && !seen.has(row.offset), 'Invalid or repeated cutscene offset.');
+    check(Number.isSafeInteger(row.offset) && row.offset >= (scene.script.endsWith('/s01.msb') ? 16 : 4) && row.offset % 2 === 0 && !seen.has(row.offset), 'Invalid or repeated cutscene offset.');
     seen.add(row.offset);
     check(hexHash(row.source_words_sha256), 'Invalid cutscene record hash.');
     check(Array.isArray(row.parts) && row.parts.length > 0 && row.parts.length <= 64, 'Missing cutscene text parts.');
@@ -67,11 +67,11 @@ export async function readSceneGame(bytes, name, scene) {
   else {
     check(/\.(nds|srl)$/i.test(name), 'Select your legally obtained original .nds ROM or its extracted s01.msb.');
     const files = ndsFiles(bytes);
-    game = { msb: files.get(scene.script), cdb: files.get('adventure/script/s01.cdb') };
+    game = { msb: files.get(scene.script), cdb: files.get(scene.script.slice(0, -3) + 'cdb') };
     check(game.msb && game.cdb, 'This ROM has no supported opening script.');
   }
   await verifyGame(game, scene);
-  const indexed = scanScript(game.msb, { minimumOffset: 16, label: 'opening script' });
+  const indexed = scanScript(game.msb, { minimumOffset: scene.script.endsWith('/s01.msb') ? 16 : 4, label: 'cutscene script' });
   const bundled = new Map(scene.messages.map((row) => [row.offset, row]));
   const rows = await Promise.all(indexed.filter((row) => row.partCount > 0).map(async (row) => {
     const digest = await sha256(game.msb.subarray(row.offset, row.end));
@@ -121,5 +121,5 @@ export async function readSceneMessage(msb, row, glyphs, { minimumOffset = 16 } 
 export function sceneSuggestion(scene, original, parts) {
   checkParts(parts, original.parts.length);
   check(parts.some((part, i) => part !== original.parts[i]), 'Change the English before suggesting it.');
-  return `Opening cutscene translation suggestion\n\nID: ${sceneId(original)}\nScript: ${scene.script}\nSource SHA-256: ${original.source_words_sha256}\nEnglish parts (JSON):\n${JSON.stringify(parts)}\n\nKeep the parts in this order. No source game text is included.\nThis suggestion needs maintainer review and a local ROM build.`;
+  return `Opening cutscene translation suggestion\n\nID: ${sceneId(original, scene)}\nScript: ${scene.script}\nSource SHA-256: ${original.source_words_sha256}\nEnglish parts (JSON):\n${JSON.stringify(parts)}\n\nKeep the parts in this order. No source game text is included.\nThis suggestion needs maintainer review and a local ROM build.`;
 }

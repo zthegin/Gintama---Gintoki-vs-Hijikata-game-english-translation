@@ -56,7 +56,7 @@ jobs:
               exit 1
             fi
             python3 trusted/tools/validate_promotion.py --base trusted --candidate candidate
-          elif [[ "$HEAD_REF" =~ ^codex/issue-([1-9][0-9]*)$ && "$HEAD_REPO" == "$BASE_REPO" ]]; then
+          elif [[ "$HEAD_REF" =~ ^review/issue-([1-9][0-9]*)$ && "$HEAD_REPO" == "$BASE_REPO" ]]; then
             python3 trusted/tools/check_issue_import.py --base trusted --candidate candidate --issue "${BASH_REMATCH[1]}"
           elif [[ "$HEAD_REF" == automation/credits-pr-* && "$HEAD_REPO" == "$BASE_REPO" ]]; then
             python3 trusted/tools/check_credits.py --base trusted --candidate candidate --verify-github
