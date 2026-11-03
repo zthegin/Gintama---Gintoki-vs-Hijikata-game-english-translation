@@ -104,7 +104,11 @@ test('all opening record hashes and parts verify locally, with unknown source gl
   }
   assert.equal(glyphs.codes['0x0D54'], '利');
   assert.equal(glyphs.codes['0x0D8D'], '林');
-  assert.ok(unknown.size > 0);
+  // Check unknown-glyph fallback deliberately; the complete real map may have none missing.
+  const partialGlyphs = { codes: {} };
+  const fallback = await readSceneMessage(game.msb, scene.messages[0], partialGlyphs);
+  assert.ok(fallback.unknown.length > 0);
+  assert.match(fallback.parts.join(''), /⟦0x[0-9A-F]{4}⟧/);
   assert.ok([...unknown].every((code) => Number.isInteger(code) && code > 0 && code <= 6953));
   await assert.rejects(readSceneGame(game.msb, 's01.msb', { ...scene, source_msb_sha256: '0'.repeat(64) }), /SHA-256/);
   await assert.rejects(readSceneGame(bytes, 'archive.zip', scene), /Select/);
@@ -124,7 +128,7 @@ test('opening browser handlers keep unsaved drafts and export no local source te
   });
   const get = (id) => { if (!elements.has(id)) elements.set(id, element()); return elements.get(id); };
   globalThis.document = { getElementById: get, createElement: element };
-  globalThis.fetch = async (url) => ({ ok: true, json: async () => url === 'assets/opening_scene.json' ? scene : url === 'assets/catalog.json' ? { repository: 'zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation' } : { codes: {} } });
+  globalThis.fetch = async (url) => ({ ok: true, json: async () => url === 'assets/cutscenes.json' ? { format: 'gintama-cutscenes-v1', scenes: [scene, ...[2,3,4,5].map(n => JSON.parse(readFileSync(new URL(`reference/cutscenes/s0${n}.json`, root), 'utf8')))] } : url === 'assets/opening_scene.json' ? scene : url === 'assets/catalog.json' ? { repository: 'zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation' } : { codes: {} } });
   globalThis.localStorage = { getItem() { return null; }, setItem() { throw new Error('storage unavailable'); } };
   globalThis.window = { open: (...args) => opened.push(args) };
   Object.defineProperty(globalThis, 'navigator', { value: { clipboard: { writeText: async (text) => copied.push(text) } }, configurable: true });
@@ -179,4 +183,42 @@ test('opening browser handlers keep unsaved drafts and export no local source te
   navigator.clipboard.writeText = async () => { throw new Error('Clipboard permission denied.'); };
   await get('scene-copy-json').listeners.click();
   assert.match(get('scene-export-status').textContent, /could not copy.*Download opening JSON/);
+  if (process.env.GINTAMA_TEST_ROM) {
+    const bytes = readFileSync(process.env.GINTAMA_TEST_ROM);
+    await get('scene-rom').listeners.change({ target: { files: [{ name: 'original.nds', size: bytes.length, arrayBuffer: async () => bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength) }] } });
+    for (const n of [2, 3, 4, 5]) {
+      get('scene-script').value = `adventure/script/s0${n}.msb`;
+      await get('scene-script').listeners.change();
+      assert.match(get('scene-id').textContent, new RegExp(`^s0${n}_`));
+      assert.equal(get('scene-parts').children[1].value, '');
+      assert.match(get('scene-original').textContent, /Part 1/);
+      const entry = get('scene-parts').children[1]; entry.value = 'Hello!'; entry.listeners.input();
+      get('scene-json').listeners.click();
+      const exported = JSON.parse(await downloads.at(-1).blob.text());
+      assert.equal(exported.script, `adventure/script/s0${n}.msb`);
+      get('scene-suggest').listeners.click();
+      assert.ok(decodeURIComponent(opened.at(-1)[0]).includes(`Script: adventure/script/s0${n}.msb`));
+    }
+  }
+});
+
+
+test('all five cutscene scripts reveal untranslated records and preserve source identities', { skip: !process.env.GINTAMA_TEST_ROM }, async () => {
+  const bytes = new Uint8Array(readFileSync(process.env.GINTAMA_TEST_ROM));
+  const inventory = JSON.parse(readFileSync(new URL('reference/cutscene_index.json', root), 'utf8'));
+  const glyphs = JSON.parse(readFileSync(new URL('reference/glyph_codes_public.json', root), 'utf8'));
+  for (const n of [1, 2, 3, 4, 5]) {
+    const scene = n === 1 ? opening() : JSON.parse(readFileSync(new URL(`reference/cutscenes/s0${n}.json`, root), 'utf8'));
+    const game = await readSceneGame(bytes, 'original.nds', scene);
+    const expected = inventory.scripts.find(s => s.script === scene.script).records.filter(r => r[3] > 0);
+    assert.deepEqual(game.rows.map(r => [r.offset, r.source_words_sha256, r.parts.length]), expected.map(r => [r[0], r[2], r[3]]));
+    const row = game.rows.find(r => !scene.messages.some(old => old.offset === r.offset));
+    assert.ok(row && row.parts.every(part => part === ''));
+    const decoded = await readSceneMessage(game.msb, row, glyphs, { minimumOffset: n === 1 ? 16 : 4 }); assert.ok(decoded.parts.some(p => p.length));
+    const edited = [...scene.messages, { ...row, parts: row.parts.map((p, i) => i ? '' : 'Hello!') }].sort((a,b) => a.offset-b.offset);
+    const exported = JSON.parse(formatScene(scene, edited, game.rows)); assert.equal(exported.script, scene.script);
+    assert.ok(sceneSuggestion(scene, row, edited.find(r => r.offset === row.offset).parts).includes(scene.script));
+    await assert.rejects(readSceneGame(bytes, 'original.nds', { ...scene, source_msb_sha256: '0'.repeat(64) }), /SHA-256/);
+  }
+  assert.throws(() => checkScene({ ...opening(), script: 'adventure/script/../s01.msb' }), /Unsupported/);
 });
