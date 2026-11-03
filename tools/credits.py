@@ -27,7 +27,7 @@ RECORD_ID = re.compile(
     r"[a-z0-9_]+\.msb:[0-9a-f]{8})\Z"
 )
 BATCH_PATH = re.compile(r"translations/(?:ready|graphics)/[a-z][a-z0-9_]{0,79}\.json\Z")
-REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json"}
+REFERENCE_PATHS = {"reference/opening_scene.json", "reference/battle.json", *(f"reference/cutscenes/s0{i}.json" for i in range(2, 6))}
 REPOSITORY_URL = "https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation"
 WORD = re.compile(r"[^\W_]+(?:['’][^\W_]+)*")
 
@@ -337,11 +337,11 @@ def measure_reference_records(path: str, before: dict, after: dict) -> list[dict
     def indexed(data):
         if not isinstance(data, dict):
             raise ValueError("Invalid reference translation pack")
-        if path == "reference/opening_scene.json":
+        if path == "reference/opening_scene.json" or re.fullmatch(r"reference/cutscenes/s0[2-5]\.json", path):
             required = {"format", "script", "scope", "source_msb_sha256",
                         "source_cdb_sha256", "notes", "messages"}
             if (set(data) != required or data["format"] != "gintama-cutscene-v1"
-                    or data["script"] != "adventure/script/s01.msb"):
+                    or data["script"] != ("adventure/script/s01.msb" if path == "reference/opening_scene.json" else "adventure/script/" + Path(path).stem + ".msb")):
                 raise ValueError("Invalid opening translation pack")
             scripts = [data]
         elif path == "reference/battle.json":
@@ -378,7 +378,7 @@ def measure_reference_records(path: str, before: dict, after: dict) -> list[dict
                         or not re.fullmatch(r"[0-9a-f]{64}", message["source_words_sha256"])
                         or not isinstance(message["parts"], list)):
                     raise ValueError("Invalid reference translation message")
-                identifier = (f"s01_{message['offset']:08x}" if path == "reference/opening_scene.json"
+                identifier = (f"{name[17:-4]}_{message['offset']:08x}" if path != "reference/battle.json"
                               else f"battle:{name}:{message['offset']:08x}")
                 if identifier in seen:
                     raise ValueError("Duplicate reference translation record")

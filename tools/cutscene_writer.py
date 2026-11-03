@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import struct
+import re
 from pathlib import Path
 
 from dialogue_writer import END, LINE, advance, read_json, words_at
@@ -48,7 +49,7 @@ def load_scene(path=None):
     )
     require(scene["format"] == "gintama-cutscene-v1", "Unsupported cutscene format")
     require(
-        isinstance(scene["messages"], list) and 0 < len(scene["messages"]) <= 2000,
+        isinstance(scene["messages"], list) and 0 <= len(scene["messages"]) <= 2000,
         "Invalid cutscene message list",
     )
     for key in ("source_msb_sha256", "source_cdb_sha256"):
@@ -60,7 +61,7 @@ def load_scene(path=None):
             "Invalid cutscene source hash",
         )
     require(
-        scene["script"] == "adventure/script/s01.msb", "Unsupported cutscene script"
+        isinstance(scene["script"], str) and re.fullmatch(r"adventure/script/s0[1-5]\.msb", scene["script"]), "Unsupported cutscene script"
     )
     seen = set()
     for row in scene["messages"]:
@@ -72,7 +73,7 @@ def load_scene(path=None):
         offset = row["offset"]
         require(
             type(offset) is int
-            and offset >= 16
+            and offset >= (16 if scene["script"] == "adventure/script/s01.msb" else 4)
             and offset % 2 == 0
             and offset not in seen,
             "Invalid cutscene offset",
@@ -364,7 +365,7 @@ def prepare_labels(scripts, labels, fonts, latin, occupied):
         path, offset, capacity = row["script"], row["offset"], row["word_capacity"]
         require(path in scripts, "Unsupported label script")
         data = scripts[path]
-        require(type(offset) is int and offset >= 16 and offset % 2 == 0
+        require(type(offset) is int and offset >= (16 if scene["script"] == "adventure/script/s01.msb" else 4) and offset % 2 == 0
                 and type(capacity) is int and 0 < capacity <= 256,
                 "Invalid label span")
         end = offset + capacity * 2

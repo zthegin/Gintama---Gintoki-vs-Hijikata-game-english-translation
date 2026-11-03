@@ -41,6 +41,7 @@ def generated_paths():
         "assets/glossary.json",
         "assets/opening_scene.json",
         "assets/battle.json",
+        "assets/cutscenes.json",
         "assets/graphics/catalog.json",
         "assets/graphics/pixel_font.json",
         "assets/graphics/translations.json",
@@ -194,6 +195,9 @@ def build(out: Path, *, repository: str | None = None):
         ("battle.json", "battle.json"),
     ]:
         shutil.copy2(ROOT / "reference" / src, assets / name)
+    scenes = [json.loads((ROOT / "reference/opening_scene.json").read_text(encoding="utf-8"))]
+    scenes.extend(json.loads(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "reference/cutscenes").glob("*.json")))
+    (assets / "cutscenes.json").write_text(json.dumps({"format": "gintama-cutscenes-v1", "scenes": scenes}, indent=2) + "\n", encoding="utf-8")
     graphics = assets / "graphics"
     graphics.mkdir()
     for name in ("catalog.json", "pixel_font.json"):

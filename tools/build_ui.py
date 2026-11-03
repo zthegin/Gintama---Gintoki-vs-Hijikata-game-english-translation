@@ -347,6 +347,12 @@ def build(
     resource = lambda path, dimensions=None: Resource(source, files, path, dimensions)
     font12 = append_font(resource("font/dfgb12.bin").read_bytes(), 52, letters)
     font10 = append_font(resource("font/dfgb10.bin").read_bytes(), 44, letters)
+    extra_scenes = []
+    if cutscene_scene is not False:
+        extra_scenes = [cutscene.load_scene(path) for path in sorted((ROOT / "reference/cutscenes").glob("s0[2-5].json"))]
+        if cutscene_scene is not None and cutscene_scene["script"] != "adventure/script/s01.msb":
+            extra_scenes = [scene for scene in extra_scenes if scene["script"] != cutscene_scene["script"]] + [cutscene_scene]
+            cutscene_scene = None
     scene_report = {"messages": [], "extra_font_records": 0}
     scene_spans = []
     if cutscene_scene is not False:
@@ -361,6 +367,18 @@ def build(
             recipe["latin_glyphs"],
         )
         (font12, _), (font10, _) = fonts
+    extra_patches, extra_reports = {}, []
+    for extra in extra_scenes:
+        if not extra["messages"]:
+            continue
+        path = extra["script"]
+        payload, fonts, spans, details = cutscene.prepare(
+            resource(path).read_bytes(), resource(path[:-3] + "cdb").read_bytes(),
+            extra, [(font12, 52), (font10, 44)], recipe["latin_glyphs"], minimum_offset=4,
+        )
+        (font12, _), (font10, _) = fonts
+        extra_patches[path] = (payload, spans)
+        extra_reports.append({"script": path, **details})
     records = dialogue.load_records(ROOT) if dialogue_records is None else dialogue_records
     field_left, field_right = files[dialogue.FIELD]
     cdb_left, cdb_right = files[dialogue.CDB]
@@ -405,7 +423,7 @@ def build(
         allowed.extend(
             (scene_left + left, scene_left + right) for left, right in scene_spans
         )
-    for path, (payload, spans) in battle_patches.items():
+    for path, (payload, spans) in {**extra_patches, **battle_patches}.items():
         left, right = files[path]
         target[left:right] = payload
         allowed.extend((left + a, left + b) for a, b in spans)
@@ -565,7 +583,7 @@ def build(
     result = bytes(target)
     newfiles = images.nds_files(result)
     for path in ["field/script/fld_scr.cdb", "adventure/script/s01.cdb"] + [
-        path[:-3] + "cdb" for path in battle_patches
+        path[:-3] + "cdb" for path in [*battle_patches, *extra_patches]
     ]:
         left, right = files[path]
         a, b = newfiles[path]
@@ -577,7 +595,7 @@ def build(
         "output_rom_sha256": images.sha(result),
         **counts,
         "dialogue_scripts_unchanged": not bool(
-            dialogue_report or scene_report["messages"] or label_patches or battle_patches
+            dialogue_report or scene_report["messages"] or extra_patches or label_patches or battle_patches
         ),
         "dialogue_messages": len(dialogue_report),
         "dialogue_pages": sum(row["pages"] for row in dialogue_report),
@@ -589,7 +607,8 @@ def build(
         "battle_messages": sum(len(row["messages"]) for row in battle_report),
         "battle_scripts": len(battle_report),
         "battle": battle_report,
-        "cutscene_messages": len(scene_report["messages"]),
+        "cutscene_messages": len(scene_report["messages"]) + sum(len(row["messages"]) for row in extra_reports),
+        "additional_cutscenes": extra_reports,
         "cutscene_font_records": scene_report["extra_font_records"],
         "cutscene": scene_report,
         "script_labels": len(label_patches),
@@ -634,7 +653,7 @@ def main():
     parser.add_argument(
         "--cutscene",
         type=Path,
-        help="Opening scene JSON downloaded from the website; otherwise use the bundled opening",
+        help="Cutscene JSON downloaded from the website; other bundled scenes remain included",
     )
     parser.add_argument("--battle", type=Path,
                         help="Battle JSON from the website; overlays bundled battle translations")
