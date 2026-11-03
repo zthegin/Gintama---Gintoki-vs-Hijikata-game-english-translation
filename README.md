@@ -40,7 +40,7 @@ See [installation](docs/APPLY_PATCH.md) for the supported ROM checksum, existing
 <details>
 <summary>Let a local coding assistant set it up</summary>
 
-You can give Claude Code, Codex or another assistant with local file access this request. A chat-only assistant cannot build the file on your computer.
+You can give an assistant with local file access this request. A chat-only assistant cannot build the file on your computer.
 
 ```text
 Set up https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation in a folder I choose. Ask me for the local path to my own legally obtained, unmodified ROM before building. If I am unsure whether I may use and modify that file, stop and let me check. Do not find or download game files or ask anyone else for a ROM.
