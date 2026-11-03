@@ -17,7 +17,7 @@ If no GitHub tab opens, click **Open the prepared suggestion** below the button.
 
 ## Suggest an opening-cutscene line
 
-Use the [Opening editor](https://zthegin.github.io/cutscenes.html) for the indexed entries in the first cutscene. Select your legally obtained original ROM, choose an entry, and edit its English parts. Keep their count and order. Click **Suggest on GitHub**, check the prepared issue and submit it. No coding is required. These suggestions do not use the field-dialogue JSON/CSV batch route below. Other adventure cutscenes are not supported yet.
+Use the [Cutscenes editor](https://zthegin.github.io/cutscenes.html) and choose a script from `s01` through `s05`. Select your legally obtained original ROM, choose an entry, and edit its English parts. Keep their count and order. Click **Suggest on GitHub**, check the prepared issue and submit it. No coding is required. These suggestions do not use the field-dialogue JSON/CSV batch route below. Loading the ROM reveals supported untranslated entries with blank English parts. Records with unknown controls stay read-only.
 
 Keep **Yorozuya**, **Gin Tama** and character names consistent. If you only proofread the English without checking the Japanese, say so in your note. The [translation notes](TRANSLATION_GUIDE.md) cover wording; the [game and anime background](ABOUT_THE_GAME.md) introduces the setting.
 

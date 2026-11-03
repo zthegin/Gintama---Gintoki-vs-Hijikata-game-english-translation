@@ -48,7 +48,7 @@ Start from a clean checkout with current `origin/staging`, then make a branch fo
 
 ```sh
 git fetch origin
-git switch -c codex/issue-123 origin/staging
+git switch -c review/issue-123 origin/staging
 ```
 
 The importer refuses to apply on `main` and does not create a branch for you. Read the issue and preview it first, using the Python interpreter from your project environment:

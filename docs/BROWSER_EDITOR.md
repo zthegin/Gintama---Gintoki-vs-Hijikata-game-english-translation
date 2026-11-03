@@ -2,7 +2,7 @@
 
 For the complete beginner walkthrough, read [How to contribute](START_HERE.md). For applying a release or building image edits on your own legally obtained ROM, read [Installation](APPLY_PATCH.md).
 
-The website has Dialogue, Opening, Battle and Images pages. It works without installation when GitHub Pages is deployed. It is a static site with no account system, analytics, external fonts or game-file uploads. Suggest on GitHub opens a prepared issue only when you choose that action; you review and submit it yourself. If the popup is blocked, use the prepared-suggestion link shown below the button.
+The website has Dialogue, Cutscenes, Battle and Images pages. It works without installation when GitHub Pages is deployed. It is a static site with no account system, analytics, external fonts or game-file uploads. Suggest on GitHub opens a prepared issue only when you choose that action; you review and submit it yourself. If the popup is blocked, use the prepared-suggestion link shown below the button.
 
 ## Local source files and drafts
 
@@ -18,15 +18,15 @@ Accepted suggestions are credited to the issue's actual GitHub account, with a r
 
 For a field-dialogue or image-label batch, upload both matching JSON and CSV files to a branch of your GitHub fork, then open a PR to upstream `staging`. Leave IDs, hashes and order unchanged. Two current account approvals mark valid translation edits for owner review. The owner merges manually. See the [beginner guide](START_HERE.md) for each GitHub step.
 
-The Images editor covers 193 Gin Tama name labels. The small name-label builder uses the standard library; the [full UI builder](APPLY_PATCH.md) adds the broader 650-variant/122-slot translation and needs the rendering packages. The normal builder applies the bundled English dialogue and opening cutscene. To test a downloaded dialogue JSON batch, use `--dialogue` as shown in [installation](APPLY_PATCH.md#apply-your-own-dialogue-edits). Each dialogue page needs text and must keep its original page count. The editor checks page breaks and submission rules; the Python build checks the font, line wrapping and fixed-size slot. If that build says the text is too long, shorten it in the editor and download both files again. Most later dialogue remains untranslated.
+The Images editor covers 193 Gin Tama name labels. The small name-label builder uses the standard library; the [full UI builder](APPLY_PATCH.md) adds the broader 650-variant/125-slot translation and needs the rendering packages. The normal builder applies the bundled English dialogue and opening cutscene. To test a downloaded dialogue JSON batch, use `--dialogue` as shown in [installation](APPLY_PATCH.md#apply-your-own-dialogue-edits). Each dialogue page needs text and must keep its original page count. The editor checks page breaks and submission rules; the Python build checks the font, line wrapping and fixed-size slot. If that build says the text is too long, shorten it in the editor and download both files again. The index includes supported untranslated entries after loading the original ROM.
 
-## Opening cutscene
+## Cutscenes
 
-Open [Opening](https://zthegin.github.io/cutscenes.html) and select your own legally obtained original ROM to read the source. This page covers indexed entries in the `s01` script, including the Yorozuya opening and Hijikata introduction. See [current progress](../README.md#current-progress) for the entry count. Other cutscenes are not indexed here yet.
+Open [Cutscenes](https://zthegin.github.io/cutscenes.html) and select your own legally obtained original ROM to read the source. Choose `s01` through `s05`, then load your ROM to reveal the supported untranslated records. This includes the Yorozuya opening and Hijikata introduction. See [current progress](../README.md#current-progress) for the entry count. The `sub` script is inventoried but has no supported dialogue records. Records with unrecognized controls stay read-only.
 
 Each message has one or more English parts. Keep their order and count: those boundaries preserve the game's formatting controls. You only edit the words. Some source characters are still unmapped and appear as explicit glyph codes; check those in your own game before translating rather than guessing.
 
-Use **Suggest on GitHub** for one English-only record. For several edits, download the opening JSON, test it with `--cutscene`, then replace `reference/opening_scene.json` in a branch of your fork and open a PR to `staging`. Load your own original ROM to reveal supported untranslated s01 entries. Keep existing entries and all source metadata. CI checks added entries against a trusted offset/hash/part-count index; it does not receive your ROM. The local Python build checks bubble width, controls and fixed-size slots. A browser export alone does not prove that it fits. Other cutscene scripts remain unsupported.
+Use **Suggest on GitHub** for one English-only record. For several edits, download the opening JSON, test it with `--cutscene`, then replace `reference/opening_scene.json` in a branch of your fork and open a PR to `staging`. Load your own original ROM to reveal supported untranslated s01 entries. Keep existing entries and all source metadata. CI checks added entries against a trusted offset/hash/part-count index; it does not receive your ROM. The local Python build checks bubble width, controls and fixed-size slots. A browser export alone does not prove that it fits. For s02–s05, update the corresponding file under `reference/cutscenes/` instead. All five scripts use the same JSON export and `--cutscene` build option.
 
 The field and image editors have been tested with private source files, exports, persistence and privacy checks. The opening editor also has record-hash, part-boundary and export tests. These checks do not replace checking the wording in the game. See [testing](TESTING.md).
 
@@ -38,6 +38,18 @@ This is an unofficial fan and educational translation of *Gintama: Gintoki vs. H
 
 Open [Battle](https://zthegin.github.io/battle.html), choose a script and select your own legally obtained original ROM. Choose an entry, write the English and click **Suggest on GitHub**. The Japanese is decoded locally and is never included in the issue or downloaded JSON. Unknown glyphs are marked, so check those in your own game before translating.
 
-The editor supports END-terminated messages in 90 battle scripts. Records with embedded tables or page controls, and trailing null-terminated labels, remain unchanged. A script's entry count includes untranslated records and repeated variants; it is not a translation percentage.
+All 90 battle scripts are indexed. Choose any script from the selector, then load your ROM to reveal its supported untranslated entries. The editor supports END-terminated messages in these scripts. Records with embedded tables or page controls, and trailing null-terminated labels, remain unchanged. A script's entry count includes untranslated records and repeated variants; it is not a translation percentage.
 
 Download `battle_translations.json` to try several edits locally with `--battle`. It contains the selected script. For a batch PR, merge that script's exported messages into `reference/battle.json`, keeping every other script, existing entry and source field. Open the PR to `staging`; trusted checks verify each record against the source index. No CSV accompanies opening or battle packs. For one no-code suggestion, **Suggest on GitHub** remains the easier route. Only the owner merges.
+
+### Inventory and indexing
+
+The public cutscene index contains offsets, hashes and part counts, not source words or Japanese. Its 4,112 records include 4,064 editable messages and 48 records with unsupported controls. The small `sub` script is inventoried separately with no supported END-terminated dialogue. The existing 16-byte safety boundary applies to s01; s02–s05 use their four-byte script header, including the first message.
+
+To reproduce the cutscene index from your own original ROM, choose a new output file:
+
+```sh
+python tools/index_cutscenes.py --rom "original.nds" --out "local/cutscene_index.json"
+```
+
+All 90 battle scripts already have a trusted index. Their 142,242 inventoried records include 53,816 supported entries. The editor exposes those after you load the ROM; unknown tables, controls and trailing labels stay unchanged. An index is not a translation: blank entries still need English and a local fit check.

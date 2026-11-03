@@ -108,7 +108,7 @@ Most game dialogue is not translated yet. The bundled examples are deliberately 
 
 ## Apply your own opening edits
 
-The normal build includes the bundled opening translation. To try English edited in the website's [Opening page](https://zthegin.github.io/cutscenes.html), download its JSON, or copy it and save it as `opening_scene.json`, then run:
+The normal build includes the bundled opening translation. To try English edited in the website's [Cutscenes page](https://zthegin.github.io/cutscenes.html), download its JSON, or copy it and save it as `opening_scene.json`, then run:
 
 ```sh
 python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Games/Gintama/opening_scene.json" --out local/my-opening.nds
@@ -131,3 +131,5 @@ Use the no-code [Battle editor](https://zthegin.github.io/battle.html). Choose a
 ```
 
 This keeps the bundled translations and overlays your battle edits. You may combine `--battle`, `--dialogue` and `--cutscene`. The builder verifies the original MSB/CDB hashes, record hashes, English width, original message sizes and untouched bytes. It rejects unsupported controls and overlong messages rather than moving game data. Use a new output path each time; the original stays unchanged.
+
+The Cutscenes selector also supports s02–s05. Use the downloaded file with the same `--cutscene` option (for example `--cutscene s02.json`). Other bundled scenes remain included. The ROM stays on your device.
