@@ -20,7 +20,7 @@
           <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
         </div>
         <nav aria-label="Main">
-          <a href="index.html">Dialogue</a><a href="cutscenes.html" aria-current="page">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
+          <a href="index.html">Dialogue</a><a href="cutscenes.html" aria-current="page">Cutscenes</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
         </nav>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
       </div>
@@ -30,13 +30,14 @@
       <p class="project-note">Unofficial fan and educational project. The maintainer does not own Gintama or the original game content. Use only your own legally obtained ROM. No game downloads or uploads are provided. <a href="rights.html">Project policy</a>.</p>
       <section class="welcome">
         <div>
-          <h2>Opening cutscene</h2>
-          <p>Edit dialogue from the opening script, s01. Load your own original ROM to see its supported untranslated entries too. Other cutscene scripts are not supported here.</p>
+          <h2>Cutscene dialogue</h2>
+          <p>Choose s01–s05 and load your original ROM to reveal supported untranslated entries. Records with unknown controls stay read-only. The small sub script has no supported dialogue records.</p>
         </div>
         <label class="filebutton">Legally obtained game file<input id="scene-rom" type="file" accept=".nds,.srl,.msb" /></label>
       </section>
       <p id="scene-status" class="status" role="status">Loading opening entries…</p>
       <div class="toolbar">
+        <label>Cutscene script<select id="scene-script"></select></label>
         <label class="search">Find an opening entry<input id="scene-search" type="search" placeholder="English or ID" /></label>
         <span id="scene-count"></span>
       </div>
@@ -58,9 +59,9 @@
         <p>Download the scene JSON. Put it beside the project files, then build a new local ROM from your original legally obtained ROM:</p>
         <pre><code>python tools/build_ui.py --rom "original.nds" --cutscene "opening_scene.json" --out "local/opening-test.nds"</code></pre>
         <p>This applies the exported opening together with the bundled field dialogue and graphics. Add <code>--dialogue "your-batch.json"</code> if you also want to test a downloaded field batch. Shorten any message the builder rejects, then download it again. <a href="install.html">Setup instructions</a>.</p>
-        <div class="export-actions"><button id="scene-json" type="button">Download opening JSON</button><button id="scene-copy-json" type="button">Copy opening JSON</button></div>
+        <div class="export-actions"><button id="scene-json" type="button">Download cutscene JSON</button><button id="scene-copy-json" type="button">Copy cutscene JSON</button></div>
         <p id="scene-export-status" role="status"></p>
-        <p>For one no-code suggestion, use <strong>Suggest on GitHub</strong>. For several edits, test the download, replace <code>reference/opening_scene.json</code> in a branch of your fork and open a PR to <code>staging</code>. Keep all existing entries and source metadata. The owner reviews and merges; nothing merges automatically. <a href="guide.html">Contribution help</a>.</p>
+        <p>For one no-code suggestion, use <strong>Suggest on GitHub</strong>. For several edits, test the download, update <code>reference/opening_scene.json</code> for s01 or <code>reference/cutscenes/s02.json</code> through <code>s05.json</code> for the other scripts in a branch of your fork and open a PR to <code>staging</code>. Keep all existing entries and source metadata. The owner reviews and merges; nothing merges automatically. <a href="guide.html">Contribution help</a>.</p>
       </section>
       <footer>
         <p class="project-links"><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation">Project repository</a> · <a href="https://github.com/zthegin/zthegin.github.io">Website repository</a> · <a href="https://zthegin.github.io/">Website</a></p>

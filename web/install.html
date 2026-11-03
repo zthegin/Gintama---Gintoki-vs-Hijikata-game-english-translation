@@ -22,7 +22,7 @@
           <p class="project-subtitle">Unofficial Nintendo DS English translation project</p>
         </div>
         <nav aria-label="Main">
-          <a href="index.html">Dialogue</a><a href="cutscenes.html">Opening</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
+          <a href="index.html">Dialogue</a><a href="cutscenes.html">Cutscenes</a><a href="battle.html">Battle</a><a href="graphics.html">Images</a
           ><a href="guide.html">Help</a><a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/TRANSLATORS.md">Translators</a><a href="rights.html">Rights</a>
         </nav>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" title="Toggle dark mode" hidden>Dark mode</button>
@@ -75,7 +75,7 @@ py -3.13 -m venv .venv
       >
       <details>
         <summary>Let a local coding assistant set it up</summary>
-        <p>Claude Code, Codex or another assistant with local file access can follow the
+        <p>An assistant with local file access can follow the
           <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation#i-just-want-to-play">copyable setup request in the README</a>.
           It must ask you for your own legally obtained ROM path. It must not find, download or upload game files.</p>
         <p>For macOS/Linux, follow the <a href="https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/APPLY_PATCH.md">installation guide</a>.</p>
@@ -116,13 +116,13 @@ py -3.13 -m venv .venv
       </details>
       <details id="apply-your-own-opening-edits">
         <summary>Test an opening edit from the website</summary>
-        <p>Use <a href="cutscenes.html">Opening</a>, then download its JSON or copy it
+        <p>Use <a href="cutscenes.html">Cutscenes</a>, then download its JSON or copy it
           and save it as <code>opening_scene.json</code>. Keep every entry and English part in order.</p>
         <pre class="command">
 .\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Users/you/Downloads/opening_scene.json" --out local/my-opening.nds</pre>
         <p>Replace both paths with yours. You can add <code>--dialogue</code> with a field-dialogue
           export to test both together. The builder checks source hashes, formatting controls,
-          text width and fixed slots. Only the opening <code>s01</code> cutscene is supported here.</p>
+          text width and fixed slots. Select <code>s01</code> through <code>s05</code> in the Cutscenes editor. Other bundled scenes remain included in your local build.</p>
       </details>
       <details>
         <summary>Make a local BPS patch</summary>
