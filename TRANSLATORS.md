@@ -14,6 +14,7 @@ New entries were empty before the contribution. Revised entries already had Engl
 Numeric GitHub account IDs identify contributors when available. Legacy PR credits without an account ID remain separate from numeric-ID credits; their original handle-based attribution is retained.
 
 PR counts come from verified base and head revisions. Accepted issue counts come from the verified issue creator and imported record, not the maintainer who applies it. Import PRs are excluded from PR credit so the same import is not counted twice. Unchanged English, notes, metadata, layout-only changes and deletions do not count. Attribution records the submitting account; this is not a claim of sole authorship or translation quality.
+(translation i edit directly are not submitted in these charts)
 
 ## Contribution provenance
 
