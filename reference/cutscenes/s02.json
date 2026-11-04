@@ -7,5 +7,430 @@
   "notes": [
     "Unofficial fan translation. Game files and Japanese are supplied locally from your legally obtained ROM. See RIGHTS.md."
   ],
-  "messages": []
+  "messages": [
+    {
+      "offset": 4,
+      "source_words_sha256": "496619de4987cbbb5abc3920f1f2a6d54ee4642db52a7e95b6215b3c233ebc4f",
+      "parts": [
+        "What are you saying?\nIt's always like this."
+      ]
+    },
+    {
+      "offset": 48,
+      "source_words_sha256": "54a2044004b1c04af6d3c0fb62a3a0398d376ca9993bd61d643292aa221bc3ae",
+      "parts": [
+        "What time is it?"
+      ]
+    },
+    {
+      "offset": 68,
+      "source_words_sha256": "61ced1632a3a77a5dfa47284bb37ecb8c909afa57cfa68d6ef45f69fca5a0ce5",
+      "parts": [
+        "Whaaat?!\nIt's already seven?!"
+      ]
+    },
+    {
+      "offset": 108,
+      "source_words_sha256": "bc5224defca427569ad39af3cb1f5dbbb2c32161347f3842a183822ab3d71339",
+      "parts": [
+        "I missed the rerun of\nWataru Seken: Demons!\nDamn it!"
+      ]
+    },
+    {
+      "offset": 188,
+      "source_words_sha256": "970eda1fe6ed1db6d45f2931feef0cd42d57018246aadeed62ee4228cff9c14e",
+      "parts": [
+        "No, that's exactly\nthe problem."
+      ]
+    },
+    {
+      "offset": 220,
+      "source_words_sha256": "200a9a34fc22ea99131631ae4bd895266b85e83669f9a33901e16b964676b30d",
+      "parts": [
+        "My routine's all messed up.\nFeels awful, you know?"
+      ]
+    },
+    {
+      "offset": 268,
+      "source_words_sha256": "a669d70ee446557d49333024884f7cebca665c75be1b3815c01006d4fc5c779c",
+      "parts": [
+        "I'm a kid at heart, too."
+      ]
+    },
+    {
+      "offset": 296,
+      "source_words_sha256": "fb92ecb89a4b63c3019310e8b0fd0407cb989b760d7a853b4c5a866e22c9ef4d",
+      "parts": [
+        "So what's for dinner?"
+      ]
+    },
+    {
+      "offset": 332,
+      "source_words_sha256": "e6bca93df1e52335288fc8b8167d5d22e9c810ec510a49c6dc5a42a401206cb9",
+      "parts": [
+        "Huh? Why?"
+      ]
+    },
+    {
+      "offset": 348,
+      "source_words_sha256": "983f5fbd05574a52082882f89dcab50a90463eddf89c8e29c97263cce1cc1e80",
+      "parts": [
+        "How come?"
+      ]
+    },
+    {
+      "offset": 364,
+      "source_words_sha256": "1b0708a21928b5537607ac3a1183531daa4e56c71fe766c20d12badc58b2c7cf",
+      "parts": [
+        "They're surprisingly\nhard to find, huh?"
+      ]
+    },
+    {
+      "offset": 404,
+      "source_words_sha256": "885c2cfd6550126d4af26862a68b5c39c8b87cf893187715ced3fbad1ae7f2bc",
+      "parts": [
+        "Hope animal control\ndidn't catch him."
+      ]
+    },
+    {
+      "offset": 448,
+      "source_words_sha256": "a47998f6b44d92332158f2bc7ca6bed7192bae0469291d5fb4b3e866ae276ba1",
+      "parts": [
+        "What is?"
+      ]
+    },
+    {
+      "offset": 464,
+      "source_words_sha256": "3409f41e02eb4fc681b779b08deb89204bf30bfb59346312e44d98a05739b6b5",
+      "parts": [
+        "Don't bother.\nThey'll just yell at you."
+      ]
+    },
+    {
+      "offset": 516,
+      "source_words_sha256": "c40c7812e6d4c6ea955c4d59d24b1cf20a8d420ac87d4e59b099fefdde73abc3",
+      "parts": [
+        "No jobs lined up...\nWhat a drag."
+      ]
+    },
+    {
+      "offset": 568,
+      "source_words_sha256": "55dc5ec450fb88217497325d3ebfa256ce7155ee6b26fa268f93b24e0f4299e1",
+      "parts": [
+        "I'm not in the mood."
+      ]
+    },
+    {
+      "offset": 592,
+      "source_words_sha256": "f9ed2017f6ee339036abebcd198b19ca6acd6780eb7a1aeae217f9131d64c769",
+      "parts": [
+        "If you insist, let's go."
+      ]
+    },
+    {
+      "offset": 624,
+      "source_words_sha256": "de8c3da189a665b49dd6026be73fe790339de469494f658de983e39baa55c1d2",
+      "parts": [
+        "If it looks bad,\nwe run. Got it?"
+      ]
+    },
+    {
+      "offset": 668,
+      "source_words_sha256": "8c5ddfe0bed56add2a3082db18c4f602dc21d89dd8961d23012eecb9466b9208",
+      "parts": [
+        "Where's Sadaharu?"
+      ]
+    },
+    {
+      "offset": 692,
+      "source_words_sha256": "6532afd17e301e428d1b08b08d618973b1e7eca11012c04ad4d3af5889030a51",
+      "parts": [
+        "I'm starving..."
+      ]
+    },
+    {
+      "offset": 728,
+      "source_words_sha256": "7c379c7c3f82e7cfc210d11ec2c288f14c8af552b2c918ae14d7a839eb71b4aa",
+      "parts": [
+        "I missed Ladies' Four, too!"
+      ]
+    },
+    {
+      "offset": 760,
+      "source_words_sha256": "fb586e9121295ace1d9dfbff898753d4e4091b339b6303fc9a26d868ecd9a639",
+      "parts": [
+        "Yeah! Gin-chan's right!"
+      ]
+    },
+    {
+      "offset": 800,
+      "source_words_sha256": "fa8012dd15540e86a417cf4846ac1300d6ea305857e9847d2cedd9776099ffb9",
+      "parts": [
+        "I'm not an adult!"
+      ]
+    },
+    {
+      "offset": 824,
+      "source_words_sha256": "fdc985b4653977650c48b0f56acf8c7256b72050dea9291c500c40b400896952",
+      "parts": [
+        "Enough! Shinpachi,\nmake dinner already!"
+      ]
+    },
+    {
+      "offset": 864,
+      "source_words_sha256": "f78ec735ed0dd6c36aa0556597780d6fc43616e9c87ebb038d60e3e6a5b209fb",
+      "parts": [
+        "We were busy\nhunting Gin Tama!"
+      ]
+    },
+    {
+      "offset": 904,
+      "source_words_sha256": "d5a6de86c31c1840195219694d15d9cff91407e2e7155655ca9f5774e957399c",
+      "parts": [
+        "They went to find Gin Tama\nand still aren't back."
+      ]
+    },
+    {
+      "offset": 952,
+      "source_words_sha256": "94eb728e944514d34b39c3076f7fa978598f0974ef82371259f28a8b52171d95",
+      "parts": [
+        "Shall we go see Otose?"
+      ]
+    },
+    {
+      "offset": 988,
+      "source_words_sha256": "7461a1a1ee0894cf2691fa247e1191d5dd191c4a0c38c310de1055224342bb08",
+      "parts": [
+        "Why not ask her advice?"
+      ]
+    },
+    {
+      "offset": 1012,
+      "source_words_sha256": "b8579a0a59ca690f0f1bcc5a917a49c9b36af8c0f0a9e17ba077aab7b8a16f8f",
+      "parts": [
+        "And get her to\nbuy us dinner, too!"
+      ]
+    },
+    {
+      "offset": 1048,
+      "source_words_sha256": "90886af56ba86ef9aa67c196f58fc6289b025a73a9183779c7fe48b373ccb96b",
+      "parts": [
+        "All right, let's go!"
+      ]
+    },
+    {
+      "offset": 1072,
+      "source_words_sha256": "e7eb027741afe405ecc3c7275f85fb891c3c77c1d38831f35abb49d579a0c0cc",
+      "parts": [
+        "Otose's got a big heart,\neven if she hides it."
+      ]
+    },
+    {
+      "offset": 1120,
+      "source_words_sha256": "543893a1d0521d57a94b496c92a1d373ddffa90426d6e836a95f72d91e29ac55",
+      "parts": [
+        "Come on, hurry up!"
+      ]
+    },
+    {
+      "offset": 1148,
+      "source_words_sha256": "6ae5dfbf86202e422255164d7ddf2851f4ceed361173b04a6a20920ec72d87c6",
+      "parts": [
+        "Gin, another day\nwithout work, huh?"
+      ]
+    },
+    {
+      "offset": 1188,
+      "source_words_sha256": "716925a1b1ae57781f52013bf17b9be8ddf6335c59e285ebb0c0040bc06baed5",
+      "parts": [
+        "Seven p.m.!"
+      ]
+    },
+    {
+      "offset": 1212,
+      "source_words_sha256": "ad5a0f3f0668fa280a40c2cf2d4bef4deb09553665503e86ece992f21c581fc9",
+      "parts": [
+        "That's not the point!"
+      ]
+    },
+    {
+      "offset": 1248,
+      "source_words_sha256": "03c843e99e706ac74cf42e66117fc1497180af6f1497d94d84e1f6a7553a6c5f",
+      "parts": [
+        "You're a grown man!\nStop living for TV reruns!"
+      ]
+    },
+    {
+      "offset": 1308,
+      "source_words_sha256": "ea43b1fd96f93cb16460d33463673b1ad436aff8b4573568dd0e6bda5ded2ea0",
+      "parts": [
+        "Seriously!\nGet a grip already!"
+      ]
+    },
+    {
+      "offset": 1352,
+      "source_words_sha256": "9021df07a8553f01119033cf7f42d9621b614e24dcdf78c840873303ddf798a3",
+      "parts": [
+        "Why am I always\nin charge of meals?!"
+      ]
+    },
+    {
+      "offset": 1396,
+      "source_words_sha256": "6329f6c8ab98a67fca8507d6e26bf4d3e0735baff9b8f3a654128e3958e3e278",
+      "parts": [
+        "No dinner tonight."
+      ]
+    },
+    {
+      "offset": 1432,
+      "source_words_sha256": "94c472fd3c4caec2611938d4c376f20c737823d6202bf17f8b345b6ce9a90ad3",
+      "parts": [
+        "Why else? We're broke!"
+      ]
+    },
+    {
+      "offset": 1480,
+      "source_words_sha256": "d13da134b4191a7f1ed03459e64b6680615a6dc70ce579660b28eef4277a6ddf",
+      "parts": [
+        "Because there's no work!\nYou two never do any!"
+      ]
+    },
+    {
+      "offset": 1532,
+      "source_words_sha256": "429864a52ff36ca6cea892dfc467f1dccfd9ebd8bc93837af70e543039f9a2cb",
+      "parts": [
+        "If you've time for Gin Tama,\nyou've time to work!"
+      ]
+    },
+    {
+      "offset": 1580,
+      "source_words_sha256": "4119945dbbd644f89b9c5604722ce09b9c392307aa2756a28e424965032f4ac3",
+      "parts": [
+        "Maybe they got eaten...",
+        "The animal control guys..."
+      ]
+    },
+    {
+      "offset": 1636,
+      "source_words_sha256": "7004298a37e41ea77600f7a05beeeb72a95183589cbb2306f414fd9960c210ec",
+      "parts": [
+        "So what do we do now?"
+      ]
+    },
+    {
+      "offset": 1668,
+      "source_words_sha256": "81d4513bcfed57abb34d76125bcaa2b95fcde1c405243d1bbec41180719a51c0",
+      "parts": [
+        "About dinner!"
+      ]
+    },
+    {
+      "offset": 1684,
+      "source_words_sha256": "2a7ccdddba2e0bea75916cc15eb69fed4c0c2f98c212ba572678cb79014e2f4e",
+      "parts": [
+        "Why not ask her\nif she knows any jobs?"
+      ]
+    },
+    {
+      "offset": 1728,
+      "source_words_sha256": "dd724f7af33ade92a0dd00c59c0f1006fa58151b704d300bbbcb280dc1bbb817",
+      "parts": [
+        "Your scheme's so obvious!"
+      ]
+    },
+    {
+      "offset": 1756,
+      "source_words_sha256": "97ecf697e55bcb772dc7dabeb2b9d9fa427348a297363c4dc4def4ca3c85d860",
+      "parts": [
+        "Nobody said all that!"
+      ]
+    },
+    {
+      "offset": 1792,
+      "source_words_sha256": "2e63c850b18e7eb028c3eae01bb893a9cb7b635b3211f71a392de3b841921ab8",
+      "parts": [
+        "Whaaat?!",
+        "We're really going?!"
+      ]
+    },
+    {
+      "offset": 1828,
+      "source_words_sha256": "f0a1bbe5ef7cac07490ef79cfc95fafb305b8a40e4263a4cd2657fb7f1369e3c",
+      "parts": [
+        "H-hey! Wait for me!"
+      ]
+    },
+    {
+      "offset": 1904,
+      "source_words_sha256": "a35655c7291af8309a675fd328ffb3fa999d7f25d5d00cdd7b4343edd4da8e25",
+      "parts": [
+        "Yo! What's the racket?"
+      ]
+    },
+    {
+      "offset": 1932,
+      "source_words_sha256": "e085715c33367cc1c34b0c43d256918a4774ccc40a5f83b048d2e18d398e7a61",
+      "parts": [
+        "Cheer up, Shinpachi."
+      ]
+    },
+    {
+      "offset": 1956,
+      "source_words_sha256": "01b79090c8a51ee0f688b09c82978a93cb0dbaa1406fe3b2b3b3c35401b83154",
+      "parts": [
+        "What are you guys\ndoing here?"
+      ]
+    },
+    {
+      "offset": 1996,
+      "source_words_sha256": "5e83be55c671770c1de82b62077091fc6c1e6be46858902a7b9c28cd9a0d5ad0",
+      "parts": [
+        "Oh, I see."
+      ]
+    },
+    {
+      "offset": 2012,
+      "source_words_sha256": "b83c26f56da1720fe1371843e46b079b742f3aa56bed2dc962820dd66993e00b",
+      "parts": [
+        "We're off to meet ",
+        "a broker",
+        "."
+      ]
+    },
+    {
+      "offset": 2060,
+      "source_words_sha256": "91961fb635dca1c26d487e9a6a144cb78801783e3868fa7d09609bee4d43f047",
+      "parts": [
+        "What is it?\nWe're in a hurry."
+      ]
+    },
+    {
+      "offset": 2096,
+      "source_words_sha256": "86c97a7ee9d6b4d2e997e05ba410f0d151b40bf1dc60da2e40fa5e0e020e1110",
+      "parts": [
+        "Good for you, Shinpachi!\nBingo!"
+      ]
+    },
+    {
+      "offset": 2128,
+      "source_words_sha256": "fabec712ff02d3fa81a39a3b4e1cbff457a9367229f038cb60d750920568b968",
+      "parts": [
+        "Come on, cheer up."
+      ]
+    },
+    {
+      "offset": 2160,
+      "source_words_sha256": "dab464a900c29f6ca41425e4868cf9b23dcabe792610d48c8660d979fea54233",
+      "parts": [
+        "Being forgettable\nhas its charms, y'know."
+      ]
+    },
+    {
+      "offset": 2212,
+      "source_words_sha256": "07af81e089643d2850470b11174debaf3ddf6a947b6648372225c16593deb270",
+      "parts": [
+        "Huh? That's strange..."
+      ]
+    }
+  ]
 }
