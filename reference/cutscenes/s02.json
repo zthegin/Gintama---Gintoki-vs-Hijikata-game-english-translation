@@ -431,6 +431,78 @@
       "parts": [
         "Huh? That's strange..."
       ]
+    },
+    {
+      "offset": 2240,
+      "source_words_sha256": "d39b13cdd3f98b6a7704bf0c10e0e5b18ae85190f56627f939aa2cee42e86038",
+      "parts": [
+        "Kagura shaved your head,\nright?"
+      ]
+    },
+    {
+      "offset": 2280,
+      "source_words_sha256": "cb715fb569aa672f40ca0f1ba7de2522789210c83247479d68d02452f6bf3955",
+      "parts": [
+        "A wig?"
+      ]
+    },
+    {
+      "offset": 2296,
+      "source_words_sha256": "adb5e117062f75423bca29b467d57d8980ee455060b4018709c648a3c17d457f",
+      "parts": [
+        "Liar.\n",
+        "A wig",
+        ", right?"
+      ]
+    },
+    {
+      "offset": 2324,
+      "source_words_sha256": "064980484fdd0705b419c97a10740749baa107c1657d9d2afca8584b8e294959",
+      "parts": [
+        "That's a wig."
+      ]
+    },
+    {
+      "offset": 2344,
+      "source_words_sha256": "ec81b9e8be8a3e54ed8591c7e015932e82d8718470ffe2714f4d45c367d537f7",
+      "parts": [
+        "A real wig."
+      ]
+    },
+    {
+      "offset": 2364,
+      "source_words_sha256": "bb35019edde0daf9d83b42390c17358545ab9545350ccec08ea94cb3bbb465a3",
+      "parts": [
+        "Told you. Wig."
+      ]
+    },
+    {
+      "offset": 2384,
+      "source_words_sha256": "6245fe633d8da97bff72c2ffa46f2c6e84bab848ee5238e320f15a8bee9d661c",
+      "parts": [
+        "A Gin Tama duel?\nYou're on."
+      ]
+    },
+    {
+      "offset": 2420,
+      "source_words_sha256": "103abbd81942a5db4ba49ddb55c7fc243013c719f781579f66e92780e71454e8",
+      "parts": [
+        "We're in a hurry.\nLet's make this quick!"
+      ]
+    },
+    {
+      "offset": 2468,
+      "source_words_sha256": "769d7bf4fd9a9ee99d7560cb06fc1d95ccb96453656a46673750674fc7d6408f",
+      "parts": [
+        "Shut up!\nWe're passing either way!"
+      ]
+    },
+    {
+      "offset": 2512,
+      "source_words_sha256": "4de884ae1f2ce642217a10ee1413390a368c1f2a7f5307153a4cc7b7a672a411",
+      "parts": [
+        "Are you idiots?!"
+      ]
     }
   ]
 }

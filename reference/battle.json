@@ -4944,6 +4944,13 @@
           ]
         },
         {
+          "offset": 16,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
+          ]
+        },
+        {
           "offset": 44,
           "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
           "parts": [
@@ -5238,10 +5245,73 @@
           ]
         },
         {
+          "offset": 1492,
+          "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+          "parts": [
+            "Take this!"
+          ]
+        },
+        {
+          "offset": 1504,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
+          ]
+        },
+        {
+          "offset": 1532,
+          "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+          "parts": [
+            "Get lost!"
+          ]
+        },
+        {
+          "offset": 1548,
+          "source_words_sha256": "b1bedff01d420eac5c715266cbb8fe0078a19eefca0c47b58f9b3666b44d2a0c",
+          "parts": [
+            "Throwing rocks at a space pirate?\nMocking me? Or just stupid?"
+          ]
+        },
+        {
+          "offset": 1656,
+          "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+          "parts": [
+            "Take this!"
+          ]
+        },
+        {
+          "offset": 1668,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
+          ]
+        },
+        {
+          "offset": 1696,
+          "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+          "parts": [
+            "Get lost!"
+          ]
+        },
+        {
           "offset": 1712,
           "source_words_sha256": "e52eb646b4567d90d41375b7fa8ce2f2da42bc6ec8d9701c0451cdd2af924e04",
           "parts": [
             "You...\nThere's a hole in my clothes!\nHow will you pay for that?!"
+          ]
+        },
+        {
+          "offset": 1836,
+          "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+          "parts": [
+            "Take this!"
+          ]
+        },
+        {
+          "offset": 1848,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
           ]
         },
         {
