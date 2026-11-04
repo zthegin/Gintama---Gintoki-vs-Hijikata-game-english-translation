@@ -217,6 +217,8 @@ def render(ledger: dict, issues: dict | None = None) -> str:
         "",
         "PR counts come from verified base and head revisions. Accepted issue counts come from the verified issue creator and imported record, not the maintainer who applies it. Import PRs are excluded from PR credit so the same import is not counted twice. Unchanged English, notes, metadata, layout-only changes and deletions do not count. Attribution records the submitting account; this is not a claim of sole authorship or translation quality.",
         "",
+        "Direct maintainer edits are not included in these contribution totals.",
+        "",
         "## Contribution provenance",
         "",
         "| Contribution | GitHub contributor | File | Record | Change | Words | Characters |",
