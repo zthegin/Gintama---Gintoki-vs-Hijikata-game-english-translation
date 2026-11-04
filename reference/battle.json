@@ -5007,10 +5007,101 @@
           ]
         },
         {
+          "offset": 240,
+          "source_words_sha256": "96d459c093f585e90336ad9f07a146f7ea74230e32f930e288122b3c3e08738c",
+          "parts": [
+            "You'll dirty my clothes!"
+          ]
+        },
+        {
+          "offset": 296,
+          "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+          "parts": [
+            "You scum!"
+          ]
+        },
+        {
+          "offset": 312,
+          "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+          "parts": [
+            "Don't you move!!"
+          ]
+        },
+        {
+          "offset": 336,
+          "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+          "parts": [
+            "Raaaah!!"
+          ]
+        },
+        {
+          "offset": 356,
+          "source_words_sha256": "cae301325ed344b3c0e347cfdf6b0c64be8101527f71b5e83df976b959b9a580",
+          "parts": [
+            "Ngh!?"
+          ]
+        },
+        {
+          "offset": 368,
+          "source_words_sha256": "2a007be48db83ea1c7500d0dedf65a7246e8fed59362010d1c5aeb26877c71ef",
+          "parts": [
+            "You bastard!?"
+          ]
+        },
+        {
+          "offset": 384,
+          "source_words_sha256": "d2cfd20d6a8e69fa1ba3c376371e7ed9e0cea2db3f0a163ac2bf37c80bf75646",
+          "parts": [
+            "Gah!!"
+          ]
+        },
+        {
+          "offset": 432,
+          "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+          "parts": [
+            "Take this!"
+          ]
+        },
+        {
+          "offset": 444,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
+          ]
+        },
+        {
+          "offset": 472,
+          "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+          "parts": [
+            "Get lost!"
+          ]
+        },
+        {
           "offset": 488,
           "source_words_sha256": "3b4ebffc176b7256c625d2d6ab572ae1d4679c5a8460bf45bc6d027096262e8d",
           "parts": [
             "That squeaky hammer...\nYou wash it, right?!"
+          ]
+        },
+        {
+          "offset": 580,
+          "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+          "parts": [
+            "You scum!"
+          ]
+        },
+        {
+          "offset": 596,
+          "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+          "parts": [
+            "Don't you move!!"
+          ]
+        },
+        {
+          "offset": 620,
+          "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+          "parts": [
+            "Raaaah!!"
           ]
         },
         {
@@ -5046,6 +5137,90 @@
           "source_words_sha256": "6f3d9a04ebe83ea473bacc16c34180eab0d3811c8155039500ff445942ada570",
           "parts": [
             "I don't have a Chain\nof Fate yet...\nTry someone else..."
+          ]
+        },
+        {
+          "offset": 1040,
+          "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+          "parts": [
+            "Take this!"
+          ]
+        },
+        {
+          "offset": 1052,
+          "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+          "parts": [
+            "You're an eyesore..."
+          ]
+        },
+        {
+          "offset": 1080,
+          "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+          "parts": [
+            "Get lost!"
+          ]
+        },
+        {
+          "offset": 1096,
+          "source_words_sha256": "cae301325ed344b3c0e347cfdf6b0c64be8101527f71b5e83df976b959b9a580",
+          "parts": [
+            "Ngh!?"
+          ]
+        },
+        {
+          "offset": 1108,
+          "source_words_sha256": "2a007be48db83ea1c7500d0dedf65a7246e8fed59362010d1c5aeb26877c71ef",
+          "parts": [
+            "You bastard!?"
+          ]
+        },
+        {
+          "offset": 1124,
+          "source_words_sha256": "d2cfd20d6a8e69fa1ba3c376371e7ed9e0cea2db3f0a163ac2bf37c80bf75646",
+          "parts": [
+            "Gah!!"
+          ]
+        },
+        {
+          "offset": 1172,
+          "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+          "parts": [
+            "You scum!"
+          ]
+        },
+        {
+          "offset": 1188,
+          "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+          "parts": [
+            "Don't you move!!"
+          ]
+        },
+        {
+          "offset": 1212,
+          "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+          "parts": [
+            "Raaaah!!"
+          ]
+        },
+        {
+          "offset": 1232,
+          "source_words_sha256": "82e9017a65feff92d407a264338b40b1b8d2d2a47487e3059bd808baea33fe3e",
+          "parts": [
+            "That hurts, damn it!!"
+          ]
+        },
+        {
+          "offset": 1252,
+          "source_words_sha256": "390179971e28780ced9342bedc5b12cfffd67bce6f7df61a3b5038f6d8960ece",
+          "parts": [
+            "You dare defy me!?"
+          ]
+        },
+        {
+          "offset": 1276,
+          "source_words_sha256": "96d459c093f585e90336ad9f07a146f7ea74230e32f930e288122b3c3e08738c",
+          "parts": [
+            "You'll dirty my clothes!"
           ]
         },
         {
