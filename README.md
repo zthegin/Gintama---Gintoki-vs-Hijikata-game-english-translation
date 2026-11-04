@@ -90,14 +90,14 @@ These counts measure text records, not hours of gameplay.
 | --- | ---: | ---: |
 | Field dialogue | 22,480 / 22,480 entries | 100.00% |
 | Field batches | 114 / 114 complete | 100.00% |
-| Battle dialogue | 2,197 / 142,242 entries | 1.54% |
-| Cutscene dialogue | 556 / 4,064 editable entries | 13.68% |
+| Battle dialogue | 2,207 / 142,242 entries | 1.55% |
+| Cutscene dialogue | 4,064 / 4,064 editable entries | 100.00% |
 | Graphical variants | 650 | Total not catalogued |
 | Native UI text | 125 slots | Total not catalogued |
 
 All 22,480 currently indexed field records have English text across 114 completed numbered batches. This includes dialogue, short menu labels and a few developer placeholder messages. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
 
-The cutscene editor covers all five main scripts (`s01`–`s05`). Load your original ROM to reveal their untranslated entries. The `sub` script has no supported dialogue records. All 90 battle scripts are indexed; choose a script in the Battle editor to see its supported records. See [the editor guide](docs/BROWSER_EDITOR.md).
+All supported cutscene messages in the five main scripts (`s01`–`s05`) now have English text. The index also contains 48 unsupported, read-only records that remain unchanged. Fixed message slots require shortened wording in places; full in-game proofreading is still needed. Load your original ROM in the cutscene editor to review or suggest improvements. The `sub` script has no supported dialogue records. All 90 battle scripts are indexed; choose a script in the Battle editor to see its supported records. See [the editor guide](docs/BROWSER_EDITOR.md).
 
 Indexed totals include records the current writers cannot edit. Repeated records and graphical variants are counted separately. These figures are not a percentage of the whole game. New text passes offline build checks; complete in-game playtesting is still pending.
 
