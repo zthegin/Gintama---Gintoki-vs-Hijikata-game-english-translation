@@ -16,6 +16,406 @@
         "source_words_sha256": "e62496e6493be08d3cd902765df8837be9f529399bfdd384c93a3ae8d6fb3894",
         "english_sha256": "7d785d8d07d92b4e4add43e739c78e02d8712d8bcedb3d6ae9fee002b6ba2d36"
       }
+    },
+    {
+      "number": 10,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:54:21Z",
+      "body_sha256": "a2c15502bf1aead0b2b820c27277777c101cbfd581ad4f4a1b4497df44371aa9",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000000f0",
+        "kind": "new",
+        "words": 4,
+        "characters": 21,
+        "source_words_sha256": "96d459c093f585e90336ad9f07a146f7ea74230e32f930e288122b3c3e08738c",
+        "english_sha256": "e45e551980e6fcc925fc0be401839f89f47b02a438d77a7be1aef4f868cd21ac"
+      }
+    },
+    {
+      "number": 11,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:11:37Z",
+      "body_sha256": "056528e09787fcdde3a8dc1181ddc6157d0bf9693858ddc3ef4161e65617fdf5",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000128",
+        "kind": "new",
+        "words": 2,
+        "characters": 8,
+        "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+        "english_sha256": "589f804eae747383b74409852107075abfbcfbcd325d135b1dabe6488749991e"
+      }
+    },
+    {
+      "number": 12,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:12:01Z",
+      "body_sha256": "0969bf2005974e4c46a822a9347d2c642374f1a0e814c9efa46e2ae89e173161",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000138",
+        "kind": "new",
+        "words": 3,
+        "characters": 14,
+        "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+        "english_sha256": "61201664678547a6f7f3466af73617c9f827806a6e2f03eb37716df779fa7865"
+      }
+    },
+    {
+      "number": 13,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:12:56Z",
+      "body_sha256": "b535f7a7ef8486b892b01b107aa108868867b09c6ddd148eba9162af11f9e5db",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000150",
+        "kind": "new",
+        "words": 1,
+        "characters": 8,
+        "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+        "english_sha256": "d137eaa6adf8abbb2679ce847b90478f7452cbb58199bb09dae70274d3b6ca29"
+      }
+    },
+    {
+      "number": 14,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:13:44Z",
+      "body_sha256": "351be92e9480714430127b2fccbcbc4cd25a32cac0780f98a5f815e96d6f8fbc",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000164",
+        "kind": "new",
+        "words": 1,
+        "characters": 5,
+        "source_words_sha256": "cae301325ed344b3c0e347cfdf6b0c64be8101527f71b5e83df976b959b9a580",
+        "english_sha256": "3ccbff20514f2a238df5ae0b13861f86e724835218c32dd1b93de12bc5eabffd"
+      }
+    },
+    {
+      "number": 15,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:14:06Z",
+      "body_sha256": "5e7cdd76685d9c94e07967be3d1ebb30908d5a68a4bbba8cf31069086a203655",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000170",
+        "kind": "new",
+        "words": 2,
+        "characters": 12,
+        "source_words_sha256": "2a007be48db83ea1c7500d0dedf65a7246e8fed59362010d1c5aeb26877c71ef",
+        "english_sha256": "c9fd6972969472d43bc82915cec406560b224ae7603a1903d4aa3eca56ab204e"
+      }
+    },
+    {
+      "number": 16,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:14:31Z",
+      "body_sha256": "7ed4d668d93fee01d5d19e15c1b6f714fd85b25558eb18c5f9db174d96378600",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000180",
+        "kind": "new",
+        "words": 1,
+        "characters": 5,
+        "source_words_sha256": "d2cfd20d6a8e69fa1ba3c376371e7ed9e0cea2db3f0a163ac2bf37c80bf75646",
+        "english_sha256": "c7bdbb7cfab5961509e50315bf8a83d0964a55bb5a465f74354af9d039f6f0c8"
+      }
+    },
+    {
+      "number": 17,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:14:49Z",
+      "body_sha256": "b83b9fd2d5d6bdce9bfadd2d6eaa35801a9e7e3e4e5c3e520dce61344f981062",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000001b0",
+        "kind": "new",
+        "words": 2,
+        "characters": 9,
+        "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+        "english_sha256": "a4a5765c70daf3001c6ba4533f4db2611f854c4f5761baf57c62c79e58322a50"
+      }
+    },
+    {
+      "number": 18,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:15:26Z",
+      "body_sha256": "e0eb5ef5e9412576614007184f871b22d8c75988075dc5137ee530d8bad8d08c",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000001bc",
+        "kind": "new",
+        "words": 3,
+        "characters": 18,
+        "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+        "english_sha256": "02806f00583bbc31bc0adcc9e7f366deb69e570fad64ab27a8ed8aa4069830bf"
+      }
+    },
+    {
+      "number": 19,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:52:30Z",
+      "body_sha256": "1421c72f0313dd4452fb3e3af1f0df0d1045082e7d7948fa1b43f6f4f23852ea",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000001d8",
+        "kind": "new",
+        "words": 2,
+        "characters": 8,
+        "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+        "english_sha256": "c7fd6349f32ec330337d335cf25a2afc146938ff89d55cfe628d71d7bd61ae26"
+      }
+    },
+    {
+      "number": 20,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:18:08Z",
+      "body_sha256": "49a5f6de2c8a25f206092461152ac67adc27366a1cb59a217ce9322f20e52bdb",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000244",
+        "kind": "new",
+        "words": 2,
+        "characters": 8,
+        "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+        "english_sha256": "589f804eae747383b74409852107075abfbcfbcd325d135b1dabe6488749991e"
+      }
+    },
+    {
+      "number": 21,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:18:38Z",
+      "body_sha256": "b11f132f6cc4fd1fce6e8d2a9c5b076373af85c59726a0237863e6c0508164f3",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000254",
+        "kind": "new",
+        "words": 3,
+        "characters": 14,
+        "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+        "english_sha256": "61201664678547a6f7f3466af73617c9f827806a6e2f03eb37716df779fa7865"
+      }
+    },
+    {
+      "number": 22,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:19:15Z",
+      "body_sha256": "11a1e401d723cca46f157086fb56eb53280865ecf69ce1d9da342251d6381ff9",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:0000026c",
+        "kind": "new",
+        "words": 1,
+        "characters": 8,
+        "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+        "english_sha256": "d137eaa6adf8abbb2679ce847b90478f7452cbb58199bb09dae70274d3b6ca29"
+      }
+    },
+    {
+      "number": 23,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:26:36Z",
+      "body_sha256": "89e87eb06eedec9f8ce25599fa22d69c80a5015c5196c970b83671a1e9bfc978",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000410",
+        "kind": "new",
+        "words": 2,
+        "characters": 9,
+        "source_words_sha256": "0fb97bc81e5713414a1985a81cad88229d8c62b432d4fc7e1242c212b5f07256",
+        "english_sha256": "a4a5765c70daf3001c6ba4533f4db2611f854c4f5761baf57c62c79e58322a50"
+      }
+    },
+    {
+      "number": 24,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:27:20Z",
+      "body_sha256": "0b33412df0aa5e22d26ae0f4926fa2afbf4dc76acab78e7770ad9e801d46ed0d",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:0000041c",
+        "kind": "new",
+        "words": 3,
+        "characters": 18,
+        "source_words_sha256": "796f213aabf579f36d40e488456f20b3d945a3e61dc42d7e906706adb1277c65",
+        "english_sha256": "02806f00583bbc31bc0adcc9e7f366deb69e570fad64ab27a8ed8aa4069830bf"
+      }
+    },
+    {
+      "number": 25,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:28:22Z",
+      "body_sha256": "311e586e7d1c3444ee3cfc292928ff6e3f0c0fef457f97868e0a16ac69485eb7",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000438",
+        "kind": "new",
+        "words": 2,
+        "characters": 8,
+        "source_words_sha256": "4c9ffcdcf2a18119e0da7b6115018ac8afc81307ce01e79d5f379d0d31d6ec13",
+        "english_sha256": "c7fd6349f32ec330337d335cf25a2afc146938ff89d55cfe628d71d7bd61ae26"
+      }
+    },
+    {
+      "number": 26,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:28:45Z",
+      "body_sha256": "9740fc04220ec26d5fbb70921f2b109aca8ad08614fd130647e0f2b5d2b6df32",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000448",
+        "kind": "new",
+        "words": 1,
+        "characters": 5,
+        "source_words_sha256": "cae301325ed344b3c0e347cfdf6b0c64be8101527f71b5e83df976b959b9a580",
+        "english_sha256": "3ccbff20514f2a238df5ae0b13861f86e724835218c32dd1b93de12bc5eabffd"
+      }
+    },
+    {
+      "number": 27,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:29:03Z",
+      "body_sha256": "bb42702b0b573ee7f7ed9cc8367bb1d1404ed380dfc9d3dc967cdc9243bd6d87",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000454",
+        "kind": "new",
+        "words": 2,
+        "characters": 12,
+        "source_words_sha256": "2a007be48db83ea1c7500d0dedf65a7246e8fed59362010d1c5aeb26877c71ef",
+        "english_sha256": "c9fd6972969472d43bc82915cec406560b224ae7603a1903d4aa3eca56ab204e"
+      }
+    },
+    {
+      "number": 28,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:29:21Z",
+      "body_sha256": "6aa0255bb118e6299399cd39f6855e3b4a34f66e4567608c187d33a97920d40b",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000464",
+        "kind": "new",
+        "words": 1,
+        "characters": 5,
+        "source_words_sha256": "d2cfd20d6a8e69fa1ba3c376371e7ed9e0cea2db3f0a163ac2bf37c80bf75646",
+        "english_sha256": "c7bdbb7cfab5961509e50315bf8a83d0964a55bb5a465f74354af9d039f6f0c8"
+      }
+    },
+    {
+      "number": 29,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:29:42Z",
+      "body_sha256": "446ea6aba5e2841306fd4db9f5f760792aa58011ea4fb4cd9b1bda5cef04d955",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:00000494",
+        "kind": "new",
+        "words": 2,
+        "characters": 8,
+        "source_words_sha256": "ce6b9191ab2b1bf01db45f5ca974622a086d249c278b7e7bae60db93d511bcd3",
+        "english_sha256": "589f804eae747383b74409852107075abfbcfbcd325d135b1dabe6488749991e"
+      }
+    },
+    {
+      "number": 30,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:30:18Z",
+      "body_sha256": "6c65e497b98fdd642e26581ddfd352ba1aff6224646ade60cc5904e2fd4e57d4",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000004a4",
+        "kind": "new",
+        "words": 3,
+        "characters": 14,
+        "source_words_sha256": "29f8b982bcee2eb76fa6d6f299a0955af8f9dac317f666c049c99df1286197bf",
+        "english_sha256": "61201664678547a6f7f3466af73617c9f827806a6e2f03eb37716df779fa7865"
+      }
+    },
+    {
+      "number": 31,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:30:34Z",
+      "body_sha256": "18036426ab5d0772b3452ddf18cfa1c932547f0af4d3ddd75baed17c9c16eca3",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000004bc",
+        "kind": "new",
+        "words": 1,
+        "characters": 8,
+        "source_words_sha256": "3b37813c9255f9d422a3f3b1aa85ddf01a7dd2ddee196209a17f8508e0a8ebb2",
+        "english_sha256": "d137eaa6adf8abbb2679ce847b90478f7452cbb58199bb09dae70274d3b6ca29"
+      }
+    },
+    {
+      "number": 32,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:30:56Z",
+      "body_sha256": "91d47b00828aa5ac8431dd29543222de72edf5d3be3ed29f1ac95cb608365edf",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000004d0",
+        "kind": "new",
+        "words": 4,
+        "characters": 18,
+        "source_words_sha256": "82e9017a65feff92d407a264338b40b1b8d2d2a47487e3059bd808baea33fe3e",
+        "english_sha256": "facd150c6f499e1bac8dc054517313e101b63c15830a5b49f460e8c023389eb8"
+      }
+    },
+    {
+      "number": 33,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:31:37Z",
+      "body_sha256": "9f967eabd4f80303c3def60d7e5132148142fe30e0d3a0c4f2b2362d1132d358",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000004e4",
+        "kind": "new",
+        "words": 4,
+        "characters": 15,
+        "source_words_sha256": "390179971e28780ced9342bedc5b12cfffd67bce6f7df61a3b5038f6d8960ece",
+        "english_sha256": "7455347334fac329129e9126b1185383c79c223813d827de29754d510f6e8104"
+      }
+    },
+    {
+      "number": 34,
+      "login": "lost2k-pischikov",
+      "user_id": 240907293,
+      "updated_at": "2026-11-04T07:58:02Z",
+      "body_sha256": "d061e4be8fc186b3dac23cfed7bceb751109db3ab69792fc56cc03b14d0fbde5",
+      "record": {
+        "path": "reference/battle.json",
+        "id": "battle:battle/script/message/daraku.msb:000004fc",
+        "kind": "new",
+        "words": 4,
+        "characters": 21,
+        "source_words_sha256": "96d459c093f585e90336ad9f07a146f7ea74230e32f930e288122b3c3e08738c",
+        "english_sha256": "e45e551980e6fcc925fc0be401839f89f47b02a438d77a7be1aef4f868cd21ac"
+      }
     }
   ]
 }
