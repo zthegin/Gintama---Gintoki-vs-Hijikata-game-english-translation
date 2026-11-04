@@ -90,7 +90,7 @@ These counts measure text records, not hours of gameplay.
 | --- | ---: | ---: |
 | Field dialogue | 22,480 / 22,480 entries | 100.00% |
 | Field batches | 114 / 114 complete | 100.00% |
-| Battle dialogue | 2,207 / 142,242 entries | 1.55% |
+| Battle dialogue | 5,702 / 142,242 entries | 4.01% |
 | Cutscene dialogue | 4,064 / 4,064 editable entries | 100.00% |
 | Graphical variants | 650 | Total not catalogued |
 | Native UI text | 125 slots | Total not catalogued |
