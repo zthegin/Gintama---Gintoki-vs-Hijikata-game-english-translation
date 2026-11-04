@@ -19,7 +19,7 @@
       "offset": 48,
       "source_words_sha256": "54a2044004b1c04af6d3c0fb62a3a0398d376ca9993bd61d643292aa221bc3ae",
       "parts": [
-        "What time is it now?"
+        "What time is it?"
       ]
     },
     {
@@ -138,7 +138,7 @@
       "offset": 668,
       "source_words_sha256": "8c5ddfe0bed56add2a3082db18c4f602dc21d89dd8961d23012eecb9466b9208",
       "parts": [
-        "Hey, where's Sadaharu?"
+        "Where's Sadaharu?"
       ]
     },
     {
@@ -243,7 +243,7 @@
       "offset": 1188,
       "source_words_sha256": "716925a1b1ae57781f52013bf17b9be8ddf6335c59e285ebb0c0040bc06baed5",
       "parts": [
-        "It's already seven at night!"
+        "Seven p.m.!"
       ]
     },
     {
@@ -278,7 +278,7 @@
       "offset": 1396,
       "source_words_sha256": "6329f6c8ab98a67fca8507d6e26bf4d3e0735baff9b8f3a654128e3958e3e278",
       "parts": [
-        "Anyway, there's\nno dinner tonight."
+        "No dinner tonight."
       ]
     },
     {
