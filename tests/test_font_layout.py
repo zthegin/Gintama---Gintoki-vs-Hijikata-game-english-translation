@@ -142,3 +142,21 @@ class FontLayoutTests(unittest.TestCase):
         bad = {**row, "source_sha256": images.sha(controls)}
         with self.assertRaisesRegex(ValueError, "controls"):
             cutscene.prepare_labels({path: data[:16] + controls + data[32:]}, [bad], self.fonts, {}, {})
+
+    def test_label_header_boundary_depends_on_script(self):
+        raw = struct.pack("<8H", *([2] * 8))
+        for script, header_size in (("s01", 16), ("s02", 4)):
+            with self.subTest(script=script):
+                path = f"adventure/script/{script}.msb"
+                data = b"scr\x1a" + bytes(header_size - 4) + raw + bytes(2)
+                row = {"id": "label", "script": path, "offset": header_size,
+                       "word_capacity": 8, "source_sha256": images.sha(raw),
+                       "english": "Hello"}
+                patches, _ = cutscene.prepare_labels(
+                    {path: data}, [row], self.fonts, {}, {})
+                self.assertEqual(patches[0][1:3], (header_size, header_size + 16))
+                for offset in (0, header_size - 2, header_size + 1):
+                    with self.subTest(offset=offset), self.assertRaisesRegex(
+                            ValueError, "Invalid label span"):
+                        cutscene.prepare_labels(
+                            {path: data}, [{**row, "offset": offset}], self.fonts, {}, {})
