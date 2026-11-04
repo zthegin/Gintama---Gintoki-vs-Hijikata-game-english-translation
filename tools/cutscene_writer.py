@@ -365,7 +365,7 @@ def prepare_labels(scripts, labels, fonts, latin, occupied):
         path, offset, capacity = row["script"], row["offset"], row["word_capacity"]
         require(path in scripts, "Unsupported label script")
         data = scripts[path]
-        require(type(offset) is int and offset >= (16 if scene["script"] == "adventure/script/s01.msb" else 4) and offset % 2 == 0
+        require(type(offset) is int and offset >= (16 if path == "adventure/script/s01.msb" else 4) and offset % 2 == 0
                 and type(capacity) is int and 0 < capacity <= 256,
                 "Invalid label span")
         end = offset + capacity * 2
