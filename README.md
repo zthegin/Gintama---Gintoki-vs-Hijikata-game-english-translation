@@ -1,17 +1,17 @@
 # Unofficial English translation of Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!
 
-This is a work-in-progress English fan translation of the Nintendo DS game. Use your own legally obtained ROM to build a partially translated copy, or help with a line in the browser editor. The project is unofficial and shared for fans and educational use.
+An unofficial English fan translation for Nintendo DS, shared for fans and educational use. Build a partially translated copy with your own legally obtained ROM, or help translate and proofread in the browser editor.
 
 I do not own the original game, Gintama, or their characters, story, artwork, music, text or trademarks. Those rights belong to their respective holders. No affiliation, endorsement or permission is implied. English adaptations are included; see [rights and project limits](RIGHTS.md).
 
-## Choose what you want to do
+## Start here
 
 - [I just want to play](#i-just-want-to-play)
 - [I want to help translate (no code)](#i-want-to-help-translate)
 - [I want to improve the tools](#i-want-to-improve-the-tools)
 - [Check progress](#current-progress)
 
-You do not need to write code to play or help translate. **Suggest on GitHub is the easiest way to contribute.**
+No coding is needed to play or contribute a translation. Start with **Suggest on GitHub** if you want to help with one line.
 
 ### I just want to play
 
@@ -56,17 +56,17 @@ The assistant must get the ROM path from you. Grant access to the project folder
 
 **No coding is required.**
 
-Start with one line. You only need the browser editor, your legally obtained ROM and a GitHub account. No Python, Git, fork or file upload is needed.
+You need your legally obtained ROM and a GitHub account. Open the editor in your browser; there is no Python setup, Git checkout or fork to create.
 
 1. Open the [dialogue editor](https://zthegin.github.io/) and select your own legally obtained ROM. It stays on your computer.
 2. Choose a batch and a line, then write the English. Keep the page count shown above the text box; type `\f` for a page break.
 3. Click **Suggest on GitHub**, sign in if needed, check the prepared suggestion and submit the issue.
 
-That submits one record for review. I check the wording and local build before accepting it; submitting an issue does not publish the edit. Accepted suggestions are credited to the issue's GitHub account, with a link to the contribution.
+The button opens a GitHub issue with your suggestion filled in. Submit it there so I can review the wording and check a local build. Accepted suggestions are credited to your GitHub account, with a link to the issue.
 
 Maintainers can follow [Review and accept a website suggestion](docs/REVIEW_SUGGESTIONS.md) to take an issue through review, credit and publication.
 
-Use [Cutscenes](https://zthegin.github.io/cutscenes.html) for scripts `s01`–`s05`, [Battle](https://zthegin.github.io/battle.html) for any of the 90 battle scripts, or [Images](https://zthegin.github.io/graphics.html) for name labels. Choose a script and load your original ROM to reveal its untranslated entries. These pages also use **Suggest on GitHub**. To send several field lines or image labels together, use the [batch walkthrough](docs/START_HERE.md#submit-a-batch-or-image-label).
+Use [Cutscenes](https://zthegin.github.io/cutscenes.html) for scripts `s01`–`s05`, [Battle](https://zthegin.github.io/battle.html) for any of the 90 battle scripts, or [Images](https://zthegin.github.io/graphics.html) for name labels. Choose a script and load your original ROM to see the source text, review existing English or translate an unfinished entry. These pages also use **Suggest on GitHub**. To send several field lines or image labels together, use the [batch walkthrough](docs/START_HERE.md#submit-a-batch-or-image-label).
 
 Download from `main` to play. Send translation pull requests to `staging`. Two approvals on the current version put a valid translation PR in the reviewed queue; I still check and merge it myself. See the [contribution rules](CONTRIBUTING.md) for details and credits.
 
@@ -84,7 +84,7 @@ On macOS/Linux, use `.venv/bin/python` in the same command. Choose a new output 
 
 ## Current progress
 
-These counts measure text records, not hours of gameplay.
+Counts below match the bundled translation files. A filled record means English is present; it does not mean the line has been fully proofread in-game.
 
 | Category | Translated / indexed | Progress |
 | --- | ---: | ---: |
@@ -95,13 +95,15 @@ These counts measure text records, not hours of gameplay.
 | Graphical variants | 650 | Total not catalogued |
 | Native UI text | 125 slots | Total not catalogued |
 
-All 22,480 currently indexed field records have English text across 114 completed numbered batches. This includes dialogue, short menu labels and a few developer placeholder messages. The former research queue is resolved; see [field batch coverage](docs/FIELD_BATCHES.md) and [verification details](docs/FIELD_RESEARCH.md). Additional game strings may still need indexing.
+All 114 numbered field batches are filled. The 22,480 field records include dialogue, short menu labels and a few developer placeholders. See [field coverage](docs/FIELD_BATCHES.md) and the [research notes](docs/FIELD_RESEARCH.md).
 
-All supported cutscene messages in the five main scripts (`s01`–`s05`) now have English text. The index also contains 48 unsupported, read-only records that remain unchanged. Fixed message slots require shortened wording in places; full in-game proofreading is still needed. Load your original ROM in the cutscene editor to review or suggest improvements. The `sub` script has no supported dialogue records. All 90 battle scripts are indexed; choose a script in the Battle editor to see its supported records. See [the editor guide](docs/BROWSER_EDITOR.md).
+All 4,064 supported cutscene records across `s01`–`s05` have English text. Another 48 records are read-only and remain unchanged; the `sub` script has no supported dialogue. Short message slots sometimes require abbreviated wording, so in-game proofreading still matters.
 
-Indexed totals include records the current writers cannot edit. Repeated records and graphical variants are counted separately. These figures are not a percentage of the whole game. New text passes offline build checks; complete in-game playtesting is still pending.
+Battle translation is ongoing. All 90 scripts are indexed in the [Battle editor](https://zthegin.github.io/battle.html), where you can work on unfinished lines or suggest corrections. The total counts repeated variants separately, so it is not 142,242 unique sentences.
 
-## Further docs
+These are percentages of the indexed records, not of the whole game. Some strings may still need indexing, and complete in-game playtesting is pending. The graphics and native UI totals have no complete inventory to compare against.
+
+## More help
 
 - [Installation and troubleshooting](docs/APPLY_PATCH.md)
 - [First contribution walkthrough](docs/START_HERE.md)
