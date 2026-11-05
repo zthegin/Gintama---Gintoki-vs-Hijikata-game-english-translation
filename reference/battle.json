@@ -4500,6 +4500,83 @@
           ]
         },
         {
+          "offset": 19408,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19836,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20016,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20172,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20620,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20740,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20956,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21756,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21972,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22184,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22340,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 45204,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -5065,6 +5142,55 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 18156,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 18424,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18620,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19048,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 19184,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19940,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20212,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -5696,6 +5822,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 19504,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19936,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20128,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20308,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20772,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20896,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21108,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21808,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22008,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22212,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22352,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         }
       ]
@@ -6330,6 +6533,55 @@
           ]
         },
         {
+          "offset": 19448,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19776,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19996,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20460,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20604,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21356,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21636,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 39272,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -6821,10 +7073,59 @@
           ]
         },
         {
+          "offset": 12040,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 12328,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 12460,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 12576,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
           "offset": 12684,
           "source_words_sha256": "785f7a2e7a44b5d540965c8c1bdc8efcfa72d54b47d55a59db6edf056e75c428",
           "parts": [
             "Right.\nNo need for brakes either."
+          ]
+        },
+        {
+          "offset": 12904,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 12984,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 13128,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -6835,6 +7136,20 @@
           ]
         },
         {
+          "offset": 13740,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 13888,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
           "offset": 14016,
           "source_words_sha256": "1480b55bb1df42352c66346354734fd6b872c525e8086ba66b746794e4c416a5",
           "parts": [
@@ -6842,10 +7157,24 @@
           ]
         },
         {
+          "offset": 14064,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 14140,
           "source_words_sha256": "e4002b866a4890aade7d20c3cc614d1451127ba9b3c7b09339b9d549065fdbee",
           "parts": [
             "......\nWho are you talking to?"
+          ]
+        },
+        {
+          "offset": 14196,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -7620,6 +7949,13 @@
           ]
         },
         {
+          "offset": 17636,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
           "offset": 17672,
           "source_words_sha256": "7ec6cae969f227789bf0a102b2be1b76fff7682b51807e2bee5a837bec8a5c23",
           "parts": [
@@ -7627,10 +7963,80 @@
           ]
         },
         {
+          "offset": 17996,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18156,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18316,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18712,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18824,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18972,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 19336,
           "source_words_sha256": "38b6ed77a62aca63d53db89896df9bbc24728ba086f4e384bf0aefc7d174c15a",
           "parts": [
             "Th-this guy...\nHe's not just talk.\nThere's something fearsome...!"
+          ]
+        },
+        {
+          "offset": 19708,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19888,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20080,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 20224,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -8790,6 +9196,34 @@
           ]
         },
         {
+          "offset": 17384,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 17744,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17904,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18064,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
           "offset": 18148,
           "source_words_sha256": "908b2ea0b1e50c90165f24d7bc95952f11118d348af1e9da3571f9e2a3f68572",
           "parts": [
@@ -8797,10 +9231,59 @@
           ]
         },
         {
+          "offset": 18460,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18572,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18720,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 19292,
           "source_words_sha256": "ecabbdef9ca24c2f1ccde9018709deb7fd382777787cdc68bfc5bb1303b86c3a",
           "parts": [
             "No bite to it.\nOctopus is\nfar more satisfying."
+          ]
+        },
+        {
+          "offset": 19456,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19636,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19828,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19972,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -9960,10 +10443,52 @@
           ]
         },
         {
+          "offset": 17432,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17620,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 17772,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
           "offset": 17952,
           "source_words_sha256": "f8ff80e060fb9abd70f2ee06aba94f43ff4aa1b5b29ae41cd5c39965d9068d19",
           "parts": [
             "Half measures are no good.\nA man needs no brakes."
+          ]
+        },
+        {
+          "offset": 18168,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18280,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18428,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -9978,6 +10503,34 @@
           "source_words_sha256": "65eb29d9542a4f73e121397ff1826f6f469e9b59d2b69938e5d9b378324f01eb",
           "parts": [
             "Wrong time to act scary?"
+          ]
+        },
+        {
+          "offset": 19148,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19328,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19520,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19664,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -11116,10 +11669,38 @@
           ]
         },
         {
+          "offset": 17392,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
           "offset": 17428,
           "source_words_sha256": "8d2057cdc50b4901370bb02cb819dcf0200408d9b2bf86dc85f08bf700d2be76",
           "parts": [
             "Know how vital\nsmall fry are?"
+          ]
+        },
+        {
+          "offset": 17752,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17912,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18072,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
           ]
         },
         {
@@ -11130,10 +11711,59 @@
           ]
         },
         {
+          "offset": 18468,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18580,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18728,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 18908,
           "source_words_sha256": "f229e81a31fab15a9beefb5e23d893dc78fe50c3c7d9293c2f80b9655c9f2a47",
           "parts": [
             "Small fry? You called me\nsmall fry? Ha... Hahaha..."
+          ]
+        },
+        {
+          "offset": 19452,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19632,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19824,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19968,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -12279,10 +12909,38 @@
           ]
         },
         {
+          "offset": 17100,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
           "offset": 17184,
           "source_words_sha256": "ea08902b05fe067ceb34be5d329f17c80613c76e6e012fc0eb5d26eb5b1af0cc",
           "parts": [
             "Actually, leave\nthis game right now."
+          ]
+        },
+        {
+          "offset": 17460,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17620,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 17780,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
           ]
         },
         {
@@ -12293,10 +12951,52 @@
           ]
         },
         {
+          "offset": 18288,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18436,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 19088,
           "source_words_sha256": "811fdddf765176f319d49c30a5fb72b073710c00a3fce8525b9a711c9662b787",
           "parts": [
             "W-worse than octopus...\nTh-that's cruel..."
+          ]
+        },
+        {
+          "offset": 19192,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19372,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19564,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19708,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -13449,10 +14149,45 @@
           ]
         },
         {
+          "offset": 17056,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
           "offset": 17184,
           "source_words_sha256": "23c1bf5e41a776404f6a3aa9ac4b3a00a885b7d1e40f74e6fc4061096721e05e",
           "parts": [
             "I don't wanna share\na screen with this either!"
+          ]
+        },
+        {
+          "offset": 17416,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17576,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 17736,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18132,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
           ]
         },
         {
@@ -13463,10 +14198,52 @@
           ]
         },
         {
+          "offset": 18244,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18392,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 19080,
           "source_words_sha256": "ee858d801a7a3e8108e9a6ceb0b53d0943b1164f6ae6334cf149e87fa40ecd1f",
           "parts": [
             "Forget octopus...\nLess bite than butter."
+          ]
+        },
+        {
+          "offset": 19128,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19308,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19500,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19644,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -14619,10 +15396,52 @@
           ]
         },
         {
+          "offset": 17644,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
           "offset": 17828,
           "source_words_sha256": "f9dce107bc104a892fdf895100984e4205ebc9d653e74ac1a5292d3d408a24d2",
           "parts": [
             "H-hey, you guys...\nThat's going too far..."
+          ]
+        },
+        {
+          "offset": 18004,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18164,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18324,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18720,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18832,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -14633,10 +15452,45 @@
           ]
         },
         {
+          "offset": 18980,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 19356,
           "source_words_sha256": "89e8199e8ef7b997bb165190318e8d3f73ca8aadf7bafed4bd31701e291f2e58",
           "parts": [
             "I-I'm small fry\nin body AND mind...?"
+          ]
+        },
+        {
+          "offset": 19704,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19884,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20076,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 20220,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -15775,10 +16629,52 @@
           ]
         },
         {
+          "offset": 17056,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 17416,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
           "offset": 17472,
           "source_words_sha256": "7f6202387d5f88ed21ea658ac471feeaa562baffd554e3df364e0582991e57dd",
           "parts": [
             "Wh-what a terrifying\nthing to say..."
+          ]
+        },
+        {
+          "offset": 17576,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 17736,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18132,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18244,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -15789,10 +16685,45 @@
           ]
         },
         {
+          "offset": 18392,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19128,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
           "offset": 19200,
           "source_words_sha256": "5179119526b28c4af6905f3e7e5619e0cb2c9d31463f36dc3e1dcf592bd5f699",
           "parts": [
             "Damn it.\nTalking about me\nlike I'm baby food..."
+          ]
+        },
+        {
+          "offset": 19308,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19500,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19644,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -16938,10 +17869,59 @@
           ]
         },
         {
+          "offset": 17648,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 18008,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
           "offset": 18116,
           "source_words_sha256": "e084bd322b6c51bb5629f4bd52e25bf83e731d78df9798114fa6b5eb0669881f",
           "parts": [
             "Then season lightly\nwith salt and pepper."
+          ]
+        },
+        {
+          "offset": 18168,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18328,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18724,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18836,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18984,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -16952,10 +17932,38 @@
           ]
         },
         {
+          "offset": 19720,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19900,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
           "offset": 19972,
           "source_words_sha256": "d9b0ee43ce23964807d55e1c8ac28ee186a56970a32943c672a64f9bf4a9d004",
           "parts": [
             "Want me to send you\nthrough Hell's gate?"
+          ]
+        },
+        {
+          "offset": 20092,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 20236,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -18094,10 +19102,59 @@
           ]
         },
         {
+          "offset": 17024,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 17384,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17544,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
           "offset": 17580,
           "source_words_sha256": "ccc2249e6dde2ae8098f6ff262619ace76eaaa7b7eefc7d4b1ec1ee53b712bfc",
           "parts": [
             "Mmm, looks tasty!\nWait, are you an idiot?!"
+          ]
+        },
+        {
+          "offset": 17704,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18100,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18212,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18360,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
           ]
         },
         {
@@ -18108,10 +19165,38 @@
           ]
         },
         {
+          "offset": 19096,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19276,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
           "offset": 19404,
           "source_words_sha256": "e76dd1ae984d042e8d468ecbde55a446f0c859a21ba818a63e93c878133914a5",
           "parts": [
             "That gate...\nYou can't come back\nthrough it, right...?"
+          ]
+        },
+        {
+          "offset": 19468,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19612,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -19408,6 +20493,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 18404,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 18780,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18940,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19100,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19496,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 19608,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19756,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20500,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20680,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20868,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 21012,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -23136,6 +24298,496 @@
           ]
         },
         {
+          "offset": 18248,
+          "source_words_sha256": "0f81563c3845f19880b0df18614629957c36d6d00f69f3eb1532036d048efc61",
+          "parts": [
+            "No pillow or futon."
+          ]
+        },
+        {
+          "offset": 18272,
+          "source_words_sha256": "92570242bafdbaaead148315350191b05c2f1691decd82af5ea28beb091433b4",
+          "parts": [
+            "You won't wake up, though..."
+          ]
+        },
+        {
+          "offset": 18304,
+          "source_words_sha256": "d5e11ef7d90f14495288feee6b8cb21f68cf511547ffdf6e526c6fe929e31691",
+          "parts": [
+            "Bankon!!"
+          ]
+        },
+        {
+          "offset": 18328,
+          "source_words_sha256": "ce7a1b66e508260bf8084ed050ac5e40cbe48c92c1a23f5ffd443fdb06c45cfa",
+          "parts": [
+            "Damn!\nI can barely manage Shikon!"
+          ]
+        },
+        {
+          "offset": 18380,
+          "source_words_sha256": "7c71e95a5000c7b83e3577b83dad6bd1ea8a9e4ae22ebe702bfb2a80ed368ebd",
+          "parts": [
+            "What spiritual pressure!\nYou there!\nBetter surrender now!"
+          ]
+        },
+        {
+          "offset": 18440,
+          "source_words_sha256": "1ba1ef2a34165d11fcf36f0325fcd42c590a41127a25e0c9600b9fc969f44dd6",
+          "parts": [
+            "Hijikata... What pressure!\nThis could get nasty."
+          ]
+        },
+        {
+          "offset": 18512,
+          "source_words_sha256": "3a407b66753b0e78aa4608cb613a2a4b9a93a8c86ef0c13392407bb49c814bb3",
+          "parts": [
+            "W-what?! These guys...\nWhat spiritual pressure!"
+          ]
+        },
+        {
+          "offset": 18588,
+          "source_words_sha256": "496d560cacc4505bfad1be0958d13962b0b1cc11cd04970ec34bc5224c76e2a9",
+          "parts": [
+            "Me too!"
+          ]
+        },
+        {
+          "offset": 18604,
+          "source_words_sha256": "22b7b8f9d22eec6b88005d469c752fc4f513cf1ed14a6faba3ea2d7d10cb97fe",
+          "parts": [
+            "I'm next...!"
+          ]
+        },
+        {
+          "offset": 18632,
+          "source_words_sha256": "349e6683c84296e87ca815d2e94eb26c72967adb2e4e990df1015fc6c6454811",
+          "parts": [
+            "My power level is 530,000.\nDon't worry. I won't\nuse my full power..."
+          ]
+        },
+        {
+          "offset": 18732,
+          "source_words_sha256": "ef41a99c8522e26a0eebdd7198c473956d84bdab39ae9f2b6b80247463740ac2",
+          "parts": [
+            "You're the first fool\nto make this much\nof a fool of me..."
+          ]
+        },
+        {
+          "offset": 18808,
+          "source_words_sha256": "5d773416e112073996a4880baca7ad4914aeafd696ee90fc83a4e31a4f5f239d",
+          "parts": [
+            "Power level: 1,200,000!"
+          ]
+        },
+        {
+          "offset": 18836,
+          "source_words_sha256": "c5d72eda741f5147fb49676441fd8c9bdb1b5372bd934b1295b051c3f7a65150",
+          "parts": [
+            "Mine is 1,400,000."
+          ]
+        },
+        {
+          "offset": 18872,
+          "source_words_sha256": "7fe2738a503b8ba843a686cf4361d994b2555d3a71b44b963046551a2972012c",
+          "parts": [
+            "I-impossible!\nThat can't be right!\nThe scouter's broken!"
+          ]
+        },
+        {
+          "offset": 18952,
+          "source_words_sha256": "aa2f1ad7afbe86be2e21fe9e001c7007c2095bf6e29f26c5ccbb139c551bb6a6",
+          "parts": [
+            "Well, mine's 536,000."
+          ]
+        },
+        {
+          "offset": 18984,
+          "source_words_sha256": "662e3786f25b0eae8c0670d4a6143e53dfbd6cb486306cf4d819372be9fd8d82",
+          "parts": [
+            "Mine's 534,000..."
+          ]
+        },
+        {
+          "offset": 19016,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19052,
+          "source_words_sha256": "c46f69f0607015232b8e8b0aaaf83d1536b7ebf4c34586d2b7a23ef01e0edb6c",
+          "parts": [
+            "You bastard!\nI'm the protagonist!\nHow dare you?!"
+          ]
+        },
+        {
+          "offset": 19136,
+          "source_words_sha256": "ea08902b05fe067ceb34be5d329f17c80613c76e6e012fc0eb5d26eb5b1af0cc",
+          "parts": [
+            "Actually, get out\nof this game. Now."
+          ]
+        },
+        {
+          "offset": 19180,
+          "source_words_sha256": "23c1bf5e41a776404f6a3aa9ac4b3a00a885b7d1e40f74e6fc4061096721e05e",
+          "parts": [
+            "I don't want to share\na screen with him either."
+          ]
+        },
+        {
+          "offset": 19236,
+          "source_words_sha256": "4a490d126225c0da588e8753d6f07c5720c05db9b2db66a5893d58cfb778c4fa",
+          "parts": [
+            "W-what are you saying?!\nHey... Could it be...\nYou all hate me?!"
+          ]
+        },
+        {
+          "offset": 19344,
+          "source_words_sha256": "362b6e21b91d67c693020405e51dbb8907ee8945cf004a2e400e056f3d9d7f7e",
+          "parts": [
+            "Get off MY screen too!"
+          ]
+        },
+        {
+          "offset": 19372,
+          "source_words_sha256": "e1ddbc3e3a9a0fd631381ef4b80776a1d8462fc284bdf87f557c77ad2fb6a54a",
+          "parts": [
+            "...And MY screen!"
+          ]
+        },
+        {
+          "offset": 19408,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19464,
+          "source_words_sha256": "85a8e0b5d7f49a5ff8e37526f44ff1e19479adfd2c38c467b9f5514c94ba05df",
+          "parts": [
+            "People don't turn golden\nwhen fried, idiot.\nMore like... golden green?"
+          ]
+        },
+        {
+          "offset": 19564,
+          "source_words_sha256": "e084bd322b6c51bb5629f4bd52e25bf83e731d78df9798114fa6b5eb0669881f",
+          "parts": [
+            "Then a light seasoning\nof salt and pepper!"
+          ]
+        },
+        {
+          "offset": 19616,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19652,
+          "source_words_sha256": "00a65125e5163529204ec595d17db74360ffc8dd22310b74204f64ed54e9f720",
+          "parts": [
+            "W-what?! You guys...\nEnough of those\nroundabout threats, okay?!"
+          ]
+        },
+        {
+          "offset": 19744,
+          "source_words_sha256": "76f51b3d0c9d09c5a4b9213cbebcd0df110fdbf3ca7eda073295c6e241b44cf2",
+          "parts": [
+            "Doubt he'd taste good."
+          ]
+        },
+        {
+          "offset": 19776,
+          "source_words_sha256": "35b2fbbd420fb4e7e1138ef1c36132e81ce59636419914b338d56ceb43dc7c2c",
+          "parts": [
+            "Let's fry him crisp."
+          ]
+        },
+        {
+          "offset": 19804,
+          "source_words_sha256": "92728a0231299b5c43b98b51516cd2da866b40e7a78db4f4c791589a18054819",
+          "parts": [
+            "Don't need a license\nto run people over!"
+          ]
+        },
+        {
+          "offset": 19852,
+          "source_words_sha256": "25ddde44f4d4d09527afe2a5b6f1e5ce3de69ac6dfe0db2e474bc911eef5c561",
+          "parts": [
+            "License or not,\nlet's NOT run\npeople over."
+          ]
+        },
+        {
+          "offset": 19920,
+          "source_words_sha256": "785f7a2e7a44b5d540965c8c1bdc8efcfa72d54b47d55a59db6edf056e75c428",
+          "parts": [
+            "Right! Don't need\nbrakes either!"
+          ]
+        },
+        {
+          "offset": 19960,
+          "source_words_sha256": "f8ff80e060fb9abd70f2ee06aba94f43ff4aa1b5b29ae41cd5c39965d9068d19",
+          "parts": [
+            "Half measures are no good.\nA real man needs no brakes."
+          ]
+        },
+        {
+          "offset": 20016,
+          "source_words_sha256": "f742125396973f50c6d13d80410954ce3843292c1545e74f3fe4cad842efc8be",
+          "parts": [
+            "...No. Brake.\nAt least use the brakes."
+          ]
+        },
+        {
+          "offset": 20080,
+          "source_words_sha256": "3f4f4cdf86683a50d9d28924273c5794cf23eac44ee291912cdc809fb4a57dec",
+          "parts": [
+            "Leave navigation to me!"
+          ]
+        },
+        {
+          "offset": 20108,
+          "source_words_sha256": "be69be3a8b63c1567c3ebbc180650730ef4662f2624d36374967ae094e6935a7",
+          "parts": [
+            "Straight ahead...\nDon't need a wheel either."
+          ]
+        },
+        {
+          "offset": 20164,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20220,
+          "source_words_sha256": "e28c21d50a4cc6b135be45b3b0083e514d018a0ca05f8ca86e2b3fb023fae6cc",
+          "parts": [
+            "What?! Even for you,\nNose-Hook Destroyer\nis going too far!"
+          ]
+        },
+        {
+          "offset": 20316,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20368,
+          "source_words_sha256": "b026d201ed3fb863b91f40e9359a851bd89f46ca068c5ac0aecada6c7ca4c263",
+          "parts": [
+            "How about Nose-Piercing\nGenocide too, Hijikata?"
+          ]
+        },
+        {
+          "offset": 20432,
+          "source_words_sha256": "ca2c57a9ec5334cf8c1e3c7c7a81d20e273f840f5acfa0554ad847f5aa768558",
+          "parts": [
+            "What punishment is that?!\nWhat does it even mean?!"
+          ]
+        },
+        {
+          "offset": 20496,
+          "source_words_sha256": "489ead8d1aa57621b795e2027196199b424724c7540820d0da297f06ba38fdbe",
+          "parts": [
+            "Whoa... Sounds painful."
+          ]
+        },
+        {
+          "offset": 20528,
+          "source_words_sha256": "c9bb74e524ce7399b80376ba6472042c478226e74ede27cdd2400b03695207e5",
+          "parts": [
+            "Then comes\nEar-Cleaning Fire..."
+          ]
+        },
+        {
+          "offset": 20592,
+          "source_words_sha256": "2528864a0738162283fc8458d15bd201ff724f11ec98dfcfabecde5ae2158e29",
+          "parts": [
+            "Nobody would bother\nwith a small fry like you!"
+          ]
+        },
+        {
+          "offset": 20656,
+          "source_words_sha256": "049adcf389cad707de633d40d2530d9c0ae9c80c3be759944d55cd5fed229acd",
+          "parts": [
+            "Y-you've got some nerve..."
+          ]
+        },
+        {
+          "offset": 20700,
+          "source_words_sha256": "5fc8fcaf42cd8217da44b52c4b6d0a7613443f5c4d071768d11336ff36411f76",
+          "parts": [
+            "Be grateful I even\nbother putting up with you!"
+          ]
+        },
+        {
+          "offset": 20768,
+          "source_words_sha256": "6d9876123f7a896266e628195fda74af47b2161a9c6a13640cf5891c1c9bc054",
+          "parts": [
+            "Extras and protagonists?\nNo comparison."
+          ]
+        },
+        {
+          "offset": 20824,
+          "source_words_sha256": "ad2cb44d2d5d0c5e66fcb69ba9be41fe2e6de6a357d85dca10bc5eec7c901089",
+          "parts": [
+            "Huh? Extras?\nWait... You mean ME?!"
+          ]
+        },
+        {
+          "offset": 20896,
+          "source_words_sha256": "c01411a6bd106486ae314e9c11d65d73d719390337c5583110f8649845cc5afa",
+          "parts": [
+            "We wouldn't waste time\non small fry like you."
+          ]
+        },
+        {
+          "offset": 20956,
+          "source_words_sha256": "7e9471c96b606f06244de6cb5b483f7a19a5c644f3fcab4d0817f3b77d4e26a7",
+          "parts": [
+            "Foisting him on me?\nI wouldn't bother either!"
+          ]
+        },
+        {
+          "offset": 21020,
+          "source_words_sha256": "ecabbdef9ca24c2f1ccde9018709deb7fd382777787cdc68bfc5bb1303b86c3a",
+          "parts": [
+            "No bite to you.\nAn octopus puts up\nmore resistance."
+          ]
+        },
+        {
+          "offset": 21080,
+          "source_words_sha256": "6626a9c616c3e7b88b7a766af65ec2b3cbb3ced1d3f538f4e47fc78f060d2c75",
+          "parts": [
+            "Shut up! I prefer\nsquid to octopus anyway!"
+          ]
+        },
+        {
+          "offset": 21156,
+          "source_words_sha256": "ee858d801a7a3e8108e9a6ceb0b53d0943b1164f6ae6334cf149e87fa40ecd1f",
+          "parts": [
+            "Octopus?\nEven butter has more bite!"
+          ]
+        },
+        {
+          "offset": 21204,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21276,
+          "source_words_sha256": "ef3fb75b77dedcf4ed9b075b4ecbd70a026d0e7b484d5356af1251bc40e07aae",
+          "parts": [
+            "What?! Sure, I'm shaky,\nbut worse than\nan octopus?!"
+          ]
+        },
+        {
+          "offset": 21376,
+          "source_words_sha256": "cdebc4686bf32dc797989958658cf6f60bc68cff464acfab846e80fb597e0b7e",
+          "parts": [
+            "Octopus, huh...\nNicely put."
+          ]
+        },
+        {
+          "offset": 21420,
+          "source_words_sha256": "b4eb58b7f4328c795118dba8a93d8ce5021b02a5d3ac15e95a3a16f03a9a7717",
+          "parts": [
+            "Doubt he's even\nas tough as octopus."
+          ]
+        },
+        {
+          "offset": 21464,
+          "source_words_sha256": "d9b0ee43ce23964807d55e1c8ac28ee186a56970a32943c672a64f9bf4a9d004",
+          "parts": [
+            "Shall I send you\nthrough the gates of Hell?"
+          ]
+        },
+        {
+          "offset": 21520,
+          "source_words_sha256": "a012aee81114556d202ef366069d13bdbcfdc0381fe1039d8a13a92060a170c3",
+          "parts": [
+            "S-scary!\nPlaying tour guide,\nyou bastard?"
+          ]
+        },
+        {
+          "offset": 21584,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 21620,
+          "source_words_sha256": "a9cf9ad303f090fd1e766c247537d1c5ec7890399523c48329f1415c2aafcf25",
+          "parts": [
+            "Enjoy a peaceful\nretirement in Hell."
+          ]
+        },
+        {
+          "offset": 21660,
+          "source_words_sha256": "34278997b0adcaf63290074261af5185cc021643a27a14ba7499d92884555588",
+          "parts": [
+            "I like Kabukicho!\nYou cannot just\nmake me move!"
+          ]
+        },
+        {
+          "offset": 21736,
+          "source_words_sha256": "e25873e866b3cad98f6b4e870a5669e074d7cef96ca3f29db7f88a2bed6d967b",
+          "parts": [
+            "I'll give you a push."
+          ]
+        },
+        {
+          "offset": 21764,
+          "source_words_sha256": "f51d7b62b4241d381e366dd03bd2389a815727b28bca06dd09451b7804879f2f",
+          "parts": [
+            "Don't come back."
+          ]
+        },
+        {
+          "offset": 21792,
+          "source_words_sha256": "823c42e99eb2b33223068af6dcaabf59b0cfaa3afc1abb55ee56191b56776b0e",
+          "parts": [
+            "Small fry never change."
+          ]
+        },
+        {
+          "offset": 21836,
+          "source_words_sha256": "1b487ee7c7c99555a20bec986b35cdecb5637b562c73d08f760991216437231e",
+          "parts": [
+            "Don't call\nthe protagonist small fry!"
+          ]
+        },
+        {
+          "offset": 21888,
+          "source_words_sha256": "d08a4d8af4ad67e7ac8f7bb047462cd173c81db77823d3e5563529250b483545",
+          "parts": [
+            "Just a reused asset."
+          ]
+        },
+        {
+          "offset": 21912,
+          "source_words_sha256": "4b33c8c2edc2fe6b5321927ec697a0a325a7635baee7fcc05e25e6832999899b",
+          "parts": [
+            "Seen your face somewhere...\nOh, a reused asset?"
+          ]
+        },
+        {
+          "offset": 21988,
+          "source_words_sha256": "f0113823b96866f013dd264b9255170a3738c70c2c0f0802654b4ad704b78cb4",
+          "parts": [
+            "What?! No way!\nI'm a reused asset?!"
+          ]
+        },
+        {
           "offset": 42812,
           "source_words_sha256": "9a66c5423bfce128e7d2c4b893901bdda3f0aa9dbe9aa3031b855004542b7b48",
           "parts": [
@@ -25447,6 +27099,83 @@
           ]
         },
         {
+          "offset": 21720,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 22160,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 22356,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22552,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22988,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 23144,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23364,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 24140,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24380,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24588,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 24756,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 48824,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -26082,6 +27811,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 20684,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 21052,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 21232,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21400,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21828,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 21928,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22112,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22880,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23096,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23288,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 23456,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -27038,6 +28844,195 @@
           ]
         },
         {
+          "offset": 18408,
+          "source_words_sha256": "0f81563c3845f19880b0df18614629957c36d6d00f69f3eb1532036d048efc61",
+          "parts": [
+            "No pillow or futon."
+          ]
+        },
+        {
+          "offset": 18432,
+          "source_words_sha256": "92570242bafdbaaead148315350191b05c2f1691decd82af5ea28beb091433b4",
+          "parts": [
+            "You won't wake up, though..."
+          ]
+        },
+        {
+          "offset": 18796,
+          "source_words_sha256": "496d560cacc4505bfad1be0958d13962b0b1cc11cd04970ec34bc5224c76e2a9",
+          "parts": [
+            "Me too!"
+          ]
+        },
+        {
+          "offset": 18812,
+          "source_words_sha256": "22b7b8f9d22eec6b88005d469c752fc4f513cf1ed14a6faba3ea2d7d10cb97fe",
+          "parts": [
+            "I'm next...!"
+          ]
+        },
+        {
+          "offset": 19112,
+          "source_words_sha256": "aa2f1ad7afbe86be2e21fe9e001c7007c2095bf6e29f26c5ccbb139c551bb6a6",
+          "parts": [
+            "Well, mine's 536,000."
+          ]
+        },
+        {
+          "offset": 19144,
+          "source_words_sha256": "662e3786f25b0eae8c0670d4a6143e53dfbd6cb486306cf4d819372be9fd8d82",
+          "parts": [
+            "Mine's 534,000..."
+          ]
+        },
+        {
+          "offset": 19176,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19464,
+          "source_words_sha256": "362b6e21b91d67c693020405e51dbb8907ee8945cf004a2e400e056f3d9d7f7e",
+          "parts": [
+            "Get off MY screen too!"
+          ]
+        },
+        {
+          "offset": 19492,
+          "source_words_sha256": "e1ddbc3e3a9a0fd631381ef4b80776a1d8462fc284bdf87f557c77ad2fb6a54a",
+          "parts": [
+            "...And MY screen!"
+          ]
+        },
+        {
+          "offset": 19528,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19668,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19800,
+          "source_words_sha256": "76f51b3d0c9d09c5a4b9213cbebcd0df110fdbf3ca7eda073295c6e241b44cf2",
+          "parts": [
+            "Doubt he'd taste good."
+          ]
+        },
+        {
+          "offset": 19832,
+          "source_words_sha256": "35b2fbbd420fb4e7e1138ef1c36132e81ce59636419914b338d56ceb43dc7c2c",
+          "parts": [
+            "Let's fry him crisp."
+          ]
+        },
+        {
+          "offset": 20172,
+          "source_words_sha256": "3f4f4cdf86683a50d9d28924273c5794cf23eac44ee291912cdc809fb4a57dec",
+          "parts": [
+            "Leave navigation to me!"
+          ]
+        },
+        {
+          "offset": 20200,
+          "source_words_sha256": "be69be3a8b63c1567c3ebbc180650730ef4662f2624d36374967ae094e6935a7",
+          "parts": [
+            "Straight ahead...\nDon't need a wheel either."
+          ]
+        },
+        {
+          "offset": 20256,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20416,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20616,
+          "source_words_sha256": "489ead8d1aa57621b795e2027196199b424724c7540820d0da297f06ba38fdbe",
+          "parts": [
+            "Whoa... Sounds painful."
+          ]
+        },
+        {
+          "offset": 20648,
+          "source_words_sha256": "c9bb74e524ce7399b80376ba6472042c478226e74ede27cdd2400b03695207e5",
+          "parts": [
+            "Then comes\nEar-Cleaning Fire..."
+          ]
+        },
+        {
+          "offset": 20992,
+          "source_words_sha256": "c01411a6bd106486ae314e9c11d65d73d719390337c5583110f8649845cc5afa",
+          "parts": [
+            "We wouldn't waste time\non small fry like you."
+          ]
+        },
+        {
+          "offset": 21052,
+          "source_words_sha256": "7e9471c96b606f06244de6cb5b483f7a19a5c644f3fcab4d0817f3b77d4e26a7",
+          "parts": [
+            "Foisting him on me?\nI wouldn't bother either!"
+          ]
+        },
+        {
+          "offset": 21284,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21440,
+          "source_words_sha256": "cdebc4686bf32dc797989958658cf6f60bc68cff464acfab846e80fb597e0b7e",
+          "parts": [
+            "Octopus, huh...\nNicely put."
+          ]
+        },
+        {
+          "offset": 21484,
+          "source_words_sha256": "b4eb58b7f4328c795118dba8a93d8ce5021b02a5d3ac15e95a3a16f03a9a7717",
+          "parts": [
+            "Doubt he's even\nas tough as octopus."
+          ]
+        },
+        {
+          "offset": 21648,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 21796,
+          "source_words_sha256": "e25873e866b3cad98f6b4e870a5669e074d7cef96ca3f29db7f88a2bed6d967b",
+          "parts": [
+            "I'll give you a push."
+          ]
+        },
+        {
+          "offset": 21824,
+          "source_words_sha256": "f51d7b62b4241d381e366dd03bd2389a815727b28bca06dd09451b7804879f2f",
+          "parts": [
+            "Don't come back."
+          ]
+        },
+        {
           "offset": 41936,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -27673,6 +29668,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 21792,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 22204,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 22412,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22556,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 23040,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 23176,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23360,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 24136,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24360,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24564,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 24728,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -28314,6 +30386,83 @@
           ]
         },
         {
+          "offset": 19992,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 20400,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20560,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20752,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21164,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 21288,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21508,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22300,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22504,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22720,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22880,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 45312,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -28935,6 +31084,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 21424,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 21876,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 22032,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22244,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22672,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 22768,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22984,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23776,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24004,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24176,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 24348,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -29639,6 +31865,83 @@
           ]
         },
         {
+          "offset": 19432,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19792,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19956,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20108,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20548,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20672,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20884,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21660,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21868,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22064,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22216,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 45440,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -30197,6 +32500,55 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 17800,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 18072,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18236,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18632,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18736,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19392,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19656,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         }
       ]
@@ -30758,6 +33110,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 17540,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 17896,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 18036,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18216,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18612,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18700,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18892,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19548,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19748,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19956,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 20112,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -31735,6 +34164,83 @@
           ]
         },
         {
+          "offset": 20656,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 21092,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 21268,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21456,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21900,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 22052,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22244,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23036,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23260,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23476,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 23608,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 46664,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -32475,6 +34981,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 21336,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 21736,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 21908,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22096,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22556,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 22696,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22904,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23708,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23912,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 24092,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 24276,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -33613,6 +36196,83 @@
           ]
         },
         {
+          "offset": 20992,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 21392,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 21612,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21772,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 22244,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 22384,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22548,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 23356,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23548,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 23748,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 23888,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 47096,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -34129,6 +36789,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 17312,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 17644,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 17796,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 17936,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 18308,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 18408,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 18576,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 19252,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19424,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 19596,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 19724,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -35253,6 +37990,83 @@
           ]
         },
         {
+          "offset": 19332,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19668,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19840,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20036,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20452,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20616,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20812,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21616,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21820,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22016,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22192,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 44076,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -36066,6 +38880,83 @@
           ]
         },
         {
+          "offset": 19044,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19460,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19640,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19800,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20232,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20356,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20548,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21332,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21492,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21660,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 21828,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 43980,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -36816,6 +39707,83 @@
           ]
         },
         {
+          "offset": 20008,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 20360,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20536,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20740,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 21100,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 21220,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21448,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22208,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22436,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22636,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22796,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 44872,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -37433,6 +40401,83 @@
           ]
         },
         {
+          "offset": 19736,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 20136,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20308,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20484,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20924,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 21044,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21256,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 22028,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22212,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22424,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22564,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 45748,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -37840,6 +40885,27 @@
           ]
         },
         {
+          "offset": 10088,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 10284,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 10412,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
           "offset": 10488,
           "source_words_sha256": "92728a0231299b5c43b98b51516cd2da866b40e7a78db4f4c791589a18054819",
           "parts": [
@@ -37847,10 +40913,38 @@
           ]
         },
         {
+          "offset": 10692,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 10768,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
           "offset": 11008,
           "source_words_sha256": "5fc8fcaf42cd8217da44b52c4b6d0a7613443f5c4d071768d11336ff36411f76",
           "parts": [
             "You should be grateful\nI'm even bothering\nwith you."
+          ]
+        },
+        {
+          "offset": 11300,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 11488,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -38349,6 +41443,55 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 19552,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19892,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20088,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20564,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20704,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21488,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21792,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -39298,6 +42441,83 @@
           ]
         },
         {
+          "offset": 19288,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19684,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19852,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20016,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20416,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20544,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20760,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21588,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21808,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21996,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22156,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
           "offset": 45244,
           "source_words_sha256": "8289d5ee8b3c25b8fe5de2b173582bb9c441199ef0410eb7470f2878be8bf1fe",
           "parts": [
@@ -39849,6 +43069,55 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 18708,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19008,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 19192,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 19608,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 19744,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20512,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 20812,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
@@ -40452,6 +43721,83 @@
           "source_words_sha256": "944b35d50a2d5dbd2f07aa902527c8f8268a891d6c534bc14e5cec6c5b7cd74c",
           "parts": [
             "Lucky you.\nYou'll sleep soundly.\nForever, though."
+          ]
+        },
+        {
+          "offset": 19448,
+          "source_words_sha256": "bdf400d36432f2370d6f37a22de565bf709fe012ad9524b1999fc89f54b888c9",
+          "parts": [
+            "Get off my screen!"
+          ]
+        },
+        {
+          "offset": 19884,
+          "source_words_sha256": "71fafccb1bad823e7005d6067d929803ef846b56beccace966b35f3888ccdfd5",
+          "parts": [
+            "Want me to fry you\nuntil golden brown?"
+          ]
+        },
+        {
+          "offset": 20060,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20216,
+          "source_words_sha256": "536dfd32944d73dc06844f210974ac307c9e744c94cdc6f76cf7df53a881ce17",
+          "parts": [
+            "How about boiling\nhim in a pot too?"
+          ]
+        },
+        {
+          "offset": 20668,
+          "source_words_sha256": "978a6c31f640a1a2dbce298a27636b5508892634bfed1bff3026f4f3c2e81a75",
+          "parts": [
+            "I sentence you to\nNose-Hook Destroyer!"
+          ]
+        },
+        {
+          "offset": 20788,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 20988,
+          "source_words_sha256": "aea5c23b612c5298e9fc288fe2e31d48c33ced131b2d128a5d9fa30c414bd911",
+          "parts": [
+            "Then fling you away\nat 150 kilometers an hour!"
+          ]
+        },
+        {
+          "offset": 21748,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 21936,
+          "source_words_sha256": "9ba603d344b549b37d6461cc072810f902d13d2ec2978bfdbb296208dcee0d2c",
+          "parts": [
+            "Octopus has plenty of bite.\nThat's an insult\nto octopuses."
+          ]
+        },
+        {
+          "offset": 22128,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
+          ]
+        },
+        {
+          "offset": 22268,
+          "source_words_sha256": "404fc84aaeedae9f9edd3c278030c8b3f5fcf423bc1e29a50f8d6695fe0b3ba7",
+          "parts": [
+            "Permanent residency\nin Hell included!"
           ]
         },
         {
