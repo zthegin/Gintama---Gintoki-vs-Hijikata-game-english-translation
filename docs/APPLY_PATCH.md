@@ -49,7 +49,7 @@ python3.13 -m venv .venv
 
 When it finishes, open `local/english.nds` in your emulator. Start it normally rather than loading an old save state, which can restore earlier graphics.
 
-The build applies the bundled English dialogue, graphics and UI labels. See [current progress](../README.md#current-progress) for the entry and batch counts. Much of the game is still Japanese. The original ROM is not overwritten.
+The build applies the bundled English dialogue, graphics and UI labels. See [current progress](../README.md#current-progress) for the entry and batch counts. Battle dialogue remains mostly Japanese; the progress table separates coverage from proofreading. The original ROM is not overwritten.
 
 For the extra build commands below, use `.\.venv\Scripts\python.exe` on Windows or `.venv/bin/python` on macOS/Linux wherever an example says `python`.
 
@@ -77,7 +77,7 @@ Open the resulting `english.nds`. A patch changes only the content listed in its
 - **Filename too long / WinError 206 during installation:** extract a fresh copy to a shorter folder, such as `C:/Games/gintama`, then run the three setup commands there. Create a new `.venv`; moving an existing one can break its paths.
 - **Wrong ROM:** use the supported, unmodified original. Renaming another ROM will not make it compatible.
 - **Output exists:** choose a new output name, such as `local/english-2.nds`.
-- **English is missing:** start without an old save state and check whether that screen is covered. Most later dialogue is still Japanese.
+- **English is missing:** start without an old save state and check whether that screen is covered. Battle translation is incomplete; check the progress table for current coverage.
 
 <details>
 <summary>Supported ROM checksum</summary>
@@ -104,7 +104,7 @@ python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --dialogue "C:/Ga
 
 `--dialogue` selects that batch instead of the bundled dialogue, while still building the graphics and UI. The builder wraps text to the proven 176-pixel field window, preserves page counts, and refuses text that exceeds its original word slot or uses unsupported controls. It never truncates text or relocates the CDB. A passing build is not proof that every game context uses the same window size. Use `--validate-only` to check without writing a ROM, or `--ui-only` for graphics and UI alone.
 
-Most game dialogue is not translated yet. The bundled examples are deliberately concise because Japanese and English must share the original fixed-size slots. Longer script allocation and CDB relocation remain separate research.
+Some English lines are deliberately concise because Japanese and English must share the original fixed-size slots. Longer script allocation and CDB relocation remain separate research.
 
 ## Apply your own opening edits
 
