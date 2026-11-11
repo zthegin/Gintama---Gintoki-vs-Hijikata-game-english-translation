@@ -106,15 +106,15 @@ python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --dialogue "C:/Ga
 
 Some English lines are deliberately concise because Japanese and English must share the original fixed-size slots. Longer script allocation and CDB relocation remain separate research.
 
-## Apply your own opening edits
+## Apply your own cutscene edits
 
-The normal build includes the bundled opening translation. To try English edited in the website's [Cutscenes page](https://zthegin.github.io/cutscenes.html), download its JSON, or copy it and save it as `opening_scene.json`, then run:
+The normal build includes the translations for s01 through s05. To try an edit, download the JSON from the [Cutscene editor](https://zthegin.github.io/cutscenes.html). Use its filename in the command below.
 
 ```sh
-python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Games/Gintama/opening_scene.json" --out local/my-opening.nds
+python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Games/Gintama/s02.json" --out local/my-cutscene.nds
 ```
 
-You can combine `--cutscene` and `--dialogue` to test both exports in one ROM. Each option replaces only its own bundled selection. Keep all opening entries, hashes and part boundaries unchanged. The builder refuses changed source hashes, moved controls and text that does not fit. `--ui-only` cannot be combined with `--cutscene`.
+You can combine `--cutscene` and `--dialogue` to test both exports in one ROM. Each option replaces only its own bundled selection. Keep the entries, hashes and part boundaries for the selected script. The builder refuses changed source hashes, moved controls and text that does not fit. `--ui-only` cannot be combined with `--cutscene`.
 
 Old emulator save states may restore cached Japanese graphics or scripts; test with a normal boot or a compatible state made for your rebuilt ROM. Keep your original state as a backup.
 

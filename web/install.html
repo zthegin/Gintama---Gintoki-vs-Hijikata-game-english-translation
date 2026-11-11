@@ -108,18 +108,18 @@ py -3.13 -m venv .venv
         >
         <p>
           This uses your downloaded batch in place of the bundled field dialogue.
-          Graphics, UI and the opening cutscene are still included. Keep the CSV
+          The build also includes the graphics, UI and bundled cutscenes. Keep the CSV
           too if you plan to submit a pull request; the local build only needs JSON.
           A successful build checks the fixed-size slots, but you still need to
           check how the wording looks in its game context.
         </p>
       </details>
       <details id="apply-your-own-opening-edits">
-        <summary>Test an opening edit from the website</summary>
+        <summary>Test a cutscene edit from the website</summary>
         <p>Use <a href="cutscenes.html">Cutscenes</a>, then download its JSON or copy it
-          and save it as <code>opening_scene.json</code>. Keep every entry and English part in order.</p>
+          and save it with the filename for the selected script. Keep every entry and English part in order.</p>
         <pre class="command">
-.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Users/you/Downloads/opening_scene.json" --out local/my-opening.nds</pre>
+.\.venv\Scripts\python.exe tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Users/you/Downloads/s02.json" --out local/my-cutscene.nds</pre>
         <p>Replace both paths with yours. You can add <code>--dialogue</code> with a field-dialogue
           export to test both together. The builder checks source hashes, formatting controls,
           text width and fixed slots. Select <code>s01</code> through <code>s05</code> in the Cutscenes editor. Other bundled scenes remain included in your local build.</p>
