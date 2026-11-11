@@ -11,8 +11,6 @@ I do not own the original game, Gintama, or their characters, story, artwork, mu
 - [I want to improve the tools](#i-want-to-improve-the-tools)
 - [Check progress](#current-progress)
 
-No coding is needed to play or contribute a translation. Start with **Suggest on GitHub** if you want to help with one line.
-
 ### I just want to play
 
 Use Python 3.13 on Windows and your own legally obtained, unmodified ROM of the supported revision. Python 3.11 is also tested; 3.10 is too old for the current dependencies. No ROM is included or linked here. No Python? Follow the [short installation steps](docs/APPLY_PATCH.md#install-python-on-windows).
@@ -54,15 +52,13 @@ The assistant must get the ROM path from you. Grant access to the project folder
 
 ### I want to help translate
 
-**No coding is required.**
-
-You need your legally obtained ROM and a GitHub account. Open the editor in your browser; there is no Python setup, Git checkout or fork to create.
+You can suggest a line from your browser. Have your legally obtained ROM and a GitHub account handy.
 
 1. Open the [dialogue editor](https://zthegin.github.io/) and select your own legally obtained ROM. It stays on your computer.
 2. Choose a batch and a line, then write the English. Keep the page count shown above the text box; type `\f` for a page break.
 3. Click **Suggest on GitHub**, sign in if needed, check the prepared suggestion and submit the issue.
 
-The button opens a GitHub issue with your suggestion filled in. Submit it there so I can review the wording and check a local build. Accepted suggestions are credited to your GitHub account, with a link to the issue.
+I review the wording and test accepted edits in a local build. If your suggestion is accepted, the credits link back to your issue.
 
 Maintainers can follow [Review and accept a website suggestion](docs/REVIEW_SUGGESTIONS.md) to take an issue through review, credit and publication.
 
@@ -84,7 +80,7 @@ On macOS/Linux, use `.venv/bin/python` in the same command. Choose a new output 
 
 ## Current progress
 
-Counts below match the bundled translation files. A filled record means English is present; it does not mean the line has been fully proofread in-game.
+The table counts records with English text. In-game proofreading is still underway.
 
 | Category | Translated / indexed | Progress |
 | --- | ---: | ---: |
@@ -99,7 +95,7 @@ All 114 numbered field batches are filled. The 22,480 field records include dial
 
 All 4,064 supported cutscene records across `s01`–`s05` have English text. Another 48 records are read-only and remain unchanged; the `sub` script has no supported dialogue. Short message slots sometimes require abbreviated wording, so in-game proofreading still matters.
 
-Battle translation is ongoing. All 90 scripts are indexed in the [Battle editor](https://zthegin.github.io/battle.html), where you can work on unfinished lines or suggest corrections. The total counts repeated variants separately, so it is not 142,242 unique sentences.
+Battle translation is ongoing. All 90 scripts are indexed in the [Battle editor](https://zthegin.github.io/battle.html), where you can work on unfinished lines or suggest corrections. The battle total includes repeated lines.
 
 These are percentages of the indexed records, not of the whole game. Some strings may still need indexing, and complete in-game playtesting is pending. The graphics and native UI totals have no complete inventory to compare against.
 

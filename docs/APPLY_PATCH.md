@@ -59,7 +59,7 @@ For the extra build commands below, use `.\.venv\Scripts\python.exe` on Windows 
 python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --patch local/english.bps
 ```
 
-This creates `local/english.bps` and its matching `local/english.json`. Keep them together. For custom image labels and other build options, see [the graphics guide](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/IMAGE_WORKFLOW.md).
+Keep `english.bps` and `english.json` in the same folder. The patch instructions below use both files. For custom image labels and other build options, see [the graphics guide](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/IMAGE_WORKFLOW.md).
 
 ## Apply an existing patch
 
