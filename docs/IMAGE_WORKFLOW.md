@@ -1,6 +1,6 @@
 # Translating graphics and UI
 
-The full local builder reproduces **650 graphical variants and 125 native UI text slots** from the supported original ROM. The browser editor handles the 193 Gin Tama name images; the other formats use the checked recipes in `graphics/ui_recipes.json`. No extracted artwork, native font records or palettes are bundled.
+The local build translates **650 graphical variants and 125 UI text slots**. To edit one of the 193 Gin Tama name labels, use the browser editor. Other images use `graphics/ui_recipes.json`. No extracted artwork, native font records or palettes are bundled.
 
 ## Full UI build
 
@@ -22,7 +22,7 @@ Variants include selected/unselected and packed/loose copies. The total is not a
 
 Open **Images** on the project website. Supply your own legally obtained matching original ROM to see the source image and palette. The ROM stays in the browser tab. Edit the English label and an optional note; the editor checks the pixel width, line count and original compressed capacity. One or two lines fit. Review both native-size and enlarged previews.
 
-Export JSON and CSV. Replace `translations/graphics/gin_tama_names.json` and `csv/graphics/gin_tama_names.csv` together, then open a PR to `staging`. Do not submit an image. Two current account approvals can mark image translation PRs for owner review too; the maintainer records contributor credits from merged PRs. Full terminology is in the English glossary; fitted display labels may be shorter, but must preserve meaning.
+Download both exports. Put the JSON in `translations/graphics/` and the CSV in `csv/graphics/`, using the existing `gin_tama_names` filenames. Include both files in your PR to `staging`. Do not submit an image. Two current account approvals can mark image translation PRs for owner review too; the maintainer records contributor credits from merged PRs. Full terminology is in the English glossary; fitted display labels may be shorter, but must preserve meaning.
 
 ## Python 3
 

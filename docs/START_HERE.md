@@ -15,9 +15,9 @@ That is your part done. The issue contains one record for review. A maintainer c
 
 If no GitHub tab opens, click **Open the prepared suggestion** below the button.
 
-## Suggest an opening-cutscene line
+## Suggest a cutscene line
 
-Use the [Cutscenes editor](https://zthegin.github.io/cutscenes.html) and choose a script from `s01` through `s05`. Select your legally obtained original ROM, choose an entry, and edit its English parts. Keep their count and order. Click **Suggest on GitHub**, check the prepared issue and submit it. No coding is required. These suggestions do not use the field-dialogue JSON/CSV batch route below. Loading the ROM reveals supported untranslated entries with blank English parts. Records with unknown controls stay read-only.
+Use the [Cutscenes editor](https://zthegin.github.io/cutscenes.html) and choose a script from `s01` through `s05`. Select your legally obtained original ROM, choose an entry, and edit its English parts. Keep their count and order. Click **Suggest on GitHub**, check the issue and submit it. Loading the ROM shows the Japanese. Records with unknown controls stay read-only.
 
 Keep **Yorozuya**, **Gin Tama** and character names consistent. If you only proofread the English without checking the Japanese, say so in your note. The [translation notes](TRANSLATION_GUIDE.md) cover wording; the [game and anime background](ABOUT_THE_GAME.md) introduces the setting.
 
@@ -41,7 +41,7 @@ Use this optional route for several field-dialogue lines or image labels togethe
 | Dialogue batch `batch_0001` | `translations/ready/batch_0001.json` | `csv/ready/batch_0001.csv` |
 | Image labels | `translations/graphics/gin_tama_names.json` | `csv/graphics/gin_tama_names.csv` |
 
-For other dialogue batches, keep their existing filenames and folders. Remove any `(1)` suffix added by your browser. Leave IDs, hashes, record order and page counts unchanged.
+For other batches, use the same filenames and folders as the files you edited. Remove any `(1)` suffix your browser added. Keep the IDs, hashes, record order and page counts as they are.
 
 Other GitHub users can review your PR without joining a reviewer list. Two approvals on the current revision put valid translation edits in the reviewed queue for the owner's attention. The owner merges manually into `staging`, then decides what reaches `main`. Nothing merges automatically. If reviewers request changes, update the same branch and upload both files again. New commits need new approvals. You do not need to edit `TRANSLATORS.md`.
 

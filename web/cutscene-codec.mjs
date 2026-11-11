@@ -29,7 +29,7 @@ export function checkParts(parts, expectedCount) {
 }
 
 export function checkScene(scene) {
-  check(sameKeys(scene, ['format', 'script', 'scope', 'source_msb_sha256', 'source_cdb_sha256', 'notes', 'messages']), 'Invalid opening scene data.');
+  check(sameKeys(scene, ['format', 'script', 'scope', 'source_msb_sha256', 'source_cdb_sha256', 'notes', 'messages']), 'Invalid cutscene data.');
   check(scene.format === 'gintama-cutscene-v1' && /^adventure\/script\/s0[1-5]\.msb$/.test(scene.script), 'Unsupported cutscene script.');
   check(hexHash(scene.source_msb_sha256) && hexHash(scene.source_cdb_sha256), 'Invalid cutscene source hash.');
   check(typeof scene.scope === 'string' && Array.isArray(scene.notes) && scene.notes.every((note) => typeof note === 'string'), 'Invalid scene description.');
@@ -49,7 +49,7 @@ export function checkScene(scene) {
 export function formatScene(scene, messages, originals = scene.messages) {
   checkScene(scene);
   const indexed = new Map(originals.map((row) => [row.offset, row]));
-  check(Array.isArray(messages) && scene.messages.every((old) => messages.some((row) => row.offset === old.offset)), 'Keep every opening entry.');
+  check(Array.isArray(messages) && scene.messages.every((old) => messages.some((row) => row.offset === old.offset)), 'Keep every cutscene entry.');
   let previous = 0;
   messages.forEach((row) => {
     const original = indexed.get(row.offset);
@@ -68,7 +68,7 @@ export async function readSceneGame(bytes, name, scene) {
     check(/\.(nds|srl)$/i.test(name), 'Select your legally obtained original .nds ROM or its extracted s01.msb.');
     const files = ndsFiles(bytes);
     game = { msb: files.get(scene.script), cdb: files.get(scene.script.slice(0, -3) + 'cdb') };
-    check(game.msb && game.cdb, 'This ROM has no supported opening script.');
+    check(game.msb && game.cdb, 'This ROM has no supported cutscene script.');
   }
   await verifyGame(game, scene);
   const indexed = scanScript(game.msb, { minimumOffset: scene.script.endsWith('/s01.msb') ? 16 : 4, label: 'cutscene script' });
@@ -76,10 +76,10 @@ export async function readSceneGame(bytes, name, scene) {
   const rows = await Promise.all(indexed.filter((row) => row.partCount > 0).map(async (row) => {
     const digest = await sha256(game.msb.subarray(row.offset, row.end));
     const original = bundled.get(row.offset);
-    check(!original || (original.source_words_sha256 === digest && original.parts.length === row.partCount), 'Bundled opening record differs from the source.');
+    check(!original || (original.source_words_sha256 === digest && original.parts.length === row.partCount), 'Bundled cutscene record differs from the source.');
     return { offset: row.offset, source_words_sha256: digest, parts: original ? [...original.parts] : Array(row.partCount).fill('') };
   }));
-  check(scene.messages.every((row) => rows.some((r) => r.offset === row.offset)), 'Unsupported bundled opening record.');
+  check(scene.messages.every((row) => rows.some((r) => r.offset === row.offset)), 'Unsupported bundled cutscene record.');
   return { ...game, rows, unsupported: indexed.length - rows.length };
 }
 

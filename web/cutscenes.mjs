@@ -44,7 +44,7 @@ function list() {
     $('scene-entries').append(li);
     count++;
   });
-  $('scene-count').textContent = `${count} cutscene entries`;
+  $('scene-count').textContent = `${count.toLocaleString('en-US')} shown · ${state.scene.messages.length.toLocaleString('en-US')} with bundled English`;
 }
 
 function feedback() {
@@ -110,21 +110,23 @@ async function show(index) {
 }
 
 function exportScene() {
-  if (!state.scene) throw new Error('Wait for the opening entries to load.');
+  if (!state.scene) throw new Error('Wait for the cutscene entries to load.');
   const messages = state.rows.map(working).filter((row) => row.parts.some((part) => part.trim()));
   const originals = new Map(state.rows.map((row) => [row.offset, row]));
   const changes = messages.filter((row) => row.parts.some((part, p) => part !== originals.get(row.offset).parts[p])).length;
   if (!changes) throw new Error('Change the English before exporting an edited scene.');
-  return { changes, content: formatScene(state.scene, messages, state.rows) };
+  const script = state.scene.script.split('/').pop();
+  const filename = script === 's01.msb' ? 'opening_scene.json' : script.replace('.msb', '.json');
+  return { changes, filename, content: formatScene(state.scene, messages, state.rows) };
 }
 
 function download() {
   try {
-    const { changes, content } = exportScene();
+    const { changes, filename, content } = exportScene();
     const blob = new Blob([content], { type: 'application/json;charset=utf-8' });
     const url = URL.createObjectURL(blob), a = document.createElement('a');
     a.href = url;
-    a.download = state.scene.script.endsWith('/s01.msb') ? 'opening_scene.json' : state.scene.script.slice(17, -4) + '.json';
+    a.download = filename;
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     $('scene-export-status').textContent = `${changes} changed entries. Test this JSON with --cutscene before submitting. It contains English and identifiers only.`;
@@ -144,9 +146,9 @@ async function copyJson() {
   try {
     if (!navigator.clipboard?.writeText) throw new Error('Clipboard is unavailable.');
     await navigator.clipboard.writeText(exported.content);
-    $('scene-export-status').textContent = `${exported.changes} changed entries copied. Paste into a new opening_scene.json file, then test it with --cutscene.`;
+    $('scene-export-status').textContent = `${exported.changes} changed entries copied. Save as ${exported.filename}, then test it with --cutscene.`;
   } catch {
-    $('scene-export-status').textContent = 'This browser could not copy the JSON. Use Download opening JSON, or allow clipboard access and try again.';
+    $('scene-export-status').textContent = 'This browser could not copy the JSON. Use Download cutscene JSON, or allow clipboard access and try again.';
   }
 }
 
@@ -155,10 +157,10 @@ function suggest() {
     if (!state.scene || !state.repository) throw new Error('Wait for the editor to load.');
     const row = state.rows[state.active];
     const body = sceneSuggestion(state.scene, row, working(row).parts);
-    const issueUrl = `https://github.com/${state.repository}/issues/new?title=${encodeURIComponent('Opening translation: ' + sceneId(row, state.scene))}&body=${encodeURIComponent(body)}`;
+    const issueUrl = `https://github.com/${state.repository}/issues/new?title=${encodeURIComponent('Cutscene translation: ' + sceneId(row, state.scene))}&body=${encodeURIComponent(body)}`;
     window.open(issueUrl, '_blank', 'noopener,noreferrer');
     $('scene-record-status').classList.remove('error');
-    $('scene-record-status').textContent = 'Review the English-only issue and submit it on GitHub. A maintainer imports opening suggestions manually. If no tab opened, ';
+    $('scene-record-status').textContent = 'Review the English-only issue and submit it on GitHub. A maintainer reviews cutscene suggestions. If no tab opened, ';
     const link = document.createElement('a');
     link.href = issueUrl;
     link.rel = 'noreferrer';
@@ -183,14 +185,14 @@ async function loadFile(event) {
   $('scene-original').textContent = 'Checking the newly selected file…';
   status('Checking your local original game file…');
   try {
-    if (!state.scene) throw new Error('Wait for the opening index to load.');
+    if (!state.scene) throw new Error('Wait for the cutscene index to load.');
     if (file.size > 512 * 1024 * 1024) throw new Error('File exceeds the 512 MiB limit.');
     const game = await readSceneGame(new Uint8Array(await file.arrayBuffer()), file.name, state.scene);
     if (version !== state.gameVersion) return;
     state.game = game;
     state.rows = game.rows;
     state.active = Math.max(0, state.rows.findIndex((row) => row.offset === selectedOffset));
-    status('Original opening verified. Your game bytes and Japanese stay in this tab.');
+    status('Original cutscene script verified. Your game bytes and Japanese stay in this tab.');
     await show(state.active);
   } catch (error) {
     if (version !== state.gameVersion) return;
@@ -218,6 +220,8 @@ try {
   const catalogScenes = await response.json();
   if (catalogScenes.format !== 'gintama-cutscenes-v1' || !Array.isArray(catalogScenes.scenes)) throw new Error('Invalid cutscene catalog.');
   state.scenes = catalogScenes.scenes.map(checkScene);
+  const translated = state.scenes.reduce((total, scene) => total + scene.messages.length, 0);
+  $('scene-coverage').textContent = `${translated.toLocaleString('en-US')} records with English across ${state.scenes.length} scripts.`;
   const selector = $('scene-script');
   for (const item of state.scenes) {
     const option = document.createElement('option'); option.value = item.script;
@@ -232,14 +236,14 @@ try {
     $('scene-id').textContent = ''; list();
     if (state.rows.length) await show(0);
     if (state.file) await loadFile({ target: { files: [state.file] } });
-    else status('Load your original ROM to reveal untranslated entries in this script.');
+    else status('Load your original ROM to see the Japanese for this script.');
   });
   state.rows = state.scene.messages;
   state.glyphs = glyphs;
   if (!/^[a-z\d_.-]+\/[a-z\d_.-]+$/i.test(catalog.repository || '')) throw new Error('Invalid contribution repository.');
   state.repository = catalog.repository;
   await show(0);
-  status('Edit the opening English here. Select your own legally obtained original game file to see its Japanese.');
+  status('Choose a cutscene entry to review its English. Load your own legally obtained ROM to see the Japanese.');
 } catch (error) {
   status(error.message, true);
 }

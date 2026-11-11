@@ -7,5 +7,3639 @@
   "notes": [
     "Unofficial fan translation. Game files and Japanese are supplied locally from your legally obtained ROM. See RIGHTS.md."
   ],
-  "messages": []
+  "messages": [
+    {
+      "offset": 4,
+      "source_words_sha256": "1563b609671cdc8f0e204ec5150d34929d7e6de53a2b1c76e8ad305c9fd89f86",
+      "parts": [
+        "Oh, great!\nAnother pain in the ass!"
+      ]
+    },
+    {
+      "offset": 48,
+      "source_words_sha256": "1b4735756cbdf63038a1b8c74e9ce3149823f124cdbfe01fe810c2921f38ee7c",
+      "parts": [
+        "You lot!\nDon't move!!"
+      ]
+    },
+    {
+      "offset": 88,
+      "source_words_sha256": "605f21c6d9d3e399e939bd89a98dbc030dce303a5be1b160786567edc925ca7e",
+      "parts": [
+        "The Shinsengumi...!"
+      ]
+    },
+    {
+      "offset": 116,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 144,
+      "source_words_sha256": "f9f5469f212e43b69f0919918bf5de49cf9af032fb3de782d2a553c3f1435b09",
+      "parts": [
+        "Shut up, I hear you.\nAnyway, Kagura..."
+      ]
+    },
+    {
+      "offset": 200,
+      "source_words_sha256": "b0b503718e3f4626bc9e9fcb48a4372bdffb8bcfd0644d50101b3eed8b15e767",
+      "parts": [
+        "Is that all\nyou've got to say?!"
+      ]
+    },
+    {
+      "offset": 240,
+      "source_words_sha256": "a366f4dddd9fd9aab47ed0b4669e51b7a57c8c496f7b4f32a6eb1161683cc842",
+      "parts": [
+        "Starving samurai\nstill pick their teeth."
+      ]
+    },
+    {
+      "offset": 292,
+      "source_words_sha256": "81ce1cd30ccc3df2896baa4605af2a3666643aaa0e3030a7bf286be950b262c4",
+      "parts": [
+        "Huh? Well, uh...\nYou know... That."
+      ]
+    },
+    {
+      "offset": 344,
+      "source_words_sha256": "d61ee17ccd39ca702f55dad060e455f6f8ce41afec39381c486ea7ce4bc16bfe",
+      "parts": [
+        "A fancy toothpick's\neasier on your gums\nafter a meal."
+      ]
+    },
+    {
+      "offset": 424,
+      "source_words_sha256": "758723917ff7ba2d7440acb186270798b2f6714b8949dba28a03cfeff07d3b7c",
+      "parts": [
+        "...Or something."
+      ]
+    },
+    {
+      "offset": 444,
+      "source_words_sha256": "0b579088d135dc8cfaa14166039cde6e435eddbdf5cb16d6c099509012b69530",
+      "parts": [
+        "That's it.\nProbably."
+      ]
+    },
+    {
+      "offset": 472,
+      "source_words_sha256": "d71ef901bdebb3278d3c2c73eedfb84c66135fdb3c8bda1410ab38139462bd83",
+      "parts": [
+        "Where's Shinpachi?"
+      ]
+    },
+    {
+      "offset": 504,
+      "source_words_sha256": "946e4ddf71018e34aa4b9a3d1a9ae587d30f330c86f9a9579ce2c1e4e0a46867",
+      "parts": [
+        "Haven't seen him\nfor a while..."
+      ]
+    },
+    {
+      "offset": 548,
+      "source_words_sha256": "45d34acea9a7c089444faf657b76ac93d21d6149d299d18661c65fbc15f18b42",
+      "parts": [
+        "What?\nA part-time job?!"
+      ]
+    },
+    {
+      "offset": 580,
+      "source_words_sha256": "697f94d649ba12b61b2b6e05ab2bc695f2a875fbc81b1d24ad1c13ede2d6ab6b",
+      "parts": [
+        "Say it like that,\nand it sounds\nlike my fault!"
+      ]
+    },
+    {
+      "offset": 644,
+      "source_words_sha256": "2c86d62fbcc034607eb1229e5414ee9c88f0235ea9630ecec68170a9188b42f1",
+      "parts": [
+        "I've heard enough,\nyou little brat!"
+      ]
+    },
+    {
+      "offset": 680,
+      "source_words_sha256": "c7482ec6fa388b63d8477e6a6407d3f54acb5d0188567b3f3032f875ab78de7c",
+      "parts": [
+        "Want me to knock you\nback into space?!"
+      ]
+    },
+    {
+      "offset": 716,
+      "source_words_sha256": "53a8cb47e7e2f96d1fbd96572aaa3019f1ff368bf18517f6729c3e8df1097da7",
+      "parts": [
+        "Whoa!\nYou scared me!!"
+      ]
+    },
+    {
+      "offset": 748,
+      "source_words_sha256": "44781d3785ead7cd3dfcf20b8ac271239018468c7f8f91893be25146486e245e",
+      "parts": [
+        "Don't shove that\ncriminal face\nat me like that!"
+      ]
+    },
+    {
+      "offset": 808,
+      "source_words_sha256": "61c2f10c5e4160fc717795dfac7507ab4d6e160375db056e201e75fce42ef931",
+      "parts": [
+        "You'll give my\ndelicate heart\na cardiac arrest!"
+      ]
+    },
+    {
+      "offset": 868,
+      "source_words_sha256": "68de273ff3b67ead9950a67aec3069460beb6a990d9a9f01f659233fda9e10e1",
+      "parts": [
+        "Huh?"
+      ]
+    },
+    {
+      "offset": 880,
+      "source_words_sha256": "c1819409d4c6b21461022d0eb360157fb15fc70e9c2a3616e3a4889ad4ad9c54",
+      "parts": [
+        "What?!"
+      ]
+    },
+    {
+      "offset": 892,
+      "source_words_sha256": "fd518212daf483febaf65a6cdb7d346aae602f15671ee06adc6000e73e25d997",
+      "parts": [
+        "What a wimp!!"
+      ]
+    },
+    {
+      "offset": 920,
+      "source_words_sha256": "6007abedd45a298934c93823ac404eaea05a34dc9bdf9f926470873060ab5306",
+      "parts": [
+        "!?"
+      ]
+    },
+    {
+      "offset": 928,
+      "source_words_sha256": "4d460d5ee57e00a9c089e8a3b79a2ff67c539a1e0eab83c2cd331e3063abe3c7",
+      "parts": [
+        "Gin-chan!\nI'm hungry!"
+      ]
+    },
+    {
+      "offset": 964,
+      "source_words_sha256": "3e1446efe16f6685b024e1bc2e9fdc291899ac5acc5315d56d7ab196cbf6a4e6",
+      "parts": [
+        "Hey!\nGiiin-chan!"
+      ]
+    },
+    {
+      "offset": 992,
+      "source_words_sha256": "d6bede246ab7f4caeee0deb3813746f4d1c83eec06810eba4683b22f1819b772",
+      "parts": [
+        "Can't help it.\nIt's the truth."
+      ]
+    },
+    {
+      "offset": 1036,
+      "source_words_sha256": "87854d1ba60007d78955f193d7a286a5ab28bd0550157178c8f1bcce13dfba18",
+      "parts": [
+        "Nope.\nWhat's it mean?"
+      ]
+    },
+    {
+      "offset": 1076,
+      "source_words_sha256": "5aa3a9c4102420998ca464577946681d3c602237cf9fa40a73253552d3173697",
+      "parts": [
+        "Don't teach me\nmade-up crap!"
+      ]
+    },
+    {
+      "offset": 1120,
+      "source_words_sha256": "a1a7e96f23f2316499a2079b4de52f3ef2196f2817aa3d1d4d06a041f335b2ba",
+      "parts": [
+        "He went looking\nfor a job."
+      ]
+    },
+    {
+      "offset": 1216,
+      "source_words_sha256": "dd9edd52766e9fdba76c930e92f717950cf8fe93e060bd59c22ed366b8900196",
+      "parts": [
+        "That's exactly\nright."
+      ]
+    },
+    {
+      "offset": 1244,
+      "source_words_sha256": "6bef0c3725aa73f0c9aa4c53021ca33b68f776ae1955f2dbced473b12d1a94c9",
+      "parts": [
+        "Did he collapse\nfrom hunger?!"
+      ]
+    },
+    {
+      "offset": 1276,
+      "source_words_sha256": "aad8d9ff8b0c32dfe31b7086cd4524fbe2c1a6813f240a749ba3abf48afb9867",
+      "parts": [
+        "You gonna feed us?"
+      ]
+    },
+    {
+      "offset": 1312,
+      "source_words_sha256": "dd50bf9a42031b6146e3b6a31ff85b470b39b13bde378cfe927de7a82b1cbded",
+      "parts": [
+        "Y-you two!\nThis is terrible!!"
+      ]
+    },
+    {
+      "offset": 1344,
+      "source_words_sha256": "be478c7745bc7e4179784510070f7e496591d95cd3ead26bc1623495a3154d68",
+      "parts": [
+        "Before your heart\nstops, shave off\nthat thick skin!"
+      ]
+    },
+    {
+      "offset": 1404,
+      "source_words_sha256": "c09537d13bfa213a28b58fa1217ab2d8ae78683e453c875fc0ba43caaace4f57",
+      "parts": [
+        "...But there's\nno time for that!"
+      ]
+    },
+    {
+      "offset": 1448,
+      "source_words_sha256": "18ddbcb1ccacbdf4fbab00ddc901eabe431b891625960e9f2525b930c0e9ea7d",
+      "parts": [
+        "It's Shinpachi!\nHe's in trouble!!"
+      ]
+    },
+    {
+      "offset": 1484,
+      "source_words_sha256": "65362bba3f77a5fb3a19a3130412bd391b3de512be8880570f5129d951d101a8",
+      "parts": [
+        "No! Just come\ndown to the shop!!"
+      ]
+    },
+    {
+      "offset": 1528,
+      "source_words_sha256": "0f4776605ba9dc24444b7886ee1185bb245c1b0edd0a1155db973a04ff5a8f77",
+      "parts": [
+        "Quit your nonsense\nand get down here!!"
+      ]
+    },
+    {
+      "offset": 1568,
+      "source_words_sha256": "4d0e2ae049f4b0d56e864be504a79248e2302d4e66e746ff5115822b5ac55914",
+      "parts": [
+        "............!"
+      ]
+    },
+    {
+      "offset": 1600,
+      "source_words_sha256": "c785d03b92f920a0d383d0b6665ab01184686065f3b95ad6d80f700154f214f0",
+      "parts": [
+        "No complaints here,\nright? Spill it, Zura."
+      ]
+    },
+    {
+      "offset": 1656,
+      "source_words_sha256": "cea22034c8a229e6cf4c4767ae677ebaa2dbcfd138e0a58047d7c4fc4d880094",
+      "parts": [
+        "Everything you know\nabout Gin Tama!"
+      ]
+    },
+    {
+      "offset": 1692,
+      "source_words_sha256": "b9d3672f226e73a9651332b2959da72edf399bcef45487e7f5fd77b499f553cf",
+      "parts": [
+        "What?!\nEven now you...!!"
+      ]
+    },
+    {
+      "offset": 1732,
+      "source_words_sha256": "be9882c3305b94cacc87cd3c1ddfaa56c16f265eba2ccf9045afdbf44d5e3324",
+      "parts": [
+        "Too late! We've been\ncaught up in this\nfor ages!"
+      ]
+    },
+    {
+      "offset": 1788,
+      "source_words_sha256": "1231e68094b1fbf238274ba174ecb5a178532bd0005eeac2f0fa384c0d355854",
+      "parts": [
+        "I'm warning you.\nThis won't be like\nlast time."
+      ]
+    },
+    {
+      "offset": 1848,
+      "source_words_sha256": "ec8855b4f81bce4493c926b7c7bc93be5a2d64aa66bc5da64f7f8a4923341b9f",
+      "parts": [
+        "I'll make you talk!"
+      ]
+    },
+    {
+      "offset": 1872,
+      "source_words_sha256": "fe19ac651749cb28d3d2999654c85ba217e49875a2a6f2296aa3112c7f607533",
+      "parts": [
+        "I'll spank you!"
+      ]
+    },
+    {
+      "offset": 1904,
+      "source_words_sha256": "5009cdb1e19cfa58b14540f5691869187fc7432f089508be159f0bc3b1a9f65a",
+      "parts": [
+        "!"
+      ]
+    },
+    {
+      "offset": 1912,
+      "source_words_sha256": "8f07211884690108a115ed057bdfdf6b9b2d38c725d67978dc6c39849737bd3b",
+      "parts": [
+        "Big talk!\nWant to settle this\nwith Gin Tama?"
+      ]
+    },
+    {
+      "offset": 1972,
+      "source_words_sha256": "c44bd8103041df2d91753a6dec564750bb88f18370c424c660afb00ae680a359",
+      "parts": [
+        "Huuuh?"
+      ]
+    },
+    {
+      "offset": 1984,
+      "source_words_sha256": "fbe5d41e03490473c3fe5bd5136c65ae60cbe0113d035a1a1db63038682b354f",
+      "parts": [
+        "Hmph! A promise\nis a promise, Zura.\nSpill everything."
+      ]
+    },
+    {
+      "offset": 2044,
+      "source_words_sha256": "4665634f725f9a8a7af4984679e4682b8779f8c960733bfd5cf7f0e3bebbfff2",
+      "parts": [
+        "So that means..."
+      ]
+    },
+    {
+      "offset": 2072,
+      "source_words_sha256": "2a84b0ad6c0fbaff817e389518a1d4cf073c992a874f9bb5940d17c6c38b2604",
+      "parts": [
+        "Sounds like\nyou didn't know."
+      ]
+    },
+    {
+      "offset": 2120,
+      "source_words_sha256": "379cf49c4b3685e47345c0805e48f8e29fe8407c0df983c80a602f652ec6850e",
+      "parts": [
+        "Apparently he's\nregretting it now."
+      ]
+    },
+    {
+      "offset": 2156,
+      "source_words_sha256": "05059547ad6d381c3f27d536f4c05e5f3f417f1d33e7826f545351e19d72919f",
+      "parts": [
+        "Got into\nsomething risky."
+      ]
+    },
+    {
+      "offset": 2200,
+      "source_words_sha256": "076d7df25ee4989c2198db68f7dc60f503edd5be2771847b8b985f1da946ec8b",
+      "parts": [
+        "But weapons?\nThey're just\nlittle toy balls."
+      ]
+    },
+    {
+      "offset": 2264,
+      "source_words_sha256": "b79e03c62259d88935b09522a70686be25d9f30375834e23ea3c48fc569f05ce",
+      "parts": [
+        "But?"
+      ]
+    },
+    {
+      "offset": 2276,
+      "source_words_sha256": "4bed41281a335d3b521535952e5c6da473ae97fefe9c1d00d8051cf572d1f36e",
+      "parts": [
+        "What the hell\nhappened?"
+      ]
+    },
+    {
+      "offset": 2308,
+      "source_words_sha256": "399ccf68af3aae7ec0c8df2d44ca6e6ae940196ecbbd43c6abc2a643ef730e51",
+      "parts": [
+        "That Chinese-food\nname... I've heard\nit somewhere..."
+      ]
+    },
+    {
+      "offset": 2384,
+      "source_words_sha256": "382c39d17bf7b0de5ed8b23745b3af7f2d34243575046645f103c65ffbdf792d",
+      "parts": [
+        "So that wasn't\na fake name?"
+      ]
+    },
+    {
+      "offset": 2412,
+      "source_words_sha256": "c398d73fb9028a0b20bafc7cfb2e6db270d2cf5b5421c846e600db37dd7e2cf1",
+      "parts": [
+        "...No.\nNeither of those."
+      ]
+    },
+    {
+      "offset": 2456,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 2484,
+      "source_words_sha256": "ad97ecbb1672cef6d8660392762db16ba8b13a631999dcbeeead3740d0c8936d",
+      "parts": [
+        "Huh? Oh, yeah...\nCome to think of it..."
+      ]
+    },
+    {
+      "offset": 2524,
+      "source_words_sha256": "5bf11bb201237b6793cf4246608da305d67bfd18fde5e552849bf27e685c66ca",
+      "parts": [
+        "...Tch. Looks like\nit all connects\nin a weird way."
+      ]
+    },
+    {
+      "offset": 2596,
+      "source_words_sha256": "be1926a9b9573df0872c37a8b5f41279ea1541855bd0b425df475c76fd5fd74a",
+      "parts": [
+        "Honestly!\nYou and Sakamoto\nare both idiots..."
+      ]
+    },
+    {
+      "offset": 2652,
+      "source_words_sha256": "67061e7d449cd71fe8b9475db94bfa0d879364d5ca9d46a2dbdbce61fada1b68",
+      "parts": [
+        "Dumb concern and\nlow-sugar sweets."
+      ]
+    },
+    {
+      "offset": 2704,
+      "source_words_sha256": "a551cc61904bc5141cc66fc62747e9f7df6bf2aa57a99d15ef6b804667f690a6",
+      "parts": [
+        "Bang Bang Chicken,\nbungee jumping...\nWhatever they are!"
+      ]
+    },
+    {
+      "offset": 2760,
+      "source_words_sha256": "84d61e567a5aa34221d942f9b236ee121f1870e9819536f20971d30ed90837a5",
+      "parts": [
+        "Like hell I'll let\nthem run wild here!"
+      ]
+    },
+    {
+      "offset": 2800,
+      "source_words_sha256": "4a616752ac106bc4213336e7de6e14042785935ed46f5b6337b429f64f5d9d5e",
+      "parts": [
+        "This is...\na land of samurai!"
+      ]
+    },
+    {
+      "offset": 2836,
+      "source_words_sha256": "85cb8c8360bac32d91b49121b4211171f358bb812aaa2deb46193ad6b86e5b47",
+      "parts": [
+        "Yeah! I'll show 'em\nthe difference between\na man and an ape!"
+      ]
+    },
+    {
+      "offset": 2900,
+      "source_words_sha256": "6fbed33c9babeb7b75a25631b81263a126c0ec85f4b7b3afba838fed23042a74",
+      "parts": [
+        "Damn it!\nI lost!"
+      ]
+    },
+    {
+      "offset": 2932,
+      "source_words_sha256": "eadad93a158e049b9a63dbdb503f6863f31193c2f95d7261a60fe0b48dd11661",
+      "parts": [
+        "Gah! You two just\nsay whatever\nyou want!"
+      ]
+    },
+    {
+      "offset": 2976,
+      "source_words_sha256": "dca380782f1c02525d9c8518228b9d63a3cb65a8a8153993a81d33617f48b207",
+      "parts": [
+        "And quit comparing\nme to some kid\ntaking entrance exams!"
+      ]
+    },
+    {
+      "offset": 3032,
+      "source_words_sha256": "73a2724ddcc577d9d9adda6f0231b1adcd4ca18625769c3b5e105d8238c2c730",
+      "parts": [
+        "Why the hell are\nyou yelling now?!"
+      ]
+    },
+    {
+      "offset": 3080,
+      "source_words_sha256": "5cde38a817196c23e152be3c790774b491e70f58575205ec5bf47e8c09464704",
+      "parts": [
+        "You idiots!"
+      ]
+    },
+    {
+      "offset": 3096,
+      "source_words_sha256": "1839bda8d5172e7ac9c2371b0c605454eedfdad3bd6d99c388ab81d3965207ce",
+      "parts": [
+        "While you were\nbusy squawking..."
+      ]
+    },
+    {
+      "offset": 3136,
+      "source_words_sha256": "dc8c8c44fd130efb88561262bc5ab7dd4480b1bc197352db93b2ba41f4584986",
+      "parts": [
+        "Shut up!!\nThat's it!\nI quit!!"
+      ]
+    },
+    {
+      "offset": 3188,
+      "source_words_sha256": "ff1fde4461106b0b01446fe7d2baad17e8896dfee5b0f8709a33d67262745a7a",
+      "parts": [
+        "I'm on strike!\nI'm not moving\nanother inch!"
+      ]
+    },
+    {
+      "offset": 3236,
+      "source_words_sha256": "5f0fcd19d391d3f6017786895fde896e15d434bbad51b22a92ac7eba40b20781",
+      "parts": [
+        "Press A or poke\nthe screen all\nyou want!"
+      ]
+    },
+    {
+      "offset": 3288,
+      "source_words_sha256": "67f15d03760bf4a315776a49222fd7f14a7e76cb235f0338f01a4f007b8708d1",
+      "parts": [
+        "I won't budge\nfor anything!"
+      ]
+    },
+    {
+      "offset": 3324,
+      "source_words_sha256": "6dfedb62698609ee97833a081bcd4a73baea0e3a43a185e5b2cc234b19c73182",
+      "parts": [
+        "Ha ha ha!\nServes you right!"
+      ]
+    },
+    {
+      "offset": 3352,
+      "source_words_sha256": "1cdafb175baf87f19ca67de4d7f91299dd58fd00d2b0511c5f2d7c0be2550758",
+      "parts": [
+        "Nothing is\nmeaningless!"
+      ]
+    },
+    {
+      "offset": 3388,
+      "source_words_sha256": "e7223b04ad7f89c468c3625e28fbbf9bd5c2b0c9ee6c8a376c8fd4acab368649",
+      "parts": [
+        "You let them\nget away!"
+      ]
+    },
+    {
+      "offset": 3424,
+      "source_words_sha256": "130c6aa10eab57e9c36d1135d0467573c202af1f080c0681ac72b49ba53adf7d",
+      "parts": [
+        "Zura loses!"
+      ]
+    },
+    {
+      "offset": 3448,
+      "source_words_sha256": "0d5ef580b42f93d5ddbbbf7c3014eda2218a3ebf2a337cae369503930828164b",
+      "parts": [
+        "I know who made them!\nOld man Hiraga,\nthe inventor!"
+      ]
+    },
+    {
+      "offset": 3516,
+      "source_words_sha256": "40360323b246ad8df6c3a582ea8636665826d20dbc88947406a6a7aeb875d8b8",
+      "parts": [
+        "Bang Bang Chicken?!"
+      ]
+    },
+    {
+      "offset": 3540,
+      "source_words_sha256": "926e774267b1b7c54181bddc9db2ff76c54696f175595da49d2916afe5da0be7",
+      "parts": [
+        "Yeah!\nTo some chimps..."
+      ]
+    },
+    {
+      "offset": 3576,
+      "source_words_sha256": "654851350559c8d38a1e5c4a4c98126c880a1c770623bb5b6992cefaf19b3f33",
+      "parts": [
+        "Nah, he'd oversleep\nand miss the exam\naltogether!"
+      ]
+    },
+    {
+      "offset": 3644,
+      "source_words_sha256": "03246db979c7703dd1ebc4c471828d931565d5ad77587c01c608f52e6cab4b40",
+      "parts": [
+        "Exactly!\nHe'd spend the\nexam fee on sweets!"
+      ]
+    },
+    {
+      "offset": 3700,
+      "source_words_sha256": "09c75b9347922c1d72c1bf1f81b55e2c3bee783cdd9274860769f9d663fcfcdf",
+      "parts": [
+        "Aah!?"
+      ]
+    },
+    {
+      "offset": 3716,
+      "source_words_sha256": "111f6d9426d2c3372594cd17027c53792f3ee4d173358579c9f1564df27cb7ee",
+      "parts": [
+        "Zura and Elizabeth\nare gone!"
+      ]
+    },
+    {
+      "offset": 3752,
+      "source_words_sha256": "8b9caaa4f433a29a41ce8c2befa24723034ed6b625d6fdc76369dc9e8d9f6a3e",
+      "parts": [
+        "That's right!\nIt's Gin-chan's fault\nfor losing!"
+      ]
+    },
+    {
+      "offset": 3808,
+      "source_words_sha256": "e65e0c8f5ee57c86bad832625e1bca2cf41c70491e56d68850ae4f3705029f65",
+      "parts": [
+        "Perm-head!"
+      ]
+    },
+    {
+      "offset": 3820,
+      "source_words_sha256": "22104c0b6006e7e32f2fc0d5dc65671b8a3a4c3a2032122b42b7c839a5cb6836",
+      "parts": [
+        "Well, nothing\nwe can do now."
+      ]
+    },
+    {
+      "offset": 3852,
+      "source_words_sha256": "b6ab3ccefe807057c13f0ac506959a0cda77e701aae2698901a0e8541d923609",
+      "parts": [
+        "Give him some sweets\nand he'll perk up.\nHe's that simple!"
+      ]
+    },
+    {
+      "offset": 3920,
+      "source_words_sha256": "f9212eb5d86acc285047ab3ff12c64e3bb856526578cdb71bfde7337a1727d43",
+      "parts": [
+        "We won't let you\nhave your way!"
+      ]
+    },
+    {
+      "offset": 3956,
+      "source_words_sha256": "a4f559e02ba8e65381638ef3dab24c84c630bc56e66a9ed3a839b36af9edcfaf",
+      "parts": [
+        "To put it\nsimply... No."
+      ]
+    },
+    {
+      "offset": 4000,
+      "source_words_sha256": "80d5fe617d96574fb39b507ce042ca3b9e89056f1f980abb6ecd7235212bec27",
+      "parts": [
+        "I'm sorry, Gintoki.\nI can't get you\ninvolved in this."
+      ]
+    },
+    {
+      "offset": 4052,
+      "source_words_sha256": "774188ce5eed8d108f174b5dcc3eb25ae767ed4d65cd1fc6f5280ea3a3f04cbe",
+      "parts": [
+        "Gintoki..."
+      ]
+    },
+    {
+      "offset": 4072,
+      "source_words_sha256": "d6bf879519822a209ab09cf1b9ef6d6d80b5a78daafaf48a48e73f748effd8e8",
+      "parts": [
+        "...And if I refuse?"
+      ]
+    },
+    {
+      "offset": 4104,
+      "source_words_sha256": "09c60277ff23280f65524eec68fe0b434fe5e0fd54a75ac6f0c5617f5d454306",
+      "parts": [
+        "You'll use force?\nThen I have\nno choice."
+      ]
+    },
+    {
+      "offset": 4144,
+      "source_words_sha256": "395d06d94000d5662e18fa11bbc8db6f30d7b38125c8057f8a5df91a667947a0",
+      "parts": [
+        "No."
+      ]
+    },
+    {
+      "offset": 4152,
+      "source_words_sha256": "0a01eec6fc4298d1a5592302df608bca6b0c2b585ffb971cfcf16acb7c28a80c",
+      "parts": [
+        "I'll force you\nto leave!"
+      ]
+    },
+    {
+      "offset": 4188,
+      "source_words_sha256": "719235fae092a281f6a8449a5ef415c9da0054524d8a4113ff2f6a48a50c8650",
+      "parts": [
+        "Very well.\nBut I cannot\nlose this battle."
+      ]
+    },
+    {
+      "offset": 4252,
+      "source_words_sha256": "ad71aa396408b2404805f6d7d2e06762949552d7241d4b5e84790d76214b3620",
+      "parts": [
+        "A little unfair,\nbut we'll take\nyou on together."
+      ]
+    },
+    {
+      "offset": 4300,
+      "source_words_sha256": "de522066a052d43696aac716763b0a8491767c9dacb21620f355b06c419f7d95",
+      "parts": [
+        "...Ready,\nElizabeth?!"
+      ]
+    },
+    {
+      "offset": 4344,
+      "source_words_sha256": "2227325f81b904fd96a5b37526191f800962affdb3b7fb44614788bd572c1967",
+      "parts": [
+        "Damn...!"
+      ]
+    },
+    {
+      "offset": 4376,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 4404,
+      "source_words_sha256": "235da558acbf95ebac7cec26ed47f3e010f3004698a8099a07e99ca1bfbb1839",
+      "parts": [
+        "Heh... No more\nexcuses left\nfor me, then."
+      ]
+    },
+    {
+      "offset": 4468,
+      "source_words_sha256": "206e69689815fa16820d7286dc886daf827db0e0d07d121f9e112c4e26307212",
+      "parts": [
+        "...All right, Gintoki."
+      ]
+    },
+    {
+      "offset": 4500,
+      "source_words_sha256": "b3e529f67e03fbe2a5cea67b9f54179c1632ac6963cd84968982a82b16a6858b",
+      "parts": [
+        "Yes.\nI'll tell you all."
+      ]
+    },
+    {
+      "offset": 4528,
+      "source_words_sha256": "253fcc6999e24974edba4344cb808b06c22fb265d1191bcb0b2dc9ce325baa8d",
+      "parts": [
+        "What?"
+      ]
+    },
+    {
+      "offset": 4540,
+      "source_words_sha256": "b637b438b27a47092f1a964f2b48e13f2731fbe729d4bfd1a578af08f4eb4ea1",
+      "parts": [
+        "What?\nHiraga Gengai?!"
+      ]
+    },
+    {
+      "offset": 4568,
+      "source_words_sha256": "3db195e6ebe0455528b906d3152c0c6a41e13c97ec63310c3758c0eb198b4630",
+      "parts": [
+        "I see.\nThat old man might..."
+      ]
+    },
+    {
+      "offset": 4612,
+      "source_words_sha256": "e26c9e8dc60305217d732e14281acbdeb0e918a0e8d4c862b5802a15267196a8",
+      "parts": [
+        "Yes.\n120% dangerous."
+      ]
+    },
+    {
+      "offset": 4660,
+      "source_words_sha256": "ee4982bca8dc1cc6d97646a546695d6d9fb3b50ce09a2b8f5edeaee12156bbc5",
+      "parts": [
+        "Listen, Gintoki.\nGin Tama are Amanto\ninvasion weapons."
+      ]
+    },
+    {
+      "offset": 4732,
+      "source_words_sha256": "b3c6d55880b338a57019b467bdcaab4b40db4386a35c3f1c4b1d18bbed86d0d8",
+      "parts": [
+        "Gin Tama are\ncutting-edge\nspace tech."
+      ]
+    },
+    {
+      "offset": 4776,
+      "source_words_sha256": "9ee6f07629fca7bf7684bf9e2b795487c9ea6f3e0d4c8d6300784375e0cc3e64",
+      "parts": [
+        "Even I don't know\nhow they work."
+      ]
+    },
+    {
+      "offset": 4824,
+      "source_words_sha256": "790359c0bd9cd715888f653d12e48658d16357cae2fa4867e3ccb4b8a97700e9",
+      "parts": [
+        "They compress\nthe power of words\nand other energies..."
+      ]
+    },
+    {
+      "offset": 4896,
+      "source_words_sha256": "08bdceefa251472d83fbad6663233fd0cb25dc198edbc6a736031d83761bf673",
+      "parts": [
+        "...and seal them\ninside the orbs."
+      ]
+    },
+    {
+      "offset": 4932,
+      "source_words_sha256": "285d5e48b8e5a2731473ef618ad5dc76f72b50d43d549abfeb6cd6bc5750b90d",
+      "parts": [
+        "The problem is\nthat power of words.\nIt makes a fearsome weapon."
+      ]
+    },
+    {
+      "offset": 4992,
+      "source_words_sha256": "36e68b9ba980b65fca3d1bd422105f817ebcdbc82cdf88f877e479bc8a1974b4",
+      "parts": [
+        "I don't know.\nBut..."
+      ]
+    },
+    {
+      "offset": 5024,
+      "source_words_sha256": "ed3d878b78c223b3a00b274b4ab5b7aff7e00f7b7fde36bbf68f3f1ad921fb76",
+      "parts": [
+        "Lately, many\nplanets in space..."
+      ]
+    },
+    {
+      "offset": 5060,
+      "source_words_sha256": "4a42bcf409c76954a31618037da3a0ec831d53b37ba15d04d4e9f0759e7de25a",
+      "parts": [
+        "...fell to an\nillegal armed group."
+      ]
+    },
+    {
+      "offset": 5112,
+      "source_words_sha256": "115b32a09b7d37e059b4be8fb4487bcd6cac3eece5707e7314d47c0c83c5f970",
+      "parts": [
+        "On each planet,\na certain toy was\nall the rage first."
+      ]
+    },
+    {
+      "offset": 5180,
+      "source_words_sha256": "81084d4b7a02a97537549b1c397bec490afccce96bfde62ce46668eebd33c754",
+      "parts": [
+        "And that toy\nwas none other than..."
+      ]
+    },
+    {
+      "offset": 5216,
+      "source_words_sha256": "ad16b59e0bf0aba3f722a5bc08d0874b8c58faf48f94f56572ccd5b9b9099a8f",
+      "parts": [
+        "Then mysterious\ndisasters struck..."
+      ]
+    },
+    {
+      "offset": 5252,
+      "source_words_sha256": "953ae889f23ab4b331f98c4800f60b831e4f83f363ef7599c2bc7a3d769c070e",
+      "parts": [
+        "...and the organization\nthat invaded..."
+      ]
+    },
+    {
+      "offset": 5288,
+      "source_words_sha256": "9ee80b28f66c47dda1d29c81b24e59529d016d1f8f34b4db7bc5b9ccb8a14d30",
+      "parts": [
+        "...conquered them\nwith ease."
+      ]
+    },
+    {
+      "offset": 5324,
+      "source_words_sha256": "8d571b501a50fd0f7a16506a3665b933332f2443be7840d5793d1849af4d7b13",
+      "parts": [
+        "We don't know."
+      ]
+    },
+    {
+      "offset": 5356,
+      "source_words_sha256": "d11941bcbe505ff4b27ff8c2fb224c83c00d4c838fc19e65334cb2d588ac25ef",
+      "parts": [
+        "But I hear the\ninhabitants barely\nresisted at all."
+      ]
+    },
+    {
+      "offset": 5416,
+      "source_words_sha256": "8303380843263514bfbd4f5b9b3353560ef7ed233d1d6f25bf77e597b61dc4ad",
+      "parts": [
+        "Yes... This is\nonly speculation..."
+      ]
+    },
+    {
+      "offset": 5464,
+      "source_words_sha256": "0042af5adc7722db784aa2176a8d0f85a4e46ffde03668e9a6f4e987b6d23524",
+      "parts": [
+        "But it may relate\nto the word energy\nsealed in Gin Tama."
+      ]
+    },
+    {
+      "offset": 5548,
+      "source_words_sha256": "471710497ab621e52f1f7772bb2f73e443f3efbccf8c95b795769850bf815df4",
+      "parts": [
+        "What part of Gin Tama\nthey use, and how\nthey invade with it..."
+      ]
+    },
+    {
+      "offset": 5612,
+      "source_words_sha256": "839a7bb6e0d08b3b0639e6b3817e025bda8c170b2fe9edd488bf46f6aed45cec",
+      "parts": [
+        "...If we knew that,\nwe might be able\nto act."
+      ]
+    },
+    {
+      "offset": 5680,
+      "source_words_sha256": "a95dd898d953b244a454597cfca412032c967dbaaa31febfe1c37d42efa28ca6",
+      "parts": [
+        "Yes! The Gin Tama craze\nis the warning sign\nof an invasion!"
+      ]
+    },
+    {
+      "offset": 5736,
+      "source_words_sha256": "37c047a25d8cb35bd0ad763e39a82f2baaca761a842830f1f6523ae6d7e679a5",
+      "parts": [
+        "Them... Yes, the ",
+        "Bang Bang Chicken pirates",
+        "!"
+      ]
+    },
+    {
+      "offset": 5792,
+      "source_words_sha256": "d8ec3b558d79232713183637cb4868d5b65ad607e4ef2bc5d65122e1d35e38ca",
+      "parts": [
+        "Agreed. Bang Bang\nChicken are taking\nthis country lightly."
+      ]
+    },
+    {
+      "offset": 5864,
+      "source_words_sha256": "f4ad5ba1d31bcbb4ea5c7ff7ee5bf888eef1d15d657397a0bbc27e4eacdf59f9",
+      "parts": [
+        "With Gin Tama\nas weapons..."
+      ]
+    },
+    {
+      "offset": 5896,
+      "source_words_sha256": "6dd18df3043207e0b54900016628ab431d739f8368eeacd1f89fb249ae019e5c",
+      "parts": [
+        "It's a serious\nmatter, after all."
+      ]
+    },
+    {
+      "offset": 5932,
+      "source_words_sha256": "68ee024c065ed8edcdb2cb023b26068fed78299bf0af31da2a9ea2593b58fbf8",
+      "parts": [
+        "Get involved and\nyou could be\nin real danger."
+      ]
+    },
+    {
+      "offset": 5988,
+      "source_words_sha256": "2b13919deeb078447a58ee323d9c0d4a86a470d9b344fc682862ad3e8e9629e4",
+      "parts": [
+        "That's why I'd\nrather you stayed\nout of this..."
+      ]
+    },
+    {
+      "offset": 6056,
+      "source_words_sha256": "9961bd12baf04468fcf3c923483dac53eb8134528f91b71130314e3d7842e1ff",
+      "parts": [
+        "Yes. Sakamoto\nwas helping me\ngather information."
+      ]
+    },
+    {
+      "offset": 6104,
+      "source_words_sha256": "3f96e04b59d8805f767c2878687bc0445c500c2d3fe3e87d78c5259d39f73d8a",
+      "parts": [
+        "He travels\nall over, after all."
+      ]
+    },
+    {
+      "offset": 6148,
+      "source_words_sha256": "753838213fc1e010eaba1df049c4bbf410f96f50d957d47b76f381ab47f52fa4",
+      "parts": [
+        "...But lately,\nhe hasn't contacted\nme at all."
+      ]
+    },
+    {
+      "offset": 6212,
+      "source_words_sha256": "d3af96631517487688cb0b577b8a04ab8dc30650730b979bac1f66a19f727429",
+      "parts": [
+        "I hope nothing\nhas happened to him."
+      ]
+    },
+    {
+      "offset": 6248,
+      "source_words_sha256": "e6ce3493815a3c0dc18252f450ff964c307f468e183f4fe4b459ce43644f7b97",
+      "parts": [
+        "You met Sakamoto?"
+      ]
+    },
+    {
+      "offset": 6272,
+      "source_words_sha256": "fbd4ccaaa68e298dd48e3044ed9b2d43e8ddd8d4eff78022f58ebc1f16595fb9",
+      "parts": [
+        "What do you mean,\nShinpachi?"
+      ]
+    },
+    {
+      "offset": 6304,
+      "source_words_sha256": "0c4030124b2be3d754b05d481ade0c2477bb6da892334c2a80969a4ba5659f19",
+      "parts": [
+        "Hmph. Needless\nconcern... But...\nThat's just like him."
+      ]
+    },
+    {
+      "offset": 6376,
+      "source_words_sha256": "e2eedb8de03db84eb439d07d3aee9901f45c7a6e005f517785777a9ff48ab031",
+      "parts": [
+        "...Gintoki."
+      ]
+    },
+    {
+      "offset": 6396,
+      "source_words_sha256": "432da59cad4da66f19ea16e4648a9f8b85ed01d47803c96f784c52bd11af3b8c",
+      "parts": [
+        "All right.\nNo more secrets.\nLend me your strength."
+      ]
+    },
+    {
+      "offset": 6456,
+      "source_words_sha256": "6a75f61fffd9abe1eb240135fb01f458d1dc70a9261893443511fa8eb26fd5d1",
+      "parts": [
+        "To stop Bang Bang\nChicken's plans!"
+      ]
+    },
+    {
+      "offset": 6492,
+      "source_words_sha256": "d168fcd7c736545e9c314c03311e3f31146d03d1fb48b9b2979486fa88332ca9",
+      "parts": [
+        "They think we're\nan easy target\nto conquer."
+      ]
+    },
+    {
+      "offset": 6540,
+      "source_words_sha256": "a1544645907d051aba798871ce7fc3c9cfa0e7deb62d3120c030935d82f61ec7",
+      "parts": [
+        "You'll tell us?"
+      ]
+    },
+    {
+      "offset": 6568,
+      "source_words_sha256": "90e8e328f788b3af30dc1b7b8c69ff427d8b668f70c5ce47d879b845db35db8e",
+      "parts": [
+        "Katsura?!"
+      ]
+    },
+    {
+      "offset": 6584,
+      "source_words_sha256": "fc9917ea9b46d2b167171fe36703c3441dec5d4ac91516445bdd2a1750a757fe",
+      "parts": [
+        "We did it, Gin!"
+      ]
+    },
+    {
+      "offset": 6604,
+      "source_words_sha256": "67347a136258a870fcf20d8eb9c2f32239720ff6d781309d1fe9de7e937140bd",
+      "parts": [
+        "Katsura!"
+      ]
+    },
+    {
+      "offset": 6616,
+      "source_words_sha256": "d9906bbb65df4333e74c7e7cdc4cbcf99e4d164ade677a061ca90a8a15131f10",
+      "parts": [
+        "We know a little\nabout Gin Tama\nourselves."
+      ]
+    },
+    {
+      "offset": 6668,
+      "source_words_sha256": "12f35a420f9c5c9184daa845daac2c7144d2f026ce68c044b61d791faf69760f",
+      "parts": [
+        "They aren't\njust toys..."
+      ]
+    },
+    {
+      "offset": 6724,
+      "source_words_sha256": "bde7c9953fe3259f6653fea6999c855d61a7021a353ce23fd66af5cf3b495c8d",
+      "parts": [
+        "What did you say?!"
+      ]
+    },
+    {
+      "offset": 6748,
+      "source_words_sha256": "98263b0b2e9338448b215897e03b2885fba4214b7e78bd1312ddddfe9ea85606",
+      "parts": [
+        "Yes, word power\nand compressed energy\nsound impressive..."
+      ]
+    },
+    {
+      "offset": 6844,
+      "source_words_sha256": "f53ca730f719fa025fecc7391fec4111859db9d548f31f8595d3d50c011b2e91",
+      "parts": [
+        "But weapons?"
+      ]
+    },
+    {
+      "offset": 6872,
+      "source_words_sha256": "edff96675cc49b4a524b30dbac04934ad9a0040b730417ad3dae8584624c1fb1",
+      "parts": [
+        "You mean\nGin Tama?!"
+      ]
+    },
+    {
+      "offset": 6904,
+      "source_words_sha256": "e6049acf36596045800f71bf56068a855e779965e96c26ab7c44fd01af26acb9",
+      "parts": [
+        "Conquered...\nWithout resisting?!"
+      ]
+    },
+    {
+      "offset": 6972,
+      "source_words_sha256": "8b9f05fe852fe5e5af15b7abee81ae59dcc42df11b9604c86f445d6f4bc1b420",
+      "parts": [
+        "What could that\nword energy\nhave done to them?"
+      ]
+    },
+    {
+      "offset": 7052,
+      "source_words_sha256": "21e9cbe8e29dad8d9319581bdb7a8a77a83ad7af7b73a6e5f60637716ba80e22",
+      "parts": [
+        "What we know is,\nGin Tama themselves\nare the group's..."
+      ]
+    },
+    {
+      "offset": 7120,
+      "source_words_sha256": "179ac63770484b7fe904c6da807925acc9fff74efdf3cf93dd4b278a1d5d076f",
+      "parts": [
+        "Hiraga, Gin!"
+      ]
+    },
+    {
+      "offset": 7140,
+      "source_words_sha256": "b917ae3616ca2c8486ceb5adb19a8978ad70580a64c4607fbdcd377e2d1dbddb",
+      "parts": [
+        "Either you're bold\nor you just\ndon't think."
+      ]
+    },
+    {
+      "offset": 7196,
+      "source_words_sha256": "848341d3a0c25282deaeb9d182a9c273b14c3e1734b9d856f532c86665f0faf6",
+      "parts": [
+        "Huh?"
+      ]
+    },
+    {
+      "offset": 7204,
+      "source_words_sha256": "97d73bd9887da5ea6ccbf84e82acc7508efa31e05bd1f38cda16156419988853",
+      "parts": [
+        "But Katsura,\nyou've found out\nso much!"
+      ]
+    },
+    {
+      "offset": 7252,
+      "source_words_sha256": "1136e2f491fecbe5ea69b771c0641f145f49b85e46696d90dd3a6c7ad760ec0f",
+      "parts": [
+        "About other planets,\nwhile you're\nhere on Earth..."
+      ]
+    },
+    {
+      "offset": 7304,
+      "source_words_sha256": "4d91aad8ac7261212d3c1c166ea5fabc1e1da13bbfbd165cff9a1ce080597ee6",
+      "parts": [
+        "Oh, Gin!\nSpeaking of Sakamoto!"
+      ]
+    },
+    {
+      "offset": 7344,
+      "source_words_sha256": "d8739cd53942d37a6727a1aff333798edc8807b360c023b258840b8c090a5887",
+      "parts": [
+        "We saw him a while\nback. He told us\na little then."
+      ]
+    },
+    {
+      "offset": 7404,
+      "source_words_sha256": "3d8a269891437283fbf626e8e40f655773a386ad93f7166a5fe9f78e392a88cb",
+      "parts": [
+        "New space pirates,\nbesides Harusame,\nare causing havoc."
+      ]
+    },
+    {
+      "offset": 7472,
+      "source_words_sha256": "8920bb516a6ecce5109bd3d968f5700d924bde9b79e1eb517cbdc9b3adab5fee",
+      "parts": [
+        "Maybe Sakamoto\nfeels the same way\nas Katsura..."
+      ]
+    },
+    {
+      "offset": 7528,
+      "source_words_sha256": "c4c3b2a7392e6b7d214ac477f5d19adb41380e781db01eb7bd6fae94401f0ac1",
+      "parts": [
+        "More details might\nput Katsura..."
+      ]
+    },
+    {
+      "offset": 7576,
+      "source_words_sha256": "be7169abaceeca1ddc2c80b452924638ffdc7904c4ee46b7edd1ce8b8a08a281",
+      "parts": [
+        "G-Gin?"
+      ]
+    },
+    {
+      "offset": 7592,
+      "source_words_sha256": "94becc15c97c1c5c72930eb9d5d493ec5f4ea9da3f308e199c80c19a045d07c3",
+      "parts": [
+        "You're getting\nthe name wrong..."
+      ]
+    },
+    {
+      "offset": 7640,
+      "source_words_sha256": "88e5362a7f70e0b1052424bb938be1d280814deab585fd1d1267222d2820d53c",
+      "parts": [
+        "Honestly, Gin!\nYou'd crack under\nexam pressure!"
+      ]
+    },
+    {
+      "offset": 7712,
+      "source_words_sha256": "963bb31982413060e3a618659f110720a6885a665677fd893a10f2597207239d",
+      "parts": [
+        "Or he'd spend\nthe exam fee before\nhe even applied."
+      ]
+    },
+    {
+      "offset": 7780,
+      "source_words_sha256": "89cde1c21a00800d43b16ae9e7b8ba93f6080cb4ff4269fa9133ff15a7baa405",
+      "parts": [
+        "True."
+      ]
+    },
+    {
+      "offset": 7792,
+      "source_words_sha256": "0b6156523d513223685098996197f1e32d1666124f0b7db9943e649c56f8b953",
+      "parts": [
+        "Come to think of it,\nthat was the worst\ncomparison for Gin."
+      ]
+    },
+    {
+      "offset": 7860,
+      "source_words_sha256": "7de994fe553f69d02c5b8b4df2dae7bc19052bb6b12233c59db381cbe17cac2a",
+      "parts": [
+        "Oh, you're right.\nWhen did they\ndisappear...?"
+      ]
+    },
+    {
+      "offset": 7916,
+      "source_words_sha256": "bd823da7c5fb5f0502367ea35433bfca1851e0a795fd738f8b99ec2a3928a326",
+      "parts": [
+        "Gin, that's\npassing the buck!\nIt was your fault..."
+      ]
+    },
+    {
+      "offset": 7988,
+      "source_words_sha256": "3389ec7033ae9dba0c58e4c4d52b08a13e8cd7d348485bec567d4c7c83b68a68",
+      "parts": [
+        "Yeah, yeah!\nYou useless lump!"
+      ]
+    },
+    {
+      "offset": 8020,
+      "source_words_sha256": "3a79ceeedbe667579fb3c975ceb91ec8c56bf161dbbd0db98810c5cea46372cd",
+      "parts": [
+        "Lousy boss!\nPay our wages!"
+      ]
+    },
+    {
+      "offset": 8056,
+      "source_words_sha256": "0debe4dd9e511956aa2a65ed87e0e8584de513600b54d4c5b94744c9b48db5b5",
+      "parts": [
+        "What do you mean,\nyou quit?"
+      ]
+    },
+    {
+      "offset": 8092,
+      "source_words_sha256": "e1ca79d9100cd281b3754e75c4a9aa05d81eceb8ac9cf6dae8e83cb697f46503",
+      "parts": [
+        "Huh?"
+      ]
+    },
+    {
+      "offset": 8100,
+      "source_words_sha256": "d5329f9c9554ca6ef8d79c57194966d63ff1c1aa034e0d4958630aa2715dc115",
+      "parts": [
+        "What a selfish\nplayer character!!"
+      ]
+    },
+    {
+      "offset": 8152,
+      "source_words_sha256": "70f70ee513326a3c0c3d1ad22aad2f992baebbd0a374e6d58e04da1f86f6a400",
+      "parts": [
+        "Looks that way...\nSorry to everyone\nplaying right now..."
+      ]
+    },
+    {
+      "offset": 8236,
+      "source_words_sha256": "68cb248a4c098c624b002bbbf9d21a437b1f7322c06c827ad8779d71969fae8d",
+      "parts": [
+        "We'll resume once\nGin's in a\nbetter mood..."
+      ]
+    },
+    {
+      "offset": 8304,
+      "source_words_sha256": "dfb9aef282afa52a6994016b7293e0c7b84e66399aa4ceebd3f15695040bf44a",
+      "parts": [
+        "So, we're sorry...\n...Game over."
+      ]
+    },
+    {
+      "offset": 8376,
+      "source_words_sha256": "0ea3f1468ebc1ce80e8096b72c6e7166042d1ab4e0c7f45f4b7f86a42e5b4a8d",
+      "parts": [
+        "That shady toy company\nthat asked him\nto modify Gin Tama!"
+      ]
+    },
+    {
+      "offset": 8456,
+      "source_words_sha256": "f98bd168a5fb65613b2cb3109d979c8e88afa3158face6df4a81ebe530a33b55",
+      "parts": [
+        "Gin could end up\nin danger too.\n...That's why."
+      ]
+    },
+    {
+      "offset": 8516,
+      "source_words_sha256": "ed48b65a15f0f06e92bdd44c8e5ee5ac26896a002ca3eff621eea8cda865a346",
+      "parts": [
+        "I feel the same!\n...Katsura!"
+      ]
+    },
+    {
+      "offset": 8568,
+      "source_words_sha256": "7c43da17524c957f7d492b0fd870dd00cacf51830c935e4286e871cfa34c92c3",
+      "parts": [
+        "Hold it."
+      ]
+    },
+    {
+      "offset": 8588,
+      "source_words_sha256": "afb7e6e807154e52ca090881793300cbb166b753d36d02e0d333ac1b77e78870",
+      "parts": [
+        "We're in the middle\nof something\nimportant, bastard."
+      ]
+    },
+    {
+      "offset": 8644,
+      "source_words_sha256": "b8b4ba790bc605ca56a86f2453460ce80bd101ba2e80e4dafc2ad84494dd536f",
+      "parts": [
+        "We're discussing\nKabukicho's future."
+      ]
+    },
+    {
+      "offset": 8696,
+      "source_words_sha256": "758d8780c505ec748da91664183a1e4bfe0665e4a1ab50937cdc3d350bc325b0",
+      "parts": [
+        "Earth's in danger,\nyou idiot!"
+      ]
+    },
+    {
+      "offset": 8740,
+      "source_words_sha256": "870571600395ce30a918cddcc5ff3a21dadf6e5bc684a489ce65c10084fe87d4",
+      "parts": [
+        "Shut up!"
+      ]
+    },
+    {
+      "offset": 8756,
+      "source_words_sha256": "a8783123f0697a13a79f4a4057d82e6698c3cfdf43081415fdddf183adf1433f",
+      "parts": [
+        "You want some?!!"
+      ]
+    },
+    {
+      "offset": 8780,
+      "source_words_sha256": "477e3311985f8f23a44ceeb7bba1e2e4b7d825da461466ae1ed52c5179291af1",
+      "parts": [
+        "Today we settle\nthis with Gin Tama!"
+      ]
+    },
+    {
+      "offset": 8828,
+      "source_words_sha256": "bb1ca3f9b5bb12b6fa77621f2c5cafc26eea1f62c1b599dd01b80efd0ef42001",
+      "parts": [
+        "That settles it!\nI win!!"
+      ]
+    },
+    {
+      "offset": 8864,
+      "source_words_sha256": "46ac042c1b55f387acff8ced151b6ed842c2af8a5a980f053a95782018ddd26f",
+      "parts": [
+        "For once, try yelling\n\"I lost!\nI'm so mad!\""
+      ]
+    },
+    {
+      "offset": 8936,
+      "source_words_sha256": "6c4c8fc03541844ec24b3b105f402ea00c9c0ef07ae216f65cad116410a6977c",
+      "parts": [
+        "Feel stifled?"
+      ]
+    },
+    {
+      "offset": 8960,
+      "source_words_sha256": "ab02da00ddcb165b90d4c142f0b93a979ab35a55b57f1fff1250b6d530922a01",
+      "parts": [
+        "Being stoic is fine,\nbut you'll never\nmake friends like that."
+      ]
+    },
+    {
+      "offset": 9024,
+      "source_words_sha256": "9b39015216e1fb1766ad2b3bc0ea58ee5947cc7831a00432cbbe747e70e424a4",
+      "parts": [
+        "What?!\nNo way!"
+      ]
+    },
+    {
+      "offset": 9052,
+      "source_words_sha256": "d79edf75a97aba6630201573794aa6e49d98b89b893db00ede0827c178a10f7a",
+      "parts": [
+        "Not even\na goodbye?"
+      ]
+    },
+    {
+      "offset": 9080,
+      "source_words_sha256": "88214a948fa65cd1eda15e501d32b6bb15d1281c87d7fe97e3e30308f1611eff",
+      "parts": [
+        "He's no friend\nof mine."
+      ]
+    },
+    {
+      "offset": 9108,
+      "source_words_sha256": "46ec6a984ab8c64ea560186a2aad8cc68b407b58d37bb3b268becc31450d2618",
+      "parts": [
+        "Dunno. Thinking\ntoo much?"
+      ]
+    },
+    {
+      "offset": 9144,
+      "source_words_sha256": "cefe293acaf97518484bd092d9949804a24a4ceeef3ed724b5abb3eb0fa4c3cd",
+      "parts": [
+        "Zura's gone.\nNo more business\nhere, right?"
+      ]
+    },
+    {
+      "offset": 9192,
+      "source_words_sha256": "f325185fd82c1cd318b9162d01021a70285654a2b24055fd74708bc15cae2899",
+      "parts": [
+        "See ya!!"
+      ]
+    },
+    {
+      "offset": 9212,
+      "source_words_sha256": "7b36bf0327471fd3324f96b29bc50fffbdb2b83935ab15cc46098745ffabb9f7",
+      "parts": [
+        "I looost!!\nI'm so maaad!!"
+      ]
+    },
+    {
+      "offset": 9252,
+      "source_words_sha256": "8ceae5a938d258aa692f6614a25c639957bd83598772cb388e05717339285d4b",
+      "parts": [
+        "I've always been\nan honest, emotional\nkid, idiot!"
+      ]
+    },
+    {
+      "offset": 9312,
+      "source_words_sha256": "e94289ffa16ebc2a82966787ac3cd0215ffbbb2fd0d8f1c7864fb75257dc8784",
+      "parts": [
+        "Idiot! They called me\nthe impossibly handsome\nboy hero!"
+      ]
+    },
+    {
+      "offset": 9376,
+      "source_words_sha256": "ef727d229c9aede5647f18114607bbbcd6d127b78a862b15c1cf70e49b1a237f",
+      "parts": [
+        "Stay out of it, Zura!\nI'm talking\nto this guy!"
+      ]
+    },
+    {
+      "offset": 9436,
+      "source_words_sha256": "f99ead1d7809a171eb8357118d75f09bdf7274e8d5c104fe357498e1431b8d6e",
+      "parts": [
+        "Bang Bang Chicken,\nchimps, bungee jumps...\nWho cares?!"
+      ]
+    },
+    {
+      "offset": 9500,
+      "source_words_sha256": "222d0a63da52591a390191e301cbea23245de401cf589ba8dcdb7dfdc489e495",
+      "parts": [
+        "For now,\nit's game over!!"
+      ]
+    },
+    {
+      "offset": 9540,
+      "source_words_sha256": "2ddddf4b91bcf1b704b69eb46e9ad634a099291152622c779606b63c6714453e",
+      "parts": [
+        "Is that all?\nYou won.\nBe happier!"
+      ]
+    },
+    {
+      "offset": 9592,
+      "source_words_sha256": "73530e397a047f422027bdc3942c63d9fc6dc9f95f39e35d910a6057874ce26e",
+      "parts": [
+        "For once, try yelling\n\"I won!\nI'm so happy!\""
+      ]
+    },
+    {
+      "offset": 9668,
+      "source_words_sha256": "851053490dfd2547ef6c738740e735096606f20ce2213c0ed0bb40ea94302391",
+      "parts": [
+        "I wooon!!\nI'm so haaappy!!"
+      ]
+    },
+    {
+      "offset": 9708,
+      "source_words_sha256": "795ac64101608d8f4cb7e64ecafd642d7a8fd365d9298b6b509535dbc86c9638",
+      "parts": [
+        "I'm true\nto myself!"
+      ]
+    },
+    {
+      "offset": 9736,
+      "source_words_sha256": "8fdc1fb300f34457ffbf785be52e4a684846d540b36ed653190955578721ee6a",
+      "parts": [
+        "Idiot! I'm honest\nwith everyone\nbut you!"
+      ]
+    },
+    {
+      "offset": 9788,
+      "source_words_sha256": "d24ee9c8927c02800ff2dc49679b7a20a197db74184b8d66d8cdd18bca1e6df1",
+      "parts": [
+        "It balances out\na twisted bastard\nlike you!"
+      ]
+    },
+    {
+      "offset": 9856,
+      "source_words_sha256": "5f8372e435a2179a882b50fcb59b358eae9b11e3e98a9d8c748399fe74bc4dbc",
+      "parts": [
+        "Shut up,\nyou Black Mayo alien!"
+      ]
+    },
+    {
+      "offset": 9892,
+      "source_words_sha256": "ee7836d10d1c2eecce3c37e1f3b901e47376add66ad6b13aca2725c28e65c5b1",
+      "parts": [
+        "Found you, Katsura!\nNo escape now!"
+      ]
+    },
+    {
+      "offset": 9932,
+      "source_words_sha256": "d696e298878cb9122e03d886485606caa4fb0249d3d4f2b4e9f782c51a91c3aa",
+      "parts": [
+        "Stay out of it\nor I'll arrest\nyou too."
+      ]
+    },
+    {
+      "offset": 9980,
+      "source_words_sha256": "cf070096dcc51d9e575c2e34363d2066685df38c266cf542f065781422d53ee5",
+      "parts": [
+        "I've got questions\nfor him too.\nButt out, idiot."
+      ]
+    },
+    {
+      "offset": 10044,
+      "source_words_sha256": "ea6ec8e0938507b7c420f4fbf21e00da67893d02f70e85b5be35c54eda2ec977",
+      "parts": [
+        "Shut up!\nWe're discussing\npeace in Edo!"
+      ]
+    },
+    {
+      "offset": 10100,
+      "source_words_sha256": "c42481b9c561f250d8cac5b072f32ce8453fc0a08949a7ef4d02d9ed3451aec4",
+      "parts": [
+        "Quiet! The whole\nuniverse is in danger!\nGot a problem?!"
+      ]
+    },
+    {
+      "offset": 10152,
+      "source_words_sha256": "38897a271146a03172a1ff36a940d0d653409d7dbb61e40553de3a3335300333",
+      "parts": [
+        "Butt out!"
+      ]
+    },
+    {
+      "offset": 10172,
+      "source_words_sha256": "b72f5c8a3fa211c6a79362d5e87790638305096483c7cc3a1fda0dc1e0a61fa6",
+      "parts": [
+        "Get in my way\nand I'll crush you!"
+      ]
+    },
+    {
+      "offset": 10212,
+      "source_words_sha256": "3f4a7f055beb8b011361d4ceb05b3663128fa1512b7cdba10dc3177b0e90d2f9",
+      "parts": [
+        "Bring it on!!"
+      ]
+    },
+    {
+      "offset": 10232,
+      "source_words_sha256": "11a2fc627ac62fb7beea73089e4a4745b399b38c5b851b296c09509ffc657b79",
+      "parts": [
+        "Let's do this!!"
+      ]
+    },
+    {
+      "offset": 10256,
+      "source_words_sha256": "63be82f99b2284f691857516a1badc0b314f7425aeb4a090448547ac85ffc2df",
+      "parts": [
+        "Tch...!"
+      ]
+    },
+    {
+      "offset": 10280,
+      "source_words_sha256": "07eea0a754bc9643e8bf9e53873038221fa77d5fad368437e3912104a799cbf4",
+      "parts": [
+        "I'm not like you!\nI'd never do\nsomething so pathetic!"
+      ]
+    },
+    {
+      "offset": 10356,
+      "source_words_sha256": "a57eccabed174487e51de913ce8557deb5766b24ece9499ab0a117f74dca3617",
+      "parts": [
+        "What?"
+      ]
+    },
+    {
+      "offset": 10368,
+      "source_words_sha256": "17554c051abe787cecc70153e189a8778512be3a04fc798a65307665448956c7",
+      "parts": [
+        "Keep it!"
+      ]
+    },
+    {
+      "offset": 10396,
+      "source_words_sha256": "aa26f37579f9b36edd0b1f88616eeb168723852ab97ccedbde0fd36d719dfa4b",
+      "parts": [
+        "...Hey!!\nKatsura's gone?!"
+      ]
+    },
+    {
+      "offset": 10440,
+      "source_words_sha256": "6e0bdf37fbce481ffbc11b1124b5440d211aed381bbcb12d918645b1565b7f70",
+      "parts": [
+        "He ran off\nwhile we were\nbattling."
+      ]
+    },
+    {
+      "offset": 10492,
+      "source_words_sha256": "7eb9beda3573d100d54f5c05258f8d1dd1d15fc1f09598640db8cdfe6740a485",
+      "parts": [
+        "You've got some\nlousy friends too."
+      ]
+    },
+    {
+      "offset": 10532,
+      "source_words_sha256": "6bf540b331f656afa715e9568cdd3bdfa1bbbe59fc3eb34778d5925feee2aae7",
+      "parts": [
+        "Buying time...?"
+      ]
+    },
+    {
+      "offset": 10560,
+      "source_words_sha256": "e3c7a081260091e722aac1999b7de118abc5368f86a32de3c0a8dc6b85395f69",
+      "parts": [
+        "You challenged me\njust to help him\nescape, didn't you?"
+      ]
+    },
+    {
+      "offset": 10620,
+      "source_words_sha256": "ac7bba2cb4543a1acc2fe89a11753cb945ee04f54767e8d0a166c5885f7bb38d",
+      "parts": [
+        "Hmph... Fine."
+      ]
+    },
+    {
+      "offset": 10648,
+      "source_words_sha256": "7c6eaf7aea9290e329cf80f859ba25b1baf7d546681f3aed3abd8b1bfa0f22bb",
+      "parts": [
+        "I'll leave.\nDon't have to ask."
+      ]
+    },
+    {
+      "offset": 10676,
+      "source_words_sha256": "b0791422189c3481428453d005f8e3d022054a69b83a7d6278ffbdb6a552eb13",
+      "parts": [
+        "Later!!"
+      ]
+    },
+    {
+      "offset": 10692,
+      "source_words_sha256": "3dea4a110c65539550c8d047f0a704760527365e6fbb361edaf40908ee49e7b3",
+      "parts": [
+        "You're hopeless."
+      ]
+    },
+    {
+      "offset": 10712,
+      "source_words_sha256": "d12bcede16a80522cfb8582d4734683349dc7163e24fc39bad425ab71f523f8e",
+      "parts": [
+        "Aren't you ashamed\nto say that?"
+      ]
+    },
+    {
+      "offset": 10760,
+      "source_words_sha256": "8bd0d55a417b2db8631846e1e774213ec7cf58bcaf2fc80e9668094a43f41c9c",
+      "parts": [
+        "They called me\na boy genius\nwhen I was a kid!"
+      ]
+    },
+    {
+      "offset": 10828,
+      "source_words_sha256": "eec8ea1fb4a953162051be397e9cfbcce1cfe0a311c8e1f93696e2601701cfea",
+      "parts": [
+        "So what?!\nThey hailed me as\na transforming robot boy!"
+      ]
+    },
+    {
+      "offset": 10900,
+      "source_words_sha256": "3dea4a110c65539550c8d047f0a704760527365e6fbb361edaf40908ee49e7b3",
+      "parts": [
+        "You're hopeless."
+      ]
+    },
+    {
+      "offset": 10920,
+      "source_words_sha256": "34f21c3a0eb45327767022921b47400935e521ed6895624dc3ccccb03ea1c99d",
+      "parts": [
+        "Ridiculous."
+      ]
+    },
+    {
+      "offset": 10936,
+      "source_words_sha256": "d12bcede16a80522cfb8582d4734683349dc7163e24fc39bad425ab71f523f8e",
+      "parts": [
+        "Aren't you ashamed\nto say that?"
+      ]
+    },
+    {
+      "offset": 10984,
+      "source_words_sha256": "a864a6b5b7ff7cf20d82d1606b5269dc97d528c6347a1e2b6e22fcef96518912",
+      "parts": [
+        "Before you're true\nto yourself, try\nbeing honest with others!"
+      ]
+    },
+    {
+      "offset": 11044,
+      "source_words_sha256": "2a51d6a6eb3e866bfb57a2224a15ed0d35ff1f34f615c940b34c3a3142bf299c",
+      "parts": [
+        "Liar! If you're\nhonest, then so is\neveryone in the world!"
+      ]
+    },
+    {
+      "offset": 11116,
+      "source_words_sha256": "ad3ee70a46a4c2a37e4444ce22d2bc2cad80cf5b66297f78204b9b8043dfd163",
+      "parts": [
+        "Who's twisted,\nyou king of liars?!"
+      ]
+    },
+    {
+      "offset": 11176,
+      "source_words_sha256": "bc5ddbdfede2ee9824dfaaaddf96d5580ebed33b6c1ee8ae69614b4352282385",
+      "parts": [
+        "Stop this\nchildish argument."
+      ]
+    },
+    {
+      "offset": 11204,
+      "source_words_sha256": "c8177ed3437c4bd23371ceac8bba4b6a8a90e913283676f83cd32e4521188c79",
+      "parts": [
+        "......"
+      ]
+    },
+    {
+      "offset": 11220,
+      "source_words_sha256": "8193b055fb182e9e88a3792761a59b28b4616e89d3a644ca1ec6b6526bca97af",
+      "parts": [
+        "You two,\ncut it out."
+      ]
+    },
+    {
+      "offset": 11248,
+      "source_words_sha256": "569cd8c3968d8e11cc0287382c9a516e899c98195eadf3b04c932cb42d52cf46",
+      "parts": [
+        "Well, about\nBang Bang Chicken..."
+      ]
+    },
+    {
+      "offset": 11284,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 11312,
+      "source_words_sha256": "8193b055fb182e9e88a3792761a59b28b4616e89d3a644ca1ec6b6526bca97af",
+      "parts": [
+        "You two,\ncut it out."
+      ]
+    },
+    {
+      "offset": 11340,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 11368,
+      "source_words_sha256": "1dd49be8ecf51abd73f53facec79e3ca98595ee43aa55e8bd9addf057bfc43ed",
+      "parts": [
+        "...So those were\nsome seriously nasty\nDragon Balls."
+      ]
+    },
+    {
+      "offset": 11440,
+      "source_words_sha256": "3610fe5d91d34490ba691223e8b8a65230c2d30f61a0d57a98f9df27be655742",
+      "parts": [
+        "Damn right!\n...Is what I'd\nlike to say."
+      ]
+    },
+    {
+      "offset": 11500,
+      "source_words_sha256": "39885dab68d0c923606bad0d51e08f07457eeff8ad7daf75eacdaa36a955a435",
+      "parts": [
+        "Nah, Zura probably\ndoesn't know\nany more either."
+      ]
+    },
+    {
+      "offset": 11560,
+      "source_words_sha256": "c743e81b15ac85442e658fe966ed9281ad00605dcb4b340898272691dbda454b",
+      "parts": [
+        "Idiot. Finding\nthat bastard Sakamoto"
+      ]
+    },
+    {
+      "offset": 11608,
+      "source_words_sha256": "c9ce8d8bc0e093bf7b8db9da77da309639f78f24ca0cb77348443bd32079b098",
+      "parts": [
+        "Yeah, we can think\nabout it then...\nWait, that's too late!"
+      ]
+    },
+    {
+      "offset": 11676,
+      "source_words_sha256": "04b92c31af3161016bb54ef0afda37130730f5ff6f9b42dc522f6bbb7d790f96",
+      "parts": [
+        "Calm down, Kagura!"
+      ]
+    },
+    {
+      "offset": 11696,
+      "source_words_sha256": "ac62aa02cfdd3400a24e860eebfe0f05d9fd6c9fc7408f497a61a9d9e99af018",
+      "parts": [
+        "Hey, you!\nQuit getting excited!"
+      ]
+    },
+    {
+      "offset": 11736,
+      "source_words_sha256": "962695752fcea01685cde6cec4fd8f0b50e0f2d97a91777a5708c058da2e2c72",
+      "parts": [
+        "Whatever's going on...\nthis sure as hell\nisn't normal."
+      ]
+    },
+    {
+      "offset": 11804,
+      "source_words_sha256": "14fdb75b58357f81394bc6779cef1dd86787637c22d75a0245f1b3ca79e6003e",
+      "parts": [
+        "Yeah, we'd\nbetter do that."
+      ]
+    },
+    {
+      "offset": 11840,
+      "source_words_sha256": "00b76e05f55a791adc978cd250ecb0b6e50de5c0c230e297adfcd94144feb6f4",
+      "parts": [
+        "is way harder than\nfinding seven\nDragon Balls."
+      ]
+    },
+    {
+      "offset": 11884,
+      "source_words_sha256": "95a98a9f524fe82c565a825b1da5f48620e13602fb7501afe5337a353aa7acfa",
+      "parts": [
+        "Invasion cake?\nDoesn't sound\nvery tasty."
+      ]
+    },
+    {
+      "offset": 11940,
+      "source_words_sha256": "f0f83ce01a9b08f1f34cd2d4c2f027a0c161f442665dbb759cfc277fc7b25218",
+      "parts": [
+        "Can't be helped.\nLet's worry about it\nafter they invade."
+      ]
+    },
+    {
+      "offset": 12020,
+      "source_words_sha256": "713f4a1c33a24bf2a2249d21dbcb1989e5c325aa1a41356aba89389425428386",
+      "parts": [
+        "An earthquake!\nAnd thunder\ntoo!"
+      ]
+    },
+    {
+      "offset": 12064,
+      "source_words_sha256": "01db5ed26697b7c6d456b42119252d3d43760cdbbaa122a7875973641f945fa3",
+      "parts": [
+        "So exciting..."
+      ]
+    },
+    {
+      "offset": 12088,
+      "source_words_sha256": "957dcec3963798213207421800bdf4d8118a325418a7508c308bf29a08125598",
+      "parts": [
+        "...Still, who knew\nGin Tama were weapons\nfor space pirates?"
+      ]
+    },
+    {
+      "offset": 12164,
+      "source_words_sha256": "d1f27ecda9fa528f9a97a928b59155512b4a2c2cf855b85cb2bc7603ae3d6a67",
+      "parts": [
+        "We can't just\nleave this alone...\nCan we, Gin?"
+      ]
+    },
+    {
+      "offset": 12228,
+      "source_words_sha256": "3a9cde49bba00b7420d48b495b5fa0d864890997d4fb3565af923943e5ed1772",
+      "parts": [
+        "...That's all we know.\nAnd now Katsura's\ndisappeared too..."
+      ]
+    },
+    {
+      "offset": 12308,
+      "source_words_sha256": "cd9cf1e9830fbbd7601dbf712a84ea50cbd1698d90175d3ad0b35ef9b60ad12d",
+      "parts": [
+        "Should we look\nfor Katsura\nfirst?"
+      ]
+    },
+    {
+      "offset": 12352,
+      "source_words_sha256": "46eb96ddc482abff51e0e8a1f3a09b0cb351e07a6a83f46a3f41598e3acf7565",
+      "parts": [
+        "Right... We don't\nhave enough to go on\nto do anything yet."
+      ]
+    },
+    {
+      "offset": 12424,
+      "source_words_sha256": "fac781eca21ad198ee52609cfba77ccf3381c5a89802ab64efd24611097f2c13",
+      "parts": [
+        "...Oh, I know!"
+      ]
+    },
+    {
+      "offset": 12452,
+      "source_words_sha256": "795f7eb1c82b3358ad1385bb57992d31ced564f9d770a3241add45307baaadd9",
+      "parts": [
+        "Maybe Sakamoto\nknows something!"
+      ]
+    },
+    {
+      "offset": 12504,
+      "source_words_sha256": "34a92d1c1eaa30173520c7d849c6048abf0700fce93e46f5f8a6268b13dff344",
+      "parts": [
+        "...So we're\nout of options?"
+      ]
+    },
+    {
+      "offset": 12552,
+      "source_words_sha256": "d2cdb043f493a0e0f89efc629999e4de78006460e669c0e33606807eb577736c",
+      "parts": [
+        "W-Whoa!\nWhat's going on!?"
+      ]
+    },
+    {
+      "offset": 12588,
+      "source_words_sha256": "7699188eff55030312528bb9e3b3a8dc599117acfe014db1198d8c028a45600f",
+      "parts": [
+        "...The shaking's\nstopped already.\nThat was quick..."
+      ]
+    },
+    {
+      "offset": 12684,
+      "source_words_sha256": "dd4c93620112566f4a59c842c65e223d4cbdd47dd47b26a6460fd4d6e5cfe0ff",
+      "parts": [
+        "Oh! Is this\nthe pirates' invasion!?"
+      ]
+    },
+    {
+      "offset": 12720,
+      "source_words_sha256": "1cd9793caade1d31c4d3e0ed4123150cf566b017e52712d767a3e307eaf35769",
+      "parts": [
+        "What about the thunder?\n...Huh? That's\nstopped too..."
+      ]
+    },
+    {
+      "offset": 12800,
+      "source_words_sha256": "a37ab20f52957cd8275fdcd9471ee1f2f4d701b7b20bd28dde691066c5088b19",
+      "parts": [
+        "Isn't that\na bit too soon?"
+      ]
+    },
+    {
+      "offset": 12836,
+      "source_words_sha256": "7c7af8e91c0140c4cd3f31491f4496189c3a80355b50c2216a21d032fb96cad2",
+      "parts": [
+        "Let's look outside!"
+      ]
+    },
+    {
+      "offset": 12872,
+      "source_words_sha256": "14bc11b5fda8e3e8d3097bfad1492d13e42fb4ae1768820d9934410b7701ac41",
+      "parts": [
+        "...Everyone's\ncompletely lost\nthe will to do anything."
+      ]
+    },
+    {
+      "offset": 12956,
+      "source_words_sha256": "8b657c6e7f6c68f4597c58b9499527463668b46dfe654bcf180e1f83bd3f2080",
+      "parts": [
+        "What the hell\nis going on?"
+      ]
+    },
+    {
+      "offset": 12992,
+      "source_words_sha256": "9b80aebc42d40c9ec46595bb0d38001d1d66d31c91829db8a6f347fc02aae352",
+      "parts": [
+        "What is it, Shinpachi?"
+      ]
+    },
+    {
+      "offset": 13012,
+      "source_words_sha256": "28ccdfaf3f169275875244e468ce0f460bbf55cfbc7ff895eba5ea482b69f1c9",
+      "parts": [
+        "What!?"
+      ]
+    },
+    {
+      "offset": 13028,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 13056,
+      "source_words_sha256": "3df9f439db807dca59ab6ed20a9be2b93421ccebec067ac86dbee469677e4497",
+      "parts": [
+        "...That's it!"
+      ]
+    },
+    {
+      "offset": 13080,
+      "source_words_sha256": "e692330783935a87123aaf3353e1f4b53e1c37b666ce7f697e8585ba6899c8a4",
+      "parts": [
+        "Right... If the army\nand police lose\nthe will to fight..."
+      ]
+    },
+    {
+      "offset": 13164,
+      "source_words_sha256": "679d050cb383c5fb280d147b95f9548f089e1eeec23c30090c3b4d2595d2de42",
+      "parts": [
+        "We're defenseless!?"
+      ]
+    },
+    {
+      "offset": 13196,
+      "source_words_sha256": "7a53b9a1e384dcc151d3b67961bd8984edf2f1bfaaa1335c1db2e3c6865096d3",
+      "parts": [
+        "...In other words...\nAt this rate..."
+      ]
+    },
+    {
+      "offset": 13256,
+      "source_words_sha256": "68a29ebed077ef1815263daadec0ceefe1521bd45efc08183213db081e1447d9",
+      "parts": [
+        "An open door\nfor invaders..."
+      ]
+    },
+    {
+      "offset": 13300,
+      "source_words_sha256": "04702deef24d8be1bda469654f60cc562e7164c2ec22908a948316dca0b12310",
+      "parts": [
+        "Clues, huh...\nWhere the hell\ndo we even start?"
+      ]
+    },
+    {
+      "offset": 13376,
+      "source_words_sha256": "893a65f907e0b9755ab72eac461e662b4d6fb81ca45171e36a326cc95bd91068",
+      "parts": [
+        "............"
+      ]
+    },
+    {
+      "offset": 13404,
+      "source_words_sha256": "4ced1e48624512e7c281df8f9f550e07ed8ef017d63a9efb2433175506b06c67",
+      "parts": [
+        "...Damn it!\nAt a time like this,"
+      ]
+    },
+    {
+      "offset": 13448,
+      "source_words_sha256": "da3bf7e1b07e5a60a956a8ed92fd2966bf453d30051dfb769337e5f0416927a2",
+      "parts": [
+        "why's that asshole's\nface the first thing\nthat comes to mind!?"
+      ]
+    },
+    {
+      "offset": 13516,
+      "source_words_sha256": "bcb76edcf9f54b6299e86f3be154f2d010c7ef852c48d2e1dec6c86e106e9614",
+      "parts": [
+        "Yeah."
+      ]
+    },
+    {
+      "offset": 13524,
+      "source_words_sha256": "807c076157889ef9e38567345e58ab1023ccec9021cfff1dd7edf58655c3da1e",
+      "parts": [
+        "Hmm... I really\ndon't wanna..."
+      ]
+    },
+    {
+      "offset": 13576,
+      "source_words_sha256": "4565b7094c5ecaae6c368601c4cd781e95c6183623db704465ae50a45791003d",
+      "parts": [
+        "...Well,\nno choice, I guess."
+      ]
+    },
+    {
+      "offset": 13612,
+      "source_words_sha256": "68e499f9af3f3a61537bcd336fb56b35e345721a4ec35fe8b210dd0c679286e1",
+      "parts": [
+        "Then let's\nget going."
+      ]
+    },
+    {
+      "offset": 13640,
+      "source_words_sha256": "aa2ec26626f1848403d154072804b298a01067ec64ff62cac528a3cbc6c7435c",
+      "parts": [
+        "Shinpachi, is this\nall because of\nGin Tama!?"
+      ]
+    },
+    {
+      "offset": 13688,
+      "source_words_sha256": "49db27845f474ff7af583055a24be0741c34b726b54664a76a94986b05b3138c",
+      "parts": [
+        "Time to eat!"
+      ]
+    },
+    {
+      "offset": 13708,
+      "source_words_sha256": "6bd3e23c46a0ccfbb2c46060b8695635941debff05aa14f71e01546da5c7b820",
+      "parts": [
+        "Tch. I thought\nwe could eat and run\nall we wanted now..."
+      ]
+    },
+    {
+      "offset": 13772,
+      "source_words_sha256": "7a64f8f2d90ef468e3867d3470edd9430fe684c953dda953e81b5ef3ec42d0a0",
+      "parts": [
+        "Oh!\nCould it be...!?"
+      ]
+    },
+    {
+      "offset": 13808,
+      "source_words_sha256": "c402124b8430b458202b9874e02b86a4f99154d2f49697b38c914cca6025e9e5",
+      "parts": [
+        "Gin, could this be\nBang Bang Chicken's\ninvasion?"
+      ]
+    },
+    {
+      "offset": 13860,
+      "source_words_sha256": "494a0a5ef40a7724b9ca5d565dbb62179134a03434d5f6c19c082819973286b6",
+      "parts": [
+        "That earthquake\nand thunder...\nThey weren't normal."
+      ]
+    },
+    {
+      "offset": 13928,
+      "source_words_sha256": "0c309bc6d34f4551eac238fd1d1bc37b7ed50b94b6ba49c3d8710b49de703468",
+      "parts": [
+        "...Remember what\nKatsura said?"
+      ]
+    },
+    {
+      "offset": 13972,
+      "source_words_sha256": "d35545046954a2be623ca38b978d47f6ab7108060d4e712c2cc017122c8a0a25",
+      "parts": [
+        "Disasters hit before\neach invasion. Then\neach world fell easily..."
+      ]
+    },
+    {
+      "offset": 14064,
+      "source_words_sha256": "bb08ab6c8adffe18989d18e2ae2389a42091aee845bfeecba6e4bb8c94ac00d9",
+      "parts": [
+        "And the townspeople!\nYou saw how listless\nthey were! Not normal!"
+      ]
+    },
+    {
+      "offset": 14148,
+      "source_words_sha256": "face054af8a80c6234da82f4f556f8ea1d30ce1490381be9ca3644ab4fa8a175",
+      "parts": [
+        "Exactly, Gin!\nThink about it!"
+      ]
+    },
+    {
+      "offset": 14192,
+      "source_words_sha256": "5db2d113c4d980886b0e96e5ddef2893c20d50e4ff007a1d1fb640a0f43f8a04",
+      "parts": [
+        "With all their spirit\nand will gone, people\nare easy to control!"
+      ]
+    },
+    {
+      "offset": 14276,
+      "source_words_sha256": "fea9bc00b24381547b0cc13ad23cf99d0bccea3bdd10e5ab4c863d4c3d22fc9e",
+      "parts": [
+        "And that's not all!"
+      ]
+    },
+    {
+      "offset": 14308,
+      "source_words_sha256": "a998af9fb399128e8a6682fdf5fac408bf4ebde07ad61f067ee0eb2eae447926",
+      "parts": [
+        "Firefighters, hospitals...\nNone of them can help\nif nobody cares!"
+      ]
+    },
+    {
+      "offset": 14376,
+      "source_words_sha256": "c9e6ede0a72cc27fc466096fcda3f76f085893ef901014975e9f90a852244145",
+      "parts": [
+        "Water, gas, power...\nIt could all\nstop working!"
+      ]
+    },
+    {
+      "offset": 14452,
+      "source_words_sha256": "4d854ffd6ee723e9f3bac713b0aef74a841b3f43c985f2527ee1c75820a55ad8",
+      "parts": [
+        "If this spreads\nacross the country...\nWe'll be ruined!"
+      ]
+    },
+    {
+      "offset": 14540,
+      "source_words_sha256": "998034b357079b2129b5e01c2c45637f80e2497900c8a65886b5f4393b50c8f7",
+      "parts": [
+        "I can't be certain...\nBut we can't\njust ignore it!"
+      ]
+    },
+    {
+      "offset": 14608,
+      "source_words_sha256": "35165eb6bc147b9a128a8829043c14f71e265c158dcb7e9567bc06bcbe113d7e",
+      "parts": [
+        "We have to find\nsome kind of clue,\nat least..."
+      ]
+    },
+    {
+      "offset": 14680,
+      "source_words_sha256": "e83bc50cde12347eb3c8c53ba0e6ffca468ef30b012ed01b41b6b28f12fe597e",
+      "parts": [
+        "If Bang Bang Chicken\nreally are behind\nall of this,"
+      ]
+    },
+    {
+      "offset": 14728,
+      "source_words_sha256": "ce4654fdaacfaa060eeb5af9b7398673d67b081c23933ddcf1dae0db6e081275",
+      "parts": [
+        "there's no way\nwe can handle it...\nAnd not just us!"
+      ]
+    },
+    {
+      "offset": 14800,
+      "source_words_sha256": "2f77533d2c366535296b8430e7481b4d7df6c4ecb01675bf30614ba3fe012aea",
+      "parts": [
+        "Even Katsura\ncan't handle this\non his own!"
+      ]
+    },
+    {
+      "offset": 14848,
+      "source_words_sha256": "004cac5f97cae1a998f47340bd811aaf09635cfe41dc514108ae82c4a580d0c8",
+      "parts": [
+        "What do we do, Gin!?"
+      ]
+    },
+    {
+      "offset": 14876,
+      "source_words_sha256": "2b7155dbbb27a958fc100ac61a93c99271a13f6db4aee35ea3611188abcf8af4",
+      "parts": [
+        "An asshole...?\nYou mean Hijikata!?"
+      ]
+    },
+    {
+      "offset": 14936,
+      "source_words_sha256": "23d38ea306940d579fc10d02f91258246dafca007fa8f0816a189acc83b21dfa",
+      "parts": [
+        "That's it, Gin! Let's ask\nHijikata and the\nShinsengumi for help!"
+      ]
+    },
+    {
+      "offset": 15016,
+      "source_words_sha256": "d6968ef56b8587d139ba83a32d347a41b6a301cd1556bda1ba73d9dd389232db",
+      "parts": [
+        "This is no time\nfor that! Our country\nis in danger!"
+      ]
+    },
+    {
+      "offset": 15088,
+      "source_words_sha256": "5056fd63b6427b4440633b4077fd4f7fcbcbf651bb617cbfdb86573f1a06c12e",
+      "parts": [
+        "Our samurai land!"
+      ]
+    },
+    {
+      "offset": 15112,
+      "source_words_sha256": "d0bc1feaaa99e1155ea93297273b7fa58f5522017f59776bd1c161854cb7396b",
+      "parts": [
+        "That's the Gin I know!\nAll right, then..."
+      ]
+    },
+    {
+      "offset": 15176,
+      "source_words_sha256": "aa13c9bfd3a2721e67c08aab67394c3933c14202c95c385a7a1594dacc26596f",
+      "parts": [
+        "Yeah!\n...Wait, that's wrong!"
+      ]
+    },
+    {
+      "offset": 15264,
+      "source_words_sha256": "320cedb09aca3005d24bf03f07c774bb0cd85f2eb4b7d50d1860918dba420212",
+      "parts": [
+        "...Huh?\nBut..."
+      ]
+    },
+    {
+      "offset": 15308,
+      "source_words_sha256": "57ec2a0be28a52f2dc93b9e245236b298c0276cae4c9f648ba57bb180d05b28d",
+      "parts": [
+        "Why haven't we\nlost our motivation\nlike everyone else...?"
+      ]
+    },
+    {
+      "offset": 15392,
+      "source_words_sha256": "db719f4b00e6ba23adb05fe9bf4bf0b004090c0a7ed20321b006ac5dfe70c819",
+      "parts": [
+        "Hey!\nWhat are you guys\ndoing here?"
+      ]
+    },
+    {
+      "offset": 15444,
+      "source_words_sha256": "b5f703912b76821130b351da754099afb57965f0e1fc2df96f01da685b56dfd4",
+      "parts": [
+        "Working, dumbass."
+      ]
+    },
+    {
+      "offset": 15468,
+      "source_words_sha256": "3b03c85e403b66d140ec3d583ddc98ebd36057a2ae4ebca3b8da28ef2b0dbea0",
+      "parts": [
+        "A culprit? What\ntrouble is it now?"
+      ]
+    },
+    {
+      "offset": 15516,
+      "source_words_sha256": "b53687bc0778ea1b24347689b881226cfd2473b588979944a212ccc6b6c43d59",
+      "parts": [
+        "So you're after them?"
+      ]
+    },
+    {
+      "offset": 15548,
+      "source_words_sha256": "f41a4254ab71adb4e71eb896f448b23153cdbdf360520b4539a9b957cd94c624",
+      "parts": [
+        "Why the hell me!?"
+      ]
+    },
+    {
+      "offset": 15572,
+      "source_words_sha256": "e9d22c8139a1fe671d7d774653a7f237fd1c203834fed60920e784cb0c781100",
+      "parts": [
+        "Like hell I did!"
+      ]
+    },
+    {
+      "offset": 15600,
+      "source_words_sha256": "4f7c8fc2ffbcaf5be225593eddc992620158a4a9d636d14411dfb8fbf173d3f8",
+      "parts": [
+        "Quit inventing motives!"
+      ]
+    },
+    {
+      "offset": 15628,
+      "source_words_sha256": "60cee8f4fdb19a06351f5aac0216620e3ad09a7c16dc50897c2d05b38e1f7311",
+      "parts": [
+        "Keep this up\nand I really will\nhurt you."
+      ]
+    },
+    {
+      "offset": 15680,
+      "source_words_sha256": "e1caac2602b101c76ed3ba1ad6d22b67999234e21b4cbd6f2815c7444603d741",
+      "parts": [
+        "You little...!"
+      ]
+    },
+    {
+      "offset": 15700,
+      "source_words_sha256": "664ae473ef44a3792e783387eaf3b9e302760fba1da5b9429c87a2509a4e29ac",
+      "parts": [
+        "Looks like...\nyou're serious."
+      ]
+    },
+    {
+      "offset": 15740,
+      "source_words_sha256": "fa77ed56e55eaaef606805779a4f78c80f7c6b865bde05867625827288bfca09",
+      "parts": [
+        "The strongest, huh?\nInteresting.\nYou're on."
+      ]
+    },
+    {
+      "offset": 15788,
+      "source_words_sha256": "331d15b1fceed86d9e761684908ed95e25cddfcfe108d371a08d8ad10a7075b2",
+      "parts": [
+        "Whatever. Just\ntake proper care\nof your pet."
+      ]
+    },
+    {
+      "offset": 15848,
+      "source_words_sha256": "ed3b03796ac50117a34dc3dc84702f95963f03c001d1185152892070a87b4b8f",
+      "parts": [
+        "Anyway,\nI'm not your culprit."
+      ]
+    },
+    {
+      "offset": 15880,
+      "source_words_sha256": "b4e659cd38faf19fed2340b4f72f4d98e2de88b1cd01b71f37f5a8f2892ae217",
+      "parts": [
+        "Forget it...\nI was an idiot\nfor humoring you..."
+      ]
+    },
+    {
+      "offset": 15956,
+      "source_words_sha256": "e403e3c8ad5a5bf88d8290fc2df58e4f43e56ddb4ebde361592a129c155cde39",
+      "parts": [
+        "Anyway, do you\nknow where ",
+        "Katsura",
+        "is?"
+      ]
+    },
+    {
+      "offset": 16028,
+      "source_words_sha256": "05e853a1af6b3dc34843e411f1ec4af5af77f14cda5d2da630cb2977dfedc427",
+      "parts": [
+        "Not Zura. ",
+        "Katsura",
+        "."
+      ]
+    },
+    {
+      "offset": 16056,
+      "source_words_sha256": "ac50dd8ea3bf9aed69faa94d2bb69379b311b019ed97e3adea5788be850a402c",
+      "parts": [
+        "Tch...\nCan't help that, then."
+      ]
+    },
+    {
+      "offset": 16104,
+      "source_words_sha256": "9eaa55348742be1a72bc9639d35bac336e64d6edb7c9519de57dc1e214251760",
+      "parts": [
+        "So, what were\nthe guys who beat\nyou up like?"
+      ]
+    },
+    {
+      "offset": 16156,
+      "source_words_sha256": "89767a2128ba71fc03126ab8576ad6d95a66764fd26444054fd70f981d6d96ec",
+      "parts": [
+        "They steal anything?"
+      ]
+    },
+    {
+      "offset": 16180,
+      "source_words_sha256": "fb7043f68a22b4e01f96cb76b4ac8e7fd0ab562b24ce1122413413ca207a7888",
+      "parts": [
+        "A bunch of\nronin types, huh..."
+      ]
+    },
+    {
+      "offset": 16216,
+      "source_words_sha256": "3e87b5e7ce5b3abb0420943d1744af75ea4dfa310d3f148730462491b861a4ca",
+      "parts": [
+        "It's possible."
+      ]
+    },
+    {
+      "offset": 16236,
+      "source_words_sha256": "aa0685e8af89542b93bf1a3bf6d7268aab768409513d85df4ad33999de1398a4",
+      "parts": [
+        "Better hope\nthat doesn't happen."
+      ]
+    },
+    {
+      "offset": 16272,
+      "source_words_sha256": "8b4837f4960f8a3c97296ff23e83562ca519b1e35018f553d40b26b7467dee3f",
+      "parts": [
+        "I'll look into it\nwhile I'm working."
+      ]
+    },
+    {
+      "offset": 16308,
+      "source_words_sha256": "cf212bf46cf6ddd513ac882e89f55ace3fe1f9d7dedadc79e3f8206007971d93",
+      "parts": [
+        "Don't get cocky!"
+      ]
+    },
+    {
+      "offset": 16332,
+      "source_words_sha256": "676bddab6768bc3b3f2f0be623e5060f3262190647bdf0705d58e65e8470c3b4",
+      "parts": [
+        "You're the ones\nwho lost, damn it."
+      ]
+    },
+    {
+      "offset": 16372,
+      "source_words_sha256": "f091589b16ac624f0ba1ee42d616b140cbdea315da7e8e6c7119e68dfeb8f510",
+      "parts": [
+        "What's with\nthose idiots...?"
+      ]
+    },
+    {
+      "offset": 16408,
+      "source_words_sha256": "f5d0d6d2aa4d66ec81f53bf455e6daeeca1e4e1847d43d9155f0d8aecd4c672b",
+      "parts": [
+        "Tch...!\nI'm off my game today..."
+      ]
+    },
+    {
+      "offset": 16464,
+      "source_words_sha256": "efbf424c0169c29445a8ddb3bc18a5f46ce4792d74d73e5063e5d060776f8f0f",
+      "parts": [
+        "Ow! Something\njust flew at me...!"
+      ]
+    },
+    {
+      "offset": 16516,
+      "source_words_sha256": "ba8498ab6b813e66174eacdac6d4fb18cc1480071eae0c5e42ae21c9c36a4119",
+      "parts": [
+        "What?\nA ",
+        "Justaway",
+        "?"
+      ]
+    },
+    {
+      "offset": 16552,
+      "source_words_sha256": "55fa456baec1a54aa3773d66cc359af0f84d18d629a1359d61b8db09b41d2a8d",
+      "parts": [
+        "Hold on!\nThis is a bomb?"
+      ]
+    },
+    {
+      "offset": 16584,
+      "source_words_sha256": "5b92911e60730cd1785ba2f2877ee2ae3fd8ce1557ca244d70ea1a592e48c460",
+      "parts": [
+        "That's one\npunchable-looking bomb."
+      ]
+    },
+    {
+      "offset": 16620,
+      "source_words_sha256": "db684a2128c4b651c89ab16f61bfa6725accef4435a192e91eae8b9dffba6bf2",
+      "parts": [
+        "No way..."
+      ]
+    },
+    {
+      "offset": 16644,
+      "source_words_sha256": "d776fa9ca4a6b236f6cb1beb036aa2a7462d665b05bdaa5256f45c5f6251fdbc",
+      "parts": [
+        "What are YOU\ndoing here?"
+      ]
+    },
+    {
+      "offset": 16680,
+      "source_words_sha256": "822cc7d1f8ae83475f3de6e308edb300337dd4f4aed44dc1dd2dea814906e71b",
+      "parts": [
+        "We're looking\nfor work, jerk."
+      ]
+    },
+    {
+      "offset": 16716,
+      "source_words_sha256": "57c11bf4fa05eaa213e947fd236833078cef35b9e690c86bb9c4fc636354232a",
+      "parts": [
+        "Shinpachi",
+        "got beaten\nto a pulp."
+      ]
+    },
+    {
+      "offset": 16760,
+      "source_words_sha256": "ce817b962e29b3335e3436e296551ff5307bbdfcb10221e8ee25c0efe212602c",
+      "parts": [
+        "Was it you?"
+      ]
+    },
+    {
+      "offset": 16784,
+      "source_words_sha256": "3cf6de6a407b7680d666a03aac68f459df015c319b2e925d7097b58a4a3c59cc",
+      "parts": [
+        "You have\na motive."
+      ]
+    },
+    {
+      "offset": 16816,
+      "source_words_sha256": "52214ab61fc374626d8cbbabe335f0e8ca1fd24782226d271e93bb8bd5b9576b",
+      "parts": [
+        "You and ",
+        "Gin",
+        "don't get along."
+      ]
+    },
+    {
+      "offset": 16852,
+      "source_words_sha256": "8b2fa71e9b87bee724565f24b368538bc1e65d2b9a6f1c1052934bd3ba4f326c",
+      "parts": [
+        "So you beat up ",
+        "Gin",
+        "'s pet, ",
+        "Shinpachi",
+        "!"
+      ]
+    },
+    {
+      "offset": 16924,
+      "source_words_sha256": "821e561319865d011df41256fa020cde730482fd5084110c29d4cba1716fff83",
+      "parts": [
+        "But you're\nstill suspicious!"
+      ]
+    },
+    {
+      "offset": 16956,
+      "source_words_sha256": "e5f5046cdb59b2dee159ba83d029ca4a7eacbb284174672d639873570d591db3",
+      "parts": [
+        "See! I knew\nhe did it!"
+      ]
+    },
+    {
+      "offset": 16996,
+      "source_words_sha256": "07e1c977de842b523fa92987606edbe7dee53ea28abb921e6a396718dc907639",
+      "parts": [
+        "Hey, culprit!\nPrepare yourself!"
+      ]
+    },
+    {
+      "offset": 17036,
+      "source_words_sha256": "dd258c882a08e8c8a4193eff28a683742a4802fe570dd32f216f4ef732c52df0",
+      "parts": [
+        "Shinpachi",
+        ", he's tough.\nWe should take him\non together."
+      ]
+    },
+    {
+      "offset": 17104,
+      "source_words_sha256": "f6b3fea51e31e703646f43ce7dc224c83ee1231e0fc9aa79707ae0157f067ce7",
+      "parts": [
+        "Unbeatable duo!"
+      ]
+    },
+    {
+      "offset": 17132,
+      "source_words_sha256": "5293d6fc48582bd6f48750d7da7b5efcd474ea1cdff1a8f76d909efac12baa62",
+      "parts": [
+        "Shinpachi",
+        "! Payback!"
+      ]
+    },
+    {
+      "offset": 17160,
+      "source_words_sha256": "fe1980db22648f51361820f5a94a138112df4f5f3def6f34de142f17b9411335",
+      "parts": [
+        "Shinpachi",
+        "made us lose!"
+      ]
+    },
+    {
+      "offset": 17196,
+      "source_words_sha256": "d4037f420ef6623ec49932d8297fa9ab46e31fd5ff16a09a1115765605466f6f",
+      "parts": [
+        "Your punishment\nis a demotion."
+      ]
+    },
+    {
+      "offset": 17232,
+      "source_words_sha256": "cda5a44cb0987c756c8eeea1374ac084e2d5757c904c6ab81e638bc8471c0e0d",
+      "parts": [
+        "Your rank\nat Yorozuya, obviously."
+      ]
+    },
+    {
+      "offset": 17272,
+      "source_words_sha256": "29450b752b0acb2aab091cc5ec83048f98f228aaa1e4edcc2aa925274b94a227",
+      "parts": [
+        "Shinpachi",
+        "below a dog."
+      ]
+    },
+    {
+      "offset": 17300,
+      "source_words_sha256": "37b920c60773c9388f000a6b54faa33dafb44b01c21705967c576bb3ce4d041a",
+      "parts": [
+        "Sadaharu can\nhandle that."
+      ]
+    },
+    {
+      "offset": 17328,
+      "source_words_sha256": "1a26b386e7947c80bb7737b6ea39114982640db94ab8fc453f2579bc6cf65a36",
+      "parts": [
+        "Then say so\nin the first place!"
+      ]
+    },
+    {
+      "offset": 17368,
+      "source_words_sha256": "9323118a4d967cf5c901029ebc061aa767ff44452f044c553582449f003a3480",
+      "parts": [
+        "Need a wig?\nTry a hat shop."
+      ]
+    },
+    {
+      "offset": 17404,
+      "source_words_sha256": "c234b855546c18021f0ea0847a59542643ecbd372d183f3419e044c547346601",
+      "parts": [
+        "I don't know\nwhere he is."
+      ]
+    },
+    {
+      "offset": 17440,
+      "source_words_sha256": "d598a347003034a8d3caf14cf394e325669b87bc501e675b105755edf66b8f80",
+      "parts": [
+        "Gin Tama",
+        "robbery, for fun."
+      ]
+    },
+    {
+      "offset": 17484,
+      "source_words_sha256": "a69ceacb4ef4a70b165f2ff4dffcb3f2bfd514eae36292a2c783e086b3eb9cd9",
+      "parts": [
+        "Get to work."
+      ]
+    },
+    {
+      "offset": 17508,
+      "source_words_sha256": "1bac71b487895e050f214eeba0992436e41a2c9bd846dba6e9d032a519fb1720",
+      "parts": [
+        "What!?\nLet's go again, jerk!"
+      ]
+    },
+    {
+      "offset": 17552,
+      "source_words_sha256": "71ea91bfbca89c6e05645050e911a4ca7ce6469ce610f32dc67ce34007b4e66b",
+      "parts": [
+        "Hmph!\nI'll let you off\ntoday."
+      ]
+    },
+    {
+      "offset": 17596,
+      "source_words_sha256": "3902f8a0abfdc3fd0ff5f32daeabd3fa94ff6806d720c5f426d6f73d44aad37d",
+      "parts": [
+        "I'll win next time!\nDon't forget it!"
+      ]
+    },
+    {
+      "offset": 17644,
+      "source_words_sha256": "7ec98288eeba1930df2887ab53afd1c462dc40499f0c4075258aada0a8b1918a",
+      "parts": [
+        "Yesss!\nI won!"
+      ]
+    },
+    {
+      "offset": 17684,
+      "source_words_sha256": "e8956a772b7d416b0b982e8dddb5280aab0ab6f49270e0e5504642efb6a0bd4c",
+      "parts": [
+        "Justaway",
+        "!?"
+      ]
+    },
+    {
+      "offset": 17712,
+      "source_words_sha256": "69ebb1396932466c3fc4eeffeb1e798d5c5a32a0f6d3d458445ec93a075377bc",
+      "parts": [
+        "It's a bomb!"
+      ]
+    },
+    {
+      "offset": 17732,
+      "source_words_sha256": "ebd3c74b64f0e5bf513ff00f0d9747f3b05e5ebc3f1a96c992007146fdf04633",
+      "parts": [
+        "Oh, Hijikata."
+      ]
+    },
+    {
+      "offset": 17752,
+      "source_words_sha256": "182dc96470638425c237514c8b8c35964e9eb0b85f724dc8c24e0d67577ad443",
+      "parts": [
+        "Stop, ",
+        "Kagura"
+      ]
+    },
+    {
+      "offset": 17780,
+      "source_words_sha256": "fc356ad39932ff858ecce96d24b7d6dc42e572adc8610edb76152d2282c1842e",
+      "parts": [
+        "We're looking for\na culprit, not work."
+      ]
+    },
+    {
+      "offset": 17828,
+      "source_words_sha256": "d56807e93ff06d786b834333145a4be401abc747f429c82937b4d47cda30b6ee",
+      "parts": [
+        "Well, not exactly\nbeaten to a pulp..."
+      ]
+    },
+    {
+      "offset": 17876,
+      "source_words_sha256": "7556851fcea338c9dc129df1ebcd0668e21f02a6bd51ad236aa938cd81f018fe",
+      "parts": [
+        "Yeah, more or less."
+      ]
+    },
+    {
+      "offset": 17904,
+      "source_words_sha256": "92069534333f7e6686a56112dc9eb52d905b4eb53fdf7f8d518b80e073e543a0",
+      "parts": [
+        "And I'm not a pet!"
+      ]
+    },
+    {
+      "offset": 17940,
+      "source_words_sha256": "17844c31dbc9762b40439dd576b84f7cd3c597d81eb35f8b2b9b4f549ffc4c3e",
+      "parts": [
+        "Whoa!\n",
+        "Kagura",
+        "'s serious!"
+      ]
+    },
+    {
+      "offset": 17992,
+      "source_words_sha256": "5dbc7fcc80ef18679c0f61143c245632a256013ea137e615f0d9179ccd04433e",
+      "parts": [
+        "What!?\nI'm fighting too!?"
+      ]
+    },
+    {
+      "offset": 18032,
+      "source_words_sha256": "ceaaff3cc5b072594dc473f4236e5d142ac89e56cc828d4d322577b0d437a3f5",
+      "parts": [
+        "When did this\nturn into a fight!?"
+      ]
+    },
+    {
+      "offset": 18080,
+      "source_words_sha256": "9c9e04cf346c15abe5f61b3ae2b8cc6b6cf1de0fe1e00f91f6cb1391ed47129a",
+      "parts": [
+        "R-Right!"
+      ]
+    },
+    {
+      "offset": 18100,
+      "source_words_sha256": "8f9e060d89eb7b30844d38d14e67d38ae89f2096ba685a2e427687e73e323fc8",
+      "parts": [
+        "I-I give up!"
+      ]
+    },
+    {
+      "offset": 18128,
+      "source_words_sha256": "b16dc29f4464f51a729dba056b01c354179f4e217283bbcbfb5166c745e10b5d",
+      "parts": [
+        "What!?\nMy fault!?"
+      ]
+    },
+    {
+      "offset": 18160,
+      "source_words_sha256": "48f3059f653ec96efd2e49e7112d4cea6f93e8ca6310c449fccac5cd7d4e954b",
+      "parts": [
+        "What rank?"
+      ]
+    },
+    {
+      "offset": 18184,
+      "source_words_sha256": "2e1954942afedcfc9bf7adeadb4f75e8d0570efc082243506720ba4b2340d28e",
+      "parts": [
+        "What?"
+      ]
+    },
+    {
+      "offset": 18200,
+      "source_words_sha256": "fca2a3fe39b80aa7e332150ea744ec023759135640e3c7c79b722d8ad1c4978c",
+      "parts": [
+        "What!?\nBelow a pet!?"
+      ]
+    },
+    {
+      "offset": 18232,
+      "source_words_sha256": "858064b4376a2ef89837a29f4af552f4466c3fe713ca52be664d309bbe96675c",
+      "parts": [
+        "A dog caring for you?\nPathetic!"
+      ]
+    },
+    {
+      "offset": 18276,
+      "source_words_sha256": "9aded4fd9295a3bdb939c15c55aef52351cd76b025685b5fc42a955c1af65ce2",
+      "parts": [
+        "I knew that\nfrom the start."
+      ]
+    },
+    {
+      "offset": 18316,
+      "source_words_sha256": "e01840ed542cc597c35a0cb89325cb34399876f7e7324108d0dfc0f7229b07ef",
+      "parts": [
+        "I'm the one\nwho got attacked."
+      ]
+    },
+    {
+      "offset": 18352,
+      "source_words_sha256": "734978442f788bea848c4ce7c7db271a89db519c9f60c3601839bca16c5dd24b",
+      "parts": [
+        "I know Hijikata\nisn't the culprit."
+      ]
+    },
+    {
+      "offset": 18412,
+      "source_words_sha256": "6512ba2b25d9436bccfb8ce3819e4adaf2438e5e7f313de23b112462b70c58f4",
+      "parts": [
+        "We went straight\ninto a ",
+        "Gin Tama Battle",
+        "!\nI couldn't say it!"
+      ]
+    },
+    {
+      "offset": 18476,
+      "source_words_sha256": "777d205868be6a5b27dfdc566d9b09094860360f3fbfb8f0b485e5d9aee73de0",
+      "parts": [
+        "They don't even\nsell wigs at hat shops."
+      ]
+    },
+    {
+      "offset": 18516,
+      "source_words_sha256": "b1838aae58646c7063b5f32544700eb42bd4a6666105c6b9860484924f3a2dbf",
+      "parts": [
+        "We really\ndon't know."
+      ]
+    },
+    {
+      "offset": 18544,
+      "source_words_sha256": "258b10bb26223b509628005c81e1a5247263a25c7c3c6f9650b9db1ea6b50556",
+      "parts": [
+        "Gin",
+        "and he might be\nfriends. Or enemies..."
+      ]
+    },
+    {
+      "offset": 18616,
+      "source_words_sha256": "2011f73ae1d7103df2ad7ba7424852be4c339b679c54ef04b715f2c60dbf87b0",
+      "parts": [
+        "Well...\nI don't remember much."
+      ]
+    },
+    {
+      "offset": 18660,
+      "source_words_sha256": "271394f0a9fb64a1ccf8a6a634804c1d86d6ac00c200e54450b5bfa5d705b22f",
+      "parts": [
+        "But I think\nthey looked like\na bunch of ronin."
+      ]
+    },
+    {
+      "offset": 18712,
+      "source_words_sha256": "23e926424e7e6d6e6c86f014465b4b1a5d9a0435298480f79245931bf6fdd162",
+      "parts": [
+        "Yes, they took\nmy ",
+        "Gin Tama",
+        "."
+      ]
+    },
+    {
+      "offset": 18756,
+      "source_words_sha256": "0b1a7ed874a615265fdeab9da694eab23094233714b738f0eeae4123dc3bf52d",
+      "parts": [
+        "Not a game!\nIt was a real robbery!"
+      ]
+    },
+    {
+      "offset": 18804,
+      "source_words_sha256": "422c9560d3b523343662269cb9336cea40482aa717797484a2883b1694782ff7",
+      "parts": [
+        "The ",
+        "Joui",
+        "?"
+      ]
+    },
+    {
+      "offset": 18832,
+      "source_words_sha256": "0cc82501dd72c7fe7b138054116c6d52c5bfc72bbcd2ff59b1c6338aa1a0d360",
+      "parts": [
+        "Could they misuse\nmy ",
+        "Gin Tama",
+        "?"
+      ]
+    },
+    {
+      "offset": 18888,
+      "source_words_sha256": "2b6759c724ac058d1086e3a0451125827fdd8e70ca3f43f015283c32eb4f2805",
+      "parts": [
+        "Thank you!"
+      ]
+    },
+    {
+      "offset": 18916,
+      "source_words_sha256": "9fc477101ce16f7f51b42ab168f3fd4cfd77e2854364af23fa43c099b8d3b8c0",
+      "parts": [
+        "Let's go, ",
+        "Kagura"
+      ]
+    },
+    {
+      "offset": 18960,
+      "source_words_sha256": "c68727748d1e3349119de73ad87619b676199681e45f0aaf225cebb4b8a0debf",
+      "parts": [
+        "We'll be going, then."
+      ]
+    },
+    {
+      "offset": 18984,
+      "source_words_sha256": "207449648e3aa7a6a0f20d7bbe8f7a3ae5d3166b277f706edc5bc12d17dbb92e",
+      "parts": [
+        "No way...\nWe won...\nNow what...?"
+      ]
+    },
+    {
+      "offset": 19060,
+      "source_words_sha256": "69e756c0bb6cc0c329152d1e75c35de79fd7348771cec6a6eec9d5d60a7e0ced",
+      "parts": [
+        "Whoa!\nTh-That's...!?"
+      ]
+    },
+    {
+      "offset": 19100,
+      "source_words_sha256": "7e080e5b370484545b79638b4f7876301134c6fc86fd6e1a39bd39b6a1312e7f",
+      "parts": [
+        "It's a bomb!"
+      ]
+    },
+    {
+      "offset": 19120,
+      "source_words_sha256": "8f5cedaa7ff444148411fe4cd021fb39cc2001175f2af9a56995cd698fbc60a7",
+      "parts": [
+        "It's got a dumb face,\nbut it's a real bomb!"
+      ]
+    },
+    {
+      "offset": 19172,
+      "source_words_sha256": "ca4a8d088d9127969e09de5b439a238f3db82a7809690eee5ac613945b84c438",
+      "parts": [
+        "Where?"
+      ]
+    },
+    {
+      "offset": 19188,
+      "source_words_sha256": "046424a983232c23dd40a8d47f57e01f343e3b2a4d99fe73b0cb415af89e3700",
+      "parts": [
+        "Right...\nWe shut this\nplace down."
+      ]
+    },
+    {
+      "offset": 19248,
+      "source_words_sha256": "820eddc28f71ec0f2c8615cd98a0d33b16066c83c5eaecea39fa48af417e4ff3",
+      "parts": [
+        "Who knows..."
+      ]
+    },
+    {
+      "offset": 19272,
+      "source_words_sha256": "28cf47a138da41f76bf424ba2febbcbf5bcd5a13d958ae6ea21ec50904c5783d",
+      "parts": [
+        "Perfect place\nto plot something,\nthough."
+      ]
+    },
+    {
+      "offset": 19312,
+      "source_words_sha256": "6b3e1b83763a2ad99a72bd10f372842500104f8ef168b76bfbfab94e5b137d64",
+      "parts": [
+        "They brought in\na whole load of ",
+        "Justaways",
+        ", but..."
+      ]
+    },
+    {
+      "offset": 19380,
+      "source_words_sha256": "595f2889a154452b9f3008bfbf3f5a31c98c518aacb537c6888d08006259afce",
+      "parts": [
+        "Gone already?"
+      ]
+    },
+    {
+      "offset": 19408,
+      "source_words_sha256": "9023b6e3aeffeff7b1227c8e7d7bddbcf5927b1180337597e515f6dafc001a4d",
+      "parts": [
+        "Hm? What is it?"
+      ]
+    },
+    {
+      "offset": 19432,
+      "source_words_sha256": "d70f96c304e705ce797aa7971d7df8323473e68de99dfb3304aa2f425abe79c6",
+      "parts": [
+        "That noise?"
+      ]
+    },
+    {
+      "offset": 19448,
+      "source_words_sha256": "18b7f5ee6912794bef39b09db5a858cf0aee03e54a1c1fdcc3d73818c9f98965",
+      "parts": [
+        "Wh-What the hell!?"
+      ]
+    },
+    {
+      "offset": 19472,
+      "source_words_sha256": "d8a36db0ec87f7eb91ed6be3fc58481028e685cf20f7b02b5549febef8d78226",
+      "parts": [
+        "If something this big\nexplodes outside,"
+      ]
+    },
+    {
+      "offset": 19512,
+      "source_words_sha256": "a59a1381c43093d97603e5c7368aab1de673feb87250d604064042c08a0ed4fd",
+      "parts": [
+        "Kabukicho's finished!"
+      ]
+    },
+    {
+      "offset": 19544,
+      "source_words_sha256": "e67a4cf403b1b79b70b1b4989af081b4183b690a36836d7dd954ae54ce1ef22b",
+      "parts": [
+        "The ",
+        "Joui",
+        "extremists."
+      ]
+    },
+    {
+      "offset": 19584,
+      "source_words_sha256": "d4f82ae7c30fea6f6be02d57594932981e88aee6d3a880e3271e609f3cde0d54",
+      "parts": [
+        "Who knows what\nthey're thinking!"
+      ]
+    },
+    {
+      "offset": 19620,
+      "source_words_sha256": "0a5aa70bcd1f57ce6ccaaf25082309b4dddf3c6e0ea2d9d3b9c24e0d7a49386f",
+      "parts": [
+        "We've gotta disable\nits detonator,\nor we're screwed!"
+      ]
+    },
+    {
+      "offset": 19688,
+      "source_words_sha256": "c76b80aff528e6586e38cccd4246b14c124adc734dc947816d420f928cdbcf8f",
+      "parts": [
+        "Huh? Sougo?"
+      ]
+    },
+    {
+      "offset": 19708,
+      "source_words_sha256": "aa24188e35654cadc32f280a37a9ca3ab42d8a817c3a5d5ed2b3fd9a23dd4323",
+      "parts": [
+        "Hey! Sougo!\nWhere'd you go!?"
+      ]
+    },
+    {
+      "offset": 19744,
+      "source_words_sha256": "bb0d11e29b13ab1300a8a00b03e8c87481af7294201d8660f92dc9e81d101e1e",
+      "parts": [
+        "Don't tell me...\nHe ran away!"
+      ]
+    },
+    {
+      "offset": 19788,
+      "source_words_sha256": "411e6487c0378fb1cbd208a3f63815f157c7a477d9032558d2d6d860aba06d1c",
+      "parts": [
+        "Whoa!\nThis thing moves!?"
+      ]
+    },
+    {
+      "offset": 19824,
+      "source_words_sha256": "857c6d033af479e1e53f353f1f3f248049fc6f8e0ac841fcdb5bc9abdd13fb46",
+      "parts": [
+        "Justaway",
+        "meets automaton!?"
+      ]
+    },
+    {
+      "offset": 19884,
+      "source_words_sha256": "f8a092a3ea84e2e177c46e52a6b0ca842762245a6e5966115e4d07d32c6f70d7",
+      "parts": [
+        "It talked!?"
+      ]
+    },
+    {
+      "offset": 19912,
+      "source_words_sha256": "1ca9c1a6f2e911be476889c64b2bfdf26df0e4cc83a366ff674bfce1d17db733",
+      "parts": [
+        "You've gotta be kidding...\nYou don't have to\ntell me to leave!"
+      ]
+    },
+    {
+      "offset": 19972,
+      "source_words_sha256": "e763db75022c826f73e4fd7537ecbcd794d5cc930265937aa47f3cfa8c93fd14",
+      "parts": [
+        "What the hell!?\nThe elevator doors\nwon't open!"
+      ]
+    },
+    {
+      "offset": 20020,
+      "source_words_sha256": "949be897fb38fc594719389a1939093f467ae12e09f155f45c12589e385584fe",
+      "parts": [
+        "No way out, huh..."
+      ]
+    },
+    {
+      "offset": 20052,
+      "source_words_sha256": "9f048133ff7acfd46fd05682654ea3c2fc72bf6e31351a9e24e66371f9a427a8",
+      "parts": [
+        "Bring it on, bastard!"
+      ]
+    },
+    {
+      "offset": 20076,
+      "source_words_sha256": "e500639c75b726c2b338d31b661b446745d6ac4a973b4eb8db70606c3d858351",
+      "parts": [
+        "Then whatever it takes,\nI'm not letting\nthis thing outside!"
+      ]
+    },
+    {
+      "offset": 20132,
+      "source_words_sha256": "fc8a00018eb0fa8920029ce2df1f48602be1d9a5df96ff2865d6cd7e7ad318a2",
+      "parts": [
+        "Saburo",
+        "the automaton lost\nto ",
+        "Gin Tama",
+        "..."
+      ]
+    },
+    {
+      "offset": 20196,
+      "source_words_sha256": "a3452ddbca239534f2fd67bcaeb2fe533f3d4e881cdccd37150d3f76f374af6d",
+      "parts": [
+        "Even if it blows up\nhere, the damage above\nshould be limited."
+      ]
+    },
+    {
+      "offset": 20256,
+      "source_words_sha256": "ee8bc27b68c1e5d1c030a90a7922fd0e757f2a17a63fe862dbf27c9ce5f21c46",
+      "parts": [
+        "Gin Tama",
+        ", my best bet!"
+      ]
+    },
+    {
+      "offset": 20288,
+      "source_words_sha256": "c0715ea1538d3f773c504d29a268b0597309ec82f65033b2e7f2d06fe0ff1ce7",
+      "parts": [
+        "Did that do it...?"
+      ]
+    },
+    {
+      "offset": 20316,
+      "source_words_sha256": "1feedb4b8e7b94072e416b6bfc8cb340bf44ebe777fb05a1e02db941018d93c3",
+      "parts": [
+        "Looks like\nit's shut down."
+      ]
+    },
+    {
+      "offset": 20352,
+      "source_words_sha256": "55c98ed87104e00a6d36b8d3dc34523bf637b977829dc4fefa13304d37b444be",
+      "parts": [
+        "Now we just need\na way out..."
+      ]
+    },
+    {
+      "offset": 20408,
+      "source_words_sha256": "e39516fd1b431d09c1416182db1f50bdc7a8871f83de0732054fed4777c6eb87",
+      "parts": [
+        "The elevator..."
+      ]
+    },
+    {
+      "offset": 20440,
+      "source_words_sha256": "4744123db9f60d13aae859cb51949ff8feaa2e181efbc2316d075c2fee12302a",
+      "parts": [
+        "Hm?"
+      ]
+    },
+    {
+      "offset": 20452,
+      "source_words_sha256": "488105424367c06f8683f0098309eee005c22dcffba55f0ad3aeeb1f0a46eaa9",
+      "parts": [
+        "The doors open now!?"
+      ]
+    },
+    {
+      "offset": 20480,
+      "source_words_sha256": "0e34907e0ab9632551f455284e29e91286cd3daf87abbd0f8e634b03aec81dad",
+      "parts": [
+        "Hey...\n",
+        "Isn't this bad...?"
+      ]
+    },
+    {
+      "offset": 20544,
+      "source_words_sha256": "e5f68d5c10f187c9e10300b92f38f0058ea6800c687a351e2199780118ed750f",
+      "parts": [
+        "That's it!?"
+      ]
+    },
+    {
+      "offset": 20568,
+      "source_words_sha256": "40cf9a7524ad55eaa675f58af74300e615b06be37576ac960eabe1b8b35d21c7",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 20588,
+      "source_words_sha256": "60c7f66f1b69e6160a622c321aa5839bfd2a3aa4692d4e42cfc1cea50a56b220",
+      "parts": [
+        "Getaway!"
+      ]
+    },
+    {
+      "offset": 20608,
+      "source_words_sha256": "60c7f66f1b69e6160a622c321aa5839bfd2a3aa4692d4e42cfc1cea50a56b220",
+      "parts": [
+        "Getaway!"
+      ]
+    },
+    {
+      "offset": 20628,
+      "source_words_sha256": "60c7f66f1b69e6160a622c321aa5839bfd2a3aa4692d4e42cfc1cea50a56b220",
+      "parts": [
+        "Getaway!"
+      ]
+    },
+    {
+      "offset": 20648,
+      "source_words_sha256": "60c7f66f1b69e6160a622c321aa5839bfd2a3aa4692d4e42cfc1cea50a56b220",
+      "parts": [
+        "Getaway!"
+      ]
+    },
+    {
+      "offset": 20668,
+      "source_words_sha256": "60c7f66f1b69e6160a622c321aa5839bfd2a3aa4692d4e42cfc1cea50a56b220",
+      "parts": [
+        "Getaway!"
+      ]
+    },
+    {
+      "offset": 20688,
+      "source_words_sha256": "049cd4d8bd4debb7ad5ddce514626b2dec8f01ce1225855e9286d6ab164aaf01",
+      "parts": [
+        "Ge... ta... way..."
+      ]
+    },
+    {
+      "offset": 20740,
+      "source_words_sha256": "ce7cf4d3f642b10977d39fe500a87a55d52253130501dd1e6a7f0553ad7fe2d9",
+      "parts": [
+        "..."
+      ]
+    },
+    {
+      "offset": 20760,
+      "source_words_sha256": "2b4c5352ed19aa54a1bce627e465cd7da0b844fbaeea6cc698021265b38c39f7",
+      "parts": [
+        "Game Over",
+        "!!"
+      ]
+    },
+    {
+      "offset": 20788,
+      "source_words_sha256": "f16cf6127cc01a3dffec0b7341397238a830b9d264d4264a77e95ae382938e5c",
+      "parts": [
+        "This place..."
+      ]
+    },
+    {
+      "offset": 20816,
+      "source_words_sha256": "f6395af72393ebf260c8aaffde4bbd590ea94e6ff28304b7bfd6df5bdd93791b",
+      "parts": [
+        "Wasn't this\nan illegal\nfighting ring...?"
+      ]
+    },
+    {
+      "offset": 20868,
+      "source_words_sha256": "637ab773ab22b47d9520938cf98d73aba56138c0ba5b732898eeab9d5bfbc600",
+      "parts": [
+        "It's supposed to\nhave been sealed off\never since."
+      ]
+    },
+    {
+      "offset": 20916,
+      "source_words_sha256": "ad56c7b6dc100d7092ae79bce31cd2416be9bfbf55c448ac0f70c3b19c5eecd7",
+      "parts": [
+        "Is this really\ntheir hideout?"
+      ]
+    },
+    {
+      "offset": 20956,
+      "source_words_sha256": "0b9497beb5caaee53ed766b836a76d5d7704fc73a18f01a162cf35a8288dce33",
+      "parts": [
+        "Nobody here.\nNo ",
+        "Justaways",
+        "either..."
+      ]
+    },
+    {
+      "offset": 21016,
+      "source_words_sha256": "0220a902a4508dbfccb20d31a19240533b544b8fe7bde85b09a503003e70e1a2",
+      "parts": [
+        "Hijikata..."
+      ]
+    },
+    {
+      "offset": 21044,
+      "source_words_sha256": "f048029b03fd5e8697799ca7d11255985985e960d3ddea6aa4d23719e5f2a391",
+      "parts": [
+        "I hear\nsomething weird."
+      ]
+    },
+    {
+      "offset": 21080,
+      "source_words_sha256": "49e07211d218fba87ab871a6cca9e67b29653116265ebe6d63a65fbf87bc6b23",
+      "parts": [
+        "A giant ",
+        "Justaway",
+        "!?"
+      ]
+    },
+    {
+      "offset": 21120,
+      "source_words_sha256": "3a23977b5ca2069e5f1f5254b40fe41f80fa66dbea5896ceb2c8eb05697ef5d7",
+      "parts": [
+        "Joui rebels",
+        "want"
+      ]
+    },
+    {
+      "offset": 21152,
+      "source_words_sha256": "d610d4095bd550d5eb4e52e0e96aef682f7d9a134f05c1a038dde306c5f9b4c7",
+      "parts": [
+        "to get rid of\nthe Amanto?"
+      ]
+    },
+    {
+      "offset": 21192,
+      "source_words_sha256": "7b0d05aefa59d6bb435a33204aa21a2ae17ebbe6018afa5780bcfbfe77d67c1e",
+      "parts": [
+        "Sorry I'm late."
+      ]
+    },
+    {
+      "offset": 21220,
+      "source_words_sha256": "05cf9c58c32a1e4c94468709c6d6e0f91fcaef747263b11aa1571fba4a911910",
+      "parts": [
+        "Found him,\nbut he got away..."
+      ]
+    },
+    {
+      "offset": 21260,
+      "source_words_sha256": "4800aea1e3e927e10b7e487d7af6c670ee08afa7dabe1e1abcea7d9acc30c607",
+      "parts": [
+        "That idiot\ngot in my way.\nCouldn't talk to him."
+      ]
+    },
+    {
+      "offset": 21312,
+      "source_words_sha256": "303906b3934c05dfaf4a1d0dcbb551855ebfefc2885e122133e49b102dacdb25",
+      "parts": [
+        "Next time I see him,\nhe's gonna pay."
+      ]
+    },
+    {
+      "offset": 21360,
+      "source_words_sha256": "789b5be6815f6f3088cd0c6bafd61baaf7c57693c6f9e3efa4d16959b8e37937",
+      "parts": [
+        "Old man Matsudaira",
+        "might help."
+      ]
+    },
+    {
+      "offset": 21412,
+      "source_words_sha256": "44c9c82497068c8b9aeb0fc38d36320e10faf74031c54ddb80af85e12b75b405",
+      "parts": [
+        "Might be too late\nby then."
+      ]
+    },
+    {
+      "offset": 21448,
+      "source_words_sha256": "6d19b138c972d0699bf98b0aba8c7f6e8a20598ba480de5fbd9d2b94372b8bd1",
+      "parts": [
+        "Gin Tama",
+        "are all over Edo."
+      ]
+    },
+    {
+      "offset": 21488,
+      "source_words_sha256": "8f8058fc3a77fe778382a3843865b681cf35b5bf4be1af4bea969e8bcac2f1ac",
+      "parts": [
+        "Who knows\nwhat could happen."
+      ]
+    },
+    {
+      "offset": 21520,
+      "source_words_sha256": "81a2bf8c2f69c8ae90d4cd0b69248d4c7376d7e77a4a2f2b1750da69d2d19fef",
+      "parts": [
+        "No normal quake\nor thunder!"
+      ]
+    },
+    {
+      "offset": 21564,
+      "source_words_sha256": "0b499a0e7bb57f28f98e87d9670727f164d64a068d02e17ba00ddb31f8e633c4",
+      "parts": [
+        "Back, Toshi?"
+      ]
+    },
+    {
+      "offset": 21584,
+      "source_words_sha256": "125c3584e61a469b79c65bd901533ac70669a61a4f9bbd57fd67cf9379648144",
+      "parts": [
+        "You saw him!?"
+      ]
+    },
+    {
+      "offset": 21604,
+      "source_words_sha256": "8f7b648d156d09d32dc3ea3615c8746a4c2f4a1874de1c7339be2ccfe80e8be8",
+      "parts": [
+        "Question is,\nwhat's our next move...?"
+      ]
+    },
+    {
+      "offset": 21660,
+      "source_words_sha256": "cb3b961bf75354d09386fb0ff95446eee3c99063b46a3f0ad7f6024ee1b4c4fe",
+      "parts": [
+        "The old man has\nhis position\nto think about..."
+      ]
+    },
+    {
+      "offset": 21712,
+      "source_words_sha256": "81277547b176999070f552e718b4290c34b77e47869e4c219129d1232783b4f5",
+      "parts": [
+        "Bang Bang Chicken",
+        "might slip up,\nbut we have to wait..."
+      ]
+    },
+    {
+      "offset": 21776,
+      "source_words_sha256": "3d96191fe63dfba901a9b0ebf1ce964abd62dd18aa67dad4be4e539de6fc89c0",
+      "parts": [
+        "What the hell!?"
+      ]
+    },
+    {
+      "offset": 21800,
+      "source_words_sha256": "3691026adcf8af8c639d9ce31424b677b91a419fec4eb49cfeebe8d7a217d4df",
+      "parts": [
+        "Let's check outside!"
+      ]
+    },
+    {
+      "offset": 21828,
+      "source_words_sha256": "9c8776bf9b5f20f913df91a00191cc0b9b2c199bd25ec5b57e2abee7e72561ee",
+      "parts": [
+        "Katsura",
+        "found yet?"
+      ]
+    },
+    {
+      "offset": 21864,
+      "source_words_sha256": "677fedb215f091a2cbd5c7ce4bd22b0e4735abd8c5b45a57f1f12592ea689c10",
+      "parts": [
+        "Yorozuya",
+        "stopped you?"
+      ]
+    },
+    {
+      "offset": 21900,
+      "source_words_sha256": "0c9597f925c6402cc326b82fce4c1f482fedcb40e0e839d9b4e31ab993350549",
+      "parts": [
+        "Even if we\nhandle it ourselves,"
+      ]
+    },
+    {
+      "offset": 21932,
+      "source_words_sha256": "b386e5df68dc4dced01070dc4e94c405caced496b2d98e260c5731d9d23beb18",
+      "parts": [
+        "Bang Bang Chicken",
+        "left us no leads."
+      ]
+    },
+    {
+      "offset": 21984,
+      "source_words_sha256": "56b2105f723b3b766caa6920f657971e788c4bbeb1f84c37ad77d43ee44852c6",
+      "parts": [
+        "A quake!?"
+      ]
+    }
+  ]
 }

@@ -161,7 +161,8 @@ test('opening browser handlers keep unsaved drafts and export no local source te
   await get('scene-copy-json').listeners.click();
   assert.equal(copied.length, 1);
   assert.deepEqual(JSON.parse(copied[0]), exported);
-  assert.match(get('scene-export-status').textContent, /changed entries copied/);
+  assert.match(get('scene-export-status').textContent, /changed entries copied.*Save as opening_scene\.json/);
+  assert.match(get('scene-coverage').textContent, /4,064 records with English across 5 scripts/);
   get('scene-suggest').listeners.click();
   assert.equal(opened.length, 1);
   const issue = new URL(opened[0][0]);
@@ -182,7 +183,7 @@ test('opening browser handlers keep unsaved drafts and export no local source te
   currentInput.listeners.input();
   navigator.clipboard.writeText = async () => { throw new Error('Clipboard permission denied.'); };
   await get('scene-copy-json').listeners.click();
-  assert.match(get('scene-export-status').textContent, /could not copy.*Download opening JSON/);
+  assert.match(get('scene-export-status').textContent, /could not copy.*Download cutscene JSON/);
   if (process.env.GINTAMA_TEST_ROM) {
     const bytes = readFileSync(process.env.GINTAMA_TEST_ROM);
     await get('scene-rom').listeners.change({ target: { files: [{ name: 'original.nds', size: bytes.length, arrayBuffer: async () => bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength) }] } });
@@ -190,12 +191,18 @@ test('opening browser handlers keep unsaved drafts and export no local source te
       get('scene-script').value = `adventure/script/s0${n}.msb`;
       await get('scene-script').listeners.change();
       assert.match(get('scene-id').textContent, new RegExp(`^s0${n}_`));
-      assert.equal(get('scene-parts').children[1].value, '');
+      const script = JSON.parse(readFileSync(new URL(`reference/cutscenes/s0${n}.json`, root), 'utf8'));
+      assert.equal(get('scene-parts').children[1].value, script.messages[0].parts[0]);
       assert.match(get('scene-original').textContent, /Part 1/);
       const entry = get('scene-parts').children[1]; entry.value = 'Hello!'; entry.listeners.input();
       get('scene-json').listeners.click();
       const exported = JSON.parse(await downloads.at(-1).blob.text());
       assert.equal(exported.script, `adventure/script/s0${n}.msb`);
+      assert.equal(downloads.at(-1).name, `s0${n}.json`);
+      navigator.clipboard.writeText = async (text) => copied.push(text);
+      await get('scene-copy-json').listeners.click();
+      assert.deepEqual(JSON.parse(copied.at(-1)), exported);
+      assert.ok(get('scene-export-status').textContent.includes(`Save as s0${n}.json`));
       get('scene-suggest').listeners.click();
       assert.ok(decodeURIComponent(opened.at(-1)[0]).includes(`Script: adventure/script/s0${n}.msb`));
     }
@@ -208,7 +215,8 @@ test('all five cutscene scripts reveal untranslated records and preserve source 
   const inventory = JSON.parse(readFileSync(new URL('reference/cutscene_index.json', root), 'utf8'));
   const glyphs = JSON.parse(readFileSync(new URL('reference/glyph_codes_public.json', root), 'utf8'));
   for (const n of [1, 2, 3, 4, 5]) {
-    const scene = n === 1 ? opening() : JSON.parse(readFileSync(new URL(`reference/cutscenes/s0${n}.json`, root), 'utf8'));
+    const bundled = n === 1 ? opening() : JSON.parse(readFileSync(new URL(`reference/cutscenes/s0${n}.json`, root), 'utf8'));
+    const scene = { ...bundled, messages: bundled.messages.slice(1) };
     const game = await readSceneGame(bytes, 'original.nds', scene);
     const expected = inventory.scripts.find(s => s.script === scene.script).records.filter(r => r[3] > 0);
     assert.deepEqual(game.rows.map(r => [r.offset, r.source_words_sha256, r.parts.length]), expected.map(r => [r[0], r[2], r[3]]));

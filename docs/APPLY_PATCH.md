@@ -49,7 +49,7 @@ python3.13 -m venv .venv
 
 When it finishes, open `local/english.nds` in your emulator. Start it normally rather than loading an old save state, which can restore earlier graphics.
 
-The build applies the bundled English dialogue, graphics and UI labels. See [current progress](../README.md#current-progress) for the entry and batch counts. Much of the game is still Japanese. The original ROM is not overwritten.
+The build applies the bundled English dialogue, graphics and UI labels. See [current progress](../README.md#current-progress) for the entry and batch counts. Battle dialogue remains mostly Japanese; the progress table separates coverage from proofreading. The original ROM is not overwritten.
 
 For the extra build commands below, use `.\.venv\Scripts\python.exe` on Windows or `.venv/bin/python` on macOS/Linux wherever an example says `python`.
 
@@ -59,7 +59,7 @@ For the extra build commands below, use `.\.venv\Scripts\python.exe` on Windows 
 python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --patch local/english.bps
 ```
 
-This creates `local/english.bps` and its matching `local/english.json`. Keep them together. For custom image labels and other build options, see [the graphics guide](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/IMAGE_WORKFLOW.md).
+Keep `english.bps` and `english.json` in the same folder. The patch instructions below use both files. For custom image labels and other build options, see [the graphics guide](https://github.com/zthegin/Gintama---Gintoki-vs-Hijikata-game-english-translation/blob/main/docs/IMAGE_WORKFLOW.md).
 
 ## Apply an existing patch
 
@@ -77,7 +77,7 @@ Open the resulting `english.nds`. A patch changes only the content listed in its
 - **Filename too long / WinError 206 during installation:** extract a fresh copy to a shorter folder, such as `C:/Games/gintama`, then run the three setup commands there. Create a new `.venv`; moving an existing one can break its paths.
 - **Wrong ROM:** use the supported, unmodified original. Renaming another ROM will not make it compatible.
 - **Output exists:** choose a new output name, such as `local/english-2.nds`.
-- **English is missing:** start without an old save state and check whether that screen is covered. Most later dialogue is still Japanese.
+- **English is missing:** start without an old save state and check whether that screen is covered. Battle translation is incomplete; check the progress table for current coverage.
 
 <details>
 <summary>Supported ROM checksum</summary>
@@ -104,17 +104,17 @@ python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --dialogue "C:/Ga
 
 `--dialogue` selects that batch instead of the bundled dialogue, while still building the graphics and UI. The builder wraps text to the proven 176-pixel field window, preserves page counts, and refuses text that exceeds its original word slot or uses unsupported controls. It never truncates text or relocates the CDB. A passing build is not proof that every game context uses the same window size. Use `--validate-only` to check without writing a ROM, or `--ui-only` for graphics and UI alone.
 
-Most game dialogue is not translated yet. The bundled examples are deliberately concise because Japanese and English must share the original fixed-size slots. Longer script allocation and CDB relocation remain separate research.
+Some English lines are deliberately concise because Japanese and English must share the original fixed-size slots. Longer script allocation and CDB relocation remain separate research.
 
-## Apply your own opening edits
+## Apply your own cutscene edits
 
-The normal build includes the bundled opening translation. To try English edited in the website's [Cutscenes page](https://zthegin.github.io/cutscenes.html), download its JSON, or copy it and save it as `opening_scene.json`, then run:
+The normal build includes the translations for s01 through s05. To try an edit, download the JSON from the [Cutscene editor](https://zthegin.github.io/cutscenes.html). Use its filename in the command below.
 
 ```sh
-python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Games/Gintama/opening_scene.json" --out local/my-opening.nds
+python tools/build_ui.py --rom "C:/Games/Gintama/original.nds" --cutscene "C:/Games/Gintama/s02.json" --out local/my-cutscene.nds
 ```
 
-You can combine `--cutscene` and `--dialogue` to test both exports in one ROM. Each option replaces only its own bundled selection. Keep all opening entries, hashes and part boundaries unchanged. The builder refuses changed source hashes, moved controls and text that does not fit. `--ui-only` cannot be combined with `--cutscene`.
+You can combine `--cutscene` and `--dialogue` to test both exports in one ROM. Each option replaces only its own bundled selection. Keep the entries, hashes and part boundaries for the selected script. The builder refuses changed source hashes, moved controls and text that does not fit. `--ui-only` cannot be combined with `--cutscene`.
 
 Old emulator save states may restore cached Japanese graphics or scripts; test with a normal boot or a compatible state made for your rebuilt ROM. Keep your original state as a backup.
 
