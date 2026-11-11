@@ -1,8 +1,10 @@
 # Unofficial English translation of Gintama: Gintoki vs. Hijikata!? Kabukichou Gintama Dai Soudatsusen!!
 
-An unofficial English fan translation for Nintendo DS, shared for fans and educational use. Build a partially translated copy with your own legally obtained ROM, or help translate and proofread in the browser editor.
+An unofficial English fan translation for Nintendo DS, shared for fans and educational use. Build a partially translated copy with your own legally obtained ROM, or help translate and proofread in the browser editor. 
 
 I do not own the original game, Gintama, or their characters, story, artwork, music, text or trademarks. Those rights belong to their respective holders. No affiliation, endorsement or permission is implied. English adaptations are included; see [rights and project limits](RIGHTS.md).
+
+Piracy is illegal, and if you want to play the game, use your own, legally obtained copy.
 
 ## Start here
 
