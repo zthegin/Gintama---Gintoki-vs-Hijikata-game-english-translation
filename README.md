@@ -13,6 +13,7 @@ Piracy is illegal, and if you want to play the game, use your own, legally obtai
 - [I want to improve the tools](#i-want-to-improve-the-tools)
 - [Check progress](#current-progress)
 
+
 ### I just want to play
 
 Use Python 3.13 on Windows and your own legally obtained, unmodified ROM of the supported revision. Python 3.11 is also tested; 3.10 is too old for the current dependencies. No ROM is included or linked here. No Python? Follow the [short installation steps](docs/APPLY_PATCH.md#install-python-on-windows).
@@ -38,7 +39,7 @@ GitHub Actions checks the project and builds the website and text exports. It ha
 See [installation](docs/APPLY_PATCH.md) for the supported ROM checksum, existing patch instructions and help with errors.
 
 <details>
-<summary>Let a local coding assistant set it up</summary>
+<summary>Or, let a local coding assistant set it up for you</summary>
 
 You can give an assistant with local file access this request. A chat-only assistant cannot build the file on your computer.
 
